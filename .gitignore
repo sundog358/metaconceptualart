@@ -1,0 +1,22 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Local environment files
+.env
+.env.*
+
+# Dependency and build output
+node_modules/
+dist/
+build/
+.cache/
+
+# Project planning and local notes
+*.md
+!README.md
+!readme.md
+

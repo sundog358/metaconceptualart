@@ -1,0 +1,61 @@
+# 🧠🎨 Metaconceptual Art
+
+**Metaconceptual Art** is a static website, conceptual artwork, and emerging meta-museum about art as a system.
+
+It treats the artwork, institution, market, archive, viewer, citation, revision, and web page as one connected field.
+
+## ✨ What This Is
+
+- 🖼️ A conceptual art website
+- 📚 A theory and reading room
+- 🧬 A semantic knowledge-graph experiment
+- 🏛️ A small meta-museum in progress
+- 🛠️ A portfolio piece for museum-grade web design and information architecture
+
+## 🧭 Main Sections
+
+- **Artworks**: works, image studies, propositions, diagrams, and site-native pieces
+- **Theory**: primary text and conceptual framing
+- **Systems**: stable IDs, semantic relations, and graph structure
+- **About**: colophon, citation, provenance, and curatorial context
+- **Changelog**: visible revision history
+
+## 🧩 Core Idea
+
+Metaconceptual Art studies art as a system:
+
+> artwork, institution, market, archive, viewer, and meaning folded into one living form.
+
+## 🕸️ Semantic Layer
+
+The project is structured around relations such as:
+
+```text
+Artwork expresses Concept
+Concept cites Source
+Institution frames Value
+Viewer activates Meaning
+Revision modifies Claim
+Citation makes the work referenceable
+```
+
+## 🏗️ Built With
+
+- 🌐 Semantic HTML
+- 🎛️ Responsive CSS
+- 🔎 JSON-LD structured data
+- 🖼️ Static image assets
+- 🧠 Concept-first information architecture
+
+## 📌 Status
+
+This is an evolving artwork and system. The current version includes a landing page, artwork register, primary theory text, ten-node graph, colophon, and changelog.
+
+## 🧾 Citation
+
+```text
+Sun & Rain Works. Metaconceptual Art. 2026.
+Website as conceptual artwork.
+https://www.metaconceptualart.com
+Accessed [date].
+```

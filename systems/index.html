@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The Metaconceptual Art semantic system: a first knowledge graph of artworks, concepts, sources, viewers, revisions, and citations."
+    />
+    <title>Systems | Metaconceptual Art</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="icon" href="../images/8sprocket.jpg" type="image/jpeg" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Site header">
+      <a class="brand" href="../" aria-label="Metaconceptual Art home">
+        <img
+          class="brand-logo"
+          src="../images/8sprocket.jpg"
+          alt=""
+          aria-hidden="true"
+        />
+        <span>Metaconceptual Art</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="../artworks/">Artworks</a>
+        <a href="../theory/">Theory</a>
+        <a aria-current="page" href="../systems/">Systems</a>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <section class="page-hero page-hero-compact" aria-labelledby="page-title">
+        <p class="eyebrow">Meta-Wiki v1</p>
+        <h1 id="page-title">Systems</h1>
+        <p class="definition">
+          The semantic layer turns the site into a small knowledge graph: works,
+          concepts, sources, institutions, viewers, revisions, and citations
+          linked as the first form of the meta-museum.
+        </p>
+      </section>
+
+      <section class="system-section page-system" aria-labelledby="graph-title">
+        <div>
+          <p class="section-kicker">Visible graph</p>
+          <h2 id="graph-title">Ten Nodes</h2>
+        </div>
+        <div class="system-copy">
+          <p>
+            This graph is deliberately small. Its purpose is to establish a
+            repeatable grammar for future works: stable IDs, node types, and
+            relations that can be expanded into a fuller Meta-Wiki.
+          </p>
+          <div class="graph-panel">
+            <svg
+              viewBox="0 0 760 420"
+              role="img"
+              aria-labelledby="systems-graph-title systems-graph-description"
+              focusable="false"
+            >
+              <title id="systems-graph-title">
+                Ten-node Metaconceptual Art knowledge graph
+              </title>
+              <desc id="systems-graph-description">
+                A graph connecting site, artworks, concepts, source,
+                institution, viewer, provenance, revision, and citation.
+              </desc>
+              <g class="graph-lines">
+                <path d="M380 70 L180 150" />
+                <path d="M380 70 L380 150" />
+                <path d="M380 70 L580 150" />
+                <path d="M180 150 L120 275" />
+                <path d="M180 150 L265 275" />
+                <path d="M380 150 L380 275" />
+                <path d="M580 150 L500 275" />
+                <path d="M580 150 L640 275" />
+                <path d="M380 275 L500 350" />
+              </g>
+              <g class="graph-node graph-node-root" transform="translate(380 70)">
+                <circle r="52" />
+                <text>site</text>
+              </g>
+              <g class="graph-node" transform="translate(180 150)">
+                <circle r="42" />
+                <text>works</text>
+              </g>
+              <g class="graph-node" transform="translate(380 150)">
+                <circle r="42" />
+                <text>concept</text>
+              </g>
+              <g class="graph-node" transform="translate(580 150)">
+                <circle r="42" />
+                <text>system</text>
+              </g>
+              <g class="graph-node" transform="translate(120 275)">
+                <circle r="38" />
+                <text>source</text>
+              </g>
+              <g class="graph-node" transform="translate(265 275)">
+                <circle r="38" />
+                <text>museum</text>
+              </g>
+              <g class="graph-node" transform="translate(380 275)">
+                <circle r="38" />
+                <text>viewer</text>
+              </g>
+              <g class="graph-node" transform="translate(500 275)">
+                <circle r="38" />
+                <text>revision</text>
+              </g>
+              <g class="graph-node" transform="translate(640 275)">
+                <circle r="38" />
+                <text>citation</text>
+              </g>
+              <g class="graph-node" transform="translate(500 350)">
+                <circle r="38" />
+                <text>record</text>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <section class="collection-section" aria-labelledby="nodes-title">
+        <div class="section-heading">
+          <p class="section-kicker">Node register</p>
+          <h2 id="nodes-title">Stable IDs</h2>
+        </div>
+        <div class="table-wrap">
+          <table class="node-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Type</th>
+                <th>Name</th>
+                <th>Relation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>work:site-as-artwork</td>
+                <td>Artwork</td>
+                <td>The Website Itself</td>
+                <td>contains proposition set</td>
+              </tr>
+              <tr>
+                <td>work:eight-sentences</td>
+                <td>Artwork</td>
+                <td>Eight Sentences</td>
+                <td>cites source:lewitt</td>
+              </tr>
+              <tr>
+                <td>work:construction-museum</td>
+                <td>Artwork</td>
+                <td>Construction of the Museum as Concept</td>
+                <td>expresses concept:institutional-frame</td>
+              </tr>
+              <tr>
+                <td>concept:art-about-art</td>
+                <td>Concept</td>
+                <td>Art About Art</td>
+                <td>defines the project</td>
+              </tr>
+              <tr>
+                <td>concept:institutional-frame</td>
+                <td>Concept</td>
+                <td>Institutional Frame</td>
+                <td>frames value</td>
+              </tr>
+              <tr>
+                <td>source:lewitt-sentences</td>
+                <td>Source</td>
+                <td>Sol LeWitt, Sentences on Conceptual Art</td>
+                <td>informs sentence sequence</td>
+              </tr>
+              <tr>
+                <td>system:provenance</td>
+                <td>System</td>
+                <td>Provenance Layer</td>
+                <td>tracks authorship and revision</td>
+              </tr>
+              <tr>
+                <td>role:viewer</td>
+                <td>Role</td>
+                <td>Viewer</td>
+                <td>activates meaning</td>
+              </tr>
+              <tr>
+                <td>record:revision-2026-05-21</td>
+                <td>Revision</td>
+                <td>Roadmap Implementation</td>
+                <td>updates public structure</td>
+              </tr>
+              <tr>
+                <td>record:citation-primary</td>
+                <td>Citation</td>
+                <td>Recommended Citation</td>
+                <td>makes the work referenceable</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <p>This website itself is a work of art.</p>
+        <p>&copy; Sun &amp; Rain Works 2026.</p>
+      </div>
+      <cite class="citation">
+        Sun &amp; Rain Works. Metaconceptual Art Semantic Layer v1. 2026.
+        https://www.metaconceptualart.com/systems/
+      </cite>
+      <nav class="footer-links" aria-label="Project context">
+        <a href="../about/">About</a>
+        <a href="../changelog/">Changelog</a>
+      </nav>
+    </footer>
+  </body>
+</html>
