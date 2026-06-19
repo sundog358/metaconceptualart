@@ -1,0 +1,68 @@
+{
+  "@context": "http://iiif.io/api/discovery/1/context.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/activity-stream-page-1.json",
+  "type": "OrderedCollectionPage",
+  "startIndex": 0,
+  "partOf": {
+    "id": "https://www.metaconceptualart.com/data/linked-art/activity-stream.json",
+    "type": "OrderedCollection"
+  },
+  "orderedItems": [
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works.json",
+        "type": "Group"
+      },
+      "endTime": "2026-06-19T00:00:00Z"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art.json",
+        "type": "Type"
+      },
+      "endTime": "2026-06-19T00:00:01Z"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/site-as-artwork.json",
+        "type": "DigitalObject"
+      },
+      "endTime": "2026-06-19T00:00:02Z"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/eight-sentences.json",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-06-19T00:00:03Z"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/construction-museum.json",
+        "type": "DigitalObject"
+      },
+      "endTime": "2026-06-19T00:00:04Z"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/collection.json",
+        "type": "Set"
+      },
+      "endTime": "2026-06-19T00:00:05Z"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/provenance-publication.json",
+        "type": "Activity"
+      },
+      "endTime": "2026-06-19T00:00:06Z"
+    }
+  ]
+}

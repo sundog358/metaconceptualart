@@ -47,6 +47,26 @@
           <li>
             <time datetime="2026-06-19">2026-06-19</time>
             <div>
+              <h3>v0.6: Linked Art API 1.0 Conformance Pass</h3>
+              <p>
+                Brought the Linked Art layer to API 1.0. Corrected the CRM types
+                &mdash; the website and image became DigitalObjects, the Eight
+                Sentences a textual LinguisticObject &mdash; and classified every
+                name, identifier, and statement with its AAT term. Added
+                standalone records for the studio (Group), the concept, and a
+                provenance activity (with a CC-BY RightAcquisition), a HAL _links
+                block on every record, an Activity-Streams discovery collection,
+                and an .htaccess serving everything as application/ld+json with
+                GET/OPTIONS and CORS for full static conformance. The records are
+                certified against the Getty cromulent reference library (which
+                caught and fixed a real CRM error) plus a JSON-LD expansion, and
+                that certification now runs in CI on every push.
+              </p>
+            </div>
+          </li>
+          <li>
+            <time datetime="2026-06-19">2026-06-19</time>
+            <div>
               <h3>v0.5: Linked Art (CIDOC-CRM) Object Records</h3>
               <p>
                 Published per-artwork Linked Art JSON-LD &mdash; the museum data
@@ -136,8 +156,9 @@
         <img
           src="../images/Wikidata_stamp.png"
           alt="Powered by Wikidata"
-          width="1061"
-          height="886"
+          width="106"
+          height="88"
+          style="height: 88px; width: auto; max-width: 130px"
         />
       </a>
     </footer>

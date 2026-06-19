@@ -1,24 +1,41 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
   "id": "https://www.metaconceptualart.com/data/linked-art/eight-sentences.json",
-  "type": "HumanMadeObject",
+  "type": "LinguisticObject",
   "_label": "Eight Sentences On Metaconceptual Art",
   "identified_by": [
     {
       "type": "Name",
-      "content": "Eight Sentences On Metaconceptual Art"
+      "content": "Eight Sentences On Metaconceptual Art",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English",
+          "notation": "en"
+        }
+      ]
     },
     {
       "type": "Identifier",
-      "content": "work:eight-sentences"
+      "content": "work:eight-sentences",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
     }
   ],
   "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300133025",
-      "type": "Type",
-      "_label": "works of art"
-    },
     {
       "id": "http://vocab.getty.edu/aat/300264827",
       "type": "Type",
@@ -32,15 +49,43 @@
       ]
     }
   ],
+  "content": "1. A returning of the Formless to Form (Art). 2. An examination of the commodification of Art and its relationship to the current global economic crisis. 3. An examination of the power structures and network of the elite 'Art World' and 'Art Institutions'. 4. An Archaeology of the Art World, and Art History. 5. The interplay of Time and Space. 6. Transcendence of medium to arrive within the collective consciousness. 7. The annihilating of the boundaries between Art World insiders and Outsiders. 8. The annihilating of the boundaries between Art and Life.",
   "referred_to_by": [
     {
       "type": "LinguisticObject",
-      "content": "A canonical eight-sentence proposition set framing Metaconceptual Art as a field of form, institution, market, history, medium, access, and life. Written after Sol LeWitt's Sentences on Conceptual Art."
+      "content": "A canonical eight-sentence proposition set framing Metaconceptual Art as a field of form, institution, market, history, medium, access, and life. Written after Sol LeWitt's Sentences on Conceptual Art.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
     }
   ],
-  "produced_by": {
-    "type": "Production",
-    "_label": "Production of Eight Sentences On Metaconceptual Art",
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "CC BY 4.0",
+      "classified_as": [
+        {
+          "id": "https://creativecommons.org/licenses/by/4.0/",
+          "type": "Type",
+          "_label": "Attribution 4.0 International (CC BY 4.0)"
+        }
+      ],
+      "possessed_by": [
+        {
+          "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works.json",
+          "type": "Group",
+          "_label": "Sun & Rain Works"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Writing of the Eight Sentences",
     "timespan": {
       "type": "TimeSpan",
       "_label": "2026",
@@ -49,7 +94,7 @@
     },
     "carried_out_by": [
       {
-        "id": "https://www.metaconceptualart.com/#organization",
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works.json",
         "type": "Group",
         "_label": "Sun & Rain Works"
       }
@@ -94,5 +139,17 @@
         }
       ]
     }
-  ]
+  ],
+  "_links": {
+    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/eight-sentences.json" },
+    "curies": [
+      { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
+    ],
+    "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
+    "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" },
+    "alternate": [
+      { "href": "https://www.metaconceptualart.com/artworks/#work-eight-sentences", "type": "text/html" }
+    ],
+    "collection": { "href": "https://www.metaconceptualart.com/data/linked-art/collection.json" }
+  }
 }

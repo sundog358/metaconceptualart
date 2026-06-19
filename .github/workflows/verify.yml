@@ -1,0 +1,25 @@
+name: Verify
+
+# Continuous certification: every push and pull request runs the static-site
+# verify gate, which includes Linked Art conformance — the Getty `cromulent`
+# reference library (gating) and a `pyld` JSON-LD expansion.
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Linked Art validators
+        run: python -m pip install --upgrade pip pyld cromulent
+
+      - name: Verify gate (static checks + Linked Art reference validation)
+        run: python .claude/skills/ship/scripts/verify_static.py .

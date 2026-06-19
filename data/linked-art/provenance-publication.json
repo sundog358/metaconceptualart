@@ -1,0 +1,103 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/provenance-publication.json",
+  "type": "Activity",
+  "_label": "Publication of Metaconceptual Art (2026)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300055863",
+      "type": "Type",
+      "_label": "provenance",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q1773840",
+          "type": "Type",
+          "_label": "provenance"
+        }
+      ]
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "First public publication of the works on the open web, transferring custody from the studio to the viewing public under a CC-BY 4.0 license.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "timespan": {
+    "type": "TimeSpan",
+    "_label": "2026",
+    "begin_of_the_begin": "2026-01-01T00:00:00Z",
+    "end_of_the_end": "2026-12-31T23:59:59Z"
+  },
+  "carried_out_by": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works.json",
+      "type": "Group",
+      "_label": "Sun & Rain Works"
+    }
+  ],
+  "part": [
+    {
+      "type": "RightAcquisition",
+      "_label": "Publication under CC BY 4.0, granting the public reuse rights",
+      "establishes": [
+        {
+          "type": "Right",
+          "_label": "CC BY 4.0",
+          "classified_as": [
+            {
+              "id": "https://creativecommons.org/licenses/by/4.0/",
+              "type": "Type",
+              "_label": "Attribution 4.0 International (CC BY 4.0)"
+            }
+          ],
+          "identified_by": [
+            {
+              "type": "Name",
+              "content": "Creative Commons Attribution 4.0 International"
+            }
+          ],
+          "possessed_by": [
+            {
+              "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works.json",
+              "type": "Group",
+              "_label": "Sun & Rain Works"
+            }
+          ],
+          "applies_to": [
+            {
+              "id": "https://www.metaconceptualart.com/data/linked-art/site-as-artwork.json",
+              "type": "DigitalObject",
+              "_label": "The Website Itself"
+            },
+            {
+              "id": "https://www.metaconceptualart.com/data/linked-art/eight-sentences.json",
+              "type": "LinguisticObject",
+              "_label": "Eight Sentences On Metaconceptual Art"
+            },
+            {
+              "id": "https://www.metaconceptualart.com/data/linked-art/construction-museum.json",
+              "type": "DigitalObject",
+              "_label": "Construction of the Museum as Concept"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/provenance-publication.json" },
+    "curies": [
+      { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
+    ],
+    "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
+    "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" }
+  }
+}

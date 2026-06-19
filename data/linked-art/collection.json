@@ -6,11 +6,33 @@
   "identified_by": [
     {
       "type": "Name",
-      "content": "Metaconceptual Art — Collection"
+      "content": "Metaconceptual Art — Collection",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English",
+          "notation": "en"
+        }
+      ]
     },
     {
       "type": "Identifier",
-      "content": "set:collection"
+      "content": "set:collection",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
     }
   ],
   "classified_as": [
@@ -30,24 +52,57 @@
   "referred_to_by": [
     {
       "type": "LinguisticObject",
-      "content": "The museum is not a building; it is a set of relations. This Set gathers the works on view as members so the collection can be read and queried as linked data. Membership is declared on each object via member_of."
+      "content": "The museum is not a building; it is a set of relations. This Set gathers the works on view as members so the collection can be read and queried as linked data. Membership is declared on each object via member_of.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
     }
   ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Assembly of the Metaconceptual Art collection",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works.json",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
   "members_exemplified_by": [
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/site-as-artwork.json",
-      "type": "HumanMadeObject",
+      "type": "DigitalObject",
       "_label": "The Website Itself"
     },
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/eight-sentences.json",
-      "type": "HumanMadeObject",
+      "type": "LinguisticObject",
       "_label": "Eight Sentences On Metaconceptual Art"
     },
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/construction-museum.json",
-      "type": "HumanMadeObject",
+      "type": "DigitalObject",
       "_label": "Construction of the Museum as Concept"
     }
-  ]
+  ],
+  "_links": {
+    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/collection.json" },
+    "curies": [
+      { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
+    ],
+    "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
+    "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" },
+    "activity-stream": { "href": "https://www.metaconceptualart.com/data/linked-art/activity-stream.json", "name": "Activity Streams discovery" }
+  }
 }

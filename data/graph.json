@@ -1,14 +1,24 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "Metaconceptual Art Knowledge Graph",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "updated": "2026-06-19",
-  "description": "Canonical, machine-readable knowledge graph for Metaconceptual Art. Each node carries a stable site ID and, where it corresponds to a real concept, person, or movement, a Wikidata QID plus the art-domain authority IDs (Getty ULAN for people, Getty AAT for concepts, Grove Art Online) so the museum connects outward to both the general and the art-specific linked-data graph. Artwork nodes additionally point to a per-object Linked Art (CIDOC-CRM) JSON-LD representation.",
+  "description": "Canonical, machine-readable knowledge graph for Metaconceptual Art. Each node carries a stable site ID and, where it corresponds to a real concept, person, or movement, a Wikidata QID plus the art-domain authority IDs (Getty ULAN for people, Getty AAT for concepts, Grove Art Online) so the museum connects outward to both the general and the art-specific linked-data graph. The works are also published as a set of CIDOC-CRM-correct Linked Art (API 1.0) records — digital objects, a textual work, a group, a concept, a collection set, and a provenance activity — each with a HAL _links block and served as application/ld+json.",
   "license": "CC-BY-4.0",
   "base": "https://www.metaconceptualart.com/",
   "wikidataEntityBase": "https://www.wikidata.org/wiki/",
   "gettyVocabBase": "https://vocab.getty.edu/page/",
   "linkedArtBase": "https://www.metaconceptualart.com/data/linked-art/",
+  "linkedArtDiscovery": "https://www.metaconceptualart.com/data/linked-art/activity-stream.json",
+  "linkedArtRecords": [
+    { "id": "site-as-artwork.json", "type": "DigitalObject", "label": "The Website Itself" },
+    { "id": "eight-sentences.json", "type": "LinguisticObject", "label": "Eight Sentences On Metaconceptual Art" },
+    { "id": "construction-museum.json", "type": "DigitalObject", "label": "Construction of the Museum as Concept" },
+    { "id": "collection.json", "type": "Set", "label": "Metaconceptual Art — Collection" },
+    { "id": "sun-and-rain-works.json", "type": "Group", "label": "Sun & Rain Works" },
+    { "id": "concept-metaconceptual-art.json", "type": "Type", "label": "Metaconceptual Art (concept)" },
+    { "id": "provenance-publication.json", "type": "Activity", "label": "Publication of Metaconceptual Art (2026)" }
+  ],
   "groveArtNote": "Grove Art Online IDs (Oxford) are recorded for reference; the resource is subscription-gated, so the site links to the open Getty vocab URIs.",
   "prefixes": {
     "work": "Artwork or site-native work",

@@ -1,16 +1,38 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
   "id": "https://www.metaconceptualart.com/data/linked-art/construction-museum.json",
-  "type": "HumanMadeObject",
+  "type": "DigitalObject",
   "_label": "Construction of the Museum as Concept",
   "identified_by": [
     {
       "type": "Name",
-      "content": "Construction of the Museum as Concept"
+      "content": "Construction of the Museum as Concept",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English",
+          "notation": "en"
+        }
+      ]
     },
     {
       "type": "Identifier",
-      "content": "work:construction-museum"
+      "content": "work:construction-museum",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
     }
   ],
   "classified_as": [
@@ -39,13 +61,14 @@
       ]
     }
   ],
-  "referred_to_by": [
+  "format": "image/png",
+  "access_point": [
     {
-      "type": "LinguisticObject",
-      "content": "An image study in which the museum appears inside the artwork as something still being built. Institutional authority is shown as architecture, ornament, labor, scaffolding, and frame."
+      "id": "https://www.metaconceptualart.com/images/constructionartaiA01.png",
+      "type": "DigitalObject"
     }
   ],
-  "shows": [
+  "digitally_shows": [
     {
       "type": "VisualItem",
       "_label": "Depiction of the museum under construction",
@@ -58,9 +81,42 @@
       ]
     }
   ],
-  "produced_by": {
-    "type": "Production",
-    "_label": "Production of Construction of the Museum as Concept",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "An image study in which the museum appears inside the artwork as something still being built. Institutional authority is shown as architecture, ornament, labor, scaffolding, and frame.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "CC BY 4.0",
+      "classified_as": [
+        {
+          "id": "https://creativecommons.org/licenses/by/4.0/",
+          "type": "Type",
+          "_label": "Attribution 4.0 International (CC BY 4.0)"
+        }
+      ],
+      "possessed_by": [
+        {
+          "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works.json",
+          "type": "Group",
+          "_label": "Sun & Rain Works"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Creation of Construction of the Museum as Concept",
     "timespan": {
       "type": "TimeSpan",
       "_label": "2026",
@@ -69,7 +125,7 @@
     },
     "carried_out_by": [
       {
-        "id": "https://www.metaconceptualart.com/#organization",
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works.json",
         "type": "Group",
         "_label": "Sun & Rain Works"
       }
@@ -100,5 +156,17 @@
         }
       ]
     }
-  ]
+  ],
+  "_links": {
+    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/construction-museum.json" },
+    "curies": [
+      { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
+    ],
+    "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
+    "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" },
+    "alternate": [
+      { "href": "https://www.metaconceptualart.com/artworks/#work-construction-museum", "type": "text/html" }
+    ],
+    "collection": { "href": "https://www.metaconceptualart.com/data/linked-art/collection.json" }
+  }
 }

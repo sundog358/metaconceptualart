@@ -1,0 +1,21 @@
+# Linked Art API 1.0 — minimal static-file conformance on HostGator (Apache).
+# Per the API protocol, a static publisher conforms by supporting GET + OPTIONS,
+# returning the application/ld+json profile media type, and allowing CORS. 303
+# redirects and a dynamic profile parameter are NOT required.
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.json$">
+    Header always set Content-Type "application/ld+json;profile=\"https://linked.art/ns/v1/linked-art.json\""
+    Header always set Access-Control-Allow-Origin "*"
+    Header always set Access-Control-Allow-Methods "GET, OPTIONS"
+    Header always set Access-Control-Allow-Headers "Accept, Content-Type"
+    Header always set Vary "Accept"
+  </FilesMatch>
+</IfModule>
+
+# Answer CORS / OPTIONS preflight requests with 204 No Content.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{REQUEST_METHOD} =OPTIONS
+  RewriteRule \.json$ - [R=204,L]
+</IfModule>

@@ -1,0 +1,22 @@
+{
+  "@context": "http://iiif.io/api/discovery/1/context.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/activity-stream.json",
+  "type": "OrderedCollection",
+  "totalItems": 7,
+  "rights": "https://creativecommons.org/licenses/by/4.0/",
+  "seeAlso": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection.json",
+      "type": "Set",
+      "label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "first": {
+    "id": "https://www.metaconceptualart.com/data/linked-art/activity-stream-page-1.json",
+    "type": "OrderedCollectionPage"
+  },
+  "last": {
+    "id": "https://www.metaconceptualart.com/data/linked-art/activity-stream-page-1.json",
+    "type": "OrderedCollectionPage"
+  }
+}
