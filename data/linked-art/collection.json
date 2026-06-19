@@ -1,0 +1,53 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/collection.json",
+  "type": "Set",
+  "_label": "Metaconceptual Art — Collection",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Metaconceptual Art — Collection"
+    },
+    {
+      "type": "Identifier",
+      "content": "set:collection"
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025976",
+      "type": "Type",
+      "_label": "collections",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q2668072",
+          "type": "Type",
+          "_label": "collection"
+        }
+      ]
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "The museum is not a building; it is a set of relations. This Set gathers the works on view as members so the collection can be read and queried as linked data. Membership is declared on each object via member_of."
+    }
+  ],
+  "members_exemplified_by": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/site-as-artwork.json",
+      "type": "HumanMadeObject",
+      "_label": "The Website Itself"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/eight-sentences.json",
+      "type": "HumanMadeObject",
+      "_label": "Eight Sentences On Metaconceptual Art"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/construction-museum.json",
+      "type": "HumanMadeObject",
+      "_label": "Construction of the Museum as Concept"
+    }
+  ]
+}

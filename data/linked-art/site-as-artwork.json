@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/site-as-artwork.json",
+  "type": "HumanMadeObject",
+  "_label": "The Website Itself",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "The Website Itself"
+    },
+    {
+      "type": "Identifier",
+      "content": "work:site-as-artwork"
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300265431",
+      "type": "Type",
+      "_label": "websites",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q35127",
+          "type": "Type",
+          "_label": "website"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300419940",
+      "type": "Type",
+      "_label": "internet art",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q1569950",
+          "type": "Type",
+          "_label": "internet art"
+        }
+      ]
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "The public page treated as the artwork: a surface where language, navigation, metadata, revision, and viewing conditions become material. The website is one of the work's forms, not a container for it."
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "_label": "Production of The Website Itself",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/#organization",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection.json",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "_label": "Home page",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "Metaconceptual Art",
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://www.metaconceptualart.com/",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/eight-sentences.json",
+  "type": "HumanMadeObject",
+  "_label": "Eight Sentences On Metaconceptual Art",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Eight Sentences On Metaconceptual Art"
+    },
+    {
+      "type": "Identifier",
+      "content": "work:eight-sentences"
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300133025",
+      "type": "Type",
+      "_label": "works of art"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300264827",
+      "type": "Type",
+      "_label": "conceptual art",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q203209",
+          "type": "Type",
+          "_label": "conceptual art"
+        }
+      ]
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "A canonical eight-sentence proposition set framing Metaconceptual Art as a field of form, institution, market, history, medium, access, and life. Written after Sol LeWitt's Sentences on Conceptual Art."
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "_label": "Production of Eight Sentences On Metaconceptual Art",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/#organization",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ],
+    "influenced_by": [
+      {
+        "id": "http://vocab.getty.edu/ulan/500115429",
+        "type": "Person",
+        "_label": "Sol LeWitt",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q168587",
+            "type": "Person",
+            "_label": "Sol LeWitt"
+          }
+        ]
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection.json",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "_label": "Artwork page",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "Metaconceptual Art — Artworks",
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://www.metaconceptualart.com/artworks/#work-eight-sentences",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

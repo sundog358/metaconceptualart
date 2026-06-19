@@ -1,0 +1,104 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/construction-museum.json",
+  "type": "HumanMadeObject",
+  "_label": "Construction of the Museum as Concept",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Construction of the Museum as Concept"
+    },
+    {
+      "type": "Identifier",
+      "content": "work:construction-museum"
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300215302",
+      "type": "Type",
+      "_label": "digital images",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q1250322",
+          "type": "Type",
+          "_label": "digital image"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300264827",
+      "type": "Type",
+      "_label": "conceptual art",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q203209",
+          "type": "Type",
+          "_label": "conceptual art"
+        }
+      ]
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "An image study in which the museum appears inside the artwork as something still being built. Institutional authority is shown as architecture, ornament, labor, scaffolding, and frame."
+    }
+  ],
+  "shows": [
+    {
+      "type": "VisualItem",
+      "_label": "Depiction of the museum under construction",
+      "represents": [
+        {
+          "id": "http://www.wikidata.org/entity/Q6041145",
+          "type": "Type",
+          "_label": "institutional critique"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "_label": "Production of Construction of the Museum as Concept",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/#organization",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection.json",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "_label": "Artwork page",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "Metaconceptual Art — Artworks",
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://www.metaconceptualart.com/artworks/#work-construction-museum",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

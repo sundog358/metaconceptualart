@@ -469,106 +469,10 @@ h3 {
     stroke 200ms ease;
 }
 
-.graph-node-linked circle {
-  fill: rgba(200, 169, 110, 0.16);
-  stroke: var(--gold);
-  stroke-width: 2;
-}
-
-.graph-node-external circle {
-  fill: rgba(200, 169, 110, 0.24);
-  stroke: var(--gold);
-  stroke-dasharray: 5 4;
-  stroke-width: 1.8;
-}
-
 .graph-node:hover circle,
 .graph-node:focus-visible circle {
   fill: rgba(200, 169, 110, 0.34);
   stroke: var(--gold);
-}
-
-.graph-lines-same path {
-  stroke: var(--gold);
-  stroke-dasharray: 4 5;
-  stroke-width: 1.6;
-}
-
-.graph-edge-label {
-  fill: rgba(255, 253, 248, 0.74);
-  font-family: var(--sans);
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  paint-order: stroke;
-  stroke: var(--deep);
-  stroke-linejoin: round;
-  stroke-width: 4px;
-  text-anchor: middle;
-  text-transform: uppercase;
-}
-
-.graph-edge-label-same {
-  fill: var(--gold);
-}
-
-.graph-legend {
-  color: rgba(255, 253, 248, 0.82);
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 0.7rem;
-  font-weight: 700;
-  gap: 10px 22px;
-  letter-spacing: 0.1em;
-  list-style: none;
-  margin: 24px 0 0;
-  padding: 0;
-  text-transform: uppercase;
-}
-
-.graph-legend li {
-  align-items: center;
-  display: flex;
-  gap: 8px;
-}
-
-.legend-swatch {
-  display: inline-block;
-  flex: 0 0 auto;
-  height: 14px;
-  width: 14px;
-}
-
-.legend-swatch-node {
-  background: rgba(250, 253, 255, 0.1);
-  border: 1.4px solid rgba(250, 253, 255, 0.58);
-  border-radius: 50%;
-}
-
-.legend-swatch-linked {
-  background: rgba(200, 169, 110, 0.16);
-  border: 2px solid var(--gold);
-  border-radius: 50%;
-}
-
-.legend-swatch-external {
-  background: rgba(200, 169, 110, 0.24);
-  border: 1.8px dashed var(--gold);
-  border-radius: 50%;
-}
-
-.legend-swatch-same {
-  border-top: 2px dashed var(--gold);
-  height: 2px;
-  width: 22px;
-}
-
-.system-copy .lod-strip {
-  color: rgba(255, 253, 248, 0.82);
-  font-family: var(--sans);
-  font-size: 0.96rem;
-  line-height: 1.7;
-  margin-top: 26px;
 }
 
 .system-section .wd-link {
@@ -601,6 +505,66 @@ h3 {
 .graph-cta:focus-visible {
   background: var(--gold);
   color: var(--deep);
+}
+
+.lod-records {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 32px 0;
+}
+
+.lod-record {
+  background: rgba(234, 244, 255, 0.06);
+  border: 1px solid rgba(234, 244, 255, 0.25);
+  padding: 22px;
+}
+
+.lod-record-kind {
+  color: var(--gold);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.lod-record h3 {
+  color: var(--white);
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-bottom: 14px;
+}
+
+.lod-record dl {
+  display: grid;
+  margin: 0;
+}
+
+.lod-record dl div {
+  border-top: 1px solid rgba(234, 244, 255, 0.16);
+  display: grid;
+  gap: 12px;
+  grid-template-columns: minmax(82px, auto) 1fr;
+  padding: 9px 0;
+}
+
+.lod-record dt {
+  color: rgba(255, 253, 248, 0.6);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.lod-record dd {
+  color: rgba(255, 253, 248, 0.85);
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono",
+    monospace;
+  font-size: 0.8rem;
+  margin: 0;
 }
 
 .graph-node text {
@@ -636,14 +600,40 @@ h3 {
 }
 
 .site-footer {
-  align-items: start;
+  align-items: center;
   background: var(--ink);
   color: rgba(255, 253, 248, 0.76);
   display: grid;
   font-size: 0.86rem;
-  gap: 24px;
-  grid-template-columns: minmax(0, 0.7fr) minmax(260px, 1fr) auto;
-  padding: 28px clamp(20px, 5vw, 72px);
+  gap: 24px clamp(24px, 4vw, 48px);
+  grid-template-columns: minmax(0, 0.7fr) minmax(220px, 1fr) auto auto;
+  padding: 40px clamp(20px, 5vw, 72px);
+}
+
+.footer-badge {
+  align-self: center;
+  background: var(--white);
+  border: 1px solid rgba(200, 169, 110, 0.55);
+  border-radius: 12px;
+  display: inline-flex;
+  justify-self: end;
+  padding: 10px 14px;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.footer-badge:hover,
+.footer-badge:focus-visible {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.32);
+  transform: translateY(-2px);
+}
+
+.footer-badge img {
+  aspect-ratio: 1061 / 886;
+  display: block;
+  height: 88px;
+  width: auto;
 }
 
 .site-footer p {
@@ -814,6 +804,27 @@ h3 {
 
 .metadata-list-wide {
   max-width: 920px;
+}
+
+.linked-art-link {
+  align-self: flex-start;
+  border: 1px solid var(--line);
+  color: var(--accent);
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono",
+    monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  margin-top: 18px;
+  padding: 8px 12px;
+  transition:
+    border-color 180ms ease,
+    color 180ms ease;
+}
+
+.linked-art-link:hover,
+.linked-art-link:focus-visible {
+  border-color: var(--accent);
+  color: var(--deep);
 }
 
 .essay {
@@ -1086,6 +1097,15 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .site-footer {
+    align-items: start;
+    grid-template-columns: 1fr;
+  }
+
+  .footer-badge {
+    justify-self: start;
+  }
+
   .hero {
     min-height: auto;
   }
@@ -1222,6 +1242,10 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .lod-records {
+    grid-template-columns: 1fr;
+  }
+
   .entry {
     padding: 24px 20px;
   }
@@ -1250,7 +1274,11 @@ h3 {
   .site-footer {
     align-items: flex-start;
     grid-template-columns: 1fr;
-    padding: 24px 16px;
+    padding: 28px 16px;
+  }
+
+  .footer-badge img {
+    height: 74px;
   }
 }
 

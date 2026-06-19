@@ -432,103 +432,59 @@
         data-type="KnowledgeGraph"
       >
         <div>
-          <p class="section-kicker">Semantic Layer</p>
-          <h2 id="system-title">From Website To Meta-Museum</h2>
+          <p class="section-kicker">Linked open data</p>
+          <h2 id="system-title">Built To Be Checked</h2>
         </div>
         <div class="system-copy">
           <p>
-            The site can grow as a knowledge graph: each artwork, term,
-            influence, claim, and exhibition context becomes a node with
-            citations, revisions, and provenance. The museum is not a building;
-            it is a set of relations that can be read, queried, and transformed.
-            Those relations are now grounded in Wikidata, so the museum connects
-            outward to the shared record of art.
+            Most writing about art asks you to take its claims on trust. This
+            site is built to be checked. Every concept and figure in it is pinned
+            to the public records that museums, libraries, and Wikipedia already
+            rely on &mdash; Wikidata, and the Getty vocabularies that catalogue
+            the art world. Follow any identifier below and you step out of this
+            page into the shared record of art.
           </p>
-          <div class="graph-panel">
-            <svg
-              viewBox="0 0 800 470"
-              role="img"
-              aria-labelledby="graph-title graph-description"
-              focusable="false"
-            >
-              <title id="graph-title">
-                Metaconceptual Art knowledge graph, grounded in Wikidata
-              </title>
-              <desc id="graph-description">
-                A diagram with Concept at the centre. The website shows artwork,
-                defines concept, and sits inside the institution. Artwork
-                expresses concept, the institution frames it, the viewer
-                activates it, and concept cites source. Concept and source link
-                out to Wikidata by sameAs relations.
-              </desc>
-              <g class="graph-lines">
-                <path d="M400 72 L165 185" />
-                <path d="M400 72 L400 215" />
-                <path d="M400 72 L640 185" />
-                <path d="M165 185 L400 215" />
-                <path d="M640 185 L400 215" />
-                <path d="M180 372 L400 215" />
-                <path d="M400 215 L400 372" />
-              </g>
-              <g class="graph-lines graph-lines-same">
-                <path d="M400 215 L640 372" />
-                <path d="M400 372 L640 372" />
-              </g>
-              <g class="graph-edge-labels">
-                <text class="graph-edge-label" x="282" y="124">shows</text>
-                <text class="graph-edge-label" x="416" y="148" text-anchor="start">defines</text>
-                <text class="graph-edge-label" x="520" y="124">inside</text>
-                <text class="graph-edge-label" x="282" y="196">expresses</text>
-                <text class="graph-edge-label" x="520" y="196">frames</text>
-                <text class="graph-edge-label" x="290" y="290">activates</text>
-                <text class="graph-edge-label" x="416" y="298" text-anchor="start">cites</text>
-                <text class="graph-edge-label graph-edge-label-same" x="528" y="286">sameAs</text>
-                <text class="graph-edge-label graph-edge-label-same" x="520" y="364">sameAs</text>
-              </g>
-              <g class="graph-node graph-node-root" transform="translate(400 72)">
-                <circle r="50" />
-                <text>Website</text>
-              </g>
-              <g class="graph-node" transform="translate(165 185)">
-                <circle r="46" />
-                <text>Artwork</text>
-              </g>
-              <g class="graph-node graph-node-linked" transform="translate(400 215)">
-                <circle r="50" />
-                <text>Concept</text>
-              </g>
-              <g class="graph-node" transform="translate(640 185)">
-                <circle r="46" />
-                <text>Institution</text>
-              </g>
-              <g class="graph-node" transform="translate(180 372)">
-                <circle r="40" />
-                <text>Viewer</text>
-              </g>
-              <g class="graph-node graph-node-linked" transform="translate(400 372)">
-                <circle r="42" />
-                <text>Source</text>
-              </g>
-              <g class="graph-node graph-node-external" transform="translate(640 372)">
-                <circle r="46" />
-                <text>Wikidata</text>
-              </g>
-            </svg>
+          <div class="lod-records">
+            <article class="lod-record">
+              <p class="lod-record-kind">Concept</p>
+              <h3>Conceptual art</h3>
+              <dl>
+                <div><dt>This site</dt><dd>concept:conceptual-art</dd></div>
+                <div>
+                  <dt>Wikidata</dt>
+                  <dd>
+                    <a class="wd-link" href="https://www.wikidata.org/wiki/Q203209" target="_blank" rel="noopener">Q203209 &#8599;</a>
+                  </dd>
+                </div>
+                <div>
+                  <dt>Getty AAT</dt>
+                  <dd>
+                    <a class="wd-link" href="https://vocab.getty.edu/page/aat/300264827" target="_blank" rel="noopener">300264827 &#8599;</a>
+                  </dd>
+                </div>
+              </dl>
+            </article>
+            <article class="lod-record">
+              <p class="lod-record-kind">Person</p>
+              <h3>Marcel Duchamp</h3>
+              <dl>
+                <div><dt>This site</dt><dd>source:duchamp</dd></div>
+                <div>
+                  <dt>Wikidata</dt>
+                  <dd>
+                    <a class="wd-link" href="https://www.wikidata.org/wiki/Q5912" target="_blank" rel="noopener">Q5912 &#8599;</a>
+                  </dd>
+                </div>
+                <div>
+                  <dt>Getty ULAN</dt>
+                  <dd>
+                    <a class="wd-link" href="https://vocab.getty.edu/page/ulan/500115393" target="_blank" rel="noopener">500115393 &#8599;</a>
+                  </dd>
+                </div>
+              </dl>
+            </article>
           </div>
-          <ul class="graph-legend" aria-label="Graph legend">
-            <li><span class="legend-swatch legend-swatch-node"></span>Site node</li>
-            <li><span class="legend-swatch legend-swatch-linked"></span>Grounded in Wikidata</li>
-            <li><span class="legend-swatch legend-swatch-external"></span>Wikidata</li>
-            <li><span class="legend-swatch legend-swatch-same"></span>sameAs link</li>
-          </ul>
-          <p class="lod-strip">
-            Now grounded in Wikidata &mdash;
-            <a class="wd-link" href="https://www.wikidata.org/wiki/Q203209" target="_blank" rel="noopener">Conceptual art</a>,
-            <a class="wd-link" href="https://www.wikidata.org/wiki/Q6041145" target="_blank" rel="noopener">Institutional critique</a>,
-            <a class="wd-link" href="https://www.wikidata.org/wiki/Q919251" target="_blank" rel="noopener">Systems art</a>,
-            <a class="wd-link" href="https://www.wikidata.org/wiki/Q1569950" target="_blank" rel="noopener">Internet art</a>.
-          </p>
-          <a class="graph-cta" href="systems/">Explore the grounded graph &rarr;</a>
+          <a class="graph-cta" href="systems/">See the full register &rarr;</a>
         </div>
       </section>
     </main>
@@ -546,6 +502,20 @@
         <a href="about/">About</a>
         <a href="changelog/">Changelog</a>
       </nav>
+      <a
+        class="footer-badge"
+        href="https://www.wikidata.org"
+        target="_blank"
+        rel="noopener"
+        aria-label="Powered by Wikidata"
+      >
+        <img
+          src="images/Wikidata_stamp.png"
+          alt="Powered by Wikidata"
+          width="1061"
+          height="886"
+        />
+      </a>
     </footer>
   </body>
 </html>

@@ -1,13 +1,14 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "Metaconceptual Art Knowledge Graph",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "updated": "2026-06-19",
-  "description": "Canonical, machine-readable knowledge graph for Metaconceptual Art. Each node carries a stable site ID and, where it corresponds to a real concept, person, or movement, a Wikidata QID plus the art-domain authority IDs (Getty ULAN for people, Getty AAT for concepts, Grove Art Online) so the museum connects outward to both the general and the art-specific linked-data graph.",
+  "description": "Canonical, machine-readable knowledge graph for Metaconceptual Art. Each node carries a stable site ID and, where it corresponds to a real concept, person, or movement, a Wikidata QID plus the art-domain authority IDs (Getty ULAN for people, Getty AAT for concepts, Grove Art Online) so the museum connects outward to both the general and the art-specific linked-data graph. Artwork nodes additionally point to a per-object Linked Art (CIDOC-CRM) JSON-LD representation.",
   "license": "CC-BY-4.0",
   "base": "https://www.metaconceptualart.com/",
   "wikidataEntityBase": "https://www.wikidata.org/wiki/",
   "gettyVocabBase": "https://vocab.getty.edu/page/",
+  "linkedArtBase": "https://www.metaconceptualart.com/data/linked-art/",
   "groveArtNote": "Grove Art Online IDs (Oxford) are recorded for reference; the resource is subscription-gated, so the site links to the open Getty vocab URIs.",
   "prefixes": {
     "work": "Artwork or site-native work",
@@ -23,21 +24,24 @@
       "type": "Artwork",
       "label": "The Website Itself",
       "description": "The public page treated as the artwork: a surface where language, navigation, metadata, revision, and viewing conditions become material.",
-      "wikidata": null
+      "wikidata": null,
+      "linkedArt": "data/linked-art/site-as-artwork.json"
     },
     {
       "id": "work:eight-sentences",
       "type": "Artwork",
       "label": "Eight Sentences On Metaconceptual Art",
       "description": "A sentence sequence after Sol LeWitt framing Metaconceptual Art as a field of form, institution, market, history, medium, access, and life.",
-      "wikidata": null
+      "wikidata": null,
+      "linkedArt": "data/linked-art/eight-sentences.json"
     },
     {
       "id": "work:construction-museum",
       "type": "Artwork",
       "label": "Construction of the Museum as Concept",
       "description": "The museum appears inside the artwork as something still being built: institutional authority shown as architecture, ornament, labor, and frame.",
-      "wikidata": null
+      "wikidata": null,
+      "linkedArt": "data/linked-art/construction-museum.json"
     },
     {
       "id": "concept:conceptual-art",

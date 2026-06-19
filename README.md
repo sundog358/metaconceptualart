@@ -54,6 +54,11 @@ museum connects outward to the wider linked-data record of art.
 - Art-domain nodes also carry their **Getty** authority IDs — ULAN for people,
   AAT for concepts — linking to the open `vocab.getty.edu` URIs, so the museum is
   legible to the art world's own linked-data vocabularies.
+- Each artwork publishes a **[Linked Art](https://linked.art) (CIDOC-CRM)**
+  JSON-LD record under [`data/linked-art/`](data/linked-art/), bound by a
+  collection `Set`. Every classification cross-walks Getty AAT/ULAN to Wikidata,
+  so an object is legible to real collection-management systems (Getty, Yale LUX,
+  Europeana).
 
 Anchor concepts: conceptual art (`Q203209` / AAT `300264827`), institutional
 critique (`Q6041145`), systems art (`Q919251` / AAT `300047869`), internet art
