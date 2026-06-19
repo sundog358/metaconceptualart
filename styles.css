@@ -1,19 +1,25 @@
 :root {
   color-scheme: light;
-  --ink: #071a33;
-  --muted: #5e6570;
-  --paper: #f7f6f1;
-  --white: #fffefa;
-  --line: rgba(10, 45, 87, 0.16);
-  --deep: #0a2d57;
-  --accent: #9b6b24;
-  --accent-soft: #ede5d3;
-  --tile: #eef2f2;
-  --gold: #c8a96e;
-  --shadow: 0 24px 80px rgba(7, 26, 51, 0.14);
-  --sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", sans-serif;
-  --serif: Georgia, "Times New Roman", serif;
+  --ink: #151515;
+  --muted: #2f6398;
+  --paper: #fffdf5;
+  --white: #ffffff;
+  --line: rgba(25, 113, 194, 0.22);
+  --deep: #11437e;
+  --navy: #08203f;
+  --accent: #e8590c;
+  --accent-soft: #ffe7cf;
+  --tile: #fff3d2;
+  --gold: #f7b500;
+  --orange: #e8590c;
+  --yellow: #f7b500;
+  --blue: #1971c2;
+  --green: #2f9e44;
+  --shadow: 0 24px 70px rgba(17, 67, 126, 0.2);
+  --sans: "Inter", "Avenir Next", "Segoe UI", system-ui, -apple-system,
+    BlinkMacSystemFont, Arial, sans-serif;
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua",
+    Georgia, serif;
 }
 
 * {
@@ -27,8 +33,8 @@ html {
 body {
   margin: 0;
   background:
-    linear-gradient(90deg, rgba(10, 45, 87, 0.06) 1px, transparent 1px),
-    linear-gradient(180deg, rgba(155, 107, 36, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(25, 113, 194, 0.1) 1px, transparent 1px),
+    linear-gradient(180deg, rgba(247, 181, 0, 0.12) 1px, transparent 1px),
     var(--paper);
   background-size: 64px 64px;
   color: var(--ink);
@@ -44,7 +50,7 @@ a {
 .site-header {
   align-items: center;
   backdrop-filter: blur(18px);
-  background: rgba(247, 246, 241, 0.88);
+  background: rgba(255, 253, 245, 0.9);
   border-bottom: 1px solid var(--line);
   display: flex;
   gap: 18px;
@@ -87,6 +93,7 @@ a {
   flex-wrap: wrap;
   gap: clamp(14px, 3vw, 34px);
   font-size: 0.75rem;
+  font-weight: 700;
   letter-spacing: 0.12em;
   justify-content: flex-end;
   text-transform: uppercase;
@@ -101,8 +108,23 @@ a {
     transform 180ms ease;
 }
 
+.nav a:nth-child(1) {
+  color: var(--orange);
+}
+
+.nav a:nth-child(2) {
+  color: var(--blue);
+}
+
+.nav a:nth-child(3) {
+  color: var(--green);
+}
+
 .nav a:hover,
-.nav a:focus-visible,
+.nav a:focus-visible {
+  color: var(--ink);
+}
+
 .nav a[aria-current="page"] {
   color: var(--accent);
 }
@@ -216,7 +238,7 @@ h3 {
 }
 
 .hero-actions a {
-  background: rgba(250, 253, 255, 0.58);
+  background: rgba(255, 255, 255, 0.62);
   border: 1px solid var(--deep);
   min-width: 132px;
   padding: 13px 20px;
@@ -230,8 +252,8 @@ h3 {
 
 .hero-actions a:hover,
 .hero-actions a:focus-visible {
-  background: var(--accent);
-  border-color: var(--accent);
+  background: var(--green);
+  border-color: var(--green);
   color: var(--white);
   transform: translateY(-1px);
 }
@@ -313,7 +335,7 @@ h3 {
 }
 
 .sentence-list li {
-  background: linear-gradient(90deg, var(--white), rgba(237, 229, 211, 0.5));
+  background: linear-gradient(90deg, var(--white), rgba(255, 240, 200, 0.55));
   border-left: 3px solid transparent;
   counter-increment: sentence;
   display: grid;
@@ -354,7 +376,7 @@ h3 {
 }
 
 .sentence-list li:hover {
-  border-left-color: var(--accent);
+  border-left-color: var(--green);
 }
 
 .section-heading {
@@ -369,7 +391,7 @@ h3 {
 }
 
 .entry {
-  background: linear-gradient(180deg, var(--white), rgba(237, 229, 211, 0.58));
+  background: linear-gradient(180deg, var(--white), rgba(255, 240, 200, 0.6));
   border: 1px solid var(--line);
   display: flex;
   flex-direction: column;
@@ -377,9 +399,21 @@ h3 {
   padding: clamp(24px, 4vw, 42px);
 }
 
+.triad-grid .entry:nth-child(3n + 1) {
+  border-top: 4px solid var(--orange);
+}
+
+.triad-grid .entry:nth-child(3n + 2) {
+  border-top: 4px solid var(--blue);
+}
+
+.triad-grid .entry:nth-child(3n) {
+  border-top: 4px solid var(--green);
+}
+
 .entry p,
 .system-copy p {
-  color: var(--deep);
+  color: var(--ink);
   font-size: 1.02rem;
   line-height: 1.72;
   margin-bottom: 0;
@@ -404,8 +438,8 @@ h3 {
 
 .system-section {
   background:
-    linear-gradient(90deg, rgba(250, 253, 255, 0.06) 1px, transparent 1px),
-    linear-gradient(180deg, rgba(200, 169, 110, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(180deg, rgba(247, 181, 0, 0.16) 1px, transparent 1px),
     var(--deep);
   background-size: 48px 48px;
   color: var(--white);
@@ -420,7 +454,7 @@ h3 {
 }
 
 .system-copy p {
-  color: rgba(255, 253, 248, 0.82);
+  color: rgba(255, 255, 255, 0.88);
   font-family: var(--serif);
   font-size: clamp(1.18rem, 1.7vw, 1.55rem);
 }
@@ -434,7 +468,7 @@ h3 {
 }
 
 .graph-panel {
-  border: 1px solid rgba(250, 253, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.26);
   margin-top: 38px;
   padding: clamp(12px, 2vw, 22px);
 }
@@ -448,18 +482,18 @@ h3 {
 
 .graph-lines path {
   fill: none;
-  stroke: rgba(200, 169, 110, 0.7);
+  stroke: rgba(247, 181, 0, 0.85);
   stroke-width: 1.5;
 }
 
 .graph-node circle {
-  fill: rgba(250, 253, 255, 0.08);
-  stroke: rgba(250, 253, 255, 0.58);
+  fill: rgba(255, 255, 255, 0.1);
+  stroke: rgba(255, 255, 255, 0.62);
   stroke-width: 1.4;
 }
 
 .graph-node-root circle {
-  fill: rgba(200, 169, 110, 0.18);
+  fill: rgba(247, 181, 0, 0.24);
   stroke: var(--gold);
 }
 
@@ -471,7 +505,7 @@ h3 {
 
 .graph-node:hover circle,
 .graph-node:focus-visible circle {
-  fill: rgba(200, 169, 110, 0.34);
+  fill: rgba(247, 181, 0, 0.42);
   stroke: var(--gold);
 }
 
@@ -552,7 +586,7 @@ h3 {
 }
 
 .lod-record dt {
-  color: rgba(255, 253, 248, 0.6);
+  color: rgba(255, 255, 255, 0.74);
   font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -560,7 +594,7 @@ h3 {
 }
 
 .lod-record dd {
-  color: rgba(255, 253, 248, 0.85);
+  color: rgba(255, 255, 255, 0.9);
   font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono",
     monospace;
   font-size: 0.8rem;
@@ -601,8 +635,17 @@ h3 {
 
 .site-footer {
   align-items: center;
-  background: var(--ink);
-  color: rgba(255, 253, 248, 0.76);
+  background: var(--navy);
+  border-top: 4px solid transparent;
+  border-image: linear-gradient(
+      90deg,
+      var(--orange),
+      var(--yellow),
+      var(--green),
+      var(--blue)
+    )
+    1;
+  color: rgba(255, 255, 255, 0.92);
   display: grid;
   font-size: 0.86rem;
   gap: 24px clamp(24px, 4vw, 48px);
@@ -613,7 +656,7 @@ h3 {
 .footer-badge {
   align-self: center;
   background: var(--white);
-  border: 1px solid rgba(200, 169, 110, 0.55);
+  border: 1px solid rgba(247, 181, 0, 0.65);
   border-radius: 12px;
   display: inline-flex;
   justify-self: end;
@@ -641,8 +684,8 @@ h3 {
 }
 
 .citation {
-  border-left: 1px solid rgba(200, 169, 110, 0.64);
-  color: rgba(255, 253, 248, 0.82);
+  border-left: 1px solid rgba(247, 181, 0, 0.72);
+  color: rgba(255, 255, 255, 0.88);
   display: block;
   font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono",
     monospace;
@@ -660,7 +703,7 @@ h3 {
 }
 
 .footer-links a {
-  color: rgba(255, 253, 248, 0.82);
+  color: rgba(255, 255, 255, 0.88);
   font-size: 0.72rem;
   font-weight: 800;
   letter-spacing: 0.12em;
@@ -706,11 +749,23 @@ h3 {
 }
 
 .work-card {
-  background: linear-gradient(180deg, var(--white), rgba(237, 229, 211, 0.48));
+  background: linear-gradient(180deg, var(--white), rgba(255, 240, 200, 0.5));
   border: 1px solid var(--line);
   display: flex;
   flex-direction: column;
   min-height: 100%;
+}
+
+.work-grid .work-card:nth-child(3n + 1) {
+  border-top: 4px solid var(--orange);
+}
+
+.work-grid .work-card:nth-child(3n + 2) {
+  border-top: 4px solid var(--blue);
+}
+
+.work-grid .work-card:nth-child(3n) {
+  border-top: 4px solid var(--green);
 }
 
 .work-image,
@@ -728,8 +783,8 @@ h3 {
 .work-media {
   align-items: center;
   background:
-    linear-gradient(90deg, rgba(10, 45, 87, 0.08) 1px, transparent 1px),
-    linear-gradient(180deg, rgba(155, 107, 36, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(25, 113, 194, 0.14) 1px, transparent 1px),
+    linear-gradient(180deg, rgba(247, 181, 0, 0.16) 1px, transparent 1px),
     var(--tile);
   background-size: 28px 28px;
   color: var(--deep);
@@ -754,7 +809,7 @@ h3 {
 }
 
 .work-copy p {
-  color: var(--deep);
+  color: var(--ink);
   line-height: 1.7;
 }
 
@@ -798,7 +853,7 @@ h3 {
 }
 
 .metadata-list dd {
-  color: var(--deep);
+  color: var(--ink);
   line-height: 1.55;
 }
 
@@ -840,7 +895,7 @@ h3 {
 
 .essay p,
 .prose-block p {
-  color: var(--deep);
+  color: var(--ink);
   font-family: var(--serif);
   font-size: clamp(1.12rem, 1.6vw, 1.42rem);
   line-height: 1.65;
@@ -861,9 +916,9 @@ h3 {
 }
 
 .reference-list li {
-  background: rgba(255, 254, 250, 0.72);
+  background: rgba(255, 250, 233, 0.82);
   border-left: 3px solid var(--accent);
-  color: var(--deep);
+  color: var(--ink);
   line-height: 1.65;
   padding: 18px 22px;
 }
@@ -886,7 +941,7 @@ h3 {
 .node-table th,
 .node-table td {
   border-bottom: 1px solid var(--line);
-  color: var(--deep);
+  color: var(--ink);
   padding: 16px 14px;
   text-align: left;
   vertical-align: top;
@@ -919,7 +974,7 @@ h3 {
 .citation-block {
   background: var(--white);
   border: 1px solid var(--line);
-  color: var(--deep);
+  color: var(--ink);
   font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono",
     monospace;
   font-size: clamp(0.86rem, 1vw, 1rem);
@@ -940,7 +995,7 @@ h3 {
 }
 
 .timeline-list li {
-  background: linear-gradient(90deg, var(--white), rgba(237, 229, 211, 0.42));
+  background: linear-gradient(90deg, var(--white), rgba(255, 240, 200, 0.45));
   border-left: 3px solid var(--accent);
   display: grid;
   gap: 22px;
@@ -956,7 +1011,7 @@ h3 {
 }
 
 .timeline-list p {
-  color: var(--deep);
+  color: var(--ink);
   line-height: 1.7;
   margin-bottom: 0;
 }
@@ -1030,7 +1085,7 @@ h3 {
 
 .anchor-list li {
   align-items: baseline;
-  background: rgba(255, 254, 250, 0.72);
+  background: rgba(255, 250, 233, 0.82);
   border-left: 3px solid var(--accent);
   display: flex;
   flex-wrap: wrap;
@@ -1039,7 +1094,7 @@ h3 {
 }
 
 .related-panel {
-  background: linear-gradient(180deg, var(--white), rgba(237, 229, 211, 0.5));
+  background: linear-gradient(180deg, var(--white), rgba(255, 240, 200, 0.55));
   border: 1px solid var(--line);
   padding: clamp(24px, 3vw, 36px);
 }
