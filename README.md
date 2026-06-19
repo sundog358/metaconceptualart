@@ -51,9 +51,14 @@ museum connects outward to the wider linked-data record of art.
   Wikidata SPARQL endpoint live for related concepts (progressive enhancement,
   see [`systems/wikidata.js`](systems/wikidata.js)).
 - The homepage `JSON-LD` adds `sameAs` links from defined terms to Wikidata.
+- Art-domain nodes also carry their **Getty** authority IDs — ULAN for people,
+  AAT for concepts — linking to the open `vocab.getty.edu` URIs, so the museum is
+  legible to the art world's own linked-data vocabularies.
 
-Anchor concepts: conceptual art (`Q203209`), institutional critique
-(`Q6041145`), systems art (`Q919251`), internet art (`Q1569950`).
+Anchor concepts: conceptual art (`Q203209` / AAT `300264827`), institutional
+critique (`Q6041145`), systems art (`Q919251` / AAT `300047869`), internet art
+(`Q1569950` / AAT `300419940`). Figures: LeWitt (ULAN `500115429`), Kosuth (ULAN
+`500115645`), Duchamp (ULAN `500115393`).
 
 ## 🏗️ Built With
 

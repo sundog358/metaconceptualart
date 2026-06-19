@@ -1,12 +1,14 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "Metaconceptual Art Knowledge Graph",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "updated": "2026-06-19",
-  "description": "Canonical, machine-readable knowledge graph for Metaconceptual Art. Each node carries a stable site ID and, where it corresponds to a real concept, person, or movement, a Wikidata QID so the museum can connect outward to the wider linked-data graph.",
+  "description": "Canonical, machine-readable knowledge graph for Metaconceptual Art. Each node carries a stable site ID and, where it corresponds to a real concept, person, or movement, a Wikidata QID plus the art-domain authority IDs (Getty ULAN for people, Getty AAT for concepts, Grove Art Online) so the museum connects outward to both the general and the art-specific linked-data graph.",
   "license": "CC-BY-4.0",
   "base": "https://www.metaconceptualart.com/",
   "wikidataEntityBase": "https://www.wikidata.org/wiki/",
+  "gettyVocabBase": "https://vocab.getty.edu/page/",
+  "groveArtNote": "Grove Art Online IDs (Oxford) are recorded for reference; the resource is subscription-gated, so the site links to the open Getty vocab URIs.",
   "prefixes": {
     "work": "Artwork or site-native work",
     "concept": "Defined concept or term",
@@ -42,70 +44,90 @@
       "type": "Concept",
       "label": "Conceptual art",
       "description": "Contemporary art movement that shifts attention from the handmade object to the idea.",
-      "wikidata": "Q203209"
+      "wikidata": "Q203209",
+      "getty": { "aat": "300264827" },
+      "groveArt": "T018962"
     },
     {
       "id": "concept:institutional-frame",
       "type": "Concept",
       "label": "Institutional critique",
       "description": "Artistic practice that treats the museum, market, gallery, and frame as the material of the work.",
-      "wikidata": "Q6041145"
+      "wikidata": "Q6041145",
+      "getty": null,
+      "groveArt": "T2086985"
     },
     {
       "id": "concept:systems-art",
       "type": "Concept",
       "label": "Systems art",
       "description": "Art influenced by cybernetics and systems theory, foregrounding relation, process, and feedback over the discrete object.",
-      "wikidata": "Q919251"
+      "wikidata": "Q919251",
+      "getty": { "aat": "300047869" },
+      "groveArt": "T082850"
     },
     {
       "id": "concept:net-art",
       "type": "Concept",
       "label": "Internet art",
       "description": "Art that uses the website, protocol, page, and browser as its artistic site.",
-      "wikidata": "Q1569950"
+      "wikidata": "Q1569950",
+      "getty": { "aat": "300419940" },
+      "groveArt": "T2287852"
     },
     {
       "id": "concept:readymade",
       "type": "Concept",
       "label": "Found object / readymade",
       "description": "Art created from undisguised, often modified, objects designated as art by context rather than craft.",
-      "wikidata": "Q572916"
+      "wikidata": "Q572916",
+      "getty": { "aat": "300047210" },
+      "groveArt": "T063150"
     },
     {
       "id": "concept:provenance",
       "type": "Concept",
       "label": "Provenance",
       "description": "The traceable chronology of ownership, custody, and lineage of an object, idea, or claim.",
-      "wikidata": "Q1773840"
+      "wikidata": "Q1773840",
+      "getty": { "aat": "300055863" },
+      "groveArt": "T069868"
     },
     {
       "id": "concept:knowledge-graph",
       "type": "Concept",
       "label": "Knowledge graph",
       "description": "An information repository structured as a graph of entities and relationships, the form the meta-museum takes.",
-      "wikidata": "Q33002955"
+      "wikidata": "Q33002955",
+      "getty": null,
+      "groveArt": null
     },
     {
       "id": "source:lewitt",
       "type": "Source",
       "label": "Sol LeWitt",
       "description": "American artist (1928-2007); his Sentences on Conceptual Art establish the sentence as a conceptual, rule-based unit.",
-      "wikidata": "Q168587"
+      "wikidata": "Q168587",
+      "getty": { "ulan": "500115429" },
+      "groveArt": "T050793"
     },
     {
       "id": "source:kosuth",
       "type": "Source",
       "label": "Joseph Kosuth",
       "description": "American conceptual artist (born 1945); art as inquiry into the conditions of art.",
-      "wikidata": "Q313113"
+      "wikidata": "Q313113",
+      "getty": { "ulan": "500115645" },
+      "groveArt": "T047736"
     },
     {
       "id": "source:duchamp",
       "type": "Source",
       "label": "Marcel Duchamp",
       "description": "French artist (1887-1968); designation, context, and the readymade.",
-      "wikidata": "Q5912"
+      "wikidata": "Q5912",
+      "getty": { "ulan": "500115393" },
+      "groveArt": "T023894"
     },
     {
       "id": "system:provenance-layer",

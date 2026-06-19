@@ -987,9 +987,21 @@ h3 {
 }
 
 .lod-cell .wd-link {
+  display: block;
   font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono",
     monospace;
   font-size: 0.82rem;
+}
+
+.lod-cell .getty-link {
+  color: var(--muted);
+  font-size: 0.74rem;
+  margin-top: 4px;
+}
+
+.lod-cell .getty-link:hover,
+.lod-cell .getty-link:focus-visible {
+  color: var(--accent);
 }
 
 .wider-graph {
