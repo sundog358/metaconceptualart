@@ -1,0 +1,161 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "Metaconceptual Art Knowledge Graph",
+  "version": "0.3.0",
+  "updated": "2026-06-19",
+  "description": "Canonical, machine-readable knowledge graph for Metaconceptual Art. Each node carries a stable site ID and, where it corresponds to a real concept, person, or movement, a Wikidata QID so the museum can connect outward to the wider linked-data graph.",
+  "license": "CC-BY-4.0",
+  "base": "https://www.metaconceptualart.com/",
+  "wikidataEntityBase": "https://www.wikidata.org/wiki/",
+  "prefixes": {
+    "work": "Artwork or site-native work",
+    "concept": "Defined concept or term",
+    "source": "Person, text, or origin cited by the work",
+    "system": "Structural layer of the meta-museum",
+    "role": "A position activated within the system",
+    "record": "Revision, citation, or provenance record"
+  },
+  "nodes": [
+    {
+      "id": "work:site-as-artwork",
+      "type": "Artwork",
+      "label": "The Website Itself",
+      "description": "The public page treated as the artwork: a surface where language, navigation, metadata, revision, and viewing conditions become material.",
+      "wikidata": null
+    },
+    {
+      "id": "work:eight-sentences",
+      "type": "Artwork",
+      "label": "Eight Sentences On Metaconceptual Art",
+      "description": "A sentence sequence after Sol LeWitt framing Metaconceptual Art as a field of form, institution, market, history, medium, access, and life.",
+      "wikidata": null
+    },
+    {
+      "id": "work:construction-museum",
+      "type": "Artwork",
+      "label": "Construction of the Museum as Concept",
+      "description": "The museum appears inside the artwork as something still being built: institutional authority shown as architecture, ornament, labor, and frame.",
+      "wikidata": null
+    },
+    {
+      "id": "concept:conceptual-art",
+      "type": "Concept",
+      "label": "Conceptual art",
+      "description": "Contemporary art movement that shifts attention from the handmade object to the idea.",
+      "wikidata": "Q203209"
+    },
+    {
+      "id": "concept:institutional-frame",
+      "type": "Concept",
+      "label": "Institutional critique",
+      "description": "Artistic practice that treats the museum, market, gallery, and frame as the material of the work.",
+      "wikidata": "Q6041145"
+    },
+    {
+      "id": "concept:systems-art",
+      "type": "Concept",
+      "label": "Systems art",
+      "description": "Art influenced by cybernetics and systems theory, foregrounding relation, process, and feedback over the discrete object.",
+      "wikidata": "Q919251"
+    },
+    {
+      "id": "concept:net-art",
+      "type": "Concept",
+      "label": "Internet art",
+      "description": "Art that uses the website, protocol, page, and browser as its artistic site.",
+      "wikidata": "Q1569950"
+    },
+    {
+      "id": "concept:readymade",
+      "type": "Concept",
+      "label": "Found object / readymade",
+      "description": "Art created from undisguised, often modified, objects designated as art by context rather than craft.",
+      "wikidata": "Q572916"
+    },
+    {
+      "id": "concept:provenance",
+      "type": "Concept",
+      "label": "Provenance",
+      "description": "The traceable chronology of ownership, custody, and lineage of an object, idea, or claim.",
+      "wikidata": "Q1773840"
+    },
+    {
+      "id": "concept:knowledge-graph",
+      "type": "Concept",
+      "label": "Knowledge graph",
+      "description": "An information repository structured as a graph of entities and relationships, the form the meta-museum takes.",
+      "wikidata": "Q33002955"
+    },
+    {
+      "id": "source:lewitt",
+      "type": "Source",
+      "label": "Sol LeWitt",
+      "description": "American artist (1928-2007); his Sentences on Conceptual Art establish the sentence as a conceptual, rule-based unit.",
+      "wikidata": "Q168587"
+    },
+    {
+      "id": "source:kosuth",
+      "type": "Source",
+      "label": "Joseph Kosuth",
+      "description": "American conceptual artist (born 1945); art as inquiry into the conditions of art.",
+      "wikidata": "Q313113"
+    },
+    {
+      "id": "source:duchamp",
+      "type": "Source",
+      "label": "Marcel Duchamp",
+      "description": "French artist (1887-1968); designation, context, and the readymade.",
+      "wikidata": "Q5912"
+    },
+    {
+      "id": "system:provenance-layer",
+      "type": "System",
+      "label": "Provenance Layer",
+      "description": "Tracks authorship, revision, and the lineage of every claim and work.",
+      "wikidata": null
+    },
+    {
+      "id": "role:viewer",
+      "type": "Role",
+      "label": "Viewer",
+      "description": "The position that activates meaning by reading, querying, and interpreting the work.",
+      "wikidata": null
+    },
+    {
+      "id": "record:revision-2026-06-19",
+      "type": "Revision",
+      "label": "Wikidata Layer",
+      "description": "Grounded the semantic layer in Wikidata identifiers and added a live related-concepts query.",
+      "wikidata": null
+    },
+    {
+      "id": "record:citation-primary",
+      "type": "Citation",
+      "label": "Recommended Citation",
+      "description": "Makes the work formally referenceable.",
+      "wikidata": null
+    }
+  ],
+  "edges": [
+    { "from": "work:site-as-artwork", "relation": "contains", "to": "work:eight-sentences" },
+    { "from": "work:site-as-artwork", "relation": "activated_by", "to": "role:viewer" },
+    { "from": "work:eight-sentences", "relation": "cites", "to": "source:lewitt" },
+    { "from": "work:eight-sentences", "relation": "expresses", "to": "concept:conceptual-art" },
+    { "from": "work:construction-museum", "relation": "expresses", "to": "concept:institutional-frame" },
+    { "from": "concept:conceptual-art", "relation": "influenced_by", "to": "source:duchamp" },
+    { "from": "concept:conceptual-art", "relation": "influenced_by", "to": "concept:readymade" },
+    { "from": "concept:conceptual-art", "relation": "advanced_by", "to": "source:kosuth" },
+    { "from": "concept:institutional-frame", "relation": "frames", "to": "concept:conceptual-art" },
+    { "from": "concept:systems-art", "relation": "informs", "to": "concept:knowledge-graph" },
+    { "from": "concept:net-art", "relation": "sites", "to": "work:site-as-artwork" },
+    { "from": "system:provenance-layer", "relation": "expresses", "to": "concept:provenance" },
+    { "from": "system:provenance-layer", "relation": "produces", "to": "record:revision-2026-06-19" },
+    { "from": "system:provenance-layer", "relation": "produces", "to": "record:citation-primary" }
+  ],
+  "anchorConcepts": [
+    "concept:conceptual-art",
+    "concept:institutional-frame",
+    "concept:systems-art",
+    "concept:net-art"
+  ]
+}

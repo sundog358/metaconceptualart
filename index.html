@@ -178,19 +178,22 @@
             "@type": "DefinedTerm",
             "@id": "https://www.metaconceptualart.com/#concept-art-about-art",
             "name": "Art about art",
-            "description": "Art that treats art, its language, and its conditions of legibility as material."
+            "description": "Art that treats art, its language, and its conditions of legibility as material.",
+            "sameAs": "https://www.wikidata.org/wiki/Q203209"
           },
           {
             "@type": "DefinedTerm",
             "@id": "https://www.metaconceptualart.com/#concept-art-world-as-system",
             "name": "The art world as system",
-            "description": "The institutions, markets, histories, networks, and permissions that frame artistic value."
+            "description": "The institutions, markets, histories, networks, and permissions that frame artistic value.",
+            "sameAs": "https://www.wikidata.org/wiki/Q6041145"
           },
           {
             "@type": "DefinedTerm",
             "@id": "https://www.metaconceptualart.com/#concept-provenance",
             "name": "Provenance of concepts",
-            "description": "The traceable lineage of ideas, artworks, claims, sources, and interpretations."
+            "description": "The traceable lineage of ideas, artworks, claims, sources, and interpretations.",
+            "sameAs": "https://www.wikidata.org/wiki/Q1773840"
           },
           {
             "@type": "ItemList",
@@ -438,79 +441,94 @@
             influence, claim, and exhibition context becomes a node with
             citations, revisions, and provenance. The museum is not a building;
             it is a set of relations that can be read, queried, and transformed.
+            Those relations are now grounded in Wikidata, so the museum connects
+            outward to the shared record of art.
           </p>
           <div class="graph-panel">
             <svg
-              viewBox="0 0 760 420"
+              viewBox="0 0 800 470"
               role="img"
               aria-labelledby="graph-title graph-description"
               focusable="false"
             >
-              <title id="graph-title">Metaconceptual Art knowledge graph</title>
+              <title id="graph-title">
+                Metaconceptual Art knowledge graph, grounded in Wikidata
+              </title>
               <desc id="graph-description">
-                A diagram connecting the website to artworks, concepts, sources,
-                institutions, viewers, provenance, revisions, and citations.
+                A diagram with Concept at the centre. The website shows artwork,
+                defines concept, and sits inside the institution. Artwork
+                expresses concept, the institution frames it, the viewer
+                activates it, and concept cites source. Concept and source link
+                out to Wikidata by sameAs relations.
               </desc>
               <g class="graph-lines">
-                <path d="M380 90 L180 185" />
-                <path d="M380 90 L380 185" />
-                <path d="M380 90 L580 185" />
-                <path d="M180 185 L140 305" />
-                <path d="M180 185 L285 305" />
-                <path d="M380 185 L380 305" />
-                <path d="M580 185 L500 305" />
-                <path d="M580 185 L640 305" />
+                <path d="M400 72 L165 185" />
+                <path d="M400 72 L400 215" />
+                <path d="M400 72 L640 185" />
+                <path d="M165 185 L400 215" />
+                <path d="M640 185 L400 215" />
+                <path d="M180 372 L400 215" />
+                <path d="M400 215 L400 372" />
               </g>
-              <g class="graph-node graph-node-root" transform="translate(380 90)">
-                <circle r="54" />
+              <g class="graph-lines graph-lines-same">
+                <path d="M400 215 L640 372" />
+                <path d="M400 372 L640 372" />
+              </g>
+              <g class="graph-edge-labels">
+                <text class="graph-edge-label" x="282" y="124">shows</text>
+                <text class="graph-edge-label" x="416" y="148" text-anchor="start">defines</text>
+                <text class="graph-edge-label" x="520" y="124">inside</text>
+                <text class="graph-edge-label" x="282" y="196">expresses</text>
+                <text class="graph-edge-label" x="520" y="196">frames</text>
+                <text class="graph-edge-label" x="290" y="290">activates</text>
+                <text class="graph-edge-label" x="416" y="298" text-anchor="start">cites</text>
+                <text class="graph-edge-label graph-edge-label-same" x="528" y="286">sameAs</text>
+                <text class="graph-edge-label graph-edge-label-same" x="520" y="364">sameAs</text>
+              </g>
+              <g class="graph-node graph-node-root" transform="translate(400 72)">
+                <circle r="50" />
                 <text>Website</text>
               </g>
-              <g class="graph-node" transform="translate(180 185)">
-                <circle r="44" />
+              <g class="graph-node" transform="translate(165 185)">
+                <circle r="46" />
                 <text>Artwork</text>
               </g>
-              <g class="graph-node" transform="translate(380 185)">
-                <circle r="44" />
+              <g class="graph-node graph-node-linked" transform="translate(400 215)">
+                <circle r="50" />
                 <text>Concept</text>
               </g>
-              <g class="graph-node" transform="translate(580 185)">
-                <circle r="44" />
-                <text>System</text>
-              </g>
-              <g class="graph-node" transform="translate(140 305)">
-                <circle r="38" />
-                <text>Source</text>
-              </g>
-              <g class="graph-node" transform="translate(285 305)">
-                <circle r="38" />
+              <g class="graph-node" transform="translate(640 185)">
+                <circle r="46" />
                 <text>Institution</text>
               </g>
-              <g class="graph-node" transform="translate(380 305)">
-                <circle r="38" />
+              <g class="graph-node" transform="translate(180 372)">
+                <circle r="40" />
                 <text>Viewer</text>
               </g>
-              <g class="graph-node" transform="translate(500 305)">
-                <circle r="38" />
-                <text>Revision</text>
+              <g class="graph-node graph-node-linked" transform="translate(400 372)">
+                <circle r="42" />
+                <text>Source</text>
               </g>
-              <g class="graph-node" transform="translate(640 305)">
-                <circle r="38" />
-                <text>Citation</text>
+              <g class="graph-node graph-node-external" transform="translate(640 372)">
+                <circle r="46" />
+                <text>Wikidata</text>
               </g>
             </svg>
           </div>
-          <ul class="relation-list" aria-label="Knowledge graph relations">
-            <li>
-              <span>Artwork</span><span>expresses</span><span>Concept</span>
-            </li>
-            <li><span>Concept</span><span>cites</span><span>Source</span></li>
-            <li>
-              <span>Institution</span><span>frames</span><span>Value</span>
-            </li>
-            <li>
-              <span>Visitor</span><span>activates</span><span>Meaning</span>
-            </li>
+          <ul class="graph-legend" aria-label="Graph legend">
+            <li><span class="legend-swatch legend-swatch-node"></span>Site node</li>
+            <li><span class="legend-swatch legend-swatch-linked"></span>Grounded in Wikidata</li>
+            <li><span class="legend-swatch legend-swatch-external"></span>Wikidata</li>
+            <li><span class="legend-swatch legend-swatch-same"></span>sameAs link</li>
           </ul>
+          <p class="lod-strip">
+            Now grounded in Wikidata &mdash;
+            <a class="wd-link" href="https://www.wikidata.org/wiki/Q203209" target="_blank" rel="noopener">Conceptual art</a>,
+            <a class="wd-link" href="https://www.wikidata.org/wiki/Q6041145" target="_blank" rel="noopener">Institutional critique</a>,
+            <a class="wd-link" href="https://www.wikidata.org/wiki/Q919251" target="_blank" rel="noopener">Systems art</a>,
+            <a class="wd-link" href="https://www.wikidata.org/wiki/Q1569950" target="_blank" rel="noopener">Internet art</a>.
+          </p>
+          <a class="graph-cta" href="systems/">Explore the grounded graph &rarr;</a>
         </div>
       </section>
     </main>

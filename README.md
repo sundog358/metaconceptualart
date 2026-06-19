@@ -39,6 +39,22 @@ Revision modifies Claim
 Citation makes the work referenceable
 ```
 
+## 🔗 Wikidata / Linked Open Data
+
+The knowledge graph is grounded in [Wikidata](https://www.wikidata.org). Each
+concept, source, and influence node carries a stable Wikidata QID, so the
+museum connects outward to the wider linked-data record of art.
+
+- Canonical graph data: [`data/graph.json`](data/graph.json) — nodes, edges,
+  and Wikidata identifiers.
+- The **Systems** page exposes the QIDs as linked open data and queries the
+  Wikidata SPARQL endpoint live for related concepts (progressive enhancement,
+  see [`systems/wikidata.js`](systems/wikidata.js)).
+- The homepage `JSON-LD` adds `sameAs` links from defined terms to Wikidata.
+
+Anchor concepts: conceptual art (`Q203209`), institutional critique
+(`Q6041145`), systems art (`Q919251`), internet art (`Q1569950`).
+
 ## 🏗️ Built With
 
 - 🌐 Semantic HTML

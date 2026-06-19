@@ -463,6 +463,146 @@ h3 {
   stroke: var(--gold);
 }
 
+.graph-node circle {
+  transition:
+    fill 200ms ease,
+    stroke 200ms ease;
+}
+
+.graph-node-linked circle {
+  fill: rgba(200, 169, 110, 0.16);
+  stroke: var(--gold);
+  stroke-width: 2;
+}
+
+.graph-node-external circle {
+  fill: rgba(200, 169, 110, 0.24);
+  stroke: var(--gold);
+  stroke-dasharray: 5 4;
+  stroke-width: 1.8;
+}
+
+.graph-node:hover circle,
+.graph-node:focus-visible circle {
+  fill: rgba(200, 169, 110, 0.34);
+  stroke: var(--gold);
+}
+
+.graph-lines-same path {
+  stroke: var(--gold);
+  stroke-dasharray: 4 5;
+  stroke-width: 1.6;
+}
+
+.graph-edge-label {
+  fill: rgba(255, 253, 248, 0.74);
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  paint-order: stroke;
+  stroke: var(--deep);
+  stroke-linejoin: round;
+  stroke-width: 4px;
+  text-anchor: middle;
+  text-transform: uppercase;
+}
+
+.graph-edge-label-same {
+  fill: var(--gold);
+}
+
+.graph-legend {
+  color: rgba(255, 253, 248, 0.82);
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.7rem;
+  font-weight: 700;
+  gap: 10px 22px;
+  letter-spacing: 0.1em;
+  list-style: none;
+  margin: 24px 0 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.graph-legend li {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+
+.legend-swatch {
+  display: inline-block;
+  flex: 0 0 auto;
+  height: 14px;
+  width: 14px;
+}
+
+.legend-swatch-node {
+  background: rgba(250, 253, 255, 0.1);
+  border: 1.4px solid rgba(250, 253, 255, 0.58);
+  border-radius: 50%;
+}
+
+.legend-swatch-linked {
+  background: rgba(200, 169, 110, 0.16);
+  border: 2px solid var(--gold);
+  border-radius: 50%;
+}
+
+.legend-swatch-external {
+  background: rgba(200, 169, 110, 0.24);
+  border: 1.8px dashed var(--gold);
+  border-radius: 50%;
+}
+
+.legend-swatch-same {
+  border-top: 2px dashed var(--gold);
+  height: 2px;
+  width: 22px;
+}
+
+.system-copy .lod-strip {
+  color: rgba(255, 253, 248, 0.82);
+  font-family: var(--sans);
+  font-size: 0.96rem;
+  line-height: 1.7;
+  margin-top: 26px;
+}
+
+.system-section .wd-link {
+  border-bottom-color: var(--gold);
+  color: var(--gold);
+}
+
+.system-section .wd-link:hover,
+.system-section .wd-link:focus-visible {
+  border-bottom-color: var(--white);
+  color: var(--white);
+}
+
+.graph-cta {
+  border: 1px solid var(--gold);
+  color: var(--white);
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  margin-top: 22px;
+  padding: 12px 22px;
+  text-transform: uppercase;
+  transition:
+    background 200ms ease,
+    color 200ms ease;
+}
+
+.graph-cta:hover,
+.graph-cta:focus-visible {
+  background: var(--gold);
+  color: var(--deep);
+}
+
 .graph-node text {
   dominant-baseline: middle;
   fill: var(--white);
@@ -807,6 +947,120 @@ h3 {
 .timeline-list p {
   color: var(--deep);
   line-height: 1.7;
+  margin-bottom: 0;
+}
+
+.inline-link {
+  border-bottom: 1px solid var(--accent);
+  color: var(--accent);
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono",
+    monospace;
+  font-size: 0.92em;
+}
+
+.wd-link {
+  border-bottom: 1px solid var(--accent);
+  color: var(--accent);
+  font-weight: 600;
+  transition:
+    color 180ms ease,
+    border-color 180ms ease;
+}
+
+.wd-link:hover,
+.wd-link:focus-visible {
+  border-bottom-color: currentColor;
+  color: var(--deep);
+}
+
+.wd-qid {
+  color: var(--muted);
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono",
+    monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  margin-left: 8px;
+}
+
+.lod-cell {
+  white-space: nowrap;
+}
+
+.lod-cell .wd-link {
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono",
+    monospace;
+  font-size: 0.82rem;
+}
+
+.wider-graph {
+  background: var(--white);
+  border-block: 1px solid var(--line);
+}
+
+.anchor-list {
+  display: grid;
+  gap: 1px;
+  list-style: none;
+  margin: 30px 0 0;
+  padding: 0;
+}
+
+.anchor-list li {
+  align-items: baseline;
+  background: rgba(255, 254, 250, 0.72);
+  border-left: 3px solid var(--accent);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  padding: 16px 20px;
+}
+
+.related-panel {
+  background: linear-gradient(180deg, var(--white), rgba(237, 229, 211, 0.5));
+  border: 1px solid var(--line);
+  padding: clamp(24px, 3vw, 36px);
+}
+
+.related-intro {
+  color: var(--muted);
+  font-size: 0.98rem;
+  line-height: 1.6;
+  max-width: 56ch;
+}
+
+.related-status {
+  color: var(--accent);
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono",
+    monospace;
+  font-size: 0.74rem;
+  letter-spacing: 0.04em;
+  margin: 18px 0 22px;
+}
+
+.related-list {
+  display: grid;
+  gap: 1px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.related-list li {
+  background: var(--white);
+  border: 1px solid var(--line);
+  padding: 16px 18px;
+}
+
+.wd-related-name {
+  font-family: var(--serif);
+  font-size: 1.08rem;
+  margin-bottom: 4px;
+}
+
+.wd-related-desc {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
   margin-bottom: 0;
 }
 

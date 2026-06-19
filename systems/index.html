@@ -124,7 +124,14 @@
       <section class="collection-section" aria-labelledby="nodes-title">
         <div class="section-heading">
           <p class="section-kicker">Node register</p>
-          <h2 id="nodes-title">Stable IDs</h2>
+          <h2 id="nodes-title">Stable IDs, Linked Open Data</h2>
+          <p class="section-intro">
+            Each node has a stable site ID. Where a node names a real concept,
+            movement, or figure, it is grounded in a Wikidata identifier so the
+            museum can connect outward to the wider linked-data graph. The full
+            register lives in
+            <a class="inline-link" href="../data/graph.json">data/graph.json</a>.
+          </p>
         </div>
         <div class="table-wrap">
           <table class="node-table">
@@ -134,6 +141,7 @@
                 <th>Type</th>
                 <th>Name</th>
                 <th>Relation</th>
+                <th>Linked open data</th>
               </tr>
             </thead>
             <tbody>
@@ -142,63 +150,201 @@
                 <td>Artwork</td>
                 <td>The Website Itself</td>
                 <td>contains proposition set</td>
+                <td class="lod-cell">&mdash;</td>
               </tr>
               <tr>
                 <td>work:eight-sentences</td>
                 <td>Artwork</td>
                 <td>Eight Sentences</td>
                 <td>cites source:lewitt</td>
+                <td class="lod-cell">&mdash;</td>
               </tr>
               <tr>
                 <td>work:construction-museum</td>
                 <td>Artwork</td>
                 <td>Construction of the Museum as Concept</td>
                 <td>expresses concept:institutional-frame</td>
+                <td class="lod-cell">&mdash;</td>
               </tr>
               <tr>
-                <td>concept:art-about-art</td>
+                <td>concept:conceptual-art</td>
                 <td>Concept</td>
-                <td>Art About Art</td>
-                <td>defines the project</td>
+                <td>Conceptual art</td>
+                <td>expressed by the work</td>
+                <td class="lod-cell">
+                  <a class="wd-link" href="https://www.wikidata.org/wiki/Q203209" target="_blank" rel="noopener">Q203209</a>
+                </td>
               </tr>
               <tr>
                 <td>concept:institutional-frame</td>
                 <td>Concept</td>
-                <td>Institutional Frame</td>
+                <td>Institutional critique</td>
                 <td>frames value</td>
+                <td class="lod-cell">
+                  <a class="wd-link" href="https://www.wikidata.org/wiki/Q6041145" target="_blank" rel="noopener">Q6041145</a>
+                </td>
               </tr>
               <tr>
-                <td>source:lewitt-sentences</td>
+                <td>concept:systems-art</td>
+                <td>Concept</td>
+                <td>Systems art</td>
+                <td>informs concept:knowledge-graph</td>
+                <td class="lod-cell">
+                  <a class="wd-link" href="https://www.wikidata.org/wiki/Q919251" target="_blank" rel="noopener">Q919251</a>
+                </td>
+              </tr>
+              <tr>
+                <td>concept:net-art</td>
+                <td>Concept</td>
+                <td>Internet art</td>
+                <td>sites the website</td>
+                <td class="lod-cell">
+                  <a class="wd-link" href="https://www.wikidata.org/wiki/Q1569950" target="_blank" rel="noopener">Q1569950</a>
+                </td>
+              </tr>
+              <tr>
+                <td>concept:readymade</td>
+                <td>Concept</td>
+                <td>Found object / readymade</td>
+                <td>influences concept:conceptual-art</td>
+                <td class="lod-cell">
+                  <a class="wd-link" href="https://www.wikidata.org/wiki/Q572916" target="_blank" rel="noopener">Q572916</a>
+                </td>
+              </tr>
+              <tr>
+                <td>concept:knowledge-graph</td>
+                <td>Concept</td>
+                <td>Knowledge graph</td>
+                <td>form of the meta-museum</td>
+                <td class="lod-cell">
+                  <a class="wd-link" href="https://www.wikidata.org/wiki/Q33002955" target="_blank" rel="noopener">Q33002955</a>
+                </td>
+              </tr>
+              <tr>
+                <td>concept:provenance</td>
+                <td>Concept</td>
+                <td>Provenance</td>
+                <td>tracked by the system</td>
+                <td class="lod-cell">
+                  <a class="wd-link" href="https://www.wikidata.org/wiki/Q1773840" target="_blank" rel="noopener">Q1773840</a>
+                </td>
+              </tr>
+              <tr>
+                <td>source:lewitt</td>
                 <td>Source</td>
-                <td>Sol LeWitt, Sentences on Conceptual Art</td>
+                <td>Sol LeWitt</td>
                 <td>informs sentence sequence</td>
+                <td class="lod-cell">
+                  <a class="wd-link" href="https://www.wikidata.org/wiki/Q168587" target="_blank" rel="noopener">Q168587</a>
+                </td>
               </tr>
               <tr>
-                <td>system:provenance</td>
-                <td>System</td>
-                <td>Provenance Layer</td>
-                <td>tracks authorship and revision</td>
+                <td>source:kosuth</td>
+                <td>Source</td>
+                <td>Joseph Kosuth</td>
+                <td>art as inquiry into art</td>
+                <td class="lod-cell">
+                  <a class="wd-link" href="https://www.wikidata.org/wiki/Q313113" target="_blank" rel="noopener">Q313113</a>
+                </td>
+              </tr>
+              <tr>
+                <td>source:duchamp</td>
+                <td>Source</td>
+                <td>Marcel Duchamp</td>
+                <td>designation and the readymade</td>
+                <td class="lod-cell">
+                  <a class="wd-link" href="https://www.wikidata.org/wiki/Q5912" target="_blank" rel="noopener">Q5912</a>
+                </td>
               </tr>
               <tr>
                 <td>role:viewer</td>
                 <td>Role</td>
                 <td>Viewer</td>
                 <td>activates meaning</td>
+                <td class="lod-cell">&mdash;</td>
               </tr>
               <tr>
-                <td>record:revision-2026-05-21</td>
+                <td>record:revision-2026-06-19</td>
                 <td>Revision</td>
-                <td>Roadmap Implementation</td>
-                <td>updates public structure</td>
+                <td>Wikidata Layer</td>
+                <td>grounds nodes in linked data</td>
+                <td class="lod-cell">&mdash;</td>
               </tr>
               <tr>
                 <td>record:citation-primary</td>
                 <td>Citation</td>
                 <td>Recommended Citation</td>
                 <td>makes the work referenceable</td>
+                <td class="lod-cell">&mdash;</td>
               </tr>
             </tbody>
           </table>
+        </div>
+      </section>
+
+      <section class="split-section wider-graph" aria-labelledby="wider-title">
+        <div class="prose-block">
+          <p class="section-kicker">Beyond the museum walls</p>
+          <h2 id="wider-title">Connected To The Wider Graph</h2>
+          <p>
+            The museum is not a closed building. Its anchor concepts are grounded
+            in Wikidata, the same open knowledge base that art history, museums,
+            and search engines draw on. From those anchors the graph reaches
+            outward into the shared record of art.
+          </p>
+          <ul class="anchor-list" aria-label="Anchor concepts in Wikidata">
+            <li>
+              <a class="wd-link" href="https://www.wikidata.org/wiki/Q203209" target="_blank" rel="noopener">Conceptual art</a>
+              <span class="wd-qid">Q203209</span>
+            </li>
+            <li>
+              <a class="wd-link" href="https://www.wikidata.org/wiki/Q6041145" target="_blank" rel="noopener">Institutional critique</a>
+              <span class="wd-qid">Q6041145</span>
+            </li>
+            <li>
+              <a class="wd-link" href="https://www.wikidata.org/wiki/Q919251" target="_blank" rel="noopener">Systems art</a>
+              <span class="wd-qid">Q919251</span>
+            </li>
+            <li>
+              <a class="wd-link" href="https://www.wikidata.org/wiki/Q1569950" target="_blank" rel="noopener">Internet art</a>
+              <span class="wd-qid">Q1569950</span>
+            </li>
+          </ul>
+        </div>
+        <div class="related-panel">
+          <p class="section-kicker">Live query</p>
+          <h3>Related Concepts</h3>
+          <p class="related-intro">
+            Concepts, movements, and figures that Wikidata connects to the
+            anchors above by lines of influence — fetched live when you open this
+            page.
+          </p>
+          <p id="wikidata-status" class="related-status" role="status" aria-live="polite">
+            Related concepts load from Wikidata in the browser.
+          </p>
+          <ul id="wikidata-related" class="related-list">
+            <li>
+              <p class="wd-related-name">
+                <a class="wd-link" href="https://www.wikidata.org/wiki/Q5912" target="_blank" rel="noopener">Marcel Duchamp</a>
+                <span class="wd-qid">Q5912</span>
+              </p>
+              <p class="wd-related-desc">Designation, context, and the readymade.</p>
+            </li>
+            <li>
+              <p class="wd-related-name">
+                <a class="wd-link" href="https://www.wikidata.org/wiki/Q4317200" target="_blank" rel="noopener">Neo-conceptual art</a>
+                <span class="wd-qid">Q4317200</span>
+              </p>
+              <p class="wd-related-desc">Art movement extending the conceptual lineage.</p>
+            </li>
+            <li>
+              <p class="wd-related-name">
+                <a class="wd-link" href="https://www.wikidata.org/wiki/Q17153088" target="_blank" rel="noopener">Post-conceptual</a>
+                <span class="wd-qid">Q17153088</span>
+              </p>
+              <p class="wd-related-desc">Art theory after conceptual art.</p>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
@@ -217,5 +363,6 @@
         <a href="../changelog/">Changelog</a>
       </nav>
     </footer>
+    <script src="wikidata.js" defer></script>
   </body>
 </html>
