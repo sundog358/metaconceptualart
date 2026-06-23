@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import ZoomableArtwork from "@/components/ZoomableArtwork";
 
 export const metadata: Metadata = {
   title: "Artworks",
@@ -89,11 +90,14 @@ export default function ArtworksPage() {
             </article>
 
             <article className="work-card" id="work-construction-museum">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+              <ZoomableArtwork
                 className="work-image"
                 src="/images/constructionartaiA01.png"
                 alt="An ornate gold frame surrounding a classical museum facade under construction."
+                width={1024}
+                height={1024}
+                label="Construction of the Museum as Concept"
+                manifestHref="/data/iiif/construction-museum/manifest.json"
               />
               <div className="work-copy">
                 <p className="metadata-line">

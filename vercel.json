@@ -45,6 +45,16 @@
         { "key": "Access-Control-Allow-Headers", "value": "Accept, Content-Type" },
         { "key": "Vary", "value": "Accept" }
       ]
+    },
+    {
+      "source": "/data/iiif/(.*)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/ld+json;profile=\"http://iiif.io/api/presentation/3/context.json\""
+        },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
     }
   ]
 }

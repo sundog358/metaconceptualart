@@ -4,6 +4,7 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import TodaySpotlight from "./TodaySpotlight";
+import ZoomableArtwork from "@/components/ZoomableArtwork";
 
 export const metadata: Metadata = {
   title: { absolute: "Metaconceptual Art" },
@@ -258,10 +259,12 @@ export default function HomePage() {
             </div>
           </div>
           <figure className="hero-artwork">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            <ZoomableArtwork
               src="/images/artmarketreform.jpg"
               alt="Art Market Reform"
+              width={2048}
+              height={1454}
+              label="Art Market Reform"
             />
             <figcaption>
               <span>Visual anchor</span>
