@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "About",
   description:
     "Colophon, citation, provenance, and curatorial statement for Metaconceptual Art.",
-  alternates: { canonical: "/about/" },
+  alternates: { canonical: "/about" },
 };
 
 export default function AboutPage() {

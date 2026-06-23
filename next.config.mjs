@@ -4,8 +4,9 @@ const nextConfig = {
   // Vercel or any static host). The Linked Art HTTP content negotiation lives in
   // vercel.json, since a pure static export cannot inspect request headers.
   output: "export",
-  // Preserve the existing directory-style URLs (/artworks/, /theory/, …).
-  trailingSlash: true,
+  // Fully extensionless URLs (/artworks, /theory, …). No trailingSlash, so the
+  // extensionless Linked Art record URIs under /data/linked-art are never
+  // 308-redirected to a trailing slash before vercel.json can negotiate them.
   // No image optimization server in a static export.
   images: { unoptimized: true },
 };

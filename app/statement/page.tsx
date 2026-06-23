@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Curatorial Statement",
   description:
     "Curatorial statement for Metaconceptual Art: a website that exhibits the system that makes art legible.",
-  alternates: { canonical: "/statement/" },
+  alternates: { canonical: "/statement" },
 };
 
 export default function StatementPage() {
@@ -59,7 +59,7 @@ export default function StatementPage() {
 
           <p>
             The works on view are deliberately few. The{" "}
-            <Link className="inline-link" href="/artworks/">
+            <Link className="inline-link" href="/artworks">
               Eight Sentences
             </Link>{" "}
             stand as a proposition set after Sol LeWitt; an image study shows the
@@ -71,7 +71,7 @@ export default function StatementPage() {
 
           <p>
             That argument is made concrete in the{" "}
-            <Link className="inline-link" href="/systems/">
+            <Link className="inline-link" href="/systems">
               semantic layer
             </Link>
             . Each concept and figure is pinned to the public records that
@@ -95,7 +95,7 @@ export default function StatementPage() {
             Because a museum that claims to be honest about its systems must also
             be honest about its own. The exhibition changes over time, and those
             changes are recorded in the{" "}
-            <Link className="inline-link" href="/changelog/">
+            <Link className="inline-link" href="/changelog">
               changelog
             </Link>{" "}
             rather than quietly applied. Revision is not maintenance hidden from
@@ -112,19 +112,19 @@ export default function StatementPage() {
           </p>
           <ul className="reference-list">
             <li>
-              <Link className="inline-link" href="/theory/">
+              <Link className="inline-link" href="/theory">
                 Theory
               </Link>
               : the primary text, <em>The Artwork Is The System</em>.
             </li>
             <li>
-              <Link className="inline-link" href="/artworks/">
+              <Link className="inline-link" href="/artworks">
                 Artworks
               </Link>
               : the works on view, each with a Linked Art record.
             </li>
             <li>
-              <Link className="inline-link" href="/about/">
+              <Link className="inline-link" href="/about">
                 About
               </Link>
               : colophon, citation, and provenance of the work.
@@ -135,7 +135,7 @@ export default function StatementPage() {
 
       <SiteFooter
         active="statement"
-        citation="Sun & Rain Works. Curatorial Statement for Metaconceptual Art. 2026. https://www.metaconceptualart.com/statement/"
+        citation="Sun & Rain Works. Curatorial Statement for Metaconceptual Art. 2026. https://www.metaconceptualart.com/statement"
       />
     </>
   );

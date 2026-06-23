@@ -16,13 +16,13 @@
     {
       "source": "/data/linked-art/eight-sentences",
       "has": [{ "type": "header", "key": "accept", "value": ".*text/html.*" }],
-      "destination": "/artworks/#work-eight-sentences",
+      "destination": "/artworks#work-eight-sentences",
       "statusCode": 303
     },
     {
       "source": "/data/linked-art/construction-museum",
       "has": [{ "type": "header", "key": "accept", "value": ".*text/html.*" }],
-      "destination": "/artworks/#work-construction-museum",
+      "destination": "/artworks#work-construction-museum",
       "statusCode": 303
     }
   ],

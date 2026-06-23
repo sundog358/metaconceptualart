@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Systems",
   description:
     "The Metaconceptual Art semantic system: a first knowledge graph of artworks, concepts, sources, viewers, revisions, and citations.",
-  alternates: { canonical: "/systems/" },
+  alternates: { canonical: "/systems" },
 };
 
 type Node = {
@@ -304,7 +304,7 @@ export default function SystemsPage() {
 
       <SiteFooter
         active="systems"
-        citation="Sun & Rain Works. Metaconceptual Art Semantic Layer v1. 2026. https://www.metaconceptualart.com/systems/"
+        citation="Sun & Rain Works. Metaconceptual Art Semantic Layer v1. 2026. https://www.metaconceptualart.com/systems"
       />
     </>
   );

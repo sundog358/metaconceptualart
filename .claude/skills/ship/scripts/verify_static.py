@@ -152,6 +152,7 @@ def check_html(root: Path, errors: list[str]) -> tuple[int, int, int]:
             if (
                 not target.exists()
                 and not (target / "index.html").exists()
+                and not target.with_name(target.name + ".html").exists()
                 and not target.with_name(target.name + ".json").exists()
             ):
                 errors.append(f"Broken local reference in {path}: '{ref}' -> {target}")

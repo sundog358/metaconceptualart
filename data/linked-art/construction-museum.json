@@ -149,7 +149,7 @@
           "format": "text/html",
           "access_point": [
             {
-              "id": "https://www.metaconceptualart.com/artworks/#work-construction-museum",
+              "id": "https://www.metaconceptualart.com/artworks#work-construction-museum",
               "type": "DigitalObject"
             }
           ]
@@ -165,7 +165,7 @@
     "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
     "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" },
     "alternate": [
-      { "href": "https://www.metaconceptualart.com/artworks/#work-construction-museum", "type": "text/html" }
+      { "href": "https://www.metaconceptualart.com/artworks#work-construction-museum", "type": "text/html" }
     ],
     "collection": { "href": "https://www.metaconceptualart.com/data/linked-art/collection" }
   }

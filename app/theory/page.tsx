@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Theory",
   description:
     "Primary theory text for Metaconceptual Art: art about the conditions that make art legible.",
-  alternates: { canonical: "/theory/" },
+  alternates: { canonical: "/theory" },
 };
 
 export default function TheoryPage() {
@@ -174,7 +174,7 @@ export default function TheoryPage() {
 
       <SiteFooter
         active="theory"
-        citation="Sun & Rain Works. The Artwork Is The System. 2026. Primary text for Metaconceptual Art. https://www.metaconceptualart.com/theory/"
+        citation="Sun & Rain Works. The Artwork Is The System. 2026. Primary text for Metaconceptual Art. https://www.metaconceptualart.com/theory"
       />
     </>
   );

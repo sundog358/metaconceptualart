@@ -2,9 +2,9 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 
 const LINKS = [
-  { href: "/about/", label: "About", key: "about" },
-  { href: "/statement/", label: "Statement", key: "statement" },
-  { href: "/changelog/", label: "Changelog", key: "changelog" },
+  { href: "/about", label: "About", key: "about" },
+  { href: "/statement", label: "Statement", key: "statement" },
+  { href: "/changelog", label: "Changelog", key: "changelog" },
 ] as const;
 
 const DEFAULT_CITATION =

@@ -5,7 +5,7 @@ import SiteFooter from "@/components/SiteFooter";
 export const metadata: Metadata = {
   title: "Changelog",
   description: "Visible revision history for Metaconceptual Art.",
-  alternates: { canonical: "/changelog/" },
+  alternates: { canonical: "/changelog" },
 };
 
 type Entry = { date: string; version: string; body: string };
@@ -91,7 +91,7 @@ export default function ChangelogPage() {
 
       <SiteFooter
         active="changelog"
-        citation="Sun & Rain Works. Metaconceptual Art Changelog. 2026. https://www.metaconceptualart.com/changelog/"
+        citation="Sun & Rain Works. Metaconceptual Art Changelog. 2026. https://www.metaconceptualart.com/changelog"
       />
     </>
   );

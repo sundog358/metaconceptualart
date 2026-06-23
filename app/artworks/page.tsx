@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Artworks",
   description:
     "Works on view for Metaconceptual Art: images, propositions, diagrams, and the website as artwork.",
-  alternates: { canonical: "/artworks/" },
+  alternates: { canonical: "/artworks" },
 };
 
 export default function ArtworksPage() {

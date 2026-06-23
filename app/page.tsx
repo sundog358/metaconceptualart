@@ -10,13 +10,28 @@ export const metadata: Metadata = {
     "Metaconceptual Art is Art. Art about Art. A living proposition set, museum system, and conceptual archive.",
   alternates: { canonical: "/" },
   openGraph: {
+    type: "website",
+    siteName: "Metaconceptual Art",
     title: "Metaconceptual Art",
     description:
       "A living proposition set, museum system, and conceptual archive.",
     url: "https://www.metaconceptualart.com",
-    type: "website",
+    images: [
+      {
+        url: "/images/artmarketreform.jpg",
+        width: 2048,
+        height: 1454,
+        alt: "Art Market Reform",
+      },
+    ],
   },
-  twitter: { card: "summary" },
+  twitter: {
+    card: "summary_large_image",
+    title: "Metaconceptual Art",
+    description:
+      "A living proposition set, museum system, and conceptual archive.",
+    images: ["/images/artmarketreform.jpg"],
+  },
 };
 
 const jsonLd = {
@@ -182,19 +197,19 @@ const jsonLd = {
           "@type": "SiteNavigationElement",
           position: 1,
           name: "Artworks",
-          url: "https://www.metaconceptualart.com/artworks/",
+          url: "https://www.metaconceptualart.com/artworks",
         },
         {
           "@type": "SiteNavigationElement",
           position: 2,
           name: "Theory",
-          url: "https://www.metaconceptualart.com/theory/",
+          url: "https://www.metaconceptualart.com/theory",
         },
         {
           "@type": "SiteNavigationElement",
           position: 3,
           name: "Systems",
-          url: "https://www.metaconceptualart.com/systems/",
+          url: "https://www.metaconceptualart.com/systems",
         },
       ],
     },
@@ -236,9 +251,9 @@ export default function HomePage() {
               the viewer who activates it.
             </p>
             <div className="hero-actions" aria-label="Primary sections">
-              <Link href="/artworks/">Artworks</Link>
-              <Link href="/theory/">Theory</Link>
-              <Link href="/systems/">Systems</Link>
+              <Link href="/artworks">Artworks</Link>
+              <Link href="/theory">Theory</Link>
+              <Link href="/systems">Systems</Link>
             </div>
           </div>
           <figure className="hero-artwork">
@@ -368,7 +383,7 @@ export default function HomePage() {
                 Works, gestures, diagrams, prompts, and happenings placed on view
                 as evidence of the concept in motion.
               </p>
-              <Link className="entry-link" href="/artworks/">
+              <Link className="entry-link" href="/artworks">
                 Enter artworks
               </Link>
             </article>
@@ -379,7 +394,7 @@ export default function HomePage() {
                 A reading room for definitions, propositions, notes, and essays
                 on art about art.
               </p>
-              <Link className="entry-link" href="/theory/">
+              <Link className="entry-link" href="/theory">
                 Enter theory
               </Link>
             </article>
@@ -390,7 +405,7 @@ export default function HomePage() {
                 A future Meta-Wiki where artworks, concepts, sources, authorship,
                 and provenance become linked.
               </p>
-              <Link className="entry-link" href="/systems/">
+              <Link className="entry-link" href="/systems">
                 Enter systems
               </Link>
             </article>
@@ -491,7 +506,7 @@ export default function HomePage() {
                 </dl>
               </article>
             </div>
-            <Link className="graph-cta" href="/systems/">
+            <Link className="graph-cta" href="/systems">
               See the full register →
             </Link>
           </div>
