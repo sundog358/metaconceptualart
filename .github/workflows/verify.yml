@@ -2,9 +2,12 @@ name: Verify
 
 # Per-push offline gate for the Next.js static export:
 #   1. Build the site (next build -> static export in out/).
-#   2. Static checks + Linked Art reference validation on the exported output —
+#   2. Unit + route-smoke tests (works-data integrity, linked-art id<->file,
+#      every exported route present with expected content).
+#   3. Static checks + Linked Art reference validation on the exported output —
 #      the Getty `cromulent` library (gating) and a `pyld` JSON-LD expansion.
-#   3. The discovery Activity Stream is authentically derived from git history.
+#   4. Official Linked Art JSON-Schema validation (advisory second opinion).
+#   5. The discovery Activity Stream is authentically derived from git history.
 
 on:
   push:
@@ -30,13 +33,19 @@ jobs:
       - name: Install dependencies
         run: |
           npm ci
-          python -m pip install --upgrade pip pyld cromulent
+          python -m pip install --upgrade pip pyld cromulent jsonschema referencing
 
       - name: Build static export
         run: npm run build
 
+      - name: Unit + route-smoke tests
+        run: npm test
+
       - name: Verify exported site (static checks + Linked Art reference validation)
         run: python .claude/skills/ship/scripts/verify_static.py out
+
+      - name: Linked Art JSON-Schema validation (advisory)
+        run: python .claude/skills/ship/scripts/validate_linked_art.py .
 
       - name: Verify activity stream is event-driven
         run: python .claude/skills/ship/scripts/build_activity_stream.py --check .

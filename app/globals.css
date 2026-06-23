@@ -1962,3 +1962,76 @@ h3 {
     grid-template-columns: 1fr;
   }
 }
+
+/* --- Header nav grouping + theme toggle --- */
+.nav-wrap {
+  display: flex;
+  align-items: center;
+  gap: clamp(14px, 2vw, 28px);
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--line);
+  background: var(--white);
+  color: var(--deep);
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  transition:
+    background 160ms ease,
+    color 160ms ease;
+}
+
+.theme-toggle:hover {
+  background: var(--tile);
+}
+
+/* --- Dark / "gallery" mode --- */
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --ink: #e9edf2;
+  --muted: #9db4d4;
+  --paper: #0c1119;
+  --white: #141c29;
+  --line: rgba(157, 184, 214, 0.2);
+  --deep: #cfe0f7;
+  --navy: #060a12; /* footer stays dark in both modes */
+  --accent: #ff7a3c;
+  --accent-soft: #3a2415;
+  --tile: #1b2536;
+  --gold: #ffc83a;
+  --orange: #ff7a3c;
+  --yellow: #ffc83a;
+  --blue: #5aa6e6;
+  --green: #5ec46e;
+  --shadow: 0 24px 70px rgba(0, 0, 0, 0.55);
+}
+
+/* Surfaces with hardcoded light fills: flatten to the dark panel colour. */
+html[data-theme="dark"] .site-header {
+  background: rgba(12, 17, 25, 0.9);
+}
+
+html[data-theme="dark"] .hero-actions a {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+html[data-theme="dark"] .hero-actions a:first-child {
+  background: var(--deep);
+  color: var(--paper);
+}
+
+html[data-theme="dark"] .sentence-list li,
+html[data-theme="dark"] .entry,
+html[data-theme="dark"] .work-card,
+html[data-theme="dark"] .timeline-list li,
+html[data-theme="dark"] .related-panel,
+html[data-theme="dark"] .reference-list li,
+html[data-theme="dark"] .anchor-list li {
+  background: var(--white);
+}

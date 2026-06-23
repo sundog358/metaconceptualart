@@ -4,7 +4,50 @@ import { notFound } from "next/navigation";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import ZoomableArtwork from "@/components/ZoomableArtwork";
-import { getWork, workSlugs } from "@/lib/works";
+import JsonLd from "@/components/JsonLd";
+import { getWork, workSlugs, type Work } from "@/lib/works";
+
+const BASE = "https://www.metaconceptualart.com";
+
+function workSchema(work: Work) {
+  return {
+    "@context": "https://schema.org",
+    "@type": work.image ? "VisualArtwork" : "CreativeWork",
+    "@id": BASE + "/artworks/" + work.slug + "#work",
+    name: work.title,
+    url: BASE + "/artworks/" + work.slug,
+    dateCreated: work.year,
+    description: work.summary,
+    creator: { "@type": "Organization", name: "Sun & Rain Works", url: BASE },
+    copyrightHolder: { "@type": "Organization", name: "Sun & Rain Works" },
+    copyrightYear: work.year,
+    license: "https://creativecommons.org/licenses/by/4.0/",
+    isAccessibleForFree: true,
+    genre: ["Conceptual art", "Metaconceptual Art"],
+    ...(work.image
+      ? {
+          image: BASE + work.image.src,
+          thumbnailUrl: BASE + work.image.src,
+          artform: "Digital image",
+          artMedium: "Digital image",
+        }
+      : {}),
+    ...(work.sentences
+      ? { text: work.sentences.map((s, i) => i + 1 + ". " + s).join(" ") }
+      : {}),
+    isPartOf: {
+      "@type": "Collection",
+      "@id": BASE + "/data/linked-art/collection",
+      name: "Metaconceptual Art — Collection",
+    },
+    subjectOf: {
+      "@type": "Dataset",
+      name: "Linked Art (CIDOC-CRM) record",
+      url: BASE + work.linkedArt,
+      encodingFormat: "application/ld+json",
+    },
+  };
+}
 
 export function generateStaticParams() {
   return workSlugs();
@@ -38,6 +81,7 @@ export default async function WorkPage({
   return (
     <>
       <SiteHeader active="artworks" />
+      <JsonLd data={workSchema(work)} />
 
       <main className="page-main">
         <section

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ThemeToggle from "./ThemeToggle";
 
 const NAV = [
   { href: "/artworks", label: "Artworks", key: "artworks" },
@@ -20,17 +21,20 @@ export default function SiteHeader({ active }: { active?: string }) {
         />
         <span>Metaconceptual Art</span>
       </Link>
-      <nav className="nav" aria-label="Primary navigation">
-        {NAV.map((n) => (
-          <Link
-            key={n.key}
-            href={n.href}
-            aria-current={active === n.key ? "page" : undefined}
-          >
-            {n.label}
-          </Link>
-        ))}
-      </nav>
+      <div className="nav-wrap">
+        <nav className="nav" aria-label="Primary navigation">
+          {NAV.map((n) => (
+            <Link
+              key={n.key}
+              href={n.href}
+              aria-current={active === n.key ? "page" : undefined}
+            >
+              {n.label}
+            </Link>
+          ))}
+        </nav>
+        <ThemeToggle />
+      </div>
     </header>
   );
 }
