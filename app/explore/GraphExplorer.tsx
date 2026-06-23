@@ -78,7 +78,15 @@ export default function GraphExplorer() {
       .then((g: Graph) => {
         if (cancelled) return;
         setGraph(g);
-        if (!g.nodes.some((n) => n.id === DEFAULT_ID) && g.nodes[0]) {
+        // Deep link: /explore?node=<id> centres on that node (e.g. from the
+        // home "Today" spotlight). Falls back to the default, then first node.
+        const wanted =
+          typeof window !== "undefined"
+            ? new URLSearchParams(window.location.search).get("node")
+            : null;
+        if (wanted && g.nodes.some((n) => n.id === wanted)) {
+          setSelectedId(wanted);
+        } else if (!g.nodes.some((n) => n.id === DEFAULT_ID) && g.nodes[0]) {
           setSelectedId(g.nodes[0].id);
         }
       })

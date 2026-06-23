@@ -3,6 +3,7 @@ import Link from "next/link";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
+import TodaySpotlight from "./TodaySpotlight";
 
 export const metadata: Metadata = {
   title: { absolute: "Metaconceptual Art" },
@@ -269,6 +270,8 @@ export default function HomePage() {
             </figcaption>
           </figure>
         </section>
+
+        <TodaySpotlight />
 
         <section
           id="sentences"

@@ -1650,3 +1650,125 @@ h3 {
     max-height: 260px;
   }
 }
+
+/* --- Home "Today in the Graph" daily spotlight --- */
+.today {
+  padding: clamp(48px, 7vw, 96px) clamp(20px, 5vw, 72px);
+}
+
+.today-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 12px 18px;
+  margin-bottom: 22px;
+}
+
+.today-head h2 {
+  margin: 0;
+  flex: 1 1 auto;
+}
+
+.today-shuffle {
+  flex: none;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  background: var(--white);
+  color: var(--deep);
+  font: inherit;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  transition: background 160ms ease;
+}
+
+.today-shuffle:hover {
+  background: var(--tile);
+}
+
+.today-card {
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
+  background: var(--white);
+  padding: clamp(20px, 3.5vw, 36px);
+  box-shadow: var(--shadow);
+}
+
+.today-kind {
+  margin: 0 0 4px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.today-card h3 {
+  margin: 0 0 12px;
+  color: var(--deep);
+  font-family: var(--serif);
+  font-size: clamp(1.5rem, 3vw, 2.1rem);
+}
+
+.today-desc {
+  max-width: 64ch;
+  font-size: 1.02rem;
+  line-height: 1.6;
+}
+
+.today-facts {
+  margin: 20px 0;
+  padding: 16px 18px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+}
+
+.today-badge {
+  margin: 0 0 12px;
+  color: var(--accent);
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+}
+
+.today-fact-list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.today-fact-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 12px;
+}
+
+.today-fact-prop {
+  min-width: 120px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.today-native {
+  margin: 18px 0;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.today-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 22px;
+  margin-top: 18px;
+}
+
+.today-note {
+  margin: 16px 0 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
