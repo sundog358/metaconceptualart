@@ -254,17 +254,21 @@ and degrades gracefully. (met)
 
 ### What's next
 
-Forward-looking, in rough priority — none are foundational:
+Recently completed (v0.9 polish): verified the responsive layout (no horizontal
+overflow anywhere), trimmed ~2.9 MB of unused images, added a web-app manifest +
+skip-to-content link, and DRY'd the three client islands onto a shared
+`lib/wikidata.ts`.
 
-- **Verify mobile layout** and measure page weight / load time (the two remaining
-  unchecked items below).
-- Deeper **`/theory/<slug>`** essays and standalone `Person`/`Concept` records
-  where coverage is thin.
+Forward-looking, in rough priority — none are foundational, and each now needs
+input beyond engineering:
+
+- Deeper **`/theory/<slug>`** essays (needs written content) and standalone
+  `Person`/`Concept` records where coverage is thin.
 - Phase 5 participation: visitor responses / interpretive logs, revision histories
-  for claims.
-- Optional polish: a web-app manifest, a skip-to-content link, and a DRY
-  `lib/wikidata.ts` shared by the three client islands.
-- Submit/register the work in net-art contexts (Rhizome, e-flux).
+  for claims — requires a backend/form service (the site is a static export).
+- Submit/register the work in net-art contexts (Rhizome, e-flux) — an external
+  action.
+- Optional: page-weight/load-time budgets in CI (e.g. Lighthouse CI).
 
 ## Information Architecture
 
@@ -469,17 +473,15 @@ Done:
 - Repeated data moved into structured files (`data/graph.json`,
   `data/linked-art/`, `lib/works.ts`); event-driven changelog data.
 - CI gate: build + `node --test` + Linked Art validation + live conformance probe.
-
-Now:
-
-- Verify mobile/responsive layout end-to-end; measure page weight and load time.
-- DRY the three client islands onto a shared `lib/wikidata.ts` SPARQL helper.
+- Verified responsive layout (no overflow); trimmed ~2.9 MB of unused images.
+- Web-app manifest + skip-to-content link; DRY'd the client islands onto a shared
+  `lib/wikidata.ts` SPARQL helper.
 
 Later:
 
 - `/theory/<slug>` essays and a searchable Meta-Wiki.
-- Visitor annotations / submissions; provenance trails per claim.
-- A web-app manifest + skip-to-content link; performance budgets in CI.
+- Visitor annotations / submissions; provenance trails per claim (needs a backend).
+- Performance budgets in CI (e.g. Lighthouse CI).
 
 ## Portfolio Positioning
 
@@ -537,7 +539,6 @@ Suggested process page sections:
 - [x] Add metadata/provenance styling.
 - [x] Reduce decorative noise.
 - [x] Add one restrained entrance animation.
-- [ ] Verify mobile layout.
 
 ### Accessibility And Performance
 
@@ -547,8 +548,10 @@ Suggested process page sections:
 - [x] Respect `prefers-reduced-motion`.
 - [x] Keep JavaScript minimal.
 - [x] Add a dark "gallery" mode (persisted, no-flash).
-- [ ] Verify mobile layout.
-- [ ] Test page weight and load time.
+- [x] Add a skip-to-content link and a web-app manifest.
+- [x] Verify mobile layout (no horizontal overflow).
+- [x] Trim page weight (removed ~2.9 MB of unused images).
+- [ ] Add page-weight/load-time budgets in CI.
 
 ### Platform & interoperability
 
@@ -558,6 +561,7 @@ Suggested process page sections:
 - [x] IIIF manifests + deep-zoom viewer.
 - [x] Per-work detail pages (`/artworks/<slug>`) + build-time OG cards.
 - [x] Interactive graph explorer (`/explore`) + daily "Today" spotlight.
+- [x] Shared `lib/wikidata.ts` SPARQL helper across the client islands.
 
 ### Quality, SEO & resilience
 
