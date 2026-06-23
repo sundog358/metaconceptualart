@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import ZoomableArtwork from "@/components/ZoomableArtwork";
+import { WORKS } from "@/lib/works";
 
 export const metadata: Metadata = {
   title: "Artworks",
@@ -38,8 +40,8 @@ export default function ArtworksPage() {
             <h2 id="collection-title">Two Works</h2>
             <p className="section-intro">
               A deliberately tight first register: the canonical sentence
-              sequence and the museum-as-concept image study, each with metadata
-              and conceptual relations. Each work also publishes a{" "}
+              sequence and the museum-as-concept image study, each with its own
+              page, metadata, and conceptual relations. Each work also publishes a{" "}
               <a
                 className="inline-link"
                 href="/data/linked-art/collection"
@@ -54,81 +56,54 @@ export default function ArtworksPage() {
           </div>
 
           <div className="work-grid">
-            <article className="work-card" id="work-eight-sentences">
-              <div className="work-media work-media-text" aria-hidden="true">
-                <span>01-08</span>
-              </div>
-              <div className="work-copy">
-                <p className="metadata-line">
-                  work:eight-sentences / 2026 / proposition sequence
-                </p>
-                <h3>Eight Sentences On Metaconceptual Art</h3>
-                <p>
-                  A sentence sequence after Sol LeWitt that frames Metaconceptual
-                  Art as a field of form, institution, market, history, medium,
-                  access, and life.
-                </p>
-                <dl className="metadata-list">
-                  <div>
-                    <dt>Source</dt>
-                    <dd>Sol LeWitt lineage</dd>
+            {WORKS.map((w) => (
+              <article className="work-card" id={"work-" + w.slug} key={w.slug}>
+                {w.image ? (
+                  <ZoomableArtwork
+                    className="work-image"
+                    src={w.image.src}
+                    alt={w.image.alt}
+                    width={w.image.width}
+                    height={w.image.height}
+                    label={w.title}
+                    manifestHref={w.image.manifest}
+                  />
+                ) : w.textMedia ? (
+                  <div className="work-media work-media-text" aria-hidden="true">
+                    <span>{w.textMedia}</span>
                   </div>
-                  <div>
-                    <dt>Relation</dt>
-                    <dd>Claim belongs to proposition set</dd>
-                  </div>
-                </dl>
-                <a
-                  className="linked-art-link"
-                  href="/data/linked-art/eight-sentences"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  Linked Art (JSON-LD) ↗
-                </a>
-              </div>
-            </article>
+                ) : null}
 
-            <article className="work-card" id="work-construction-museum">
-              <ZoomableArtwork
-                className="work-image"
-                src="/images/constructionartaiA01.png"
-                alt="An ornate gold frame surrounding a classical museum facade under construction."
-                width={1024}
-                height={1024}
-                label="Construction of the Museum as Concept"
-                manifestHref="/data/iiif/construction-museum/manifest.json"
-              />
-              <div className="work-copy">
-                <p className="metadata-line">
-                  work:construction-museum / 2026 / image study
-                </p>
-                <h3>Construction of the Museum as Concept</h3>
-                <p>
-                  The museum appears inside the artwork as something still being
-                  built. Institutional authority is shown as architecture,
-                  ornament, labor, scaffolding, and frame.
-                </p>
-                <dl className="metadata-list">
-                  <div>
-                    <dt>Concept</dt>
-                    <dd>Institutional frame</dd>
+                <div className="work-copy">
+                  <p className="metadata-line">{w.idLine}</p>
+                  <h3>
+                    <Link href={"/artworks/" + w.slug}>{w.title}</Link>
+                  </h3>
+                  <p>{w.summary}</p>
+                  <dl className="metadata-list">
+                    {w.metadata.slice(0, 2).map((m) => (
+                      <div key={m.label}>
+                        <dt>{m.label}</dt>
+                        <dd>{m.value}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                  <div className="work-card-links">
+                    <Link className="entry-link" href={"/artworks/" + w.slug}>
+                      View work →
+                    </Link>
+                    <a
+                      className="linked-art-link"
+                      href={w.linkedArt}
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      Linked Art (JSON-LD) ↗
+                    </a>
                   </div>
-                  <div>
-                    <dt>Relation</dt>
-                    <dd>Institution frames artwork</dd>
-                  </div>
-                </dl>
-                <a
-                  className="linked-art-link"
-                  href="/data/linked-art/construction-museum"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  Linked Art (JSON-LD) ↗
-                </a>
-              </div>
-            </article>
+                </div>
+              </article>
+            ))}
           </div>
         </section>
       </main>

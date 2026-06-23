@@ -1885,3 +1885,80 @@ h3 {
   font-size: 0.78rem;
   letter-spacing: 0.04em;
 }
+
+/* --- Per-work detail page (/artworks/<slug>) --- */
+.back-link {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.work-card-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 20px;
+  margin-top: 16px;
+}
+
+.work-detail {
+  display: grid;
+  grid-template-columns: minmax(0, 380px) 1fr;
+  gap: clamp(28px, 4vw, 56px);
+  align-items: start;
+  padding: clamp(32px, 5vw, 64px) clamp(20px, 5vw, 72px)
+    clamp(56px, 8vw, 104px);
+}
+
+.work-detail-media {
+  display: grid;
+  gap: 20px;
+}
+
+.work-links {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.work-detail-body > p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.work-sentences {
+  counter-reset: ws;
+  list-style: none;
+  margin: 28px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+}
+
+.work-sentences li {
+  counter-increment: ws;
+  position: relative;
+  padding-left: 44px;
+  line-height: 1.55;
+}
+
+.work-sentences li::before {
+  content: counter(ws, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 2px;
+  color: var(--accent);
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: 0.82rem;
+}
+
+@media (max-width: 760px) {
+  .work-detail {
+    grid-template-columns: 1fr;
+  }
+}
