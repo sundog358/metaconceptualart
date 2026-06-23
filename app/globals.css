@@ -272,12 +272,10 @@ h3 {
 }
 
 .hero-artwork img {
-  aspect-ratio: 4 / 5;
   border: 1px solid var(--deep);
   box-shadow: var(--shadow);
   display: block;
   height: auto;
-  object-fit: cover;
   width: 100%;
 }
 

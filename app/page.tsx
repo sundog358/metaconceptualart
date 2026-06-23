@@ -250,7 +250,7 @@ export default function HomePage() {
             <figcaption>
               <span>Visual anchor</span>
               <cite>Art Market Reform</cite>
-              <span>Image study, 2026</span>
+              <span>Image study, 2013</span>
             </figcaption>
           </figure>
         </section>
