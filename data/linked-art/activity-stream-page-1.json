@@ -95,6 +95,62 @@
         "type": "DigitalObject"
       },
       "endTime": "2026-06-19T14:57:38-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+        "type": "Set"
+      },
+      "endTime": "2026-06-23T09:47:16-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art",
+        "type": "Type"
+      },
+      "endTime": "2026-06-23T09:47:16-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/construction-museum",
+        "type": "DigitalObject"
+      },
+      "endTime": "2026-06-23T09:47:16-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/eight-sentences",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-06-23T09:47:16-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/provenance-publication",
+        "type": "Activity"
+      },
+      "endTime": "2026-06-23T09:47:16-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/site-as-artwork",
+        "type": "DigitalObject"
+      },
+      "endTime": "2026-06-23T09:47:16-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group"
+      },
+      "endTime": "2026-06-23T09:47:16-07:00"
     }
   ]
 }

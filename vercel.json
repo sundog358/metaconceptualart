@@ -1,5 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "node scripts/prepublic.mjs && next build",
   "redirects": [
     {
       "source": "/data/linked-art/:slug.json",

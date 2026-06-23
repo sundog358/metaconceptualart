@@ -244,15 +244,12 @@ export default function HomePage() {
           <figure className="hero-artwork">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/images/AHOTF.jpg"
-              alt="Helping Art Historians of the Future to Keep their Employment, (Here and Now)"
+              src="/images/artmarketreform.jpg"
+              alt="Art Market Reform"
             />
             <figcaption>
               <span>Visual anchor</span>
-              <cite>
-                Helping Art Historians of the Future to Keep their Employment,
-                (Here and Now)
-              </cite>
+              <cite>Art Market Reform</cite>
               <span>Image study, 2026</span>
             </figcaption>
           </figure>
