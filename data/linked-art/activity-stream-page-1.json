@@ -151,6 +151,22 @@
         "type": "Group"
       },
       "endTime": "2026-06-23T09:47:16-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/construction-museum",
+        "type": "DigitalObject"
+      },
+      "endTime": "2026-06-23T11:13:35-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/eight-sentences",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-06-23T11:13:35-07:00"
     }
   ]
 }

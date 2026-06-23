@@ -30,3 +30,7 @@ next-env.d.ts
 !README.md
 !readme.md
 
+# Local reference apps — kept for inspiration, not part of this site's deploy
+/wikidata-explorer/
+/artwork-of-the-day/
+

@@ -168,6 +168,9 @@ export default function SystemsPage() {
                 </g>
               </svg>
             </div>
+            <a className="graph-cta" href="/explore">
+              Walk this graph in the Explorer →
+            </a>
           </div>
         </section>
 
