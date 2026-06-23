@@ -1,6 +1,6 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://www.metaconceptualart.com/data/linked-art/provenance-publication.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/provenance-publication",
   "type": "Activity",
   "_label": "Publication of Metaconceptual Art (2026)",
   "classified_as": [
@@ -38,7 +38,7 @@
   },
   "carried_out_by": [
     {
-      "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works.json",
+      "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
       "type": "Group",
       "_label": "Sun & Rain Works"
     }
@@ -66,24 +66,24 @@
           ],
           "possessed_by": [
             {
-              "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works.json",
+              "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
               "type": "Group",
               "_label": "Sun & Rain Works"
             }
           ],
           "applies_to": [
             {
-              "id": "https://www.metaconceptualart.com/data/linked-art/site-as-artwork.json",
+              "id": "https://www.metaconceptualart.com/data/linked-art/site-as-artwork",
               "type": "DigitalObject",
               "_label": "The Website Itself"
             },
             {
-              "id": "https://www.metaconceptualart.com/data/linked-art/eight-sentences.json",
+              "id": "https://www.metaconceptualart.com/data/linked-art/eight-sentences",
               "type": "LinguisticObject",
               "_label": "Eight Sentences On Metaconceptual Art"
             },
             {
-              "id": "https://www.metaconceptualart.com/data/linked-art/construction-museum.json",
+              "id": "https://www.metaconceptualart.com/data/linked-art/construction-museum",
               "type": "DigitalObject",
               "_label": "Construction of the Museum as Concept"
             }
@@ -93,7 +93,7 @@
     }
   ],
   "_links": {
-    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/provenance-publication.json" },
+    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/provenance-publication" },
     "curies": [
       { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
     ],

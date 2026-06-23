@@ -1,6 +1,6 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
   "type": "Group",
   "_label": "Sun & Rain Works",
   "identified_by": [
@@ -73,7 +73,7 @@
     }
   },
   "_links": {
-    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works.json" },
+    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works" },
     "curies": [
       { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
     ],

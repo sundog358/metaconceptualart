@@ -1,8 +1,10 @@
 name: Verify
 
-# Continuous certification: every push and pull request runs the static-site
-# verify gate, which includes Linked Art conformance — the Getty `cromulent`
-# reference library (gating) and a `pyld` JSON-LD expansion.
+# Per-push offline gate for the Next.js static export:
+#   1. Build the site (next build -> static export in out/).
+#   2. Static checks + Linked Art reference validation on the exported output —
+#      the Getty `cromulent` library (gating) and a `pyld` JSON-LD expansion.
+#   3. The discovery Activity Stream is authentically derived from git history.
 
 on:
   push:
@@ -13,13 +15,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # the activity stream is built from full history
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Install Linked Art validators
-        run: python -m pip install --upgrade pip pyld cromulent
+      - name: Install dependencies
+        run: |
+          npm ci
+          python -m pip install --upgrade pip pyld cromulent
 
-      - name: Verify gate (static checks + Linked Art reference validation)
-        run: python .claude/skills/ship/scripts/verify_static.py .
+      - name: Build static export
+        run: npm run build
+
+      - name: Verify exported site (static checks + Linked Art reference validation)
+        run: python .claude/skills/ship/scripts/verify_static.py out
+
+      - name: Verify activity stream is event-driven
+        run: python .claude/skills/ship/scripts/build_activity_stream.py --check .

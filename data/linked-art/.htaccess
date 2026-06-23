@@ -1,21 +1,65 @@
-# Linked Art API 1.0 — minimal static-file conformance on HostGator (Apache).
-# Per the API protocol, a static publisher conforms by supporting GET + OPTIONS,
-# returning the application/ld+json profile media type, and allowing CORS. 303
-# redirects and a dynamic profile parameter are NOT required.
+# Linked Art API 1.0 — content negotiation on Apache (HostGator).
+#
+# Canonical resource URIs are EXTENSIONLESS, e.g.
+#   https://www.metaconceptualart.com/data/linked-art/site-as-artwork
+# The .json files on disk are the representations. This config maps the clean URI
+# to them, negotiates HTML vs JSON-LD per the Accept header, canonicalises away
+# the .json extension, serves the profiled media type with CORS, and answers
+# OPTIONS preflight. A single resource has a single identifier, and that
+# identifier dereferences with real content negotiation.
+#
+# Keep this in sync with .claude/skills/ship/scripts/verify_live.py, which probes
+# exactly these behaviours against a live endpoint (CI runs it against real
+# Apache loading this file, and on a schedule against production).
 
-<IfModule mod_headers.c>
-  <FilesMatch "\.json$">
-    Header always set Content-Type "application/ld+json;profile=\"https://linked.art/ns/v1/linked-art.json\""
-    Header always set Access-Control-Allow-Origin "*"
-    Header always set Access-Control-Allow-Methods "GET, OPTIONS"
-    Header always set Access-Control-Allow-Headers "Accept, Content-Type"
-    Header always set Vary "Accept"
-  </FilesMatch>
-</IfModule>
+Options -MultiViews
 
-# Answer CORS / OPTIONS preflight requests with 204 No Content.
 <IfModule mod_rewrite.c>
   RewriteEngine On
+  RewriteBase /data/linked-art/
+
+  # CORS preflight: answer OPTIONS with 204 No Content (CORS headers below).
   RewriteCond %{REQUEST_METHOD} =OPTIONS
-  RewriteRule \.json$ - [R=204,L]
+  RewriteRule ^ - [R=204,L]
+
+  # Canonicalise: an explicit .json request 301s to the extensionless URI, so each
+  # resource has one identifier. Keyed on the literal request line, so the internal
+  # extensionless->.json rewrite below never re-triggers it (no redirect loop).
+  RewriteCond %{THE_REQUEST} \s/+data/linked-art/([A-Za-z0-9-]+)\.json[\s?] [NC]
+  RewriteRule ^[A-Za-z0-9-]+\.json$ /data/linked-art/%1 [R=301,L,NE]
+
+  # Content negotiation: when the client prefers HTML and the resource has a human
+  # page, 303 See Other to it (abstract resource -> its HTML representation). The
+  # [NE] flag preserves the #fragment in the Location header.
+  RewriteCond %{HTTP_ACCEPT} text/html [NC]
+  RewriteRule ^site-as-artwork$ https://www.metaconceptualart.com/ [R=303,L,NE]
+  RewriteCond %{HTTP_ACCEPT} text/html [NC]
+  RewriteRule ^eight-sentences$ https://www.metaconceptualart.com/artworks/#work-eight-sentences [R=303,L,NE]
+  RewriteCond %{HTTP_ACCEPT} text/html [NC]
+  RewriteRule ^construction-museum$ https://www.metaconceptualart.com/artworks/#work-construction-museum [R=303,L,NE]
+
+  # Default representation: serve the JSON-LD from the matching .json file on disk.
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME}\.json -f
+  RewriteRule ^([A-Za-z0-9-]+)$ $1.json [L]
+</IfModule>
+
+<IfModule mod_headers.c>
+  # CORS + Vary apply to every response in this directory (including the
+  # extensionless URIs and the OPTIONS 204, which carry no .json filename).
+  Header always set Access-Control-Allow-Origin "*"
+  Header always set Access-Control-Allow-Methods "GET, OPTIONS"
+  Header always set Access-Control-Allow-Headers "Accept, Content-Type"
+  Header always set Vary "Accept"
+
+  # Linked Art records: the profiled JSON-LD media type.
+  <FilesMatch "\.json$">
+    Header always set Content-Type "application/ld+json;profile=\"https://linked.art/ns/v1/linked-art.json\""
+  </FilesMatch>
+
+  # Activity-Streams discovery docs use the AS 2.0 context, so they carry the
+  # Activity Streams profile instead (this block wins for activity-stream*.json).
+  <FilesMatch "^activity-stream.*\.json$">
+    Header always set Content-Type "application/ld+json;profile=\"https://www.w3.org/ns/activitystreams\""
+  </FilesMatch>
 </IfModule>

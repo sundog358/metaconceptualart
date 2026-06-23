@@ -136,8 +136,24 @@ def check_html(root: Path, errors: list[str]) -> tuple[int, int, int]:
             if not ref or EXTERNAL_RE.match(ref):
                 continue
             link_count += 1
-            target = (path.parent / ref.split("#")[0].split("?")[0]).resolve()
-            if not target.exists():
+            ref_path = ref.split("#")[0].split("?")[0]
+            if not ref_path:
+                continue
+            # Root-absolute refs (/images/…, /statement/, /_next/…) resolve against
+            # the scanned site root, not the filesystem root; relative refs resolve
+            # against the file's directory.
+            if ref_path.startswith("/"):
+                target = (root / ref_path.lstrip("/")).resolve()
+            else:
+                target = (path.parent / ref_path).resolve()
+            # A reference is satisfied by the file itself, a directory index, or —
+            # for extensionless content-negotiated resources like Linked Art
+            # records served from a .json — the <ref>.json file.
+            if (
+                not target.exists()
+                and not (target / "index.html").exists()
+                and not target.with_name(target.name + ".json").exists()
+            ):
                 errors.append(f"Broken local reference in {path}: '{ref}' -> {target}")
     return html_count, ldjson_count, link_count
 

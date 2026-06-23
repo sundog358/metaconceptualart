@@ -9,15 +9,15 @@
   "wikidataEntityBase": "https://www.wikidata.org/wiki/",
   "gettyVocabBase": "https://vocab.getty.edu/page/",
   "linkedArtBase": "https://www.metaconceptualart.com/data/linked-art/",
-  "linkedArtDiscovery": "https://www.metaconceptualart.com/data/linked-art/activity-stream.json",
+  "linkedArtDiscovery": "https://www.metaconceptualart.com/data/linked-art/activity-stream",
   "linkedArtRecords": [
-    { "id": "site-as-artwork.json", "type": "DigitalObject", "label": "The Website Itself" },
-    { "id": "eight-sentences.json", "type": "LinguisticObject", "label": "Eight Sentences On Metaconceptual Art" },
-    { "id": "construction-museum.json", "type": "DigitalObject", "label": "Construction of the Museum as Concept" },
-    { "id": "collection.json", "type": "Set", "label": "Metaconceptual Art — Collection" },
-    { "id": "sun-and-rain-works.json", "type": "Group", "label": "Sun & Rain Works" },
-    { "id": "concept-metaconceptual-art.json", "type": "Type", "label": "Metaconceptual Art (concept)" },
-    { "id": "provenance-publication.json", "type": "Activity", "label": "Publication of Metaconceptual Art (2026)" }
+    { "id": "site-as-artwork", "type": "DigitalObject", "label": "The Website Itself" },
+    { "id": "eight-sentences", "type": "LinguisticObject", "label": "Eight Sentences On Metaconceptual Art" },
+    { "id": "construction-museum", "type": "DigitalObject", "label": "Construction of the Museum as Concept" },
+    { "id": "collection", "type": "Set", "label": "Metaconceptual Art — Collection" },
+    { "id": "sun-and-rain-works", "type": "Group", "label": "Sun & Rain Works" },
+    { "id": "concept-metaconceptual-art", "type": "Type", "label": "Metaconceptual Art (concept)" },
+    { "id": "provenance-publication", "type": "Activity", "label": "Publication of Metaconceptual Art (2026)" }
   ],
   "groveArtNote": "Grove Art Online IDs (Oxford) are recorded for reference; the resource is subscription-gated, so the site links to the open Getty vocab URIs.",
   "prefixes": {
@@ -35,7 +35,7 @@
       "label": "The Website Itself",
       "description": "The public page treated as the artwork: a surface where language, navigation, metadata, revision, and viewing conditions become material.",
       "wikidata": null,
-      "linkedArt": "data/linked-art/site-as-artwork.json"
+      "linkedArt": "data/linked-art/site-as-artwork"
     },
     {
       "id": "work:eight-sentences",
@@ -43,7 +43,7 @@
       "label": "Eight Sentences On Metaconceptual Art",
       "description": "A sentence sequence after Sol LeWitt framing Metaconceptual Art as a field of form, institution, market, history, medium, access, and life.",
       "wikidata": null,
-      "linkedArt": "data/linked-art/eight-sentences.json"
+      "linkedArt": "data/linked-art/eight-sentences"
     },
     {
       "id": "work:construction-museum",
@@ -51,7 +51,7 @@
       "label": "Construction of the Museum as Concept",
       "description": "The museum appears inside the artwork as something still being built: institutional authority shown as architecture, ornament, labor, and frame.",
       "wikidata": null,
-      "linkedArt": "data/linked-art/construction-museum.json"
+      "linkedArt": "data/linked-art/construction-museum"
     },
     {
       "id": "concept:conceptual-art",

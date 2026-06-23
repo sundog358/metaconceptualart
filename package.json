@@ -1,0 +1,25 @@
+{
+  "name": "metaconceptualart",
+  "version": "0.8.0",
+  "private": true,
+  "description": "Metaconceptual Art — website as conceptual artwork. Next.js static export.",
+  "scripts": {
+    "predev": "node scripts/prepublic.mjs",
+    "dev": "next dev",
+    "prebuild": "node scripts/prepublic.mjs",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "16.2.9",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}

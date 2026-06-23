@@ -1,6 +1,6 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art",
   "type": "Type",
   "_label": "Metaconceptual Art",
   "identified_by": [
@@ -63,7 +63,7 @@
     }
   ],
   "_links": {
-    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art.json" },
+    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art" },
     "curies": [
       { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
     ],

@@ -1,22 +1,22 @@
 {
   "@context": "http://iiif.io/api/discovery/1/context.json",
-  "id": "https://www.metaconceptualart.com/data/linked-art/activity-stream.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/activity-stream",
   "type": "OrderedCollection",
-  "totalItems": 7,
+  "totalItems": 11,
   "rights": "https://creativecommons.org/licenses/by/4.0/",
   "seeAlso": [
     {
-      "id": "https://www.metaconceptualart.com/data/linked-art/collection.json",
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
       "type": "Set",
       "label": "Metaconceptual Art — Collection"
     }
   ],
   "first": {
-    "id": "https://www.metaconceptualart.com/data/linked-art/activity-stream-page-1.json",
+    "id": "https://www.metaconceptualart.com/data/linked-art/activity-stream-page-1",
     "type": "OrderedCollectionPage"
   },
   "last": {
-    "id": "https://www.metaconceptualart.com/data/linked-art/activity-stream-page-1.json",
+    "id": "https://www.metaconceptualart.com/data/linked-art/activity-stream-page-1",
     "type": "OrderedCollectionPage"
   }
 }

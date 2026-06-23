@@ -1,0 +1,25 @@
+name: Linked Art Conformance
+
+# Live Linked Art API 1.0 conformance against the deployed site. On Vercel the
+# content negotiation is implemented in vercel.json (the .htaccess replacement),
+# so it can only be verified against a running deployment. This probes production
+# on a schedule and on demand; per-push offline checks live in verify.yml.
+#
+# To check a Vercel preview before promoting, run locally:
+#   python .claude/skills/ship/scripts/verify_live.py <preview-url>
+
+on:
+  schedule:
+    - cron: "17 6 * * 1" # Mondays 06:17 UTC
+  workflow_dispatch:
+
+jobs:
+  production:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Probe production endpoint
+        run: python .claude/skills/ship/scripts/verify_live.py https://www.metaconceptualart.com
