@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import ErrorBoundary from "@/components/ErrorBoundary";
 import GraphExplorer from "./GraphExplorer";
 
 export const metadata: Metadata = {
@@ -30,7 +31,9 @@ export default function ExplorePage() {
           </p>
         </section>
 
-        <GraphExplorer />
+        <ErrorBoundary>
+          <GraphExplorer />
+        </ErrorBoundary>
       </main>
 
       <SiteFooter

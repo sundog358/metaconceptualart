@@ -5,6 +5,7 @@ import SiteFooter from "@/components/SiteFooter";
 import JsonLd from "@/components/JsonLd";
 import TodaySpotlight from "./TodaySpotlight";
 import ZoomableArtwork from "@/components/ZoomableArtwork";
+import ErrorBoundary from "@/components/ErrorBoundary";
 
 export const metadata: Metadata = {
   title: { absolute: "Metaconceptual Art" },
@@ -274,7 +275,9 @@ export default function HomePage() {
           </figure>
         </section>
 
-        <TodaySpotlight />
+        <ErrorBoundary>
+          <TodaySpotlight />
+        </ErrorBoundary>
 
         <section
           id="sentences"

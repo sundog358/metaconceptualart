@@ -27,6 +27,8 @@ const ASSETS = [
   "data/iiif/construction-museum/manifest.json",
   "data/graph.json",
   "images/artmarketreform.jpg",
+  "sitemap.xml",
+  "robots.txt",
 ];
 
 if (!existsSync(OUT)) {
