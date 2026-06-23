@@ -13,7 +13,7 @@ export default function NotFound() {
     <>
       <SiteHeader />
 
-      <main className="page-main">
+      <main id="main-content" className="page-main">
         <section
           className="page-hero page-hero-compact"
           aria-labelledby="nf-title"

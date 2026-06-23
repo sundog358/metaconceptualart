@@ -9,11 +9,9 @@
  * with live results.
  */
 import { useEffect, useState } from "react";
-
-type Related = { qid: string; label: string; desc?: string };
+import { relatedByInfluence, type Related } from "@/lib/wikidata";
 
 const ANCHORS = ["Q203209", "Q6041145", "Q919251", "Q1569950"];
-const ENDPOINT = "https://query.wikidata.org/sparql";
 const ENTITY = "https://www.wikidata.org/wiki/";
 
 const SEED: Related[] = [
@@ -34,24 +32,6 @@ const SEED: Related[] = [
   },
 ];
 
-function buildUrl(): string {
-  const values = ANCHORS.map((q) => "wd:" + q).join(" ");
-  const exclude = ANCHORS.map((q) => "wd:" + q).join(", ");
-  const query =
-    "SELECT DISTINCT ?item ?itemLabel ?itemDescription WHERE {" +
-    "  VALUES ?anchor { " +
-    values +
-    " }" +
-    "  { ?anchor wdt:P737 ?item. } UNION { ?item wdt:P737 ?anchor. }" +
-    "  FILTER(?item NOT IN (" +
-    exclude +
-    "))" +
-    '  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }' +
-    "}" +
-    "ORDER BY ?itemLabel LIMIT 24";
-  return ENDPOINT + "?format=json&query=" + encodeURIComponent(query);
-}
-
 export default function WikidataRelated() {
   const [items, setItems] = useState<Related[]>(SEED);
   const [status, setStatus] = useState(
@@ -61,22 +41,9 @@ export default function WikidataRelated() {
   useEffect(() => {
     let cancelled = false;
     setStatus("Querying Wikidata…");
-    fetch(buildUrl(), {
-      headers: { Accept: "application/sparql-results+json" },
-    })
-      .then((res) => {
-        if (!res.ok) throw new Error("HTTP " + res.status);
-        return res.json();
-      })
-      .then((data) => {
+    relatedByInfluence(ANCHORS)
+      .then((rows) => {
         if (cancelled) return;
-        const rows: Related[] = (data?.results?.bindings ?? []).map(
-          (row: Record<string, { value: string }>) => ({
-            qid: row.item.value.replace(/^.*\//, ""),
-            label: row.itemLabel ? row.itemLabel.value : row.item.value,
-            desc: row.itemDescription?.value,
-          }),
-        );
         if (!rows.length) {
           setStatus("No related concepts returned.");
           return;

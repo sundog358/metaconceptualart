@@ -1382,6 +1382,24 @@ h3 {
   border: 0;
 }
 
+.skip-link {
+  position: absolute;
+  left: 8px;
+  top: -56px;
+  z-index: 1100;
+  padding: 10px 16px;
+  background: var(--deep);
+  color: var(--paper);
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: top 140ms ease;
+}
+
+.skip-link:focus {
+  top: 8px;
+}
+
 .explore {
   display: grid;
   gap: 24px;

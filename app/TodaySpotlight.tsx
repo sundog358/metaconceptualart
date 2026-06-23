@@ -10,6 +10,7 @@
  */
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import { entityFacts, type Fact } from "@/lib/wikidata";
 
 type GraphNode = {
   id: string;
@@ -23,9 +24,7 @@ type Graph = {
   nodes: GraphNode[];
   wikidataEntityBase: string;
 };
-type Fact = { prop: string; value: string; qid?: string };
 
-const SPARQL = "https://query.wikidata.org/sparql";
 const TYPE_COLOR: Record<string, string> = {
   Artwork: "var(--orange)",
   Concept: "var(--blue)",
@@ -43,24 +42,6 @@ function dayOfYearUTC(): number {
   const start = Date.UTC(now.getUTCFullYear(), 0, 0);
   const today = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
   return Math.floor((today - start) / 86_400_000);
-}
-
-function factsQuery(qid: string): string {
-  // Entity-valued statements, each paired with a human-readable property name.
-  const q =
-    "SELECT ?prop ?v ?vLabel WHERE {" +
-    "  VALUES (?prop ?pred) {" +
-    '    ("instance of" wdt:P31) ("subclass of" wdt:P279)' +
-    '    ("movement" wdt:P135) ("part of" wdt:P361)' +
-    '    ("influenced by" wdt:P737) ("field of work" wdt:P101)' +
-    '    ("occupation" wdt:P106)' +
-    "  }" +
-    "  wd:" +
-    qid +
-    " ?pred ?v ." +
-    '  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }' +
-    "} LIMIT 12";
-  return SPARQL + "?format=json&query=" + encodeURIComponent(q);
 }
 
 export default function TodaySpotlight() {
@@ -99,23 +80,11 @@ export default function TodaySpotlight() {
     }
     let cancelled = false;
     setFactStatus("Reading Wikidata…");
-    fetch(factsQuery(node.wikidata), {
-      headers: { Accept: "application/sparql-results+json" },
-    })
-      .then((r) => (r.ok ? r.json() : Promise.reject()))
-      .then((data) => {
+    entityFacts(node.wikidata)
+      .then((rows) => {
         if (cancelled) return;
-        const rows: Fact[] = (data?.results?.bindings ?? []).map(
-          (b: Record<string, { value: string }>) => ({
-            prop: b.prop.value,
-            value: b.vLabel ? b.vLabel.value : b.v.value,
-            qid: b.v.value.replace(/^.*\//, ""),
-          }),
-        );
         setFacts(rows);
-        setFactStatus(
-          rows.length ? "" : "No structured statements returned.",
-        );
+        setFactStatus(rows.length ? "" : "No structured statements returned.");
       })
       .catch(() => !cancelled && setFactStatus("Wikidata could not be reached."));
     return () => {

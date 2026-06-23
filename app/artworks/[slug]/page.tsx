@@ -83,7 +83,7 @@ export default async function WorkPage({
       <SiteHeader active="artworks" />
       <JsonLd data={workSchema(work)} />
 
-      <main className="page-main">
+      <main id="main-content" className="page-main">
         <section
           className="page-hero page-hero-compact"
           aria-labelledby="work-title"

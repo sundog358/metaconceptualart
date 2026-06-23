@@ -233,7 +233,7 @@ export default function HomePage() {
       <SiteHeader active="home" />
       <JsonLd data={jsonLd} />
 
-      <main id="top" data-entity="metaconceptual-art" data-type="CreativeWork">
+      <main id="main-content" data-entity="metaconceptual-art" data-type="CreativeWork">
         <section
           className="hero"
           aria-labelledby="hero-title"

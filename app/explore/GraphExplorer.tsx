@@ -10,6 +10,7 @@
  * further out, the same progressive-enhancement pattern used on the Systems page.
  */
 import { useEffect, useMemo, useRef, useState } from "react";
+import { relatedByInfluence, type Related } from "@/lib/wikidata";
 
 type GraphNode = {
   id: string;
@@ -28,9 +29,7 @@ type Graph = {
   wikidataEntityBase: string;
   gettyVocabBase: string;
 };
-type Related = { qid: string; label: string; desc?: string };
 
-const SPARQL = "https://query.wikidata.org/sparql";
 const DEFAULT_ID = "work:site-as-artwork";
 
 const TYPE_COLOR: Record<string, string> = {
@@ -44,19 +43,6 @@ const TYPE_COLOR: Record<string, string> = {
 };
 const colorFor = (type: string) => TYPE_COLOR[type] ?? "var(--deep)";
 const short = (s: string) => (s.length > 24 ? s.slice(0, 22) + "…" : s);
-
-function relatedQuery(qid: string): string {
-  const q =
-    "SELECT DISTINCT ?item ?itemLabel ?itemDescription WHERE {" +
-    "  { wd:" +
-    qid +
-    " wdt:P737 ?item. } UNION { ?item wdt:P737 wd:" +
-    qid +
-    ". }" +
-    '  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }' +
-    "} ORDER BY ?itemLabel LIMIT 14";
-  return SPARQL + "?format=json&query=" + encodeURIComponent(q);
-}
 
 export default function GraphExplorer() {
   const [graph, setGraph] = useState<Graph | null>(null);
@@ -147,22 +133,9 @@ export default function GraphExplorer() {
     }
     let cancelled = false;
     setRelatedStatus("Querying Wikidata…");
-    fetch(relatedQuery(selected.wikidata), {
-      headers: { Accept: "application/sparql-results+json" },
-    })
-      .then((r) => {
-        if (!r.ok) throw new Error("HTTP " + r.status);
-        return r.json();
-      })
-      .then((data) => {
+    relatedByInfluence([selected.wikidata])
+      .then((rows) => {
         if (cancelled) return;
-        const rows: Related[] = (data?.results?.bindings ?? [])
-          .map((row: Record<string, { value: string }>) => ({
-            qid: row.item.value.replace(/^.*\//, ""),
-            label: row.itemLabel ? row.itemLabel.value : row.item.value,
-            desc: row.itemDescription?.value,
-          }))
-          .filter((r: Related) => r.qid !== selected.wikidata);
         setRelated(rows);
         setRelatedStatus(
           rows.length

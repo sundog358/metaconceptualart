@@ -17,7 +17,7 @@ export default function ArtworksPage() {
     <>
       <SiteHeader active="artworks" />
 
-      <main className="page-main">
+      <main id="main-content" className="page-main">
         <section
           className="page-hero page-hero-compact"
           aria-labelledby="page-title"
