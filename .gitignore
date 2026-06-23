@@ -29,6 +29,8 @@ next-env.d.ts
 *.md
 !README.md
 !readme.md
+# ...but skill docs and vendored notes under .claude must travel with the repo.
+!.claude/**/*.md
 
 # Local reference apps — kept for inspiration, not part of this site's deploy
 /wikidata-explorer/
