@@ -4,6 +4,7 @@ const NAV = [
   { href: "/artworks", label: "Artworks", key: "artworks" },
   { href: "/theory", label: "Theory", key: "theory" },
   { href: "/systems", label: "Systems", key: "systems" },
+  { href: "/explore", label: "Explore", key: "explore" },
 ] as const;
 
 export default function SiteHeader({ active }: { active?: string }) {

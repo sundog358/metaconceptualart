@@ -1527,6 +1527,10 @@ h3 {
   font-family: var(--sans);
   font-size: 12px;
   letter-spacing: 0.03em;
+  paint-order: stroke;
+  stroke: var(--paper);
+  stroke-width: 5px;
+  stroke-linejoin: round;
 }
 
 .explore-gnode {
@@ -1554,6 +1558,10 @@ h3 {
   fill: var(--ink);
   font-family: var(--sans);
   font-size: 13px;
+  paint-order: stroke;
+  stroke: var(--paper);
+  stroke-width: 5px;
+  stroke-linejoin: round;
 }
 
 .explore-gnode-label.is-center {

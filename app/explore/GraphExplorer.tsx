@@ -209,15 +209,18 @@ export default function GraphExplorer() {
   }
 
   // Ego-graph geometry: selected node at centre, neighbours on an ellipse.
+  // Odd counts start at the top; even counts rotate a half-step so a pair fans
+  // to the sides instead of stacking vertically over the centre's label.
   const cx = 410;
-  const cy = 250;
+  const cy = 260;
+  const n = connections.length;
+  const base = -Math.PI / 2 + (n % 2 === 0 ? Math.PI / n : 0);
   const positioned = connections.map((c, i) => {
-    const angle =
-      -Math.PI / 2 + (2 * Math.PI * i) / Math.max(connections.length, 1);
+    const angle = base + (2 * Math.PI * i) / Math.max(n, 1);
     return {
       ...c,
-      x: cx + 300 * Math.cos(angle),
-      y: cy + 165 * Math.sin(angle),
+      x: cx + 322 * Math.cos(angle),
+      y: cy + 172 * Math.sin(angle),
     };
   });
   const wd = graph.wikidataEntityBase;
@@ -287,7 +290,7 @@ export default function GraphExplorer() {
 
         <div className="explore-graph">
           <svg
-            viewBox="0 0 820 500"
+            viewBox="0 0 820 540"
             role="img"
             aria-label={"Relationships for " + selected.label}
           >
@@ -305,9 +308,10 @@ export default function GraphExplorer() {
               <text
                 key={"rel-" + p.node.id}
                 className="explore-edge-label"
-                x={cx + (p.x - cx) * 0.52}
-                y={cy + (p.y - cy) * 0.52 - 4}
+                x={cx + (p.x - cx) * 0.58}
+                y={cy + (p.y - cy) * 0.58}
                 textAnchor="middle"
+                dominantBaseline="middle"
               >
                 {p.outgoing ? p.relation + " →" : "← " + p.relation}
               </text>
@@ -329,10 +333,10 @@ export default function GraphExplorer() {
                 }}
               >
                 <circle
-                  r={42}
+                  r={34}
                   style={{ fill: colorFor(p.node.type), stroke: colorFor(p.node.type) }}
                 />
-                <text className="explore-gnode-label" y={64} textAnchor="middle">
+                <text className="explore-gnode-label" y={54} textAnchor="middle">
                   {short(p.node.label)}
                 </text>
               </g>
@@ -340,10 +344,10 @@ export default function GraphExplorer() {
             <g transform={"translate(" + cx + " " + cy + ")"}>
               <circle
                 className="explore-gnode-center"
-                r={56}
+                r={48}
                 style={{ fill: colorFor(selected.type), stroke: colorFor(selected.type) }}
               />
-              <text className="explore-gnode-label is-center" y={80} textAnchor="middle">
+              <text className="explore-gnode-label is-center" y={70} textAnchor="middle">
                 {short(selected.label)}
               </text>
             </g>
