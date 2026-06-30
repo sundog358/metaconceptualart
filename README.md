@@ -74,8 +74,14 @@ museum connects outward to the wider linked-data record of art.
   **event-driven** — every `Create`/`Update` activity is generated from the
   records' real git-commit history by
   [`build_activity_stream.py`](.claude/skills/ship/scripts/build_activity_stream.py).
+- The movement claim now has a machine-facing foundation: [`/llms.txt`](public/llms.txt)
+  indexes canonical evidence for bots, [`data/profile/metaconceptual-art-profile.jsonld`](data/profile/metaconceptual-art-profile.jsonld)
+  defines the linked-open-art profile, [`data/profile/metaconceptual-art-claim.schema.json`](data/profile/metaconceptual-art-claim.schema.json)
+  gives future claims a lightweight validation shape, and the Movement Dossier is
+  a citable Linked Art `LinguisticObject` at
+  `/data/linked-art/movement-dossier`.
 - The records are **certified against the Getty `cromulent` reference library**
-  (7/7) plus a `pyld` JSON-LD expansion, run in the verify gate and in **CI**
+  (8/8) plus a `pyld` JSON-LD expansion, run in the verify gate and in **CI**
   (GitHub Actions) on every push. The `data/linked-art/.htaccess` meets the API's
   minimal static-file conformance (`application/ld+json` + profile, GET/OPTIONS,
   CORS).
@@ -115,9 +121,10 @@ validates the export plus the Linked Art records on every push; a scheduled
 
 ## 📌 Status
 
-This is an evolving artwork and system. The current version (v0.8) is a Next.js
-static export with seven pages — landing, artworks, theory, systems, statement,
-about, and changelog — plus a ten-node graph and certified Linked Art records.
+This is an evolving artwork and system. The current main branch is a Next.js
+static export with the core museum pages — landing, artworks, per-work detail
+pages, theory, systems, explore, statement, about, and changelog — plus a
+knowledge graph and certified Linked Art records.
 
 ## 🧾 Citation
 

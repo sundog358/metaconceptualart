@@ -12,6 +12,16 @@ type Entry = { date: string; version: string; body: string };
 
 const ENTRIES: Entry[] = [
   {
+    date: "2026-06-30",
+    version: "Machine-Readable Foundation",
+    body: "Added a bot-facing /llms.txt index, a Metaconceptual Art linked-open-art profile, a lightweight JSON Schema validation shape, and a citable Linked Art LinguisticObject record for the Movement Dossier. The dossier, graph, collection, Systems register, content negotiation, and route-smoke tests now treat the movement claim as a standards-backed evidence surface.",
+  },
+  {
+    date: "2026-06-23",
+    version: "Post-v0.8: Interactive And Quality Polish",
+    body: "Added the Explore graph, Today in the Graph spotlight, per-work detail pages, IIIF deep-zoom support, build-time social cards, dark gallery mode, sitemap, robots.txt, branded 404, error boundary, web-app manifest, skip-to-content link, and the shared Wikidata helper used by the interactive islands. The test suite now covers graph integrity, Linked Art record IDs, routes, and exported assets.",
+  },
+  {
     date: "2026-06-23",
     version: "v0.8: Next.js Migration",
     body: "Migrated the hand-written static site to Next.js (App Router) with static export, while preserving every page, the semantic markup, the JSON-LD, and the Linked Art data layer. Shared header and footer became components, the Wikidata live query a client component, and the Linked Art HTTP content negotiation moved from .htaccess to vercel.json. The site now deploys from GitHub automatically instead of by manual upload. A seventh page, the Curatorial Statement, was added.",
@@ -19,7 +29,7 @@ const ENTRIES: Entry[] = [
   {
     date: "2026-06-23",
     version: "v0.7: Dereferenceable URIs And Event-Driven Discovery",
-    body: "Closed the last gaps to full Linked Art API 1.0 dereferencing. Each record now has a single extensionless canonical URI served with real content negotiation: Accept: text/html 303-redirects to the human page, Accept: application/ld+json returns the profiled JSON-LD, and the old .json URL 301s to the canonical one. The discovery stream became genuinely event-driven — every Create/Update activity is generated from the records' real git-commit history. A new live-endpoint prober asserts the served behaviour (status, media type, CORS, negotiation, redirects), and CI now boots real Apache with the site's .htaccess to probe it on every push, with a scheduled probe against production.",
+    body: "Closed the last gaps to full Linked Art API 1.0 dereferencing. Each record now has a single extensionless canonical URI served with real content negotiation: Accept: text/html 303-redirects to the human page, Accept: application/ld+json returns the profiled JSON-LD, and the old .json URL 301s to the canonical one. The discovery stream became genuinely event-driven — every Create/Update activity is generated from the records' real git-commit history. A live-endpoint prober asserts the served behaviour (status, media type, CORS, negotiation, redirects), with production checked on a schedule and on demand.",
   },
   {
     date: "2026-06-19",

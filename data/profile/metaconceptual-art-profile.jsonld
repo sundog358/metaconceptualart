@@ -1,0 +1,100 @@
+{
+  "@context": {
+    "@vocab": "https://www.metaconceptualart.com/ns/profile#",
+    "schema": "https://schema.org/",
+    "la": "https://linked.art/ns/terms/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "label": "schema:name",
+    "description": "schema:description",
+    "requiresEvidence": {
+      "@id": "requiresEvidence",
+      "@type": "@id"
+    },
+    "canonicalRecord": {
+      "@id": "canonicalRecord",
+      "@type": "@id"
+    },
+    "validationShape": {
+      "@id": "validationShape",
+      "@type": "@id"
+    },
+    "currentClaim": {
+      "@id": "currentClaim",
+      "@type": "@id"
+    }
+  },
+  "id": "https://www.metaconceptualart.com/data/profile/metaconceptual-art-profile",
+  "type": "MetaconceptualArtProfile",
+  "label": "Metaconceptual Art Linked Open Art Profile",
+  "description": "A project-level profile defining the minimum machine-readable evidence for a valid Metaconceptual Art claim: genealogy, defined principles, works on view, machine-readable standards, external alignment, and provenance over time.",
+  "dcterms:creator": {
+    "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+    "type": "schema:Organization",
+    "label": "Sun & Rain Works"
+  },
+  "dcterms:created": {
+    "@value": "2026-06-30",
+    "@type": "xsd:date"
+  },
+  "dcterms:license": {
+    "id": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "canonicalRecord": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art",
+  "validationShape": "https://www.metaconceptualart.com/data/profile/metaconceptual-art-claim.schema.json",
+  "currentClaim": "https://www.metaconceptualart.com/data/profile/metaconceptual-art-claim.json",
+  "requiresEvidence": [
+    "https://www.metaconceptualart.com/data/profile/evidence/genealogy",
+    "https://www.metaconceptualart.com/data/profile/evidence/defined-principles",
+    "https://www.metaconceptualart.com/data/profile/evidence/works-on-view",
+    "https://www.metaconceptualart.com/data/profile/evidence/machine-readable-standards",
+    "https://www.metaconceptualart.com/data/profile/evidence/external-alignment",
+    "https://www.metaconceptualart.com/data/profile/evidence/provenance-over-time"
+  ],
+  "evidenceClasses": [
+    {
+      "id": "https://www.metaconceptualart.com/data/profile/evidence/genealogy",
+      "type": "EvidenceClass",
+      "label": "Genealogy",
+      "description": "The claim declares art-historical and technical lineage through recognized authority records where available."
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/profile/evidence/defined-principles",
+      "type": "EvidenceClass",
+      "label": "Defined Principles",
+      "description": "The claim has a name, thesis, criteria, and citable theoretical or proposition text."
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/profile/evidence/works-on-view",
+      "type": "EvidenceClass",
+      "label": "Works On View",
+      "description": "The claim is evidenced by catalogued works with stable URLs, metadata, and records."
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/profile/evidence/machine-readable-standards",
+      "type": "EvidenceClass",
+      "label": "Machine-Readable Standards",
+      "description": "The claim publishes data in interoperable formats such as Linked Art, JSON-LD, IIIF, schema.org, and a local graph."
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/profile/evidence/external-alignment",
+      "type": "EvidenceClass",
+      "label": "External Alignment",
+      "description": "The claim points outward to recognized public authorities, while keeping local assertions separate from external canonization."
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/profile/evidence/provenance-over-time",
+      "type": "EvidenceClass",
+      "label": "Provenance Over Time",
+      "description": "The claim exposes revision, publication, and discovery history through changelogs, git-derived streams, and dereferenceable records."
+    }
+  ],
+  "minimumClaim": {
+    "type": "MetaconceptualArtClaim",
+    "description": "A Metaconceptual Art claim is valid when it has a named concept, declared genealogy, defined principles, works on view, standards-based records, external authority links where available, and visible provenance over time."
+  }
+}

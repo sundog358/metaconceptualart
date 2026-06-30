@@ -6,6 +6,7 @@ const NAV = [
   { href: "/theory", label: "Theory", key: "theory" },
   { href: "/systems", label: "Systems", key: "systems" },
   { href: "/explore", label: "Explore", key: "explore" },
+  { href: "/movement", label: "Dossier", key: "movement" },
 ] as const;
 
 export default function SiteHeader({ active }: { active?: string }) {

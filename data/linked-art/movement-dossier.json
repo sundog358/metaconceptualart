@@ -1,0 +1,158 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/movement-dossier",
+  "type": "LinguisticObject",
+  "_label": "Proof of Movement: Metaconceptual Art",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Proof of Movement: Metaconceptual Art",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English",
+          "notation": "en"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "work:movement-dossier",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026087",
+      "type": "Type",
+      "_label": "texts"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300435443",
+      "type": "Type",
+      "_label": "statements"
+    }
+  ],
+  "content": "A linked-open-data dossier arguing that Metaconceptual Art is a natural, credible, and valid movement through genealogy, defined principles, works on view, machine-readable standards, external alignment, and provenance over time.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "The Movement Dossier turns the claim for Metaconceptual Art into a citable textual work and a machine-readable evidence surface. It distinguishes local validity from external canonization while pointing to Linked Art, Wikidata, Getty vocabularies, IIIF, schema.org, and the git-derived Activity Stream.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "about": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art",
+      "type": "Type",
+      "_label": "Metaconceptual Art"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "CC BY 4.0",
+      "classified_as": [
+        {
+          "id": "https://creativecommons.org/licenses/by/4.0/",
+          "type": "Type",
+          "_label": "Attribution 4.0 International (CC BY 4.0)"
+        }
+      ],
+      "possessed_by": [
+        {
+          "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+          "type": "Group",
+          "_label": "Sun & Rain Works"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Writing of the Movement Dossier",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ],
+    "influenced_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art",
+        "type": "Type",
+        "_label": "Metaconceptual Art"
+      },
+      {
+        "id": "http://www.wikidata.org/entity/Q18692990",
+        "type": "Type",
+        "_label": "linked open data"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "_label": "Movement Dossier page",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "Metaconceptual Art — Movement Dossier",
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://www.metaconceptualart.com/movement",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/movement-dossier" },
+    "curies": [
+      { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
+    ],
+    "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
+    "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" },
+    "alternate": [
+      { "href": "https://www.metaconceptualart.com/movement", "type": "text/html" }
+    ],
+    "collection": { "href": "https://www.metaconceptualart.com/data/linked-art/collection" }
+  }
+}

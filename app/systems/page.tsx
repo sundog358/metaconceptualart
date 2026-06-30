@@ -22,6 +22,12 @@ const NODES: Node[] = [
   { id: "work:site-as-artwork", type: "Artwork", name: "The Website Itself", relation: "contains proposition set", lod: [] },
   { id: "work:eight-sentences", type: "Artwork", name: "Eight Sentences", relation: "cites source:lewitt", lod: [] },
   { id: "work:construction-museum", type: "Artwork", name: "Construction of the Museum as Concept", relation: "expresses concept:institutional-frame", lod: [] },
+  { id: "work:movement-dossier", type: "Artwork", name: "Proof of Movement: Metaconceptual Art", relation: "defines profile for concept:metaconceptual-art", lod: [
+    { href: "/data/linked-art/movement-dossier", label: "Linked Art" },
+  ] },
+  { id: "concept:metaconceptual-art", type: "Concept", name: "Metaconceptual Art", relation: "evidenced by works, records, and provenance", lod: [
+    { href: "/data/linked-art/concept-metaconceptual-art", label: "Linked Art" },
+  ] },
   { id: "concept:conceptual-art", type: "Concept", name: "Conceptual art", relation: "expressed by the work", lod: [
     { href: "https://www.wikidata.org/wiki/Q203209", label: "Q203209" },
     { href: "https://vocab.getty.edu/page/aat/300264827", label: "AAT 300264827", getty: true },
@@ -43,6 +49,13 @@ const NODES: Node[] = [
   ] },
   { id: "concept:knowledge-graph", type: "Concept", name: "Knowledge graph", relation: "form of the meta-museum", lod: [
     { href: "https://www.wikidata.org/wiki/Q33002955", label: "Q33002955" },
+  ] },
+  { id: "concept:semantic-web", type: "Concept", name: "Semantic Web", relation: "standards practice for machine-readable legitimacy", lod: [
+    { href: "https://www.wikidata.org/wiki/Q54837", label: "Q54837" },
+    { href: "https://vocab.getty.edu/page/aat/300391330", label: "AAT 300391330", getty: true },
+  ] },
+  { id: "concept:linked-open-data", type: "Concept", name: "Linked open data", relation: "public evidence medium", lod: [
+    { href: "https://www.wikidata.org/wiki/Q18692990", label: "Q18692990" },
   ] },
   { id: "concept:provenance", type: "Concept", name: "Provenance", relation: "tracked by the system", lod: [
     { href: "https://www.wikidata.org/wiki/Q1773840", label: "Q1773840" },
@@ -90,13 +103,14 @@ export default function SystemsPage() {
         >
           <div>
             <p className="section-kicker">Visible graph</p>
-            <h2 id="graph-title">Ten Nodes</h2>
+            <h2 id="graph-title">Movement Graph</h2>
           </div>
           <div className="system-copy">
             <p>
-              This graph is deliberately small. Its purpose is to establish a
+              This graph is deliberately compact. Its purpose is to establish a
               repeatable grammar for future works: stable IDs, node types, and
-              relations that can be expanded into a fuller Meta-Wiki.
+              relations that can be expanded into a fuller Meta-Wiki and a
+              public movement dossier.
             </p>
             <div className="graph-panel">
               <svg

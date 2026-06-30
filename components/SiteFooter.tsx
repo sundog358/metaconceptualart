@@ -4,6 +4,7 @@ import type { ReactNode } from "react";
 const LINKS = [
   { href: "/about", label: "About", key: "about" },
   { href: "/statement", label: "Statement", key: "statement" },
+  { href: "/movement", label: "Dossier", key: "movement" },
   { href: "/changelog", label: "Changelog", key: "changelog" },
 ] as const;
 

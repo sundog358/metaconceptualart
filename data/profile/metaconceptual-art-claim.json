@@ -1,0 +1,127 @@
+{
+  "id": "https://www.metaconceptualart.com/movement#claim",
+  "type": "MetaconceptualArtClaim",
+  "label": "Metaconceptual Art as a linked-open-data movement claim",
+  "definition": "Metaconceptual Art is a movement claim for art that treats art, its institutions, markets, archives, viewers, metadata, provenance, and meaning as the material of the work.",
+  "genealogy": [
+    {
+      "label": "Conceptual art",
+      "url": "https://www.wikidata.org/wiki/Q203209",
+      "authority": "Wikidata",
+      "role": "art-historical lineage"
+    },
+    {
+      "label": "Institutional critique",
+      "url": "https://www.wikidata.org/wiki/Q6041145",
+      "authority": "Wikidata",
+      "role": "institutional lineage"
+    },
+    {
+      "label": "Systems art",
+      "url": "https://www.wikidata.org/wiki/Q919251",
+      "authority": "Wikidata",
+      "role": "systems lineage"
+    },
+    {
+      "label": "Internet art",
+      "url": "https://www.wikidata.org/wiki/Q1569950",
+      "authority": "Wikidata",
+      "role": "networked art lineage"
+    }
+  ],
+  "principles": [
+    {
+      "label": "Movement Dossier",
+      "url": "https://www.metaconceptualart.com/movement",
+      "authority": "local",
+      "role": "human-readable argument"
+    },
+    {
+      "label": "Metaconceptual Art profile",
+      "url": "https://www.metaconceptualart.com/data/profile/metaconceptual-art-profile.jsonld",
+      "authority": "local JSON-LD",
+      "role": "machine-readable evidence profile"
+    }
+  ],
+  "works": [
+    {
+      "label": "Eight Sentences On Metaconceptual Art",
+      "url": "https://www.metaconceptualart.com/data/linked-art/eight-sentences",
+      "authority": "Linked Art",
+      "role": "proposition work"
+    },
+    {
+      "label": "Construction of the Museum as Concept",
+      "url": "https://www.metaconceptualart.com/data/linked-art/construction-museum",
+      "authority": "Linked Art",
+      "role": "image work"
+    },
+    {
+      "label": "Proof of Movement: Metaconceptual Art",
+      "url": "https://www.metaconceptualart.com/data/linked-art/movement-dossier",
+      "authority": "Linked Art",
+      "role": "citable dossier"
+    }
+  ],
+  "standards": [
+    {
+      "label": "Linked Art concept record",
+      "url": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art",
+      "authority": "Linked Art",
+      "role": "local movement concept"
+    },
+    {
+      "label": "Knowledge graph",
+      "url": "https://www.metaconceptualart.com/data/graph.json",
+      "authority": "local JSON",
+      "role": "graph evidence"
+    },
+    {
+      "label": "IIIF manifest",
+      "url": "https://www.metaconceptualart.com/data/iiif/construction-museum/manifest.json",
+      "authority": "IIIF Presentation 3.0",
+      "role": "image interoperability"
+    },
+    {
+      "label": "Activity Stream",
+      "url": "https://www.metaconceptualart.com/data/linked-art/activity-stream",
+      "authority": "IIIF Discovery",
+      "role": "change discovery"
+    }
+  ],
+  "externalAuthorities": [
+    {
+      "label": "Semantic Web",
+      "url": "https://www.wikidata.org/wiki/Q54837",
+      "authority": "Wikidata",
+      "role": "technical lineage"
+    },
+    {
+      "label": "Linked open data",
+      "url": "https://www.wikidata.org/wiki/Q18692990",
+      "authority": "Wikidata",
+      "role": "evidence medium"
+    },
+    {
+      "label": "Provenance",
+      "url": "https://vocab.getty.edu/page/aat/300055863",
+      "authority": "Getty AAT",
+      "role": "provenance concept"
+    }
+  ],
+  "provenance": [
+    {
+      "label": "Changelog",
+      "url": "https://www.metaconceptualart.com/changelog",
+      "authority": "local",
+      "role": "visible revision history"
+    },
+    {
+      "label": "Publication provenance",
+      "url": "https://www.metaconceptualart.com/data/linked-art/provenance-publication",
+      "authority": "Linked Art",
+      "role": "publication activity"
+    }
+  ],
+  "limitations": "This claim demonstrates internal coherence, standards-based legibility, and external alignment. It does not claim that Wikidata, Getty, museums, scholars, or other third-party authorities have already canonized Metaconceptual Art as an established historical movement."
+}

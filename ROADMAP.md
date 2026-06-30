@@ -12,9 +12,9 @@ The website should make that sentence visible, navigable, and provable.
 
 ## Current State
 
-As of **v0.9**, the project is a **Next.js 16 (App Router) static-export site,
-deployed from GitHub via Vercel** — migrated from the original hand-written static
-HTML. It is a small but fully working meta-museum:
+As of the current `main` branch, the project is a **Next.js 16 (App Router)
+static-export site, deployed from GitHub via Vercel** — migrated from the
+original hand-written static HTML. It is a small but fully working meta-museum:
 
 - **Seven pages** — home, Artworks, Theory, Systems, Statement, About, Changelog —
   plus **per-work detail pages** at `/artworks/<slug>` and an interactive
@@ -28,8 +28,9 @@ HTML. It is a small but fully working meta-museum:
 - **Living surfaces** — a daily "Today in the Graph" spotlight, a walkable graph
   explorer, deep-zoom artwork viewers, per-work social (OG) cards, and a dark
   "gallery" mode.
-- **Verified** — a CI gate runs build, unit + route-smoke tests, Getty `cromulent`
-  + JSON-LD validation, Activity-Stream authenticity, and a live-endpoint probe.
+- **Verified** — CI runs the build, unit + route-smoke tests, Getty `cromulent`
+  + JSON-LD validation, and Activity-Stream authenticity; a scheduled/on-demand
+  probe checks the live Linked Art endpoint.
 
 The remaining gaps are the participatory / Meta-Wiki features (Phase 5) and deeper
 per-domain pages — extensions, not foundations.
@@ -158,15 +159,17 @@ Done:
 - Wired the verify gate into **CI** (GitHub Actions): every push and pull request
   re-runs cromulent + JSON-LD certification, so conformance can never silently
   regress.
-- Met the protocol's **minimal static-file conformance**: the `.htaccess` serves
+- Met the protocol's **minimal static-file conformance**: `vercel.json` serves
   `application/ld+json` with the profile, answers `GET` and `OPTIONS`, and sets
-  permissive CORS.
+  permissive CORS in production; the legacy `.htaccess` equivalent is retained
+  for Apache-style static hosting.
 - Went past the minimum to **full API 1.0 dereferencing**: every record now has a
   single **extensionless canonical URI** (e.g. `…/data/linked-art/site-as-artwork`)
   served with **real content negotiation** — `Accept: text/html` 303-redirects to
   the human page where one exists, `Accept: application/ld+json` returns the
   profiled JSON-LD, and the legacy `.json` URL 301s to the canonical URI so each
-  resource has exactly one identifier (`data/linked-art/.htaccess`).
+  resource has exactly one identifier (`vercel.json` in production, with
+  `data/linked-art/.htaccess` retained as the Apache equivalent).
 - Made the discovery stream **genuinely event-driven**: `build_activity_stream.py`
   derives a `Create`/`Update` activity for every record from its real git-commit
   history (actual author dates), paginated as `OrderedCollection` +
@@ -174,9 +177,9 @@ Done:
   timestamps) and Create-completeness in CI.
 - Added a **live-endpoint conformance probe** (`verify_live.py`) that asserts the
   served behaviour (status, profiled media type, CORS, `Vary`, negotiation,
-  canonical 301, OPTIONS). CI boots **real Apache loading this `.htaccess`** and
-  probes it on every push, and probes **production** on a weekly schedule and on
-  demand (`.github/workflows/conformance.yml`).
+  canonical 301, OPTIONS). The per-push workflow verifies the static export and
+  Linked Art records offline; `.github/workflows/conformance.yml` probes
+  **production** weekly and on demand.
 
 Next (genuinely optional enrichment, not conformance):
 
@@ -252,11 +255,58 @@ Done:
 Success criteria: the build is gated by tests + validation; the site is crawlable
 and degrades gracefully. (met)
 
+### Phase 10: Proof Of Movement
+
+Goal: make the claim that Metaconceptual Art is a natural, credible, and valid
+movement inspectable through linked open data rather than asserted only in prose.
+
+Started:
+
+- Added `/movement`, a public **Movement Dossier** that organizes the argument
+  around genealogy, defined principles, works on view, machine-readable
+  legitimacy, external alignment, and provenance over time.
+- Added `concept:metaconceptual-art` as a first-class graph node, linked to the
+  existing local Linked Art `Type` record and outward to established concepts.
+- Added Semantic Web (`Q54837` / AAT `300391330`) and linked open data
+  (`Q18692990`) as standards/practice anchors in `data/graph.json`.
+- Enriched the Linked Art `concept-metaconceptual-art` record with the Concept
+  model's creation-influences pattern: `created_by` / `Creation` /
+  `influenced_by`, connecting the local movement concept to conceptual art,
+  institutional critique, systems art, internet art, provenance, Semantic Web,
+  and linked open data.
+- Added the dossier to navigation, sitemap, route-smoke tests, and the visible
+  Systems register.
+- Added `/llms.txt` as a bot-facing index for agents and crawlers.
+- Added `/data/profile/metaconceptual-art-profile.jsonld`, a project-level
+  linked-open-art profile defining minimum evidence for a valid Metaconceptual
+  Art claim.
+- Added `/data/profile/metaconceptual-art-claim.schema.json`, a lightweight
+  JSON Schema validation shape for future works or claims.
+- Added `movement-dossier` as a citable Linked Art `LinguisticObject` record,
+  with content negotiation to `/movement`, collection membership, and route smoke
+  coverage.
+
+Next:
+
+- Consider a SHACL shape once the JSON Schema has stabilized.
+- Add independent bibliography / external reception once third-party sources
+  exist, keeping that separate from self-authored evidence.
+- Add fuller `Person` and `Concept` records for thin-coverage lineage nodes.
+
+Success criteria:
+
+- A visitor can understand the movement claim without specialized standards
+  knowledge.
+- A machine can follow the claim through stable URLs, graph nodes, Linked Art
+  records, and authority links.
+- The project remains honest about the boundary between internal validity and
+  external canonization.
+
 ### What's next
 
-Recently completed (v0.9 polish): verified the responsive layout (no horizontal
-overflow anywhere), trimmed ~2.9 MB of unused images, added a web-app manifest +
-skip-to-content link, and DRY'd the three client islands onto a shared
+Recently completed (post-v0.8 polish): verified the responsive layout (no
+horizontal overflow anywhere), trimmed ~2.9 MB of unused images, added a web-app
+manifest + skip-to-content link, and DRY'd the three client islands onto a shared
 `lib/wikidata.ts`.
 
 Forward-looking, in rough priority — none are foundational, and each now needs
@@ -516,7 +566,8 @@ Suggested process page sections:
 
 ### Content
 
-- [x] Publish 5 to 10 artworks.
+- [x] Publish initial catalogued works.
+- [ ] Expand the collection to 5 to 10 artworks.
 - [x] Publish one primary essay.
 - [x] Write a press release or curatorial statement.
 - [x] Add a colophon.
@@ -573,15 +624,16 @@ Suggested process page sections:
 ## Priority Order
 
 The original build sequence (hero → landing → evidence → citation/changelog →
-graph → real pages → participation) is **complete through Phase 9**. Current
-priority order:
+graph → real pages → participation) is **complete through Phase 9**, except for
+Phase 5 participation and deeper content expansion. Current priority order:
 
-1. Verify mobile layout; measure page weight / load time.
-2. DRY the client islands onto a shared `lib/wikidata.ts`.
-3. `/theory/<slug>` essays + thin-coverage `Person`/`Concept` records.
+1. Add fuller `Person` and `Concept` records for thin-coverage lineage nodes.
+2. `/theory/<slug>` essays.
+3. Expand the collection from 2 catalogued works toward 5 to 10 works, with each
+   new work conforming to the Metaconceptual Art profile.
 4. Phase 5 participation (visitor responses, revision histories).
-5. Web-app manifest, skip-to-content link, CI performance budgets.
-6. Submit/register the work in net-art contexts.
+5. Submit/register the work in net-art contexts.
+6. Optional SHACL validation and CI performance budgets.
 
 ## Working Principle
 

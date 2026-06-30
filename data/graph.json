@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "Metaconceptual Art Knowledge Graph",
-  "version": "0.6.0",
-  "updated": "2026-06-19",
+  "version": "0.7.0",
+  "updated": "2026-06-30",
   "description": "Canonical, machine-readable knowledge graph for Metaconceptual Art. Each node carries a stable site ID and, where it corresponds to a real concept, person, or movement, a Wikidata QID plus the art-domain authority IDs (Getty ULAN for people, Getty AAT for concepts, Grove Art Online) so the museum connects outward to both the general and the art-specific linked-data graph. The works are also published as a set of CIDOC-CRM-correct Linked Art (API 1.0) records — digital objects, a textual work, a group, a concept, a collection set, and a provenance activity — each with a HAL _links block and served as application/ld+json.",
   "license": "CC-BY-4.0",
   "base": "https://www.metaconceptualart.com/",
@@ -14,6 +14,7 @@
     { "id": "site-as-artwork", "type": "DigitalObject", "label": "The Website Itself" },
     { "id": "eight-sentences", "type": "LinguisticObject", "label": "Eight Sentences On Metaconceptual Art" },
     { "id": "construction-museum", "type": "DigitalObject", "label": "Construction of the Museum as Concept" },
+    { "id": "movement-dossier", "type": "LinguisticObject", "label": "Proof of Movement: Metaconceptual Art" },
     { "id": "collection", "type": "Set", "label": "Metaconceptual Art — Collection" },
     { "id": "sun-and-rain-works", "type": "Group", "label": "Sun & Rain Works" },
     { "id": "concept-metaconceptual-art", "type": "Type", "label": "Metaconceptual Art (concept)" },
@@ -52,6 +53,22 @@
       "description": "The museum appears inside the artwork as something still being built: institutional authority shown as architecture, ornament, labor, and frame.",
       "wikidata": null,
       "linkedArt": "data/linked-art/construction-museum"
+    },
+    {
+      "id": "work:movement-dossier",
+      "type": "Artwork",
+      "label": "Proof of Movement: Metaconceptual Art",
+      "description": "A citable linked-open-data dossier defining the evidence standard for Metaconceptual Art as a natural, credible, and valid movement.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/movement-dossier"
+    },
+    {
+      "id": "concept:metaconceptual-art",
+      "type": "Concept",
+      "label": "Metaconceptual Art",
+      "description": "A self-defined movement concept: art that treats art, its institutions, markets, archives, viewers, metadata, and provenance as the material of the work.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/concept-metaconceptual-art"
     },
     {
       "id": "concept:conceptual-art",
@@ -117,6 +134,24 @@
       "groveArt": null
     },
     {
+      "id": "concept:semantic-web",
+      "type": "Concept",
+      "label": "Semantic Web",
+      "description": "Extension of the Web that enables data exchange through shared identifiers, vocabularies, and machine-readable relations.",
+      "wikidata": "Q54837",
+      "getty": { "aat": "300391330" },
+      "groveArt": null
+    },
+    {
+      "id": "concept:linked-open-data",
+      "type": "Concept",
+      "label": "Linked open data",
+      "description": "Linked data available under an open license, used here as the public evidence medium for the movement's claims.",
+      "wikidata": "Q18692990",
+      "getty": null,
+      "groveArt": null
+    },
+    {
       "id": "source:lewitt",
       "type": "Source",
       "label": "Sol LeWitt",
@@ -174,8 +209,22 @@
   ],
   "edges": [
     { "from": "work:site-as-artwork", "relation": "contains", "to": "work:eight-sentences" },
+    { "from": "work:site-as-artwork", "relation": "expresses", "to": "concept:metaconceptual-art" },
     { "from": "work:site-as-artwork", "relation": "activated_by", "to": "role:viewer" },
+    { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:site-as-artwork" },
+    { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:eight-sentences" },
+    { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:construction-museum" },
+    { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:movement-dossier" },
+    { "from": "concept:metaconceptual-art", "relation": "derives_from", "to": "concept:conceptual-art" },
+    { "from": "concept:metaconceptual-art", "relation": "extends", "to": "concept:institutional-frame" },
+    { "from": "concept:metaconceptual-art", "relation": "uses_method", "to": "concept:systems-art" },
+    { "from": "concept:metaconceptual-art", "relation": "uses_site", "to": "concept:net-art" },
+    { "from": "concept:metaconceptual-art", "relation": "tracks", "to": "concept:provenance" },
+    { "from": "concept:metaconceptual-art", "relation": "uses_standard", "to": "concept:semantic-web" },
+    { "from": "concept:metaconceptual-art", "relation": "uses_standard", "to": "concept:linked-open-data" },
     { "from": "work:eight-sentences", "relation": "cites", "to": "source:lewitt" },
+    { "from": "work:movement-dossier", "relation": "defines_profile", "to": "concept:metaconceptual-art" },
+    { "from": "work:movement-dossier", "relation": "uses_standard", "to": "concept:linked-open-data" },
     { "from": "work:eight-sentences", "relation": "expresses", "to": "concept:conceptual-art" },
     { "from": "work:construction-museum", "relation": "expresses", "to": "concept:institutional-frame" },
     { "from": "concept:conceptual-art", "relation": "influenced_by", "to": "source:duchamp" },
@@ -189,9 +238,12 @@
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:citation-primary" }
   ],
   "anchorConcepts": [
+    "concept:metaconceptual-art",
     "concept:conceptual-art",
     "concept:institutional-frame",
     "concept:systems-art",
-    "concept:net-art"
+    "concept:net-art",
+    "concept:semantic-web",
+    "concept:linked-open-data"
   ]
 }

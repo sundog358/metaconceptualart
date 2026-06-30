@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.metaconceptualart.com/data/profile/metaconceptual-art-claim.schema.json",
+  "title": "Metaconceptual Art Claim",
+  "description": "Lightweight validation schema for checking whether a future claim or work has the minimum evidence expected by the Metaconceptual Art Linked Open Art Profile.",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "label",
+    "definition",
+    "genealogy",
+    "principles",
+    "works",
+    "standards",
+    "externalAuthorities",
+    "provenance"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uri",
+      "description": "Stable canonical URI for the claim."
+    },
+    "type": {
+      "const": "MetaconceptualArtClaim"
+    },
+    "label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "definition": {
+      "type": "string",
+      "minLength": 40
+    },
+    "genealogy": {
+      "type": "array",
+      "minItems": 3,
+      "items": { "$ref": "#/$defs/evidenceLink" }
+    },
+    "principles": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/evidenceLink" }
+    },
+    "works": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/evidenceLink" }
+    },
+    "standards": {
+      "type": "array",
+      "minItems": 3,
+      "items": { "$ref": "#/$defs/evidenceLink" }
+    },
+    "externalAuthorities": {
+      "type": "array",
+      "minItems": 3,
+      "items": { "$ref": "#/$defs/evidenceLink" }
+    },
+    "provenance": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/evidenceLink" }
+    },
+    "limitations": {
+      "type": "string",
+      "description": "A clear statement of what the claim does not prove, especially external canonization."
+    }
+  },
+  "$defs": {
+    "evidenceLink": {
+      "type": "object",
+      "required": ["label", "url"],
+      "properties": {
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "authority": {
+          "type": "string",
+          "description": "Optional authority namespace or standard, such as Linked Art, Wikidata, Getty AAT, IIIF, schema.org, or local."
+        },
+        "role": {
+          "type": "string",
+          "description": "How this evidence supports the claim."
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

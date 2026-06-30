@@ -37,6 +37,8 @@ Options -MultiViews
   RewriteRule ^eight-sentences$ https://www.metaconceptualart.com/artworks/#work-eight-sentences [R=303,L,NE]
   RewriteCond %{HTTP_ACCEPT} text/html [NC]
   RewriteRule ^construction-museum$ https://www.metaconceptualart.com/artworks/#work-construction-museum [R=303,L,NE]
+  RewriteCond %{HTTP_ACCEPT} text/html [NC]
+  RewriteRule ^movement-dossier$ https://www.metaconceptualart.com/movement [R=303,L,NE]
 
   # Default representation: serve the JSON-LD from the matching .json file on disk.
   RewriteCond %{REQUEST_FILENAME} !-f

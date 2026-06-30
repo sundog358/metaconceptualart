@@ -41,9 +41,9 @@ export default function AboutPage() {
             </p>
             <p>
               The project begins as a deliberately small meta-museum: a landing
-              page, six works, a primary theory text, and a first semantic graph.
-              Its growth should remain visible through provenance, changelog
-              records, and stable identifiers.
+              page, two catalogued works, a primary theory text, and a semantic
+              graph. Its growth should remain visible through provenance,
+              changelog records, and stable identifiers.
             </p>
           </div>
         </section>
@@ -71,7 +71,7 @@ export default function AboutPage() {
             </div>
             <div>
               <dt>Current version</dt>
-              <dd>v0.8, Next.js migration</dd>
+              <dd>v0.8, Next.js migration plus post-migration polish</dd>
             </div>
             <div>
               <dt>Technical frame</dt>

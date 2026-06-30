@@ -38,7 +38,7 @@
   "referred_to_by": [
     {
       "type": "LinguisticObject",
-      "content": "Art that treats art, its institutions, markets, archives, and viewers as the material of the work. A self-defined extension of conceptual art into the system that makes art legible.",
+      "content": "Art that treats art, its institutions, markets, archives, and viewers as the material of the work. A self-defined movement concept extending conceptual art into the system that makes art legible. Its public dossier argues credibility through genealogy, defined principles, works on view, machine-readable standards, external alignment, and provenance over time.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -62,6 +62,95 @@
       ]
     }
   ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Definition of Metaconceptual Art as a movement concept",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ],
+    "influenced_by": [
+      {
+        "id": "http://vocab.getty.edu/aat/300264827",
+        "type": "Type",
+        "_label": "conceptual art",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q203209",
+            "type": "Type",
+            "_label": "conceptual art"
+          }
+        ]
+      },
+      {
+        "id": "http://www.wikidata.org/entity/Q6041145",
+        "type": "Type",
+        "_label": "institutional critique"
+      },
+      {
+        "id": "http://vocab.getty.edu/aat/300047869",
+        "type": "Type",
+        "_label": "systems art",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q919251",
+            "type": "Type",
+            "_label": "systems art"
+          }
+        ]
+      },
+      {
+        "id": "http://vocab.getty.edu/aat/300419940",
+        "type": "Type",
+        "_label": "internet art",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q1569950",
+            "type": "Type",
+            "_label": "internet art"
+          }
+        ]
+      },
+      {
+        "id": "http://vocab.getty.edu/aat/300055863",
+        "type": "Type",
+        "_label": "provenance",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q1773840",
+            "type": "Type",
+            "_label": "provenance"
+          }
+        ]
+      },
+      {
+        "id": "http://vocab.getty.edu/aat/300391330",
+        "type": "Type",
+        "_label": "Semantic Web",
+        "equivalent": [
+          {
+            "id": "http://www.wikidata.org/entity/Q54837",
+            "type": "Type",
+            "_label": "Semantic Web"
+          }
+        ]
+      },
+      {
+        "id": "http://www.wikidata.org/entity/Q18692990",
+        "type": "Type",
+        "_label": "linked open data"
+      }
+    ]
+  },
   "_links": {
     "self": { "href": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art" },
     "curies": [

@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/theory", priority: 0.8 },
     { path: "/systems", priority: 0.8 },
     { path: "/explore", priority: 0.8 },
+    { path: "/movement", priority: 0.8 },
     { path: "/statement", priority: 0.7 },
     { path: "/about", priority: 0.6 },
     { path: "/changelog", priority: 0.6 },
