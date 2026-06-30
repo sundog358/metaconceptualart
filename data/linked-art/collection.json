@@ -18,8 +18,7 @@
         {
           "id": "http://vocab.getty.edu/aat/300388277",
           "type": "Language",
-          "_label": "English",
-          "notation": "en"
+          "_label": "English"
         }
       ]
     },
@@ -52,7 +51,7 @@
   "referred_to_by": [
     {
       "type": "LinguisticObject",
-      "content": "The museum is not a building; it is a set of relations. This Set gathers the works on view and the citable movement dossier as members so the collection can be read and queried as linked data. Membership is declared on each object via member_of.",
+      "content": "The museum is not a building; it is a set of relations. This Set gathers the works on view and the citable Movement Record as members so the collection can be read and queried as linked data. Membership is declared on each object via member_of.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -96,7 +95,7 @@
       "_label": "Construction of the Museum as Concept"
     },
     {
-      "id": "https://www.metaconceptualart.com/data/linked-art/movement-dossier",
+      "id": "https://www.metaconceptualart.com/data/linked-art/movement-record",
       "type": "LinguisticObject",
       "_label": "Proof of Movement: Metaconceptual Art"
     }

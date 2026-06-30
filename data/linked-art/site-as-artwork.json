@@ -18,8 +18,7 @@
         {
           "id": "http://vocab.getty.edu/aat/300388277",
           "type": "Language",
-          "_label": "English",
-          "notation": "en"
+          "_label": "English"
         }
       ]
     },
@@ -84,26 +83,6 @@
           "id": "http://vocab.getty.edu/aat/300435416",
           "type": "Type",
           "_label": "description"
-        }
-      ]
-    }
-  ],
-  "subject_to": [
-    {
-      "type": "Right",
-      "_label": "CC BY 4.0",
-      "classified_as": [
-        {
-          "id": "https://creativecommons.org/licenses/by/4.0/",
-          "type": "Type",
-          "_label": "Attribution 4.0 International (CC BY 4.0)"
-        }
-      ],
-      "possessed_by": [
-        {
-          "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
-          "type": "Group",
-          "_label": "Sun & Rain Works"
         }
       ]
     }

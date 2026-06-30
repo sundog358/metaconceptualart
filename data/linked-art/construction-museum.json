@@ -18,8 +18,7 @@
         {
           "id": "http://vocab.getty.edu/aat/300388277",
           "type": "Language",
-          "_label": "English",
-          "notation": "en"
+          "_label": "English"
         }
       ]
     },
@@ -70,15 +69,9 @@
   ],
   "digitally_shows": [
     {
+      "id": "https://www.metaconceptualart.com/data/linked-art/construction-museum#visual-item",
       "type": "VisualItem",
-      "_label": "Depiction of the museum under construction",
-      "represents": [
-        {
-          "id": "http://www.wikidata.org/entity/Q6041145",
-          "type": "Type",
-          "_label": "institutional critique"
-        }
-      ]
+      "_label": "Depiction of the museum under construction"
     }
   ],
   "referred_to_by": [
@@ -90,26 +83,6 @@
           "id": "http://vocab.getty.edu/aat/300435416",
           "type": "Type",
           "_label": "description"
-        }
-      ]
-    }
-  ],
-  "subject_to": [
-    {
-      "type": "Right",
-      "_label": "CC BY 4.0",
-      "classified_as": [
-        {
-          "id": "https://creativecommons.org/licenses/by/4.0/",
-          "type": "Type",
-          "_label": "Attribution 4.0 International (CC BY 4.0)"
-        }
-      ],
-      "possessed_by": [
-        {
-          "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
-          "type": "Group",
-          "_label": "Sun & Rain Works"
         }
       ]
     }

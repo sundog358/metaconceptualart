@@ -26,7 +26,7 @@
       "statusCode": 303
     },
     {
-      "source": "/data/linked-art/movement-dossier",
+      "source": "/data/linked-art/movement-record",
       "has": [{ "type": "header", "key": "accept", "value": ".*text/html.*" }],
       "destination": "/movement",
       "statusCode": 303

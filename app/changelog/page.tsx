@@ -19,7 +19,7 @@ const ENTRIES: Entry[] = [
   {
     date: "2026-06-30",
     version: "Machine-Readable Foundation",
-    body: "Added a bot-facing /llms.txt index, a Metaconceptual Art linked-open-art profile, a lightweight JSON Schema validation shape, and a citable Linked Art LinguisticObject record for the Movement Dossier. The dossier, graph, collection, Systems register, content negotiation, and route-smoke tests now treat the movement claim as a standards-backed evidence surface.",
+    body: "Added a bot-facing /llms.txt index, a Metaconceptual Art linked-open-art profile, a lightweight JSON Schema validation shape, and a citable Linked Art LinguisticObject record for the Movement Record. The record, graph, collection, Systems register, content negotiation, and route-smoke tests now treat the movement claim as a standards-backed evidence surface.",
   },
   {
     date: "2026-06-23",

@@ -31,7 +31,7 @@
   ],
   "principles": [
     {
-      "label": "Movement Dossier",
+      "label": "Movement Record",
       "url": "https://www.metaconceptualart.com/movement",
       "authority": "local",
       "role": "human-readable argument"
@@ -58,9 +58,9 @@
     },
     {
       "label": "Proof of Movement: Metaconceptual Art",
-      "url": "https://www.metaconceptualart.com/data/linked-art/movement-dossier",
+      "url": "https://www.metaconceptualart.com/data/linked-art/movement-record",
       "authority": "Linked Art",
-      "role": "citable dossier"
+      "role": "citable record"
     }
   ],
   "standards": [

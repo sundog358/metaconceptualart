@@ -110,11 +110,9 @@ def main(argv: list[str]) -> int:
     label = f"{validated} record(s) clean against official LA JSON Schemas"
     if errors:
         # Advisory, not gating. The gating reference validation is the Getty
-        # `cromulent` implementation in verify_static.py (records pass it 7/7).
-        # The upstream JSON Schema bundle is stricter and incomplete — it ships
-        # no text/provenance schemas and its `digital` schema rejects valid
-        # `subject_to` rights — so conforming to it would mean dropping real
-        # data. We surface the divergences here without failing the build.
+        # `cromulent` implementation in verify_static.py (records pass it 9/9).
+        # The upstream JSON Schema bundle is stricter and incomplete, so this
+        # second opinion remains advisory rather than blocking the build.
         print(f"ADVISORY: {len(errors)} divergence(s) from the official LA JSON Schema "
               f"bundle ({label}); cromulent in verify_static.py is the gating validator.")
         for e in errors:

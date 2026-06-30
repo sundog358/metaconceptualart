@@ -29,7 +29,7 @@ const ASSETS = [
   "artworks/eight-sentences/opengraph-image",
   "artworks/construction-museum/opengraph-image",
   "data/linked-art/collection.json",
-  "data/linked-art/movement-dossier.json",
+  "data/linked-art/movement-record.json",
   "data/profile/metaconceptual-art-profile.jsonld",
   "data/profile/1.0/context.jsonld",
   "data/profile/1.0/profile.jsonld",

@@ -7,14 +7,14 @@ import graph from "@/data/graph.json";
 import { WORKS } from "@/lib/works";
 
 export const metadata: Metadata = {
-  title: "Movement Dossier",
+  title: "Movement Record",
   description:
-    "A linked-open-data dossier arguing for Metaconceptual Art as a natural, credible, and valid movement.",
+    "A linked-open-data record arguing for Metaconceptual Art as a natural, credible, and valid movement.",
   alternates: { canonical: "/movement" },
   openGraph: {
-    title: "Movement Dossier",
+    title: "Movement Record",
     description:
-      "A linked-open-data dossier for Metaconceptual Art: genealogy, principles, works, standards, external alignment, and provenance.",
+      "A linked-open-data record for Metaconceptual Art: genealogy, principles, works, standards, external alignment, and provenance.",
     url: "https://www.metaconceptualart.com/movement",
     type: "article",
   },
@@ -104,15 +104,15 @@ const jsonLd = {
       "@type": "WebPage",
       "@id": `${BASE}/movement#webpage`,
       url: `${BASE}/movement`,
-      name: "Movement Dossier",
+      name: "Movement Record",
       description:
-        "A linked-open-data dossier arguing for Metaconceptual Art as a natural, credible, and valid movement.",
-      mainEntity: { "@id": `${BASE}/movement#dossier` },
+        "A linked-open-data record arguing for Metaconceptual Art as a natural, credible, and valid movement.",
+      mainEntity: { "@id": `${BASE}/movement#record` },
       inLanguage: "en-US",
     },
     {
       "@type": "CreativeWork",
-      "@id": `${BASE}/movement#dossier`,
+      "@id": `${BASE}/movement#record`,
       name: "Proof of Movement: Metaconceptual Art",
       creator: { "@id": `${BASE}/#organization` },
       about: { "@id": `${BASE}/movement#metaconceptual-art` },
@@ -128,7 +128,7 @@ const jsonLd = {
         `${BASE}/data/profile/metaconceptual-art-claim.schema.json`,
         `${BASE}/data/profile/metaconceptual-art-claim.json`,
         `${BASE}/data/linked-art/concept-metaconceptual-art`,
-        `${BASE}/data/linked-art/movement-dossier`,
+        `${BASE}/data/linked-art/movement-record`,
         `${BASE}/data/linked-art/activity-stream`,
       ],
     },
@@ -161,7 +161,7 @@ export default function MovementPage() {
           aria-labelledby="page-title"
         >
           <p className="eyebrow">Proof of movement</p>
-          <h1 id="page-title">Movement Dossier</h1>
+          <h1 id="page-title">Movement Record</h1>
           <p className="definition">
             Metaconceptual Art is argued here as a natural, credible, and valid
             movement through linked open data: genealogy, principles, works,
@@ -230,8 +230,8 @@ export default function MovementPage() {
               authority has already assigned it a public ID.
             </p>
             <div className="proof-records" aria-label="Machine-readable records">
-              <Link href="/data/linked-art/movement-dossier">
-                Dossier Linked Art record
+              <Link href="/data/linked-art/movement-record">
+                Movement Record Linked Art
               </Link>
               <Link href="/data/linked-art/concept-metaconceptual-art">
                 Concept Linked Art record
@@ -266,7 +266,7 @@ export default function MovementPage() {
             <p className="section-kicker">Credibility boundary</p>
             <h2 id="limits-title">What This Proves, And What It Does Not</h2>
             <p className="section-intro">
-              The dossier proves internal coherence, public evidence, external
+              The record proves internal coherence, public evidence, external
               alignment, standards-based legibility, and a studio-origin
               chronology. It does not claim that museums, scholars, or Wikidata
               have already recognized Metaconceptual Art as an established

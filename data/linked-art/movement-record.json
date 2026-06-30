@@ -1,6 +1,6 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://www.metaconceptualart.com/data/linked-art/movement-dossier",
+  "id": "https://www.metaconceptualart.com/data/linked-art/movement-record",
   "type": "LinguisticObject",
   "_label": "Proof of Movement: Metaconceptual Art",
   "identified_by": [
@@ -18,14 +18,13 @@
         {
           "id": "http://vocab.getty.edu/aat/300388277",
           "type": "Language",
-          "_label": "English",
-          "notation": "en"
+          "_label": "English"
         }
       ]
     },
     {
       "type": "Identifier",
-      "content": "work:movement-dossier",
+      "content": "work:movement-record",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300312355",
@@ -47,11 +46,11 @@
       "_label": "statements"
     }
   ],
-  "content": "A linked-open-data dossier arguing that Metaconceptual Art is a natural, credible, and valid movement through genealogy, defined principles, works on view, machine-readable standards, external alignment, and provenance over time.",
+  "content": "A linked-open-data record arguing that Metaconceptual Art is a natural, credible, and valid movement through genealogy, defined principles, works on view, machine-readable standards, external alignment, and provenance over time.",
   "referred_to_by": [
     {
       "type": "LinguisticObject",
-      "content": "The Movement Dossier turns the claim for Metaconceptual Art into a citable textual work and a machine-readable evidence surface. It distinguishes local validity from external canonization while pointing to Linked Art, Wikidata, Getty vocabularies, IIIF, schema.org, and the git-derived Activity Stream.",
+      "content": "The Movement Record turns the claim for Metaconceptual Art into a citable textual work and a machine-readable evidence surface. It distinguishes local validity from external canonization while pointing to Linked Art, Wikidata, Getty vocabularies, IIIF, schema.org, and the git-derived Activity Stream.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -90,7 +89,7 @@
   ],
   "created_by": {
     "type": "Creation",
-    "_label": "Writing of the Movement Dossier",
+    "_label": "Writing of the Movement Record",
     "timespan": {
       "type": "TimeSpan",
       "_label": "2026",
@@ -127,11 +126,11 @@
   "subject_of": [
     {
       "type": "LinguisticObject",
-      "_label": "Movement Dossier page",
+      "_label": "Movement Record page",
       "digitally_carried_by": [
         {
           "type": "DigitalObject",
-          "_label": "Metaconceptual Art — Movement Dossier",
+          "_label": "Metaconceptual Art — Movement Record",
           "format": "text/html",
           "access_point": [
             {
@@ -144,7 +143,7 @@
     }
   ],
   "_links": {
-    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/movement-dossier" },
+    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/movement-record" },
     "curies": [
       { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
     ],

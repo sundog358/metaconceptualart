@@ -30,7 +30,7 @@ const levels = [
 
 const requirements = [
   ["genealogy", "At least three lineage links to art-historical or technical context."],
-  ["principles", "At least one citable definition, theory source, proposition, or dossier."],
+  ["principles", "At least one citable definition, theory source, proposition, or Record."],
   ["works", "At least one catalogued work on view at a stable URL."],
   ["standards", "At least three machine-readable records or standards."],
   ["externalAuthorities", "At least three public authority alignments where available."],
@@ -115,7 +115,7 @@ export default function ProfileSpec({ version = "1.0" }: { version?: string }) {
             <p className="section-kicker">Purpose</p>
             <h2 id="profile-purpose">From Claim To Infrastructure</h2>
             <p>
-              The profile turns the movement dossier into a repeatable data
+              The profile turns the Movement Record into a repeatable data
               contract. A claim is valid when it can be followed through stable
               URLs, standards-based records, external authorities, and visible
               provenance.

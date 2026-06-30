@@ -9,7 +9,7 @@
     },
     {
       "path": "data/graph.json",
-      "sha256": "f86e4fb11c6851d6217d127ce2363000be15747a4ef510a889cb6039e147b01d"
+      "sha256": "9ce0e67565027dfd75e182cb34831b2f3d0eaaea8580c99ef5a47fd69e00ccc1"
     },
     {
       "path": "data/iiif/construction-museum/manifest.json",
@@ -17,31 +17,31 @@
     },
     {
       "path": "data/linked-art/activity-stream-page-1.json",
-      "sha256": "d3433eb8e85785c4aba8b4c89151c30506ce57ac2327c914e28e9237c22b9b9f"
+      "sha256": "7e4e2e4e9b9e79eeda7d85cddda3993c30c877275d491ad8291819f60a4e79c8"
     },
     {
       "path": "data/linked-art/activity-stream.json",
-      "sha256": "940962c9d8cf1ad766147d5cb1236db810e796d1c4757b5dc246394e0371bb03"
+      "sha256": "2ac066b3aa4498ef0ed20f468fdb0decaf9910d8df4619701408c9161c053bdf"
     },
     {
       "path": "data/linked-art/collection.json",
-      "sha256": "26329122990092de99f313358e0169d97e4151e664e92d7729621dda0437a412"
+      "sha256": "7113fd4e6c262de0fce93aa82f9605fb84f8d1d0223f617169473a46eff449f7"
     },
     {
       "path": "data/linked-art/concept-metaconceptual-art.json",
-      "sha256": "f3a7b375ee08bdc18e4711f82e31965395396c00ad1a8d34e7335747ad997a41"
+      "sha256": "a6bb73033efb8758668ee01f13b59f4a394ecdb9203b77f96c4f2560c19c3f44"
     },
     {
       "path": "data/linked-art/construction-museum.json",
-      "sha256": "d3c6c104435ae1990f541c74e7eade90793a5b36751eb1a1e1eeb4628f14e58b"
+      "sha256": "72a62e326346a060a5e8fb8fd473d2695be7b20a9b5e9aa49ae243be529c0926"
     },
     {
       "path": "data/linked-art/eight-sentences.json",
-      "sha256": "b6e88cf1c9abfdb506bd528019587c39f45f6fac5874e10552fe9895b335a147"
+      "sha256": "9d16c759ff400642b590e1d3ed4232b9ec35ed5badfa7f6d13690ee425fce37f"
     },
     {
-      "path": "data/linked-art/movement-dossier.json",
-      "sha256": "1ee8f535aa874cab40c18b09484faa607ff8e4c5eafa4623bf08d77974e1f98a"
+      "path": "data/linked-art/movement-record.json",
+      "sha256": "d6166784ca2854ad7e162bef11b07e8566ae26159c320156a4e733424505063c"
     },
     {
       "path": "data/linked-art/provenance-publication.json",
@@ -49,11 +49,11 @@
     },
     {
       "path": "data/linked-art/site-as-artwork.json",
-      "sha256": "bc6ee4376752a553e9043ec88aa6cb8b5286233c2d2a2720e775698c5074d7dd"
+      "sha256": "a022b4cc5b6b113d63ab2e62cf7a03a323c0216f8d1b566a7f5d088cae2383a8"
     },
     {
       "path": "data/linked-art/sun-and-rain-works.json",
-      "sha256": "0f063fcdaac44cfcba8f0b16080f9d76dde873e34291cd566fb3ef93ae64a3ae"
+      "sha256": "d06a4fd4939ccfe2b1a9db83375e7719153ee7d19d42ef7d7695c51c9777124e"
     },
     {
       "path": "data/profile/1.0/context.jsonld",
@@ -73,7 +73,7 @@
     },
     {
       "path": "data/profile/examples/compliant-claim.json",
-      "sha256": "38b57ebadfc5525c72de52a8ffc6cfc3ba710888b4a9ac32d00861fab8018e96"
+      "sha256": "c1b3ab609ef706c6400c3137310f524dce04deaf58519c690da799832e6f10f1"
     },
     {
       "path": "data/profile/examples/noncompliant-forthcoming-only.json",
@@ -85,7 +85,7 @@
     },
     {
       "path": "data/profile/metaconceptual-art-claim.json",
-      "sha256": "50af42ec4d9bfdc749917e2f8311311fe9e51ede3248ed0915c72f0b3f137071"
+      "sha256": "c08e538c8dda813d548a7ec7d3c5bcd07014565e1234baaf423c6ae7ca2964c9"
     },
     {
       "path": "data/profile/metaconceptual-art-claim.schema.json",

@@ -245,7 +245,8 @@ Done:
 
 - **Per-work `schema.org`** (VisualArtwork/CreativeWork) structured data.
 - **Official Linked Art JSON Schemas** vendored and run as an *advisory* second
-  opinion alongside the gating Getty `cromulent` check.
+  opinion alongside the gating Getty `cromulent` check; all schema-covered
+  top-level records now validate cleanly.
 - A **`node --test` suite** — works/graph integrity, Linked Art id↔file
   consistency, and route + asset smoke over the export — wired into `npm test`, CI,
   and the ship gate.
@@ -262,7 +263,7 @@ movement inspectable through linked open data rather than asserted only in prose
 
 Started:
 
-- Added `/movement`, a public **Movement Dossier** that organizes the argument
+- Added `/movement`, a public **Movement Record** that organizes the argument
   around genealogy, defined principles, works on view, machine-readable
   legitimacy, external alignment, and provenance over time.
 - Added `concept:metaconceptual-art` as a first-class graph node, linked to the
@@ -274,7 +275,7 @@ Started:
   `influenced_by`, connecting the local movement concept to conceptual art,
   institutional critique, systems art, internet art, provenance, Semantic Web,
   and linked open data.
-- Added the dossier to navigation, sitemap, route-smoke tests, and the visible
+- Added the Record to navigation, sitemap, route-smoke tests, and the visible
   Systems register.
 - Added `/llms.txt` as a bot-facing index for agents and crawlers.
 - Added `/data/profile/metaconceptual-art-profile.jsonld`, a project-level
@@ -282,7 +283,7 @@ Started:
   Art claim.
 - Added `/data/profile/metaconceptual-art-claim.schema.json`, a lightweight
   JSON Schema validation shape for future works or claims.
-- Added `movement-dossier` as a citable Linked Art `LinguisticObject` record,
+- Added `movement-record` as a citable Linked Art `LinguisticObject` record,
   with content negotiation to `/movement`, collection membership, and route smoke
   coverage.
 
@@ -327,7 +328,7 @@ Done:
 - Added a publication-status vocabulary and portfolio staging policy for private,
   forthcoming, metadata-only, and public records, so the standards surface can be
   public before the full portfolio is published.
-- Corrected the origin chronology in the public dossier and Linked Art records:
+- Corrected the origin chronology in the public Record and Linked Art records:
   Sun & Rain Works formation is modeled as 2005, Metaconceptual Art movement
   creation as 2007, March 2009 receipts/metadata as early-work evidence, and 2026
   as the public linked-data publication layer.
@@ -377,7 +378,7 @@ Current structure (✅ live, 🔭 planned):
 /theory/<slug>          🔭 Essays, propositions, annotations
 /systems                ✅ Knowledge graph + node register
 /explore                ✅ Interactive graph explorer
-/movement               ✅ Movement dossier
+/movement               ✅ Movement Record
 /profile/1.0            ✅ Linked Open Art Profile v1.0
 /validate               ✅ Profile validator
 /statement              ✅ Curatorial statement
@@ -665,7 +666,8 @@ Suggested process page sections:
 ### Quality, SEO & resilience
 
 - [x] `node --test` suite (integrity + route smoke) in CI and the ship gate.
-- [x] Getty `cromulent` + JSON-LD validation; advisory official LA JSON Schemas.
+- [x] Getty `cromulent` + JSON-LD validation; advisory official LA JSON Schemas
+      clean for schema-covered records.
 - [x] Live-endpoint conformance probe (CI + scheduled production).
 - [x] Per-work `schema.org`; sitemap.xml + robots.txt; branded 404; error boundary.
 

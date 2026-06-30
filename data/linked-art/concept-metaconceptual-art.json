@@ -18,8 +18,7 @@
         {
           "id": "http://vocab.getty.edu/aat/300388277",
           "type": "Language",
-          "_label": "English",
-          "notation": "en"
+          "_label": "English"
         }
       ]
     },
@@ -38,7 +37,7 @@
   "referred_to_by": [
     {
       "type": "LinguisticObject",
-      "content": "Art that treats art, its institutions, markets, archives, and viewers as the material of the work. A self-defined movement concept created by Sun & Rain Works in 2007, extending conceptual art into the system that makes art legible. Its public dossier argues credibility through genealogy, defined principles, works on view, machine-readable standards, external alignment, and provenance over time.",
+      "content": "Art that treats art, its institutions, markets, archives, and viewers as the material of the work. A self-defined movement concept created by Sun & Rain Works in 2007, extending conceptual art into the system that makes art legible. Its public Record argues credibility through genealogy, defined principles, works on view, machine-readable standards, external alignment, and provenance over time.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",

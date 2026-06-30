@@ -30,7 +30,7 @@
     { "id": "site-as-artwork", "type": "DigitalObject", "label": "The Website Itself" },
     { "id": "eight-sentences", "type": "LinguisticObject", "label": "Eight Sentences On Metaconceptual Art" },
     { "id": "construction-museum", "type": "DigitalObject", "label": "Construction of the Museum as Concept" },
-    { "id": "movement-dossier", "type": "LinguisticObject", "label": "Proof of Movement: Metaconceptual Art" },
+    { "id": "movement-record", "type": "LinguisticObject", "label": "Proof of Movement: Metaconceptual Art" },
     { "id": "collection", "type": "Set", "label": "Metaconceptual Art — Collection" },
     { "id": "sun-and-rain-works", "type": "Group", "label": "Sun & Rain Works" },
     { "id": "concept-metaconceptual-art", "type": "Type", "label": "Metaconceptual Art (concept)" },
@@ -71,12 +71,12 @@
       "linkedArt": "data/linked-art/construction-museum"
     },
     {
-      "id": "work:movement-dossier",
+      "id": "work:movement-record",
       "type": "Artwork",
       "label": "Proof of Movement: Metaconceptual Art",
-      "description": "A citable linked-open-data dossier defining the evidence standard for Metaconceptual Art as a natural, credible, and valid movement.",
+      "description": "A citable linked-open-data record defining the evidence standard for Metaconceptual Art as a natural, credible, and valid movement.",
       "wikidata": null,
-      "linkedArt": "data/linked-art/movement-dossier"
+      "linkedArt": "data/linked-art/movement-record"
     },
     {
       "id": "concept:metaconceptual-art",
@@ -238,7 +238,7 @@
     { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:site-as-artwork" },
     { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:eight-sentences" },
     { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:construction-museum" },
-    { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:movement-dossier" },
+    { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:movement-record" },
     { "from": "concept:metaconceptual-art", "relation": "derives_from", "to": "concept:conceptual-art" },
     { "from": "concept:metaconceptual-art", "relation": "extends", "to": "concept:institutional-frame" },
     { "from": "concept:metaconceptual-art", "relation": "uses_method", "to": "concept:systems-art" },
@@ -248,8 +248,8 @@
     { "from": "concept:metaconceptual-art", "relation": "uses_standard", "to": "concept:linked-open-data" },
     { "from": "concept:metaconceptual-art", "relation": "has_origin_provenance", "to": "record:origin-provenance" },
     { "from": "work:eight-sentences", "relation": "cites", "to": "source:lewitt" },
-    { "from": "work:movement-dossier", "relation": "defines_profile", "to": "concept:metaconceptual-art" },
-    { "from": "work:movement-dossier", "relation": "uses_standard", "to": "concept:linked-open-data" },
+    { "from": "work:movement-record", "relation": "defines_profile", "to": "concept:metaconceptual-art" },
+    { "from": "work:movement-record", "relation": "uses_standard", "to": "concept:linked-open-data" },
     { "from": "work:eight-sentences", "relation": "expresses", "to": "concept:conceptual-art" },
     { "from": "work:construction-museum", "relation": "expresses", "to": "concept:institutional-frame" },
     { "from": "concept:conceptual-art", "relation": "influenced_by", "to": "source:duchamp" },

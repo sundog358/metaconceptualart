@@ -22,8 +22,8 @@ const NODES: Node[] = [
   { id: "work:site-as-artwork", type: "Artwork", name: "The Website Itself", relation: "contains proposition set", lod: [] },
   { id: "work:eight-sentences", type: "Artwork", name: "Eight Sentences", relation: "cites source:lewitt", lod: [] },
   { id: "work:construction-museum", type: "Artwork", name: "Construction of the Museum as Concept", relation: "expresses concept:institutional-frame", lod: [] },
-  { id: "work:movement-dossier", type: "Artwork", name: "Proof of Movement: Metaconceptual Art", relation: "defines profile for concept:metaconceptual-art", lod: [
-    { href: "/data/linked-art/movement-dossier", label: "Linked Art" },
+  { id: "work:movement-record", type: "Artwork", name: "Proof of Movement: Metaconceptual Art", relation: "defines profile for concept:metaconceptual-art", lod: [
+    { href: "/data/linked-art/movement-record", label: "Linked Art" },
   ] },
   { id: "concept:metaconceptual-art", type: "Concept", name: "Metaconceptual Art", relation: "evidenced by works, records, and provenance", lod: [
     { href: "/data/linked-art/concept-metaconceptual-art", label: "Linked Art" },
@@ -110,7 +110,7 @@ export default function SystemsPage() {
               This graph is deliberately compact. Its purpose is to establish a
               repeatable grammar for future works: stable IDs, node types, and
               relations that can be expanded into a fuller Meta-Wiki and a
-              public movement dossier.
+              public Movement Record.
             </p>
             <div className="graph-panel">
               <svg

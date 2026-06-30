@@ -77,9 +77,9 @@ museum connects outward to the wider linked-data record of art.
 - The movement claim now has a machine-facing foundation: [`/llms.txt`](public/llms.txt)
   indexes canonical evidence for bots, [`data/profile/metaconceptual-art-profile.jsonld`](data/profile/metaconceptual-art-profile.jsonld)
   defines the linked-open-art profile, [`data/profile/metaconceptual-art-claim.schema.json`](data/profile/metaconceptual-art-claim.schema.json)
-  gives future claims a lightweight validation shape, and the Movement Dossier is
+  gives future claims a lightweight validation shape, and the Movement Record is
   a citable Linked Art `LinguisticObject` at
-  `/data/linked-art/movement-dossier`.
+  `/data/linked-art/movement-record`.
 - The profile has a formal **v1.0 reference-standard surface** at `/profile/1.0/`:
   a reusable JSON-LD context, JSON Schema, SHACL shape, browser validator,
   starter template, passing/failing fixtures, VoID/DCAT dataset descriptors,
@@ -94,10 +94,11 @@ museum connects outward to the wider linked-data record of art.
   2009 receipts/metadata as early-work evidence held by the studio, and 2026 as
   the public linked-data publication layer.
 - The records are **certified against the Getty `cromulent` reference library**
-  (8/8) plus a `pyld` JSON-LD expansion, run in the verify gate and in **CI**
-  (GitHub Actions) on every push. The `data/linked-art/.htaccess` meets the API's
-  minimal static-file conformance (`application/ld+json` + profile, GET/OPTIONS,
-  CORS).
+  (9/9) plus a `pyld` JSON-LD expansion, run in the verify gate and in **CI**
+  (GitHub Actions) on every push. The official Linked Art JSON Schema bundle is
+  also clean for every schema-covered top-level record (DigitalObject, Set,
+  Group, and Type). The `data/linked-art/.htaccess` meets the API's minimal
+  static-file conformance (`application/ld+json` + profile, GET/OPTIONS, CORS).
 
 Anchor concepts: conceptual art (`Q203209` / AAT `300264827`), institutional
 critique (`Q6041145`), systems art (`Q919251` / AAT `300047869`), internet art

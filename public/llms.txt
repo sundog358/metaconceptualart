@@ -6,7 +6,7 @@ This file is a bot-facing index for AI agents, crawlers, and other automated rea
 
 ## Primary Pages
 
-- [Movement Dossier](https://www.metaconceptualart.com/movement): linked-open-data argument for Metaconceptual Art as a natural, credible, and valid movement.
+- [Movement Record](https://www.metaconceptualart.com/movement): linked-open-data argument for Metaconceptual Art as a natural, credible, and valid movement.
 - [Artworks](https://www.metaconceptualart.com/artworks): catalogued works on view.
 - [Theory](https://www.metaconceptualart.com/theory): primary theoretical framing.
 - [Systems](https://www.metaconceptualart.com/systems): node register and linked open data.
@@ -32,7 +32,7 @@ This file is a bot-facing index for AI agents, crawlers, and other automated rea
 - [Release 1.0 Checksums](https://www.metaconceptualart.com/data/releases/1.0/checksums.json): SHA-256 manifest for profile, graph, Linked Art, and IIIF assets.
 - [Linked Art Collection](https://www.metaconceptualart.com/data/linked-art/collection): collection Set.
 - [Metaconceptual Art Concept](https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art): local Linked Art Type for the movement concept.
-- [Movement Dossier Record](https://www.metaconceptualart.com/data/linked-art/movement-dossier): citable Linked Art LinguisticObject for the dossier.
+- [Movement Record](https://www.metaconceptualart.com/data/linked-art/movement-record): citable Linked Art LinguisticObject for the movement record.
 - [Activity Stream](https://www.metaconceptualart.com/data/linked-art/activity-stream): IIIF discovery stream generated from git history.
 - [Sitemap](https://www.metaconceptualart.com/sitemap.xml): crawlable URL list.
 
