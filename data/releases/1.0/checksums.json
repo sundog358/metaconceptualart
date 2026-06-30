@@ -17,11 +17,11 @@
     },
     {
       "path": "data/linked-art/activity-stream-page-1.json",
-      "sha256": "7e4e2e4e9b9e79eeda7d85cddda3993c30c877275d491ad8291819f60a4e79c8"
+      "sha256": "bbc62741ad54f69513e2bc42ed8423bcb6739b84d06806c18b674361f4b5d182"
     },
     {
       "path": "data/linked-art/activity-stream.json",
-      "sha256": "2ac066b3aa4498ef0ed20f468fdb0decaf9910d8df4619701408c9161c053bdf"
+      "sha256": "5424066c2cbeeda39015c428ad4805731546f39938e93d55f170ae4420f3b3c1"
     },
     {
       "path": "data/linked-art/collection.json",
