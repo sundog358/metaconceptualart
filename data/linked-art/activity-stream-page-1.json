@@ -167,6 +167,30 @@
         "type": "LinguisticObject"
       },
       "endTime": "2026-06-23T11:13:35-07:00"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/movement-dossier",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-06-29T18:24:09-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+        "type": "Set"
+      },
+      "endTime": "2026-06-29T18:24:09-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art",
+        "type": "Type"
+      },
+      "endTime": "2026-06-29T18:24:09-07:00"
     }
   ]
 }

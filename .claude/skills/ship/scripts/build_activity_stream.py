@@ -67,6 +67,16 @@ def commit_dates(root: Path, rel: str) -> list[str]:
         root, "log", "--follow", "--diff-filter=AMR", "--reverse",
         "--format=%aI", "--", rel,
     )
+    dates = [line.strip() for line in raw.splitlines() if line.strip()]
+    if dates:
+        return dates
+    # `git log --follow --diff-filter=...` can miss a brand-new file in the
+    # current HEAD on some Git/Windows combinations. Fall back to the same query
+    # without --follow so new records still receive their Create activity.
+    raw = git(
+        root, "log", "--diff-filter=AMR", "--reverse", "--format=%aI",
+        "--", rel,
+    )
     return [line.strip() for line in raw.splitlines() if line.strip()]
 
 
