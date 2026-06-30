@@ -288,7 +288,6 @@ Started:
 
 Next:
 
-- Consider a SHACL shape once the JSON Schema has stabilized.
 - Add independent bibliography / external reception once third-party sources
   exist, keeping that separate from self-authored evidence.
 - Add fuller `Person` and `Concept` records for thin-coverage lineage nodes.
@@ -302,6 +301,50 @@ Success criteria:
 - The project remains honest about the boundary between internal validity and
   external canonization.
 
+### Phase 11: Reference Standard
+
+Goal: move from "this site publishes Linked Art" to "this site defines a
+reusable linked-open-art profile for Metaconceptual Art claims."
+
+Done:
+
+- Published `/profile/1.0/` as the human-readable Metaconceptual Art Linked Open
+  Art application profile with four conformance levels: Minimal, Citable,
+  Museum-grade, and Interoperable.
+- Added a versioned JSON-LD context and profile metadata under
+  `data/profile/1.0/`.
+- Added `data/profile/metaconceptual-art-claim.shacl.ttl`, giving the profile an
+  RDF graph shape in addition to the existing JSON Schema.
+- Added passing and failing fixtures plus a starter template under
+  `data/profile/examples/` and `data/profile/templates/`.
+- Added `scripts/validate-claim.mjs` and `npm run validate:claim`, which checks
+  the current claim or a supplied local/remote claim against the JSON Schema and
+  SHACL-derived evidence rules.
+- Added `/validate`, a browser-facing validator for pasting or editing claim
+  JSON.
+- Added dataset-level descriptors: `data/void.ttl`, `data/dcat.jsonld`,
+  `/.well-known/void`, and `data/releases/1.0/checksums.json`.
+- Added a publication-status vocabulary and portfolio staging policy for private,
+  forthcoming, metadata-only, and public records, so the standards surface can be
+  public before the full portfolio is published.
+- Corrected the origin chronology in the public dossier and Linked Art records:
+  Sun & Rain Works formation is modeled as 2005, Metaconceptual Art movement
+  creation as 2007, March 2009 receipts/metadata as early-work evidence, and 2026
+  as the public linked-data publication layer.
+- Exposed the profile, validator, descriptors, and fixtures through the sitemap,
+  bot index, export smoke tests, and production content-type headers.
+
+Next:
+
+- Promote selected portfolio works from private/forthcoming to metadata-only or
+  public Linked Art records when their catalog facts and media are ready.
+- Expand the reference dataset from the current canonical corpus toward 10 to 20
+  public works and 10 to 20 concept/person/activity examples.
+- Add a stricter SHACL runner if the static build later adopts an RDF validation
+  dependency.
+- Publish a technical note on modeling born-digital conceptual art with Linked
+  Art and share it with Linked Art / IIIF / digital humanities communities.
+
 ### What's next
 
 Recently completed (post-v0.8 polish): verified the responsive layout (no
@@ -314,6 +357,8 @@ input beyond engineering:
 
 - Deeper **`/theory/<slug>`** essays (needs written content) and standalone
   `Person`/`Concept` records where coverage is thin.
+- Promote portfolio works into the public profile dataset deliberately: private
+  first, then metadata-only or public Linked Art records when ready.
 - Phase 5 participation: visitor responses / interpretive logs, revision histories
   for claims — requires a backend/form service (the site is a static export).
 - Submit/register the work in net-art contexts (Rhizome, e-flux) — an external
@@ -332,6 +377,9 @@ Current structure (✅ live, 🔭 planned):
 /theory/<slug>          🔭 Essays, propositions, annotations
 /systems                ✅ Knowledge graph + node register
 /explore                ✅ Interactive graph explorer
+/movement               ✅ Movement dossier
+/profile/1.0            ✅ Linked Open Art Profile v1.0
+/validate               ✅ Profile validator
 /statement              ✅ Curatorial statement
 /about                  ✅ Colophon, provenance, citation
 /changelog              ✅ Version history of the work

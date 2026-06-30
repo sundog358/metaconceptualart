@@ -1,0 +1,92 @@
+{
+  "id": "https://example.org/claims/example-claim",
+  "type": "MetaconceptualArtClaim",
+  "label": "Example Metaconceptual Art claim",
+  "definition": "Describe how the work or movement treats art, institutions, markets, archives, viewers, metadata, provenance, and meaning as material.",
+  "genealogy": [
+    {
+      "label": "Conceptual art",
+      "url": "https://www.wikidata.org/wiki/Q203209",
+      "authority": "Wikidata",
+      "role": "art-historical lineage"
+    },
+    {
+      "label": "Institutional critique",
+      "url": "https://www.wikidata.org/wiki/Q6041145",
+      "authority": "Wikidata",
+      "role": "institutional lineage"
+    },
+    {
+      "label": "Linked open data",
+      "url": "https://www.wikidata.org/wiki/Q18692990",
+      "authority": "Wikidata",
+      "role": "technical lineage"
+    }
+  ],
+  "principles": [
+    {
+      "label": "Principles page",
+      "url": "https://example.org/principles",
+      "authority": "local",
+      "role": "citable definition"
+    }
+  ],
+  "works": [
+    {
+      "label": "A work on view",
+      "url": "https://example.org/data/linked-art/work-1",
+      "authority": "Linked Art",
+      "role": "catalogued evidence",
+      "publicationStatus": "public"
+    }
+  ],
+  "standards": [
+    {
+      "label": "Linked Art record",
+      "url": "https://example.org/data/linked-art/work-1",
+      "authority": "Linked Art",
+      "role": "museum-grade record"
+    },
+    {
+      "label": "Knowledge graph",
+      "url": "https://example.org/data/graph.json",
+      "authority": "JSON-LD or local graph",
+      "role": "relationship evidence"
+    },
+    {
+      "label": "Activity Stream",
+      "url": "https://example.org/data/activity-stream",
+      "authority": "IIIF Discovery",
+      "role": "change discovery"
+    }
+  ],
+  "externalAuthorities": [
+    {
+      "label": "Authority one",
+      "url": "https://www.wikidata.org/wiki/Q203209",
+      "authority": "Wikidata",
+      "role": "lineage"
+    },
+    {
+      "label": "Authority two",
+      "url": "https://vocab.getty.edu/page/aat/300264827",
+      "authority": "Getty AAT",
+      "role": "art-domain vocabulary"
+    },
+    {
+      "label": "Authority three",
+      "url": "https://www.wikidata.org/wiki/Q54837",
+      "authority": "Wikidata",
+      "role": "technical standard"
+    }
+  ],
+  "provenance": [
+    {
+      "label": "Changelog",
+      "url": "https://example.org/changelog",
+      "authority": "local",
+      "role": "visible revision history"
+    }
+  ],
+  "limitations": "State what the claim does not prove, especially where external recognition or canonization has not happened."
+}

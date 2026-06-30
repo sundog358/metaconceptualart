@@ -1247,6 +1247,126 @@ h3 {
   color: var(--deep);
 }
 
+/* --- Claim validator (/validate) --- */
+.validator-shell {
+  background: var(--white);
+  border-block: 1px solid var(--line);
+  padding: clamp(64px, 9vw, 124px) clamp(20px, 5vw, 72px);
+}
+
+.validator-head {
+  align-items: end;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px 28px;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.validator-head h2 {
+  margin-bottom: 0;
+}
+
+.validator-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.validator-actions button {
+  background: var(--white);
+  border: 1px solid var(--line);
+  color: var(--deep);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  padding: 10px 14px;
+  text-transform: uppercase;
+}
+
+.validator-actions button:hover,
+.validator-actions button:focus-visible {
+  background: var(--tile);
+}
+
+.validator-grid {
+  align-items: stretch;
+  display: grid;
+  gap: clamp(20px, 4vw, 42px);
+  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+}
+
+.validator-input {
+  display: grid;
+  gap: 10px;
+  min-width: 0;
+}
+
+.validator-input span,
+.validator-result h4 {
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.validator-input textarea {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono",
+    monospace;
+  font-size: 0.84rem;
+  line-height: 1.55;
+  min-height: 540px;
+  padding: 18px;
+  resize: vertical;
+  width: 100%;
+}
+
+.validator-input textarea:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+}
+
+.validator-result {
+  background: linear-gradient(180deg, var(--white), rgba(255, 240, 200, 0.45));
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--green);
+  padding: clamp(22px, 3vw, 34px);
+}
+
+.validator-badge {
+  color: var(--accent);
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono",
+    monospace;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+
+.validator-result h3 {
+  color: var(--deep);
+  font-family: var(--serif);
+  font-weight: 500;
+}
+
+.validator-result ul {
+  display: grid;
+  gap: 8px;
+  margin: 10px 0 24px;
+  padding-left: 20px;
+}
+
+.validator-result li {
+  line-height: 1.5;
+}
+
 @media (max-width: 920px) {
   .hero {
     grid-template-columns: 1fr;
@@ -1254,7 +1374,8 @@ h3 {
 
   .system-section,
   .split-section,
-  .proof-section {
+  .proof-section,
+  .validator-grid {
     grid-template-columns: 1fr;
   }
 
@@ -2161,6 +2282,7 @@ html[data-theme="dark"] .sentence-list li,
 html[data-theme="dark"] .entry,
 html[data-theme="dark"] .work-card,
 html[data-theme="dark"] .proof-card,
+html[data-theme="dark"] .validator-result,
 html[data-theme="dark"] .timeline-list li,
 html[data-theme="dark"] .related-panel,
 html[data-theme="dark"] .reference-list li,

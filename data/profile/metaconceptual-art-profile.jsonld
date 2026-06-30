@@ -23,6 +23,26 @@
       "@id": "validationShape",
       "@type": "@id"
     },
+    "jsonLdContext": {
+      "@id": "jsonLdContext",
+      "@type": "@id"
+    },
+    "shaclShape": {
+      "@id": "shaclShape",
+      "@type": "@id"
+    },
+    "humanSpecification": {
+      "@id": "humanSpecification",
+      "@type": "@id"
+    },
+    "publicationStatusVocabulary": {
+      "@id": "publicationStatusVocabulary",
+      "@type": "@id"
+    },
+    "portfolioStagingPolicy": {
+      "@id": "portfolioStagingPolicy",
+      "@type": "@id"
+    },
     "currentClaim": {
       "@id": "currentClaim",
       "@type": "@id"
@@ -44,8 +64,14 @@
   "dcterms:license": {
     "id": "https://creativecommons.org/licenses/by/4.0/"
   },
+  "dcterms:hasVersion": "1.0",
+  "humanSpecification": "https://www.metaconceptualart.com/profile/1.0/",
+  "jsonLdContext": "https://www.metaconceptualart.com/data/profile/1.0/context.jsonld",
+  "publicationStatusVocabulary": "https://www.metaconceptualart.com/data/profile/1.0/publication-status.jsonld",
+  "portfolioStagingPolicy": "https://www.metaconceptualart.com/data/profile/1.0/portfolio-staging-policy.jsonld",
   "canonicalRecord": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art",
   "validationShape": "https://www.metaconceptualart.com/data/profile/metaconceptual-art-claim.schema.json",
+  "shaclShape": "https://www.metaconceptualart.com/data/profile/metaconceptual-art-claim.shacl.ttl",
   "currentClaim": "https://www.metaconceptualart.com/data/profile/metaconceptual-art-claim.json",
   "requiresEvidence": [
     "https://www.metaconceptualart.com/data/profile/evidence/genealogy",

@@ -1,15 +1,31 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "Metaconceptual Art Knowledge Graph",
-  "version": "0.7.0",
+  "version": "1.0.0",
   "updated": "2026-06-30",
-  "description": "Canonical, machine-readable knowledge graph for Metaconceptual Art. Each node carries a stable site ID and, where it corresponds to a real concept, person, or movement, a Wikidata QID plus the art-domain authority IDs (Getty ULAN for people, Getty AAT for concepts, Grove Art Online) so the museum connects outward to both the general and the art-specific linked-data graph. The works are also published as a set of CIDOC-CRM-correct Linked Art (API 1.0) records — digital objects, a textual work, a group, a concept, a collection set, and a provenance activity — each with a HAL _links block and served as application/ld+json.",
+  "description": "Canonical, machine-readable knowledge graph for Metaconceptual Art. Each node carries a stable site ID and, where it corresponds to a real concept, person, or movement, a Wikidata QID plus the art-domain authority IDs (Getty ULAN for people, Getty AAT for concepts, Grove Art Online) so the museum connects outward to both the general and the art-specific linked-data graph. The works are also published as a set of CIDOC-CRM-correct Linked Art (API 1.0) records — digital objects, a textual work, a group, a concept, a collection set, and a provenance activity — each with a HAL _links block and served as application/ld+json. The dataset distinguishes origin from publication: Sun & Rain Works was established in 2005, Metaconceptual Art was created as a movement in 2007, March 2009 receipts and metadata are treated as early-work evidence, and 2026 is the public linked-data publication layer.",
   "license": "CC-BY-4.0",
   "base": "https://www.metaconceptualart.com/",
   "wikidataEntityBase": "https://www.wikidata.org/wiki/",
   "gettyVocabBase": "https://vocab.getty.edu/page/",
   "linkedArtBase": "https://www.metaconceptualart.com/data/linked-art/",
   "linkedArtDiscovery": "https://www.metaconceptualart.com/data/linked-art/activity-stream",
+  "profile": {
+    "humanSpecification": "https://www.metaconceptualart.com/profile/1.0/",
+    "jsonLdContext": "https://www.metaconceptualart.com/data/profile/1.0/context.jsonld",
+    "jsonSchema": "https://www.metaconceptualart.com/data/profile/metaconceptual-art-claim.schema.json",
+    "shaclShape": "https://www.metaconceptualart.com/data/profile/metaconceptual-art-claim.shacl.ttl",
+    "publicationStatusVocabulary": "https://www.metaconceptualart.com/data/profile/1.0/publication-status.jsonld",
+    "portfolioStagingPolicy": "https://www.metaconceptualart.com/data/profile/1.0/portfolio-staging-policy.jsonld",
+    "validator": "https://www.metaconceptualart.com/validate"
+  },
+  "datasetDescriptors": {
+    "void": "https://www.metaconceptualart.com/data/void.ttl",
+    "wellKnownVoid": "https://www.metaconceptualart.com/.well-known/void",
+    "dcat": "https://www.metaconceptualart.com/data/dcat.jsonld",
+    "checksums": "https://www.metaconceptualart.com/data/releases/1.0/checksums.json",
+    "originProvenance": "https://www.metaconceptualart.com/data/profile/metaconceptual-art-origin-provenance.json"
+  },
   "linkedArtRecords": [
     { "id": "site-as-artwork", "type": "DigitalObject", "label": "The Website Itself" },
     { "id": "eight-sentences", "type": "LinguisticObject", "label": "Eight Sentences On Metaconceptual Art" },
@@ -66,7 +82,7 @@
       "id": "concept:metaconceptual-art",
       "type": "Concept",
       "label": "Metaconceptual Art",
-      "description": "A self-defined movement concept: art that treats art, its institutions, markets, archives, viewers, metadata, and provenance as the material of the work.",
+      "description": "A self-defined movement concept created by Sun & Rain Works in 2007: art that treats art, its institutions, markets, archives, viewers, metadata, and provenance as the material of the work.",
       "wikidata": null,
       "linkedArt": "data/linked-art/concept-metaconceptual-art"
     },
@@ -200,6 +216,14 @@
       "wikidata": null
     },
     {
+      "id": "record:origin-provenance",
+      "type": "Provenance",
+      "label": "Origin Provenance",
+      "description": "Machine-readable chronology distinguishing Sun & Rain Works formation in 2005, Metaconceptual Art movement creation in 2007, March 2009 early-work evidence, and 2026 linked-data publication.",
+      "wikidata": null,
+      "url": "data/profile/metaconceptual-art-origin-provenance.json"
+    },
+    {
       "id": "record:citation-primary",
       "type": "Citation",
       "label": "Recommended Citation",
@@ -222,6 +246,7 @@
     { "from": "concept:metaconceptual-art", "relation": "tracks", "to": "concept:provenance" },
     { "from": "concept:metaconceptual-art", "relation": "uses_standard", "to": "concept:semantic-web" },
     { "from": "concept:metaconceptual-art", "relation": "uses_standard", "to": "concept:linked-open-data" },
+    { "from": "concept:metaconceptual-art", "relation": "has_origin_provenance", "to": "record:origin-provenance" },
     { "from": "work:eight-sentences", "relation": "cites", "to": "source:lewitt" },
     { "from": "work:movement-dossier", "relation": "defines_profile", "to": "concept:metaconceptual-art" },
     { "from": "work:movement-dossier", "relation": "uses_standard", "to": "concept:linked-open-data" },
@@ -235,6 +260,7 @@
     { "from": "concept:net-art", "relation": "sites", "to": "work:site-as-artwork" },
     { "from": "system:provenance-layer", "relation": "expresses", "to": "concept:provenance" },
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:revision-2026-06-19" },
+    { "from": "system:provenance-layer", "relation": "produces", "to": "record:origin-provenance" },
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:citation-primary" }
   ],
   "anchorConcepts": [

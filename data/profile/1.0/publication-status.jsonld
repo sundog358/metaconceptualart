@@ -1,0 +1,48 @@
+{
+  "@context": [
+    "https://www.metaconceptualart.com/data/profile/1.0/context.jsonld",
+    {
+      "status": "mca:publicationStatus",
+      "countsAsPublicEvidence": "mca:countsAsPublicEvidence",
+      "recommendedUse": "mca:recommendedUse"
+    }
+  ],
+  "id": "https://www.metaconceptualart.com/data/profile/1.0/publication-status.jsonld",
+  "type": "mca:PublicationStatusVocabulary",
+  "label": "Metaconceptual Art publication status vocabulary",
+  "description": "Publication status terms for connecting a portfolio to linked open data without implying that private or forthcoming works are already public evidence.",
+  "status": [
+    {
+      "id": "https://www.metaconceptualart.com/profile/1.0/#public",
+      "type": "mca:PublicationStatus",
+      "label": "public",
+      "description": "The work has a public human page or public Linked Art record and may count as public evidence.",
+      "countsAsPublicEvidence": true,
+      "recommendedUse": "Use for works on view with stable public URLs."
+    },
+    {
+      "id": "https://www.metaconceptualart.com/profile/1.0/#metadata-only",
+      "type": "mca:PublicationStatus",
+      "label": "metadata-only",
+      "description": "The work has public title/year/type/concept/provenance metadata, but media or full interpretation is withheld.",
+      "countsAsPublicEvidence": true,
+      "recommendedUse": "Use when the existence and catalog facts can be public before the image, text, or full page is released."
+    },
+    {
+      "id": "https://www.metaconceptualart.com/profile/1.0/#forthcoming",
+      "type": "mca:PublicationStatus",
+      "label": "forthcoming",
+      "description": "The work has a planned stable URI but should not yet count as public evidence.",
+      "countsAsPublicEvidence": false,
+      "recommendedUse": "Use in private/staging data until a public record or metadata-only record is intentionally published."
+    },
+    {
+      "id": "https://www.metaconceptualart.com/profile/1.0/#private",
+      "type": "mca:PublicationStatus",
+      "label": "private",
+      "description": "The work remains outside the public linked open data surface.",
+      "countsAsPublicEvidence": false,
+      "recommendedUse": "Keep these records out of the public export until disclosure is intended."
+    }
+  ]
+}

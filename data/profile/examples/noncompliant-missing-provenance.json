@@ -1,0 +1,22 @@
+{
+  "id": "https://example.org/claims/untethered",
+  "type": "MetaconceptualArtClaim",
+  "label": "Untethered movement claim",
+  "definition": "A short claim that names a movement but does not expose enough linked evidence to be checked by the profile.",
+  "genealogy": [
+    {
+      "label": "Conceptual art",
+      "url": "https://www.wikidata.org/wiki/Q203209"
+    }
+  ],
+  "principles": [],
+  "works": [],
+  "standards": [
+    {
+      "label": "A local page",
+      "url": "https://example.org/page"
+    }
+  ],
+  "externalAuthorities": [],
+  "provenance": []
+}

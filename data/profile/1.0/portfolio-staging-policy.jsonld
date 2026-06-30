@@ -1,0 +1,44 @@
+{
+  "@context": [
+    "https://www.metaconceptualart.com/data/profile/1.0/context.jsonld",
+    {
+      "mode": "mca:stagingMode",
+      "countsAsPublicEvidence": "mca:countsAsPublicEvidence",
+      "publicAction": "mca:publicAction",
+      "machineAction": "mca:machineAction"
+    }
+  ],
+  "id": "https://www.metaconceptualart.com/data/profile/1.0/portfolio-staging-policy.jsonld",
+  "type": "mca:PortfolioStagingPolicy",
+  "label": "Portfolio staging policy",
+  "description": "A standards-first publication policy for connecting Metaconceptual Art to the Linked Art and linked open data web before the full private portfolio is public.",
+  "mode": [
+    {
+      "id": "https://www.metaconceptualart.com/profile/1.0/#private",
+      "type": "mca:StagingMode",
+      "label": "Private for now",
+      "description": "Unpublished portfolio works remain outside public Linked Art, sitemap, Activity Stream, VoID, and DCAT outputs.",
+      "countsAsPublicEvidence": false,
+      "publicAction": "Do not publish a public record.",
+      "machineAction": "No public machine-readable assertion is made."
+    },
+    {
+      "id": "https://www.metaconceptualart.com/profile/1.0/#metadata-only",
+      "type": "mca:StagingMode",
+      "label": "Metadata-only public",
+      "description": "A public record may expose title, year, type, concept, creator, rights, and provenance while withholding media.",
+      "countsAsPublicEvidence": true,
+      "publicAction": "Publish a stable record only when the catalog facts are ready to be public.",
+      "machineAction": "Include the record in Linked Art discovery and dataset descriptors."
+    },
+    {
+      "id": "https://www.metaconceptualart.com/profile/1.0/#forthcoming",
+      "type": "mca:StagingMode",
+      "label": "Staged public record",
+      "description": "A planned URI and template can be prepared privately, then converted to public or metadata-only when released.",
+      "countsAsPublicEvidence": false,
+      "publicAction": "Do not count the work as public evidence until its record is intentionally published.",
+      "machineAction": "When published, add a Create or Update activity to the Activity Stream."
+    }
+  ]
+}

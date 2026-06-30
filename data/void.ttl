@@ -1,0 +1,23 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix la: <https://linked.art/ns/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://www.metaconceptualart.com/data/>
+  a void:Dataset ;
+  dcterms:title "Metaconceptual Art linked open art dataset" ;
+  dcterms:description "Linked Art, IIIF, profile, and graph records for Metaconceptual Art as a born-digital linked open art reference implementation." ;
+  dcterms:creator <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> ;
+  dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+  dcterms:issued "2026-06-30" ;
+  void:uriSpace "https://www.metaconceptualart.com/data/" ;
+  void:vocabulary la: ;
+  void:dataDump <https://www.metaconceptualart.com/data/graph.json> ;
+  void:dataDump <https://www.metaconceptualart.com/data/dcat.jsonld> ;
+  void:dataDump <https://www.metaconceptualart.com/data/profile/1.0/publication-status.jsonld> ;
+  void:dataDump <https://www.metaconceptualart.com/data/profile/1.0/portfolio-staging-policy.jsonld> ;
+  void:dataDump <https://www.metaconceptualart.com/data/profile/metaconceptual-art-origin-provenance.json> ;
+  void:dataDump <https://www.metaconceptualart.com/data/releases/1.0/checksums.json> ;
+  void:rootResource <https://www.metaconceptualart.com/data/linked-art/collection> ;
+  void:rootResource <https://www.metaconceptualart.com/profile/1.0/> ;
+  foaf:homepage <https://www.metaconceptualart.com/> .

@@ -1,0 +1,55 @@
+{
+  "id": "https://www.metaconceptualart.com/data/profile/metaconceptual-art-origin-provenance.json",
+  "type": "MetaconceptualArtOriginProvenance",
+  "label": "Metaconceptual Art origin provenance",
+  "description": "Machine-readable origin chronology for Metaconceptual Art. This file distinguishes the studio formation, movement origin, early artwork evidence, and later public linked-data publication so the project is not framed as a retrospective 2026 invention.",
+  "events": [
+    {
+      "id": "https://www.metaconceptualart.com/origin#sun-and-rain-works-2005",
+      "type": "OrganizationFormation",
+      "label": "Sun & Rain Works established",
+      "date": "2005",
+      "agent": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+      "evidenceStatus": "asserted-by-studio",
+      "publicEvidenceStatus": "metadata-only",
+      "description": "Sun & Rain Works was established as the art business and studio context for the later Metaconceptual Art movement."
+    },
+    {
+      "id": "https://www.metaconceptualart.com/origin#movement-origin-2007",
+      "type": "MovementOrigin",
+      "label": "Metaconceptual Art movement created",
+      "date": "2007",
+      "agent": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+      "concept": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art",
+      "evidenceStatus": "asserted-by-studio",
+      "publicEvidenceStatus": "metadata-only",
+      "description": "Metaconceptual Art is asserted by Sun & Rain Works as a movement created in 2007, before the 2026 linked-data publication layer."
+    },
+    {
+      "id": "https://www.metaconceptualart.com/origin#early-work-evidence-2009-03",
+      "type": "ArtworkEvidence",
+      "label": "March 2009 artwork receipts and metadata",
+      "date": "2009-03",
+      "agent": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+      "evidenceStatus": "private-evidence-held-by-studio",
+      "publicEvidenceStatus": "forthcoming",
+      "description": "The studio reports March 2009 receipts, metadata, and related documentation for early Metaconceptual Art works. Those records can be promoted to public, metadata-only, or full Linked Art records when ready."
+    },
+    {
+      "id": "https://www.metaconceptualart.com/origin#linked-data-publication-2026",
+      "type": "LinkedDataPublication",
+      "label": "Public linked-data publication",
+      "date": "2026",
+      "agent": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+      "evidenceStatus": "public",
+      "publicEvidenceStatus": "public",
+      "description": "The 2026 web publication makes the movement, profile, selected works, and records machine-readable as Linked Art, IIIF, JSON-LD, SHACL, VoID, and DCAT."
+    }
+  ],
+  "comparisonPolicy": {
+    "label": "Comparison and priority policy",
+    "description": "Earlier studio evidence may establish priority for a documented Metaconceptual Art structure without asserting direct influence on later artists or events unless evidence of contact, access, or derivation is separately published.",
+    "recommendedClaim": "Documented prior evidence for a related metaconceptual structure.",
+    "avoidClaim": "Direct influence, copying, or misattribution without separate evidence."
+  }
+}

@@ -81,9 +81,11 @@ const evidence = [
   {
     title: "Provenance Over Time",
     claim:
-      "Git history, changelog entries, Activity Streams, versioned records, and dereferenceable URIs show the movement evolving.",
-    proof: "The provenance layer is visible to visitors and machine-readable through the Linked Art discovery stream.",
+      "Sun & Rain Works predates the public linked-data layer: the art business was established in 2005, Metaconceptual Art was created as a movement in 2007, March 2009 receipts and metadata are treated as early-work evidence, and 2026 is the public machine-readable publication date.",
+    proof: "The provenance layer separates origin, evidence, and publication so the movement is not framed as a 2026 hindsight construction.",
     links: [
+      ["Origin provenance", "/data/profile/metaconceptual-art-origin-provenance.json"],
+      ["Sun & Rain Works", "/data/linked-art/sun-and-rain-works"],
       ["Changelog", "/changelog"],
       ["Activity Stream", "/data/linked-art/activity-stream"],
       ["Provenance record", "/data/linked-art/provenance-publication"],
@@ -177,6 +179,12 @@ export default function MovementPage() {
               movement's lineage, evidence, standards, and revisions in a form a
               curator, scholar, crawler, or collection system can inspect.
             </p>
+            <p>
+              It also separates origin from publication: Sun &amp; Rain Works was
+              established in 2005, Metaconceptual Art was created as a movement
+              in 2007, early work evidence is recorded from March 2009, and the
+              2026 web layer makes selected records public and machine-readable.
+            </p>
           </div>
           <div className="proof-grid">
             {evidence.map((item, index) => (
@@ -237,6 +245,9 @@ export default function MovementPage() {
               <Link href="/data/profile/metaconceptual-art-claim.json">
                 Current claim
               </Link>
+              <Link href="/data/profile/metaconceptual-art-origin-provenance.json">
+                Origin provenance
+              </Link>
               <Link href="/data/linked-art/collection">
                 Collection Set
               </Link>
@@ -256,10 +267,12 @@ export default function MovementPage() {
             <h2 id="limits-title">What This Proves, And What It Does Not</h2>
             <p className="section-intro">
               The dossier proves internal coherence, public evidence, external
-              alignment, and standards-based legibility. It does not claim that
-              museums, scholars, or Wikidata have already recognized
-              Metaconceptual Art as an established historical movement. That
-              recognition would require independent sources over time.
+              alignment, standards-based legibility, and a studio-origin
+              chronology. It does not claim that museums, scholars, or Wikidata
+              have already recognized Metaconceptual Art as an established
+              historical movement. It also does not claim direct influence on
+              later artists or art-historical events unless separate evidence of
+              contact, access, or derivation is published.
             </p>
           </div>
         </section>

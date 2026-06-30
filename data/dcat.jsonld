@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "id": "@id",
+    "type": "@type"
+  },
+  "id": "https://www.metaconceptualart.com/data/dcat.jsonld",
+  "type": "dcat:Catalog",
+  "dcterms:title": "Metaconceptual Art linked open art catalog",
+  "dcterms:description": "Dataset catalog for the Linked Art records, IIIF manifest, profile, validation fixtures, and local graph that make Metaconceptual Art machine-readable.",
+  "dcterms:license": {
+    "id": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "foaf:homepage": {
+    "id": "https://www.metaconceptualart.com/"
+  },
+  "dcat:dataset": [
+    {
+      "id": "https://www.metaconceptualart.com/data/",
+      "type": "dcat:Dataset",
+      "dcterms:title": "Metaconceptual Art linked open art dataset",
+      "dcterms:issued": "2026-06-30",
+      "dcat:landingPage": {
+        "id": "https://www.metaconceptualart.com/profile/1.0/"
+      },
+      "dcat:distribution": [
+        {
+          "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+          "type": "dcat:Distribution",
+          "dcterms:title": "Linked Art collection",
+          "dcat:mediaType": "application/ld+json"
+        },
+        {
+          "id": "https://www.metaconceptualart.com/data/graph.json",
+          "type": "dcat:Distribution",
+          "dcterms:title": "Local knowledge graph",
+          "dcat:mediaType": "application/json"
+        },
+        {
+          "id": "https://www.metaconceptualart.com/data/profile/metaconceptual-art-claim.shacl.ttl",
+          "type": "dcat:Distribution",
+          "dcterms:title": "Metaconceptual Art SHACL shape",
+          "dcat:mediaType": "text/turtle"
+        },
+        {
+          "id": "https://www.metaconceptualart.com/data/profile/1.0/publication-status.jsonld",
+          "type": "dcat:Distribution",
+          "dcterms:title": "Publication status vocabulary",
+          "dcat:mediaType": "application/ld+json"
+        },
+        {
+          "id": "https://www.metaconceptualart.com/data/profile/1.0/portfolio-staging-policy.jsonld",
+          "type": "dcat:Distribution",
+          "dcterms:title": "Portfolio staging policy",
+          "dcat:mediaType": "application/ld+json"
+        },
+        {
+          "id": "https://www.metaconceptualart.com/data/profile/metaconceptual-art-origin-provenance.json",
+          "type": "dcat:Distribution",
+          "dcterms:title": "Metaconceptual Art origin provenance",
+          "dcat:mediaType": "application/json"
+        },
+        {
+          "id": "https://www.metaconceptualart.com/data/iiif/construction-museum/manifest.json",
+          "type": "dcat:Distribution",
+          "dcterms:title": "IIIF manifest",
+          "dcat:mediaType": "application/ld+json"
+        },
+        {
+          "id": "https://www.metaconceptualart.com/data/releases/1.0/checksums.json",
+          "type": "dcat:Distribution",
+          "dcterms:title": "Release 1.0 checksum manifest",
+          "dcat:mediaType": "application/json"
+        }
+      ]
+    }
+  ]
+}

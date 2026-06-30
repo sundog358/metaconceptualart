@@ -38,7 +38,7 @@
   "referred_to_by": [
     {
       "type": "LinguisticObject",
-      "content": "Art that treats art, its institutions, markets, archives, and viewers as the material of the work. A self-defined movement concept extending conceptual art into the system that makes art legible. Its public dossier argues credibility through genealogy, defined principles, works on view, machine-readable standards, external alignment, and provenance over time.",
+      "content": "Art that treats art, its institutions, markets, archives, and viewers as the material of the work. A self-defined movement concept created by Sun & Rain Works in 2007, extending conceptual art into the system that makes art legible. Its public dossier argues credibility through genealogy, defined principles, works on view, machine-readable standards, external alignment, and provenance over time.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -67,9 +67,9 @@
     "_label": "Definition of Metaconceptual Art as a movement concept",
     "timespan": {
       "type": "TimeSpan",
-      "_label": "2026",
-      "begin_of_the_begin": "2026-01-01T00:00:00Z",
-      "end_of_the_end": "2026-12-31T23:59:59Z"
+      "_label": "2007",
+      "begin_of_the_begin": "2007-01-01T00:00:00Z",
+      "end_of_the_end": "2007-12-31T23:59:59Z"
     },
     "carried_out_by": [
       {

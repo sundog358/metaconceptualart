@@ -1,0 +1,54 @@
+@prefix mca: <https://www.metaconceptualart.com/ns/profile#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+mca:MetaconceptualArtClaimShape
+  a sh:NodeShape ;
+  sh:name "Metaconceptual Art claim" ;
+  sh:description "A graph shape for checking whether a Metaconceptual Art claim carries the minimum evidence required by the Linked Open Art Profile." ;
+  sh:targetClass mca:MetaconceptualArtClaim ;
+  sh:property [
+    sh:path schema:name ;
+    sh:minCount 1 ;
+    sh:datatype xsd:string ;
+    sh:message "A claim must have a human-readable label." ;
+  ] ;
+  sh:property [
+    sh:path skos:definition ;
+    sh:minCount 1 ;
+    sh:minLength 40 ;
+    sh:datatype xsd:string ;
+    sh:message "A claim must define the movement or work in enough detail to be evaluated." ;
+  ] ;
+  sh:property [
+    sh:path mca:genealogy ;
+    sh:minCount 3 ;
+    sh:message "A claim must declare at least three genealogy links to art-historical or technical lineage." ;
+  ] ;
+  sh:property [
+    sh:path mca:principles ;
+    sh:minCount 1 ;
+    sh:message "A claim must expose at least one citable principles or theory source." ;
+  ] ;
+  sh:property [
+    sh:path mca:works ;
+    sh:minCount 1 ;
+    sh:message "A claim must point to at least one work on view." ;
+  ] ;
+  sh:property [
+    sh:path mca:standards ;
+    sh:minCount 3 ;
+    sh:message "A claim must cite at least three machine-readable standards or records." ;
+  ] ;
+  sh:property [
+    sh:path mca:externalAuthorities ;
+    sh:minCount 3 ;
+    sh:message "A claim must separate local assertions from at least three external authority alignments." ;
+  ] ;
+  sh:property [
+    sh:path mca:provenance ;
+    sh:minCount 1 ;
+    sh:message "A claim must expose provenance over time." ;
+  ] .

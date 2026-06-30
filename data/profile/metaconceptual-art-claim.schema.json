@@ -88,6 +88,11 @@
         "role": {
           "type": "string",
           "description": "How this evidence supports the claim."
+        },
+        "publicationStatus": {
+          "type": "string",
+          "enum": ["public", "metadata-only", "forthcoming", "private"],
+          "description": "Optional publication status for work evidence. Missing means public; private and forthcoming works do not count as public evidence."
         }
       },
       "additionalProperties": false

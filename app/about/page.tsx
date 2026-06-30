@@ -40,10 +40,12 @@ export default function AboutPage() {
               part of its active form.
             </p>
             <p>
-              The project begins as a deliberately small meta-museum: a landing
-              page, two catalogued works, a primary theory text, and a semantic
-              graph. Its growth should remain visible through provenance,
-              changelog records, and stable identifiers.
+              The public website is the current meta-museum layer, not the
+              origin of the practice. Sun &amp; Rain Works was established in
+              2005, Metaconceptual Art was created as a movement in 2007, and
+              March 2009 receipts and metadata are treated as early-work
+              evidence. The 2026 linked-data layer makes selected records public,
+              citable, and machine-readable.
             </p>
           </div>
         </section>
@@ -67,7 +69,15 @@ export default function AboutPage() {
             </div>
             <div>
               <dt>Year</dt>
-              <dd>2026</dd>
+              <dd>2007 movement origin; 2026 public linked-data publication</dd>
+            </div>
+            <div>
+              <dt>Studio formation</dt>
+              <dd>Sun &amp; Rain Works established in 2005</dd>
+            </div>
+            <div>
+              <dt>Early evidence</dt>
+              <dd>March 2009 receipts and metadata held by the studio</dd>
             </div>
             <div>
               <dt>Current version</dt>

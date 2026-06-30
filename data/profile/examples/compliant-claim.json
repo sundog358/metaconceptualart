@@ -21,12 +21,6 @@
       "url": "https://www.wikidata.org/wiki/Q919251",
       "authority": "Wikidata",
       "role": "systems lineage"
-    },
-    {
-      "label": "Internet art",
-      "url": "https://www.wikidata.org/wiki/Q1569950",
-      "authority": "Wikidata",
-      "role": "networked art lineage"
     }
   ],
   "principles": [
@@ -35,12 +29,6 @@
       "url": "https://www.metaconceptualart.com/movement",
       "authority": "local",
       "role": "human-readable argument"
-    },
-    {
-      "label": "Metaconceptual Art profile",
-      "url": "https://www.metaconceptualart.com/data/profile/metaconceptual-art-profile.jsonld",
-      "authority": "local JSON-LD",
-      "role": "machine-readable evidence profile"
     }
   ],
   "works": [
@@ -48,19 +36,8 @@
       "label": "Eight Sentences On Metaconceptual Art",
       "url": "https://www.metaconceptualart.com/data/linked-art/eight-sentences",
       "authority": "Linked Art",
-      "role": "proposition work"
-    },
-    {
-      "label": "Construction of the Museum as Concept",
-      "url": "https://www.metaconceptualart.com/data/linked-art/construction-museum",
-      "authority": "Linked Art",
-      "role": "image work"
-    },
-    {
-      "label": "Proof of Movement: Metaconceptual Art",
-      "url": "https://www.metaconceptualart.com/data/linked-art/movement-dossier",
-      "authority": "Linked Art",
-      "role": "citable dossier"
+      "role": "proposition work",
+      "publicationStatus": "public"
     }
   ],
   "standards": [
@@ -75,12 +52,6 @@
       "url": "https://www.metaconceptualart.com/data/graph.json",
       "authority": "local JSON",
       "role": "graph evidence"
-    },
-    {
-      "label": "IIIF manifest",
-      "url": "https://www.metaconceptualart.com/data/iiif/construction-museum/manifest.json",
-      "authority": "IIIF Presentation 3.0",
-      "role": "image interoperability"
     },
     {
       "label": "Activity Stream",
@@ -111,29 +82,11 @@
   ],
   "provenance": [
     {
-      "label": "Sun & Rain Works established",
-      "url": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
-      "authority": "Linked Art",
-      "role": "2005 studio and art-business formation"
-    },
-    {
-      "label": "Metaconceptual Art origin provenance",
-      "url": "https://www.metaconceptualart.com/data/profile/metaconceptual-art-origin-provenance.json",
-      "authority": "local JSON",
-      "role": "origin chronology: 2005 studio, 2007 movement, March 2009 early-work evidence, 2026 linked-data publication"
-    },
-    {
       "label": "Changelog",
       "url": "https://www.metaconceptualart.com/changelog",
       "authority": "local",
       "role": "visible revision history"
-    },
-    {
-      "label": "Publication provenance",
-      "url": "https://www.metaconceptualart.com/data/linked-art/provenance-publication",
-      "authority": "Linked Art",
-      "role": "publication activity"
     }
   ],
-  "limitations": "This claim demonstrates internal coherence, standards-based legibility, external alignment, and a studio-origin chronology. It does not claim that Wikidata, Getty, museums, scholars, or other third-party authorities have already canonized Metaconceptual Art as an established historical movement. Earlier studio evidence may support priority for a related metaconceptual structure without proving direct influence on later artists or events unless separate evidence of access, contact, or derivation is published."
+  "limitations": "This claim demonstrates internal coherence, standards-based legibility, and external alignment without asserting external canonization."
 }

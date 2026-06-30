@@ -1,0 +1,81 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/replace-with-stable-slug",
+  "type": "DigitalObject",
+  "_label": "Replace With Work Title",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Replace With Work Title"
+    },
+    {
+      "type": "Identifier",
+      "content": "work:replace-with-stable-slug"
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300386906",
+      "type": "Type",
+      "_label": "born-digital"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Forthcoming work record prepared for publication. Replace this note before making the record public.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "publicationStatus: forthcoming; does not count as public evidence until intentionally published.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "administrative note"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Creation of Replace With Work Title",
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "subject_to": [
+    {
+      "id": "https://creativecommons.org/licenses/by/4.0/",
+      "type": "Right",
+      "_label": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/replace-with-stable-slug"
+    },
+    "curies": [
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
+    ],
+    "profile": {
+      "href": "https://www.metaconceptualart.com/profile/1.0/",
+      "name": "Metaconceptual Art Linked Open Art Profile 1.0"
+    }
+  }
+}

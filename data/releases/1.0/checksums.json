@@ -1,0 +1,119 @@
+{
+  "id": "https://www.metaconceptualart.com/data/releases/1.0/checksums.json",
+  "algorithm": "SHA-256",
+  "created": "2026-06-30",
+  "files": [
+    {
+      "path": "data/dcat.jsonld",
+      "sha256": "3c82b603b679dc8c2243aa10543a553d1968200de68171d275eb680ad7309da4"
+    },
+    {
+      "path": "data/graph.json",
+      "sha256": "f86e4fb11c6851d6217d127ce2363000be15747a4ef510a889cb6039e147b01d"
+    },
+    {
+      "path": "data/iiif/construction-museum/manifest.json",
+      "sha256": "20315a2b2ef7b59010758fd7a0bc2e3b7ebaad9156c1129de120cb4db447c08c"
+    },
+    {
+      "path": "data/linked-art/activity-stream-page-1.json",
+      "sha256": "d3433eb8e85785c4aba8b4c89151c30506ce57ac2327c914e28e9237c22b9b9f"
+    },
+    {
+      "path": "data/linked-art/activity-stream.json",
+      "sha256": "940962c9d8cf1ad766147d5cb1236db810e796d1c4757b5dc246394e0371bb03"
+    },
+    {
+      "path": "data/linked-art/collection.json",
+      "sha256": "26329122990092de99f313358e0169d97e4151e664e92d7729621dda0437a412"
+    },
+    {
+      "path": "data/linked-art/concept-metaconceptual-art.json",
+      "sha256": "f3a7b375ee08bdc18e4711f82e31965395396c00ad1a8d34e7335747ad997a41"
+    },
+    {
+      "path": "data/linked-art/construction-museum.json",
+      "sha256": "d3c6c104435ae1990f541c74e7eade90793a5b36751eb1a1e1eeb4628f14e58b"
+    },
+    {
+      "path": "data/linked-art/eight-sentences.json",
+      "sha256": "b6e88cf1c9abfdb506bd528019587c39f45f6fac5874e10552fe9895b335a147"
+    },
+    {
+      "path": "data/linked-art/movement-dossier.json",
+      "sha256": "1ee8f535aa874cab40c18b09484faa607ff8e4c5eafa4623bf08d77974e1f98a"
+    },
+    {
+      "path": "data/linked-art/provenance-publication.json",
+      "sha256": "05819bd4a441c7d5e0e1e1e51a1886160bd3862976c1ecc5ca744df1585d0bc2"
+    },
+    {
+      "path": "data/linked-art/site-as-artwork.json",
+      "sha256": "bc6ee4376752a553e9043ec88aa6cb8b5286233c2d2a2720e775698c5074d7dd"
+    },
+    {
+      "path": "data/linked-art/sun-and-rain-works.json",
+      "sha256": "0f063fcdaac44cfcba8f0b16080f9d76dde873e34291cd566fb3ef93ae64a3ae"
+    },
+    {
+      "path": "data/profile/1.0/context.jsonld",
+      "sha256": "ea31e33f6ed3fb4f2c53f9f2e20cbcb904466cd95111be77d132d9816cf2d4e5"
+    },
+    {
+      "path": "data/profile/1.0/portfolio-staging-policy.jsonld",
+      "sha256": "a091c52eb55fb5ea76284ef9c927963dc9df1cea42a79a6bd193567672e2e02e"
+    },
+    {
+      "path": "data/profile/1.0/profile.jsonld",
+      "sha256": "33c5b84a8a9a1dadef35e6d36e96ebd729d73527ccb9472996490f2db880d9ff"
+    },
+    {
+      "path": "data/profile/1.0/publication-status.jsonld",
+      "sha256": "e11165ae1ab65b3a8c7a4a994059537086e95f163612f8c518ef16fe8e7daf30"
+    },
+    {
+      "path": "data/profile/examples/compliant-claim.json",
+      "sha256": "38b57ebadfc5525c72de52a8ffc6cfc3ba710888b4a9ac32d00861fab8018e96"
+    },
+    {
+      "path": "data/profile/examples/noncompliant-forthcoming-only.json",
+      "sha256": "b03e11668838b9401a052f50ddf4d2afe655e6d15eca25fb5ba4a677621673d0"
+    },
+    {
+      "path": "data/profile/examples/noncompliant-missing-provenance.json",
+      "sha256": "04427f377eab1d3930f760844252a2aa03266ab206ce1fc82fc56c2f3e6025f6"
+    },
+    {
+      "path": "data/profile/metaconceptual-art-claim.json",
+      "sha256": "50af42ec4d9bfdc749917e2f8311311fe9e51ede3248ed0915c72f0b3f137071"
+    },
+    {
+      "path": "data/profile/metaconceptual-art-claim.schema.json",
+      "sha256": "ab72ca75ec940ecf616b1aa01f9b6c0206ec69bc2cc7f9abeb7a2d0daeec03ba"
+    },
+    {
+      "path": "data/profile/metaconceptual-art-claim.shacl.ttl",
+      "sha256": "84e62a40fd5d7efbfde8f66a120f994a1f890b15443d2358792144fe9181a17d"
+    },
+    {
+      "path": "data/profile/metaconceptual-art-origin-provenance.json",
+      "sha256": "ac5af9585874896a684574cf7360cd7f45baa5528f4acb0f8916daf914abd8e0"
+    },
+    {
+      "path": "data/profile/metaconceptual-art-profile.jsonld",
+      "sha256": "c541293c17e9d5dbc8e6413a5950d2c758f1814ab7cee8e5c0dba628d2d12a4d"
+    },
+    {
+      "path": "data/profile/templates/linked-art-forthcoming-work.template.json",
+      "sha256": "91c128f599262f46865390dea613395ad97c6519c892b1112e9f5b762ba4655d"
+    },
+    {
+      "path": "data/profile/templates/metaconceptual-art-claim.template.json",
+      "sha256": "6f94862201d232dbc234cca24873f469f74a2cb8494f62ff407998ef45b470c7"
+    },
+    {
+      "path": "data/void.ttl",
+      "sha256": "134d4653cc81098cdab3bf000cd49800389e6244e282ec625003c36762ff8ad8"
+    }
+  ]
+}

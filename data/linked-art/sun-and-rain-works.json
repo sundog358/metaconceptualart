@@ -52,7 +52,7 @@
   "referred_to_by": [
     {
       "type": "LinguisticObject",
-      "content": "The studio that authors Metaconceptual Art and holds its copyright.",
+      "content": "The art business and studio established in 2005 that authors Metaconceptual Art and holds its copyright.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -67,9 +67,9 @@
     "_label": "Formation of Sun & Rain Works",
     "timespan": {
       "type": "TimeSpan",
-      "_label": "2026",
-      "begin_of_the_begin": "2026-01-01T00:00:00Z",
-      "end_of_the_end": "2026-12-31T23:59:59Z"
+      "_label": "2005",
+      "begin_of_the_begin": "2005-01-01T00:00:00Z",
+      "end_of_the_end": "2005-12-31T23:59:59Z"
     }
   },
   "_links": {

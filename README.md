@@ -80,6 +80,19 @@ museum connects outward to the wider linked-data record of art.
   gives future claims a lightweight validation shape, and the Movement Dossier is
   a citable Linked Art `LinguisticObject` at
   `/data/linked-art/movement-dossier`.
+- The profile has a formal **v1.0 reference-standard surface** at `/profile/1.0/`:
+  a reusable JSON-LD context, JSON Schema, SHACL shape, browser validator,
+  starter template, passing/failing fixtures, VoID/DCAT dataset descriptors,
+  `/.well-known/void`, and a SHA-256 release manifest. `npm run validate:claim`
+  validates the current claim or any local/remote claim JSON.
+- A publication-status vocabulary and portfolio staging policy distinguish
+  `private`, `forthcoming`, `metadata-only`, and `public` records, so the project
+  can connect to the Linked Art / LOD web now without implying unpublished
+  portfolio works are already public evidence.
+- Origin provenance is separated from publication metadata: Sun & Rain Works is
+  modeled as established in 2005, Metaconceptual Art as created in 2007, March
+  2009 receipts/metadata as early-work evidence held by the studio, and 2026 as
+  the public linked-data publication layer.
 - The records are **certified against the Getty `cromulent` reference library**
   (8/8) plus a `pyld` JSON-LD expansion, run in the verify gate and in **CI**
   (GitHub Actions) on every push. The `data/linked-art/.htaccess` meets the API's

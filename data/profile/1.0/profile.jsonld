@@ -1,0 +1,78 @@
+{
+  "@context": [
+    "https://www.metaconceptualart.com/data/profile/1.0/context.jsonld",
+    {
+      "hasLevel": {
+        "@id": "mca:hasLevel",
+        "@container": "@list"
+      },
+      "requires": {
+        "@id": "mca:requires",
+        "@container": "@set"
+      },
+      "publicationStatusVocabulary": {
+        "@id": "mca:publicationStatusVocabulary",
+        "@type": "@id"
+      },
+      "portfolioStagingPolicy": {
+        "@id": "mca:portfolioStagingPolicy",
+        "@type": "@id"
+      }
+    }
+  ],
+  "id": "https://www.metaconceptualart.com/profile/1.0/",
+  "type": "mca:ApplicationProfile",
+  "label": "Metaconceptual Art Linked Open Art Profile 1.0",
+  "description": "A reusable application profile for publishing born-digital Metaconceptual Art claims as machine-readable linked open art data.",
+  "dcterms:creator": {
+    "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+    "type": "schema:Organization",
+    "label": "Sun & Rain Works"
+  },
+  "dcterms:issued": {
+    "@value": "2026-06-30",
+    "@type": "xsd:date"
+  },
+  "dcterms:license": {
+    "id": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "jsonSchema": "https://www.metaconceptualart.com/data/profile/metaconceptual-art-claim.schema.json",
+  "shaclShape": "https://www.metaconceptualart.com/data/profile/metaconceptual-art-claim.shacl.ttl",
+  "validationShape": "https://www.metaconceptualart.com/data/profile/metaconceptual-art-claim.shacl.ttl",
+  "publicationStatusVocabulary": "https://www.metaconceptualart.com/data/profile/1.0/publication-status.jsonld",
+  "portfolioStagingPolicy": "https://www.metaconceptualart.com/data/profile/1.0/portfolio-staging-policy.jsonld",
+  "hasLevel": [
+    {
+      "id": "https://www.metaconceptualart.com/profile/1.0/#minimal",
+      "type": "mca:ConformanceLevel",
+      "label": "Minimal",
+      "description": "A named claim with a stable URI, definition, at least one work, and visible provenance."
+    },
+    {
+      "id": "https://www.metaconceptualart.com/profile/1.0/#citable",
+      "type": "mca:ConformanceLevel",
+      "label": "Citable",
+      "description": "Minimal evidence plus genealogy, defined principles, and machine-readable references that can be cited."
+    },
+    {
+      "id": "https://www.metaconceptualart.com/profile/1.0/#museum-grade",
+      "type": "mca:ConformanceLevel",
+      "label": "Museum-grade",
+      "description": "Citable evidence plus Linked Art, IIIF where media applies, rights, authorship, and event or publication provenance."
+    },
+    {
+      "id": "https://www.metaconceptualart.com/profile/1.0/#interoperable",
+      "type": "mca:ConformanceLevel",
+      "label": "Interoperable",
+      "description": "Museum-grade evidence plus public authority alignment, Activity Streams discovery, dataset metadata, and validation fixtures."
+    }
+  ],
+  "requires": [
+    "mca:genealogy",
+    "mca:principles",
+    "mca:works",
+    "mca:standards",
+    "mca:externalAuthorities",
+    "mca:provenance"
+  ]
+}

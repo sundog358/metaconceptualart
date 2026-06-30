@@ -108,6 +108,10 @@
     ],
     "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
     "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" },
-    "activity-stream": { "href": "https://www.metaconceptualart.com/data/linked-art/activity-stream", "name": "Activity Streams discovery" }
+    "activity-stream": { "href": "https://www.metaconceptualart.com/data/linked-art/activity-stream", "name": "Activity Streams discovery" },
+    "profile": { "href": "https://www.metaconceptualart.com/profile/1.0/", "name": "Metaconceptual Art Linked Open Art Profile 1.0" },
+    "void": { "href": "https://www.metaconceptualart.com/data/void.ttl", "type": "text/turtle" },
+    "dcat": { "href": "https://www.metaconceptualart.com/data/dcat.jsonld", "type": "application/ld+json" },
+    "checksum": { "href": "https://www.metaconceptualart.com/data/releases/1.0/checksums.json", "type": "application/json" }
   }
 }

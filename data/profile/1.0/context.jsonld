@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "mca": "https://www.metaconceptualart.com/ns/profile#",
+    "schema": "https://schema.org/",
+    "la": "https://linked.art/ns/terms/",
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "label": "schema:name",
+    "definition": "skos:definition",
+    "description": "schema:description",
+    "authority": "mca:authority",
+    "role": "mca:evidenceRole",
+    "publicationStatus": "mca:publicationStatus",
+    "countsAsPublicEvidence": {
+      "@id": "mca:countsAsPublicEvidence",
+      "@type": "xsd:boolean"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "genealogy": {
+      "@id": "mca:genealogy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "principles": {
+      "@id": "mca:principles",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "works": {
+      "@id": "mca:works",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "standards": {
+      "@id": "mca:standards",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "externalAuthorities": {
+      "@id": "mca:externalAuthorities",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "provenance": {
+      "@id": "mca:provenance",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "limitations": "mca:limitations",
+    "conformanceLevel": "mca:conformanceLevel",
+    "validationShape": {
+      "@id": "mca:validationShape",
+      "@type": "@id"
+    },
+    "jsonSchema": {
+      "@id": "mca:jsonSchema",
+      "@type": "@id"
+    },
+    "shaclShape": {
+      "@id": "mca:shaclShape",
+      "@type": "@id"
+    },
+    "publicationStatusVocabulary": {
+      "@id": "mca:publicationStatusVocabulary",
+      "@type": "@id"
+    },
+    "portfolioStagingPolicy": {
+      "@id": "mca:portfolioStagingPolicy",
+      "@type": "@id"
+    }
+  }
+}

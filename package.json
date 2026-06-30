@@ -10,7 +10,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "node --test \"scripts/tests/*.test.mjs\""
+    "test": "node --test \"scripts/tests/*.test.mjs\"",
+    "validate:claim": "node scripts/validate-claim.mjs"
   },
   "dependencies": {
     "@types/openseadragon": "^5.0.2",

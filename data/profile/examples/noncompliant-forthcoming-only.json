@@ -1,0 +1,72 @@
+{
+  "id": "https://example.org/claims/forthcoming-only",
+  "type": "MetaconceptualArtClaim",
+  "label": "Forthcoming-only movement claim",
+  "definition": "A claim that has plausible machine-readable planning data but relies only on forthcoming works that are not yet public evidence.",
+  "genealogy": [
+    {
+      "label": "Conceptual art",
+      "url": "https://www.wikidata.org/wiki/Q203209"
+    },
+    {
+      "label": "Institutional critique",
+      "url": "https://www.wikidata.org/wiki/Q6041145"
+    },
+    {
+      "label": "Systems art",
+      "url": "https://www.wikidata.org/wiki/Q919251"
+    }
+  ],
+  "principles": [
+    {
+      "label": "Principles",
+      "url": "https://example.org/principles"
+    }
+  ],
+  "works": [
+    {
+      "label": "Unreleased portfolio work",
+      "url": "https://example.org/data/linked-art/unreleased-work",
+      "authority": "Linked Art",
+      "role": "planned work",
+      "publicationStatus": "forthcoming"
+    }
+  ],
+  "standards": [
+    {
+      "label": "Linked Art record",
+      "url": "https://example.org/data/linked-art/unreleased-work",
+      "authority": "Linked Art"
+    },
+    {
+      "label": "Knowledge graph",
+      "url": "https://example.org/data/graph.json"
+    },
+    {
+      "label": "Activity Stream",
+      "url": "https://example.org/data/activity-stream",
+      "authority": "IIIF Discovery"
+    }
+  ],
+  "externalAuthorities": [
+    {
+      "label": "Conceptual art",
+      "url": "https://www.wikidata.org/wiki/Q203209"
+    },
+    {
+      "label": "Semantic Web",
+      "url": "https://www.wikidata.org/wiki/Q54837"
+    },
+    {
+      "label": "Linked open data",
+      "url": "https://www.wikidata.org/wiki/Q18692990"
+    }
+  ],
+  "provenance": [
+    {
+      "label": "Changelog",
+      "url": "https://example.org/changelog"
+    }
+  ],
+  "limitations": "This fixture intentionally fails because forthcoming works do not count as public evidence."
+}

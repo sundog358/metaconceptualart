@@ -13,6 +13,11 @@ type Entry = { date: string; version: string; body: string };
 const ENTRIES: Entry[] = [
   {
     date: "2026-06-30",
+    version: "Reference Standard Profile 1.0",
+    body: "Published /profile/1.0 as a reusable Metaconceptual Art Linked Open Art application profile with a JSON-LD context, SHACL shape, JSON Schema, validation fixtures, starter template, browser validator, npm validation command, VoID/DCAT dataset descriptors, /.well-known/void, and a SHA-256 release manifest. Added a publication-status vocabulary and portfolio staging policy so the project can connect to the Linked Art / LOD web now while private and forthcoming portfolio works stay out of public evidence until intentionally released.",
+  },
+  {
+    date: "2026-06-30",
     version: "Machine-Readable Foundation",
     body: "Added a bot-facing /llms.txt index, a Metaconceptual Art linked-open-art profile, a lightweight JSON Schema validation shape, and a citable Linked Art LinguisticObject record for the Movement Dossier. The dossier, graph, collection, Systems register, content negotiation, and route-smoke tests now treat the movement claim as a standards-backed evidence surface.",
   },

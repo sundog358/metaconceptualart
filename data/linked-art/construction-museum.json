@@ -167,6 +167,11 @@
     "alternate": [
       { "href": "https://www.metaconceptualart.com/artworks#work-construction-museum", "type": "text/html" }
     ],
+    "iiif:manifest": {
+      "href": "https://www.metaconceptualart.com/data/iiif/construction-museum/manifest.json",
+      "type": "application/ld+json",
+      "profile": "http://iiif.io/api/presentation/3/context.json"
+    },
     "collection": { "href": "https://www.metaconceptualart.com/data/linked-art/collection" }
   }
 }
