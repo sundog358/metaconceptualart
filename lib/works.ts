@@ -21,6 +21,7 @@ export type Work = {
   metadata: { label: string; value: string }[];
   linkedArt: string; // path to the Linked Art record
   exploreNode?: string; // graph node id to deep-link into the Explorer
+  webUrl?: { href: string; label: string }; // external or work-native web surface
 };
 
 export const WORKS: Work[] = [
@@ -55,6 +56,29 @@ export const WORKS: Work[] = [
     linkedArt: "/data/linked-art/eight-sentences",
   },
   {
+    slug: "wtfisart",
+    title: "www.wtfisart.com",
+    year: "2009",
+    kind: "live web auction work",
+    idLine: "work:wtfisart / 2009-03-30 / live web auction work",
+    summary:
+      "A born-digital Metaconceptual Art work created live on the web in real time at Sotheby's Photographs auction on March 30, 2009.",
+    body: [
+      "www.wtfisart.com is treated here as an anchor work in the early public history of Metaconceptual Art: a website made as the work itself, created live on the web in real time at Sotheby's Photographs auction on March 30, 2009.",
+      "The catalog record separates the artwork, the live creation event, the auction context, and the evidence archive. Photographs, metadata, emails, auction catalogue material, receipts, and related records are held by Sun & Rain Works; selected public evidence can be added as redaction and rights review are completed.",
+      "The work binds web art, auction performance, market critique, and provenance into a single event. Its first publication here is intentionally careful: the public page names the claim, gives the work a Linked Art record, and leaves room for the primary evidence to be published responsibly.",
+    ],
+    textMedia: "www",
+    metadata: [
+      { label: "Event", value: "Sotheby's Photographs auction, March 30, 2009" },
+      { label: "Concept", value: "Live web creation at auction" },
+      { label: "Evidence", value: "Private archive held by Sun & Rain Works" },
+    ],
+    linkedArt: "/data/linked-art/wtfisart",
+    exploreNode: "work:wtfisart",
+    webUrl: { href: "https://www.wtfisart.com/", label: "Open www.wtfisart.com" },
+  },
+  {
     slug: "construction-museum",
     title: "Construction of the Museum as Concept",
     year: "2026",
@@ -80,6 +104,79 @@ export const WORKS: Work[] = [
     ],
     linkedArt: "/data/linked-art/construction-museum",
     exploreNode: "concept:institutional-frame",
+  },
+  {
+    slug: "art-market-reform",
+    title: "Art Market Reform",
+    year: "2013",
+    kind: "image study",
+    idLine: "work:art-market-reform / 2013 / image study",
+    summary:
+      "A visual anchor for the project: art, price, reform, and institutional display held together as one unstable field.",
+    body: [
+      "Art Market Reform is treated here as an early image study for the project's central pressure: art is never only an object, and value is never only aesthetic. The image becomes a surface where market language, display logic, and institutional authority press against one another.",
+      "In the linked-data layer it functions as public evidence for the economic and institutional strand of Metaconceptual Art. The work makes the market visible as a form-giving condition rather than a background fact.",
+    ],
+    image: {
+      src: "/images/artmarketreform.jpg",
+      alt: "Art Market Reform image study.",
+      width: 2048,
+      height: 1454,
+    },
+    metadata: [
+      { label: "Concept", value: "Commodification of art" },
+      { label: "Relation", value: "Market frames artwork" },
+      { label: "Rights", value: "CC BY 4.0" },
+    ],
+    linkedArt: "/data/linked-art/art-market-reform",
+    exploreNode: "concept:linked-open-data",
+  },
+  {
+    slug: "eightfold-sprocket",
+    title: "Eightfold Sprocket",
+    year: "2026",
+    kind: "diagrammatic emblem",
+    idLine: "work:eightfold-sprocket / 2026 / diagrammatic emblem",
+    summary:
+      "An emblem for the eight-sentence proposition set: a small mechanical sign for repetition, rotation, and system.",
+    body: [
+      "Eightfold Sprocket acts as a diagrammatic emblem for the project. Its circular structure echoes the eight propositions while refusing to become a fixed logo; it is closer to a thinking part, a rotating index of relations.",
+      "The work gives the site a repeatable visual signal: a wheel, gear, seal, or stamp through which the proposition sequence can circulate as an institutional mark.",
+    ],
+    image: {
+      src: "/images/8sprocket.jpg",
+      alt: "Eightfold sprocket emblem.",
+      width: 1024,
+      height: 1024,
+    },
+    metadata: [
+      { label: "Concept", value: "Eight-part proposition structure" },
+      { label: "Relation", value: "Emblem carries sentence system" },
+      { label: "Rights", value: "CC BY 4.0" },
+    ],
+    linkedArt: "/data/linked-art/eightfold-sprocket",
+    exploreNode: "work:eight-sentences",
+  },
+  {
+    slug: "movement-graph",
+    title: "Movement Graph",
+    year: "2026",
+    kind: "site-native system work",
+    idLine: "work:movement-graph / 2026 / site-native system work",
+    summary:
+      "The knowledge graph treated as an artwork: relations, authorities, claims, and viewers arranged as a walkable system.",
+    body: [
+      "Movement Graph is the project becoming visibly relational. It is not an illustration added after the theory; it is one of the theory's forms, a way of letting works, sources, concepts, claims, and viewers touch one another.",
+      "As a site-native work, it treats graph structure as medium. Its material is the connection: what counts as evidence, what points outward to an authority, what remains local, and how a viewer activates the path through it.",
+    ],
+    textMedia: "graph",
+    metadata: [
+      { label: "Concept", value: "Knowledge graph" },
+      { label: "Relation", value: "Viewer activates system" },
+      { label: "Rights", value: "CC BY 4.0" },
+    ],
+    linkedArt: "/data/linked-art/movement-graph",
+    exploreNode: "concept:metaconceptual-art",
   },
 ];
 

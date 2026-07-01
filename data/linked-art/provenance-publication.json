@@ -83,9 +83,29 @@
               "_label": "Eight Sentences On Metaconceptual Art"
             },
             {
+              "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart",
+              "type": "DigitalObject",
+              "_label": "www.wtfisart.com"
+            },
+            {
               "id": "https://www.metaconceptualart.com/data/linked-art/construction-museum",
               "type": "DigitalObject",
               "_label": "Construction of the Museum as Concept"
+            },
+            {
+              "id": "https://www.metaconceptualart.com/data/linked-art/art-market-reform",
+              "type": "DigitalObject",
+              "_label": "Art Market Reform"
+            },
+            {
+              "id": "https://www.metaconceptualart.com/data/linked-art/eightfold-sprocket",
+              "type": "DigitalObject",
+              "_label": "Eightfold Sprocket"
+            },
+            {
+              "id": "https://www.metaconceptualart.com/data/linked-art/movement-graph",
+              "type": "DigitalObject",
+              "_label": "Movement Graph"
             }
           ]
         }

@@ -5,11 +5,11 @@
   "files": [
     {
       "path": "data/dcat.jsonld",
-      "sha256": "3c82b603b679dc8c2243aa10543a553d1968200de68171d275eb680ad7309da4"
+      "sha256": "76184661e93f79a8168e38b9c511b7723823112f6af7c8bee8472b3054c03b2a"
     },
     {
       "path": "data/graph.json",
-      "sha256": "9ce0e67565027dfd75e182cb34831b2f3d0eaaea8580c99ef5a47fd69e00ccc1"
+      "sha256": "2f051fd6a4c239b6f1a400b64a0f4463d84bc3360b5a903c1ed3e21075d3297c"
     },
     {
       "path": "data/iiif/construction-museum/manifest.json",
@@ -24,8 +24,16 @@
       "sha256": "5424066c2cbeeda39015c428ad4805731546f39938e93d55f170ae4420f3b3c1"
     },
     {
+      "path": "data/linked-art/art-market-reform.json",
+      "sha256": "a516edf0392330e12787c060ed253121f98d43547f5ed2b2527c778d0871c540"
+    },
+    {
+      "path": "data/linked-art/wtfisart.json",
+      "sha256": "58ce9f425c6416861120cc78f9fd60a328233c00c8fd683f7c6731e151ab2144"
+    },
+    {
       "path": "data/linked-art/collection.json",
-      "sha256": "7113fd4e6c262de0fce93aa82f9605fb84f8d1d0223f617169473a46eff449f7"
+      "sha256": "ccbb839015b65cbd23cec8a899818e1f15b44dddc2eb4754aa6d2cd11a2f160c"
     },
     {
       "path": "data/linked-art/concept-metaconceptual-art.json",
@@ -40,12 +48,20 @@
       "sha256": "9d16c759ff400642b590e1d3ed4232b9ec35ed5badfa7f6d13690ee425fce37f"
     },
     {
+      "path": "data/linked-art/eightfold-sprocket.json",
+      "sha256": "fe090be5b831e7a5bfb606cc24045fadeb0706725b55be48f5daeb410673f7f5"
+    },
+    {
+      "path": "data/linked-art/movement-graph.json",
+      "sha256": "3e2d2ad7112b7fce2e46cc77dccb18aecd9fc9320fe00ab5775681661d98ae3e"
+    },
+    {
       "path": "data/linked-art/movement-record.json",
       "sha256": "d6166784ca2854ad7e162bef11b07e8566ae26159c320156a4e733424505063c"
     },
     {
       "path": "data/linked-art/provenance-publication.json",
-      "sha256": "05819bd4a441c7d5e0e1e1e51a1886160bd3862976c1ecc5ca744df1585d0bc2"
+      "sha256": "e5d9ff5f6d9d32c894f08ba0c63a56c3a47d0d1ce9dc109be46a13e33ae89be0"
     },
     {
       "path": "data/linked-art/site-as-artwork.json",
@@ -54,6 +70,10 @@
     {
       "path": "data/linked-art/sun-and-rain-works.json",
       "sha256": "d06a4fd4939ccfe2b1a9db83375e7719153ee7d19d42ef7d7695c51c9777124e"
+    },
+    {
+      "path": "data/metaconceptual-art.ttl",
+      "sha256": "303de2a9f9d1b31ba9fafee0ced2191d57cecfa1e7b8f7140575b45da0d94c5e"
     },
     {
       "path": "data/profile/1.0/context.jsonld",
@@ -73,7 +93,7 @@
     },
     {
       "path": "data/profile/examples/compliant-claim.json",
-      "sha256": "c1b3ab609ef706c6400c3137310f524dce04deaf58519c690da799832e6f10f1"
+      "sha256": "173d01fc62faa0ae8021dfc7fc08219c6d9677dc16be2fd0571e658632669cc2"
     },
     {
       "path": "data/profile/examples/noncompliant-forthcoming-only.json",
@@ -85,7 +105,7 @@
     },
     {
       "path": "data/profile/metaconceptual-art-claim.json",
-      "sha256": "c08e538c8dda813d548a7ec7d3c5bcd07014565e1234baaf423c6ae7ca2964c9"
+      "sha256": "8ac09aaed3e0b7c27b3dcad725268a818458fc95fbdd1391f3b9bbd119b0b434"
     },
     {
       "path": "data/profile/metaconceptual-art-claim.schema.json",
@@ -97,7 +117,7 @@
     },
     {
       "path": "data/profile/metaconceptual-art-origin-provenance.json",
-      "sha256": "ac5af9585874896a684574cf7360cd7f45baa5528f4acb0f8916daf914abd8e0"
+      "sha256": "fd8fe0ba7820853999b35c31ca09b7ee8c05deef9277a4e614c4f05161a00f58"
     },
     {
       "path": "data/profile/metaconceptual-art-profile.jsonld",
@@ -113,7 +133,7 @@
     },
     {
       "path": "data/void.ttl",
-      "sha256": "134d4653cc81098cdab3bf000cd49800389e6244e282ec625003c36762ff8ad8"
+      "sha256": "f2e5fb5da759ede8acb4f539beb851c5a1f14f35c1ca1cc81ed587612f78eba7"
     }
   ]
 }

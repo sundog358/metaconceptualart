@@ -6,6 +6,7 @@ import JsonLd from "@/components/JsonLd";
 import TodaySpotlight from "./TodaySpotlight";
 import ZoomableArtwork from "@/components/ZoomableArtwork";
 import ErrorBoundary from "@/components/ErrorBoundary";
+import { WORKS } from "@/lib/works";
 
 export const metadata: Metadata = {
   title: { absolute: "Metaconceptual Art" },
@@ -273,6 +274,37 @@ export default function HomePage() {
               <span>Image study, 2013</span>
             </figcaption>
           </figure>
+        </section>
+
+        <section
+          className="works-constellation"
+          aria-labelledby="constellation-title"
+        >
+          <div className="section-heading">
+            <p className="section-kicker">Public corpus</p>
+            <h2 id="constellation-title">Six Works On View</h2>
+            <p className="section-intro">
+              The project now reads less like a single statement and more like a
+              small museum system: a live web auction work, image studies,
+              propositions, emblems, and a graph-work, each with a citable
+              record.
+            </p>
+          </div>
+          <div className="constellation-grid">
+            {WORKS.map((work, index) => (
+              <Link
+                className="constellation-node"
+                href={"/artworks/" + work.slug}
+                key={work.slug}
+              >
+                <span className="constellation-index">
+                  {(index + 1).toString().padStart(2, "0")}
+                </span>
+                <span>{work.title}</span>
+                <small>{work.kind}</small>
+              </Link>
+            ))}
+          </div>
         </section>
 
         <ErrorBoundary>

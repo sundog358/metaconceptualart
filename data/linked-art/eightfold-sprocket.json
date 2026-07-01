@@ -1,0 +1,138 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/eightfold-sprocket",
+  "type": "DigitalObject",
+  "_label": "Eightfold Sprocket",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Eightfold Sprocket",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "work:eightfold-sprocket",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300264827",
+      "type": "Type",
+      "_label": "conceptual art",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q203209",
+          "type": "Type",
+          "_label": "conceptual art"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300033973",
+      "type": "Type",
+      "_label": "emblems"
+    }
+  ],
+  "format": "image/jpeg",
+  "access_point": [
+    {
+      "id": "https://www.metaconceptualart.com/images/8sprocket.jpg",
+      "type": "DigitalObject"
+    }
+  ],
+  "digitally_shows": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/eightfold-sprocket#visual-item",
+      "type": "VisualItem",
+      "_label": "Eightfold sprocket emblem"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "An emblem for the eight-sentence proposition set: a small mechanical sign for repetition, rotation, and system.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Creation of Eightfold Sprocket",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "_label": "Artwork page",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "Metaconceptual Art — Eightfold Sprocket",
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://www.metaconceptualart.com/artworks/eightfold-sprocket",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/eightfold-sprocket" },
+    "curies": [
+      { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
+    ],
+    "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
+    "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" },
+    "alternate": [
+      { "href": "https://www.metaconceptualart.com/artworks/eightfold-sprocket", "type": "text/html" }
+    ],
+    "collection": { "href": "https://www.metaconceptualart.com/data/linked-art/collection" }
+  }
+}

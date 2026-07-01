@@ -148,6 +148,18 @@ export default async function WorkPage({
                   </a>
                 </li>
               ) : null}
+              {work.webUrl ? (
+                <li>
+                  <a
+                    className="wd-link"
+                    href={work.webUrl.href}
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    {work.webUrl.label} ↗
+                  </a>
+                </li>
+              ) : null}
               {work.exploreNode ? (
                 <li>
                   <Link
@@ -184,7 +196,9 @@ export default async function WorkPage({
         citation={
           "Sun & Rain Works. " +
           work.title +
-          ". 2026. https://www.metaconceptualart.com/artworks/" +
+          ". " +
+          work.year +
+          ". https://www.metaconceptualart.com/artworks/" +
           work.slug
         }
       />

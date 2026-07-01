@@ -51,10 +51,34 @@
       "role": "proposition work"
     },
     {
+      "label": "www.wtfisart.com",
+      "url": "https://www.metaconceptualart.com/data/linked-art/wtfisart",
+      "authority": "Linked Art",
+      "role": "live web auction work"
+    },
+    {
       "label": "Construction of the Museum as Concept",
       "url": "https://www.metaconceptualart.com/data/linked-art/construction-museum",
       "authority": "Linked Art",
       "role": "image work"
+    },
+    {
+      "label": "Art Market Reform",
+      "url": "https://www.metaconceptualart.com/data/linked-art/art-market-reform",
+      "authority": "Linked Art",
+      "role": "image work"
+    },
+    {
+      "label": "Eightfold Sprocket",
+      "url": "https://www.metaconceptualart.com/data/linked-art/eightfold-sprocket",
+      "authority": "Linked Art",
+      "role": "diagrammatic emblem"
+    },
+    {
+      "label": "Movement Graph",
+      "url": "https://www.metaconceptualart.com/data/linked-art/movement-graph",
+      "authority": "Linked Art",
+      "role": "site-native system work"
     },
     {
       "label": "Proof of Movement: Metaconceptual Art",

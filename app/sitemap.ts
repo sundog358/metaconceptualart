@@ -14,6 +14,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/systems", priority: 0.8 },
     { path: "/explore", priority: 0.8 },
     { path: "/movement", priority: 0.8 },
+    { path: "/modeling", priority: 0.7 },
+    { path: "/bibliography", priority: 0.7 },
     { path: "/profile/1.0/", priority: 0.8 },
     { path: "/validate", priority: 0.7 },
     { path: "/statement", priority: 0.7 },

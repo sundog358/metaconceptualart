@@ -304,6 +304,78 @@ h3 {
   text-transform: none;
 }
 
+.works-constellation {
+  background: var(--white);
+  border-block: 1px solid var(--line);
+  padding: clamp(56px, 8vw, 104px) clamp(20px, 5vw, 72px);
+}
+
+.constellation-grid {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  margin-top: 36px;
+}
+
+.constellation-node {
+  background:
+    linear-gradient(180deg, rgba(255, 253, 245, 0.94), rgba(234, 244, 255, 0.68));
+  border: 1px solid var(--line);
+  display: grid;
+  min-height: 220px;
+  padding: 22px;
+  transition:
+    background 180ms ease,
+    border-color 180ms ease,
+    transform 180ms ease;
+}
+
+.constellation-node:nth-child(4n + 1) {
+  border-top: 4px solid var(--orange);
+}
+
+.constellation-node:nth-child(4n + 2) {
+  border-top: 4px solid var(--blue);
+}
+
+.constellation-node:nth-child(4n + 3) {
+  border-top: 4px solid var(--green);
+}
+
+.constellation-node:nth-child(4n) {
+  border-top: 4px solid var(--gold);
+}
+
+.constellation-node:hover,
+.constellation-node:focus-visible {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.constellation-index {
+  color: var(--accent);
+  font-size: 0.74rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+}
+
+.constellation-node span:nth-child(2) {
+  align-self: end;
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  line-height: 1.08;
+}
+
+.constellation-node small {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  margin-top: 18px;
+  text-transform: uppercase;
+}
+
 .sentences,
 .triad,
 .system-section {
@@ -744,6 +816,37 @@ h3 {
   gap: 1px;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   margin-top: 44px;
+}
+
+.reference-grid {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 44px;
+}
+
+.reference-card {
+  background: linear-gradient(180deg, var(--white), rgba(234, 244, 255, 0.72));
+  border: 1px solid var(--line);
+  min-height: 260px;
+  padding: 26px;
+}
+
+.reference-kind {
+  color: var(--accent);
+  font-size: 0.7rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.reference-card h3 {
+  min-height: 3.8rem;
+}
+
+.reference-card p:not(.reference-kind) {
+  color: var(--muted);
 }
 
 .work-card {
@@ -1396,7 +1499,9 @@ h3 {
     grid-template-columns: 1fr;
   }
 
-  .work-grid {
+  .work-grid,
+  .constellation-grid,
+  .reference-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1537,8 +1642,15 @@ h3 {
     padding: 24px 20px;
   }
 
-  .work-grid {
+  .work-grid,
+  .constellation-grid,
+  .reference-grid {
     grid-template-columns: 1fr;
+  }
+
+  .constellation-node,
+  .reference-card {
+    min-height: 0;
   }
 
   .metadata-list div,

@@ -1,0 +1,98 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix la: <https://linked.art/ns/terms/> .
+@prefix mca: <https://www.metaconceptualart.com/ns/> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://www.metaconceptualart.com/data/>
+  a void:Dataset ;
+  dcterms:title "Metaconceptual Art linked open art dataset" ;
+  dcterms:creator <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> ;
+  dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+  void:rootResource <https://www.metaconceptualart.com/data/linked-art/collection> .
+
+<https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art>
+  a skos:Concept ;
+  skos:prefLabel "Metaconceptual Art"@en ;
+  skos:broader <http://vocab.getty.edu/aat/300264827> ;
+  mca:evidencedBy
+    <https://www.metaconceptualart.com/data/linked-art/site-as-artwork> ,
+    <https://www.metaconceptualart.com/data/linked-art/eight-sentences> ,
+    <https://www.metaconceptualart.com/data/linked-art/wtfisart> ,
+    <https://www.metaconceptualart.com/data/linked-art/construction-museum> ,
+    <https://www.metaconceptualart.com/data/linked-art/art-market-reform> ,
+    <https://www.metaconceptualart.com/data/linked-art/eightfold-sprocket> ,
+    <https://www.metaconceptualart.com/data/linked-art/movement-graph> ,
+    <https://www.metaconceptualart.com/data/linked-art/movement-record> .
+
+<https://www.metaconceptualart.com/data/linked-art/collection>
+  a la:Set ;
+  dcterms:title "Metaconceptual Art — Collection"@en ;
+  mca:hasMember
+    <https://www.metaconceptualart.com/data/linked-art/site-as-artwork> ,
+    <https://www.metaconceptualart.com/data/linked-art/eight-sentences> ,
+    <https://www.metaconceptualart.com/data/linked-art/wtfisart> ,
+    <https://www.metaconceptualart.com/data/linked-art/construction-museum> ,
+    <https://www.metaconceptualart.com/data/linked-art/art-market-reform> ,
+    <https://www.metaconceptualart.com/data/linked-art/eightfold-sprocket> ,
+    <https://www.metaconceptualart.com/data/linked-art/movement-graph> ,
+    <https://www.metaconceptualart.com/data/linked-art/movement-record> .
+
+<https://www.metaconceptualart.com/data/linked-art/site-as-artwork>
+  a schema:CreativeWork ;
+  dcterms:title "The Website Itself"@en ;
+  schema:genre "website as conceptual artwork" .
+
+<https://www.metaconceptualart.com/data/linked-art/eight-sentences>
+  a schema:CreativeWork ;
+  dcterms:title "Eight Sentences On Metaconceptual Art"@en ;
+  schema:genre "proposition sequence" .
+
+<https://www.metaconceptualart.com/data/linked-art/wtfisart>
+  a schema:CreativeWork ;
+  dcterms:title "www.wtfisart.com"@en ;
+  dcterms:created "2009-03-30" ;
+  schema:genre "live web auction work" ;
+  schema:url <https://www.wtfisart.com/> ;
+  mca:createdDuring <https://www.metaconceptualart.com/event/sothebys-photographs-2009-03-30> .
+
+<https://www.metaconceptualart.com/event/sothebys-photographs-2009-03-30>
+  a schema:Event ;
+  dcterms:title "Sotheby's Photographs auction, March 30, 2009"@en .
+
+<https://www.metaconceptualart.com/data/linked-art/construction-museum>
+  a schema:VisualArtwork ;
+  dcterms:title "Construction of the Museum as Concept"@en ;
+  schema:genre "image study" .
+
+<https://www.metaconceptualart.com/data/linked-art/art-market-reform>
+  a schema:VisualArtwork ;
+  dcterms:title "Art Market Reform"@en ;
+  schema:genre "image study" .
+
+<https://www.metaconceptualart.com/data/linked-art/eightfold-sprocket>
+  a schema:VisualArtwork ;
+  dcterms:title "Eightfold Sprocket"@en ;
+  schema:genre "diagrammatic emblem" .
+
+<https://www.metaconceptualart.com/data/linked-art/movement-graph>
+  a schema:CreativeWork ;
+  dcterms:title "Movement Graph"@en ;
+  schema:genre "site-native system work" .
+
+<https://www.metaconceptualart.com/data/linked-art/movement-record>
+  a schema:CreativeWork ;
+  dcterms:title "Proof of Movement: Metaconceptual Art"@en ;
+  schema:genre "movement record" .
+
+<https://www.metaconceptualart.com/modeling>
+  a schema:TechArticle ;
+  dcterms:title "Modeling Born-Digital Conceptual Art With Linked Art"@en ;
+  schema:about <https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art> .
+
+<https://www.metaconceptualart.com/bibliography>
+  a schema:CollectionPage ;
+  dcterms:title "Bibliography & Reception"@en ;
+  schema:about <https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art> .

@@ -38,6 +38,20 @@
       "authority": "Linked Art",
       "role": "proposition work",
       "publicationStatus": "public"
+    },
+    {
+      "label": "www.wtfisart.com",
+      "url": "https://www.metaconceptualart.com/data/linked-art/wtfisart",
+      "authority": "Linked Art",
+      "role": "live web auction work",
+      "publicationStatus": "public"
+    },
+    {
+      "label": "Movement Graph",
+      "url": "https://www.metaconceptualart.com/data/linked-art/movement-graph",
+      "authority": "Linked Art",
+      "role": "site-native system work",
+      "publicationStatus": "public"
     }
   ],
   "standards": [

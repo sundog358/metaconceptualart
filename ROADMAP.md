@@ -330,21 +330,45 @@ Done:
   public before the full portfolio is published.
 - Corrected the origin chronology in the public Record and Linked Art records:
   Sun & Rain Works formation is modeled as 2005, Metaconceptual Art movement
-  creation as 2007, March 2009 receipts/metadata as early-work evidence, and 2026
-  as the public linked-data publication layer.
+  creation as 2007, `www.wtfisart.com` as created live on the web in real time
+  at Sotheby's Photographs auction on March 30, 2009, and 2026 as the public
+  linked-data publication layer.
 - Exposed the profile, validator, descriptors, and fixtures through the sitemap,
   bot index, export smoke tests, and production content-type headers.
 
 Next:
 
-- Promote selected portfolio works from private/forthcoming to metadata-only or
+- Promote additional portfolio works from private/forthcoming to metadata-only or
   public Linked Art records when their catalog facts and media are ready.
 - Expand the reference dataset from the current canonical corpus toward 10 to 20
   public works and 10 to 20 concept/person/activity examples.
 - Add a stricter SHACL runner if the static build later adopts an RDF validation
   dependency.
-- Publish a technical note on modeling born-digital conceptual art with Linked
-  Art and share it with Linked Art / IIIF / digital humanities communities.
+- Share the technical modeling note with Linked Art / IIIF / digital humanities
+  communities once the public corpus is stable.
+
+### Phase 12: External Legibility Pass
+
+Done:
+
+- Expanded the public artwork corpus to six works by adding `www.wtfisart.com`,
+  `Art Market Reform`, `Eightfold Sprocket`, and `Movement Graph` to
+  `lib/works.ts`, per-work pages, the local graph, the collection Set, and
+  Linked Art records.
+- Added `/modeling`, a technical note explaining why the website is modeled as a
+  `DigitalObject`, why the movement is a local `Type`, and why origin provenance
+  is separated from publication metadata.
+- Added `/bibliography`, a standards/lineage/reception page that clearly
+  separates external references from independent reception.
+- Added `data/metaconceptual-art.ttl`, a compact RDF/Turtle dump, and exposed it
+  through VoID, DCAT, `/llms.txt`, Vercel content-type headers, and smoke tests.
+- Added a homepage works constellation so the first visit shows a public corpus
+  rather than only a manifesto.
+
+Next:
+
+- Add genuinely independent reception when it exists.
+- Continue expanding the corpus toward 10 to 20 public works.
 
 ### What's next
 
@@ -379,6 +403,8 @@ Current structure (✅ live, 🔭 planned):
 /systems                ✅ Knowledge graph + node register
 /explore                ✅ Interactive graph explorer
 /movement               ✅ Movement Record
+/modeling               ✅ Technical modeling note
+/bibliography           ✅ External sources and reception boundary
 /profile/1.0            ✅ Linked Open Art Profile v1.0
 /validate               ✅ Profile validator
 /statement              ✅ Curatorial statement
@@ -616,7 +642,7 @@ Suggested process page sections:
 ### Content
 
 - [x] Publish initial catalogued works.
-- [ ] Expand the collection to 5 to 10 artworks.
+- [x] Expand the collection to 5 to 10 artworks.
 - [x] Publish one primary essay.
 - [x] Write a press release or curatorial statement.
 - [x] Add a colophon.
@@ -679,8 +705,8 @@ Phase 5 participation and deeper content expansion. Current priority order:
 
 1. Add fuller `Person` and `Concept` records for thin-coverage lineage nodes.
 2. `/theory/<slug>` essays.
-3. Expand the collection from 2 catalogued works toward 5 to 10 works, with each
-   new work conforming to the Metaconceptual Art profile.
+3. Continue expanding the collection from 6 catalogued works toward 10 to 20
+   works, with each new work conforming to the Metaconceptual Art profile.
 4. Phase 5 participation (visitor responses, revision histories).
 5. Submit/register the work in net-art contexts.
 6. Optional SHACL validation and CI performance budgets.

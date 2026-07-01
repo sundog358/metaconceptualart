@@ -21,7 +21,19 @@ type Node = {
 const NODES: Node[] = [
   { id: "work:site-as-artwork", type: "Artwork", name: "The Website Itself", relation: "contains proposition set", lod: [] },
   { id: "work:eight-sentences", type: "Artwork", name: "Eight Sentences", relation: "cites source:lewitt", lod: [] },
+  { id: "work:wtfisart", type: "Artwork", name: "www.wtfisart.com", relation: "created during source:sothebys-photographs-2009", lod: [
+    { href: "/data/linked-art/wtfisart", label: "Linked Art" },
+  ] },
   { id: "work:construction-museum", type: "Artwork", name: "Construction of the Museum as Concept", relation: "expresses concept:institutional-frame", lod: [] },
+  { id: "work:art-market-reform", type: "Artwork", name: "Art Market Reform", relation: "frames market as artistic condition", lod: [
+    { href: "/data/linked-art/art-market-reform", label: "Linked Art" },
+  ] },
+  { id: "work:eightfold-sprocket", type: "Artwork", name: "Eightfold Sprocket", relation: "carries work:eight-sentences", lod: [
+    { href: "/data/linked-art/eightfold-sprocket", label: "Linked Art" },
+  ] },
+  { id: "work:movement-graph", type: "Artwork", name: "Movement Graph", relation: "activates concept:linked-open-data", lod: [
+    { href: "/data/linked-art/movement-graph", label: "Linked Art" },
+  ] },
   { id: "work:movement-record", type: "Artwork", name: "Proof of Movement: Metaconceptual Art", relation: "defines profile for concept:metaconceptual-art", lod: [
     { href: "/data/linked-art/movement-record", label: "Linked Art" },
   ] },
@@ -73,6 +85,7 @@ const NODES: Node[] = [
     { href: "https://www.wikidata.org/wiki/Q5912", label: "Q5912" },
     { href: "https://vocab.getty.edu/page/ulan/500115393", label: "ULAN 500115393", getty: true },
   ] },
+  { id: "source:sothebys-photographs-2009", type: "Event", name: "Sotheby's Photographs auction (March 30, 2009)", relation: "context for work:wtfisart", lod: [] },
   { id: "role:viewer", type: "Role", name: "Viewer", relation: "activates meaning", lod: [] },
   { id: "record:revision-2026-06-19", type: "Revision", name: "Wikidata Layer", relation: "grounds nodes in linked data", lod: [] },
   { id: "record:citation-primary", type: "Citation", name: "Recommended Citation", relation: "makes the work referenceable", lod: [] },
@@ -200,6 +213,10 @@ export default function SystemsPage() {
               and the art-specific linked-data graph. The full register lives in{" "}
               <a className="inline-link" href="/data/graph.json">
                 data/graph.json
+              </a>{" "}
+              and a compact RDF export at{" "}
+              <a className="inline-link" href="/data/metaconceptual-art.ttl">
+                data/metaconceptual-art.ttl
               </a>
               .
             </p>

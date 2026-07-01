@@ -39,6 +39,12 @@
           "dcat:mediaType": "application/json"
         },
         {
+          "id": "https://www.metaconceptualart.com/data/metaconceptual-art.ttl",
+          "type": "dcat:Distribution",
+          "dcterms:title": "Small RDF/Turtle dump",
+          "dcat:mediaType": "text/turtle"
+        },
+        {
           "id": "https://www.metaconceptualart.com/data/profile/metaconceptual-art-claim.shacl.ttl",
           "type": "dcat:Distribution",
           "dcterms:title": "Metaconceptual Art SHACL shape",

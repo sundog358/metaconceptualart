@@ -98,6 +98,13 @@
       ]
     },
     {
+      "source": "/data/metaconceptual-art.ttl",
+      "headers": [
+        { "key": "Content-Type", "value": "text/turtle; charset=utf-8" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    },
+    {
       "source": "/data/dcat.jsonld",
       "headers": [
         { "key": "Content-Type", "value": "application/ld+json" },

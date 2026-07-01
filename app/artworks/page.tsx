@@ -8,7 +8,7 @@ import { WORKS } from "@/lib/works";
 export const metadata: Metadata = {
   title: "Artworks",
   description:
-    "Works on view for Metaconceptual Art: images, propositions, diagrams, and the website as artwork.",
+    "Works on view for Metaconceptual Art: live web work, images, propositions, diagrams, and the website as artwork.",
   alternates: { canonical: "/artworks" },
 };
 
@@ -37,11 +37,12 @@ export default function ArtworksPage() {
         >
           <div className="section-heading">
             <p className="section-kicker">Initial register</p>
-            <h2 id="collection-title">Two Works</h2>
+            <h2 id="collection-title">Six Works</h2>
             <p className="section-intro">
-              A deliberately tight first register: the canonical sentence
-              sequence and the museum-as-concept image study, each with its own
-              page, metadata, and conceptual relations. Each work also publishes a{" "}
+              A compact public register: the canonical sentence sequence, a
+              2009 live web auction work, image studies, an emblem, and the
+              graph as a site-native work, each with its own page, metadata,
+              and conceptual relations. Each work also publishes a{" "}
               <a
                 className="inline-link"
                 href="/data/linked-art/collection"

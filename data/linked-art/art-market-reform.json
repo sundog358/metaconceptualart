@@ -1,0 +1,145 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/art-market-reform",
+  "type": "DigitalObject",
+  "_label": "Art Market Reform",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Art Market Reform",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "work:art-market-reform",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300215302",
+      "type": "Type",
+      "_label": "digital images",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q1250322",
+          "type": "Type",
+          "_label": "digital image"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300264827",
+      "type": "Type",
+      "_label": "conceptual art",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q203209",
+          "type": "Type",
+          "_label": "conceptual art"
+        }
+      ]
+    }
+  ],
+  "format": "image/jpeg",
+  "access_point": [
+    {
+      "id": "https://www.metaconceptualart.com/images/artmarketreform.jpg",
+      "type": "DigitalObject"
+    }
+  ],
+  "digitally_shows": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/art-market-reform#visual-item",
+      "type": "VisualItem",
+      "_label": "Art market reform image study"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "A visual anchor for the project: art, price, reform, and institutional display held together as one unstable field.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Creation of Art Market Reform",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2013",
+      "begin_of_the_begin": "2013-01-01T00:00:00Z",
+      "end_of_the_end": "2013-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "_label": "Artwork page",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "Metaconceptual Art — Art Market Reform",
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://www.metaconceptualart.com/artworks/art-market-reform",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/art-market-reform" },
+    "curies": [
+      { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
+    ],
+    "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
+    "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" },
+    "alternate": [
+      { "href": "https://www.metaconceptualart.com/artworks/art-market-reform", "type": "text/html" }
+    ],
+    "collection": { "href": "https://www.metaconceptualart.com/data/linked-art/collection" }
+  }
+}

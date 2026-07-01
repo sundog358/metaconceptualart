@@ -23,13 +23,18 @@
     "void": "https://www.metaconceptualart.com/data/void.ttl",
     "wellKnownVoid": "https://www.metaconceptualart.com/.well-known/void",
     "dcat": "https://www.metaconceptualart.com/data/dcat.jsonld",
+    "rdfDump": "https://www.metaconceptualart.com/data/metaconceptual-art.ttl",
     "checksums": "https://www.metaconceptualart.com/data/releases/1.0/checksums.json",
     "originProvenance": "https://www.metaconceptualart.com/data/profile/metaconceptual-art-origin-provenance.json"
   },
   "linkedArtRecords": [
     { "id": "site-as-artwork", "type": "DigitalObject", "label": "The Website Itself" },
     { "id": "eight-sentences", "type": "LinguisticObject", "label": "Eight Sentences On Metaconceptual Art" },
+    { "id": "wtfisart", "type": "DigitalObject", "label": "www.wtfisart.com" },
     { "id": "construction-museum", "type": "DigitalObject", "label": "Construction of the Museum as Concept" },
+    { "id": "art-market-reform", "type": "DigitalObject", "label": "Art Market Reform" },
+    { "id": "eightfold-sprocket", "type": "DigitalObject", "label": "Eightfold Sprocket" },
+    { "id": "movement-graph", "type": "DigitalObject", "label": "Movement Graph" },
     { "id": "movement-record", "type": "LinguisticObject", "label": "Proof of Movement: Metaconceptual Art" },
     { "id": "collection", "type": "Set", "label": "Metaconceptual Art — Collection" },
     { "id": "sun-and-rain-works", "type": "Group", "label": "Sun & Rain Works" },
@@ -63,12 +68,45 @@
       "linkedArt": "data/linked-art/eight-sentences"
     },
     {
+      "id": "work:wtfisart",
+      "type": "Artwork",
+      "label": "www.wtfisart.com",
+      "description": "A born-digital Metaconceptual Art work created live on the web in real time at Sotheby's Photographs auction on March 30, 2009.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/wtfisart",
+      "url": "https://www.wtfisart.com/"
+    },
+    {
       "id": "work:construction-museum",
       "type": "Artwork",
       "label": "Construction of the Museum as Concept",
       "description": "The museum appears inside the artwork as something still being built: institutional authority shown as architecture, ornament, labor, and frame.",
       "wikidata": null,
       "linkedArt": "data/linked-art/construction-museum"
+    },
+    {
+      "id": "work:art-market-reform",
+      "type": "Artwork",
+      "label": "Art Market Reform",
+      "description": "An image study that treats art, price, reform, and institutional display as one unstable field.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/art-market-reform"
+    },
+    {
+      "id": "work:eightfold-sprocket",
+      "type": "Artwork",
+      "label": "Eightfold Sprocket",
+      "description": "A diagrammatic emblem for the eight-sentence proposition set: repetition, rotation, and system held in a compact visual sign.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/eightfold-sprocket"
+    },
+    {
+      "id": "work:movement-graph",
+      "type": "Artwork",
+      "label": "Movement Graph",
+      "description": "The knowledge graph treated as an artwork: relations, authorities, claims, and viewers arranged as a walkable system.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/movement-graph"
     },
     {
       "id": "work:movement-record",
@@ -195,6 +233,13 @@
       "groveArt": "T023894"
     },
     {
+      "id": "source:sothebys-photographs-2009",
+      "type": "Event",
+      "label": "Sotheby's Photographs auction (March 30, 2009)",
+      "description": "The auction context in which www.wtfisart.com is reported by Sun & Rain Works to have been created live on the web in real time.",
+      "wikidata": null
+    },
+    {
       "id": "system:provenance-layer",
       "type": "System",
       "label": "Provenance Layer",
@@ -237,7 +282,11 @@
     { "from": "work:site-as-artwork", "relation": "activated_by", "to": "role:viewer" },
     { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:site-as-artwork" },
     { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:eight-sentences" },
+    { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:wtfisart" },
     { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:construction-museum" },
+    { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:art-market-reform" },
+    { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:eightfold-sprocket" },
+    { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:movement-graph" },
     { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:movement-record" },
     { "from": "concept:metaconceptual-art", "relation": "derives_from", "to": "concept:conceptual-art" },
     { "from": "concept:metaconceptual-art", "relation": "extends", "to": "concept:institutional-frame" },
@@ -251,7 +300,15 @@
     { "from": "work:movement-record", "relation": "defines_profile", "to": "concept:metaconceptual-art" },
     { "from": "work:movement-record", "relation": "uses_standard", "to": "concept:linked-open-data" },
     { "from": "work:eight-sentences", "relation": "expresses", "to": "concept:conceptual-art" },
+    { "from": "work:wtfisart", "relation": "uses_site", "to": "concept:net-art" },
+    { "from": "work:wtfisart", "relation": "tracks", "to": "concept:provenance" },
+    { "from": "work:wtfisart", "relation": "created_during", "to": "source:sothebys-photographs-2009" },
     { "from": "work:construction-museum", "relation": "expresses", "to": "concept:institutional-frame" },
+    { "from": "work:art-market-reform", "relation": "frames", "to": "concept:provenance" },
+    { "from": "work:eightfold-sprocket", "relation": "carries", "to": "work:eight-sentences" },
+    { "from": "work:movement-graph", "relation": "uses_standard", "to": "concept:semantic-web" },
+    { "from": "work:movement-graph", "relation": "uses_standard", "to": "concept:linked-open-data" },
+    { "from": "work:movement-graph", "relation": "activated_by", "to": "role:viewer" },
     { "from": "concept:conceptual-art", "relation": "influenced_by", "to": "source:duchamp" },
     { "from": "concept:conceptual-art", "relation": "influenced_by", "to": "concept:readymade" },
     { "from": "concept:conceptual-art", "relation": "advanced_by", "to": "source:kosuth" },

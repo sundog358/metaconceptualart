@@ -1,0 +1,139 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/movement-graph",
+  "type": "DigitalObject",
+  "_label": "Movement Graph",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Movement Graph",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "work:movement-graph",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300391330",
+      "type": "Type",
+      "_label": "Semantic Web",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q54837",
+          "type": "Type",
+          "_label": "Semantic Web"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300419940",
+      "type": "Type",
+      "_label": "internet art",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q1569950",
+          "type": "Type",
+          "_label": "internet art"
+        }
+      ]
+    }
+  ],
+  "format": "text/html",
+  "access_point": [
+    {
+      "id": "https://www.metaconceptualart.com/explore",
+      "type": "DigitalObject"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "The knowledge graph treated as an artwork: relations, authorities, claims, and viewers arranged as a walkable system.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Creation of Movement Graph",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "_label": "Artwork page",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "Metaconceptual Art — Movement Graph",
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://www.metaconceptualart.com/artworks/movement-graph",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/movement-graph" },
+    "curies": [
+      { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
+    ],
+    "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
+    "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" },
+    "alternate": [
+      { "href": "https://www.metaconceptualart.com/artworks/movement-graph", "type": "text/html" },
+      { "href": "https://www.metaconceptualart.com/explore", "type": "text/html" }
+    ],
+    "collection": { "href": "https://www.metaconceptualart.com/data/linked-art/collection" }
+  }
+}

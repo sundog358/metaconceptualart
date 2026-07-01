@@ -56,13 +56,14 @@ museum connects outward to the wider linked-data record of art.
   AAT for concepts — linking to the open `vocab.getty.edu` URIs, so the museum is
   legible to the art world's own linked-data vocabularies.
 - The works are published as CIDOC-CRM-correct **[Linked Art](https://linked.art)
-  (API 1.0)** records under [`data/linked-art/`](data/linked-art/): two
-  `DigitalObject`s (the website, the image), a `LinguisticObject` (the Eight
-  Sentences), a collection `Set`, a `Group` (Sun & Rain Works), a `Concept`, and
-  a `ProvenanceActivity`. Names, identifiers, and statements are AAT-classified;
-  every classification cross-walks Getty AAT/ULAN to Wikidata; each record carries
-  a HAL `_links` block — so an object is legible to real collection-management
-  systems (Getty, Yale LUX, Europeana). Each record has a single **extensionless
+  (API 1.0)** records under [`data/linked-art/`](data/linked-art/): a public
+  corpus of six catalogued works, the site-as-artwork record, the Movement
+  Record, a collection `Set`, a `Group` (Sun & Rain Works), a local movement
+  `Type`, and a publication/provenance `Activity`. Names, identifiers, and
+  statements are AAT-classified; every classification cross-walks Getty AAT/ULAN
+  to Wikidata where an external authority exists; each record carries a HAL
+  `_links` block — so an object is legible to real collection-management systems
+  (Getty, Yale LUX, Europeana). Each record has a single **extensionless
   canonical URI** served with **content negotiation**: `Accept: text/html`
   303-redirects to the human page, `Accept: application/ld+json` returns the
   profiled JSON-LD, and the legacy `.json` URL 301s to the canonical one. On
@@ -83,20 +84,25 @@ museum connects outward to the wider linked-data record of art.
 - The profile has a formal **v1.0 reference-standard surface** at `/profile/1.0/`:
   a reusable JSON-LD context, JSON Schema, SHACL shape, browser validator,
   starter template, passing/failing fixtures, VoID/DCAT dataset descriptors,
-  `/.well-known/void`, and a SHA-256 release manifest. `npm run validate:claim`
-  validates the current claim or any local/remote claim JSON.
+  `/.well-known/void`, a small RDF/Turtle dump, and a SHA-256 release manifest.
+  `npm run validate:claim` validates the current claim or any local/remote claim
+  JSON.
+- The `/modeling` note explains the born-digital Linked Art modeling choices, and
+  `/bibliography` separates external standards/lineage from independent
+  reception, avoiding inflated claims of canonization.
 - A publication-status vocabulary and portfolio staging policy distinguish
   `private`, `forthcoming`, `metadata-only`, and `public` records, so the project
   can connect to the Linked Art / LOD web now without implying unpublished
   portfolio works are already public evidence.
 - Origin provenance is separated from publication metadata: Sun & Rain Works is
-  modeled as established in 2005, Metaconceptual Art as created in 2007, March
-  2009 receipts/metadata as early-work evidence held by the studio, and 2026 as
-  the public linked-data publication layer.
+  modeled as established in 2005, Metaconceptual Art as created in 2007,
+  `www.wtfisart.com` as created live on the web in real time at Sotheby's
+  Photographs auction on March 30, 2009, and 2026 as the public linked-data
+  publication layer.
 - The records are **certified against the Getty `cromulent` reference library**
-  (9/9) plus a `pyld` JSON-LD expansion, run in the verify gate and in **CI**
+  (13/13) plus a `pyld` JSON-LD expansion, run in the verify gate and in **CI**
   (GitHub Actions) on every push. The official Linked Art JSON Schema bundle is
-  also clean for every schema-covered top-level record (DigitalObject, Set,
+  also clean for every schema-covered top-level record (9 records: DigitalObject, Set,
   Group, and Type). The `data/linked-art/.htaccess` meets the API's minimal
   static-file conformance (`application/ld+json` + profile, GET/OPTIONS, CORS).
 

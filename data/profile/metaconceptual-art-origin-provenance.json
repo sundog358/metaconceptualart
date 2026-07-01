@@ -26,14 +26,15 @@
       "description": "Metaconceptual Art is asserted by Sun & Rain Works as a movement created in 2007, before the 2026 linked-data publication layer."
     },
     {
-      "id": "https://www.metaconceptualart.com/origin#early-work-evidence-2009-03",
+      "id": "https://www.metaconceptualart.com/origin#wtfisart-live-auction-2009-03-30",
       "type": "ArtworkEvidence",
-      "label": "March 2009 artwork receipts and metadata",
-      "date": "2009-03",
+      "label": "www.wtfisart.com live auction creation",
+      "date": "2009-03-30",
       "agent": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+      "work": "https://www.metaconceptualart.com/data/linked-art/wtfisart",
       "evidenceStatus": "private-evidence-held-by-studio",
-      "publicEvidenceStatus": "forthcoming",
-      "description": "The studio reports March 2009 receipts, metadata, and related documentation for early Metaconceptual Art works. Those records can be promoted to public, metadata-only, or full Linked Art records when ready."
+      "publicEvidenceStatus": "public-catalog-record",
+      "description": "Sun & Rain Works reports that www.wtfisart.com was created live on the web in real time at Sotheby's Photographs auction on March 30, 2009. Photographs, metadata, emails, auction catalogue material, receipts, and related records are held by the studio; selected evidence can be promoted to public as redaction and rights review are completed."
     },
     {
       "id": "https://www.metaconceptualart.com/origin#linked-data-publication-2026",
