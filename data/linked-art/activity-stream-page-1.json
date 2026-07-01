@@ -279,6 +279,54 @@
         "type": "Group"
       },
       "endTime": "2026-06-30T12:18:34-07:00"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/art-market-reform",
+        "type": "DigitalObject"
+      },
+      "endTime": "2026-07-01T10:57:30-07:00"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/eightfold-sprocket",
+        "type": "DigitalObject"
+      },
+      "endTime": "2026-07-01T10:57:30-07:00"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/movement-graph",
+        "type": "DigitalObject"
+      },
+      "endTime": "2026-07-01T10:57:30-07:00"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart",
+        "type": "DigitalObject"
+      },
+      "endTime": "2026-07-01T10:57:30-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+        "type": "Set"
+      },
+      "endTime": "2026-07-01T10:57:30-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/provenance-publication",
+        "type": "Activity"
+      },
+      "endTime": "2026-07-01T10:57:30-07:00"
     }
   ]
 }
