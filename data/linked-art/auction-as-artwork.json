@@ -36,18 +36,6 @@
   ],
   "classified_as": [
     {
-      "id": "http://vocab.getty.edu/aat/300121445",
-      "type": "Type",
-      "_label": "performance art",
-      "equivalent": [
-        {
-          "id": "http://www.wikidata.org/entity/Q213156",
-          "type": "Type",
-          "_label": "performance art"
-        }
-      ]
-    },
-    {
       "id": "http://vocab.getty.edu/aat/300047210",
       "type": "Type",
       "_label": "found objects (readymades)",
@@ -75,7 +63,7 @@
   "referred_to_by": [
     {
       "type": "LinguisticObject",
-      "content": "The primary Metaconceptual Art work of March 30, 2009: the act of the Sotheby's Photographs auction itself, designated as the artwork. Following the logic of the readymade, Sun & Rain Works appropriates a public institutional event — the auction carried out by Sotheby's — and frames its mechanism of value, authority, and sale as the material of the work. Two artifacts are parts of this single gesture: the born-digital website www.wtfisart.com and the auction performance work WTF is Ansel Adams.",
+      "content": "A Metaconceptual Art work that Sun & Rain Works designates in connection with the Sotheby's Photographs auction of March 2009 (sale N08533, New York), at which Sun & Rain Works consigned an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16). Following the logic of the readymade, Sun & Rain Works frames its engagement with that public institutional event — its mechanism of value, authority, and sale — as the material of a conceptual work. This is a designation asserted by the artist and made explicit over time; it is not a publicly witnessed live-creation event, and the Sotheby's catalogue does not name Sun & Rain Works. Two associated works accompany the gesture: the website www.wtfisart.com and WTF is Ansel Adams.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -86,7 +74,7 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "Sun & Rain Works reports that photographs, metadata, emails, auction catalogue material, receipts, and related records document the work. The public Linked Art record names the work, the appropriated auction, and its parts; the fuller evidence archive remains held by the studio pending redaction and rights review.",
+      "content": "Documentation reported by Sun & Rain Works includes 2008 correspondence with Sotheby's Photographs, the public catalogue lot, photographs, receipts, and related records; these evidence the artist identity and the consignment. The fuller archive remains held by the studio pending redaction and rights review. This record makes no adjudicated historical-priority claim and asserts no comparison with, or precedence over, any later artist or event absent separately published evidence.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -98,12 +86,12 @@
   ],
   "produced_by": {
     "type": "Production",
-    "_label": "Designation of the auction as artwork",
+    "_label": "Designation of the auction engagement as artwork",
     "timespan": {
       "type": "TimeSpan",
-      "_label": "March 30, 2009",
-      "begin_of_the_begin": "2009-03-30T00:00:00Z",
-      "end_of_the_end": "2009-03-30T23:59:59Z"
+      "_label": "March 2009",
+      "begin_of_the_begin": "2009-03-01T00:00:00Z",
+      "end_of_the_end": "2009-03-31T23:59:59Z"
     },
     "carried_out_by": [
       {
@@ -116,13 +104,13 @@
       {
         "id": "https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009",
         "type": "Activity",
-        "_label": "Sotheby's Photographs auction (March 30, 2009)"
+        "_label": "Sotheby's Photographs auction (sale N08533, March 2009)"
       }
     ],
     "referred_to_by": [
       {
         "type": "LinguisticObject",
-        "content": "The artistic act is the designation, by Sun & Rain Works, of the Sotheby's Photographs auction as a work — not the auction's ordinary business, which was carried out by Sotheby's.",
+        "content": "The artistic act is the designation, by Sun & Rain Works, of its auction engagement as a work — not the auction's ordinary business, which was carried out by Sotheby's. The designation is an assertion by the artist.",
         "classified_as": [
           {
             "id": "http://vocab.getty.edu/aat/300435416",

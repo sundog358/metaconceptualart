@@ -2,11 +2,11 @@
   "@context": "https://linked.art/ns/v1/linked-art.json",
   "id": "https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009",
   "type": "Activity",
-  "_label": "Sotheby's Photographs auction (March 30, 2009)",
+  "_label": "Sotheby's Photographs auction (sale N08533, March 2009)",
   "identified_by": [
     {
       "type": "Name",
-      "content": "Sotheby's Photographs auction (March 30, 2009)",
+      "content": "Sotheby's Photographs auction (sale N08533, March 2009)",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300404670",
@@ -51,7 +51,7 @@
   "referred_to_by": [
     {
       "type": "LinguisticObject",
-      "content": "The public Sotheby's Photographs auction held on March 30, 2009, carried out by Sotheby's. Sun & Rain Works designates the act of this auction as the material of the metaconceptual work The Auction as Artwork. This record names the appropriated real-world event; it does not assert that Sotheby's authored, endorsed, or participated in the artwork.",
+      "content": "The public Sotheby's Photographs auction (sale N08533), New York, March 2009, carried out by Sotheby's, at which Sun & Rain Works consigned an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16). Sun & Rain Works designates its engagement with this auction as the material of the conceptual work The Auction as Artwork. This record names the real-world event and cites the public catalogue; it does not assert that Sotheby's authored, endorsed, or participated in the artwork, and the catalogue does not name Sun & Rain Works.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -63,14 +63,14 @@
   ],
   "timespan": {
     "type": "TimeSpan",
-    "_label": "March 30, 2009",
-    "begin_of_the_begin": "2009-03-30T00:00:00Z",
-    "end_of_the_end": "2009-03-30T23:59:59Z"
+    "_label": "March 2009",
+    "begin_of_the_begin": "2009-03-01T00:00:00Z",
+    "end_of_the_end": "2009-03-31T23:59:59Z"
   },
   "took_place_at": [
     {
       "type": "Place",
-      "_label": "Sotheby's"
+      "_label": "Sotheby's, New York"
     }
   ],
   "carried_out_by": [

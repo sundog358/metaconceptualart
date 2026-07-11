@@ -100,7 +100,7 @@
   "referred_to_by": [
     {
       "type": "LinguisticObject",
-      "content": "A born-digital Metaconceptual Art work created live on the web in real time at Sotheby's Photographs auction on March 30, 2009.",
+      "content": "A born-digital Metaconceptual Art work: a website built and owned by Sun & Rain Works around March 2009, in connection with its Sotheby's Photographs auction engagement (sale N08533). Sun & Rain Works designates it as an associated part of the conceptual work The Auction as Artwork.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -111,7 +111,7 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "www.wtfisart.com forms an artifact-part of the primary work The Auction as Artwork (March 30, 2009), in which the act of Sotheby's Photographs auction is itself designated as the artwork.",
+      "content": "www.wtfisart.com is associated by Sun & Rain Works with the conceptual work The Auction as Artwork, in which Sun & Rain Works designates its March 2009 Sotheby's Photographs auction engagement as art. The designation is an assertion by the artist.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -122,7 +122,7 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "Sun & Rain Works reports that photographs, metadata, emails, auction catalogue material, receipts, and related records document the live creation event. The public Linked Art record names the work and event while the fuller evidence archive remains held by the studio pending redaction and rights review.",
+      "content": "Sun & Rain Works reports domain-registration and hosting receipts, site metadata, and related records documenting the website's existence and date. The fuller archive remains held by the studio pending redaction and rights review.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -134,12 +134,12 @@
   ],
   "created_by": {
     "type": "Creation",
-    "_label": "Live creation of www.wtfisart.com",
+    "_label": "Creation of www.wtfisart.com",
     "timespan": {
       "type": "TimeSpan",
-      "_label": "March 30, 2009",
-      "begin_of_the_begin": "2009-03-30T00:00:00Z",
-      "end_of_the_end": "2009-03-30T23:59:59Z"
+      "_label": "March 2009",
+      "begin_of_the_begin": "2009-03-01T00:00:00Z",
+      "end_of_the_end": "2009-03-31T23:59:59Z"
     },
     "carried_out_by": [
       {
@@ -152,13 +152,13 @@
       {
         "id": "https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009",
         "type": "Activity",
-        "_label": "Live creation at Sotheby's Photographs auction (March 30, 2009)"
+        "_label": "Sun & Rain Works' auction engagement (Sotheby's Photographs, March 2009)"
       }
     ],
     "referred_to_by": [
       {
         "type": "LinguisticObject",
-        "content": "Creation occurred on the web in real time at Sotheby's Photographs auction on March 30, 2009.",
+        "content": "The website was built by Sun & Rain Works around March 2009 in connection with its Sotheby's Photographs auction engagement; it is not recorded as having been authored live in the auction room.",
         "classified_as": [
           {
             "id": "http://vocab.getty.edu/aat/300435416",

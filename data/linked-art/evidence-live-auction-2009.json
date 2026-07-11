@@ -2,11 +2,11 @@
   "@context": "https://linked.art/ns/v1/linked-art.json",
   "id": "https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009",
   "type": "LinguisticObject",
-  "_label": "Evidence archive: live auction creation, March 30, 2009",
+  "_label": "Evidence archive: Sun & Rain Works auction engagement (March 2009)",
   "identified_by": [
     {
       "type": "Name",
-      "content": "Evidence archive: live auction creation, March 30, 2009",
+      "content": "Evidence archive: Sun & Rain Works auction engagement (March 2009)",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300404670",
@@ -46,11 +46,11 @@
       "_label": "documents"
     }
   ],
-  "content": "Sun & Rain Works holds a private archive documenting the March 30, 2009 work whose material is the act of Sotheby's Photographs auction itself, designated as artwork (The Auction as Artwork), together with its two artifact-parts: the born-digital website www.wtfisart.com and the auction performance work WTF is Ansel Adams. The archive is reported to contain photographs, born-digital and file metadata, emails, auction catalogue material, and receipts. The public Linked Art records name the work, the appropriated auction, and its parts; the primary evidence remains held by the studio pending redaction and rights review. No checksums, file hashes, or custody identifiers are published at this time; they will be added only when the underlying items are released.",
+  "content": "Sun & Rain Works holds a private archive relating to its March 2009 engagement with Sotheby's Photographs (sale N08533) and the associated conceptual works (The Auction as Artwork, WTF is Ansel Adams, and www.wtfisart.com). The archive is reported to contain 2008 correspondence with Sotheby's, records of the consignment of an Ansel Adams photograph (lot 16), domain-registration and hosting receipts for www.wtfisart.com, photographs, and file metadata. These materials evidence the artist identity, the 2008-2009 engagement with Sotheby's, the consignment, and the website's existence and date. They do not, by themselves, record a publicly witnessed live-creation event, and they establish no precedence over any later event. The fuller archive remains held by the studio pending redaction and rights review; no checksums, file hashes, or custody identifiers are published at this time, and will be added only when the underlying items are released.",
   "referred_to_by": [
     {
       "type": "LinguisticObject",
-      "content": "Evidence status: private-evidence-held-by-studio. Public evidence status: metadata-only. Selected items can be promoted to public evidence as redaction and rights review are completed.",
+      "content": "Evidence status: private-evidence-held-by-studio. Public evidence status: metadata-only. Independently verifiable so far: the public Sotheby's catalogue lot (sale N08533, lot 16). Selected items can be promoted to public evidence as redaction and rights review are completed.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -69,12 +69,12 @@
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009",
       "type": "Activity",
-      "_label": "Sotheby's Photographs auction (March 30, 2009)"
+      "_label": "Sotheby's Photographs auction (sale N08533, March 2009)"
     },
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009",
       "type": "Activity",
-      "_label": "Live creation at Sotheby's Photographs auction (March 30, 2009)"
+      "_label": "Sun & Rain Works' auction engagement (Sotheby's Photographs, March 2009)"
     },
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart",
@@ -109,7 +109,7 @@
   ],
   "created_by": {
     "type": "Creation",
-    "_label": "Compilation of the live auction evidence record",
+    "_label": "Compilation of the auction-engagement evidence record",
     "timespan": {
       "type": "TimeSpan",
       "_label": "2026",

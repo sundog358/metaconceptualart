@@ -85,7 +85,7 @@ const NODES: Node[] = [
     { href: "https://www.wikidata.org/wiki/Q5912", label: "Q5912" },
     { href: "https://vocab.getty.edu/page/ulan/500115393", label: "ULAN 500115393", getty: true },
   ] },
-  { id: "source:sothebys-photographs-2009", type: "Event", name: "Sotheby's Photographs auction (March 30, 2009)", relation: "context for work:wtfisart", lod: [] },
+  { id: "source:sothebys-photographs-2009", type: "Event", name: "Sotheby's Photographs auction (sale N08533, March 2009)", relation: "context for work:wtfisart", lod: [] },
   { id: "role:viewer", type: "Role", name: "Viewer", relation: "activates meaning", lod: [] },
   { id: "record:revision-2026-06-19", type: "Revision", name: "Wikidata Layer", relation: "grounds nodes in linked data", lod: [] },
   { id: "record:citation-primary", type: "Citation", name: "Recommended Citation", relation: "makes the work referenceable", lod: [] },

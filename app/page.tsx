@@ -285,7 +285,7 @@ export default function HomePage() {
             <h2 id="constellation-title">Six Works On View</h2>
             <p className="section-intro">
               The project now reads less like a single statement and more like a
-              small museum system: a live web auction work, image studies,
+              small museum system: a born-digital conceptual work, image studies,
               propositions, emblems, and a graph-work, each with a citable
               record.
             </p>

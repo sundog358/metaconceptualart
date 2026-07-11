@@ -40,7 +40,7 @@ export default function ArtworksPage() {
             <h2 id="collection-title">Six Works</h2>
             <p className="section-intro">
               A compact public register: the canonical sentence sequence, a
-              2009 live web auction work, image studies, an emblem, and the
+              2009 born-digital conceptual work, image studies, an emblem, and the
               graph as a site-native work, each with its own page, metadata,
               and conceptual relations. Each work also publishes a{" "}
               <a

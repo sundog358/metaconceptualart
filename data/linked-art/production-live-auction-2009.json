@@ -2,11 +2,11 @@
   "@context": "https://linked.art/ns/v1/linked-art.json",
   "id": "https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009",
   "type": "Activity",
-  "_label": "Live creation at Sotheby's Photographs auction (March 30, 2009)",
+  "_label": "Sun & Rain Works' auction engagement (Sotheby's Photographs, March 2009)",
   "identified_by": [
     {
       "type": "Name",
-      "content": "Live creation at Sotheby's Photographs auction (March 30, 2009)",
+      "content": "Sun & Rain Works' auction engagement (Sotheby's Photographs, March 2009)",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300404670",
@@ -36,18 +36,6 @@
   ],
   "classified_as": [
     {
-      "id": "http://vocab.getty.edu/aat/300121445",
-      "type": "Type",
-      "_label": "performance art",
-      "equivalent": [
-        {
-          "id": "http://www.wikidata.org/entity/Q213156",
-          "type": "Type",
-          "_label": "performance art"
-        }
-      ]
-    },
-    {
       "id": "http://vocab.getty.edu/aat/300264827",
       "type": "Type",
       "_label": "conceptual art",
@@ -63,7 +51,7 @@
   "referred_to_by": [
     {
       "type": "LinguisticObject",
-      "content": "The live creation act carried out by Sun & Rain Works during Sotheby's Photographs auction on March 30, 2009. The primary work is the auction itself, designated as artwork (The Auction as Artwork); within that gesture Sun & Rain Works also produced two artifact-parts in real time: the born-digital website www.wtfisart.com and the auction performance work WTF is Ansel Adams. This record gathers the shared creation time and context so the parts reference one documented act rather than duplicating it.",
+      "content": "Sun & Rain Works' engagement with Sotheby's Photographs, March 2009 (sale N08533): the consignment of an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), and the artist's designation of that engagement — together with the associated website www.wtfisart.com — as conceptual works. Sun & Rain Works frames the primary work as The Auction as Artwork, with two associated works, WTF is Ansel Adams and www.wtfisart.com. These designations are assertions by the artist, made explicit over time; they are not publicly witnessed live-creation events, and the Sotheby's catalogue does not name Sun & Rain Works.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -75,15 +63,15 @@
   ],
   "timespan": {
     "type": "TimeSpan",
-    "_label": "March 30, 2009",
-    "begin_of_the_begin": "2009-03-30T00:00:00Z",
-    "end_of_the_end": "2009-03-30T23:59:59Z"
+    "_label": "March 2009",
+    "begin_of_the_begin": "2009-03-01T00:00:00Z",
+    "end_of_the_end": "2009-03-31T23:59:59Z"
   },
   "part_of": [
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009",
       "type": "Activity",
-      "_label": "Sotheby's Photographs auction (March 30, 2009)"
+      "_label": "Sotheby's Photographs auction (sale N08533, March 2009)"
     }
   ],
   "carried_out_by": [

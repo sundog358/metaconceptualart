@@ -26,42 +26,42 @@
       "description": "Metaconceptual Art is asserted by Sun & Rain Works as a movement created in 2007, before the 2026 linked-data publication layer."
     },
     {
-      "id": "https://www.metaconceptualart.com/origin#auction-as-artwork-2009-03-30",
+      "id": "https://www.metaconceptualart.com/origin#auction-as-artwork-2009-03",
       "type": "ArtworkEvidence",
       "label": "The Auction as Artwork",
-      "date": "2009-03-30",
+      "date": "2009-03",
       "agent": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
       "work": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
       "appropriatedEvent": "https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009",
       "event": "https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009",
-      "evidenceStatus": "private-evidence-held-by-studio",
+      "evidenceStatus": "asserted-by-studio",
       "publicEvidenceStatus": "public-catalog-record",
-      "description": "The primary work of March 30, 2009: Sun & Rain Works designates the act of Sotheby's Photographs auction itself as a Metaconceptual Art work, after the logic of the readymade. The auction proper was carried out by Sotheby's; the artistic act is the designation. Two artifact-parts, www.wtfisart.com and WTF is Ansel Adams, were produced live within the gesture. Photographs, metadata, emails, auction catalogue material, receipts, and related records are held by the studio; selected evidence can be promoted to public as redaction and rights review are completed."
+      "description": "In March 2009, in connection with the Sotheby's Photographs auction (sale N08533, New York), Sun & Rain Works consigned an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), and designates its engagement with that auction as a Metaconceptual Art work, after the logic of the readymade. The auction was carried out by Sotheby's; the artistic act is Sun & Rain Works' designation, asserted by the artist and made explicit over time. This is not a publicly witnessed live-creation event and carries no adjudicated priority claim; the catalogue does not name Sun & Rain Works. Two associated works accompany the gesture: www.wtfisart.com and WTF is Ansel Adams. Supporting records (2008 Sotheby's correspondence, the public lot, receipts, photographs) are held by the studio; selected evidence can be promoted to public as redaction and rights review are completed."
     },
     {
-      "id": "https://www.metaconceptualart.com/origin#wtfisart-live-auction-2009-03-30",
+      "id": "https://www.metaconceptualart.com/origin#wtfisart-2009-03",
       "type": "ArtworkEvidence",
-      "label": "www.wtfisart.com live auction creation",
-      "date": "2009-03-30",
+      "label": "www.wtfisart.com (website)",
+      "date": "2009-03",
       "agent": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
       "work": "https://www.metaconceptualart.com/data/linked-art/wtfisart",
       "partOf": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
-      "evidenceStatus": "private-evidence-held-by-studio",
-      "publicEvidenceStatus": "public-catalog-record",
-      "description": "An artifact-part of The Auction as Artwork: Sun & Rain Works reports that www.wtfisart.com was created live on the web in real time during Sotheby's Photographs auction on March 30, 2009. Photographs, metadata, emails, auction catalogue material, receipts, and related records are held by the studio; selected evidence can be promoted to public as redaction and rights review are completed."
+      "evidenceStatus": "asserted-by-studio",
+      "publicEvidenceStatus": "metadata-only",
+      "description": "A website built and owned by Sun & Rain Works around March 2009, associated by the studio with the conceptual work The Auction as Artwork. Reported documentation includes domain-registration and hosting receipts and site metadata evidencing the website's existence and date; the archive is held by the studio. It is not recorded as having been authored live in the auction room."
     },
     {
-      "id": "https://www.metaconceptualart.com/origin#wtf-is-ansel-adams-live-auction-2009-03-30",
+      "id": "https://www.metaconceptualart.com/origin#wtf-is-ansel-adams-2009-03",
       "type": "ArtworkEvidence",
-      "label": "WTF is Ansel Adams live auction performance",
-      "date": "2009-03-30",
+      "label": "WTF is Ansel Adams (conceptual designation)",
+      "date": "2009-03",
       "agent": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
       "work": "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams",
       "partOf": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
       "event": "https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009",
-      "evidenceStatus": "private-evidence-held-by-studio",
-      "publicEvidenceStatus": "public-catalog-record",
-      "description": "An artifact-part of The Auction as Artwork: Sun & Rain Works reports that WTF is Ansel Adams was performed live during Sotheby's Photographs auction on March 30, 2009. Photographs, metadata, emails, auction catalogue material, and receipts are held by the studio; selected evidence can be promoted to public as redaction and rights review are completed."
+      "evidenceStatus": "asserted-by-studio",
+      "publicEvidenceStatus": "metadata-only",
+      "description": "A conceptual work that Sun & Rain Works designates around its consignment of the Ansel Adams photograph (lot 16) to Sotheby's Photographs, March 2009. It is an assertion by the artist, made explicit over time, and is not recorded as a publicly witnessed performance. Supporting records are held by the studio."
     },
     {
       "id": "https://www.metaconceptualart.com/origin#linked-data-publication-2026",
