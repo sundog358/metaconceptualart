@@ -2401,3 +2401,118 @@ html[data-theme="dark"] .reference-list li,
 html[data-theme="dark"] .anchor-list li {
   background: var(--white);
 }
+
+/* SPARQL console (/query) */
+.sparql-console {
+  max-width: 980px;
+}
+
+.sparql-presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.sparql-preset {
+  background: var(--white);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 0.82rem;
+  line-height: 1.3;
+  padding: 8px 12px;
+}
+
+.sparql-preset:hover {
+  border-color: var(--ink);
+}
+
+.sparql-label {
+  display: block;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.sparql-input {
+  background: var(--white);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono",
+    monospace;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  padding: 16px;
+  resize: vertical;
+  width: 100%;
+}
+
+.sparql-actions {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.sparql-run {
+  background: var(--ink);
+  border: 1px solid var(--ink);
+  color: var(--white);
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 10px 22px;
+}
+
+.sparql-run:disabled {
+  cursor: progress;
+  opacity: 0.6;
+}
+
+.sparql-status {
+  color: var(--ink);
+  font-size: 0.86rem;
+  margin: 0;
+  opacity: 0.85;
+}
+
+.sparql-results {
+  margin-top: 28px;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.sparql-table {
+  border-collapse: collapse;
+  font-size: 0.86rem;
+  width: 100%;
+}
+
+.sparql-table th,
+.sparql-table td {
+  border: 1px solid var(--line);
+  padding: 8px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.sparql-table th {
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono",
+    monospace;
+  font-weight: 600;
+}
+
+.sparql-table td {
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono",
+    monospace;
+  word-break: break-word;
+}
+
+html[data-theme="dark"] .sparql-preset,
+html[data-theme="dark"] .sparql-input,
+html[data-theme="dark"] .sparql-table th,
+html[data-theme="dark"] .sparql-table td {
+  background: var(--white);
+}

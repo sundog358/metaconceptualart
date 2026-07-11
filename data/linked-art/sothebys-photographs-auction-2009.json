@@ -34,6 +34,20 @@
       ]
     }
   ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300054751",
+      "type": "Type",
+      "_label": "auctions",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q177923",
+          "type": "Type",
+          "_label": "auction"
+        }
+      ]
+    }
+  ],
   "referred_to_by": [
     {
       "type": "LinguisticObject",

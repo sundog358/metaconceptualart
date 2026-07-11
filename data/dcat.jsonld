@@ -41,8 +41,24 @@
         {
           "id": "https://www.metaconceptualart.com/data/metaconceptual-art.ttl",
           "type": "dcat:Distribution",
-          "dcterms:title": "Small RDF/Turtle dump",
+          "dcterms:title": "Complete RDF/Turtle graph dump",
+          "dcterms:description": "Every Linked Art record expanded to CIDOC-CRM and merged into one graph.",
           "dcat:mediaType": "text/turtle"
+        },
+        {
+          "id": "https://www.metaconceptualart.com/data/metaconceptual-art.nq",
+          "type": "dcat:Distribution",
+          "dcterms:title": "Complete RDF/N-Quads graph dump",
+          "dcat:mediaType": "application/n-quads"
+        },
+        {
+          "id": "https://www.metaconceptualart.com/query",
+          "type": "dcat:Distribution",
+          "dcterms:title": "In-browser SPARQL query console",
+          "dcat:accessURL": {
+            "id": "https://www.metaconceptualart.com/query"
+          },
+          "dcat:mediaType": "text/html"
         },
         {
           "id": "https://www.metaconceptualart.com/data/profile/metaconceptual-art-claim.shacl.ttl",

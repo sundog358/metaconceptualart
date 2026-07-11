@@ -4,9 +4,10 @@
   "private": true,
   "description": "Metaconceptual Art — website as conceptual artwork. Next.js static export.",
   "scripts": {
-    "predev": "node scripts/prepublic.mjs",
+    "build:rdf": "node scripts/build-rdf.mjs",
+    "predev": "node scripts/build-rdf.mjs && node scripts/prepublic.mjs",
     "dev": "next dev",
-    "prebuild": "node scripts/prepublic.mjs",
+    "prebuild": "node scripts/build-rdf.mjs && node scripts/prepublic.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -14,7 +15,10 @@
     "validate:claim": "node scripts/validate-claim.mjs"
   },
   "dependencies": {
+    "@comunica/query-sparql-rdfjs": "^5.3.0",
     "@types/openseadragon": "^5.0.2",
+    "jsonld": "^9.0.0",
+    "n3": "^2.1.1",
     "next": "16.2.9",
     "openseadragon": "^6.0.2",
     "react": "^19.0.0",

@@ -12,8 +12,10 @@
   dcterms:issued "2026-06-30" ;
   void:uriSpace "https://www.metaconceptualart.com/data/" ;
   void:vocabulary la: ;
+  void:triples 793 ;
   void:dataDump <https://www.metaconceptualart.com/data/graph.json> ;
   void:dataDump <https://www.metaconceptualart.com/data/metaconceptual-art.ttl> ;
+  void:dataDump <https://www.metaconceptualart.com/data/metaconceptual-art.nq> ;
   void:dataDump <https://www.metaconceptualart.com/data/dcat.jsonld> ;
   void:dataDump <https://www.metaconceptualart.com/data/profile/1.0/publication-status.jsonld> ;
   void:dataDump <https://www.metaconceptualart.com/data/profile/1.0/portfolio-staging-policy.jsonld> ;

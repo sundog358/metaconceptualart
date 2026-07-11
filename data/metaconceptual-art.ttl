@@ -1,98 +1,739 @@
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix la: <https://linked.art/ns/terms/> .
-@prefix mca: <https://www.metaconceptualart.com/ns/> .
-@prefix schema: <https://schema.org/> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix void: <http://rdfs.org/ns/void#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix la: <https://linked.art/ns/terms/>.
+@prefix aat: <http://vocab.getty.edu/aat/>.
+@prefix ulan: <http://vocab.getty.edu/ulan/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix wd: <http://www.wikidata.org/entity/>.
+@prefix cc: <https://creativecommons.org/licenses/>.
+@prefix mca: <https://www.metaconceptualart.com/data/linked-art/>.
 
-<https://www.metaconceptualart.com/data/>
-  a void:Dataset ;
-  dcterms:title "Metaconceptual Art linked open art dataset" ;
-  dcterms:creator <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> ;
-  dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-  void:rootResource <https://www.metaconceptualart.com/data/linked-art/collection> .
-
-<https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art>
-  a skos:Concept ;
-  skos:prefLabel "Metaconceptual Art"@en ;
-  skos:broader <http://vocab.getty.edu/aat/300264827> ;
-  mca:evidencedBy
-    <https://www.metaconceptualart.com/data/linked-art/site-as-artwork> ,
-    <https://www.metaconceptualart.com/data/linked-art/eight-sentences> ,
-    <https://www.metaconceptualart.com/data/linked-art/wtfisart> ,
-    <https://www.metaconceptualart.com/data/linked-art/construction-museum> ,
-    <https://www.metaconceptualart.com/data/linked-art/art-market-reform> ,
-    <https://www.metaconceptualart.com/data/linked-art/eightfold-sprocket> ,
-    <https://www.metaconceptualart.com/data/linked-art/movement-graph> ,
-    <https://www.metaconceptualart.com/data/linked-art/movement-record> .
-
-<https://www.metaconceptualart.com/data/linked-art/collection>
-  a la:Set ;
-  dcterms:title "Metaconceptual Art — Collection"@en ;
-  mca:hasMember
-    <https://www.metaconceptualart.com/data/linked-art/site-as-artwork> ,
-    <https://www.metaconceptualart.com/data/linked-art/eight-sentences> ,
-    <https://www.metaconceptualart.com/data/linked-art/wtfisart> ,
-    <https://www.metaconceptualart.com/data/linked-art/construction-museum> ,
-    <https://www.metaconceptualart.com/data/linked-art/art-market-reform> ,
-    <https://www.metaconceptualart.com/data/linked-art/eightfold-sprocket> ,
-    <https://www.metaconceptualart.com/data/linked-art/movement-graph> ,
-    <https://www.metaconceptualart.com/data/linked-art/movement-record> .
-
-<https://www.metaconceptualart.com/data/linked-art/site-as-artwork>
-  a schema:CreativeWork ;
-  dcterms:title "The Website Itself"@en ;
-  schema:genre "website as conceptual artwork" .
-
-<https://www.metaconceptualart.com/data/linked-art/eight-sentences>
-  a schema:CreativeWork ;
-  dcterms:title "Eight Sentences On Metaconceptual Art"@en ;
-  schema:genre "proposition sequence" .
-
-<https://www.metaconceptualart.com/data/linked-art/wtfisart>
-  a schema:CreativeWork ;
-  dcterms:title "www.wtfisart.com"@en ;
-  dcterms:created "2009-03-30" ;
-  schema:genre "live web auction work" ;
-  schema:url <https://www.wtfisart.com/> ;
-  mca:createdDuring <https://www.metaconceptualart.com/event/sothebys-photographs-2009-03-30> .
-
-<https://www.metaconceptualart.com/event/sothebys-photographs-2009-03-30>
-  a schema:Event ;
-  dcterms:title "Sotheby's Photographs auction, March 30, 2009"@en .
-
-<https://www.metaconceptualart.com/data/linked-art/construction-museum>
-  a schema:VisualArtwork ;
-  dcterms:title "Construction of the Museum as Concept"@en ;
-  schema:genre "image study" .
-
-<https://www.metaconceptualart.com/data/linked-art/art-market-reform>
-  a schema:VisualArtwork ;
-  dcterms:title "Art Market Reform"@en ;
-  schema:genre "image study" .
-
-<https://www.metaconceptualart.com/data/linked-art/eightfold-sprocket>
-  a schema:VisualArtwork ;
-  dcterms:title "Eightfold Sprocket"@en ;
-  schema:genre "diagrammatic emblem" .
-
-<https://www.metaconceptualart.com/data/linked-art/movement-graph>
-  a schema:CreativeWork ;
-  dcterms:title "Movement Graph"@en ;
-  schema:genre "site-native system work" .
-
-<https://www.metaconceptualart.com/data/linked-art/movement-record>
-  a schema:CreativeWork ;
-  dcterms:title "Proof of Movement: Metaconceptual Art"@en ;
-  schema:genre "movement record" .
-
-<https://www.metaconceptualart.com/modeling>
-  a schema:TechArticle ;
-  dcterms:title "Modeling Born-Digital Conceptual Art With Linked Art"@en ;
-  schema:about <https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art> .
-
-<https://www.metaconceptualart.com/bibliography>
-  a schema:CollectionPage ;
-  dcterms:title "Bibliography & Reception"@en ;
-  schema:about <https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art> .
+aat:300025948 a crm:E55_Type;
+    rdfs:label "organizations";
+    la:equivalent wd:Q43229.
+aat:300025976 a crm:E55_Type;
+    rdfs:label "collections";
+    la:equivalent wd:Q2668072.
+aat:300026087 a crm:E55_Type;
+    rdfs:label "texts".
+aat:300026906 a crm:E55_Type;
+    rdfs:label "documents".
+aat:300033973 a crm:E55_Type;
+    rdfs:label "emblems".
+aat:300047210 a crm:E55_Type;
+    rdfs:label "found objects (readymades)";
+    la:equivalent wd:Q572916.
+aat:300047869 a crm:E55_Type;
+    rdfs:label "systems art";
+    la:equivalent wd:Q919251.
+aat:300054751 a crm:E55_Type;
+    rdfs:label "auctions";
+    la:equivalent wd:Q177923.
+aat:300055863 a crm:E55_Type;
+    rdfs:label "provenance";
+    la:equivalent wd:Q1773840.
+aat:300121445 a crm:E55_Type;
+    rdfs:label "performance art";
+    la:equivalent wd:Q213156.
+aat:300215302 a crm:E55_Type;
+    rdfs:label "digital images";
+    la:equivalent wd:Q1250322.
+aat:300264827 a crm:E55_Type;
+    rdfs:label "conceptual art";
+    la:equivalent wd:Q203209.
+aat:300265431 a crm:E55_Type;
+    rdfs:label "websites";
+    la:equivalent wd:Q35127.
+aat:300312355 a crm:E55_Type;
+    rdfs:label "accession number".
+aat:300388277 a crm:E56_Language;
+    rdfs:label "English".
+aat:300391330 a crm:E55_Type;
+    rdfs:label "Semantic Web";
+    la:equivalent wd:Q54837.
+aat:300404626 a crm:E55_Type;
+    rdfs:label "uniform resource locators".
+aat:300404670 a crm:E55_Type;
+    rdfs:label "primary name".
+aat:300419940 a crm:E55_Type;
+    rdfs:label "internet art";
+    la:equivalent wd:Q1569950.
+aat:300435416 a crm:E55_Type;
+    rdfs:label "description".
+aat:300435443 a crm:E55_Type;
+    rdfs:label "statements".
+ulan:500115429 a crm:E21_Person;
+    rdfs:label "Sol LeWitt";
+    la:equivalent wd:Q168587.
+ulan:500304344 a crm:E74_Group;
+    rdfs:label "Sotheby's".
+wd:Q1250322 a crm:E55_Type;
+    rdfs:label "digital image".
+wd:Q1569950 a crm:E55_Type;
+    rdfs:label "internet art".
+wd:Q168587 a crm:E21_Person;
+    rdfs:label "Sol LeWitt".
+wd:Q1773840 a crm:E55_Type;
+    rdfs:label "provenance".
+wd:Q177923 a crm:E55_Type;
+    rdfs:label "auction".
+wd:Q18692990 a crm:E55_Type;
+    rdfs:label "linked open data".
+wd:Q203209 a crm:E55_Type;
+    rdfs:label "conceptual art".
+wd:Q213156 a crm:E55_Type;
+    rdfs:label "performance art".
+wd:Q2668072 a crm:E55_Type;
+    rdfs:label "collection".
+wd:Q35127 a crm:E55_Type;
+    rdfs:label "website".
+wd:Q43229 a crm:E55_Type;
+    rdfs:label "organization".
+wd:Q54837 a crm:E55_Type;
+    rdfs:label "Semantic Web".
+wd:Q572916 a crm:E55_Type;
+    rdfs:label "found object / readymade".
+wd:Q6041145 a crm:E55_Type;
+    rdfs:label "institutional critique".
+wd:Q654762 a crm:E74_Group;
+    rdfs:label "Sotheby's".
+wd:Q919251 a crm:E55_Type;
+    rdfs:label "systems art".
+<https://creativecommons.org/licenses/by/4.0/> a crm:E55_Type;
+    rdfs:label "Attribution 4.0 International (CC BY 4.0)".
+<https://www.metaconceptualart.com/> a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>.
+<https://www.metaconceptualart.com/artworks#work-auction-as-artwork> a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>.
+<https://www.metaconceptualart.com/artworks#work-construction-museum> a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>.
+<https://www.metaconceptualart.com/artworks#work-eight-sentences> a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>.
+<https://www.metaconceptualart.com/artworks#work-wtf-is-ansel-adams> a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>.
+<https://www.metaconceptualart.com/artworks/art-market-reform> a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>.
+<https://www.metaconceptualart.com/artworks/eightfold-sprocket> a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>.
+<https://www.metaconceptualart.com/artworks/movement-graph> a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>.
+<https://www.metaconceptualart.com/artworks/wtfisart> a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>.
+<https://www.metaconceptualart.com/data/linked-art/art-market-reform#visual-item> a crm:E36_Visual_Item;
+    rdfs:label "Art market reform image study".
+mca:art-market-reform <http://purl.org/dc/elements/1.1/format> "image/jpeg";
+    crm:P129i_is_subject_of _:b0_r0b0;
+    crm:P1_is_identified_by _:b0_r0b2, _:b0_r0b3;
+    crm:P2_has_type aat:300215302, aat:300264827;
+    crm:P67i_is_referred_to_by _:b0_r0b4;
+    crm:P94i_was_created_by _:b0_r0b5;
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
+    rdfs:label "Art Market Reform";
+    la:access_point <https://www.metaconceptualart.com/images/artmarketreform.jpg>;
+    la:digitally_shows <https://www.metaconceptualart.com/data/linked-art/art-market-reform#visual-item>;
+    la:member_of mca:collection.
+mca:auction-as-artwork crm:P108i_was_produced_by _:b0_r1b0;
+    crm:P129i_is_subject_of _:b0_r1b3;
+    crm:P1_is_identified_by _:b0_r1b5, _:b0_r1b6;
+    crm:P2_has_type aat:300047210, aat:300121445, aat:300264827;
+    crm:P67i_is_referred_to_by _:b0_r1b7, _:b0_r1b8;
+    a crm:E22_Human-Made_Object;
+    rdfs:label "The Auction as Artwork";
+    la:member_of mca:collection.
+mca:collection crm:P1_is_identified_by _:b0_r2b0, _:b0_r2b1;
+    crm:P2_has_type aat:300025976;
+    crm:P67i_is_referred_to_by _:b0_r2b2;
+    crm:P94i_was_created_by _:b0_r2b3;
+    a la:Set;
+    rdfs:label "Metaconceptual Art - Collection", "Metaconceptual Art — Collection";
+    la:members_exemplified_by mca:art-market-reform, mca:auction-as-artwork, mca:construction-museum, mca:eight-sentences, mca:eightfold-sprocket, mca:evidence-live-auction-2009, mca:movement-graph, mca:movement-record, mca:site-as-artwork, mca:wtf-is-ansel-adams, mca:wtfisart.
+mca:concept-metaconceptual-art crm:P1_is_identified_by _:b0_r3b0, _:b0_r3b1;
+    crm:P67i_is_referred_to_by _:b0_r3b2;
+    crm:P94i_was_created_by _:b0_r3b3;
+    a crm:E55_Type;
+    rdfs:label "Metaconceptual Art";
+    <http://www.w3.org/2004/02/skos/core#broader> aat:300264827.
+<https://www.metaconceptualart.com/data/linked-art/construction-museum#visual-item> a crm:E36_Visual_Item;
+    rdfs:label "Depiction of the museum under construction".
+mca:construction-museum <http://purl.org/dc/elements/1.1/format> "image/png";
+    crm:P129i_is_subject_of _:b0_r4b0;
+    crm:P1_is_identified_by _:b0_r4b2, _:b0_r4b3;
+    crm:P2_has_type aat:300215302, aat:300264827;
+    crm:P67i_is_referred_to_by _:b0_r4b4;
+    crm:P94i_was_created_by _:b0_r4b5;
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
+    rdfs:label "Construction of the Museum as Concept";
+    la:access_point <https://www.metaconceptualart.com/images/constructionartaiA01.png>;
+    la:digitally_shows <https://www.metaconceptualart.com/data/linked-art/construction-museum#visual-item>;
+    la:member_of mca:collection.
+mca:eight-sentences crm:P104_is_subject_to _:b0_r5b0;
+    crm:P129i_is_subject_of _:b0_r5b1;
+    crm:P190_has_symbolic_content "1. A returning of the Formless to Form (Art). 2. An examination of the commodification of Art and its relationship to the current global economic crisis. 3. An examination of the power structures and network of the elite 'Art World' and 'Art Institutions'. 4. An Archaeology of the Art World, and Art History. 5. The interplay of Time and Space. 6. Transcendence of medium to arrive within the collective consciousness. 7. The annihilating of the boundaries between Art World insiders and Outsiders. 8. The annihilating of the boundaries between Art and Life.";
+    crm:P1_is_identified_by _:b0_r5b3, _:b0_r5b4;
+    crm:P2_has_type aat:300264827;
+    crm:P67i_is_referred_to_by _:b0_r5b5;
+    crm:P94i_was_created_by _:b0_r5b6;
+    a crm:E33_Linguistic_Object;
+    rdfs:label "Eight Sentences On Metaconceptual Art";
+    la:member_of mca:collection.
+<https://www.metaconceptualart.com/data/linked-art/eightfold-sprocket#visual-item> a crm:E36_Visual_Item;
+    rdfs:label "Eightfold sprocket emblem".
+mca:eightfold-sprocket <http://purl.org/dc/elements/1.1/format> "image/jpeg";
+    crm:P129i_is_subject_of _:b0_r6b0;
+    crm:P1_is_identified_by _:b0_r6b2, _:b0_r6b3;
+    crm:P2_has_type aat:300033973, aat:300264827;
+    crm:P67i_is_referred_to_by _:b0_r6b4;
+    crm:P94i_was_created_by _:b0_r6b5;
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
+    rdfs:label "Eightfold Sprocket";
+    la:access_point <https://www.metaconceptualart.com/images/8sprocket.jpg>;
+    la:digitally_shows <https://www.metaconceptualart.com/data/linked-art/eightfold-sprocket#visual-item>;
+    la:member_of mca:collection.
+mca:evidence-live-auction-2009 crm:P104_is_subject_to _:b0_r7b0;
+    crm:P129_is_about mca:auction-as-artwork, mca:production-live-auction-2009, mca:sothebys-photographs-auction-2009, mca:wtf-is-ansel-adams, mca:wtfisart;
+    crm:P190_has_symbolic_content "Sun & Rain Works holds a private archive documenting the March 30, 2009 work whose material is the act of Sotheby's Photographs auction itself, designated as artwork (The Auction as Artwork), together with its two artifact-parts: the born-digital website www.wtfisart.com and the auction performance work WTF is Ansel Adams. The archive is reported to contain photographs, born-digital and file metadata, emails, auction catalogue material, and receipts. The public Linked Art records name the work, the appropriated auction, and its parts; the primary evidence remains held by the studio pending redaction and rights review. No checksums, file hashes, or custody identifiers are published at this time; they will be added only when the underlying items are released.";
+    crm:P1_is_identified_by _:b0_r7b1, _:b0_r7b2;
+    crm:P2_has_type aat:300026087, aat:300026906;
+    crm:P67i_is_referred_to_by _:b0_r7b3;
+    crm:P94i_was_created_by _:b0_r7b4;
+    a crm:E33_Linguistic_Object;
+    rdfs:label "Evidence archive: live auction creation, March 30, 2009";
+    la:member_of mca:collection.
+mca:movement-graph <http://purl.org/dc/elements/1.1/format> "text/html";
+    crm:P129i_is_subject_of _:b0_r8b0;
+    crm:P1_is_identified_by _:b0_r8b2, _:b0_r8b3;
+    crm:P2_has_type aat:300391330, aat:300419940;
+    crm:P67i_is_referred_to_by _:b0_r8b4;
+    crm:P94i_was_created_by _:b0_r8b5;
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
+    rdfs:label "Movement Graph";
+    la:access_point <https://www.metaconceptualart.com/explore>;
+    la:member_of mca:collection.
+mca:movement-record crm:P104_is_subject_to _:b0_r9b0;
+    crm:P129_is_about mca:concept-metaconceptual-art;
+    crm:P129i_is_subject_of _:b0_r9b1;
+    crm:P190_has_symbolic_content "A linked-open-data record arguing that Metaconceptual Art is a natural, credible, and valid movement through genealogy, defined principles, works on view, machine-readable standards, external alignment, and provenance over time.";
+    crm:P1_is_identified_by _:b0_r9b3, _:b0_r9b4;
+    crm:P2_has_type aat:300026087, aat:300435443;
+    crm:P67i_is_referred_to_by _:b0_r9b5;
+    crm:P94i_was_created_by _:b0_r9b6;
+    a crm:E33_Linguistic_Object;
+    rdfs:label "Proof of Movement: Metaconceptual Art";
+    la:member_of mca:collection.
+mca:priority-live-auction-2009 crm:P104_is_subject_to _:b0_r10b0;
+    crm:P129_is_about mca:auction-as-artwork, mca:production-live-auction-2009, mca:wtf-is-ansel-adams, mca:wtfisart;
+    crm:P190_has_symbolic_content "Sun & Rain Works asserts documented prior evidence that, on March 30, 2009, the act of Sotheby's Photographs auction itself was designated as a Metaconceptual Art work (The Auction as Artwork), realized through two artifact-parts created live: www.wtfisart.com and WTF is Ansel Adams. Taken together, the artwork records, the appropriated auction event, the shared creation act, and the privately held evidence archive establish documented priority for treating a live auction as artwork. Consistent with the project's comparison and priority policy, this statement does not name, compare against, or dispute any later artist or event, and asserts no influence, contact, or derivation absent separately published evidence.";
+    crm:P1_is_identified_by _:b0_r10b1, _:b0_r10b2;
+    crm:P2_has_type aat:300026087, aat:300435443;
+    crm:P67i_is_referred_to_by _:b0_r10b3;
+    crm:P94i_was_created_by _:b0_r10b4;
+    a crm:E33_Linguistic_Object;
+    rdfs:label "Documented priority: live auction creation, March 30, 2009".
+mca:production-live-auction-2009 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P16_used_specific_object mca:wtf-is-ansel-adams, mca:wtfisart;
+    crm:P1_is_identified_by _:b0_r11b0, _:b0_r11b1;
+    crm:P2_has_type aat:300121445, aat:300264827;
+    crm:P4_has_time-span _:b0_r11b2;
+    crm:P67i_is_referred_to_by _:b0_r11b3;
+    crm:P9i_forms_part_of mca:sothebys-photographs-auction-2009;
+    a crm:E7_Activity;
+    rdfs:label "Live creation at Sotheby's Photographs auction (March 30, 2009)".
+mca:provenance-publication crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P2_has_type aat:300055863;
+    crm:P4_has_time-span _:b0_r12b0;
+    crm:P67i_is_referred_to_by _:b0_r12b1;
+    crm:P9_consists_of _:b0_r12b2;
+    a crm:E7_Activity;
+    rdfs:label "Publication of Metaconceptual Art (2026)".
+mca:site-as-artwork <http://purl.org/dc/elements/1.1/format> "text/html";
+    dcterms:conformsTo <https://www.w3.org/TR/html/>;
+    crm:P1_is_identified_by _:b0_r13b0, _:b0_r13b1;
+    crm:P2_has_type aat:300265431, aat:300419940;
+    crm:P67i_is_referred_to_by _:b0_r13b2;
+    crm:P94i_was_created_by _:b0_r13b3;
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
+    rdfs:label "The Website Itself";
+    la:access_point <https://www.metaconceptualart.com/>;
+    la:member_of mca:collection.
+mca:sothebys-photographs-auction-2009 crm:P14_carried_out_by mca:sothebys;
+    crm:P1_is_identified_by _:b0_r14b0, _:b0_r14b1;
+    crm:P2_has_type aat:300054751;
+    crm:P4_has_time-span _:b0_r14b2;
+    crm:P67i_is_referred_to_by _:b0_r14b3;
+    crm:P7_took_place_at _:b0_r14b4;
+    a crm:E7_Activity;
+    rdfs:label "Sotheby's Photographs auction (March 30, 2009)".
+mca:sothebys crm:P1_is_identified_by _:b0_r15b0, _:b0_r15b1, _:b0_r15b2;
+    crm:P2_has_type aat:300025948;
+    crm:P67i_is_referred_to_by _:b0_r15b3;
+    a crm:E74_Group;
+    rdfs:label "Sotheby's";
+    la:equivalent ulan:500304344, wd:Q654762.
+mca:sun-and-rain-works crm:P1_is_identified_by _:b0_r16b0, _:b0_r16b1;
+    crm:P2_has_type aat:300025948;
+    crm:P67i_is_referred_to_by _:b0_r16b2;
+    crm:P95i_was_formed_by _:b0_r16b3;
+    a crm:E74_Group;
+    rdfs:label "Sun & Rain Works".
+mca:wtf-is-ansel-adams crm:P108i_was_produced_by _:b0_r17b0;
+    crm:P129i_is_subject_of _:b0_r17b3;
+    crm:P1_is_identified_by _:b0_r17b5, _:b0_r17b6;
+    crm:P2_has_type aat:300121445, aat:300264827;
+    crm:P46i_forms_part_of mca:auction-as-artwork;
+    crm:P67i_is_referred_to_by _:b0_r17b7, _:b0_r17b8;
+    a crm:E22_Human-Made_Object;
+    rdfs:label "WTF is Ansel Adams";
+    la:member_of mca:collection.
+mca:wtfisart <http://purl.org/dc/elements/1.1/format> "text/html";
+    dcterms:conformsTo <https://www.w3.org/TR/html/>;
+    crm:P129i_is_subject_of _:b0_r18b0;
+    crm:P1_is_identified_by _:b0_r18b2, _:b0_r18b3, _:b0_r18b4;
+    crm:P2_has_type aat:300264827, aat:300265431, aat:300419940;
+    crm:P67i_is_referred_to_by _:b0_r18b5, _:b0_r18b6, _:b0_r18b7;
+    crm:P94i_was_created_by _:b0_r18b8;
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
+    rdfs:label "www.wtfisart.com";
+    la:access_point <https://www.wtfisart.com/>;
+    la:member_of mca:collection.
+<https://www.metaconceptualart.com/explore> a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>.
+<https://www.metaconceptualart.com/images/8sprocket.jpg> a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>.
+<https://www.metaconceptualart.com/images/artmarketreform.jpg> a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>.
+<https://www.metaconceptualart.com/images/constructionartaiA01.png> a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>.
+<https://www.metaconceptualart.com/movement> a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>.
+<https://www.w3.org/TR/html/> a crm:E73_Information_Object;
+    rdfs:label "HTML".
+<https://www.wtfisart.com/> a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>.
+_:b0_r0b0 a crm:E33_Linguistic_Object;
+    rdfs:label "Artwork page";
+    la:digitally_carried_by _:b0_r0b1.
+_:b0_r0b1 <http://purl.org/dc/elements/1.1/format> "text/html";
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
+    rdfs:label "Metaconceptual Art — Art Market Reform";
+    la:access_point <https://www.metaconceptualart.com/artworks/art-market-reform>.
+_:b0_r0b2 crm:P190_has_symbolic_content "Art Market Reform";
+    crm:P2_has_type aat:300404670;
+    crm:P72_has_language aat:300388277;
+    a crm:E33_E41_Linguistic_Appellation.
+_:b0_r0b3 crm:P190_has_symbolic_content "work:art-market-reform";
+    crm:P2_has_type aat:300312355;
+    a crm:E42_Identifier.
+_:b0_r0b4 crm:P190_has_symbolic_content "A visual anchor for the project: art, price, reform, and institutional display held together as one unstable field.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r0b5 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P4_has_time-span _:b0_r0b6;
+    a crm:E65_Creation;
+    rdfs:label "Creation of Art Market Reform".
+_:b0_r0b6 crm:P82a_begin_of_the_begin "2013-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2013-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    a crm:E52_Time-Span;
+    rdfs:label "2013".
+_:b0_r10b0 crm:P2_has_type <https://creativecommons.org/licenses/by/4.0/>;
+    crm:P75i_is_possessed_by mca:sun-and-rain-works;
+    a crm:E30_Right;
+    rdfs:label "CC BY 4.0".
+_:b0_r10b1 crm:P190_has_symbolic_content "Documented priority: live auction creation, March 30, 2009";
+    crm:P2_has_type aat:300404670;
+    crm:P72_has_language aat:300388277;
+    a crm:E33_E41_Linguistic_Appellation.
+_:b0_r10b2 crm:P190_has_symbolic_content "record:priority-live-auction-2009";
+    crm:P2_has_type aat:300312355;
+    a crm:E42_Identifier.
+_:b0_r10b3 crm:P190_has_symbolic_content "Evidence for this priority statement is the privately held archive recorded at evidence-live-auction-2009. Recommended claim: documented prior evidence for a live-auction artwork-creation structure. Avoided claim: first-ever status, or influence on any later artist or event, absent separately published evidence.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r10b4 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P4_has_time-span _:b0_r10b5;
+    a crm:E65_Creation;
+    rdfs:label "Writing of the live auction priority statement".
+_:b0_r10b5 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    a crm:E52_Time-Span;
+    rdfs:label "2026".
+_:b0_r11b0 crm:P190_has_symbolic_content "Live creation at Sotheby's Photographs auction (March 30, 2009)";
+    crm:P2_has_type aat:300404670;
+    crm:P72_has_language aat:300388277;
+    a crm:E33_E41_Linguistic_Appellation.
+_:b0_r11b1 crm:P190_has_symbolic_content "activity:production-live-auction-2009";
+    crm:P2_has_type aat:300312355;
+    a crm:E42_Identifier.
+_:b0_r11b2 crm:P82a_begin_of_the_begin "2009-03-30T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2009-03-30T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    a crm:E52_Time-Span;
+    rdfs:label "March 30, 2009".
+_:b0_r11b3 crm:P190_has_symbolic_content "The live creation act carried out by Sun & Rain Works during Sotheby's Photographs auction on March 30, 2009. The primary work is the auction itself, designated as artwork (The Auction as Artwork); within that gesture Sun & Rain Works also produced two artifact-parts in real time: the born-digital website www.wtfisart.com and the auction performance work WTF is Ansel Adams. This record gathers the shared creation time and context so the parts reference one documented act rather than duplicating it.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r12b0 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    a crm:E52_Time-Span;
+    rdfs:label "2026".
+_:b0_r12b1 crm:P190_has_symbolic_content "Public linked-data publication of selected Metaconceptual Art records in 2026. This publication makes the movement and selected works machine-readable on the open web; it is not the creation date of Sun & Rain Works, the movement, or all portfolio works.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r12b2 a la:RightAcquisition;
+    rdfs:label "Publication under CC BY 4.0, granting the public reuse rights";
+    la:establishes _:b0_r12b3.
+_:b0_r12b3 crm:P104i_applies_to mca:art-market-reform, mca:construction-museum, mca:eight-sentences, mca:eightfold-sprocket, mca:movement-graph, mca:site-as-artwork, mca:wtfisart;
+    crm:P1_is_identified_by _:b0_r12b4;
+    crm:P2_has_type <https://creativecommons.org/licenses/by/4.0/>;
+    crm:P75i_is_possessed_by mca:sun-and-rain-works;
+    a crm:E30_Right;
+    rdfs:label "CC BY 4.0".
+_:b0_r12b4 crm:P190_has_symbolic_content "Creative Commons Attribution 4.0 International";
+    a crm:E33_E41_Linguistic_Appellation.
+_:b0_r13b0 crm:P190_has_symbolic_content "The Website Itself";
+    crm:P2_has_type aat:300404670;
+    crm:P72_has_language aat:300388277;
+    a crm:E33_E41_Linguistic_Appellation.
+_:b0_r13b1 crm:P190_has_symbolic_content "work:site-as-artwork";
+    crm:P2_has_type aat:300312355;
+    a crm:E42_Identifier.
+_:b0_r13b2 crm:P190_has_symbolic_content "The public page treated as the artwork: a surface where language, navigation, metadata, revision, and viewing conditions become material. The website is one of the work's forms, not a container for it.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r13b3 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P4_has_time-span _:b0_r13b4;
+    a crm:E65_Creation;
+    rdfs:label "Creation of The Website Itself".
+_:b0_r13b4 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    a crm:E52_Time-Span;
+    rdfs:label "2026".
+_:b0_r14b0 crm:P190_has_symbolic_content "Sotheby's Photographs auction (March 30, 2009)";
+    crm:P2_has_type aat:300404670;
+    crm:P72_has_language aat:300388277;
+    a crm:E33_E41_Linguistic_Appellation.
+_:b0_r14b1 crm:P190_has_symbolic_content "activity:sothebys-photographs-auction-2009";
+    crm:P2_has_type aat:300312355;
+    a crm:E42_Identifier.
+_:b0_r14b2 crm:P82a_begin_of_the_begin "2009-03-30T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2009-03-30T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    a crm:E52_Time-Span;
+    rdfs:label "March 30, 2009".
+_:b0_r14b3 crm:P190_has_symbolic_content "The public Sotheby's Photographs auction held on March 30, 2009, carried out by Sotheby's. Sun & Rain Works designates the act of this auction as the material of the metaconceptual work The Auction as Artwork. This record names the appropriated real-world event; it does not assert that Sotheby's authored, endorsed, or participated in the artwork.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r14b4 a crm:E53_Place;
+    rdfs:label "Sotheby's".
+_:b0_r15b0 crm:P190_has_symbolic_content "Sotheby's";
+    crm:P2_has_type aat:300404670;
+    crm:P72_has_language aat:300388277;
+    a crm:E33_E41_Linguistic_Appellation.
+_:b0_r15b1 crm:P190_has_symbolic_content "agent:sothebys";
+    crm:P2_has_type aat:300312355;
+    a crm:E42_Identifier.
+_:b0_r15b2 crm:P190_has_symbolic_content "https://www.sothebys.com/";
+    crm:P2_has_type aat:300404626;
+    a crm:E42_Identifier.
+_:b0_r15b3 crm:P190_has_symbolic_content "International auction house founded in 1744. Named here only as the institution that carried out the Sotheby's Photographs auction on March 30, 2009 — the public event that Sun & Rain Works designates as the material of the metaconceptual work The Auction as Artwork. Recording Sotheby's as the auction's host asserts no partnership, endorsement, or claim against Sotheby's.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r16b0 crm:P190_has_symbolic_content "Sun & Rain Works";
+    crm:P2_has_type aat:300404670;
+    crm:P72_has_language aat:300388277;
+    a crm:E33_E41_Linguistic_Appellation.
+_:b0_r16b1 crm:P190_has_symbolic_content "agent:sun-and-rain-works";
+    crm:P2_has_type aat:300312355;
+    a crm:E42_Identifier.
+_:b0_r16b2 crm:P190_has_symbolic_content "The art business and studio established in 2005 that authors Metaconceptual Art and holds its copyright.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r16b3 crm:P4_has_time-span _:b0_r16b4;
+    a crm:E66_Formation;
+    rdfs:label "Formation of Sun & Rain Works".
+_:b0_r16b4 crm:P82a_begin_of_the_begin "2005-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2005-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    a crm:E52_Time-Span;
+    rdfs:label "2005".
+_:b0_r17b0 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P4_has_time-span _:b0_r17b1;
+    crm:P67i_is_referred_to_by _:b0_r17b2;
+    crm:P9i_forms_part_of mca:production-live-auction-2009;
+    a crm:E12_Production;
+    rdfs:label "Live performance of WTF is Ansel Adams".
+_:b0_r17b1 crm:P82a_begin_of_the_begin "2009-03-30T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2009-03-30T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    a crm:E52_Time-Span;
+    rdfs:label "March 30, 2009".
+_:b0_r17b2 crm:P190_has_symbolic_content "The work was performed on the floor of Sotheby's Photographs auction on March 30, 2009.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r17b3 a crm:E33_Linguistic_Object;
+    rdfs:label "Artwork page";
+    la:digitally_carried_by _:b0_r17b4.
+_:b0_r17b4 <http://purl.org/dc/elements/1.1/format> "text/html";
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
+    rdfs:label "Metaconceptual Art — WTF is Ansel Adams";
+    la:access_point <https://www.metaconceptualart.com/artworks#work-wtf-is-ansel-adams>.
+_:b0_r17b5 crm:P190_has_symbolic_content "WTF is Ansel Adams";
+    crm:P2_has_type aat:300404670;
+    crm:P72_has_language aat:300388277;
+    a crm:E33_E41_Linguistic_Appellation.
+_:b0_r17b6 crm:P190_has_symbolic_content "work:wtf-is-ansel-adams";
+    crm:P2_has_type aat:300312355;
+    a crm:E42_Identifier.
+_:b0_r17b7 crm:P190_has_symbolic_content "A Metaconceptual Art performance work enacted live during Sotheby's Photographs auction on March 30, 2009. Made as a companion to the born-digital work www.wtfisart.com, it turns the auction itself — its lots, its authority, and the name of Ansel Adams as a canonical photographer — into the material of the work.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r17b8 crm:P190_has_symbolic_content "Sun & Rain Works reports that photographs, metadata, emails, auction catalogue material, receipts, and related records document the live performance. The public Linked Art record names the work and the event while the fuller evidence archive remains held by the studio pending redaction and rights review.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r18b0 a crm:E33_Linguistic_Object;
+    rdfs:label "Artwork page";
+    la:digitally_carried_by _:b0_r18b1.
+_:b0_r18b1 <http://purl.org/dc/elements/1.1/format> "text/html";
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
+    rdfs:label "Metaconceptual Art - www.wtfisart.com";
+    la:access_point <https://www.metaconceptualart.com/artworks/wtfisart>.
+_:b0_r18b10 crm:P190_has_symbolic_content "Creation occurred on the web in real time at Sotheby's Photographs auction on March 30, 2009.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r18b2 crm:P190_has_symbolic_content "www.wtfisart.com";
+    crm:P2_has_type aat:300404670;
+    crm:P72_has_language aat:300388277;
+    a crm:E33_E41_Linguistic_Appellation.
+_:b0_r18b3 crm:P190_has_symbolic_content "work:wtfisart";
+    crm:P2_has_type aat:300312355;
+    a crm:E42_Identifier.
+_:b0_r18b4 crm:P190_has_symbolic_content "https://www.wtfisart.com/";
+    crm:P2_has_type aat:300404626;
+    a crm:E42_Identifier.
+_:b0_r18b5 crm:P190_has_symbolic_content "A born-digital Metaconceptual Art work created live on the web in real time at Sotheby's Photographs auction on March 30, 2009.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r18b6 crm:P190_has_symbolic_content "www.wtfisart.com forms an artifact-part of the primary work The Auction as Artwork (March 30, 2009), in which the act of Sotheby's Photographs auction is itself designated as the artwork.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r18b7 crm:P190_has_symbolic_content "Sun & Rain Works reports that photographs, metadata, emails, auction catalogue material, receipts, and related records document the live creation event. The public Linked Art record names the work and event while the fuller evidence archive remains held by the studio pending redaction and rights review.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r18b8 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P4_has_time-span _:b0_r18b9;
+    crm:P67i_is_referred_to_by _:b0_r18b10;
+    crm:P9i_forms_part_of mca:production-live-auction-2009;
+    a crm:E65_Creation;
+    rdfs:label "Live creation of www.wtfisart.com".
+_:b0_r18b9 crm:P82a_begin_of_the_begin "2009-03-30T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2009-03-30T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    a crm:E52_Time-Span;
+    rdfs:label "March 30, 2009".
+_:b0_r1b0 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P15_was_influenced_by mca:sothebys-photographs-auction-2009;
+    crm:P4_has_time-span _:b0_r1b1;
+    crm:P67i_is_referred_to_by _:b0_r1b2;
+    a crm:E12_Production;
+    rdfs:label "Designation of the auction as artwork".
+_:b0_r1b1 crm:P82a_begin_of_the_begin "2009-03-30T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2009-03-30T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    a crm:E52_Time-Span;
+    rdfs:label "March 30, 2009".
+_:b0_r1b2 crm:P190_has_symbolic_content "The artistic act is the designation, by Sun & Rain Works, of the Sotheby's Photographs auction as a work — not the auction's ordinary business, which was carried out by Sotheby's.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r1b3 a crm:E33_Linguistic_Object;
+    rdfs:label "Artwork page";
+    la:digitally_carried_by _:b0_r1b4.
+_:b0_r1b4 <http://purl.org/dc/elements/1.1/format> "text/html";
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
+    rdfs:label "Metaconceptual Art — The Auction as Artwork";
+    la:access_point <https://www.metaconceptualart.com/artworks#work-auction-as-artwork>.
+_:b0_r1b5 crm:P190_has_symbolic_content "The Auction as Artwork";
+    crm:P2_has_type aat:300404670;
+    crm:P72_has_language aat:300388277;
+    a crm:E33_E41_Linguistic_Appellation.
+_:b0_r1b6 crm:P190_has_symbolic_content "work:auction-as-artwork";
+    crm:P2_has_type aat:300312355;
+    a crm:E42_Identifier.
+_:b0_r1b7 crm:P190_has_symbolic_content "The primary Metaconceptual Art work of March 30, 2009: the act of the Sotheby's Photographs auction itself, designated as the artwork. Following the logic of the readymade, Sun & Rain Works appropriates a public institutional event — the auction carried out by Sotheby's — and frames its mechanism of value, authority, and sale as the material of the work. Two artifacts are parts of this single gesture: the born-digital website www.wtfisart.com and the auction performance work WTF is Ansel Adams.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r1b8 crm:P190_has_symbolic_content "Sun & Rain Works reports that photographs, metadata, emails, auction catalogue material, receipts, and related records document the work. The public Linked Art record names the work, the appropriated auction, and its parts; the fuller evidence archive remains held by the studio pending redaction and rights review.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r2b0 crm:P190_has_symbolic_content "Metaconceptual Art — Collection";
+    crm:P2_has_type aat:300404670;
+    crm:P72_has_language aat:300388277;
+    a crm:E33_E41_Linguistic_Appellation.
+_:b0_r2b1 crm:P190_has_symbolic_content "set:collection";
+    crm:P2_has_type aat:300312355;
+    a crm:E42_Identifier.
+_:b0_r2b2 crm:P190_has_symbolic_content "The museum is not a building; it is a set of relations. This Set gathers the works on view and the citable Movement Record as members so the collection can be read and queried as linked data. Membership is declared on each object via member_of.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r2b3 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P4_has_time-span _:b0_r2b4;
+    a crm:E65_Creation;
+    rdfs:label "Assembly of the Metaconceptual Art collection".
+_:b0_r2b4 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    a crm:E52_Time-Span;
+    rdfs:label "2026".
+_:b0_r3b0 crm:P190_has_symbolic_content "Metaconceptual Art";
+    crm:P2_has_type aat:300404670;
+    crm:P72_has_language aat:300388277;
+    a crm:E33_E41_Linguistic_Appellation.
+_:b0_r3b1 crm:P190_has_symbolic_content "concept:metaconceptual-art";
+    crm:P2_has_type aat:300312355;
+    a crm:E42_Identifier.
+_:b0_r3b2 crm:P190_has_symbolic_content "Art that treats art, its institutions, markets, archives, and viewers as the material of the work. A self-defined movement concept created by Sun & Rain Works in 2007, extending conceptual art into the system that makes art legible. Its public Record argues credibility through genealogy, defined principles, works on view, machine-readable standards, external alignment, and provenance over time.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r3b3 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P15_was_influenced_by aat:300047869, aat:300055863, aat:300264827, aat:300391330, aat:300419940, wd:Q18692990, wd:Q6041145;
+    crm:P4_has_time-span _:b0_r3b4;
+    a crm:E65_Creation;
+    rdfs:label "Definition of Metaconceptual Art as a movement concept".
+_:b0_r3b4 crm:P82a_begin_of_the_begin "2007-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2007-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    a crm:E52_Time-Span;
+    rdfs:label "2007".
+_:b0_r4b0 a crm:E33_Linguistic_Object;
+    rdfs:label "Artwork page";
+    la:digitally_carried_by _:b0_r4b1.
+_:b0_r4b1 <http://purl.org/dc/elements/1.1/format> "text/html";
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
+    rdfs:label "Metaconceptual Art — Artworks";
+    la:access_point <https://www.metaconceptualart.com/artworks#work-construction-museum>.
+_:b0_r4b2 crm:P190_has_symbolic_content "Construction of the Museum as Concept";
+    crm:P2_has_type aat:300404670;
+    crm:P72_has_language aat:300388277;
+    a crm:E33_E41_Linguistic_Appellation.
+_:b0_r4b3 crm:P190_has_symbolic_content "work:construction-museum";
+    crm:P2_has_type aat:300312355;
+    a crm:E42_Identifier.
+_:b0_r4b4 crm:P190_has_symbolic_content "An image study in which the museum appears inside the artwork as something still being built. Institutional authority is shown as architecture, ornament, labor, scaffolding, and frame.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r4b5 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P4_has_time-span _:b0_r4b6;
+    a crm:E65_Creation;
+    rdfs:label "Creation of Construction of the Museum as Concept".
+_:b0_r4b6 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    a crm:E52_Time-Span;
+    rdfs:label "2026".
+_:b0_r5b0 crm:P2_has_type <https://creativecommons.org/licenses/by/4.0/>;
+    crm:P75i_is_possessed_by mca:sun-and-rain-works;
+    a crm:E30_Right;
+    rdfs:label "CC BY 4.0".
+_:b0_r5b1 a crm:E33_Linguistic_Object;
+    rdfs:label "Artwork page";
+    la:digitally_carried_by _:b0_r5b2.
+_:b0_r5b2 <http://purl.org/dc/elements/1.1/format> "text/html";
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
+    rdfs:label "Metaconceptual Art — Artworks";
+    la:access_point <https://www.metaconceptualart.com/artworks#work-eight-sentences>.
+_:b0_r5b3 crm:P190_has_symbolic_content "Eight Sentences On Metaconceptual Art";
+    crm:P2_has_type aat:300404670;
+    crm:P72_has_language aat:300388277;
+    a crm:E33_E41_Linguistic_Appellation.
+_:b0_r5b4 crm:P190_has_symbolic_content "work:eight-sentences";
+    crm:P2_has_type aat:300312355;
+    a crm:E42_Identifier.
+_:b0_r5b5 crm:P190_has_symbolic_content "A canonical eight-sentence proposition set framing Metaconceptual Art as a field of form, institution, market, history, medium, access, and life. Written after Sol LeWitt's Sentences on Conceptual Art.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r5b6 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P15_was_influenced_by ulan:500115429;
+    crm:P4_has_time-span _:b0_r5b7;
+    a crm:E65_Creation;
+    rdfs:label "Writing of the Eight Sentences".
+_:b0_r5b7 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    a crm:E52_Time-Span;
+    rdfs:label "2026".
+_:b0_r6b0 a crm:E33_Linguistic_Object;
+    rdfs:label "Artwork page";
+    la:digitally_carried_by _:b0_r6b1.
+_:b0_r6b1 <http://purl.org/dc/elements/1.1/format> "text/html";
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
+    rdfs:label "Metaconceptual Art — Eightfold Sprocket";
+    la:access_point <https://www.metaconceptualart.com/artworks/eightfold-sprocket>.
+_:b0_r6b2 crm:P190_has_symbolic_content "Eightfold Sprocket";
+    crm:P2_has_type aat:300404670;
+    crm:P72_has_language aat:300388277;
+    a crm:E33_E41_Linguistic_Appellation.
+_:b0_r6b3 crm:P190_has_symbolic_content "work:eightfold-sprocket";
+    crm:P2_has_type aat:300312355;
+    a crm:E42_Identifier.
+_:b0_r6b4 crm:P190_has_symbolic_content "An emblem for the eight-sentence proposition set: a small mechanical sign for repetition, rotation, and system.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r6b5 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P4_has_time-span _:b0_r6b6;
+    a crm:E65_Creation;
+    rdfs:label "Creation of Eightfold Sprocket".
+_:b0_r6b6 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    a crm:E52_Time-Span;
+    rdfs:label "2026".
+_:b0_r7b0 crm:P2_has_type <https://creativecommons.org/licenses/by/4.0/>;
+    crm:P75i_is_possessed_by mca:sun-and-rain-works;
+    a crm:E30_Right;
+    rdfs:label "CC BY 4.0".
+_:b0_r7b1 crm:P190_has_symbolic_content "Evidence archive: live auction creation, March 30, 2009";
+    crm:P2_has_type aat:300404670;
+    crm:P72_has_language aat:300388277;
+    a crm:E33_E41_Linguistic_Appellation.
+_:b0_r7b2 crm:P190_has_symbolic_content "record:evidence-live-auction-2009";
+    crm:P2_has_type aat:300312355;
+    a crm:E42_Identifier.
+_:b0_r7b3 crm:P190_has_symbolic_content "Evidence status: private-evidence-held-by-studio. Public evidence status: metadata-only. Selected items can be promoted to public evidence as redaction and rights review are completed.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r7b4 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P4_has_time-span _:b0_r7b5;
+    a crm:E65_Creation;
+    rdfs:label "Compilation of the live auction evidence record".
+_:b0_r7b5 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    a crm:E52_Time-Span;
+    rdfs:label "2026".
+_:b0_r8b0 a crm:E33_Linguistic_Object;
+    rdfs:label "Artwork page";
+    la:digitally_carried_by _:b0_r8b1.
+_:b0_r8b1 <http://purl.org/dc/elements/1.1/format> "text/html";
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
+    rdfs:label "Metaconceptual Art — Movement Graph";
+    la:access_point <https://www.metaconceptualart.com/artworks/movement-graph>.
+_:b0_r8b2 crm:P190_has_symbolic_content "Movement Graph";
+    crm:P2_has_type aat:300404670;
+    crm:P72_has_language aat:300388277;
+    a crm:E33_E41_Linguistic_Appellation.
+_:b0_r8b3 crm:P190_has_symbolic_content "work:movement-graph";
+    crm:P2_has_type aat:300312355;
+    a crm:E42_Identifier.
+_:b0_r8b4 crm:P190_has_symbolic_content "The knowledge graph treated as an artwork: relations, authorities, claims, and viewers arranged as a walkable system.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r8b5 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P4_has_time-span _:b0_r8b6;
+    a crm:E65_Creation;
+    rdfs:label "Creation of Movement Graph".
+_:b0_r8b6 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    a crm:E52_Time-Span;
+    rdfs:label "2026".
+_:b0_r9b0 crm:P2_has_type <https://creativecommons.org/licenses/by/4.0/>;
+    crm:P75i_is_possessed_by mca:sun-and-rain-works;
+    a crm:E30_Right;
+    rdfs:label "CC BY 4.0".
+_:b0_r9b1 a crm:E33_Linguistic_Object;
+    rdfs:label "Movement Record page";
+    la:digitally_carried_by _:b0_r9b2.
+_:b0_r9b2 <http://purl.org/dc/elements/1.1/format> "text/html";
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
+    rdfs:label "Metaconceptual Art — Movement Record";
+    la:access_point <https://www.metaconceptualart.com/movement>.
+_:b0_r9b3 crm:P190_has_symbolic_content "Proof of Movement: Metaconceptual Art";
+    crm:P2_has_type aat:300404670;
+    crm:P72_has_language aat:300388277;
+    a crm:E33_E41_Linguistic_Appellation.
+_:b0_r9b4 crm:P190_has_symbolic_content "work:movement-record";
+    crm:P2_has_type aat:300312355;
+    a crm:E42_Identifier.
+_:b0_r9b5 crm:P190_has_symbolic_content "The Movement Record turns the claim for Metaconceptual Art into a citable textual work and a machine-readable evidence surface. It distinguishes local validity from external canonization while pointing to Linked Art, Wikidata, Getty vocabularies, IIIF, schema.org, and the git-derived Activity Stream.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r9b6 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P15_was_influenced_by wd:Q18692990, mca:concept-metaconceptual-art;
+    crm:P4_has_time-span _:b0_r9b7;
+    a crm:E65_Creation;
+    rdfs:label "Writing of the Movement Record".
+_:b0_r9b7 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    a crm:E52_Time-Span;
+    rdfs:label "2026".
