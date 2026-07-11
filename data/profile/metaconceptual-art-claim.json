@@ -144,7 +144,7 @@
       "label": "Metaconceptual Art origin provenance",
       "url": "https://www.metaconceptualart.com/data/profile/metaconceptual-art-origin-provenance.json",
       "authority": "local JSON",
-      "role": "origin chronology: 2005 studio, 2007 movement, March 2009 early-work evidence, 2026 linked-data publication"
+      "role": "origin chronology: 2005 studio, 2007 movement, 2009 early-work evidence, 2026 linked-data publication"
     },
     {
       "label": "Changelog",

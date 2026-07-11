@@ -183,13 +183,13 @@ mca:eightfold-sprocket <http://purl.org/dc/elements/1.1/format> "image/jpeg";
     la:member_of mca:collection.
 mca:evidence-live-auction-2009 crm:P104_is_subject_to _:b0_r7b0;
     crm:P129_is_about mca:auction-as-artwork, mca:production-live-auction-2009, mca:sothebys-photographs-auction-2009, mca:wtf-is-ansel-adams, mca:wtfisart;
-    crm:P190_has_symbolic_content "Sun & Rain Works holds a private archive relating to its March 2009 engagement with Sotheby's Photographs (sale N08533) and the associated conceptual works (The Auction as Artwork, WTF is Ansel Adams, and www.wtfisart.com). The archive is reported to contain 2008 correspondence with Sotheby's, records of the consignment of an Ansel Adams photograph (lot 16), domain-registration and hosting receipts for www.wtfisart.com, photographs, and file metadata. These materials evidence the artist identity, the 2008-2009 engagement with Sotheby's, the consignment, and the website's existence and date. They do not, by themselves, record a publicly witnessed live-creation event, and they establish no precedence over any later event. The fuller archive remains held by the studio pending redaction and rights review; no checksums, file hashes, or custody identifiers are published at this time, and will be added only when the underlying items are released.";
+    crm:P190_has_symbolic_content "Sun & Rain Works holds a private archive relating to its 2009 engagement with Sotheby's Photographs (sale N08533) and the associated conceptual works (The Auction as Artwork, WTF is Ansel Adams, and www.wtfisart.com). The archive is reported to contain 2008 correspondence with Sotheby's (outbound and inbound), records of the consignment of an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), domain-registration and hosting receipts for www.wtfisart.com naming Sun & Rain Works, art-referential documentation photographs, and file metadata. These materials evidence the artist identity, the 2008-2009 engagement with Sotheby's, the consignment, contemporaneous conceptual intent, and the public continuity of the 'WTF is Art' concept. They do not, by themselves, record a publicly witnessed live-creation event, and they establish no precedence over any later event. The fuller archive remains held by the studio pending redaction and rights review; no checksums, file hashes, or custody identifiers are published at this time.";
     crm:P1_is_identified_by _:b0_r7b1, _:b0_r7b2;
     crm:P2_has_type aat:300026087, aat:300026906;
-    crm:P67i_is_referred_to_by _:b0_r7b3;
-    crm:P94i_was_created_by _:b0_r7b4;
+    crm:P67i_is_referred_to_by _:b0_r7b3, _:b0_r7b4;
+    crm:P94i_was_created_by _:b0_r7b5;
     a crm:E33_Linguistic_Object;
-    rdfs:label "Evidence archive: Sun & Rain Works auction engagement (March 2009)";
+    rdfs:label "Evidence archive: Sun & Rain Works auction engagement (2009)";
     la:member_of mca:collection.
 mca:movement-graph <http://purl.org/dc/elements/1.1/format> "text/html";
     crm:P129i_is_subject_of _:b0_r8b0;
@@ -214,13 +214,13 @@ mca:movement-record crm:P104_is_subject_to _:b0_r9b0;
     la:member_of mca:collection.
 mca:priority-live-auction-2009 crm:P104_is_subject_to _:b0_r10b0;
     crm:P129_is_about mca:auction-as-artwork, mca:production-live-auction-2009, mca:wtf-is-ansel-adams, mca:wtfisart;
-    crm:P190_has_symbolic_content "Sun & Rain Works asserts a conceptual claim: that in March 2009, in connection with the Sotheby's Photographs auction (sale N08533, New York), it designated its auction engagement — the consignment of an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), together with the associated website www.wtfisart.com — as Metaconceptual Art, framed as the work The Auction as Artwork. This is the artist's own designation, made explicit over time. It is not a publicly witnessed live-creation event and has not been adjudicated as a historical fact; the Sotheby's catalogue lists the lot as an Ansel Adams photograph and does not name Sun & Rain Works. This statement makes no claim of being 'first', and does not name, compare against, or dispute any later artist or event; any such comparison would require independent recognition and separately published evidence.";
+    crm:P190_has_symbolic_content "Sun & Rain Works asserts a conceptual claim: that in 2009, in connection with the Sotheby's Photographs auction (sale N08533, New York), it designated its auction engagement — the consignment of an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), together with the associated website www.wtfisart.com — as Metaconceptual Art, framed as the work The Auction as Artwork. This is the artist's own designation, made explicit over time. It is not a publicly witnessed live-creation event and has not been adjudicated as a historical fact; the Sotheby's catalogue lists the lot as an Ansel Adams photograph and does not name Sun & Rain Works. This statement makes no claim of being 'first', and does not name, compare against, or dispute any later artist or event; any such comparison would require independent recognition and separately published evidence.";
     crm:P1_is_identified_by _:b0_r10b1, _:b0_r10b2;
     crm:P2_has_type aat:300026087, aat:300435443;
     crm:P67i_is_referred_to_by _:b0_r10b3;
     crm:P94i_was_created_by _:b0_r10b4;
     a crm:E33_Linguistic_Object;
-    rdfs:label "Sun & Rain Works' conceptual claim to art at auction (March 2009)".
+    rdfs:label "Sun & Rain Works' conceptual claim to art at auction (2009)".
 mca:production-live-auction-2009 crm:P14_carried_out_by mca:sun-and-rain-works;
     crm:P16_used_specific_object mca:wtf-is-ansel-adams, mca:wtfisart;
     crm:P1_is_identified_by _:b0_r11b0, _:b0_r11b1;
@@ -229,7 +229,7 @@ mca:production-live-auction-2009 crm:P14_carried_out_by mca:sun-and-rain-works;
     crm:P67i_is_referred_to_by _:b0_r11b3;
     crm:P9i_forms_part_of mca:sothebys-photographs-auction-2009;
     a crm:E7_Activity;
-    rdfs:label "Sun & Rain Works' auction engagement (Sotheby's Photographs, March 2009)".
+    rdfs:label "Sun & Rain Works' auction engagement (Sotheby's Photographs, 2009)".
 mca:provenance-publication crm:P14_carried_out_by mca:sun-and-rain-works;
     crm:P2_has_type aat:300055863;
     crm:P4_has_time-span _:b0_r12b0;
@@ -254,7 +254,7 @@ mca:sothebys-photographs-auction-2009 crm:P14_carried_out_by mca:sothebys;
     crm:P67i_is_referred_to_by _:b0_r14b3;
     crm:P7_took_place_at _:b0_r14b4;
     a crm:E7_Activity;
-    rdfs:label "Sotheby's Photographs auction (sale N08533, March 2009)".
+    rdfs:label "Sotheby's Photographs auction (sale N08533, 2009)".
 mca:sothebys crm:P1_is_identified_by _:b0_r15b0, _:b0_r15b1, _:b0_r15b2;
     crm:P2_has_type aat:300025948;
     crm:P67i_is_referred_to_by _:b0_r15b3;
@@ -324,7 +324,7 @@ _:b0_r10b0 crm:P2_has_type <https://creativecommons.org/licenses/by/4.0/>;
     crm:P75i_is_possessed_by mca:sun-and-rain-works;
     a crm:E30_Right;
     rdfs:label "CC BY 4.0".
-_:b0_r10b1 crm:P190_has_symbolic_content "Sun & Rain Works' conceptual claim to art at auction (March 2009)";
+_:b0_r10b1 crm:P190_has_symbolic_content "Sun & Rain Works' conceptual claim to art at auction (2009)";
     crm:P2_has_type aat:300404670;
     crm:P72_has_language aat:300388277;
     a crm:E33_E41_Linguistic_Appellation.
@@ -342,18 +342,18 @@ _:b0_r10b5 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.or
     crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     a crm:E52_Time-Span;
     rdfs:label "2026".
-_:b0_r11b0 crm:P190_has_symbolic_content "Sun & Rain Works' auction engagement (Sotheby's Photographs, March 2009)";
+_:b0_r11b0 crm:P190_has_symbolic_content "Sun & Rain Works' auction engagement (Sotheby's Photographs, 2009)";
     crm:P2_has_type aat:300404670;
     crm:P72_has_language aat:300388277;
     a crm:E33_E41_Linguistic_Appellation.
 _:b0_r11b1 crm:P190_has_symbolic_content "activity:production-live-auction-2009";
     crm:P2_has_type aat:300312355;
     a crm:E42_Identifier.
-_:b0_r11b2 crm:P82a_begin_of_the_begin "2009-03-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-    crm:P82b_end_of_the_end "2009-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+_:b0_r11b2 crm:P82a_begin_of_the_begin "2009-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2009-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     a crm:E52_Time-Span;
-    rdfs:label "March 2009".
-_:b0_r11b3 crm:P190_has_symbolic_content "Sun & Rain Works' engagement with Sotheby's Photographs, March 2009 (sale N08533): the consignment of an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), and the artist's designation of that engagement — together with the associated website www.wtfisart.com — as conceptual works. Sun & Rain Works frames the primary work as The Auction as Artwork, with two associated works, WTF is Ansel Adams and www.wtfisart.com. These designations are assertions by the artist, made explicit over time; they are not publicly witnessed live-creation events, and the Sotheby's catalogue does not name Sun & Rain Works.";
+    rdfs:label "2009".
+_:b0_r11b3 crm:P190_has_symbolic_content "Sun & Rain Works' engagement with Sotheby's Photographs, 2009 (sale N08533): the consignment of an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), and the artist's designation of that engagement — together with the associated website www.wtfisart.com — as conceptual works. Sun & Rain Works frames the primary work as The Auction as Artwork, with two associated works, WTF is Ansel Adams and www.wtfisart.com. These designations are assertions by the artist, made explicit over time; they are not publicly witnessed live-creation events, and the Sotheby's catalogue does not name Sun & Rain Works.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
 _:b0_r12b0 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -392,18 +392,18 @@ _:b0_r13b4 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.or
     crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     a crm:E52_Time-Span;
     rdfs:label "2026".
-_:b0_r14b0 crm:P190_has_symbolic_content "Sotheby's Photographs auction (sale N08533, March 2009)";
+_:b0_r14b0 crm:P190_has_symbolic_content "Sotheby's Photographs auction (sale N08533, 2009)";
     crm:P2_has_type aat:300404670;
     crm:P72_has_language aat:300388277;
     a crm:E33_E41_Linguistic_Appellation.
 _:b0_r14b1 crm:P190_has_symbolic_content "activity:sothebys-photographs-auction-2009";
     crm:P2_has_type aat:300312355;
     a crm:E42_Identifier.
-_:b0_r14b2 crm:P82a_begin_of_the_begin "2009-03-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-    crm:P82b_end_of_the_end "2009-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+_:b0_r14b2 crm:P82a_begin_of_the_begin "2009-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2009-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     a crm:E52_Time-Span;
-    rdfs:label "March 2009".
-_:b0_r14b3 crm:P190_has_symbolic_content "The public Sotheby's Photographs auction (sale N08533), New York, March 2009, carried out by Sotheby's, at which Sun & Rain Works consigned an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16). Sun & Rain Works designates its engagement with this auction as the material of the conceptual work The Auction as Artwork. This record names the real-world event and cites the public catalogue; it does not assert that Sotheby's authored, endorsed, or participated in the artwork, and the catalogue does not name Sun & Rain Works.";
+    rdfs:label "2009".
+_:b0_r14b3 crm:P190_has_symbolic_content "The public Sotheby's Photographs auction (sale N08533), New York, 2009, carried out by Sotheby's, at which Sun & Rain Works consigned an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16). Sun & Rain Works designates its engagement with this auction as the material of the conceptual work The Auction as Artwork. This record names the real-world event and cites the public catalogue; it does not assert that Sotheby's authored, endorsed, or participated in the artwork, and the catalogue does not name Sun & Rain Works.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
 _:b0_r14b4 a crm:E53_Place;
@@ -418,7 +418,7 @@ _:b0_r15b1 crm:P190_has_symbolic_content "agent:sothebys";
 _:b0_r15b2 crm:P190_has_symbolic_content "https://www.sothebys.com/";
     crm:P2_has_type aat:300404626;
     a crm:E42_Identifier.
-_:b0_r15b3 crm:P190_has_symbolic_content "International auction house founded in 1744. Named here only as the institution that carried out the Sotheby's Photographs auction (sale N08533), New York, March 2009 — the public event that Sun & Rain Works designates as the material of the conceptual work The Auction as Artwork. Recording Sotheby's as the auction's host asserts no partnership, endorsement, or claim against Sotheby's.";
+_:b0_r15b3 crm:P190_has_symbolic_content "International auction house founded in 1744. Named here only as the institution that carried out the Sotheby's Photographs auction (sale N08533), New York, 2009 — the public event that Sun & Rain Works designates as the material of the conceptual work The Auction as Artwork. Recording Sotheby's as the auction's host asserts no partnership, endorsement, or claim against Sotheby's.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
 _:b0_r16b0 crm:P190_has_symbolic_content "Sun & Rain Works";
@@ -444,11 +444,11 @@ _:b0_r17b0 crm:P14_carried_out_by mca:sun-and-rain-works;
     crm:P9i_forms_part_of mca:production-live-auction-2009;
     a crm:E12_Production;
     rdfs:label "Designation of WTF is Ansel Adams".
-_:b0_r17b1 crm:P82a_begin_of_the_begin "2009-03-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-    crm:P82b_end_of_the_end "2009-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+_:b0_r17b1 crm:P82a_begin_of_the_begin "2009-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2009-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     a crm:E52_Time-Span;
-    rdfs:label "March 2009".
-_:b0_r17b2 crm:P190_has_symbolic_content "The work is Sun & Rain Works' conceptual designation connected to the consignment of lot 16 at Sotheby's Photographs, March 2009; it is an assertion by the artist and is not recorded as a publicly witnessed performance.";
+    rdfs:label "2009".
+_:b0_r17b2 crm:P190_has_symbolic_content "The work is Sun & Rain Works' conceptual designation connected to the consignment of lot 16 at Sotheby's Photographs, 2009; it is an assertion by the artist and is not recorded as a publicly witnessed performance.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
 _:b0_r17b3 a crm:E33_Linguistic_Object;
@@ -465,7 +465,7 @@ _:b0_r17b5 crm:P190_has_symbolic_content "WTF is Ansel Adams";
 _:b0_r17b6 crm:P190_has_symbolic_content "work:wtf-is-ansel-adams";
     crm:P2_has_type aat:300312355;
     a crm:E42_Identifier.
-_:b0_r17b7 crm:P190_has_symbolic_content "A Metaconceptual Art work that Sun & Rain Works designates around its consignment of the Ansel Adams photograph 'San Francisco from Twin Peaks' (lot 16) to Sotheby's Photographs, March 2009 (sale N08533, New York). Titled as a play on the auction and the canonical name of Ansel Adams, it treats the act of bringing the photograph to auction — its lot, its authority, its attribution — as the material of a conceptual work, alongside the born-digital work www.wtfisart.com. The work is a designation asserted by the artist and made explicit over time; it is not recorded as a publicly witnessed performance, and the Sotheby's catalogue lists the lot as an Ansel Adams photograph without naming Sun & Rain Works.";
+_:b0_r17b7 crm:P190_has_symbolic_content "A Metaconceptual Art work that Sun & Rain Works designates around its consignment of the Ansel Adams photograph 'San Francisco from Twin Peaks' (lot 16) to Sotheby's Photographs, 2009 (sale N08533, New York). Titled as a play on the auction and the canonical name of Ansel Adams, it treats the act of bringing the photograph to auction — its lot, its authority, its attribution — as the material of a conceptual work, alongside the born-digital work www.wtfisart.com. The work is a designation asserted by the artist and made explicit over time; it is not recorded as a publicly witnessed performance, and the Sotheby's catalogue lists the lot as an Ansel Adams photograph without naming Sun & Rain Works.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
 _:b0_r17b8 crm:P190_has_symbolic_content "Documentation reported by Sun & Rain Works includes 2008 correspondence with Sotheby's Photographs, the public catalogue lot, photographs, and related records; these evidence the artist identity and the consignment. The fuller archive remains held by the studio pending redaction and rights review. This record asserts no historical-priority or precedence claim absent separately published evidence.";
@@ -478,7 +478,7 @@ _:b0_r18b1 <http://purl.org/dc/elements/1.1/format> "text/html";
     a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
     rdfs:label "Metaconceptual Art - www.wtfisart.com";
     la:access_point <https://www.metaconceptualart.com/artworks/wtfisart>.
-_:b0_r18b10 crm:P190_has_symbolic_content "The website was built by Sun & Rain Works around March 2009 in connection with its Sotheby's Photographs auction engagement; it is not recorded as having been authored live in the auction room.";
+_:b0_r18b10 crm:P190_has_symbolic_content "The website was built by Sun & Rain Works around 2009 in connection with its Sotheby's Photographs auction engagement; it is not recorded as having been authored live in the auction room.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
 _:b0_r18b2 crm:P190_has_symbolic_content "www.wtfisart.com";
@@ -491,10 +491,10 @@ _:b0_r18b3 crm:P190_has_symbolic_content "work:wtfisart";
 _:b0_r18b4 crm:P190_has_symbolic_content "https://www.wtfisart.com/";
     crm:P2_has_type aat:300404626;
     a crm:E42_Identifier.
-_:b0_r18b5 crm:P190_has_symbolic_content "A born-digital Metaconceptual Art work: a website built and owned by Sun & Rain Works around March 2009, in connection with its Sotheby's Photographs auction engagement (sale N08533). Sun & Rain Works designates it as an associated part of the conceptual work The Auction as Artwork.";
+_:b0_r18b5 crm:P190_has_symbolic_content "A born-digital Metaconceptual Art work: a website built and owned by Sun & Rain Works around 2009, in connection with its Sotheby's Photographs auction engagement (sale N08533). Sun & Rain Works designates it as an associated part of the conceptual work The Auction as Artwork.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r18b6 crm:P190_has_symbolic_content "www.wtfisart.com is associated by Sun & Rain Works with the conceptual work The Auction as Artwork, in which Sun & Rain Works designates its March 2009 Sotheby's Photographs auction engagement as art. The designation is an assertion by the artist.";
+_:b0_r18b6 crm:P190_has_symbolic_content "www.wtfisart.com is associated by Sun & Rain Works with the conceptual work The Auction as Artwork, in which Sun & Rain Works designates its 2009 Sotheby's Photographs auction engagement as art. The designation is an assertion by the artist.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
 _:b0_r18b7 crm:P190_has_symbolic_content "Sun & Rain Works reports domain-registration and hosting receipts, site metadata, and related records documenting the website's existence and date. The fuller archive remains held by the studio pending redaction and rights review.";
@@ -506,20 +506,20 @@ _:b0_r18b8 crm:P14_carried_out_by mca:sun-and-rain-works;
     crm:P9i_forms_part_of mca:production-live-auction-2009;
     a crm:E65_Creation;
     rdfs:label "Creation of www.wtfisart.com".
-_:b0_r18b9 crm:P82a_begin_of_the_begin "2009-03-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-    crm:P82b_end_of_the_end "2009-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+_:b0_r18b9 crm:P82a_begin_of_the_begin "2009-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2009-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     a crm:E52_Time-Span;
-    rdfs:label "March 2009".
+    rdfs:label "2009".
 _:b0_r1b0 crm:P14_carried_out_by mca:sun-and-rain-works;
     crm:P15_was_influenced_by mca:sothebys-photographs-auction-2009;
     crm:P4_has_time-span _:b0_r1b1;
     crm:P67i_is_referred_to_by _:b0_r1b2;
     a crm:E12_Production;
     rdfs:label "Designation of the auction engagement as artwork".
-_:b0_r1b1 crm:P82a_begin_of_the_begin "2009-03-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-    crm:P82b_end_of_the_end "2009-03-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+_:b0_r1b1 crm:P82a_begin_of_the_begin "2009-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2009-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     a crm:E52_Time-Span;
-    rdfs:label "March 2009".
+    rdfs:label "2009".
 _:b0_r1b2 crm:P190_has_symbolic_content "The artistic act is the designation, by Sun & Rain Works, of its auction engagement as a work — not the auction's ordinary business, which was carried out by Sotheby's. The designation is an assertion by the artist.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
@@ -537,7 +537,7 @@ _:b0_r1b5 crm:P190_has_symbolic_content "The Auction as Artwork";
 _:b0_r1b6 crm:P190_has_symbolic_content "work:auction-as-artwork";
     crm:P2_has_type aat:300312355;
     a crm:E42_Identifier.
-_:b0_r1b7 crm:P190_has_symbolic_content "A Metaconceptual Art work that Sun & Rain Works designates in connection with the Sotheby's Photographs auction of March 2009 (sale N08533, New York), at which Sun & Rain Works consigned an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16). Following the logic of the readymade, Sun & Rain Works frames its engagement with that public institutional event — its mechanism of value, authority, and sale — as the material of a conceptual work. This is a designation asserted by the artist and made explicit over time; it is not a publicly witnessed live-creation event, and the Sotheby's catalogue does not name Sun & Rain Works. Two associated works accompany the gesture: the website www.wtfisart.com and WTF is Ansel Adams.";
+_:b0_r1b7 crm:P190_has_symbolic_content "A Metaconceptual Art work that Sun & Rain Works designates in connection with the Sotheby's Photographs auction of 2009 (sale N08533, New York), at which Sun & Rain Works consigned an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16). Following the logic of the readymade, Sun & Rain Works frames its engagement with that public institutional event — its mechanism of value, authority, and sale — as the material of a conceptual work. This is a designation asserted by the artist and made explicit over time; it is not a publicly witnessed live-creation event, and the Sotheby's catalogue does not name Sun & Rain Works. Two associated works accompany the gesture: the website www.wtfisart.com and WTF is Ansel Adams.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
 _:b0_r1b8 crm:P190_has_symbolic_content "Documentation reported by Sun & Rain Works includes 2008 correspondence with Sotheby's Photographs, the public catalogue lot, photographs, receipts, and related records; these evidence the artist identity and the consignment. The fuller archive remains held by the studio pending redaction and rights review. This record makes no adjudicated historical-priority claim and asserts no comparison with, or precedence over, any later artist or event absent separately published evidence.";
@@ -664,21 +664,24 @@ _:b0_r7b0 crm:P2_has_type <https://creativecommons.org/licenses/by/4.0/>;
     crm:P75i_is_possessed_by mca:sun-and-rain-works;
     a crm:E30_Right;
     rdfs:label "CC BY 4.0".
-_:b0_r7b1 crm:P190_has_symbolic_content "Evidence archive: Sun & Rain Works auction engagement (March 2009)";
+_:b0_r7b1 crm:P190_has_symbolic_content "Evidence archive: Sun & Rain Works auction engagement (2009)";
     crm:P2_has_type aat:300404670;
     crm:P72_has_language aat:300388277;
     a crm:E33_E41_Linguistic_Appellation.
 _:b0_r7b2 crm:P190_has_symbolic_content "record:evidence-live-auction-2009";
     crm:P2_has_type aat:300312355;
     a crm:E42_Identifier.
-_:b0_r7b3 crm:P190_has_symbolic_content "Evidence status: private-evidence-held-by-studio. Public evidence status: metadata-only. Independently verifiable so far: the public Sotheby's catalogue lot (sale N08533, lot 16). Selected items can be promoted to public evidence as redaction and rights review are completed.";
+_:b0_r7b3 crm:P190_has_symbolic_content "Evidence status: mixed. Independently verifiable: (1) the public Sotheby's catalogue lot (sale N08533, lot 16) at https://www.sothebys.com/en/auctions/ecatalogue/2009/photographs-n08533/lot.16.html ; (2) a Sun and Rain Works public post carrying the 'WTF is Art' theme, dated 2013-08-29 (X post 373257603108704256), whose date is confirmed independently by the platform's timestamp-encoded ID. Held privately by the studio: the 2008-2009 correspondence, receipts, and photographs. Selected private items can be promoted to public evidence as redaction and rights review are completed.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r7b4 crm:P14_carried_out_by mca:sun-and-rain-works;
-    crm:P4_has_time-span _:b0_r7b5;
+_:b0_r7b4 crm:P190_has_symbolic_content "The consignment engagement is corroborated by inbound 2008 correspondence from Sotheby's Photographs (confirming intake logistics and naming the department administrator) and by a shared Hana, HI mailing address linking the consignor to the Sun & Rain Works domain receipts. Contemporaneous conceptual intent is evidenced by art-referential documentation (an Andy Warhol volume juxtaposed with the photograph in images sent to Sotheby's). Each item is scoped to what it shows: these evidence identity, consignment, intent, and the concept's public continuity — not a witnessed live-creation event, and not precedence over any later artist or event.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r7b5 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P4_has_time-span _:b0_r7b6;
     a crm:E65_Creation;
     rdfs:label "Compilation of the auction-engagement evidence record".
-_:b0_r7b5 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+_:b0_r7b6 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     a crm:E52_Time-Span;
     rdfs:label "2026".

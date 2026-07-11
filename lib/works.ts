@@ -62,15 +62,15 @@ export const WORKS: Work[] = [
     kind: "born-digital conceptual work",
     idLine: "work:wtfisart / 2009 / born-digital conceptual work",
     summary:
-      "A born-digital Metaconceptual Art work: a website built and owned by Sun & Rain Works around March 2009, in connection with its Sotheby's Photographs auction engagement (sale N08533), and designated by the artist as part of the conceptual work The Auction as Artwork.",
+      "A born-digital Metaconceptual Art work: a website built and owned by Sun & Rain Works around 2009, in connection with its Sotheby's Photographs auction engagement (sale N08533), and designated by the artist as part of the conceptual work The Auction as Artwork.",
     body: [
-      "www.wtfisart.com is a website Sun & Rain Works built and owns, made around March 2009 in connection with its engagement with Sotheby's Photographs (sale N08533), where the studio consigned an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16). Sun & Rain Works designates the website as an associated part of the conceptual work The Auction as Artwork.",
+      "www.wtfisart.com is a website Sun & Rain Works built and owns, made around 2009 in connection with its engagement with Sotheby's Photographs (sale N08533), where the studio consigned an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16). Sun & Rain Works designates the website as an associated part of the conceptual work The Auction as Artwork.",
       "The record separates the website, the artist's conceptual designation, the public auction, and the evidence archive. Reported documentation — domain and hosting receipts, 2008 Sotheby's correspondence, the public catalogue lot, photographs, and metadata — is held by Sun & Rain Works; selected public evidence can be added as redaction and rights review are completed.",
       "The publication here is intentionally careful and qualified: it presents the artist's designation and cites the public sources, makes no adjudicated historical-priority claim, and notes that the Sotheby's catalogue does not name Sun & Rain Works.",
     ],
     textMedia: "www",
     metadata: [
-      { label: "Event", value: "Sotheby's Photographs auction (sale N08533), March 2009" },
+      { label: "Event", value: "Sotheby's Photographs auction (sale N08533), 2009" },
       { label: "Concept", value: "Conceptual designation of an auction engagement" },
       { label: "Evidence", value: "Studio archive; public lot N08533 independently verifiable" },
     ],

@@ -2,11 +2,11 @@
   "@context": "https://linked.art/ns/v1/linked-art.json",
   "id": "https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009",
   "type": "LinguisticObject",
-  "_label": "Evidence archive: Sun & Rain Works auction engagement (March 2009)",
+  "_label": "Evidence archive: Sun & Rain Works auction engagement (2009)",
   "identified_by": [
     {
       "type": "Name",
-      "content": "Evidence archive: Sun & Rain Works auction engagement (March 2009)",
+      "content": "Evidence archive: Sun & Rain Works auction engagement (2009)",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300404670",
@@ -46,11 +46,22 @@
       "_label": "documents"
     }
   ],
-  "content": "Sun & Rain Works holds a private archive relating to its March 2009 engagement with Sotheby's Photographs (sale N08533) and the associated conceptual works (The Auction as Artwork, WTF is Ansel Adams, and www.wtfisart.com). The archive is reported to contain 2008 correspondence with Sotheby's, records of the consignment of an Ansel Adams photograph (lot 16), domain-registration and hosting receipts for www.wtfisart.com, photographs, and file metadata. These materials evidence the artist identity, the 2008-2009 engagement with Sotheby's, the consignment, and the website's existence and date. They do not, by themselves, record a publicly witnessed live-creation event, and they establish no precedence over any later event. The fuller archive remains held by the studio pending redaction and rights review; no checksums, file hashes, or custody identifiers are published at this time, and will be added only when the underlying items are released.",
+  "content": "Sun & Rain Works holds a private archive relating to its 2009 engagement with Sotheby's Photographs (sale N08533) and the associated conceptual works (The Auction as Artwork, WTF is Ansel Adams, and www.wtfisart.com). The archive is reported to contain 2008 correspondence with Sotheby's (outbound and inbound), records of the consignment of an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), domain-registration and hosting receipts for www.wtfisart.com naming Sun & Rain Works, art-referential documentation photographs, and file metadata. These materials evidence the artist identity, the 2008-2009 engagement with Sotheby's, the consignment, contemporaneous conceptual intent, and the public continuity of the 'WTF is Art' concept. They do not, by themselves, record a publicly witnessed live-creation event, and they establish no precedence over any later event. The fuller archive remains held by the studio pending redaction and rights review; no checksums, file hashes, or custody identifiers are published at this time.",
   "referred_to_by": [
     {
       "type": "LinguisticObject",
-      "content": "Evidence status: private-evidence-held-by-studio. Public evidence status: metadata-only. Independently verifiable so far: the public Sotheby's catalogue lot (sale N08533, lot 16). Selected items can be promoted to public evidence as redaction and rights review are completed.",
+      "content": "Evidence status: mixed. Independently verifiable: (1) the public Sotheby's catalogue lot (sale N08533, lot 16) at https://www.sothebys.com/en/auctions/ecatalogue/2009/photographs-n08533/lot.16.html ; (2) a Sun and Rain Works public post carrying the 'WTF is Art' theme, dated 2013-08-29 (X post 373257603108704256), whose date is confirmed independently by the platform's timestamp-encoded ID. Held privately by the studio: the 2008-2009 correspondence, receipts, and photographs. Selected private items can be promoted to public evidence as redaction and rights review are completed.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The consignment engagement is corroborated by inbound 2008 correspondence from Sotheby's Photographs (confirming intake logistics and naming the department administrator) and by a shared Hana, HI mailing address linking the consignor to the Sun & Rain Works domain receipts. Contemporaneous conceptual intent is evidenced by art-referential documentation (an Andy Warhol volume juxtaposed with the photograph in images sent to Sotheby's). Each item is scoped to what it shows: these evidence identity, consignment, intent, and the concept's public continuity — not a witnessed live-creation event, and not precedence over any later artist or event.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -69,12 +80,12 @@
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009",
       "type": "Activity",
-      "_label": "Sotheby's Photographs auction (sale N08533, March 2009)"
+      "_label": "Sotheby's Photographs auction (sale N08533, 2009)"
     },
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009",
       "type": "Activity",
-      "_label": "Sun & Rain Works' auction engagement (Sotheby's Photographs, March 2009)"
+      "_label": "Sun & Rain Works' auction engagement (Sotheby's Photographs, 2009)"
     },
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart",

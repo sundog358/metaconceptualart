@@ -81,7 +81,7 @@ const evidence = [
   {
     title: "Provenance Over Time",
     claim:
-      "Sun & Rain Works predates the public linked-data layer: the art business was established in 2005, Metaconceptual Art was created as a movement in 2007, March 2009 receipts and metadata are treated as early-work evidence, and 2026 is the public machine-readable publication date.",
+      "Sun & Rain Works predates the public linked-data layer: the art business was established in 2005, Metaconceptual Art was created as a movement in 2007, 2009 receipts and metadata are treated as early-work evidence, and 2026 is the public machine-readable publication date.",
     proof: "The provenance layer separates origin, evidence, and publication so the movement is not framed as a 2026 hindsight construction.",
     links: [
       ["Origin provenance", "/data/profile/metaconceptual-art-origin-provenance.json"],
@@ -182,7 +182,7 @@ export default function MovementPage() {
             <p>
               It also separates origin from publication: Sun &amp; Rain Works was
               established in 2005, Metaconceptual Art was created as a movement
-              in 2007, early work evidence is recorded from March 2009, and the
+              in 2007, early work evidence is recorded from 2009, and the
               2026 web layer makes selected records public and machine-readable.
             </p>
           </div>

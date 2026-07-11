@@ -96,7 +96,7 @@ museum connects outward to the wider linked-data record of art.
   portfolio works are already public evidence.
 - Origin provenance is separated from publication metadata: Sun & Rain Works is
   modeled as established in 2005, Metaconceptual Art as created in 2007,
-  `www.wtfisart.com` as a website built around March 2009 in connection with
+  `www.wtfisart.com` as a website built around 2009 in connection with
   Sun & Rain Works' Sotheby's Photographs auction engagement (sale N08533), and
   2026 as the public linked-data publication layer.
 - The records are **certified against the Getty `cromulent` reference library**

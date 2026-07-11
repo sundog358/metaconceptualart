@@ -63,7 +63,7 @@
   "referred_to_by": [
     {
       "type": "LinguisticObject",
-      "content": "A Metaconceptual Art work that Sun & Rain Works designates in connection with the Sotheby's Photographs auction of March 2009 (sale N08533, New York), at which Sun & Rain Works consigned an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16). Following the logic of the readymade, Sun & Rain Works frames its engagement with that public institutional event — its mechanism of value, authority, and sale — as the material of a conceptual work. This is a designation asserted by the artist and made explicit over time; it is not a publicly witnessed live-creation event, and the Sotheby's catalogue does not name Sun & Rain Works. Two associated works accompany the gesture: the website www.wtfisart.com and WTF is Ansel Adams.",
+      "content": "A Metaconceptual Art work that Sun & Rain Works designates in connection with the Sotheby's Photographs auction of 2009 (sale N08533, New York), at which Sun & Rain Works consigned an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16). Following the logic of the readymade, Sun & Rain Works frames its engagement with that public institutional event — its mechanism of value, authority, and sale — as the material of a conceptual work. This is a designation asserted by the artist and made explicit over time; it is not a publicly witnessed live-creation event, and the Sotheby's catalogue does not name Sun & Rain Works. Two associated works accompany the gesture: the website www.wtfisart.com and WTF is Ansel Adams.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -89,9 +89,9 @@
     "_label": "Designation of the auction engagement as artwork",
     "timespan": {
       "type": "TimeSpan",
-      "_label": "March 2009",
-      "begin_of_the_begin": "2009-03-01T00:00:00Z",
-      "end_of_the_end": "2009-03-31T23:59:59Z"
+      "_label": "2009",
+      "begin_of_the_begin": "2009-01-01T00:00:00Z",
+      "end_of_the_end": "2009-12-31T23:59:59Z"
     },
     "carried_out_by": [
       {
@@ -104,7 +104,7 @@
       {
         "id": "https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009",
         "type": "Activity",
-        "_label": "Sotheby's Photographs auction (sale N08533, March 2009)"
+        "_label": "Sotheby's Photographs auction (sale N08533, 2009)"
       }
     ],
     "referred_to_by": [

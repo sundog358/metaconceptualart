@@ -330,7 +330,7 @@ Done:
   public before the full portfolio is published.
 - Corrected the origin chronology in the public Record and Linked Art records:
   Sun & Rain Works formation is modeled as 2005, Metaconceptual Art movement
-  creation as 2007, `www.wtfisart.com` as a website built around March 2009 in
+  creation as 2007, `www.wtfisart.com` as a website built around 2009 in
   connection with the studio's Sotheby's Photographs auction engagement (sale
   N08533), and 2026 as the public linked-data publication layer.
 - Exposed the profile, validator, descriptors, and fixtures through the sitemap,

@@ -63,7 +63,7 @@
   "referred_to_by": [
     {
       "type": "LinguisticObject",
-      "content": "A Metaconceptual Art work that Sun & Rain Works designates around its consignment of the Ansel Adams photograph 'San Francisco from Twin Peaks' (lot 16) to Sotheby's Photographs, March 2009 (sale N08533, New York). Titled as a play on the auction and the canonical name of Ansel Adams, it treats the act of bringing the photograph to auction — its lot, its authority, its attribution — as the material of a conceptual work, alongside the born-digital work www.wtfisart.com. The work is a designation asserted by the artist and made explicit over time; it is not recorded as a publicly witnessed performance, and the Sotheby's catalogue lists the lot as an Ansel Adams photograph without naming Sun & Rain Works.",
+      "content": "A Metaconceptual Art work that Sun & Rain Works designates around its consignment of the Ansel Adams photograph 'San Francisco from Twin Peaks' (lot 16) to Sotheby's Photographs, 2009 (sale N08533, New York). Titled as a play on the auction and the canonical name of Ansel Adams, it treats the act of bringing the photograph to auction — its lot, its authority, its attribution — as the material of a conceptual work, alongside the born-digital work www.wtfisart.com. The work is a designation asserted by the artist and made explicit over time; it is not recorded as a publicly witnessed performance, and the Sotheby's catalogue lists the lot as an Ansel Adams photograph without naming Sun & Rain Works.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -89,9 +89,9 @@
     "_label": "Designation of WTF is Ansel Adams",
     "timespan": {
       "type": "TimeSpan",
-      "_label": "March 2009",
-      "begin_of_the_begin": "2009-03-01T00:00:00Z",
-      "end_of_the_end": "2009-03-31T23:59:59Z"
+      "_label": "2009",
+      "begin_of_the_begin": "2009-01-01T00:00:00Z",
+      "end_of_the_end": "2009-12-31T23:59:59Z"
     },
     "carried_out_by": [
       {
@@ -104,13 +104,13 @@
       {
         "id": "https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009",
         "type": "Activity",
-        "_label": "Sun & Rain Works' auction engagement (Sotheby's Photographs, March 2009)"
+        "_label": "Sun & Rain Works' auction engagement (Sotheby's Photographs, 2009)"
       }
     ],
     "referred_to_by": [
       {
         "type": "LinguisticObject",
-        "content": "The work is Sun & Rain Works' conceptual designation connected to the consignment of lot 16 at Sotheby's Photographs, March 2009; it is an assertion by the artist and is not recorded as a publicly witnessed performance.",
+        "content": "The work is Sun & Rain Works' conceptual designation connected to the consignment of lot 16 at Sotheby's Photographs, 2009; it is an assertion by the artist and is not recorded as a publicly witnessed performance.",
         "classified_as": [
           {
             "id": "http://vocab.getty.edu/aat/300435416",

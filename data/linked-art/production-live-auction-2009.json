@@ -2,11 +2,11 @@
   "@context": "https://linked.art/ns/v1/linked-art.json",
   "id": "https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009",
   "type": "Activity",
-  "_label": "Sun & Rain Works' auction engagement (Sotheby's Photographs, March 2009)",
+  "_label": "Sun & Rain Works' auction engagement (Sotheby's Photographs, 2009)",
   "identified_by": [
     {
       "type": "Name",
-      "content": "Sun & Rain Works' auction engagement (Sotheby's Photographs, March 2009)",
+      "content": "Sun & Rain Works' auction engagement (Sotheby's Photographs, 2009)",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300404670",
@@ -51,7 +51,7 @@
   "referred_to_by": [
     {
       "type": "LinguisticObject",
-      "content": "Sun & Rain Works' engagement with Sotheby's Photographs, March 2009 (sale N08533): the consignment of an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), and the artist's designation of that engagement — together with the associated website www.wtfisart.com — as conceptual works. Sun & Rain Works frames the primary work as The Auction as Artwork, with two associated works, WTF is Ansel Adams and www.wtfisart.com. These designations are assertions by the artist, made explicit over time; they are not publicly witnessed live-creation events, and the Sotheby's catalogue does not name Sun & Rain Works.",
+      "content": "Sun & Rain Works' engagement with Sotheby's Photographs, 2009 (sale N08533): the consignment of an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), and the artist's designation of that engagement — together with the associated website www.wtfisart.com — as conceptual works. Sun & Rain Works frames the primary work as The Auction as Artwork, with two associated works, WTF is Ansel Adams and www.wtfisart.com. These designations are assertions by the artist, made explicit over time; they are not publicly witnessed live-creation events, and the Sotheby's catalogue does not name Sun & Rain Works.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -63,15 +63,15 @@
   ],
   "timespan": {
     "type": "TimeSpan",
-    "_label": "March 2009",
-    "begin_of_the_begin": "2009-03-01T00:00:00Z",
-    "end_of_the_end": "2009-03-31T23:59:59Z"
+    "_label": "2009",
+    "begin_of_the_begin": "2009-01-01T00:00:00Z",
+    "end_of_the_end": "2009-12-31T23:59:59Z"
   },
   "part_of": [
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009",
       "type": "Activity",
-      "_label": "Sotheby's Photographs auction (sale N08533, March 2009)"
+      "_label": "Sotheby's Photographs auction (sale N08533, 2009)"
     }
   ],
   "carried_out_by": [

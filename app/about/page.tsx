@@ -43,7 +43,7 @@ export default function AboutPage() {
               The public website is the current meta-museum layer, not the
               origin of the practice. Sun &amp; Rain Works was established in
               2005, Metaconceptual Art was created as a movement in 2007, and
-              March 2009 receipts and metadata are treated as early-work
+              2009 receipts and metadata are treated as early-work
               evidence. The 2026 linked-data layer makes selected records public,
               citable, and machine-readable.
             </p>
@@ -77,7 +77,7 @@ export default function AboutPage() {
             </div>
             <div>
               <dt>Early evidence</dt>
-              <dd>March 2009 receipts and metadata held by the studio</dd>
+              <dd>2009 receipts and metadata held by the studio</dd>
             </div>
             <div>
               <dt>Current version</dt>

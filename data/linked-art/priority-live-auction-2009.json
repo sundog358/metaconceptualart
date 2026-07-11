@@ -2,11 +2,11 @@
   "@context": "https://linked.art/ns/v1/linked-art.json",
   "id": "https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009",
   "type": "LinguisticObject",
-  "_label": "Sun & Rain Works' conceptual claim to art at auction (March 2009)",
+  "_label": "Sun & Rain Works' conceptual claim to art at auction (2009)",
   "identified_by": [
     {
       "type": "Name",
-      "content": "Sun & Rain Works' conceptual claim to art at auction (March 2009)",
+      "content": "Sun & Rain Works' conceptual claim to art at auction (2009)",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300404670",
@@ -46,7 +46,7 @@
       "_label": "statements"
     }
   ],
-  "content": "Sun & Rain Works asserts a conceptual claim: that in March 2009, in connection with the Sotheby's Photographs auction (sale N08533, New York), it designated its auction engagement — the consignment of an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), together with the associated website www.wtfisart.com — as Metaconceptual Art, framed as the work The Auction as Artwork. This is the artist's own designation, made explicit over time. It is not a publicly witnessed live-creation event and has not been adjudicated as a historical fact; the Sotheby's catalogue lists the lot as an Ansel Adams photograph and does not name Sun & Rain Works. This statement makes no claim of being 'first', and does not name, compare against, or dispute any later artist or event; any such comparison would require independent recognition and separately published evidence.",
+  "content": "Sun & Rain Works asserts a conceptual claim: that in 2009, in connection with the Sotheby's Photographs auction (sale N08533, New York), it designated its auction engagement — the consignment of an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), together with the associated website www.wtfisart.com — as Metaconceptual Art, framed as the work The Auction as Artwork. This is the artist's own designation, made explicit over time. It is not a publicly witnessed live-creation event and has not been adjudicated as a historical fact; the Sotheby's catalogue lists the lot as an Ansel Adams photograph and does not name Sun & Rain Works. This statement makes no claim of being 'first', and does not name, compare against, or dispute any later artist or event; any such comparison would require independent recognition and separately published evidence.",
   "about": [
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
@@ -56,7 +56,7 @@
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009",
       "type": "Activity",
-      "_label": "Sun & Rain Works' auction engagement (Sotheby's Photographs, March 2009)"
+      "_label": "Sun & Rain Works' auction engagement (Sotheby's Photographs, 2009)"
     },
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart",
