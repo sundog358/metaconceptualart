@@ -1,12 +1,12 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart",
-  "type": "DigitalObject",
-  "_label": "www.wtfisart.com",
+  "id": "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams",
+  "type": "HumanMadeObject",
+  "_label": "WTF is Ansel Adams",
   "identified_by": [
     {
       "type": "Name",
-      "content": "www.wtfisart.com",
+      "content": "WTF is Ansel Adams",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300404670",
@@ -24,7 +24,7 @@
     },
     {
       "type": "Identifier",
-      "content": "work:wtfisart",
+      "content": "work:wtf-is-ansel-adams",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300312355",
@@ -32,41 +32,18 @@
           "_label": "accession number"
         }
       ]
-    },
-    {
-      "type": "Identifier",
-      "content": "https://www.wtfisart.com/",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404626",
-          "type": "Type",
-          "_label": "uniform resource locators"
-        }
-      ]
     }
   ],
   "classified_as": [
     {
-      "id": "http://vocab.getty.edu/aat/300265431",
+      "id": "http://vocab.getty.edu/aat/300121445",
       "type": "Type",
-      "_label": "websites",
+      "_label": "performance art",
       "equivalent": [
         {
-          "id": "http://www.wikidata.org/entity/Q35127",
+          "id": "http://www.wikidata.org/entity/Q213156",
           "type": "Type",
-          "_label": "website"
-        }
-      ]
-    },
-    {
-      "id": "http://vocab.getty.edu/aat/300419940",
-      "type": "Type",
-      "_label": "internet art",
-      "equivalent": [
-        {
-          "id": "http://www.wikidata.org/entity/Q1569950",
-          "type": "Type",
-          "_label": "internet art"
+          "_label": "performance art"
         }
       ]
     },
@@ -83,24 +60,10 @@
       ]
     }
   ],
-  "format": "text/html",
-  "conforms_to": [
-    {
-      "id": "https://www.w3.org/TR/html/",
-      "type": "InformationObject",
-      "_label": "HTML"
-    }
-  ],
-  "access_point": [
-    {
-      "id": "https://www.wtfisart.com/",
-      "type": "DigitalObject"
-    }
-  ],
   "referred_to_by": [
     {
       "type": "LinguisticObject",
-      "content": "A born-digital Metaconceptual Art work created live on the web in real time at Sotheby's Photographs auction on March 30, 2009.",
+      "content": "A Metaconceptual Art performance work enacted live during Sotheby's Photographs auction on March 30, 2009. Made as a companion to the born-digital work www.wtfisart.com, it turns the auction itself — its lots, its authority, and the name of Ansel Adams as a canonical photographer — into the material of the work.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -111,18 +74,7 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "www.wtfisart.com forms an artifact-part of the primary work The Auction as Artwork (March 30, 2009), in which the act of Sotheby's Photographs auction is itself designated as the artwork.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300435416",
-          "type": "Type",
-          "_label": "description"
-        }
-      ]
-    },
-    {
-      "type": "LinguisticObject",
-      "content": "Sun & Rain Works reports that photographs, metadata, emails, auction catalogue material, receipts, and related records document the live creation event. The public Linked Art record names the work and event while the fuller evidence archive remains held by the studio pending redaction and rights review.",
+      "content": "Sun & Rain Works reports that photographs, metadata, emails, auction catalogue material, receipts, and related records document the live performance. The public Linked Art record names the work and the event while the fuller evidence archive remains held by the studio pending redaction and rights review.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -132,9 +84,9 @@
       ]
     }
   ],
-  "created_by": {
-    "type": "Creation",
-    "_label": "Live creation of www.wtfisart.com",
+  "produced_by": {
+    "type": "Production",
+    "_label": "Live performance of WTF is Ansel Adams",
     "timespan": {
       "type": "TimeSpan",
       "_label": "March 30, 2009",
@@ -158,7 +110,7 @@
     "referred_to_by": [
       {
         "type": "LinguisticObject",
-        "content": "Creation occurred on the web in real time at Sotheby's Photographs auction on March 30, 2009.",
+        "content": "The work was performed on the floor of Sotheby's Photographs auction on March 30, 2009.",
         "classified_as": [
           {
             "id": "http://vocab.getty.edu/aat/300435416",
@@ -169,11 +121,18 @@
       }
     ]
   },
+  "part_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
+      "type": "HumanMadeObject",
+      "_label": "The Auction as Artwork"
+    }
+  ],
   "member_of": [
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/collection",
       "type": "Set",
-      "_label": "Metaconceptual Art - Collection"
+      "_label": "Metaconceptual Art — Collection"
     }
   ],
   "subject_of": [
@@ -183,11 +142,11 @@
       "digitally_carried_by": [
         {
           "type": "DigitalObject",
-          "_label": "Metaconceptual Art - www.wtfisart.com",
+          "_label": "Metaconceptual Art — WTF is Ansel Adams",
           "format": "text/html",
           "access_point": [
             {
-              "id": "https://www.metaconceptualart.com/artworks/wtfisart",
+              "id": "https://www.metaconceptualart.com/artworks#work-wtf-is-ansel-adams",
               "type": "DigitalObject"
             }
           ]
@@ -196,15 +155,14 @@
     }
   ],
   "_links": {
-    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/wtfisart" },
+    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams" },
     "curies": [
       { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
     ],
     "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
     "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" },
     "alternate": [
-      { "href": "https://www.metaconceptualart.com/artworks/wtfisart", "type": "text/html" },
-      { "href": "https://www.wtfisart.com/", "type": "text/html" }
+      { "href": "https://www.metaconceptualart.com/artworks#work-wtf-is-ansel-adams", "type": "text/html" }
     ],
     "collection": { "href": "https://www.metaconceptualart.com/data/linked-art/collection" }
   }

@@ -1,0 +1,95 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/sothebys",
+  "type": "Group",
+  "_label": "Sotheby's",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Sotheby's",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "agent:sothebys",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "https://www.sothebys.com/",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "uniform resource locators"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025948",
+      "type": "Type",
+      "_label": "organizations",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q43229",
+          "type": "Type",
+          "_label": "organization"
+        }
+      ]
+    }
+  ],
+  "equivalent": [
+    {
+      "id": "http://www.wikidata.org/entity/Q654762",
+      "type": "Group",
+      "_label": "Sotheby's"
+    },
+    {
+      "id": "http://vocab.getty.edu/ulan/500304344",
+      "type": "Group",
+      "_label": "Sotheby's"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "International auction house founded in 1744. Named here only as the institution that carried out the Sotheby's Photographs auction on March 30, 2009 — the public event that Sun & Rain Works designates as the material of the metaconceptual work The Auction as Artwork. Recording Sotheby's as the auction's host asserts no partnership, endorsement, or claim against Sotheby's.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/sothebys" },
+    "curies": [
+      { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
+    ],
+    "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
+    "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" }
+  }
+}

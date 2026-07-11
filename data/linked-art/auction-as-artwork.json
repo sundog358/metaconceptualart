@@ -1,12 +1,12 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
-  "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart",
-  "type": "DigitalObject",
-  "_label": "www.wtfisart.com",
+  "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
+  "type": "HumanMadeObject",
+  "_label": "The Auction as Artwork",
   "identified_by": [
     {
       "type": "Name",
-      "content": "www.wtfisart.com",
+      "content": "The Auction as Artwork",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300404670",
@@ -24,7 +24,7 @@
     },
     {
       "type": "Identifier",
-      "content": "work:wtfisart",
+      "content": "work:auction-as-artwork",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300312355",
@@ -32,41 +32,30 @@
           "_label": "accession number"
         }
       ]
-    },
-    {
-      "type": "Identifier",
-      "content": "https://www.wtfisart.com/",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404626",
-          "type": "Type",
-          "_label": "uniform resource locators"
-        }
-      ]
     }
   ],
   "classified_as": [
     {
-      "id": "http://vocab.getty.edu/aat/300265431",
+      "id": "http://vocab.getty.edu/aat/300121445",
       "type": "Type",
-      "_label": "websites",
+      "_label": "performance art",
       "equivalent": [
         {
-          "id": "http://www.wikidata.org/entity/Q35127",
+          "id": "http://www.wikidata.org/entity/Q213156",
           "type": "Type",
-          "_label": "website"
+          "_label": "performance art"
         }
       ]
     },
     {
-      "id": "http://vocab.getty.edu/aat/300419940",
+      "id": "http://vocab.getty.edu/aat/300047210",
       "type": "Type",
-      "_label": "internet art",
+      "_label": "found objects (readymades)",
       "equivalent": [
         {
-          "id": "http://www.wikidata.org/entity/Q1569950",
+          "id": "http://www.wikidata.org/entity/Q572916",
           "type": "Type",
-          "_label": "internet art"
+          "_label": "found object / readymade"
         }
       ]
     },
@@ -83,24 +72,10 @@
       ]
     }
   ],
-  "format": "text/html",
-  "conforms_to": [
-    {
-      "id": "https://www.w3.org/TR/html/",
-      "type": "InformationObject",
-      "_label": "HTML"
-    }
-  ],
-  "access_point": [
-    {
-      "id": "https://www.wtfisart.com/",
-      "type": "DigitalObject"
-    }
-  ],
   "referred_to_by": [
     {
       "type": "LinguisticObject",
-      "content": "A born-digital Metaconceptual Art work created live on the web in real time at Sotheby's Photographs auction on March 30, 2009.",
+      "content": "The primary Metaconceptual Art work of March 30, 2009: the act of the Sotheby's Photographs auction itself, designated as the artwork. Following the logic of the readymade, Sun & Rain Works appropriates a public institutional event — the auction carried out by Sotheby's — and frames its mechanism of value, authority, and sale as the material of the work. Two artifacts are parts of this single gesture: the born-digital website www.wtfisart.com and the auction performance work WTF is Ansel Adams.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -111,18 +86,7 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "www.wtfisart.com forms an artifact-part of the primary work The Auction as Artwork (March 30, 2009), in which the act of Sotheby's Photographs auction is itself designated as the artwork.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300435416",
-          "type": "Type",
-          "_label": "description"
-        }
-      ]
-    },
-    {
-      "type": "LinguisticObject",
-      "content": "Sun & Rain Works reports that photographs, metadata, emails, auction catalogue material, receipts, and related records document the live creation event. The public Linked Art record names the work and event while the fuller evidence archive remains held by the studio pending redaction and rights review.",
+      "content": "Sun & Rain Works reports that photographs, metadata, emails, auction catalogue material, receipts, and related records document the work. The public Linked Art record names the work, the appropriated auction, and its parts; the fuller evidence archive remains held by the studio pending redaction and rights review.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -132,9 +96,9 @@
       ]
     }
   ],
-  "created_by": {
-    "type": "Creation",
-    "_label": "Live creation of www.wtfisart.com",
+  "produced_by": {
+    "type": "Production",
+    "_label": "Designation of the auction as artwork",
     "timespan": {
       "type": "TimeSpan",
       "_label": "March 30, 2009",
@@ -148,17 +112,17 @@
         "_label": "Sun & Rain Works"
       }
     ],
-    "part_of": [
+    "influenced_by": [
       {
-        "id": "https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009",
+        "id": "https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009",
         "type": "Activity",
-        "_label": "Live creation at Sotheby's Photographs auction (March 30, 2009)"
+        "_label": "Sotheby's Photographs auction (March 30, 2009)"
       }
     ],
     "referred_to_by": [
       {
         "type": "LinguisticObject",
-        "content": "Creation occurred on the web in real time at Sotheby's Photographs auction on March 30, 2009.",
+        "content": "The artistic act is the designation, by Sun & Rain Works, of the Sotheby's Photographs auction as a work — not the auction's ordinary business, which was carried out by Sotheby's.",
         "classified_as": [
           {
             "id": "http://vocab.getty.edu/aat/300435416",
@@ -173,7 +137,7 @@
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/collection",
       "type": "Set",
-      "_label": "Metaconceptual Art - Collection"
+      "_label": "Metaconceptual Art — Collection"
     }
   ],
   "subject_of": [
@@ -183,11 +147,11 @@
       "digitally_carried_by": [
         {
           "type": "DigitalObject",
-          "_label": "Metaconceptual Art - www.wtfisart.com",
+          "_label": "Metaconceptual Art — The Auction as Artwork",
           "format": "text/html",
           "access_point": [
             {
-              "id": "https://www.metaconceptualart.com/artworks/wtfisart",
+              "id": "https://www.metaconceptualart.com/artworks#work-auction-as-artwork",
               "type": "DigitalObject"
             }
           ]
@@ -196,15 +160,14 @@
     }
   ],
   "_links": {
-    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/wtfisart" },
+    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork" },
     "curies": [
       { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
     ],
     "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
     "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" },
     "alternate": [
-      { "href": "https://www.metaconceptualart.com/artworks/wtfisart", "type": "text/html" },
-      { "href": "https://www.wtfisart.com/", "type": "text/html" }
+      { "href": "https://www.metaconceptualart.com/artworks#work-auction-as-artwork", "type": "text/html" }
     ],
     "collection": { "href": "https://www.metaconceptualart.com/data/linked-art/collection" }
   }

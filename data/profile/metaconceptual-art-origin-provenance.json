@@ -26,15 +26,42 @@
       "description": "Metaconceptual Art is asserted by Sun & Rain Works as a movement created in 2007, before the 2026 linked-data publication layer."
     },
     {
+      "id": "https://www.metaconceptualart.com/origin#auction-as-artwork-2009-03-30",
+      "type": "ArtworkEvidence",
+      "label": "The Auction as Artwork",
+      "date": "2009-03-30",
+      "agent": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+      "work": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
+      "appropriatedEvent": "https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009",
+      "event": "https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009",
+      "evidenceStatus": "private-evidence-held-by-studio",
+      "publicEvidenceStatus": "public-catalog-record",
+      "description": "The primary work of March 30, 2009: Sun & Rain Works designates the act of Sotheby's Photographs auction itself as a Metaconceptual Art work, after the logic of the readymade. The auction proper was carried out by Sotheby's; the artistic act is the designation. Two artifact-parts, www.wtfisart.com and WTF is Ansel Adams, were produced live within the gesture. Photographs, metadata, emails, auction catalogue material, receipts, and related records are held by the studio; selected evidence can be promoted to public as redaction and rights review are completed."
+    },
+    {
       "id": "https://www.metaconceptualart.com/origin#wtfisart-live-auction-2009-03-30",
       "type": "ArtworkEvidence",
       "label": "www.wtfisart.com live auction creation",
       "date": "2009-03-30",
       "agent": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
       "work": "https://www.metaconceptualart.com/data/linked-art/wtfisart",
+      "partOf": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
       "evidenceStatus": "private-evidence-held-by-studio",
       "publicEvidenceStatus": "public-catalog-record",
-      "description": "Sun & Rain Works reports that www.wtfisart.com was created live on the web in real time at Sotheby's Photographs auction on March 30, 2009. Photographs, metadata, emails, auction catalogue material, receipts, and related records are held by the studio; selected evidence can be promoted to public as redaction and rights review are completed."
+      "description": "An artifact-part of The Auction as Artwork: Sun & Rain Works reports that www.wtfisart.com was created live on the web in real time during Sotheby's Photographs auction on March 30, 2009. Photographs, metadata, emails, auction catalogue material, receipts, and related records are held by the studio; selected evidence can be promoted to public as redaction and rights review are completed."
+    },
+    {
+      "id": "https://www.metaconceptualart.com/origin#wtf-is-ansel-adams-live-auction-2009-03-30",
+      "type": "ArtworkEvidence",
+      "label": "WTF is Ansel Adams live auction performance",
+      "date": "2009-03-30",
+      "agent": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+      "work": "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams",
+      "partOf": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
+      "event": "https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009",
+      "evidenceStatus": "private-evidence-held-by-studio",
+      "publicEvidenceStatus": "public-catalog-record",
+      "description": "An artifact-part of The Auction as Artwork: Sun & Rain Works reports that WTF is Ansel Adams was performed live during Sotheby's Photographs auction on March 30, 2009. Photographs, metadata, emails, auction catalogue material, and receipts are held by the studio; selected evidence can be promoted to public as redaction and rights review are completed."
     },
     {
       "id": "https://www.metaconceptualart.com/origin#linked-data-publication-2026",

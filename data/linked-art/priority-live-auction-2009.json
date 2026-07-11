@@ -1,0 +1,130 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009",
+  "type": "LinguisticObject",
+  "_label": "Documented priority: live auction creation, March 30, 2009",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Documented priority: live auction creation, March 30, 2009",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "record:priority-live-auction-2009",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026087",
+      "type": "Type",
+      "_label": "texts"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300435443",
+      "type": "Type",
+      "_label": "statements"
+    }
+  ],
+  "content": "Sun & Rain Works asserts documented prior evidence that, on March 30, 2009, the act of Sotheby's Photographs auction itself was designated as a Metaconceptual Art work (The Auction as Artwork), realized through two artifact-parts created live: www.wtfisart.com and WTF is Ansel Adams. Taken together, the artwork records, the appropriated auction event, the shared creation act, and the privately held evidence archive establish documented priority for treating a live auction as artwork. Consistent with the project's comparison and priority policy, this statement does not name, compare against, or dispute any later artist or event, and asserts no influence, contact, or derivation absent separately published evidence.",
+  "about": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
+      "type": "HumanMadeObject",
+      "_label": "The Auction as Artwork"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009",
+      "type": "Activity",
+      "_label": "Live creation at Sotheby's Photographs auction (March 30, 2009)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart",
+      "type": "DigitalObject",
+      "_label": "www.wtfisart.com"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams",
+      "type": "HumanMadeObject",
+      "_label": "WTF is Ansel Adams"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Evidence for this priority statement is the privately held archive recorded at evidence-live-auction-2009. Recommended claim: documented prior evidence for a live-auction artwork-creation structure. Avoided claim: first-ever status, or influence on any later artist or event, absent separately published evidence.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "CC BY 4.0",
+      "classified_as": [
+        {
+          "id": "https://creativecommons.org/licenses/by/4.0/",
+          "type": "Type",
+          "_label": "Attribution 4.0 International (CC BY 4.0)"
+        }
+      ],
+      "possessed_by": [
+        {
+          "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+          "type": "Group",
+          "_label": "Sun & Rain Works"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Writing of the live auction priority statement",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "_links": {
+    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009" },
+    "curies": [
+      { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
+    ],
+    "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
+    "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" }
+  }
+}

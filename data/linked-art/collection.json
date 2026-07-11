@@ -118,6 +118,21 @@
       "id": "https://www.metaconceptualart.com/data/linked-art/movement-record",
       "type": "LinguisticObject",
       "_label": "Proof of Movement: Metaconceptual Art"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
+      "type": "HumanMadeObject",
+      "_label": "The Auction as Artwork"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams",
+      "type": "HumanMadeObject",
+      "_label": "WTF is Ansel Adams"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: live auction creation, March 30, 2009"
     }
   ],
   "_links": {

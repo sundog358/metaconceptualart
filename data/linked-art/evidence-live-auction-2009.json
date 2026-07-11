@@ -1,0 +1,143 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009",
+  "type": "LinguisticObject",
+  "_label": "Evidence archive: live auction creation, March 30, 2009",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Evidence archive: live auction creation, March 30, 2009",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "record:evidence-live-auction-2009",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026087",
+      "type": "Type",
+      "_label": "texts"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300026906",
+      "type": "Type",
+      "_label": "documents"
+    }
+  ],
+  "content": "Sun & Rain Works holds a private archive documenting the March 30, 2009 work whose material is the act of Sotheby's Photographs auction itself, designated as artwork (The Auction as Artwork), together with its two artifact-parts: the born-digital website www.wtfisart.com and the auction performance work WTF is Ansel Adams. The archive is reported to contain photographs, born-digital and file metadata, emails, auction catalogue material, and receipts. The public Linked Art records name the work, the appropriated auction, and its parts; the primary evidence remains held by the studio pending redaction and rights review. No checksums, file hashes, or custody identifiers are published at this time; they will be added only when the underlying items are released.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Evidence status: private-evidence-held-by-studio. Public evidence status: metadata-only. Selected items can be promoted to public evidence as redaction and rights review are completed.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "about": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
+      "type": "HumanMadeObject",
+      "_label": "The Auction as Artwork"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009",
+      "type": "Activity",
+      "_label": "Sotheby's Photographs auction (March 30, 2009)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009",
+      "type": "Activity",
+      "_label": "Live creation at Sotheby's Photographs auction (March 30, 2009)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart",
+      "type": "DigitalObject",
+      "_label": "www.wtfisart.com"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams",
+      "type": "HumanMadeObject",
+      "_label": "WTF is Ansel Adams"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "CC BY 4.0",
+      "classified_as": [
+        {
+          "id": "https://creativecommons.org/licenses/by/4.0/",
+          "type": "Type",
+          "_label": "Attribution 4.0 International (CC BY 4.0)"
+        }
+      ],
+      "possessed_by": [
+        {
+          "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+          "type": "Group",
+          "_label": "Sun & Rain Works"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Compilation of the live auction evidence record",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009" },
+    "curies": [
+      { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
+    ],
+    "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
+    "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" },
+    "collection": { "href": "https://www.metaconceptualart.com/data/linked-art/collection" }
+  }
+}

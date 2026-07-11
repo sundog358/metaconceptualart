@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009",
+  "type": "Activity",
+  "_label": "Sotheby's Photographs auction (March 30, 2009)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Sotheby's Photographs auction (March 30, 2009)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "activity:sothebys-photographs-auction-2009",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "The public Sotheby's Photographs auction held on March 30, 2009, carried out by Sotheby's. Sun & Rain Works designates the act of this auction as the material of the metaconceptual work The Auction as Artwork. This record names the appropriated real-world event; it does not assert that Sotheby's authored, endorsed, or participated in the artwork.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "timespan": {
+    "type": "TimeSpan",
+    "_label": "March 30, 2009",
+    "begin_of_the_begin": "2009-03-30T00:00:00Z",
+    "end_of_the_end": "2009-03-30T23:59:59Z"
+  },
+  "took_place_at": [
+    {
+      "type": "Place",
+      "_label": "Sotheby's"
+    }
+  ],
+  "carried_out_by": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/sothebys",
+      "type": "Group",
+      "_label": "Sotheby's"
+    }
+  ],
+  "_links": {
+    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009" },
+    "curies": [
+      { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
+    ],
+    "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
+    "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" }
+  }
+}
