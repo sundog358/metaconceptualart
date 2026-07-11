@@ -331,14 +331,6 @@
     {
       "type": "Create",
       "object": {
-        "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
-        "type": "HumanMadeObject"
-      },
-      "endTime": "2026-07-10T23:23:10-07:00"
-    },
-    {
-      "type": "Create",
-      "object": {
         "id": "https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009",
         "type": "LinguisticObject"
       },
@@ -377,14 +369,6 @@
       "endTime": "2026-07-10T23:23:10-07:00"
     },
     {
-      "type": "Create",
-      "object": {
-        "id": "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams",
-        "type": "HumanMadeObject"
-      },
-      "endTime": "2026-07-10T23:23:10-07:00"
-    },
-    {
       "type": "Update",
       "object": {
         "id": "https://www.metaconceptualart.com/data/linked-art/collection",
@@ -407,6 +391,78 @@
         "type": "Activity"
       },
       "endTime": "2026-07-10T23:52:00-07:00"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
+        "type": "HumanMadeObject"
+      },
+      "endTime": "2026-07-11T12:15:22-07:00"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams",
+        "type": "HumanMadeObject"
+      },
+      "endTime": "2026-07-11T12:15:22-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+        "type": "Set"
+      },
+      "endTime": "2026-07-11T12:15:22-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-07-11T12:15:22-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-07-11T12:15:22-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009",
+        "type": "Activity"
+      },
+      "endTime": "2026-07-11T12:15:22-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sothebys",
+        "type": "Group"
+      },
+      "endTime": "2026-07-11T12:15:22-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009",
+        "type": "Activity"
+      },
+      "endTime": "2026-07-11T12:15:22-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart",
+        "type": "DigitalObject"
+      },
+      "endTime": "2026-07-11T12:15:22-07:00"
     }
   ]
 }
