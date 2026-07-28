@@ -30,6 +30,42 @@
       "has": [{ "type": "header", "key": "accept", "value": ".*text/html.*" }],
       "destination": "/movement",
       "statusCode": 303
+    },
+    {
+      "source": "/data/linked-art/art-market-reform",
+      "has": [{ "type": "header", "key": "accept", "value": ".*text/html.*" }],
+      "destination": "/artworks/art-market-reform",
+      "statusCode": 303
+    },
+    {
+      "source": "/data/linked-art/auction-as-artwork",
+      "has": [{ "type": "header", "key": "accept", "value": ".*text/html.*" }],
+      "destination": "/artworks#work-auction-as-artwork",
+      "statusCode": 303
+    },
+    {
+      "source": "/data/linked-art/eightfold-sprocket",
+      "has": [{ "type": "header", "key": "accept", "value": ".*text/html.*" }],
+      "destination": "/artworks/eightfold-sprocket",
+      "statusCode": 303
+    },
+    {
+      "source": "/data/linked-art/movement-graph",
+      "has": [{ "type": "header", "key": "accept", "value": ".*text/html.*" }],
+      "destination": "/artworks/movement-graph",
+      "statusCode": 303
+    },
+    {
+      "source": "/data/linked-art/wtf-is-ansel-adams",
+      "has": [{ "type": "header", "key": "accept", "value": ".*text/html.*" }],
+      "destination": "/artworks#work-wtf-is-ansel-adams",
+      "statusCode": 303
+    },
+    {
+      "source": "/data/linked-art/wtfisart",
+      "has": [{ "type": "header", "key": "accept", "value": ".*text/html.*" }],
+      "destination": "/artworks/wtfisart",
+      "statusCode": 303
     }
   ],
   "rewrites": [

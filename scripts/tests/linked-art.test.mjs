@@ -7,6 +7,8 @@ import { join } from "node:path";
 
 const DIR = "data/linked-art";
 const LA_CONTEXT = "https://linked.art/ns/v1/linked-art.json";
+const SITE_ORIGIN = "https://www.metaconceptualart.com";
+const vercel = JSON.parse(readFileSync("vercel.json", "utf8"));
 
 const files = readdirSync(DIR).filter(
   (f) => f.endsWith(".json") && !f.startsWith("activity-stream"),
@@ -36,5 +38,37 @@ for (const f of files) {
   test(`${f}: has a type and a _label`, () => {
     assert.ok(doc.type, "type present");
     assert.ok(doc._label, "_label present");
+  });
+
+  test(`${f}: advertised HTML alternate has a matching 303 redirect`, () => {
+    const alternates = [doc?._links?.alternate]
+      .flat()
+      .filter((link) => link?.type === "text/html");
+    if (alternates.length === 0) return;
+
+    const localAlternate = alternates.find(
+      (link) => new URL(link.href).origin === SITE_ORIGIN,
+    );
+    assert.ok(localAlternate, "at least one HTML alternate is on this site");
+
+    const redirect = vercel.redirects.find(
+      (entry) =>
+        entry.source === new URL(doc.id).pathname &&
+        entry.statusCode === 303 &&
+        entry.has?.some(
+          (condition) =>
+            condition.type === "header" &&
+            condition.key.toLowerCase() === "accept" &&
+            condition.value.includes("text/html"),
+        ),
+    );
+    assert.ok(redirect, "vercel.json has an Accept: text/html 303 redirect");
+
+    const alternateUrl = new URL(localAlternate.href);
+    assert.equal(
+      redirect.destination,
+      `${alternateUrl.pathname}${alternateUrl.hash}`,
+      "redirect destination matches the first local HTML alternate",
+    );
   });
 }
