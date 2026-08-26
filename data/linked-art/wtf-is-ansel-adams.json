@@ -82,6 +82,11 @@
           "_label": "description"
         }
       ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: documentation photographs of the Ansel Adams print (August 2008)"
     }
   ],
   "produced_by": {

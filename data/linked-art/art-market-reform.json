@@ -85,6 +85,11 @@
           "_label": "description"
         }
       ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: the WTFIA source folder for www.wtfisart.com (2008-2009)"
     }
   ],
   "created_by": {

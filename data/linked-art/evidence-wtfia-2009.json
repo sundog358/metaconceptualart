@@ -1,0 +1,155 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009",
+  "type": "LinguisticObject",
+  "_label": "Evidence archive: the WTFIA source folder for www.wtfisart.com (2008-2009)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Evidence archive: the WTFIA source folder for www.wtfisart.com (2008-2009)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "record:evidence-wtfia-2009",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026087",
+      "type": "Type",
+      "_label": "texts"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300026906",
+      "type": "Type",
+      "_label": "documents"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300055863",
+      "type": "Type",
+      "_label": "provenance"
+    }
+  ],
+  "content": "Sun & Rain Works holds the WTFIA folder: the working source material it assembled for its website www.wtfisart.com, comprising digital files dated 2008 to 2009. As held, the folder contains four Microsoft Word documents together with associated sets of reference images. The documents are: 'IsItArt.doc', a fourteen-page compilation of roughly four thousand words of excerpts and source links drawn from art-market press published between 2007 and 2009, covering museum deaccessioning, the contraction of the auction market, art-focused hedge funds, and art treated as an asset class, with material attributed to The New York Times, The Daily Telegraph, the Financial Times, The Nation, The Guardian, Deutsche Welle, CathNews, Livemint, The New York Sun, Portfolio.com, and the Los Angeles Times; 'Photographers.doc', a one-page biographical note on the photographer Lee Balterman; and two dealer-network directories built as the site's link content, 'OldMasters.doc', an eight-page directory of Old Master dealers and galleries with their web addresses, and 'Modern.doc', a directory of modern and contemporary galleries in New York, Florida, and California. The accompanying images comprise seventeen art-market and art-trade pictures dated 2009-03-23, showing auction houses, collectors, art fairs, and finance motifs; sixteen art-historical reference plates dated between 2009-01-21 and 2009-01-26; two paintings of the cleansing of the temple dated 2009-01-22; and thirty photographic files dated between 2008-08-07 and 2009-01-21. Together these evidence the material Sun & Rain Works assembled for www.wtfisart.com, and a dated 2008-2009 compilation activity concerned with the art market, the dealer network, and art history. The folder holds no HTML, so it does not by itself record what the website published or when it went live, and it establishes no precedence over any later artist, work, or event.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Evidence status: studio-held, with self-describing file metadata. The dates given here are drawn from filesystem modification times and from the OLE document-summary metadata embedded in the Word files. They are internally consistent across the ninety-seven files in the folder, but they are reported by the files themselves and are not independently notarized; they should be read as the archive's own account of its dates. The press sources excerpted in 'IsItArt.doc' are independently verifiable at their published URLs. No checksums, file hashes, or custody identifiers are published at this time. The same storage medium also holds an unrelated 2009 website project on renewable energy, 'Growing Aloha'; it is outside the boundary of this evidence archive.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Embedded document metadata, as recorded by the files themselves: 'IsItArt.doc' gives author Joseph M. Chirum, created 2009-01-22T03:03, last saved 2009-01-28T21:23, revision 21, total editing time 09:46, 14 pages, 4,049 words, 23,082 characters; its Title field carries the string 'August 13, 2007', which is a metadata field value and not, by itself, evidence of a 2007 document. 'Photographers.doc' gives author Joseph M. Chirum, created 2009-01-22T04:19, last saved 2009-01-26T04:15, revision 4, 1 page, 69 words. 'OldMasters.doc' gives created 2009-01-23T18:22, last saved 2009-01-26T20:50, revision 19, 8 pages, 1,263 words. 'Modern.doc' gives created 2009-01-27T13:15, last saved 2009-01-28T03:49, revision 10, and was produced with a different word processor from the other three. A second contributor is recorded in the metadata of all four documents: as the named author of both dealer-network directories, 'OldMasters.doc' and 'Modern.doc', and as the last editor of all four files. That person's name is withheld from this public record pending their consent, and is retained in the studio's private copy; the attribution of the two directories is theirs, not the studio principal's.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The folder is named for the 'WTF is Art' concept and holds the material Sun & Rain Works assembled for www.wtfisart.com: the art-market press compilation, the photographer note, and the two dealer-network directories of galleries and their web addresses that were built as the site's link content. Its art-market compilation is the documented source context for the image study Art Market Reform, and the dealer directories are a documented instance of the project's stated interest in an archaeology of the art world. The folder holds no HTML: the built pages of www.wtfisart.com are not among these files, so the folder evidences what was made for the site, not what the site published or when it went live. The folder also contains an Ansel Adams reference image dated 2009-01-21 and a photographer reference note dated 2009-01-25; these show that Ansel Adams and photographic authorship were present in the same 2009 working set, and nothing further. The 2009 Sotheby's consignment is evidenced separately, in the auction-engagement evidence record. Each item here is scoped to what it shows.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "about": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart",
+      "type": "DigitalObject",
+      "_label": "www.wtfisart.com"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/art-market-reform",
+      "type": "DigitalObject",
+      "_label": "Art Market Reform"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "CC BY 4.0",
+      "classified_as": [
+        {
+          "id": "https://creativecommons.org/licenses/by/4.0/",
+          "type": "Type",
+          "_label": "Attribution 4.0 International (CC BY 4.0)"
+        }
+      ],
+      "possessed_by": [
+        {
+          "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+          "type": "Group",
+          "_label": "Sun & Rain Works"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Compilation of the WTFIA working-folder evidence record",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009" },
+    "curies": [
+      { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
+    ],
+    "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
+    "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" },
+    "collection": { "href": "https://www.metaconceptualart.com/data/linked-art/collection" }
+  }
+}

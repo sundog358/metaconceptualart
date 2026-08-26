@@ -1,0 +1,202 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008",
+  "type": "LinguisticObject",
+  "_label": "Evidence archive: documentation photographs of the Ansel Adams print (August 2008)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Evidence archive: documentation photographs of the Ansel Adams print (August 2008)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "record:evidence-consignment-photographs-2008",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026906",
+      "type": "Type",
+      "_label": "documents"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300215302",
+      "type": "Type",
+      "_label": "digital images"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300055863",
+      "type": "Type",
+      "_label": "provenance"
+    }
+  ],
+  "content": "Sun & Rain Works holds eleven digital photographs, taken in a single session on 2008-08-08, that document a matted black-and-white photographic print in the studio's possession. The sequence records the print recto, the mount, the verso with its backing and hanging wire, and a close-up of the verso credit block. In one frame the print is photographed together with a copy of Andy Warhol's 'The Philosophy of Andy Warhol (From A to B and Back Again)', placed upright and facing the camera. The close-up of the verso shows a printed credit block reading 'Photograph by Ansel Adams for The American Trust Company', a negative number beginning '1-SF-', the beginning of a handwritten title 'San Francisco fr...', and a hand-inked annotation 'Wells Fargo Bank' written over the struck-through word 'THE'. These markings correspond, in four independent particulars, to the markings recorded in the public Sotheby's catalogue entry for lot 16 of Photographs, sale N08533 (2009) - the Ansel Adams print 'San Francisco from Twin Peaks'. The photographs therefore evidence that a print bearing the markings described in the lot-16 catalogue entry was in the studio's possession approximately seven months before that sale, and that it was documented there alongside an art-referential object. They do not establish the identity of the consignor of record, and they establish no precedence over any later artist, work, or event.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Evidence status: independently checkable. Unlike the studio's correspondence and receipts, this record can be tested by any third party without access to private material. The public Sotheby's catalogue entry for sale N08533, lot 16, at https://www.sothebys.com/en/auctions/ecatalogue/2009/photographs-n08533/lot.16.html describes the print as carrying the photographer's 'Photograph by Ansel Adams for The American Trust Company' stamp, as numbered 1-SF-46, as titled, and as annotated 'Wells Fargo Bank' in ink on the reverse by the photographer; the catalogue note explains the annotation as Adams's own correction following the 1960 merger of The American Trust Company into Wells Fargo Bank. Each of those particulars is visible in the studio's 2008 verso photograph, which is published with this record, except that the negative number is legible only as far as '1-SF-' before the right edge of the frame cuts it off; the catalogue's '46' is therefore not visible and is not claimed here. A vertical crease runs through the mount to the left of the number but does not obscure it. The correspondence is therefore in four particulars - the credit stamp, the negative-number series, the inked Wells Fargo annotation over the struck-through article, and the handwritten title - and is not dependent on the studio's own account.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Embedded image metadata, as recorded by the camera: all eleven files carry Exif written at capture by a FUJIFILM FinePix1300, reporting the firmware string 'Digital Camera FinePix1300 Ver1.24'. Exif DateTimeOriginal values run from 2008-08-08 00:05:33 to 2008-08-08 00:10:22, a continuous session of under five minutes. The frames are numbered DSCF0012 to DSCF0017 and DSCF0020 to DSCF0024; frames 0018 and 0019 are absent from the sequence. This metadata is written by the camera at exposure and is independent of the filesystem timestamps of the storage medium, which agree with it. It remains studio-held and is not notarized: no checksums, file hashes, or custody identifiers are published at this time, and Exif fields can in principle be altered.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Contemporaneous conceptual intent. One frame in the sequence, exposed at 2008-08-08 00:08:46, shows the print photographed together with a copy of 'The Philosophy of Andy Warhol (From A to B and Back Again)', stood upright and facing the camera on the same ground. Sun & Rain Works reads this juxtaposition as a deliberate art-referential gesture made at the time of documentation, and as the earliest dated trace of the thinking that became The Auction as Artwork. The scope of that reading should be stated plainly: the photograph evidences that the two objects were deliberately composed in one frame in August 2008. It is not a written designation, it does not by itself establish that the auction engagement was framed as art in 2008 or 2009, and the conceptual designation remains an assertion by the artist made explicit over time.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Limits of the correspondence. Ansel Adams produced multiple prints from the 1952 negative, so agreement on the verso markings identifies a print of the same issue and annotation state rather than establishing a unique object beyond question; the strength of the match rests on the combination of particulars, not on any one of them. The photographs show that the print was in the room in which they were taken; the attribution of that room and camera to Sun & Rain Works rests on the studio's custody of the storage medium. The Sotheby's catalogue names no consignor, as is standard auction practice, so the identity of the consignor of record is not established here and is addressed separately in the auction-engagement evidence record.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008#visual-item",
+      "type": "VisualItem",
+      "_label": "Verso credit block and inked annotations of the Ansel Adams print",
+      "digitally_shown_by": [
+        {
+          "id": "https://www.metaconceptualart.com/images/adams-verso-2008.jpg",
+          "type": "DigitalObject",
+          "_label": "Documentation photograph of the print verso, 2008-08-08",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://www.metaconceptualart.com/images/adams-verso-2008.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "about": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams",
+      "type": "HumanMadeObject",
+      "_label": "WTF is Ansel Adams"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
+      "type": "HumanMadeObject",
+      "_label": "The Auction as Artwork"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009",
+      "type": "Activity",
+      "_label": "Sotheby's Photographs auction (sale N08533, 2009)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009",
+      "type": "Activity",
+      "_label": "Sun & Rain Works' auction engagement (Sotheby's Photographs, 2009)"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "CC BY 4.0",
+      "classified_as": [
+        {
+          "id": "https://creativecommons.org/licenses/by/4.0/",
+          "type": "Type",
+          "_label": "Attribution 4.0 International (CC BY 4.0)"
+        }
+      ],
+      "possessed_by": [
+        {
+          "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+          "type": "Group",
+          "_label": "Sun & Rain Works"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Compilation of the 2008 documentation-photograph evidence record",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008" },
+    "curies": [
+      { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
+    ],
+    "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
+    "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" },
+    "iiif:manifest": {
+      "href": "https://www.metaconceptualart.com/data/iiif/adams-verso-2008/manifest.json",
+      "type": "application/ld+json",
+      "profile": "http://iiif.io/api/presentation/3/context.json"
+    },
+    "collection": { "href": "https://www.metaconceptualart.com/data/linked-art/collection" }
+  }
+}

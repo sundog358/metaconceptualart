@@ -50,7 +50,7 @@
   "referred_to_by": [
     {
       "type": "LinguisticObject",
-      "content": "Evidence status: mixed. Independently verifiable: (1) the public Sotheby's catalogue lot (sale N08533, lot 16) at https://www.sothebys.com/en/auctions/ecatalogue/2009/photographs-n08533/lot.16.html ; (2) a Sun and Rain Works public post carrying the 'WTF is Art' theme, dated 2013-08-29 (X post 373257603108704256), whose date is confirmed independently by the platform's timestamp-encoded ID. Held privately by the studio: the 2008-2009 correspondence, receipts, and photographs. Selected private items can be promoted to public evidence as redaction and rights review are completed.",
+      "content": "Evidence status: mixed. Independently verifiable: (1) the public Sotheby's catalogue lot (sale N08533, lot 16) at https://www.sothebys.com/en/auctions/ecatalogue/2009/photographs-n08533/lot.16.html ; (2) a Sun and Rain Works public post carrying the 'WTF is Art' theme (X post 373257603108704256). Its date is confirmed independently by the platform's timestamp-encoded ID, which decodes to 2013-08-30T01:35:22Z — that is 2013-08-29 at 15:35 in Hawaii-Aleutian Standard Time, the studio's local time, and the post is dated 2013-08-29 on that basis. An auditor decoding the identifier should expect the UTC date to fall on the following day. Held privately by the studio: the 2008-2009 correspondence, receipts, and photographs. Selected private items can be promoted to public evidence as redaction and rights review are completed.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -69,6 +69,22 @@
           "_label": "description"
         }
       ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Part of the documentation described here has since been dated and published as a record in its own right. The art-referential documentation photographs — including the frame composing the print with a volume of Warhol's philosophy — carry camera-written Exif placing them on 2008-08-08, and their close-up of the print's verso agrees in four particulars with the public Sotheby's catalogue entry for lot 16. That material is no longer only studio-reported: see the documentation-photograph evidence record.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: documentation photographs of the Ansel Adams print (August 2008)"
     }
   ],
   "about": [

@@ -1,0 +1,81 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://www.metaconceptualart.com/data/iiif/adams-verso-2008/manifest.json",
+  "type": "Manifest",
+  "label": { "en": ["Verso of the Ansel Adams print, photographed August 2008"] },
+  "summary": {
+    "en": [
+      "A documentation photograph of the verso of a matted Ansel Adams print, exposed on 2008-08-08. The mount carries the printed credit block 'Photograph by Ansel Adams for The American Trust Company', a negative number beginning 1-SF-, a handwritten title beginning 'San Francisco fr...', and a hand-inked annotation 'Wells Fargo Bank,' written over the struck-through word 'THE'. These markings correspond to those recorded in the public Sotheby's catalogue entry for lot 16 of Photographs, sale N08533 (2009)."
+    ]
+  },
+  "rights": "https://creativecommons.org/licenses/by/4.0/",
+  "requiredStatement": {
+    "label": { "en": ["Attribution"] },
+    "value": {
+      "en": [
+        "Documentation photograph: Sun & Rain Works, 2008. CC BY 4.0. The photograph records the verso inscriptions of a print by Ansel Adams; it reproduces no part of the photographic image itself."
+      ]
+    }
+  },
+  "metadata": [
+    {
+      "label": { "en": ["Exposed"] },
+      "value": { "en": ["2008-08-08 (Exif DateTimeOriginal, written at capture)"] }
+    },
+    {
+      "label": { "en": ["Camera"] },
+      "value": { "en": ["FUJIFILM FinePix1300 (firmware Ver1.24)"] }
+    },
+    {
+      "label": { "en": ["Original file"] },
+      "value": { "en": ["DSCF0024.JPG, frame 11 of an 11-frame session"] }
+    },
+    {
+      "label": { "en": ["Corresponds to"] },
+      "value": {
+        "en": [
+          "<a href=\"https://www.sothebys.com/en/auctions/ecatalogue/2009/photographs-n08533/lot.16.html\">Sotheby's Photographs, sale N08533, lot 16</a>"
+        ]
+      }
+    }
+  ],
+  "seeAlso": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008",
+      "type": "Dataset",
+      "label": { "en": ["Linked Art (CIDOC-CRM) evidence record"] },
+      "format": "application/ld+json",
+      "profile": "https://linked.art/ns/v1/linked-art.json"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://www.metaconceptualart.com/data/iiif/adams-verso-2008/canvas/1",
+      "type": "Canvas",
+      "label": { "en": ["Verso credit block and annotations"] },
+      "height": 960,
+      "width": 1280,
+      "items": [
+        {
+          "id": "https://www.metaconceptualart.com/data/iiif/adams-verso-2008/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://www.metaconceptualart.com/data/iiif/adams-verso-2008/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://www.metaconceptualart.com/images/adams-verso-2008.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 960,
+                "width": 1280
+              },
+              "target": "https://www.metaconceptualart.com/data/iiif/adams-verso-2008/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

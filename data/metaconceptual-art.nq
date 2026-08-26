@@ -108,6 +108,7 @@
 <https://www.metaconceptualart.com/data/linked-art/art-market-reform> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r0b3 .
 <https://www.metaconceptualart.com/data/linked-art/art-market-reform> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300215302> .
 <https://www.metaconceptualart.com/data/linked-art/art-market-reform> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300264827> .
+<https://www.metaconceptualart.com/data/linked-art/art-market-reform> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> <https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009> .
 <https://www.metaconceptualart.com/data/linked-art/art-market-reform> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r0b4 .
 <https://www.metaconceptualart.com/data/linked-art/art-market-reform> <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by> _:r0b5 .
 <https://www.metaconceptualart.com/data/linked-art/art-market-reform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object> .
@@ -121,6 +122,7 @@
 <https://www.metaconceptualart.com/data/linked-art/auction-as-artwork> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r1b6 .
 <https://www.metaconceptualart.com/data/linked-art/auction-as-artwork> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300047210> .
 <https://www.metaconceptualart.com/data/linked-art/auction-as-artwork> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300264827> .
+<https://www.metaconceptualart.com/data/linked-art/auction-as-artwork> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> <https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> .
 <https://www.metaconceptualart.com/data/linked-art/auction-as-artwork> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r1b7 .
 <https://www.metaconceptualart.com/data/linked-art/auction-as-artwork> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r1b8 .
 <https://www.metaconceptualart.com/data/linked-art/auction-as-artwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object> .
@@ -139,7 +141,9 @@
 <https://www.metaconceptualart.com/data/linked-art/collection> <https://linked.art/ns/terms/members_exemplified_by> <https://www.metaconceptualart.com/data/linked-art/construction-museum> .
 <https://www.metaconceptualart.com/data/linked-art/collection> <https://linked.art/ns/terms/members_exemplified_by> <https://www.metaconceptualart.com/data/linked-art/eight-sentences> .
 <https://www.metaconceptualart.com/data/linked-art/collection> <https://linked.art/ns/terms/members_exemplified_by> <https://www.metaconceptualart.com/data/linked-art/eightfold-sprocket> .
+<https://www.metaconceptualart.com/data/linked-art/collection> <https://linked.art/ns/terms/members_exemplified_by> <https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> .
 <https://www.metaconceptualart.com/data/linked-art/collection> <https://linked.art/ns/terms/members_exemplified_by> <https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> .
+<https://www.metaconceptualart.com/data/linked-art/collection> <https://linked.art/ns/terms/members_exemplified_by> <https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009> .
 <https://www.metaconceptualart.com/data/linked-art/collection> <https://linked.art/ns/terms/members_exemplified_by> <https://www.metaconceptualart.com/data/linked-art/movement-graph> .
 <https://www.metaconceptualart.com/data/linked-art/collection> <https://linked.art/ns/terms/members_exemplified_by> <https://www.metaconceptualart.com/data/linked-art/movement-record> .
 <https://www.metaconceptualart.com/data/linked-art/collection> <https://linked.art/ns/terms/members_exemplified_by> <https://www.metaconceptualart.com/data/linked-art/site-as-artwork> .
@@ -193,148 +197,195 @@
 <https://www.metaconceptualart.com/data/linked-art/eightfold-sprocket> <https://linked.art/ns/terms/access_point> <https://www.metaconceptualart.com/images/8sprocket.jpg> .
 <https://www.metaconceptualart.com/data/linked-art/eightfold-sprocket> <https://linked.art/ns/terms/digitally_shows> <https://www.metaconceptualart.com/data/linked-art/eightfold-sprocket#visual-item> .
 <https://www.metaconceptualart.com/data/linked-art/eightfold-sprocket> <https://linked.art/ns/terms/member_of> <https://www.metaconceptualart.com/data/linked-art/collection> .
-<https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to> _:r7b0 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008#visual-item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item> .
+<https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008#visual-item> <http://www.w3.org/2000/01/rdf-schema#label> "Verso credit block and inked annotations of the Ansel Adams print" .
+<https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008#visual-item> <https://linked.art/ns/terms/digitally_shown_by> <https://www.metaconceptualart.com/images/adams-verso-2008.jpg> .
+<https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> <http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to> _:r7b0 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> <http://www.cidoc-crm.org/cidoc-crm/P129_is_about> <https://www.metaconceptualart.com/data/linked-art/auction-as-artwork> .
+<https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> <http://www.cidoc-crm.org/cidoc-crm/P129_is_about> <https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009> .
+<https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> <http://www.cidoc-crm.org/cidoc-crm/P129_is_about> <https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009> .
+<https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> <http://www.cidoc-crm.org/cidoc-crm/P129_is_about> <https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams> .
+<https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation> <https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008#visual-item> .
+<https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Sun & Rain Works holds eleven digital photographs, taken in a single session on 2008-08-08, that document a matted black-and-white photographic print in the studio's possession. The sequence records the print recto, the mount, the verso with its backing and hanging wire, and a close-up of the verso credit block. In one frame the print is photographed together with a copy of Andy Warhol's 'The Philosophy of Andy Warhol (From A to B and Back Again)', placed upright and facing the camera. The close-up of the verso shows a printed credit block reading 'Photograph by Ansel Adams for The American Trust Company', a negative number beginning '1-SF-', the beginning of a handwritten title 'San Francisco fr...', and a hand-inked annotation 'Wells Fargo Bank' written over the struck-through word 'THE'. These markings correspond, in four independent particulars, to the markings recorded in the public Sotheby's catalogue entry for lot 16 of Photographs, sale N08533 (2009) - the Ansel Adams print 'San Francisco from Twin Peaks'. The photographs therefore evidence that a print bearing the markings described in the lot-16 catalogue entry was in the studio's possession approximately seven months before that sale, and that it was documented there alongside an art-referential object. They do not establish the identity of the consignor of record, and they establish no precedence over any later artist, work, or event." .
+<https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r7b1 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r7b2 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300026906> .
+<https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055863> .
+<https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300215302> .
+<https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r7b3 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r7b4 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r7b5 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r7b6 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by> _:r7b7 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+<https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> <http://www.w3.org/2000/01/rdf-schema#label> "Evidence archive: documentation photographs of the Ansel Adams print (August 2008)" .
+<https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> <https://linked.art/ns/terms/member_of> <https://www.metaconceptualart.com/data/linked-art/collection> .
+<https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to> _:r8b0 .
 <https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P129_is_about> <https://www.metaconceptualart.com/data/linked-art/auction-as-artwork> .
 <https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P129_is_about> <https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009> .
 <https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P129_is_about> <https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009> .
 <https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P129_is_about> <https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams> .
 <https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P129_is_about> <https://www.metaconceptualart.com/data/linked-art/wtfisart> .
 <https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Sun & Rain Works holds a private archive relating to its 2009 engagement with Sotheby's Photographs (sale N08533) and the associated conceptual works (The Auction as Artwork, WTF is Ansel Adams, and www.wtfisart.com). The archive is reported to contain 2008 correspondence with Sotheby's (outbound and inbound), records of the consignment of an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), domain-registration and hosting receipts for www.wtfisart.com naming Sun & Rain Works, art-referential documentation photographs, and file metadata. These materials evidence the artist identity, the 2008-2009 engagement with Sotheby's, the consignment, contemporaneous conceptual intent, and the public continuity of the 'WTF is Art' concept. They do not, by themselves, record a publicly witnessed live-creation event, and they establish no precedence over any later event. The fuller archive remains held by the studio pending redaction and rights review; no checksums, file hashes, or custody identifiers are published at this time." .
-<https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r7b1 .
-<https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r7b2 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r8b1 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r8b2 .
 <https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300026087> .
 <https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300026906> .
-<https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r7b3 .
-<https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r7b4 .
-<https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by> _:r7b5 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> <https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> .
+<https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r8b3 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r8b4 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r8b5 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by> _:r8b6 .
 <https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
 <https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.w3.org/2000/01/rdf-schema#label> "Evidence archive: Sun & Rain Works auction engagement (2009)" .
 <https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <https://linked.art/ns/terms/member_of> <https://www.metaconceptualart.com/data/linked-art/collection> .
+<https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009> <http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to> _:r9b0 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009> <http://www.cidoc-crm.org/cidoc-crm/P129_is_about> <https://www.metaconceptualart.com/data/linked-art/art-market-reform> .
+<https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009> <http://www.cidoc-crm.org/cidoc-crm/P129_is_about> <https://www.metaconceptualart.com/data/linked-art/wtfisart> .
+<https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Sun & Rain Works holds the WTFIA folder: the working source material it assembled for its website www.wtfisart.com, comprising digital files dated 2008 to 2009. As held, the folder contains four Microsoft Word documents together with associated sets of reference images. The documents are: 'IsItArt.doc', a fourteen-page compilation of roughly four thousand words of excerpts and source links drawn from art-market press published between 2007 and 2009, covering museum deaccessioning, the contraction of the auction market, art-focused hedge funds, and art treated as an asset class, with material attributed to The New York Times, The Daily Telegraph, the Financial Times, The Nation, The Guardian, Deutsche Welle, CathNews, Livemint, The New York Sun, Portfolio.com, and the Los Angeles Times; 'Photographers.doc', a one-page biographical note on the photographer Lee Balterman; and two dealer-network directories built as the site's link content, 'OldMasters.doc', an eight-page directory of Old Master dealers and galleries with their web addresses, and 'Modern.doc', a directory of modern and contemporary galleries in New York, Florida, and California. The accompanying images comprise seventeen art-market and art-trade pictures dated 2009-03-23, showing auction houses, collectors, art fairs, and finance motifs; sixteen art-historical reference plates dated between 2009-01-21 and 2009-01-26; two paintings of the cleansing of the temple dated 2009-01-22; and thirty photographic files dated between 2008-08-07 and 2009-01-21. Together these evidence the material Sun & Rain Works assembled for www.wtfisart.com, and a dated 2008-2009 compilation activity concerned with the art market, the dealer network, and art history. The folder holds no HTML, so it does not by itself record what the website published or when it went live, and it establishes no precedence over any later artist, work, or event." .
+<https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r9b1 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r9b2 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300026087> .
+<https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300026906> .
+<https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055863> .
+<https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r9b3 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r9b4 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r9b5 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009> <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by> _:r9b6 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+<https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009> <http://www.w3.org/2000/01/rdf-schema#label> "Evidence archive: the WTFIA source folder for www.wtfisart.com (2008-2009)" .
+<https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009> <https://linked.art/ns/terms/member_of> <https://www.metaconceptualart.com/data/linked-art/collection> .
 <https://www.metaconceptualart.com/data/linked-art/movement-graph> <http://purl.org/dc/elements/1.1/format> "text/html" .
-<https://www.metaconceptualart.com/data/linked-art/movement-graph> <http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of> _:r8b0 .
-<https://www.metaconceptualart.com/data/linked-art/movement-graph> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r8b2 .
-<https://www.metaconceptualart.com/data/linked-art/movement-graph> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r8b3 .
+<https://www.metaconceptualart.com/data/linked-art/movement-graph> <http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of> _:r10b0 .
+<https://www.metaconceptualart.com/data/linked-art/movement-graph> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r10b2 .
+<https://www.metaconceptualart.com/data/linked-art/movement-graph> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r10b3 .
 <https://www.metaconceptualart.com/data/linked-art/movement-graph> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300391330> .
 <https://www.metaconceptualart.com/data/linked-art/movement-graph> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300419940> .
-<https://www.metaconceptualart.com/data/linked-art/movement-graph> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r8b4 .
-<https://www.metaconceptualart.com/data/linked-art/movement-graph> <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by> _:r8b5 .
+<https://www.metaconceptualart.com/data/linked-art/movement-graph> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r10b4 .
+<https://www.metaconceptualart.com/data/linked-art/movement-graph> <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by> _:r10b5 .
 <https://www.metaconceptualart.com/data/linked-art/movement-graph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object> .
 <https://www.metaconceptualart.com/data/linked-art/movement-graph> <http://www.w3.org/2000/01/rdf-schema#label> "Movement Graph" .
 <https://www.metaconceptualart.com/data/linked-art/movement-graph> <https://linked.art/ns/terms/access_point> <https://www.metaconceptualart.com/explore> .
 <https://www.metaconceptualart.com/data/linked-art/movement-graph> <https://linked.art/ns/terms/member_of> <https://www.metaconceptualart.com/data/linked-art/collection> .
-<https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to> _:r9b0 .
+<https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to> _:r11b0 .
 <https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.cidoc-crm.org/cidoc-crm/P129_is_about> <https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art> .
-<https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of> _:r9b1 .
+<https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of> _:r11b1 .
 <https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "A linked-open-data record arguing that Metaconceptual Art is a natural, credible, and valid movement through genealogy, defined principles, works on view, machine-readable standards, external alignment, and provenance over time." .
-<https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r9b3 .
-<https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r9b4 .
+<https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r11b3 .
+<https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r11b4 .
 <https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300026087> .
 <https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435443> .
-<https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r9b5 .
-<https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by> _:r9b6 .
+<https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r11b5 .
+<https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by> _:r11b6 .
 <https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
 <https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.w3.org/2000/01/rdf-schema#label> "Proof of Movement: Metaconceptual Art" .
 <https://www.metaconceptualart.com/data/linked-art/movement-record> <https://linked.art/ns/terms/member_of> <https://www.metaconceptualart.com/data/linked-art/collection> .
-<https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to> _:r10b0 .
+<https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to> _:r12b0 .
 <https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P129_is_about> <https://www.metaconceptualart.com/data/linked-art/auction-as-artwork> .
 <https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P129_is_about> <https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009> .
 <https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P129_is_about> <https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams> .
 <https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P129_is_about> <https://www.metaconceptualart.com/data/linked-art/wtfisart> .
 <https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Sun & Rain Works asserts a conceptual claim: that in 2009, in connection with the Sotheby's Photographs auction (sale N08533, New York), it designated its auction engagement — the consignment of an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), together with the associated website www.wtfisart.com — as Metaconceptual Art, framed as the work The Auction as Artwork. This is the artist's own designation, made explicit over time. It is not a publicly witnessed live-creation event and has not been adjudicated as a historical fact; the Sotheby's catalogue lists the lot as an Ansel Adams photograph and does not name Sun & Rain Works. This statement makes no claim of being 'first', and does not name, compare against, or dispute any later artist or event; any such comparison would require independent recognition and separately published evidence." .
-<https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r10b1 .
-<https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r10b2 .
+<https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r12b1 .
+<https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r12b2 .
 <https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300026087> .
 <https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435443> .
-<https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r10b3 .
-<https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by> _:r10b4 .
+<https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r12b3 .
+<https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by> _:r12b4 .
 <https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
 <https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009> <http://www.w3.org/2000/01/rdf-schema#label> "Sun & Rain Works' conceptual claim to art at auction (2009)" .
 <https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
 <https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> <https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams> .
 <https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object> <https://www.metaconceptualart.com/data/linked-art/wtfisart> .
-<https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r11b0 .
-<https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r11b1 .
+<https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r13b0 .
+<https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r13b1 .
 <https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300264827> .
-<https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r11b2 .
-<https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r11b3 .
+<https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r13b2 .
+<https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r13b3 .
 <https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P9i_forms_part_of> <https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009> .
 <https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> .
 <https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009> <http://www.w3.org/2000/01/rdf-schema#label> "Sun & Rain Works' auction engagement (Sotheby's Photographs, 2009)" .
 <https://www.metaconceptualart.com/data/linked-art/provenance-publication> <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
 <https://www.metaconceptualart.com/data/linked-art/provenance-publication> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300055863> .
-<https://www.metaconceptualart.com/data/linked-art/provenance-publication> <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r12b0 .
-<https://www.metaconceptualart.com/data/linked-art/provenance-publication> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r12b1 .
-<https://www.metaconceptualart.com/data/linked-art/provenance-publication> <http://www.cidoc-crm.org/cidoc-crm/P9_consists_of> _:r12b2 .
+<https://www.metaconceptualart.com/data/linked-art/provenance-publication> <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r14b0 .
+<https://www.metaconceptualart.com/data/linked-art/provenance-publication> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r14b1 .
+<https://www.metaconceptualart.com/data/linked-art/provenance-publication> <http://www.cidoc-crm.org/cidoc-crm/P9_consists_of> _:r14b2 .
 <https://www.metaconceptualart.com/data/linked-art/provenance-publication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> .
 <https://www.metaconceptualart.com/data/linked-art/provenance-publication> <http://www.w3.org/2000/01/rdf-schema#label> "Publication of Metaconceptual Art (2026)" .
 <https://www.metaconceptualart.com/data/linked-art/site-as-artwork> <http://purl.org/dc/elements/1.1/format> "text/html" .
 <https://www.metaconceptualart.com/data/linked-art/site-as-artwork> <http://purl.org/dc/terms/conformsTo> <https://www.w3.org/TR/html/> .
-<https://www.metaconceptualart.com/data/linked-art/site-as-artwork> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r13b0 .
-<https://www.metaconceptualart.com/data/linked-art/site-as-artwork> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r13b1 .
+<https://www.metaconceptualart.com/data/linked-art/site-as-artwork> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r15b0 .
+<https://www.metaconceptualart.com/data/linked-art/site-as-artwork> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r15b1 .
 <https://www.metaconceptualart.com/data/linked-art/site-as-artwork> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300265431> .
 <https://www.metaconceptualart.com/data/linked-art/site-as-artwork> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300419940> .
-<https://www.metaconceptualart.com/data/linked-art/site-as-artwork> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r13b2 .
-<https://www.metaconceptualart.com/data/linked-art/site-as-artwork> <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by> _:r13b3 .
+<https://www.metaconceptualart.com/data/linked-art/site-as-artwork> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r15b2 .
+<https://www.metaconceptualart.com/data/linked-art/site-as-artwork> <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by> _:r15b3 .
 <https://www.metaconceptualart.com/data/linked-art/site-as-artwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object> .
 <https://www.metaconceptualart.com/data/linked-art/site-as-artwork> <http://www.w3.org/2000/01/rdf-schema#label> "The Website Itself" .
 <https://www.metaconceptualart.com/data/linked-art/site-as-artwork> <https://linked.art/ns/terms/access_point> <https://www.metaconceptualart.com/> .
 <https://www.metaconceptualart.com/data/linked-art/site-as-artwork> <https://linked.art/ns/terms/member_of> <https://www.metaconceptualart.com/data/linked-art/collection> .
 <https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sothebys> .
-<https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r14b0 .
-<https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r14b1 .
+<https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r16b0 .
+<https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r16b1 .
 <https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300054751> .
-<https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r14b2 .
-<https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r14b3 .
-<https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> _:r14b4 .
+<https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r16b2 .
+<https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r16b3 .
+<https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> _:r16b4 .
 <https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> .
 <https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009> <http://www.w3.org/2000/01/rdf-schema#label> "Sotheby's Photographs auction (sale N08533, 2009)" .
-<https://www.metaconceptualart.com/data/linked-art/sothebys> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r15b0 .
-<https://www.metaconceptualart.com/data/linked-art/sothebys> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r15b1 .
-<https://www.metaconceptualart.com/data/linked-art/sothebys> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r15b2 .
+<https://www.metaconceptualart.com/data/linked-art/sothebys> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r17b0 .
+<https://www.metaconceptualart.com/data/linked-art/sothebys> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r17b1 .
+<https://www.metaconceptualart.com/data/linked-art/sothebys> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r17b2 .
 <https://www.metaconceptualart.com/data/linked-art/sothebys> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300025948> .
-<https://www.metaconceptualart.com/data/linked-art/sothebys> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r15b3 .
+<https://www.metaconceptualart.com/data/linked-art/sothebys> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r17b3 .
 <https://www.metaconceptualart.com/data/linked-art/sothebys> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E74_Group> .
 <https://www.metaconceptualart.com/data/linked-art/sothebys> <http://www.w3.org/2000/01/rdf-schema#label> "Sotheby's" .
 <https://www.metaconceptualart.com/data/linked-art/sothebys> <https://linked.art/ns/terms/equivalent> <http://vocab.getty.edu/ulan/500304344> .
 <https://www.metaconceptualart.com/data/linked-art/sothebys> <https://linked.art/ns/terms/equivalent> <http://www.wikidata.org/entity/Q654762> .
-<https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r16b0 .
-<https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r16b1 .
+<https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r18b0 .
+<https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r18b1 .
 <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300025948> .
-<https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r16b2 .
-<https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> <http://www.cidoc-crm.org/cidoc-crm/P95i_was_formed_by> _:r16b3 .
+<https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r18b2 .
+<https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> <http://www.cidoc-crm.org/cidoc-crm/P95i_was_formed_by> _:r18b3 .
 <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E74_Group> .
 <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> <http://www.w3.org/2000/01/rdf-schema#label> "Sun & Rain Works" .
-<https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams> <http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by> _:r17b0 .
-<https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams> <http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of> _:r17b3 .
-<https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r17b5 .
-<https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r17b6 .
+<https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams> <http://www.cidoc-crm.org/cidoc-crm/P108i_was_produced_by> _:r19b0 .
+<https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams> <http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of> _:r19b3 .
+<https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r19b5 .
+<https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r19b6 .
 <https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300121445> .
 <https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300264827> .
 <https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams> <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> <https://www.metaconceptualart.com/data/linked-art/auction-as-artwork> .
-<https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r17b7 .
-<https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r17b8 .
+<https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> <https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008> .
+<https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r19b7 .
+<https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r19b8 .
 <https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object> .
 <https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams> <http://www.w3.org/2000/01/rdf-schema#label> "WTF is Ansel Adams" .
 <https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams> <https://linked.art/ns/terms/member_of> <https://www.metaconceptualart.com/data/linked-art/collection> .
 <https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://purl.org/dc/elements/1.1/format> "text/html" .
 <https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://purl.org/dc/terms/conformsTo> <https://www.w3.org/TR/html/> .
-<https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of> _:r18b0 .
-<https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r18b2 .
-<https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r18b3 .
-<https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r18b4 .
+<https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of> _:r20b0 .
+<https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r20b2 .
+<https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r20b3 .
+<https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r20b4 .
 <https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300264827> .
 <https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300265431> .
 <https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300419940> .
-<https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r18b5 .
-<https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r18b6 .
-<https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r18b7 .
-<https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by> _:r18b8 .
+<https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> <https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009> .
+<https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r20b5 .
+<https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r20b6 .
+<https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r20b7 .
+<https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by> _:r20b8 .
 <https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object> .
 <https://www.metaconceptualart.com/data/linked-art/wtfisart> <http://www.w3.org/2000/01/rdf-schema#label> "www.wtfisart.com" .
 <https://www.metaconceptualart.com/data/linked-art/wtfisart> <https://linked.art/ns/terms/access_point> <https://www.wtfisart.com/> .
 <https://www.metaconceptualart.com/data/linked-art/wtfisart> <https://linked.art/ns/terms/member_of> <https://www.metaconceptualart.com/data/linked-art/collection> .
 <https://www.metaconceptualart.com/explore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object> .
 <https://www.metaconceptualart.com/images/8sprocket.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object> .
+<https://www.metaconceptualart.com/images/adams-verso-2008.jpg> <http://purl.org/dc/elements/1.1/format> "image/jpeg" .
+<https://www.metaconceptualart.com/images/adams-verso-2008.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object> .
+<https://www.metaconceptualart.com/images/adams-verso-2008.jpg> <http://www.w3.org/2000/01/rdf-schema#label> "Documentation photograph of the print verso, 2008-08-08" .
+<https://www.metaconceptualart.com/images/adams-verso-2008.jpg> <https://linked.art/ns/terms/access_point> <https://www.metaconceptualart.com/images/adams-verso-2008.jpg> .
 <https://www.metaconceptualart.com/images/artmarketreform.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object> .
 <https://www.metaconceptualart.com/images/constructionartaiA01.png> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object> .
 <https://www.metaconceptualart.com/movement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object> .
@@ -366,202 +417,219 @@ _:r0b6 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2013-01-01T
 _:r0b6 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2013-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 _:r0b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
 _:r0b6 <http://www.w3.org/2000/01/rdf-schema#label> "2013" .
-_:r10b0 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <https://creativecommons.org/licenses/by/4.0/> .
-_:r10b0 <http://www.cidoc-crm.org/cidoc-crm/P75i_is_possessed_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
-_:r10b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E30_Right> .
-_:r10b0 <http://www.w3.org/2000/01/rdf-schema#label> "CC BY 4.0" .
-_:r10b1 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Sun & Rain Works' conceptual claim to art at auction (2009)" .
-_:r10b1 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
-_:r10b1 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
-_:r10b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .
-_:r10b2 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "record:priority-live-auction-2009" .
-_:r10b2 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
-_:r10b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
-_:r10b3 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Supporting documentation is described at evidence-live-auction-2009 and includes 2008 Sotheby's correspondence and the public catalogue lot. Recommended framing: the artist's asserted conceptual designation of an auction engagement. Avoided claims: 'first in history', publicly witnessed live creation, or precedence over any later artist or event, absent independent recognition and separately published evidence." .
-_:r10b3 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
-_:r10b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r10b4 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
-_:r10b4 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r10b5 .
-_:r10b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
-_:r10b4 <http://www.w3.org/2000/01/rdf-schema#label> "Writing of the conceptual-claim statement" .
-_:r10b5 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r10b5 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r10b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-_:r10b5 <http://www.w3.org/2000/01/rdf-schema#label> "2026" .
-_:r11b0 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Sun & Rain Works' auction engagement (Sotheby's Photographs, 2009)" .
-_:r11b0 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
-_:r11b0 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
-_:r11b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .
-_:r11b1 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "activity:production-live-auction-2009" .
-_:r11b1 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
-_:r11b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
-_:r11b2 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2009-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r11b2 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2009-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r11b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-_:r11b2 <http://www.w3.org/2000/01/rdf-schema#label> "2009" .
-_:r11b3 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Sun & Rain Works' engagement with Sotheby's Photographs, 2009 (sale N08533): the consignment of an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), and the artist's designation of that engagement — together with the associated website www.wtfisart.com — as conceptual works. Sun & Rain Works frames the primary work as The Auction as Artwork, with two associated works, WTF is Ansel Adams and www.wtfisart.com. These designations are assertions by the artist, made explicit over time; they are not publicly witnessed live-creation events, and the Sotheby's catalogue does not name Sun & Rain Works." .
-_:r11b3 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
-_:r11b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r12b0 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r12b0 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r12b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-_:r12b0 <http://www.w3.org/2000/01/rdf-schema#label> "2026" .
-_:r12b1 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Public linked-data publication of selected Metaconceptual Art records in 2026. This publication makes the movement and selected works machine-readable on the open web; it is not the creation date of Sun & Rain Works, the movement, or all portfolio works." .
-_:r12b1 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
-_:r12b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r12b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://linked.art/ns/terms/RightAcquisition> .
-_:r12b2 <http://www.w3.org/2000/01/rdf-schema#label> "Publication under CC BY 4.0, granting the public reuse rights" .
-_:r12b2 <https://linked.art/ns/terms/establishes> _:r12b3 .
-_:r12b3 <http://www.cidoc-crm.org/cidoc-crm/P104i_applies_to> <https://www.metaconceptualart.com/data/linked-art/art-market-reform> .
-_:r12b3 <http://www.cidoc-crm.org/cidoc-crm/P104i_applies_to> <https://www.metaconceptualart.com/data/linked-art/construction-museum> .
-_:r12b3 <http://www.cidoc-crm.org/cidoc-crm/P104i_applies_to> <https://www.metaconceptualart.com/data/linked-art/eight-sentences> .
-_:r12b3 <http://www.cidoc-crm.org/cidoc-crm/P104i_applies_to> <https://www.metaconceptualart.com/data/linked-art/eightfold-sprocket> .
-_:r12b3 <http://www.cidoc-crm.org/cidoc-crm/P104i_applies_to> <https://www.metaconceptualart.com/data/linked-art/movement-graph> .
-_:r12b3 <http://www.cidoc-crm.org/cidoc-crm/P104i_applies_to> <https://www.metaconceptualart.com/data/linked-art/site-as-artwork> .
-_:r12b3 <http://www.cidoc-crm.org/cidoc-crm/P104i_applies_to> <https://www.metaconceptualart.com/data/linked-art/wtfisart> .
-_:r12b3 <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r12b4 .
-_:r12b3 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <https://creativecommons.org/licenses/by/4.0/> .
-_:r12b3 <http://www.cidoc-crm.org/cidoc-crm/P75i_is_possessed_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
-_:r12b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E30_Right> .
-_:r12b3 <http://www.w3.org/2000/01/rdf-schema#label> "CC BY 4.0" .
-_:r12b4 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Creative Commons Attribution 4.0 International" .
-_:r12b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .
-_:r13b0 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The Website Itself" .
+_:r10b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r10b0 <http://www.w3.org/2000/01/rdf-schema#label> "Artwork page" .
+_:r10b0 <https://linked.art/ns/terms/digitally_carried_by> _:r10b1 .
+_:r10b1 <http://purl.org/dc/elements/1.1/format> "text/html" .
+_:r10b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object> .
+_:r10b1 <http://www.w3.org/2000/01/rdf-schema#label> "Metaconceptual Art — Movement Graph" .
+_:r10b1 <https://linked.art/ns/terms/access_point> <https://www.metaconceptualart.com/artworks/movement-graph> .
+_:r10b2 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Movement Graph" .
+_:r10b2 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
+_:r10b2 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
+_:r10b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .
+_:r10b3 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "work:movement-graph" .
+_:r10b3 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
+_:r10b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
+_:r10b4 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The knowledge graph treated as an artwork: relations, authorities, claims, and viewers arranged as a walkable system." .
+_:r10b4 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r10b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r10b5 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
+_:r10b5 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r10b6 .
+_:r10b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
+_:r10b5 <http://www.w3.org/2000/01/rdf-schema#label> "Creation of Movement Graph" .
+_:r10b6 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r10b6 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r10b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+_:r10b6 <http://www.w3.org/2000/01/rdf-schema#label> "2026" .
+_:r11b0 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <https://creativecommons.org/licenses/by/4.0/> .
+_:r11b0 <http://www.cidoc-crm.org/cidoc-crm/P75i_is_possessed_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
+_:r11b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E30_Right> .
+_:r11b0 <http://www.w3.org/2000/01/rdf-schema#label> "CC BY 4.0" .
+_:r11b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r11b1 <http://www.w3.org/2000/01/rdf-schema#label> "Movement Record page" .
+_:r11b1 <https://linked.art/ns/terms/digitally_carried_by> _:r11b2 .
+_:r11b2 <http://purl.org/dc/elements/1.1/format> "text/html" .
+_:r11b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object> .
+_:r11b2 <http://www.w3.org/2000/01/rdf-schema#label> "Metaconceptual Art — Movement Record" .
+_:r11b2 <https://linked.art/ns/terms/access_point> <https://www.metaconceptualart.com/movement> .
+_:r11b3 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Proof of Movement: Metaconceptual Art" .
+_:r11b3 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
+_:r11b3 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
+_:r11b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .
+_:r11b4 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "work:movement-record" .
+_:r11b4 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
+_:r11b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
+_:r11b5 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The Movement Record turns the claim for Metaconceptual Art into a citable textual work and a machine-readable evidence surface. It distinguishes local validity from external canonization while pointing to Linked Art, Wikidata, Getty vocabularies, IIIF, schema.org, and the git-derived Activity Stream." .
+_:r11b5 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r11b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r11b6 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
+_:r11b6 <http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by> <http://www.wikidata.org/entity/Q18692990> .
+_:r11b6 <http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by> <https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art> .
+_:r11b6 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r11b7 .
+_:r11b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
+_:r11b6 <http://www.w3.org/2000/01/rdf-schema#label> "Writing of the Movement Record" .
+_:r11b7 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r11b7 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r11b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+_:r11b7 <http://www.w3.org/2000/01/rdf-schema#label> "2026" .
+_:r12b0 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <https://creativecommons.org/licenses/by/4.0/> .
+_:r12b0 <http://www.cidoc-crm.org/cidoc-crm/P75i_is_possessed_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
+_:r12b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E30_Right> .
+_:r12b0 <http://www.w3.org/2000/01/rdf-schema#label> "CC BY 4.0" .
+_:r12b1 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Sun & Rain Works' conceptual claim to art at auction (2009)" .
+_:r12b1 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
+_:r12b1 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
+_:r12b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .
+_:r12b2 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "record:priority-live-auction-2009" .
+_:r12b2 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
+_:r12b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
+_:r12b3 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Supporting documentation is described at evidence-live-auction-2009 and includes 2008 Sotheby's correspondence and the public catalogue lot. Recommended framing: the artist's asserted conceptual designation of an auction engagement. Avoided claims: 'first in history', publicly witnessed live creation, or precedence over any later artist or event, absent independent recognition and separately published evidence." .
+_:r12b3 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r12b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r12b4 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
+_:r12b4 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r12b5 .
+_:r12b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
+_:r12b4 <http://www.w3.org/2000/01/rdf-schema#label> "Writing of the conceptual-claim statement" .
+_:r12b5 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r12b5 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r12b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+_:r12b5 <http://www.w3.org/2000/01/rdf-schema#label> "2026" .
+_:r13b0 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Sun & Rain Works' auction engagement (Sotheby's Photographs, 2009)" .
 _:r13b0 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
 _:r13b0 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
 _:r13b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .
-_:r13b1 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "work:site-as-artwork" .
+_:r13b1 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "activity:production-live-auction-2009" .
 _:r13b1 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
 _:r13b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
-_:r13b2 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The public page treated as the artwork: a surface where language, navigation, metadata, revision, and viewing conditions become material. The website is one of the work's forms, not a container for it." .
-_:r13b2 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
-_:r13b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r13b3 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
-_:r13b3 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r13b4 .
-_:r13b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
-_:r13b3 <http://www.w3.org/2000/01/rdf-schema#label> "Creation of The Website Itself" .
-_:r13b4 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r13b4 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r13b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-_:r13b4 <http://www.w3.org/2000/01/rdf-schema#label> "2026" .
-_:r14b0 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Sotheby's Photographs auction (sale N08533, 2009)" .
-_:r14b0 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
-_:r14b0 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
-_:r14b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .
-_:r14b1 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "activity:sothebys-photographs-auction-2009" .
-_:r14b1 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
-_:r14b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
-_:r14b2 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2009-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r14b2 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2009-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r14b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-_:r14b2 <http://www.w3.org/2000/01/rdf-schema#label> "2009" .
-_:r14b3 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The public Sotheby's Photographs auction (sale N08533), New York, 2009, carried out by Sotheby's, at which Sun & Rain Works consigned an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16). Sun & Rain Works designates its engagement with this auction as the material of the conceptual work The Auction as Artwork. This record names the real-world event and cites the public catalogue; it does not assert that Sotheby's authored, endorsed, or participated in the artwork, and the catalogue does not name Sun & Rain Works." .
-_:r14b3 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
-_:r14b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r14b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
-_:r14b4 <http://www.w3.org/2000/01/rdf-schema#label> "Sotheby's, New York" .
-_:r15b0 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Sotheby's" .
+_:r13b2 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2009-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r13b2 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2009-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r13b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+_:r13b2 <http://www.w3.org/2000/01/rdf-schema#label> "2009" .
+_:r13b3 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Sun & Rain Works' engagement with Sotheby's Photographs, 2009 (sale N08533): the consignment of an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), and the artist's designation of that engagement — together with the associated website www.wtfisart.com — as conceptual works. Sun & Rain Works frames the primary work as The Auction as Artwork, with two associated works, WTF is Ansel Adams and www.wtfisart.com. These designations are assertions by the artist, made explicit over time; they are not publicly witnessed live-creation events, and the Sotheby's catalogue does not name Sun & Rain Works." .
+_:r13b3 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r13b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r14b0 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r14b0 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r14b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+_:r14b0 <http://www.w3.org/2000/01/rdf-schema#label> "2026" .
+_:r14b1 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Public linked-data publication of selected Metaconceptual Art records in 2026. This publication makes the movement and selected works machine-readable on the open web; it is not the creation date of Sun & Rain Works, the movement, or all portfolio works." .
+_:r14b1 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r14b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r14b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://linked.art/ns/terms/RightAcquisition> .
+_:r14b2 <http://www.w3.org/2000/01/rdf-schema#label> "Publication under CC BY 4.0, granting the public reuse rights" .
+_:r14b2 <https://linked.art/ns/terms/establishes> _:r14b3 .
+_:r14b3 <http://www.cidoc-crm.org/cidoc-crm/P104i_applies_to> <https://www.metaconceptualart.com/data/linked-art/art-market-reform> .
+_:r14b3 <http://www.cidoc-crm.org/cidoc-crm/P104i_applies_to> <https://www.metaconceptualart.com/data/linked-art/construction-museum> .
+_:r14b3 <http://www.cidoc-crm.org/cidoc-crm/P104i_applies_to> <https://www.metaconceptualart.com/data/linked-art/eight-sentences> .
+_:r14b3 <http://www.cidoc-crm.org/cidoc-crm/P104i_applies_to> <https://www.metaconceptualart.com/data/linked-art/eightfold-sprocket> .
+_:r14b3 <http://www.cidoc-crm.org/cidoc-crm/P104i_applies_to> <https://www.metaconceptualart.com/data/linked-art/movement-graph> .
+_:r14b3 <http://www.cidoc-crm.org/cidoc-crm/P104i_applies_to> <https://www.metaconceptualart.com/data/linked-art/site-as-artwork> .
+_:r14b3 <http://www.cidoc-crm.org/cidoc-crm/P104i_applies_to> <https://www.metaconceptualart.com/data/linked-art/wtfisart> .
+_:r14b3 <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r14b4 .
+_:r14b3 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <https://creativecommons.org/licenses/by/4.0/> .
+_:r14b3 <http://www.cidoc-crm.org/cidoc-crm/P75i_is_possessed_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
+_:r14b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E30_Right> .
+_:r14b3 <http://www.w3.org/2000/01/rdf-schema#label> "CC BY 4.0" .
+_:r14b4 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Creative Commons Attribution 4.0 International" .
+_:r14b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .
+_:r15b0 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The Website Itself" .
 _:r15b0 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
 _:r15b0 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
 _:r15b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .
-_:r15b1 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "agent:sothebys" .
+_:r15b1 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "work:site-as-artwork" .
 _:r15b1 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
 _:r15b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
-_:r15b2 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "https://www.sothebys.com/" .
-_:r15b2 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404626> .
-_:r15b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
-_:r15b3 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "International auction house founded in 1744. Named here only as the institution that carried out the Sotheby's Photographs auction (sale N08533), New York, 2009 — the public event that Sun & Rain Works designates as the material of the conceptual work The Auction as Artwork. Recording Sotheby's as the auction's host asserts no partnership, endorsement, or claim against Sotheby's." .
-_:r15b3 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
-_:r15b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r16b0 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Sun & Rain Works" .
+_:r15b2 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The public page treated as the artwork: a surface where language, navigation, metadata, revision, and viewing conditions become material. The website is one of the work's forms, not a container for it." .
+_:r15b2 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r15b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r15b3 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
+_:r15b3 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r15b4 .
+_:r15b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
+_:r15b3 <http://www.w3.org/2000/01/rdf-schema#label> "Creation of The Website Itself" .
+_:r15b4 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r15b4 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r15b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+_:r15b4 <http://www.w3.org/2000/01/rdf-schema#label> "2026" .
+_:r16b0 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Sotheby's Photographs auction (sale N08533, 2009)" .
 _:r16b0 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
 _:r16b0 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
 _:r16b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .
-_:r16b1 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "agent:sun-and-rain-works" .
+_:r16b1 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "activity:sothebys-photographs-auction-2009" .
 _:r16b1 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
 _:r16b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
-_:r16b2 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The art business and studio established in 2005 that authors Metaconceptual Art and holds its copyright." .
-_:r16b2 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
-_:r16b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r16b3 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r16b4 .
-_:r16b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E66_Formation> .
-_:r16b3 <http://www.w3.org/2000/01/rdf-schema#label> "Formation of Sun & Rain Works" .
-_:r16b4 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2005-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r16b4 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2005-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r16b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-_:r16b4 <http://www.w3.org/2000/01/rdf-schema#label> "2005" .
-_:r17b0 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
-_:r17b0 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r17b1 .
-_:r17b0 <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r17b2 .
-_:r17b0 <http://www.cidoc-crm.org/cidoc-crm/P9i_forms_part_of> <https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009> .
-_:r17b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E12_Production> .
-_:r17b0 <http://www.w3.org/2000/01/rdf-schema#label> "Designation of WTF is Ansel Adams" .
-_:r17b1 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2009-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r17b1 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2009-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r17b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-_:r17b1 <http://www.w3.org/2000/01/rdf-schema#label> "2009" .
-_:r17b2 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The work is Sun & Rain Works' conceptual designation connected to the consignment of lot 16 at Sotheby's Photographs, 2009; it is an assertion by the artist and is not recorded as a publicly witnessed performance." .
-_:r17b2 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
-_:r17b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r16b2 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2009-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r16b2 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2009-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r16b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+_:r16b2 <http://www.w3.org/2000/01/rdf-schema#label> "2009" .
+_:r16b3 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The public Sotheby's Photographs auction (sale N08533), New York, 2009, carried out by Sotheby's, at which Sun & Rain Works consigned an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16). Sun & Rain Works designates its engagement with this auction as the material of the conceptual work The Auction as Artwork. This record names the real-world event and cites the public catalogue; it does not assert that Sotheby's authored, endorsed, or participated in the artwork, and the catalogue does not name Sun & Rain Works." .
+_:r16b3 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r16b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r16b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+_:r16b4 <http://www.w3.org/2000/01/rdf-schema#label> "Sotheby's, New York" .
+_:r17b0 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Sotheby's" .
+_:r17b0 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
+_:r17b0 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
+_:r17b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .
+_:r17b1 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "agent:sothebys" .
+_:r17b1 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
+_:r17b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
+_:r17b2 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "https://www.sothebys.com/" .
+_:r17b2 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404626> .
+_:r17b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
+_:r17b3 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "International auction house founded in 1744. Named here only as the institution that carried out the Sotheby's Photographs auction (sale N08533), New York, 2009 — the public event that Sun & Rain Works designates as the material of the conceptual work The Auction as Artwork. Recording Sotheby's as the auction's host asserts no partnership, endorsement, or claim against Sotheby's." .
+_:r17b3 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
 _:r17b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r17b3 <http://www.w3.org/2000/01/rdf-schema#label> "Artwork page" .
-_:r17b3 <https://linked.art/ns/terms/digitally_carried_by> _:r17b4 .
-_:r17b4 <http://purl.org/dc/elements/1.1/format> "text/html" .
-_:r17b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object> .
-_:r17b4 <http://www.w3.org/2000/01/rdf-schema#label> "Metaconceptual Art — WTF is Ansel Adams" .
-_:r17b4 <https://linked.art/ns/terms/access_point> <https://www.metaconceptualart.com/artworks#work-wtf-is-ansel-adams> .
-_:r17b5 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "WTF is Ansel Adams" .
-_:r17b5 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
-_:r17b5 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
-_:r17b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .
-_:r17b6 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "work:wtf-is-ansel-adams" .
-_:r17b6 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
-_:r17b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
-_:r17b7 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "A Metaconceptual Art work that Sun & Rain Works designates around its consignment of the Ansel Adams photograph 'San Francisco from Twin Peaks' (lot 16) to Sotheby's Photographs, 2009 (sale N08533, New York). Titled as a play on the auction and the canonical name of Ansel Adams, it treats the act of bringing the photograph to auction — its lot, its authority, its attribution — as the material of a conceptual work, alongside the born-digital work www.wtfisart.com. The work is a designation asserted by the artist and made explicit over time; it is not recorded as a publicly witnessed performance, and the Sotheby's catalogue lists the lot as an Ansel Adams photograph without naming Sun & Rain Works." .
-_:r17b7 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
-_:r17b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r17b8 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Documentation reported by Sun & Rain Works includes 2008 correspondence with Sotheby's Photographs, the public catalogue lot, photographs, and related records; these evidence the artist identity and the consignment. The fuller archive remains held by the studio pending redaction and rights review. This record asserts no historical-priority or precedence claim absent separately published evidence." .
-_:r17b8 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
-_:r17b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r18b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r18b0 <http://www.w3.org/2000/01/rdf-schema#label> "Artwork page" .
-_:r18b0 <https://linked.art/ns/terms/digitally_carried_by> _:r18b1 .
-_:r18b1 <http://purl.org/dc/elements/1.1/format> "text/html" .
-_:r18b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object> .
-_:r18b1 <http://www.w3.org/2000/01/rdf-schema#label> "Metaconceptual Art - www.wtfisart.com" .
-_:r18b1 <https://linked.art/ns/terms/access_point> <https://www.metaconceptualart.com/artworks/wtfisart> .
-_:r18b10 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The website was built by Sun & Rain Works around 2009 in connection with its Sotheby's Photographs auction engagement; it is not recorded as having been authored live in the auction room." .
-_:r18b10 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
-_:r18b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r18b2 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "www.wtfisart.com" .
-_:r18b2 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
-_:r18b2 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
-_:r18b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .
-_:r18b3 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "work:wtfisart" .
-_:r18b3 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
-_:r18b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
-_:r18b4 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "https://www.wtfisart.com/" .
-_:r18b4 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404626> .
-_:r18b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
-_:r18b5 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "A born-digital Metaconceptual Art work: a website built and owned by Sun & Rain Works around 2009, in connection with its Sotheby's Photographs auction engagement (sale N08533). Sun & Rain Works designates it as an associated part of the conceptual work The Auction as Artwork." .
-_:r18b5 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
-_:r18b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r18b6 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "www.wtfisart.com is associated by Sun & Rain Works with the conceptual work The Auction as Artwork, in which Sun & Rain Works designates its 2009 Sotheby's Photographs auction engagement as art. The designation is an assertion by the artist." .
-_:r18b6 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
-_:r18b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r18b7 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Sun & Rain Works reports domain-registration and hosting receipts, site metadata, and related records documenting the website's existence and date. The fuller archive remains held by the studio pending redaction and rights review." .
-_:r18b7 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
-_:r18b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r18b8 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
-_:r18b8 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r18b9 .
-_:r18b8 <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r18b10 .
-_:r18b8 <http://www.cidoc-crm.org/cidoc-crm/P9i_forms_part_of> <https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009> .
-_:r18b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
-_:r18b8 <http://www.w3.org/2000/01/rdf-schema#label> "Creation of www.wtfisart.com" .
-_:r18b9 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2009-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r18b9 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2009-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r18b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-_:r18b9 <http://www.w3.org/2000/01/rdf-schema#label> "2009" .
+_:r18b0 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Sun & Rain Works" .
+_:r18b0 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
+_:r18b0 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
+_:r18b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .
+_:r18b1 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "agent:sun-and-rain-works" .
+_:r18b1 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
+_:r18b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
+_:r18b2 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The art business and studio established in 2005 that authors Metaconceptual Art and holds its copyright." .
+_:r18b2 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r18b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r18b3 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r18b4 .
+_:r18b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E66_Formation> .
+_:r18b3 <http://www.w3.org/2000/01/rdf-schema#label> "Formation of Sun & Rain Works" .
+_:r18b4 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2005-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r18b4 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2005-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r18b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+_:r18b4 <http://www.w3.org/2000/01/rdf-schema#label> "2005" .
+_:r19b0 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
+_:r19b0 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r19b1 .
+_:r19b0 <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r19b2 .
+_:r19b0 <http://www.cidoc-crm.org/cidoc-crm/P9i_forms_part_of> <https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009> .
+_:r19b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E12_Production> .
+_:r19b0 <http://www.w3.org/2000/01/rdf-schema#label> "Designation of WTF is Ansel Adams" .
+_:r19b1 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2009-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r19b1 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2009-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r19b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+_:r19b1 <http://www.w3.org/2000/01/rdf-schema#label> "2009" .
+_:r19b2 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The work is Sun & Rain Works' conceptual designation connected to the consignment of lot 16 at Sotheby's Photographs, 2009; it is an assertion by the artist and is not recorded as a publicly witnessed performance." .
+_:r19b2 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r19b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r19b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r19b3 <http://www.w3.org/2000/01/rdf-schema#label> "Artwork page" .
+_:r19b3 <https://linked.art/ns/terms/digitally_carried_by> _:r19b4 .
+_:r19b4 <http://purl.org/dc/elements/1.1/format> "text/html" .
+_:r19b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object> .
+_:r19b4 <http://www.w3.org/2000/01/rdf-schema#label> "Metaconceptual Art — WTF is Ansel Adams" .
+_:r19b4 <https://linked.art/ns/terms/access_point> <https://www.metaconceptualart.com/artworks#work-wtf-is-ansel-adams> .
+_:r19b5 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "WTF is Ansel Adams" .
+_:r19b5 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
+_:r19b5 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
+_:r19b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .
+_:r19b6 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "work:wtf-is-ansel-adams" .
+_:r19b6 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
+_:r19b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
+_:r19b7 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "A Metaconceptual Art work that Sun & Rain Works designates around its consignment of the Ansel Adams photograph 'San Francisco from Twin Peaks' (lot 16) to Sotheby's Photographs, 2009 (sale N08533, New York). Titled as a play on the auction and the canonical name of Ansel Adams, it treats the act of bringing the photograph to auction — its lot, its authority, its attribution — as the material of a conceptual work, alongside the born-digital work www.wtfisart.com. The work is a designation asserted by the artist and made explicit over time; it is not recorded as a publicly witnessed performance, and the Sotheby's catalogue lists the lot as an Ansel Adams photograph without naming Sun & Rain Works." .
+_:r19b7 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r19b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r19b8 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Documentation reported by Sun & Rain Works includes 2008 correspondence with Sotheby's Photographs, the public catalogue lot, photographs, and related records; these evidence the artist identity and the consignment. The fuller archive remains held by the studio pending redaction and rights review. This record asserts no historical-priority or precedence claim absent separately published evidence." .
+_:r19b8 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r19b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
 _:r1b0 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
 _:r1b0 <http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by> <https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009> .
 _:r1b0 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r1b1 .
@@ -595,6 +663,45 @@ _:r1b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.o
 _:r1b8 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Documentation reported by Sun & Rain Works includes 2008 correspondence with Sotheby's Photographs, the public catalogue lot, photographs, receipts, and related records; these evidence the artist identity and the consignment. The fuller archive remains held by the studio pending redaction and rights review. This record makes no adjudicated historical-priority claim and asserts no comparison with, or precedence over, any later artist or event absent separately published evidence." .
 _:r1b8 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
 _:r1b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r20b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r20b0 <http://www.w3.org/2000/01/rdf-schema#label> "Artwork page" .
+_:r20b0 <https://linked.art/ns/terms/digitally_carried_by> _:r20b1 .
+_:r20b1 <http://purl.org/dc/elements/1.1/format> "text/html" .
+_:r20b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object> .
+_:r20b1 <http://www.w3.org/2000/01/rdf-schema#label> "Metaconceptual Art - www.wtfisart.com" .
+_:r20b1 <https://linked.art/ns/terms/access_point> <https://www.metaconceptualart.com/artworks/wtfisart> .
+_:r20b10 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The website was built by Sun & Rain Works around 2009 in connection with its Sotheby's Photographs auction engagement; it is not recorded as having been authored live in the auction room." .
+_:r20b10 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r20b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r20b2 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "www.wtfisart.com" .
+_:r20b2 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
+_:r20b2 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
+_:r20b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .
+_:r20b3 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "work:wtfisart" .
+_:r20b3 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
+_:r20b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
+_:r20b4 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "https://www.wtfisart.com/" .
+_:r20b4 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404626> .
+_:r20b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
+_:r20b5 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "A born-digital Metaconceptual Art work: a website built and owned by Sun & Rain Works around 2009, in connection with its Sotheby's Photographs auction engagement (sale N08533). Sun & Rain Works designates it as an associated part of the conceptual work The Auction as Artwork." .
+_:r20b5 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r20b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r20b6 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "www.wtfisart.com is associated by Sun & Rain Works with the conceptual work The Auction as Artwork, in which Sun & Rain Works designates its 2009 Sotheby's Photographs auction engagement as art. The designation is an assertion by the artist." .
+_:r20b6 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r20b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r20b7 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Sun & Rain Works reports domain-registration and hosting receipts, site metadata, and related records documenting the website's existence and date. The fuller archive remains held by the studio pending redaction and rights review." .
+_:r20b7 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r20b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r20b8 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
+_:r20b8 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r20b9 .
+_:r20b8 <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r20b10 .
+_:r20b8 <http://www.cidoc-crm.org/cidoc-crm/P9i_forms_part_of> <https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009> .
+_:r20b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
+_:r20b8 <http://www.w3.org/2000/01/rdf-schema#label> "Creation of www.wtfisart.com" .
+_:r20b9 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2009-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r20b9 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2009-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r20b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+_:r20b9 <http://www.w3.org/2000/01/rdf-schema#label> "2009" .
 _:r2b0 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Metaconceptual Art — Collection" .
 _:r2b0 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
 _:r2b0 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
@@ -722,79 +829,85 @@ _:r7b0 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <https://creativecommons
 _:r7b0 <http://www.cidoc-crm.org/cidoc-crm/P75i_is_possessed_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
 _:r7b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E30_Right> .
 _:r7b0 <http://www.w3.org/2000/01/rdf-schema#label> "CC BY 4.0" .
-_:r7b1 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Evidence archive: Sun & Rain Works auction engagement (2009)" .
+_:r7b1 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Evidence archive: documentation photographs of the Ansel Adams print (August 2008)" .
 _:r7b1 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
 _:r7b1 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
 _:r7b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .
-_:r7b2 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "record:evidence-live-auction-2009" .
+_:r7b2 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "record:evidence-consignment-photographs-2008" .
 _:r7b2 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
 _:r7b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
-_:r7b3 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Evidence status: mixed. Independently verifiable: (1) the public Sotheby's catalogue lot (sale N08533, lot 16) at https://www.sothebys.com/en/auctions/ecatalogue/2009/photographs-n08533/lot.16.html ; (2) a Sun and Rain Works public post carrying the 'WTF is Art' theme, dated 2013-08-29 (X post 373257603108704256), whose date is confirmed independently by the platform's timestamp-encoded ID. Held privately by the studio: the 2008-2009 correspondence, receipts, and photographs. Selected private items can be promoted to public evidence as redaction and rights review are completed." .
+_:r7b3 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Evidence status: independently checkable. Unlike the studio's correspondence and receipts, this record can be tested by any third party without access to private material. The public Sotheby's catalogue entry for sale N08533, lot 16, at https://www.sothebys.com/en/auctions/ecatalogue/2009/photographs-n08533/lot.16.html describes the print as carrying the photographer's 'Photograph by Ansel Adams for The American Trust Company' stamp, as numbered 1-SF-46, as titled, and as annotated 'Wells Fargo Bank' in ink on the reverse by the photographer; the catalogue note explains the annotation as Adams's own correction following the 1960 merger of The American Trust Company into Wells Fargo Bank. Each of those particulars is visible in the studio's 2008 verso photograph, which is published with this record, except that the negative number is legible only as far as '1-SF-' before the right edge of the frame cuts it off; the catalogue's '46' is therefore not visible and is not claimed here. A vertical crease runs through the mount to the left of the number but does not obscure it. The correspondence is therefore in four particulars - the credit stamp, the negative-number series, the inked Wells Fargo annotation over the struck-through article, and the handwritten title - and is not dependent on the studio's own account." .
 _:r7b3 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
 _:r7b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r7b4 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The consignment engagement is corroborated by inbound 2008 correspondence from Sotheby's Photographs (confirming intake logistics and naming the department administrator) and by a shared Hana, HI mailing address linking the consignor to the Sun & Rain Works domain receipts. Contemporaneous conceptual intent is evidenced by art-referential documentation (an Andy Warhol volume juxtaposed with the photograph in images sent to Sotheby's). Each item is scoped to what it shows: these evidence identity, consignment, intent, and the concept's public continuity — not a witnessed live-creation event, and not precedence over any later artist or event." .
+_:r7b4 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Embedded image metadata, as recorded by the camera: all eleven files carry Exif written at capture by a FUJIFILM FinePix1300, reporting the firmware string 'Digital Camera FinePix1300 Ver1.24'. Exif DateTimeOriginal values run from 2008-08-08 00:05:33 to 2008-08-08 00:10:22, a continuous session of under five minutes. The frames are numbered DSCF0012 to DSCF0017 and DSCF0020 to DSCF0024; frames 0018 and 0019 are absent from the sequence. This metadata is written by the camera at exposure and is independent of the filesystem timestamps of the storage medium, which agree with it. It remains studio-held and is not notarized: no checksums, file hashes, or custody identifiers are published at this time, and Exif fields can in principle be altered." .
 _:r7b4 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
 _:r7b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r7b5 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
-_:r7b5 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r7b6 .
-_:r7b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
-_:r7b5 <http://www.w3.org/2000/01/rdf-schema#label> "Compilation of the auction-engagement evidence record" .
-_:r7b6 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r7b6 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r7b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-_:r7b6 <http://www.w3.org/2000/01/rdf-schema#label> "2026" .
-_:r8b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r8b0 <http://www.w3.org/2000/01/rdf-schema#label> "Artwork page" .
-_:r8b0 <https://linked.art/ns/terms/digitally_carried_by> _:r8b1 .
-_:r8b1 <http://purl.org/dc/elements/1.1/format> "text/html" .
-_:r8b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object> .
-_:r8b1 <http://www.w3.org/2000/01/rdf-schema#label> "Metaconceptual Art — Movement Graph" .
-_:r8b1 <https://linked.art/ns/terms/access_point> <https://www.metaconceptualart.com/artworks/movement-graph> .
-_:r8b2 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Movement Graph" .
-_:r8b2 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
-_:r8b2 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
-_:r8b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .
-_:r8b3 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "work:movement-graph" .
-_:r8b3 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
-_:r8b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
-_:r8b4 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The knowledge graph treated as an artwork: relations, authorities, claims, and viewers arranged as a walkable system." .
+_:r7b5 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Contemporaneous conceptual intent. One frame in the sequence, exposed at 2008-08-08 00:08:46, shows the print photographed together with a copy of 'The Philosophy of Andy Warhol (From A to B and Back Again)', stood upright and facing the camera on the same ground. Sun & Rain Works reads this juxtaposition as a deliberate art-referential gesture made at the time of documentation, and as the earliest dated trace of the thinking that became The Auction as Artwork. The scope of that reading should be stated plainly: the photograph evidences that the two objects were deliberately composed in one frame in August 2008. It is not a written designation, it does not by itself establish that the auction engagement was framed as art in 2008 or 2009, and the conceptual designation remains an assertion by the artist made explicit over time." .
+_:r7b5 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r7b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r7b6 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Limits of the correspondence. Ansel Adams produced multiple prints from the 1952 negative, so agreement on the verso markings identifies a print of the same issue and annotation state rather than establishing a unique object beyond question; the strength of the match rests on the combination of particulars, not on any one of them. The photographs show that the print was in the room in which they were taken; the attribution of that room and camera to Sun & Rain Works rests on the studio's custody of the storage medium. The Sotheby's catalogue names no consignor, as is standard auction practice, so the identity of the consignor of record is not established here and is addressed separately in the auction-engagement evidence record." .
+_:r7b6 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r7b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r7b7 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
+_:r7b7 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r7b8 .
+_:r7b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
+_:r7b7 <http://www.w3.org/2000/01/rdf-schema#label> "Compilation of the 2008 documentation-photograph evidence record" .
+_:r7b8 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r7b8 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r7b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+_:r7b8 <http://www.w3.org/2000/01/rdf-schema#label> "2026" .
+_:r8b0 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <https://creativecommons.org/licenses/by/4.0/> .
+_:r8b0 <http://www.cidoc-crm.org/cidoc-crm/P75i_is_possessed_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
+_:r8b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E30_Right> .
+_:r8b0 <http://www.w3.org/2000/01/rdf-schema#label> "CC BY 4.0" .
+_:r8b1 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Evidence archive: Sun & Rain Works auction engagement (2009)" .
+_:r8b1 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
+_:r8b1 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
+_:r8b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .
+_:r8b2 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "record:evidence-live-auction-2009" .
+_:r8b2 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
+_:r8b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
+_:r8b3 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Evidence status: mixed. Independently verifiable: (1) the public Sotheby's catalogue lot (sale N08533, lot 16) at https://www.sothebys.com/en/auctions/ecatalogue/2009/photographs-n08533/lot.16.html ; (2) a Sun and Rain Works public post carrying the 'WTF is Art' theme (X post 373257603108704256). Its date is confirmed independently by the platform's timestamp-encoded ID, which decodes to 2013-08-30T01:35:22Z — that is 2013-08-29 at 15:35 in Hawaii-Aleutian Standard Time, the studio's local time, and the post is dated 2013-08-29 on that basis. An auditor decoding the identifier should expect the UTC date to fall on the following day. Held privately by the studio: the 2008-2009 correspondence, receipts, and photographs. Selected private items can be promoted to public evidence as redaction and rights review are completed." .
+_:r8b3 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r8b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r8b4 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The consignment engagement is corroborated by inbound 2008 correspondence from Sotheby's Photographs (confirming intake logistics and naming the department administrator) and by a shared Hana, HI mailing address linking the consignor to the Sun & Rain Works domain receipts. Contemporaneous conceptual intent is evidenced by art-referential documentation (an Andy Warhol volume juxtaposed with the photograph in images sent to Sotheby's). Each item is scoped to what it shows: these evidence identity, consignment, intent, and the concept's public continuity — not a witnessed live-creation event, and not precedence over any later artist or event." .
 _:r8b4 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
 _:r8b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r8b5 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
-_:r8b5 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r8b6 .
-_:r8b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
-_:r8b5 <http://www.w3.org/2000/01/rdf-schema#label> "Creation of Movement Graph" .
-_:r8b6 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r8b6 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r8b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-_:r8b6 <http://www.w3.org/2000/01/rdf-schema#label> "2026" .
+_:r8b5 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Part of the documentation described here has since been dated and published as a record in its own right. The art-referential documentation photographs — including the frame composing the print with a volume of Warhol's philosophy — carry camera-written Exif placing them on 2008-08-08, and their close-up of the print's verso agrees in four particulars with the public Sotheby's catalogue entry for lot 16. That material is no longer only studio-reported: see the documentation-photograph evidence record." .
+_:r8b5 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r8b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r8b6 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
+_:r8b6 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r8b7 .
+_:r8b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
+_:r8b6 <http://www.w3.org/2000/01/rdf-schema#label> "Compilation of the auction-engagement evidence record" .
+_:r8b7 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r8b7 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r8b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+_:r8b7 <http://www.w3.org/2000/01/rdf-schema#label> "2026" .
 _:r9b0 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <https://creativecommons.org/licenses/by/4.0/> .
 _:r9b0 <http://www.cidoc-crm.org/cidoc-crm/P75i_is_possessed_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
 _:r9b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E30_Right> .
 _:r9b0 <http://www.w3.org/2000/01/rdf-schema#label> "CC BY 4.0" .
-_:r9b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r9b1 <http://www.w3.org/2000/01/rdf-schema#label> "Movement Record page" .
-_:r9b1 <https://linked.art/ns/terms/digitally_carried_by> _:r9b2 .
-_:r9b2 <http://purl.org/dc/elements/1.1/format> "text/html" .
-_:r9b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object> .
-_:r9b2 <http://www.w3.org/2000/01/rdf-schema#label> "Metaconceptual Art — Movement Record" .
-_:r9b2 <https://linked.art/ns/terms/access_point> <https://www.metaconceptualart.com/movement> .
-_:r9b3 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Proof of Movement: Metaconceptual Art" .
-_:r9b3 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
-_:r9b3 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
-_:r9b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .
-_:r9b4 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "work:movement-record" .
-_:r9b4 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
-_:r9b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
-_:r9b5 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The Movement Record turns the claim for Metaconceptual Art into a citable textual work and a machine-readable evidence surface. It distinguishes local validity from external canonization while pointing to Linked Art, Wikidata, Getty vocabularies, IIIF, schema.org, and the git-derived Activity Stream." .
+_:r9b1 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Evidence archive: the WTFIA source folder for www.wtfisart.com (2008-2009)" .
+_:r9b1 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
+_:r9b1 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
+_:r9b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .
+_:r9b2 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "record:evidence-wtfia-2009" .
+_:r9b2 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
+_:r9b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
+_:r9b3 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Evidence status: studio-held, with self-describing file metadata. The dates given here are drawn from filesystem modification times and from the OLE document-summary metadata embedded in the Word files. They are internally consistent across the ninety-seven files in the folder, but they are reported by the files themselves and are not independently notarized; they should be read as the archive's own account of its dates. The press sources excerpted in 'IsItArt.doc' are independently verifiable at their published URLs. No checksums, file hashes, or custody identifiers are published at this time. The same storage medium also holds an unrelated 2009 website project on renewable energy, 'Growing Aloha'; it is outside the boundary of this evidence archive." .
+_:r9b3 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r9b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r9b4 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Embedded document metadata, as recorded by the files themselves: 'IsItArt.doc' gives author Joseph M. Chirum, created 2009-01-22T03:03, last saved 2009-01-28T21:23, revision 21, total editing time 09:46, 14 pages, 4,049 words, 23,082 characters; its Title field carries the string 'August 13, 2007', which is a metadata field value and not, by itself, evidence of a 2007 document. 'Photographers.doc' gives author Joseph M. Chirum, created 2009-01-22T04:19, last saved 2009-01-26T04:15, revision 4, 1 page, 69 words. 'OldMasters.doc' gives created 2009-01-23T18:22, last saved 2009-01-26T20:50, revision 19, 8 pages, 1,263 words. 'Modern.doc' gives created 2009-01-27T13:15, last saved 2009-01-28T03:49, revision 10, and was produced with a different word processor from the other three. A second contributor is recorded in the metadata of all four documents: as the named author of both dealer-network directories, 'OldMasters.doc' and 'Modern.doc', and as the last editor of all four files. That person's name is withheld from this public record pending their consent, and is retained in the studio's private copy; the attribution of the two directories is theirs, not the studio principal's." .
+_:r9b4 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r9b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r9b5 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The folder is named for the 'WTF is Art' concept and holds the material Sun & Rain Works assembled for www.wtfisart.com: the art-market press compilation, the photographer note, and the two dealer-network directories of galleries and their web addresses that were built as the site's link content. Its art-market compilation is the documented source context for the image study Art Market Reform, and the dealer directories are a documented instance of the project's stated interest in an archaeology of the art world. The folder holds no HTML: the built pages of www.wtfisart.com are not among these files, so the folder evidences what was made for the site, not what the site published or when it went live. The folder also contains an Ansel Adams reference image dated 2009-01-21 and a photographer reference note dated 2009-01-25; these show that Ansel Adams and photographic authorship were present in the same 2009 working set, and nothing further. The 2009 Sotheby's consignment is evidenced separately, in the auction-engagement evidence record. Each item here is scoped to what it shows." .
 _:r9b5 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
 _:r9b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
 _:r9b6 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
-_:r9b6 <http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by> <http://www.wikidata.org/entity/Q18692990> .
-_:r9b6 <http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by> <https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art> .
 _:r9b6 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r9b7 .
 _:r9b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
-_:r9b6 <http://www.w3.org/2000/01/rdf-schema#label> "Writing of the Movement Record" .
+_:r9b6 <http://www.w3.org/2000/01/rdf-schema#label> "Compilation of the WTFIA working-folder evidence record" .
 _:r9b7 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 _:r9b7 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 _:r9b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .

@@ -42,6 +42,8 @@
     { "id": "production-live-auction-2009", "type": "Activity", "label": "Sun & Rain Works' auction engagement (Sotheby's Photographs, 2009)" },
     { "id": "evidence-live-auction-2009", "type": "LinguisticObject", "label": "Evidence archive: Sun & Rain Works auction engagement (2009)" },
     { "id": "priority-live-auction-2009", "type": "LinguisticObject", "label": "Sun & Rain Works' conceptual claim to art at auction (2009)" },
+    { "id": "evidence-wtfia-2009", "type": "LinguisticObject", "label": "Evidence archive: the WTFIA source folder for www.wtfisart.com (2008-2009)" },
+    { "id": "evidence-consignment-photographs-2008", "type": "LinguisticObject", "label": "Evidence archive: documentation photographs of the Ansel Adams print (August 2008)" },
     { "id": "sothebys", "type": "Group", "label": "Sotheby's" },
     { "id": "collection", "type": "Set", "label": "Metaconceptual Art — Collection" },
     { "id": "sun-and-rain-works", "type": "Group", "label": "Sun & Rain Works" },
@@ -154,6 +156,22 @@
       "description": "The artist's asserted conceptual designation: that Sun & Rain Works framed its 2009 Sotheby's auction engagement as art. Presented as the artist's position, not an adjudicated historical fact; makes no 'first in history' claim and disputes no later artist or event.",
       "wikidata": null,
       "linkedArt": "data/linked-art/priority-live-auction-2009"
+    },
+    {
+      "id": "record:wtfia-evidence",
+      "type": "Provenance",
+      "label": "Evidence archive: the WTFIA source folder for www.wtfisart.com (2008-2009)",
+      "description": "A record describing the WTFIA folder: the source material Sun & Rain Works assembled for www.wtfisart.com — four Word documents dated January to March 2009 (an art-market press compilation, a photographer note, and the two dealer-network directories built as the site's link content) with sets of art-market, art-historical, and photographic reference images dated 2008-2009. These evidence what was made for the site and the source context for the Art Market Reform image study. The folder holds no HTML, so it does not record what the site published or when it went live. Dates are self-reported by file and document metadata, not independently notarized.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/evidence-wtfia-2009"
+    },
+    {
+      "id": "record:consignment-photographs-2008",
+      "type": "Provenance",
+      "label": "Documentation photographs of the Ansel Adams print (August 2008)",
+      "description": "Eleven photographs exposed in one session on 2008-08-08, carrying camera-written Exif, documenting a matted Ansel Adams print in the studio's possession - recto, mount, verso, and a close-up of the verso credit block. The verso markings agree in four particulars with the public Sotheby's catalogue entry for sale N08533, lot 16: the American Trust Company credit stamp, the 1-SF- negative-number series, the inked 'Wells Fargo Bank' annotation over the struck-through article, and the handwritten title. One frame composes the print with a volume of Warhol's philosophy. Independently checkable against the public catalogue; it does not establish the consignor of record.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/evidence-consignment-photographs-2008"
     },
     {
       "id": "concept:metaconceptual-art",
@@ -359,8 +377,15 @@
     { "from": "record:live-auction-evidence", "relation": "documents", "to": "work:wtf-is-ansel-adams" },
     { "from": "record:live-auction-evidence", "relation": "documents", "to": "source:sothebys-photographs-2009" },
     { "from": "record:live-auction-priority", "relation": "cites", "to": "record:live-auction-evidence" },
+    { "from": "record:wtfia-evidence", "relation": "documents", "to": "work:wtfisart" },
+    { "from": "record:wtfia-evidence", "relation": "documents", "to": "work:art-market-reform" },
     { "from": "record:live-auction-priority", "relation": "asserts_claim_about", "to": "source:sothebys-photographs-2009" },
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:live-auction-evidence" },
+    { "from": "system:provenance-layer", "relation": "produces", "to": "record:wtfia-evidence" },
+    { "from": "system:provenance-layer", "relation": "produces", "to": "record:consignment-photographs-2008" },
+    { "from": "record:consignment-photographs-2008", "relation": "documents", "to": "work:wtf-is-ansel-adams" },
+    { "from": "record:consignment-photographs-2008", "relation": "documents", "to": "work:auction-as-artwork" },
+    { "from": "record:consignment-photographs-2008", "relation": "documents", "to": "source:sothebys-photographs-2009" },
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:live-auction-priority" },
     { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:auction-as-artwork" },
     { "from": "work:auction-as-artwork", "relation": "designates", "to": "source:sothebys-photographs-2009" },
