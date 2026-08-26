@@ -1,0 +1,155 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/evidence-pastebin-2011-2012",
+  "type": "LinguisticObject",
+  "_label": "Evidence archive: public postings of Metaconceptual Art (2011-2012)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Evidence archive: public postings of Metaconceptual Art (2011-2012)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "record:evidence-pastebin-2011-2012",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026087",
+      "type": "Type",
+      "_label": "texts"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300026906",
+      "type": "Type",
+      "_label": "documents"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300055863",
+      "type": "Type",
+      "_label": "provenance"
+    }
+  ],
+  "content": "Two public postings on the text-hosting service Pastebin, made under the account LIVINGART8 and still publicly readable, carry Metaconceptual Art before 2013. The earlier, titled 'The Art World is Flat', was posted on 2011-11-28 at 07:51:51 CDT. It presents a poem which its author introduces as a metaconceptual Art poem written some years earlier and published free to the world that day in honour of Cyber Monday 2011, and it links to a Sun & Rain Works page on Facebook. The later, titled 'MetaConceptual Art', was posted on 2012-11-22 at 23:19:57 CDT. Headed '#WTF is MetaConceptual Art ?!' and carrying the same Facebook link, it sets out 'The 8 Defining characteristics of Metaconceptual Art' as a numbered list of eight sentences. Those eight sentences are the work catalogued in this collection as Eight Sentences On Metaconceptual Art, and they agree with the published text word for word, differing only in a comma, a space, and the spelling of 'Transcendance', later normalised to 'Transcendence'. These postings establish that the term, the eight-part definition, and the studio's attachment of both to Sun & Rain Works were public and fixed in a third party's records on 2012-11-22, and that the term was already in use as a settled description on 2011-11-28.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Evidence status: publicly verifiable on a third-party platform, and the earliest such evidence in this collection. The postings are readable by anyone at https://pastebin.com/AmQ3P87v and https://pastebin.com/18ndp2CF ; both are set never to expire. Their dates are assigned by the platform at the moment of posting and are carried in the page markup as 'Thursday 22nd of November 2012 11:19:57 PM CDT' and 'Monday 28th of November 2011 07:51:51 AM CDT'. Unlike a profile biography, the body of a paste is fixed once posted. The platform also records public circulation: 950 views for the 2012 posting and 433 for the 2011 one at the time of compilation. Nothing here is studio-held, so verification requires no access to the private archive.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Relation to the published Eight Sentences. The 2012 posting is the earliest located instance of the sentence sequence and predates its publication on this site by fourteen years. Its wording is the wording published here, allowing for three trivial variances: 'commodification of Art, and its relationship' has since lost its comma, 'the Art World , and Art History' has lost a space, and 'Transcendance' has been corrected to 'Transcendence'. The persistence of a misspelling across the interval, and its later silent normalisation, are recorded because they are the sort of detail by which a text's descent is traced. The sequence's stated debt to Sol LeWitt's 'Sentences on Conceptual Art' is not present in the 2012 posting and appears to be a later framing.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Limits. Both postings are the artist's own; the platform dates when he said something publicly, not whether what he said was true. They therefore evidence the public existence of the term and its definition at those dates, and nothing about the 2009 auction, which neither posting mentions. The 2011 posting describes its poem as written 'a few years ago', which would place composition somewhere in the late 2000s; that is the artist's own statement, made in 2011 rather than in retrospect from the present, and it narrows but does not close the gap to the asserted 2007 origin. The origin date itself remains unevidenced. Both postings link to a Sun & Rain Works page on Facebook, which has not been examined and may hold earlier material.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "about": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art",
+      "type": "Type",
+      "_label": "Metaconceptual Art (concept)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/eight-sentences",
+      "type": "LinguisticObject",
+      "_label": "Eight Sentences On Metaconceptual Art"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "CC BY 4.0",
+      "classified_as": [
+        {
+          "id": "https://creativecommons.org/licenses/by/4.0/",
+          "type": "Type",
+          "_label": "Attribution 4.0 International (CC BY 4.0)"
+        }
+      ],
+      "possessed_by": [
+        {
+          "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+          "type": "Group",
+          "_label": "Sun & Rain Works"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Compilation of the 2011-2012 public-posting evidence record",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/evidence-pastebin-2011-2012" },
+    "curies": [
+      { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
+    ],
+    "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
+    "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" },
+    "collection": { "href": "https://www.metaconceptualart.com/data/linked-art/collection" }
+  }
+}

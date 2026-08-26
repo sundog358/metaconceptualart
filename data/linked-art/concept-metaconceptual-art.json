@@ -48,7 +48,7 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "The 2007 creation date is asserted by Sun & Rain Works and is not evidenced by any document the studio has so far produced. The earliest dated written declaration of the term located to date is an email of 2013-09-12 delivered to a university art museum, described in the correspondence evidence record; the studio's 2008-2009 working archive contains no occurrence of the word.",
+      "content": "The 2007 creation date is asserted by Sun & Rain Works and is not directly evidenced. The earliest public use of the term located to date is a posting of 2011-11-28, which already treats it as a settled description, and the eight-part definition was posted publicly on 2012-11-22; both are described in the 2011-2012 posting evidence record and are readable on a third-party platform. A written declaration follows on 2013-09-12, delivered to a university art museum. The studio's 2008-2009 working archive contains no occurrence of the word, so the interval between the asserted origin and the first documented use remains open.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -61,6 +61,11 @@
       "id": "https://www.metaconceptualart.com/data/linked-art/evidence-museum-correspondence-2013",
       "type": "LinguisticObject",
       "_label": "Evidence archive: correspondence declaring Metaconceptual Art to a university art museum (2013)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-pastebin-2011-2012",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: public postings of Metaconceptual Art (2011-2012)"
     }
   ],
   "broader": [

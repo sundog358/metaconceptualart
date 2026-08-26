@@ -148,6 +148,11 @@
       "id": "https://www.metaconceptualart.com/data/linked-art/evidence-museum-correspondence-2013",
       "type": "LinguisticObject",
       "_label": "Evidence archive: correspondence declaring Metaconceptual Art to a university art museum (2013)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-pastebin-2011-2012",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: public postings of Metaconceptual Art (2011-2012)"
     }
   ],
   "_links": {
