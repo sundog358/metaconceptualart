@@ -96,17 +96,33 @@ export default function GraphExplorer() {
   const selected = byId.get(selectedId) ?? null;
 
   // Edges touching the selected node, normalised to {node, relation, direction}.
+  // Two nodes can be joined by more than one edge — reciprocal pairs such as
+  // work:site-as-artwork expresses concept:metaconceptual-art alongside
+  // concept:metaconceptual-art evidenced_by work:site-as-artwork — so the
+  // neighbour id alone is not unique. Each connection carries a key built from
+  // the whole edge (direction, relation, neighbour) for React to render by.
   const connections = useMemo(() => {
     if (!graph || !selected) return [];
-    const out: { node: GraphNode; relation: string; outgoing: boolean }[] = [];
+    const out: {
+      node: GraphNode;
+      relation: string;
+      outgoing: boolean;
+      key: string;
+    }[] = [];
     for (const e of graph.edges) {
       if (e.from === selected.id && byId.get(e.to)) {
-        out.push({ node: byId.get(e.to)!, relation: e.relation, outgoing: true });
+        out.push({
+          node: byId.get(e.to)!,
+          relation: e.relation,
+          outgoing: true,
+          key: "out:" + e.relation + ":" + e.to,
+        });
       } else if (e.to === selected.id && byId.get(e.from)) {
         out.push({
           node: byId.get(e.from)!,
           relation: e.relation,
           outgoing: false,
+          key: "in:" + e.relation + ":" + e.from,
         });
       }
     }
@@ -269,7 +285,7 @@ export default function GraphExplorer() {
           >
             {positioned.map((p) => (
               <line
-                key={"edge-" + p.node.id}
+                key={"edge-" + p.key}
                 className="explore-edge"
                 x1={cx}
                 y1={cy}
@@ -279,7 +295,7 @@ export default function GraphExplorer() {
             ))}
             {positioned.map((p) => (
               <text
-                key={"rel-" + p.node.id}
+                key={"rel-" + p.key}
                 className="explore-edge-label"
                 x={cx + (p.x - cx) * 0.58}
                 y={cy + (p.y - cy) * 0.58}
@@ -291,7 +307,7 @@ export default function GraphExplorer() {
             ))}
             {positioned.map((p) => (
               <g
-                key={"node-" + p.node.id}
+                key={"node-" + p.key}
                 className="explore-gnode"
                 transform={"translate(" + p.x + " " + p.y + ")"}
                 role="button"
@@ -346,8 +362,8 @@ export default function GraphExplorer() {
           <div className="explore-block">
             <h4>Connections</h4>
             <ul className="explore-connections">
-              {connections.map((c, i) => (
-                <li key={c.node.id + "-" + i}>
+              {connections.map((c) => (
+                <li key={c.key}>
                   <span className="explore-rel">
                     {c.outgoing ? "→ " + c.relation : "← " + c.relation}
                   </span>
