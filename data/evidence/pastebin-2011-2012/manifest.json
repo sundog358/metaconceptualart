@@ -1,0 +1,67 @@
+{
+  "label": "Preservation capture: public postings of Metaconceptual Art (2011-2012)",
+  "describedBy": "https://www.metaconceptualart.com/data/linked-art/evidence-pastebin-2011-2012",
+  "capturedOn": "2026-08-26",
+  "capturedBy": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "note": "Local copies of two Pastebin postings that carry Metaconceptual Art before 2013. These files are a preservation copy, not the dated source. The evidential weight of the dates rests on Pastebin's own records, which assign a posting timestamp the poster cannot alter; a local file proves only what was retrieved and when. The copies exist because every other source that once carried this material has been lost, and the postings themselves sit on a platform the studio does not control. Verify against the live URLs while they remain available.",
+  "items": [
+    {
+      "key": "AmQ3P87v",
+      "title": "MetaConceptual Art",
+      "url": "https://pastebin.com/AmQ3P87v",
+      "rawUrl": "https://pastebin.com/raw/AmQ3P87v",
+      "postedBy": "LIVINGART8",
+      "postedOn": "Thursday 22nd of November 2012 11:19:57 PM CDT",
+      "postedOnIso": "2012-11-23T04:19:57Z",
+      "expiry": "never",
+      "viewsAtCapture": 950,
+      "carries": "The 8 Defining characteristics of Metaconceptual Art, agreeing word for word with the published Eight Sentences apart from a comma, a space, and the spelling 'Transcendance'.",
+      "files": [
+        {
+          "path": "AmQ3P87v.raw.txt",
+          "bytes": 719,
+          "sha256": "1d2919d832a29c8a1ae9f3bc5e8bb4808908eca4c38dd9df5398be57a5bc3a03",
+          "note": "Paste body as served by the raw endpoint. Carries no date."
+        },
+        {
+          "path": "AmQ3P87v.page.html.txt",
+          "bytes": 20782,
+          "sha256": "76c628c6236db711d27257cfcb9d588b6cfd3b8d4da463e28f992c65ccb9526a",
+          "note": "Rendered page exactly as served, byte for byte. Retained because it carries the platform's own timestamp string, which the raw endpoint omits. Stored with a .txt suffix so this site neither renders it as a page of its own nor resolves the third-party asset links inside it; the bytes and checksum are those of the page as received."
+        }
+      ]
+    },
+    {
+      "key": "18ndp2CF",
+      "title": "The Art World is Flat",
+      "url": "https://pastebin.com/18ndp2CF",
+      "rawUrl": "https://pastebin.com/raw/18ndp2CF",
+      "postedBy": "LIVINGART8",
+      "postedOn": "Monday 28th of November 2011 07:51:51 AM CDT",
+      "postedOnIso": "2011-11-28T12:51:51Z",
+      "expiry": "never",
+      "viewsAtCapture": 433,
+      "carries": "A poem introduced by its author as a metaconceptual Art poem written some years earlier, published in honour of Cyber Monday 2011. The earliest located use of the term.",
+      "files": [
+        {
+          "path": "18ndp2CF.raw.txt",
+          "bytes": 617,
+          "sha256": "db3e60b97757e0a63cf3810756e67d3f0bfd03369f1739c055655ef971410fcd",
+          "note": "Paste body as served by the raw endpoint. Carries no date."
+        },
+        {
+          "path": "18ndp2CF.page.html.txt",
+          "bytes": 20563,
+          "sha256": "8b44098753303b9882da4a2a3b6e07601f4b86edcce270037d3bcafded2921c5",
+          "note": "Rendered page exactly as served, byte for byte. Retained because it carries the platform's own timestamp string, which the raw endpoint omits. Stored with a .txt suffix so this site neither renders it as a page of its own nor resolves the third-party asset links inside it; the bytes and checksum are those of the page as received."
+        }
+      ]
+    }
+  ],
+  "lostSources": [
+    "facebook.com/sunandrainworks - deleted by the studio; no Internet Archive capture exists, as Facebook excludes the crawler. Cited by the 2012 posting as the source of the eight characteristics.",
+    "YouTube videos cited in the 2013 museum correspondence - no longer exist.",
+    "The mailbox from which the 2013 correspondence was sent - closed."
+  ]
+}
