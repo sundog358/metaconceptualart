@@ -45,6 +45,22 @@
           "_label": "description"
         }
       ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The 2007 creation date is asserted by Sun & Rain Works and is not evidenced by any document the studio has so far produced. The earliest dated written declaration of the term located to date is an email of 2013-09-12 delivered to a university art museum, described in the correspondence evidence record; the studio's 2008-2009 working archive contains no occurrence of the word.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-museum-correspondence-2013",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: correspondence declaring Metaconceptual Art to a university art museum (2013)"
     }
   ],
   "broader": [

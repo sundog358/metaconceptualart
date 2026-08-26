@@ -63,9 +63,9 @@
   ],
   "timespan": {
     "type": "TimeSpan",
-    "_label": "2009",
-    "begin_of_the_begin": "2009-01-01T00:00:00Z",
-    "end_of_the_end": "2009-12-31T23:59:59Z"
+    "_label": "30 March 2009",
+    "begin_of_the_begin": "2009-03-30T00:00:00Z",
+    "end_of_the_end": "2009-03-30T23:59:59Z"
   },
   "took_place_at": [
     {

@@ -44,6 +44,7 @@
     { "id": "priority-live-auction-2009", "type": "LinguisticObject", "label": "Sun & Rain Works' conceptual claim to art at auction (2009)" },
     { "id": "evidence-wtfia-2009", "type": "LinguisticObject", "label": "Evidence archive: the WTFIA source folder for www.wtfisart.com (2008-2009)" },
     { "id": "evidence-consignment-photographs-2008", "type": "LinguisticObject", "label": "Evidence archive: documentation photographs of the Ansel Adams print (August 2008)" },
+    { "id": "evidence-museum-correspondence-2013", "type": "LinguisticObject", "label": "Evidence archive: correspondence declaring Metaconceptual Art to a university art museum (2013)" },
     { "id": "sothebys", "type": "Group", "label": "Sotheby's" },
     { "id": "collection", "type": "Set", "label": "Metaconceptual Art — Collection" },
     { "id": "sun-and-rain-works", "type": "Group", "label": "Sun & Rain Works" },
@@ -172,6 +173,14 @@
       "description": "Eleven photographs exposed in one session on 2008-08-08, carrying camera-written Exif, documenting a matted Ansel Adams print in the studio's possession - recto, mount, verso, and a close-up of the verso credit block. The verso markings agree in four particulars with the public Sotheby's catalogue entry for sale N08533, lot 16: the American Trust Company credit stamp, the 1-SF- negative-number series, the inked 'Wells Fargo Bank' annotation over the struck-through article, and the handwritten title. One frame composes the print with a volume of Warhol's philosophy. Independently checkable against the public catalogue; it does not establish the consignor of record.",
       "wikidata": null,
       "linkedArt": "data/linked-art/evidence-consignment-photographs-2008"
+    },
+    {
+      "id": "record:museum-correspondence-2013",
+      "type": "Provenance",
+      "label": "Correspondence declaring Metaconceptual Art to a museum (2013)",
+      "description": "An email thread of 2013-09-12 in which the studio principal set out Metaconceptual Art in writing to the Jordan Schnitzer Museum of Art: the field, its eight defining characteristics, 'Art Market Reform' and 'Art Tax' as works, Sun & Rain Works as the business, and the May 2009 Sotheby's lot 16 consignment as a performance act. The museum acknowledged receipt. Four independent header timestamps, two written by Yahoo's servers and copied into the university's Exchange headers, corroborate the date. The earliest written declaration of the field the studio has produced - a declaration, not an independent finding, and no evidence of the asserted 2007 origin.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/evidence-museum-correspondence-2013"
     },
     {
       "id": "concept:metaconceptual-art",
@@ -386,6 +395,10 @@
     { "from": "record:consignment-photographs-2008", "relation": "documents", "to": "work:wtf-is-ansel-adams" },
     { "from": "record:consignment-photographs-2008", "relation": "documents", "to": "work:auction-as-artwork" },
     { "from": "record:consignment-photographs-2008", "relation": "documents", "to": "source:sothebys-photographs-2009" },
+    { "from": "system:provenance-layer", "relation": "produces", "to": "record:museum-correspondence-2013" },
+    { "from": "record:museum-correspondence-2013", "relation": "documents", "to": "concept:metaconceptual-art" },
+    { "from": "record:museum-correspondence-2013", "relation": "documents", "to": "work:art-market-reform" },
+    { "from": "record:museum-correspondence-2013", "relation": "documents", "to": "work:auction-as-artwork" },
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:live-auction-priority" },
     { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:auction-as-artwork" },
     { "from": "work:auction-as-artwork", "relation": "designates", "to": "source:sothebys-photographs-2009" },

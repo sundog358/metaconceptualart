@@ -80,6 +80,22 @@
           "_label": "description"
         }
       ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The phrase 'made explicit over time' can now be given its earliest located date. On 2013-09-12 the studio principal set the designation down in writing to a university art museum, naming the Sotheby's lot and calling the consignment a performance act of Metaconceptual Art. That letter is the earliest dated articulation of this claim the studio has produced; it is the artist's own declaration, and it postdates the 2009 engagement by four years.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-museum-correspondence-2013",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: correspondence declaring Metaconceptual Art to a university art museum (2013)"
     }
   ],
   "subject_to": [
