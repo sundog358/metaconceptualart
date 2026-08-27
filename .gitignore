@@ -49,3 +49,7 @@ tsconfig.tsbuildinfo
 # by the studio pending redaction and rights review. Individual items are
 # published one at a time, after review — see images/adams-verso-2008.jpg.
 /reference-folders/
+
+# Local denylist of third-party names withheld from the public records.
+# Never commit this: a denylist in a public repo publishes what it protects.
+.pii-denylist

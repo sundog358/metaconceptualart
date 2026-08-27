@@ -1,0 +1,87 @@
+#!/usr/bin/env bash
+#
+# Blocks commits that would publish personal data to this public repository.
+#
+# Everything under data/ is mirrored into the static export and served at
+# metaconceptualart.com, and git history is permanent: once a name or address
+# is committed and pushed, making the repository private later does not undo
+# it. Clones, forks, and caches already exist. So the guard has to be at the
+# commit, not at the visibility setting.
+#
+# Install:  git config core.hooksPath scripts/hooks
+#
+# The evidence records deliberately withhold third-party names pending consent.
+# Those names are NOT listed here: a denylist committed to a public repo would
+# publish exactly what it is meant to protect. Put them one per line in
+# .pii-denylist, which is git-ignored and stays on your machine.
+#
+# Override for a deliberate, reviewed commit:  PII_GUARD=off git commit ...
+
+set -uo pipefail
+
+[ "${PII_GUARD:-on}" = "off" ] && exit 0
+
+files=$(git diff --cached --name-only --diff-filter=ACM)
+[ -z "$files" ] && exit 0
+
+fail=0
+report() {
+  if [ "$fail" -eq 0 ]; then
+    echo
+    echo "  COMMIT BLOCKED - possible personal data in staged changes"
+    echo
+  fi
+  fail=1
+  printf '    %s\n' "$1"
+}
+
+# Addresses that are infrastructure, not people:
+#   - mail-server hostnames inside Message-ID headers, which are load-bearing
+#     evidence in the correspondence record and must survive redaction
+#   - this site's own domain, git forge noreply addresses, doc placeholders
+#   - the redaction marker itself, "[address withheld]@domain"
+allow='users\.noreply\.github\.com|noreply@anthropic\.com|@metaconceptualart\.com|YahooMailNeo@|@ad-cc-mbx01|@web[0-9]+\.mail\.|example\.(com|org)|@sentry\.io|withheld\]@'
+
+for f in $files; do
+  [ -f "$f" ] || continue
+  # skip binaries
+  git diff --cached -- "$f" | head -1 | grep -q "Binary" && continue
+  case "$f" in *.jpg|*.jpeg|*.png|*.gif|*.pdf|*.psd|*.ico|*.woff*) continue;; esac
+
+  added=$(git diff --cached -U0 -- "$f" | grep '^+' | grep -v '^+++' || true)
+  [ -z "$added" ] && continue
+
+  hits=$(printf '%s\n' "$added" \
+    | grep -oiE '[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}' \
+    | grep -viE "$allow" | sort -u || true)
+  if [ -n "$hits" ]; then
+    while IFS= read -r h; do
+      [ -n "$h" ] && report "$f: email address -> $h"
+    done <<< "$hits"
+  fi
+
+  # Local, git-ignored denylist of withheld names.
+  if [ -f .pii-denylist ]; then
+    while IFS= read -r term; do
+      [ -z "$term" ] && continue
+      case "$term" in \#*) continue;; esac
+      if printf '%s\n' "$added" | grep -qiF -- "$term"; then
+        report "$f: withheld term from .pii-denylist"
+      fi
+    done < .pii-denylist
+  fi
+done
+
+if [ "$fail" -eq 1 ]; then
+  cat <<'MSG'
+
+  Everything under data/ is published. Redact before committing, or add the
+  address to the allowlist in scripts/hooks/pre-commit if it is infrastructure
+  rather than a person.
+
+  If this is deliberate and reviewed:  PII_GUARD=off git commit ...
+
+MSG
+  exit 1
+fi
+exit 0

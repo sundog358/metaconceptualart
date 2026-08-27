@@ -131,6 +131,23 @@ npm run build    # static export to out/
 `public/` via [`scripts/prepublic.mjs`](scripts/prepublic.mjs) (the copies are
 git-ignored).
 
+**Enable the personal-data guard** — one line, and worth doing before touching
+`data/evidence/`:
+
+```bash
+git config core.hooksPath scripts/hooks
+```
+
+This repository is public and everything under `data/` is served at
+metaconceptualart.com. The evidence records deliberately withhold third-party
+names pending consent, and git history is permanent — once a name is committed
+and pushed, making the repository private later does not undo it. The
+[pre-commit hook](scripts/hooks/pre-commit) blocks staged changes containing an
+email address (mail-server hostnames inside `Message-ID` headers are allowed,
+since they are load-bearing evidence) or any term in a local `.pii-denylist`.
+That denylist is git-ignored by design: a list of withheld names committed to a
+public repo would publish exactly what it protects.
+
 **Deploy**: connect the repo on [Vercel](https://vercel.com) once — it detects
 Next.js, runs `npm run build`, serves the static export, and applies
 [`vercel.json`](vercel.json) (the Linked Art content negotiation). Every push to
