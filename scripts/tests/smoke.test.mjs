@@ -85,4 +85,13 @@ if (!existsSync(OUT)) {
       assert.ok(existsSync(`${OUT}/${a}`), `${OUT}/${a} exists`);
     });
   }
+  // The extensionless record URI 303s a browser back to the HTML page, so a
+  // page link to it "just reloads the page". Page links must use the .json URL.
+  for (const [file] of ROUTES) {
+    test(`route ${file} links Linked Art records by their .json document URL`, () => {
+      const html = readFileSync(`${OUT}/${file}`, "utf8");
+      const bare = html.match(/href="\/data\/linked-art\/[A-Za-z0-9-]+"/g) ?? [];
+      assert.deepEqual(bare, [], `${file} links extensionless record URIs`);
+    });
+  }
 }

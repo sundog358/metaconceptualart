@@ -45,7 +45,7 @@ export default function ArtworksPage() {
               and conceptual relations. Each work also publishes a{" "}
               <a
                 className="inline-link"
-                href="/data/linked-art/collection"
+                href="/data/linked-art/collection.json"
                 target="_blank"
                 rel="noopener"
               >
@@ -95,7 +95,7 @@ export default function ArtworksPage() {
                     </Link>
                     <a
                       className="linked-art-link"
-                      href={w.linkedArt}
+                      href={w.linkedArt + ".json"}
                       target="_blank"
                       rel="noopener"
                     >

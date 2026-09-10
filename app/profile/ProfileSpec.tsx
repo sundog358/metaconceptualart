@@ -250,7 +250,7 @@ export default function ProfileSpec({ version = "1.0" }: { version?: string }) {
                 </a>
               </li>
               <li>
-                <a className="wd-link" href="/data/linked-art/activity-stream">
+                <a className="wd-link" href="/data/linked-art/activity-stream.json">
                   Activity Stream
                 </a>
               </li>

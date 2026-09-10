@@ -165,7 +165,7 @@ export default function TodaySpotlight() {
           {node.linkedArt ? (
             <a
               className="wd-link"
-              href={"/" + node.linkedArt}
+              href={"/" + node.linkedArt + ".json"}
               target="_blank"
               rel="noopener"
             >

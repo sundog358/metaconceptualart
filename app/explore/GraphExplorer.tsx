@@ -402,7 +402,7 @@ export default function GraphExplorer() {
             ) : null}
             {selected.linkedArt ? (
               <li>
-                <a className="wd-link" href={"/" + selected.linkedArt} target="_blank" rel="noopener">
+                <a className="wd-link" href={"/" + selected.linkedArt + ".json"} target="_blank" rel="noopener">
                   Linked Art record ↗
                 </a>
               </li>

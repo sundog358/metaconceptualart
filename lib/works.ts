@@ -19,7 +19,10 @@ export type Work = {
   textMedia?: string; // label for the text-only media tile (e.g. "01–08")
   sentences?: string[]; // for the textual proposition work
   metadata: { label: string; value: string }[];
-  linkedArt: string; // path to the Linked Art record
+  // Extensionless Linked Art record URI. It is content-negotiated, so a browser
+  // (Accept: text/html) is 303'd back to the HTML page; human-facing "view the
+  // JSON" links append ".json" to reach the JSON-LD document itself.
+  linkedArt: string;
   exploreNode?: string; // graph node id to deep-link into the Explorer
   webUrl?: { href: string; label: string }; // external or work-native web surface
 };

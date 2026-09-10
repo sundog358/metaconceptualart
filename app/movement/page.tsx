@@ -54,7 +54,7 @@ const evidence = [
     proof: `${WORKS.length} catalogued works are published from a shared source of truth and tied to Linked Art records.`,
     links: [
       ["Works index", "/artworks"],
-      ["Collection record", "/data/linked-art/collection"],
+      ["Collection record", "/data/linked-art/collection.json"],
     ],
   },
   {
@@ -63,7 +63,7 @@ const evidence = [
       "The project speaks established museum and web languages: Linked Art, CIDOC-CRM, IIIF, JSON-LD, Wikidata, Getty vocabularies, and schema.org.",
     proof: "Linked Art records dereference through content negotiation, IIIF manifests expose image works, and pages include structured data.",
     links: [
-      ["Linked Art record", "/data/linked-art/concept-metaconceptual-art"],
+      ["Linked Art record", "/data/linked-art/concept-metaconceptual-art.json"],
       ["IIIF manifest", "/data/iiif/construction-museum/manifest.json"],
       ["Linked Art model", "https://linked.art/model/1.0/"],
     ],
@@ -85,10 +85,10 @@ const evidence = [
     proof: "The provenance layer separates origin, evidence, and publication so the movement is not framed as a 2026 hindsight construction.",
     links: [
       ["Origin provenance", "/data/profile/metaconceptual-art-origin-provenance.json"],
-      ["Sun & Rain Works", "/data/linked-art/sun-and-rain-works"],
+      ["Sun & Rain Works", "/data/linked-art/sun-and-rain-works.json"],
       ["Changelog", "/changelog"],
-      ["Activity Stream", "/data/linked-art/activity-stream"],
-      ["Provenance record", "/data/linked-art/provenance-publication"],
+      ["Activity Stream", "/data/linked-art/activity-stream.json"],
+      ["Provenance record", "/data/linked-art/provenance-publication.json"],
     ],
   },
 ];
@@ -230,10 +230,10 @@ export default function MovementPage() {
               authority has already assigned it a public ID.
             </p>
             <div className="proof-records" aria-label="Machine-readable records">
-              <Link href="/data/linked-art/movement-record">
+              <Link href="/data/linked-art/movement-record.json">
                 Movement Record Linked Art
               </Link>
-              <Link href="/data/linked-art/concept-metaconceptual-art">
+              <Link href="/data/linked-art/concept-metaconceptual-art.json">
                 Concept Linked Art record
               </Link>
               <Link href="/data/profile/metaconceptual-art-profile.jsonld">
@@ -248,10 +248,10 @@ export default function MovementPage() {
               <Link href="/data/profile/metaconceptual-art-origin-provenance.json">
                 Origin provenance
               </Link>
-              <Link href="/data/linked-art/collection">
+              <Link href="/data/linked-art/collection.json">
                 Collection Set
               </Link>
-              <Link href="/data/linked-art/activity-stream">
+              <Link href="/data/linked-art/activity-stream.json">
                 Activity Stream
               </Link>
               <Link href="/explore?node=concept:metaconceptual-art">

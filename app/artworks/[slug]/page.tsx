@@ -129,7 +129,7 @@ export default async function WorkPage({
               <li>
                 <a
                   className="wd-link"
-                  href={work.linkedArt}
+                  href={work.linkedArt + ".json"}
                   target="_blank"
                   rel="noopener"
                 >

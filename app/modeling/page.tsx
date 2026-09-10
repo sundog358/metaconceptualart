@@ -34,13 +34,13 @@ const decisions = [
     title: "The Website Is A DigitalObject",
     body:
       "The public site is not a container for the artwork. It is one form of the artwork, so the Linked Art layer models it as a DigitalObject with an HTML access point and a human page alternate.",
-    link: "/data/linked-art/site-as-artwork",
+    link: "/data/linked-art/site-as-artwork.json",
   },
   {
     title: "The Movement Is A Local Type",
     body:
       "Metaconceptual Art is not represented as if Wikidata or Getty had already canonized it. It is modeled as a local Linked Art Type, then connected outward to broader public authorities.",
-    link: "/data/linked-art/concept-metaconceptual-art",
+    link: "/data/linked-art/concept-metaconceptual-art.json",
   },
   {
     title: "Origin And Publication Are Separate",

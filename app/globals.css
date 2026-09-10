@@ -881,6 +881,13 @@ h3 {
   object-fit: cover;
 }
 
+/* The detail page shows the whole work at its own proportions; only the grid
+   cards crop to 4:3. */
+.work-detail .work-image {
+  aspect-ratio: auto;
+  object-fit: contain;
+}
+
 .work-media {
   align-items: center;
   background:
@@ -2162,6 +2169,9 @@ h3 {
 .zoomable img {
   display: block;
   width: 100%;
+  /* Without this the img's height attribute is taken literally (1454px at any
+     width), which overrides aspect-ratio and crops the work to a thin strip. */
+  height: auto;
 }
 
 .zoomable-hint {

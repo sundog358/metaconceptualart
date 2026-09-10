@@ -11,8 +11,9 @@ HTTP endpoint and asserts the *served* behaviour required by the protocol:
   * The returned document's own `id` matches the requested URI.
   * Real content negotiation: a record with a human page returns 303 See Other
     to it on `Accept: text/html`; one without simply returns its JSON-LD.
-  * Canonicalisation: the legacy `.json` URL 301-redirects to the extensionless
-    URI, so each resource has a single identifier.
+  * The `.json` document URL serves the JSON-LD directly — 200 even on
+    `Accept: text/html`, so a browser can open it — and the document's `id` is
+    still the extensionless URI, so each resource keeps a single identifier.
   * OPTIONS preflight returns 2xx with CORS allow-methods including GET.
 
 Records are discovered live from the Activity-Streams collection, so the prober
@@ -129,18 +130,19 @@ def check_resource(base: str, path: str, errors: list[str]) -> None:
     except Exception as exc:  # noqa: BLE001
         errors.append(f"{name}: OPTIONS failed: {exc}")
 
-    # 3. Canonicalisation: .json -> 301 extensionless (skip the AS pages, which
-    #    are themselves named with no record alternate but still 301 cleanly).
+    # 3. Document URL: .json -> 200 JSON-LD on a browser's Accept header (it must
+    #    not negotiate back to HTML, or "view the JSON" links loop to the page),
+    #    and its id is the extensionless identifier, not the .json URL.
     try:
-        jstatus, jresp, _ = request("GET", f"{url}.json", LA_PROFILE)
-        if jstatus != 301:
-            errors.append(f"{name}.json: returned {jstatus}, expected 301 canonical redirect")
-        else:
-            loc = urlsplit(header(jresp, "Location")).path
-            if loc != path:
-                errors.append(f"{name}.json: 301 Location path {loc} != {path}")
+        jstatus, jresp, jbody = request("GET", f"{url}.json", "text/html,*/*;q=0.8")
+        if jstatus != 200:
+            errors.append(f"{name}.json: Accept:text/html returned {jstatus}, expected 200 JSON-LD")
+        elif not header(jresp, "Content-Type").startswith("application/ld+json"):
+            errors.append(f"{name}.json: Content-Type '{header(jresp, 'Content-Type')}' is not application/ld+json")
+        elif urlsplit(json.loads(jbody).get("id", "")).path != path:
+            errors.append(f"{name}.json: document id is not the extensionless URI {path}")
     except Exception as exc:  # noqa: BLE001
-        errors.append(f"{name}.json: canonical redirect check failed: {exc}")
+        errors.append(f"{name}.json: document URL check failed: {exc}")
 
     # 4. Content negotiation on Accept: text/html.
     try:

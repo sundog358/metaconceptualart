@@ -3,10 +3,12 @@
 # Canonical resource URIs are EXTENSIONLESS, e.g.
 #   https://www.metaconceptualart.com/data/linked-art/site-as-artwork
 # The .json files on disk are the representations. This config maps the clean URI
-# to them, negotiates HTML vs JSON-LD per the Accept header, canonicalises away
-# the .json extension, serves the profiled media type with CORS, and answers
-# OPTIONS preflight. A single resource has a single identifier, and that
-# identifier dereferences with real content negotiation.
+# to them, negotiates HTML vs JSON-LD per the Accept header, serves the profiled
+# media type with CORS, and answers OPTIONS preflight. A single resource has a
+# single identifier (the extensionless URI, which is every record's `id`), and
+# that identifier dereferences with real content negotiation. Each representation
+# is also a document with its own URL: the HTML page, and the .json file, which
+# is served as-is (never redirected) so a browser can open the JSON-LD directly.
 #
 # Keep this in sync with .claude/skills/ship/scripts/verify_live.py, which probes
 # exactly these behaviours against a live endpoint (CI runs it against real
@@ -21,12 +23,6 @@ Options -MultiViews
   # CORS preflight: answer OPTIONS with 204 No Content (CORS headers below).
   RewriteCond %{REQUEST_METHOD} =OPTIONS
   RewriteRule ^ - [R=204,L]
-
-  # Canonicalise: an explicit .json request 301s to the extensionless URI, so each
-  # resource has one identifier. Keyed on the literal request line, so the internal
-  # extensionless->.json rewrite below never re-triggers it (no redirect loop).
-  RewriteCond %{THE_REQUEST} \s/+data/linked-art/([A-Za-z0-9-]+)\.json[\s?] [NC]
-  RewriteRule ^[A-Za-z0-9-]+\.json$ /data/linked-art/%1 [R=301,L,NE]
 
   # Content negotiation: when the client prefers HTML and the resource has a human
   # page, 303 See Other to it (abstract resource -> its HTML representation). The

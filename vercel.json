@@ -3,11 +3,6 @@
   "buildCommand": "node scripts/prepublic.mjs && next build",
   "redirects": [
     {
-      "source": "/data/linked-art/:slug.json",
-      "destination": "/data/linked-art/:slug",
-      "statusCode": 301
-    },
-    {
       "source": "/data/linked-art/site-as-artwork",
       "has": [{ "type": "header", "key": "accept", "value": ".*text/html.*" }],
       "destination": "/",
