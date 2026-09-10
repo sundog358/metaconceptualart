@@ -61,11 +61,28 @@ export async function generateMetadata({
   const { slug } = await params;
   const work = getWork(slug);
   if (!work) return {};
+  const url = "/artworks/" + work.slug;
   return {
     title: work.title,
     description: work.summary,
-    alternates: { canonical: "/artworks/" + work.slug },
-    // The co-located opengraph-image.tsx supplies the per-work share card.
+    alternates: { canonical: url },
+    // Without a page-level openGraph the layout's applies, whose og:url is the
+    // homepage — Facebook follows og:url and previews the homepage, not the
+    // work. The co-located opengraph-image.tsx supplies og:image; X reads
+    // twitter:image instead, so point that at the same per-work card.
+    openGraph: {
+      type: "article",
+      siteName: "Metaconceptual Art",
+      title: work.title,
+      description: work.summary,
+      url,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: work.title,
+      description: work.summary,
+      images: [url + "/opengraph-image"],
+    },
   };
 }
 

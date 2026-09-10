@@ -17,6 +17,16 @@ export const metadata: Metadata = {
       "A linked-open-data record for Metaconceptual Art: genealogy, principles, works, standards, external alignment, and provenance.",
     url: "https://www.metaconceptualart.com/movement",
     type: "article",
+    // A page-level openGraph replaces the layout's rather than merging with it,
+    // so the share image must be restated here or crawlers fall back to the logo.
+    images: [
+      {
+        url: "/images/artmarketreform.jpg",
+        width: 2048,
+        height: 1454,
+        alt: "Art Market Reform",
+      },
+    ],
   },
 };
 
