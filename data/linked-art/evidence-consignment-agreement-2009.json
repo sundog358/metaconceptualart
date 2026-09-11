@@ -1,0 +1,203 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/evidence-consignment-agreement-2009",
+  "type": "LinguisticObject",
+  "_label": "Evidence archive: the executed Sotheby's consignment agreement (March 2009)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Evidence archive: the executed Sotheby's consignment agreement (March 2009)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "record:evidence-consignment-agreement-2009",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026906",
+      "type": "Type",
+      "_label": "documents"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300055863",
+      "type": "Type",
+      "_label": "provenance"
+    }
+  ],
+  "content": "The executed consignment agreement between Sotheby's, Inc. and the studio principal for the sale of 30 March 2009, together with the two emails that carried it. On 2009-03-18 the administrator of the Photographs department sent a scanned PDF of the agreement, writing that a signed agreement was required before the photograph could be sold. On 2009-03-19 the studio returned a signed PDF as an attachment named 'JoeArtChirum.pdf', with a covering note hoping the electronic format was suitable. That file is held. It runs to seven scanned pages: a six-page agreement on Sotheby's letterhead, dated 18-Mar-2009, addressed to the studio principal, naming Sotheby's principal auctioneer, carrying the consignor's signature above the line 'Consignor - Accepted and agreed' and a countersignature for Sotheby's, Inc.; and one further page of identity verification. This is the instrument of consignment itself, and the point at which the consignment ceases to be an inference from correspondence. Neither the document nor its terms are published here, for two independent reasons set out below.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Why this document is not published, first reason: it is contractually confidential. The agreement contains an undertaking by the consignor not to disclose its terms to any third party without Sotheby's prior written consent, excepting attorneys and accountants on a need-to-know basis and disclosure compelled by legal process. That undertaking binds the studio now. Accordingly this record states only what the document is, when it was made, who the parties were, and that it was signed by both of them. It gives no commission rate, fee, charge, settlement term, estimate, or reserve drawn from the agreement, and no account, consignment, or licence number appearing on its face. A reader should not infer that those terms are unremarkable or otherwise; the studio has simply not read them into the public record, and would need Sotheby's written consent to do so.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Why this document is not published, second reason: one page of it is a photocopy of a government-issued identity document, supplied for the identity verification the agreement requires. It carries a full legal name, date of birth, licence number, a residential address, physical description, and a photograph. That page will not be published in any form, redacted or otherwise, and the file as a whole is excluded from this repository by rule rather than by care, so that it cannot be committed by accident. The identifiers on it are held in the studio's local list of terms that the commit guard blocks.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The file as held, and what its metadata says. 'JoeArtChirum.pdf', 555,754 bytes, SHA-256 970c8e85bf0931ac8bfed1ab742d7f67247cdb2003c4db4aea99b9b29138eabe. Seven pages, none carrying a text layer: page one is a JPEG-compressed scan at 2548 by 3504 pixels, pages two to seven are bilevel CCITT Group 4 scans at 1274 by 1752. The document information dictionary gives a creator of Adobe Acrobat 7.08 and a producer of its Image Conversion Plug-in, which is what converts scanned images into a PDF. Its creation and modification dates are identical, D:20090319130724-07'00', that is 2009-03-19 at 13:07:24 with a stated offset of seven hours behind UTC. The individual page objects carry their own creation stamps of 13:05:43 and 13:05:44, ninety seconds before the document was assembled, which is the ordinary signature of pages scanned in one pass and then combined. The checksum is published so the held file can later be shown to be the one described here without the file itself being disclosed, following the convention used for the 2013 museum correspondence.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "An apparent discrepancy, recorded rather than smoothed over. The PDF states its creation as 13:07:24 at an offset of UTC minus seven, which is 20:07:24 UTC. The mail client displaying the message that carried it shows a send time of 12:16 in the afternoon of the same day. If that display were in Pacific daylight time, also UTC minus seven, the message would predate its own attachment by fifty-one minutes, which is impossible. The discrepancy is one of rendering, not of substance: a mail client shows times in the timezone configured for the account or the machine viewing it, not the timezone of the sender in 2009. Any setting of UTC minus eight or further west resolves it. The setting has since been observed rather than assumed. The same mailbox's client displays the museum letter of 2008-08-11 as sent at 3:01 PM, although that message's raw Date line reads 16:01:02 at UTC minus seven, which is 23:01 UTC; that is a rendering at UTC minus eight. At the same offset the 12:16 display here is 20:16 UTC, nine minutes after the file was made, which is the order the documents require. This assumes both screenshots were taken with the same client settings, which has not been separately confirmed. The display describes the viewer's settings, not the sender, so it says nothing about where the message was sent from. The point is noted because an auditor comparing the two figures will find it.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What it settles. This collection recorded until now that the identity of the consignor of record was not established, because the published catalogue names no consignor. The consignment correspondence narrowed that; this closes it. A consignment agreement is the instrument by which a consignor consigns property for sale, and here it exists, is dated eleven days before the sale, names the studio principal, and is signed by him and countersigned for the auction house. Two limits still hold and are not affected. The catalogue itself remains silent, so a reader working only from public sources cannot see this; every statement elsewhere in this collection that the catalogue does not name Sun & Rain Works stays correct. The agreement is made in the studio principal's own name rather than the business name, which is what the business form requires and not a separation from it: the opening approach of 2008-08-14 told Sotheby's that its writer was 'the sole proprietor of a fledgeling Art business, Sun and Rain Works', and a sole proprietorship has no legal personality distinct from its proprietor, so it contracts in his name. On the ordinary understanding of that business form, the consignor named on this agreement and the business disclosed to the auction house at first contact are the same legal person. This record states that as the general position for a sole proprietorship rather than as advice on this contract, which is governed by New York law and has not been reviewed by a lawyer for this collection.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What it does not touch. The agreement is a contract for the sale of property at auction and contains nothing about art as a concept, a performance, a designation, or a project. The covering message that returned it carries two art-inflected phrases, a remark that an exception to saving paper is acceptable for the purposes of Art, and a sign-off reading 'Yours in Art'. Both are turns of phrase in a note about file formats. With this exchange the Sotheby's thread reaches eight messages across seven months, from first approach to executed contract, and across all eight nothing frames the consignment as an artwork. That silence is not fatal to the designation this collection records, which is dated to 2013 and evidenced there, and the weight of that silence should not be overstated. Trade correspondence with a cataloguer and an administrator, about estimates, deadlines, shipping and an unreturned signature, is not where an artist would set out a conceptual framing, and the absence of one there is weak evidence about intention. It is worth more that the only letter of this period addressed to an art institution rather than to the trade, the approach to a museum photography department of 2008-08-11, is also the one place in the whole correspondence where a conceptual reading is available. What remains true, and is the actual gap, is that no document of 2008 or 2009 designates the auction as a work; the earliest that does is of 2013.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Redaction and consent. The Sotheby's staff member who sent and chased the agreement is identified by department and role only; the principal auctioneer named on the document's face is not named here either. Their names, the institutional telephone and mailbox details, the studio principal's addresses, and every account, consignment, licence and identity number appearing in the file are withheld and retained in the studio's private copy. Sotheby's holds its own executed counterpart of this agreement. Any publication of the document or of its terms would require that institution's written consent, which has not been sought at the date of this record.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-sothebys-approach-2008",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: the Sotheby's consignment correspondence (2008-2009)"
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The name of the file. The signed agreement was returned to Sotheby's on 2009-03-19 as an attachment called 'JoeArtChirum.pdf'. Read as the three-part personal name its form suggests, that is the consignor's given name, then the word Art where a middle name belongs, then his surname. His actual middle name, which appears on the identity page bound into this same file and is not reproduced here, is not Art. So the word has been substituted into his own name, deliberately, in the filename of the executed consignment contract, and sent under that name to the auction house. This is a different kind of thing from the art-inflected phrases that run through the correspondence. Those are turns of phrase inside messages about appraisal, shipping and file formats. This is an act of self-naming, chosen rather than written in passing, and attached to the single most consequential document of the engagement at the moment of executing it. Alongside 'this happening' in the museum letter of 2008-08-11, it is the strongest contemporaneous indication in this collection that the person carrying out the consignment understood himself to be doing something artistic while doing it.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "How far the filename can be taken, and how far it cannot. It is evidence of self-conception, not of designation. A person may sign himself as an artist in the act of consigning a photograph without thereby making the consignment a work, and nothing in the file, the agreement, or the covering message says that the auction is a work. The reading also has an ordinary competitor: a jaunty filename from a correspondent who elsewhere signs off 'Yours in Art', chosen to be memorable rather than to mean anything. Against that competitor stands the placement, since the substitution falls exactly where a middle name falls and nowhere else, and the moment, since this is the contract rather than a covering note. The studio's own account, recorded in the correspondence record, is that the form of the work required the counterparty not to be told; a signature concealed in a filename is consistent with that account, and consistency is not proof of it. This record states the fact of the substitution and both readings, and chooses neither.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Compilation of the consignment agreement record",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/evidence-consignment-agreement-2009"
+    },
+    "curies": [
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
+    ],
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
+  }
+}

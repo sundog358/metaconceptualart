@@ -1,0 +1,247 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/evidence-sfmoma-approach-2008",
+  "type": "LinguisticObject",
+  "_label": "Evidence archive: the approach to a museum photography department (11 August 2008)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Evidence archive: the approach to a museum photography department (11 August 2008)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "record:evidence-sfmoma-approach-2008",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026906",
+      "type": "Type",
+      "_label": "documents"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300055863",
+      "type": "Type",
+      "_label": "provenance"
+    }
+  ],
+  "content": "An email of 2008-08-11 at 16:01, sent by the studio principal to the photography department of the San Francisco Museum of Modern Art, under the subject 'Ansel Adams Finds Art in SanFrancisco'. It introduces its writer as an artist living in Eugene, Oregon and sole proprietor of an art business named Sun and Rain Works; describes the recent acquisition of a previously unknown Ansel Adams photograph of San Francisco, which the writer then believed to date from 1946; states that he owns it and is researching its historical and artistic significance; reports that he is in contact with people on the Portland art scene willing to appraise it, and with a named individual at an institution he calls the Ansel Adams Museum in San Francisco; says he thought this happening might be of some interest to the museum; describes attached photographs made with a 1.3 megapixel FujiFilm camera; and closes 'For the Love of Art'. It is three days earlier than the approach to Sotheby's, carries the same subject line, and repeats its opening paragraph almost word for word. This is now the earliest contemporaneous document in this collection, and the earliest contemporaneous use of the name Sun and Rain Works. It should not be confused with the earliest attested date for the business, which is earlier and rests on a different kind of source: a market has stated from its own membership records that the business was trading at its stalls in 2005. That statement was made in 2024 about 2005; this letter was written in 2008 and uses the name itself.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Evidence status: held as a screenshot of a mail client, and therefore reported rather than verified. No message file has been examined, no headers or Message-ID inspected, and no checksum is published. The screenshot shows a quoted header block giving sender, recipient, a send time of Monday, August 11, 2008 at 4:01 PM, and the subject. The recipient is an institutional mailbox at a museum which may hold its own copy. The studio put a records request to the museum on 2026-09-01 asking whether its holdings reach this message; no reply had been received when this record was written. If the museum produces a copy, this record moves from reported to institutionally retained, as the 2013 correspondence did, and should be revised accordingly. If the museum searches and finds nothing, that negative finding should be recorded here with its scope stated, as the 2009 negative finding is recorded in the museum correspondence record. No reply from the museum is held, and nothing in this collection shows that the museum answered, acknowledged, or acted on the message. What is evidenced is that the approach was made, not that it was received by any particular person or had any effect.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "A second view of the same message, added 2026-09-10. A further screenshot shows the message itself, open in the sent mail of the same mailbox rather than quoted inside a forward: the same sender, recipient, subject, body and closing, the attachment 'San Francisco.zip' at 3 MB, and a banner recording that the studio forwarded the message on 2024-09-03. Two things follow. First, the original is still held in a live mailbox, so it can be exported as a message file with its full headers and Message-ID, which is the step that would move this record from reported to verified. Second, this view displays the send time as 3:01 PM, an hour earlier than the 4:01 PM of the quoted header block. The raw Date line of the sibling message described below, 'Mon, 11 Aug 2008 16:01:02 -0700', is 23:01 UTC, which a client displays as 4:01 PM at UTC minus seven and as 3:01 PM at UTC minus eight. The difference is therefore the client's display setting, not a second send time: this view renders times at UTC minus eight, although the date falls in Pacific daylight time. A display setting describes the viewer, not the sender, so it says nothing about where the message was written. The calibration is useful beyond this record, because the consignment agreement record has a timestamp that turns on the same client's offset. The 2024 forward is not otherwise documented in this collection.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "It moves two dates. Until this message was produced, the earliest dated instance of the name Sun and Rain Works in this collection was the approach to Sotheby's of 2008-08-14, and the earliest dated event in the auction engagement was the documentation session of 2008-08-08. This letter is dated 2008-08-11, so the name and the self-description as an artist and sole proprietor are now attested three days earlier, and the first documented outreach about the photograph was to a museum rather than to the trade. The order matters and is worth stating plainly: the museum was written to first, the auction house second. It is not a large interval, and both fall in the same week as the photographs.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "A sibling message of the same hour, and the first transmission header in this part of the collection. A further screenshot shows a message the studio forwarded on 2008-08-14 at 12:27 to a photographic-services address, carrying the same attachment, 'San Francisco.zip' at 3 MB. What it quotes beneath is not a rendered client view but a raw header block: sender, the subject 'Ansel Adams Finds Art in SanFrancisco', and 'Date: Mon, 11 Aug 2008 16:01:02 -0700'. Three things in that line check out independently. 11 August 2008 was in fact a Monday. The offset of seven hours behind UTC is Pacific Daylight Time, which is what Oregon was observing in August, agreeing with the Eugene address the letters give. And the clock time of 16:01 is the same minute the museum letter's client view reports. The header is displayed rather than verified from a message file, so this is a stronger class of screenshot rather than a different class of evidence; but a raw Date line with a correct weekday and a correct seasonal offset is materially better than a client's rendering of a date.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "That message is not the museum letter, and the difference should not be glossed. The museum letter opens 'Dear Sir or Madame'; this one opens with the first name of a named individual, and its body is shorter, omitting the paragraphs about ownership, research, the Portland appraisal contacts and the Adams institution. So the studio was sending the same subject line and the same attachment to more than one party within the same minute or two of the same afternoon, varying the salutation and the length. The header therefore corroborates the date, the hour and the timezone of the museum letter without being that letter's own header. Obtaining the museum letter as a message file remains the thing that would verify it directly.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The word 'happening', and how much weight it can bear. The message says: 'I thought that this happening might be of some interest to SF MOMA.' Two readings are available and this record does not choose between them. On the first, 'happening' is the ordinary English noun for an event or occurrence, and the sentence means no more than that the writer thought the situation might interest the museum. On the second, 'happening' is the term of art for a constructed, participatory art event, associated with Allan Kaprow and current in exactly the institutional context being written to, and the sentence offers the situation itself, rather than the object, as the thing of interest. The second reading is available because of who was being addressed: a modern art museum's photography department, by a writer who has just called himself an artist. It is not compelled, because the sentence works perfectly well under the first reading and nothing else in the message develops the idea. This is the closest thing to a contemporaneous conceptual framing of the situation that this collection holds, and it is a single ambiguous word in a letter otherwise concerned with attribution, appraisal and significance.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The competing reading of the week as a whole, which should be weighed against the above. Within a few days in August 2008 the writer photographed the print, approached a museum, approached an auction house, sent the same letter and attachment to at least one further named individual and onward to a photographic-services address, reported contact with appraisers on the Portland art scene, and reported contact with a named person at an Adams institution. That is five or more parties in one week. That is the pattern of someone who believes he has found something valuable and is establishing what it is and what it is worth. The stated purpose in this letter is research into historical and artistic significance, and the appraisal contacts are about value. On that reading the approach to the museum is a request for expertise, which is an ordinary thing to ask a museum for, and carries no artistic intention at all. The breadth of the outreach supports this reading at least as well as the conceptual one, and a record that cited the word 'happening' without citing the surrounding behaviour would be selecting its evidence.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Where the letter went. The photograph is of San Francisco, the subject line places the finding there ('Ansel Adams Finds Art in SanFrancisco'), and the letter went to the modern art museum of that same city. Sun & Rain Works treats this as part of a deliberate framing, and the letter is consistent with that account. It does not discriminate between the two readings above, however: a person researching an Adams photograph of San Francisco would have had every reason to write to that city's museum of modern art first. What it does establish is narrower. The approach was addressed and composed rather than incidental - a chosen institution, a written headline, the same text sent to several parties within the week - which is evidence of deliberate outreach. It is not evidence of an intention, in 2008, to make the outreach an artwork, and should not be read as more.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Two errors in the letter, recorded because they are evidence of the kind of document it is. The writer dates the photograph to 'what appears to be 1946'. The Sotheby's catalogue published seven months later gives 1952, printed probably in the 1950s. An earlier version of this record cited a shortcut file in the studio's archive, whose name carries the year 1946, as contemporaneous corroboration of that belief. That was wrong and is withdrawn: the shortcut was created on 2026-08-20 and points to a file on the present machine, so it records a recent naming choice and evidences nothing about 2008. The 1946 belief is attested by this letter alone, which is sufficient for the purpose - the letter is contemporaneous and states the belief in the writer's own words - and was later corrected by the auction house's cataloguing. Second, the letter reports contact with a named person at 'the Ansel Adams Musem in SanFrancisco'. No institution of that name was operating in San Francisco in 2008: the Ansel Adams Center for Photography, run by the Friends of Photography, closed permanently in 2001 and the organisation dissolved. The writer may have meant a differently named body, or a person formerly associated with that one. Neither error is material to anything this collection claims, and both are the ordinary imprecision of a person writing in real time rather than the tidiness of a document assembled afterwards.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Redaction and scope. The individual named in the letter as a contact at an Adams institution is not named here; that name is withheld pending consent, following this collection's convention, and is retained in the studio's private copy, as are the writer's then-current mailbox and telephone number. The recipient institution is named, because the identity of the body approached is what gives the approach its meaning. No interest, response, endorsement, or acquisition by the San Francisco Museum of Modern Art is claimed or should be inferred: this record evidences an unanswered letter. It establishes nothing about the 2007 origin asserted elsewhere in this collection, and nothing about the auction, which had not been proposed when it was written.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-sothebys-approach-2008",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: the Sotheby's consignment correspondence (2008-2009)"
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The artist's account of the word, recorded as his account and given in 2026. Sun & Rain Works states that the work was made under the influence of the Happenings of the 1960s, and that the word 'happening' in this letter was used in that sense deliberately. The statement differs from the studio's account of the concealment, recorded in the correspondence record, in one respect that matters: that account explained an absence, why nothing was said to the auction house, and could not be checked against anything. This one makes a claim about a specific word in a specific surviving document, and can therefore be set beside it. Two features of the letter are consistent with the account. The recipient is the photography department of a museum of modern art, which is the institutional home of that tradition rather than an incidental choice of correspondent. And the phrasing is marked: a writer meaning only an occurrence would more naturally have offered the museum the discovery or the photograph, whereas this sentence offers 'this happening' as the thing that might interest them, which is the situation rather than the object.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Why that account cannot settle the question it addresses, stated plainly because it is the central difficulty in this collection. What is at issue is whether a framing was present in 2008 or arrived later. An artist's testimony given in 2026 about what he meant in 2008 is not independent of that question: it is the thing being asked about. Memory reconstructs, and it does so sincerely. A person who came to understand an ambiguous choice as deliberate some years after making it will report, honestly and without any intention to mislead, that it was deliberate at the time. Nothing in this record suggests that is what happened here; the point is that this record cannot distinguish it from the alternative, and neither can the testimony, because the two produce identical statements. The account is therefore recorded, weighed as consistent with the document, and treated as carrying little evidential weight of its own. Only something written before the framing was in question could carry more.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "A relevant negative from the working archive. The studio's source folder for www.wtfisart.com, ninety-eight files assembled between August 2008 and March 2009 and searched exhaustively in 2026, contains no occurrence of the word happening, none of performance, and none of conceptual art. Its content is art-market press, dealer directories and art-historical reference plates. If the Happenings of the 1960s were the operative influence in that period, the folder carries no trace of that particular lineage. One qualification belongs here, and it cuts the other way. The folder is not empty of the studio's stated concerns: 'IsItArt.doc' compiles, among its twenty-four press reports, an article quoting Andy Warhol's dictum that good business is the best art - the central idea of the volume the studio had composed into its documentation photographs five months earlier. So a conceptual lineage is present in the contemporaneous papers; it is Warhol and art-as-commerce rather than Kaprow and the Happening. This should not be pressed too far in either direction: the folder was assembled for a website about the art market, and a person does not research what he already knows. But an influence claimed for this period leaves no mark in the only substantial body of the studio's own contemporaneous papers that survives, and a record that omitted that would be selecting its evidence.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Compilation of the museum approach record",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/evidence-sfmoma-approach-2008"
+    },
+    "curies": [
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
+    ],
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
+  }
+}

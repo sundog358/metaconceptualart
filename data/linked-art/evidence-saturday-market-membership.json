@@ -1,0 +1,143 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/evidence-saturday-market-membership",
+  "type": "LinguisticObject",
+  "_label": "Evidence archive: Sun and Rain Works in a market's membership records (2005, 2006, 2008)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Evidence archive: Sun and Rain Works in a market's membership records (2005, 2006, 2008)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "record:evidence-saturday-market-membership",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026906",
+      "type": "Type",
+      "_label": "documents"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300055863",
+      "type": "Type",
+      "_label": "provenance"
+    }
+  ],
+  "content": "A statement made by the Eugene Saturday Market, from its own membership records, that Sun and Rain Works was a member of the market in 2005, 2006 and 2008. The studio wrote to the market on 2024-09-03 asking for access to its historical membership records and receipts; the market's general manager replied on 2024-09-06 with those three years. The Eugene Saturday Market, in Eugene, Oregon, has run weekly since 9 May 1970 and describes itself as the oldest continuously operating weekly open-air crafts market in the United States; its rule is that goods are made and sold by the person who made them. Membership is therefore vendor membership, and what the market's records attest is that a business under this name was making and selling work at its stalls in those years. This is the earliest attestation of the name Sun and Rain Works in this collection, and the only one made by a party other than the studio about a date before 2011.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Evidence status: an institution speaking from its own records, and the earliest such statement in this collection. Its weight comes from three things. The market is not the studio and has no stake in the studio's claims. The years it gives are drawn from membership records it keeps for its own purposes, not from anything the studio supplied to it. And the statement is re-checkable: the market still exists, still holds the records, and can be asked again by anyone. Against that, one limit must be stated. The reply is held only as a screenshot of a mail client; the message itself has not been examined, no headers or checksum are published, and the exchange is therefore reported rather than verified in the way the 2013 museum correspondence has been. Obtaining the message file, or a written statement on the market's letterhead, would close that gap.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What it establishes, and what it does not. It establishes that a business trading as Sun and Rain Works existed and was selling work in Eugene, Oregon in 2005, six years before the earliest public use of the term Metaconceptual Art and three years before the studio's first documented approach to an art institution about the Adams photograph. It removes a question that would otherwise sit under every earlier claim in this collection, which is whether the studio existed as a working art business at the dates it describes. It does not touch Metaconceptual Art at all. A market's membership roll records who paid to sell at its stalls; it says nothing about what anyone thought, wrote, or made, and no part of it evidences the 2007 origin this collection asserts elsewhere. The market's records also say nothing about who held the membership beyond the business name.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "A coincidence, recorded and not interpreted. The years given are 2005, 2006 and 2008. The one year missing from that run is 2007, which is the year this collection asserts as the origin of Metaconceptual Art. Nothing is drawn from this. Market memberships lapse for ordinary reasons - a season away, a change of circumstances, a year not trading - and no document connects the gap to the assertion. It is noted here because a reader comparing the two dates will notice it, and because a record that omitted it would be less honest than one that does not.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Redaction. Following this collection's convention, the market's general manager, who answered the inquiry in an official capacity, is identified by role only; their name, direct mailbox and telephone number are withheld pending consent and retained in the studio's private copy. The organisation itself is named, because the identity of the attesting body is what gives the statement its weight. No endorsement by the Eugene Saturday Market of this project, of Metaconceptual Art, or of any claim in this collection is implied or should be inferred: the market answered a factual question about its own membership records and nothing more.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Compilation of the market membership record",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/evidence-saturday-market-membership"
+    },
+    "curies": [
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
+    ],
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
+  }
+}

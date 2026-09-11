@@ -1,0 +1,393 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/evidence-sothebys-approach-2008",
+  "type": "LinguisticObject",
+  "_label": "Evidence archive: the Sotheby's consignment correspondence (2008-2009)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Evidence archive: the Sotheby's consignment correspondence (2008-2009)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "record:evidence-sothebys-approach-2008",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026906",
+      "type": "Type",
+      "_label": "documents"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300055863",
+      "type": "Type",
+      "_label": "provenance"
+    }
+  ],
+  "content": "A thread of eleven messages between the studio principal and a junior cataloguer in the Photographs department at Sotheby's, New York, running from 2008-08-14 to 2009-03-19, together with the 3 MB attachment sent with the first of them. The studio's opening message introduces its author as an artist living in Eugene, Oregon and sole proprietor of an art business named Sun and Rain Works, states that he owns an Ansel Adams print and is researching its historical and artistic significance, describes the attached photographs as made with a 1.3 megapixel FujiFilm camera, and is signed off 'For the Love of Art'. Sotheby's replies the next day offering to include the print in its April 2009 sale at a provisional estimate of $7,000 to $10,000, gives a consignment deadline of end of January 2009, names its department administrator, and attaches its consignment charges. A month later the cataloguer writes again to ask whether the owner wishes to proceed, naming the work as 'San Francisco from Twin Peaks'. The studio answers the following day that it is interested in consigning, that it is in Hawai'i at the time, and that it will arrange shipment itself. The attachment is held and has been examined; the messages are held as screenshots of a mail client. Two further messages, of 2009-03-11 and 2009-03-12, follow the consignment through to the sale: the department's administrator writes that the catalogue has gone out and that the signed consignment agreement posted in early February has not come back, and the studio replies that the consignment sheet was received and will be faxed, giving a general-delivery address in Eugene and explaining a delay in mail forwarded to Maui.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Evidence status, stated plainly: all four messages are held only as screenshots of a mail client, and are therefore reported rather than verified. No message files have been examined, no Message-IDs or transmission records inspected, and no checksums published, so nothing here establishes by itself that the messages were sent on the dates their client displays. One partial exception is worth noting: the screenshot of the 2008-09-15 reply shows raw header lines rather than a rendered mail view, including a Date of 'Mon, 15 Sep 2008 13:56:41 -0400' and the sender and recipient addresses; that is a header as displayed, not a header as verified. The attachment is a different matter: the file is held and has been examined directly, and what follows keeps the two apart. The counterparty is an institution that may hold its own copies of this thread; none has been requested at the date of this record, and doing so is the single change that would most strengthen it.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The thread, message by message. 2008-08-14, studio to Sotheby's: the approach described above, with the zip attached. 2008-08-15, Sotheby's to studio, opening 'As per our recent conversation': an offer to include the Adams 'San Francisco from Twin Peaks' in the April 2009 sale at a provisional estimate of $7,000 to $10,000, 'bearing in mind that it is in perfect condition'; a deadline of the end of January 2009; an instruction that the print be arranged through the department before sending, since unsolicited packages are turned away; the first name of the administrator who would supply the forms; and an attachment of consignment charges. The phrase 'as per our recent conversation' records a telephone call between the two messages of which nothing else survives. 2008-09-15, Sotheby's to studio, on a header timestamped 13:56:41 -0400: a follow-up asking whether the owner still wishes to consign to the April 2009 auction. 2008-09-16, studio to Sotheby's: confirmation of interest in consigning, a note that the writer is in Hawai'i at that time, and an undertaking to arrange shipment personally.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What the auction house's own words settle. In the 2008-08-15 and 2008-09-15 messages Sotheby's names the object by the exact title under which it was later catalogued as lot 16 of sale N08533, values it, and proposes to sell it for the person it is writing to. That is the auction house, not the studio, attesting the consignment relationship. Taken with the documentation photographs, the verso agreement with the public catalogue entry, and the transmitted attachment, the consignment ceases to be a matter of the studio's account. Two further details follow from the thread. The writer's presence in Hawai'i in September 2008 agrees with the Hawai'i mailing address that links the consignor to the studio's domain records. And the sale was planned throughout this correspondence as an April 2009 sale, whereas N08533 was held on 30 March 2009 - a schedule that moved, and a fact that bears on the misdated month in the 2013 museum letter, which the correspondence record treats separately.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What the thread does not contain. Across six messages spanning seven months, in which the studio had every occasion to say so, nothing frames the consignment as an artwork, a performance, or a conceptual project. The studio's side is an owner's correspondence: research, deadlines, estimates, shipping. The auction house's side is ordinary trade. The two art-inflected touches are the capitalisation of 'the Art' in the closing message and the 'For the Love of Art' sign-off in the first, neither of which asserts anything. This should be weighed carefully rather than either way: the designation this collection records concerns the auction, and while the last two messages fall three weeks before the sale itself, they are administrative: a chase for a signed agreement, and a reply about post. An earlier version of this record said that not one message in the thread mentions art as anything other than the object being sold. That is now withdrawn as too strong: the message of 2008-11-20 describes the matter to the cataloguer as 'this art in progress'. See the note on the register of the correspondence below. The thread is therefore strong evidence of the consignment and of the studio's identity as a working art business, and it is not evidence that the engagement was framed as art at the time.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The consignment agreement, March 2009. On 2009-03-11, nineteen days before the sale, the administrator of the Photographs department writes from a sothebys.com address, on a header timestamped 'Wed, 11 Mar 2009 12:01:52 -0400', under the subject 'in regards to consignment agreement for SOTHEBY'S'. She says the catalogue should have arrived and that she hopes the recipient is pleased with the presentation of 'your photograph'; that the sale is rapidly approaching and no signed consignment agreement has come back; that she posted it at the very beginning of February; and that she will issue a new one if needed. Her signature block carries the department's sale line, 'Photographs March 30, 2009'. The following day the studio replies that the consignment sheet was received but the catalogue was not, that the sheets will be faxed, and that post is reaching a general-delivery address in Eugene because forwarding to Maui has been slow. The administrator who writes here is the member of staff the 2008 offer letter said would supply the consignment forms, so the two ends of the thread name the same person.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The consignor of record. This collection has until now recorded that the identity of the consignor was not established, on the ground that the published catalogue names no consignor, as is standard auction practice. That caveat can now be narrowed. In these two messages the auction house's own Photographs department, writing to the studio principal's mailbox nineteen days before the sale, calls the object 'your photograph', refers to 'your catalogue' and to 'your consignment agreement', and chases the signed agreement it had posted in February; the studio answers that it holds the consignment sheet and will return it. A consignment agreement is the instrument by which a consignor consigns. Two things should still be said. The signed agreement itself is not held and is not published here, so what is evidenced is the auction house treating this person as its consignor, rather than the executed contract. And the catalogue remains silent on the point, so a reader working only from the public record still cannot see it. That is why the statements elsewhere in this collection that the catalogue does not name Sun & Rain Works are correct, and they are left standing.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Location, across the whole run of evidence. The 2008 opening message gives Eugene, Oregon. The market membership record places the same business at stalls in Eugene in 2005, 2006 and 2008. In September 2008 the studio writes from Hawai'i. In March 2009 it is receiving post at a general delivery address in Eugene while mail is being forwarded, slowly, to Maui. The Hawai'i mailing address that links the consignor to the studio's domain records is on Maui. These are four documents, two of them from third parties, describing one person moving between the same two places across four years, and they agree with each other. Personal addresses are withheld here.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The attachment as held. 'San Francisco.zip', 3,553,357 bytes, SHA-256 227328da2ffe06ef140d79515499ddf1451a5669abaf20c9f9e70d384ed36c43. It contains twelve entries: the eleven documentation frames DSCF0012 to DSCF0017 and DSCF0020 to DSCF0024, and a Windows thumbnail cache. Frames 0018 and 0019 are absent, the same gap the documentation-photograph record notes in the studio's loose copies. Every one of the twelve is byte-for-byte identical to the corresponding file in the studio's private source archive, so the archive's copies and the transmitted copies are the same data. The archive carries Info-ZIP UNIX extra fields, header id 0x5855, holding access and modification times as Unix epoch integers; these decode to 2008-08-08 07:05:36Z through 07:10:24Z for the eleven frames. Those are unambiguous UTC values, unlike the local-time fields a zip normally carries, and they sit seven hours after the camera's own Exif clock, an offset equal to Pacific Daylight Time, the zone of the Eugene, Oregon address the message gives.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Four independent agreements between the message and the photographs, each checkable. The message describes the attached photographs as made with a 1.3 megapixel FujiFilm camera; the frames carry camera-written Exif naming a FUJIFILM FinePix1300 and measure 1280 by 960 pixels, which is 1.23 megapixels, the rating the model is sold under. The message shows an attachment of 3 MB; the eleven frames and the thumbnail cache occupy 3,553,357 bytes, which a mail client displays as 3 MB. The message is dated 2008-08-14; the frames are dated 2008-08-08, six days earlier. The attachment is named for San Francisco; the lot is titled 'San Francisco from Twin Peaks'. This is the first point in the collection at which camera-written metadata on a studio-held file is corroborated by a separate document rather than only by itself. The corroboration is not independent of the studio, since both artifacts come from it, but it is independent of the files: the caveat that Exif can in principle be altered would now require the message to have been fabricated to match it.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What the archive cannot do. A zip file carries the timestamps of the files put into it, not a record of when it was made, so this one cannot date its own creation and does not by itself establish that anything was sent in 2008. Its container fingerprint is worth recording because it is unexpected: create-system 3 with Info-ZIP UNIX extra fields means the archive was written by Info-ZIP tooling on a Unix-like system, not by the Windows compressed-folder command, although the thumbnail cache inside it shows the source folder was a Windows one. Whether that reflects the machine used in 2008 or a later repackaging is not determinable from the file. The honest position is that the attachment corroborates the content of the message and the dating of the photographs, and that the date of transmission rests on the client display alone until the message itself is examined.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The Warhol frame was transmitted. DSCF0020, exposed at 00:08:46 by the camera's clock, shows a copy of 'The Philosophy of Andy Warhol (From A to B and Back Again)' stood upright and facing the camera against the framed print. The documentation-photograph record already described this frame and read it as the earliest dated trace of the thinking that became The Auction as Artwork. The attachment establishes something further about it: the frame was not kept in the studio. It went to the auction house, inside the set of photographs attached to the first approach. The message says nothing about the book. So what is evidenced is that an art-historical reference was deliberately composed into documentation sent to Sotheby's, and left unremarked. That is a gesture made outward rather than a private note, which is more than the record could previously say. It remains short of a designation: the message frames the print as property being researched, not as material of a work, and the auction that the designation concerns did not yet exist in August 2008.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Redaction and scope. Following this collection's convention, the Sotheby's specialist addressed in the message is identified by department and role only; their name and mailbox are withheld pending consent, as are the studio principal's then-current personal mailbox and telephone number, all of which are retained in the studio's private copy. The sothebys.com domain is deliberately retained, because the fact of an approach to that institution is the point of the record. The recipient institution may hold its own copy of this message; none has been requested at the date of this record. What this record establishes is an approach, an identity, and a set of photographs. It establishes no acceptance, valuation, or endorsement by Sotheby's, no consignor of record, and nothing about the 2007 origin asserted elsewhere in this collection.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: documentation photographs of the Ansel Adams print (August 2008)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-saturday-market-membership",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: Sun and Rain Works in a market's membership records (2005, 2006, 2008)"
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The thread continues to an executed contract. On 2009-03-18 the department sent a scanned consignment agreement, stating that a signed agreement was required before the photograph could be sold, and on 2009-03-19 the studio returned it signed as a PDF attachment. That file is held. It is described, checksummed and deliberately left unpublished in the consignment agreement record, which also sets out the two reasons it cannot be published: a confidentiality undertaking in the agreement itself, and a page of government identity documentation inside it.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-consignment-agreement-2009",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: the executed Sotheby's consignment agreement (March 2009)"
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The business was disclosed at first contact, and what that does and does not carry. The opening message to the auction house, of 2008-08-14, introduces its writer, in its first two sentences and before it reaches the photograph, as an artist living in Eugene, Oregon and as 'the sole proprietor of a fledgeling Art business, Sun and Rain Works'. So the auction house was told at the outset, in the same message that raised the print, that it was dealing with a working art business and with the person who was that business. Three consequences follow, and they should be kept apart. First, the name Sun and Rain Works is attached to this engagement from its first minute, not applied to it afterwards. Second, because a sole proprietorship has no legal personality separate from its proprietor, the consignment agreement executed in the proprietor's own name seven months later is the agreement of that business, made in the only name in which such a business can contract; the earlier statement in this collection that the contract evidences an individual rather than a business drew a distinction this business form does not support, and has been corrected. Third, and against the grain of the first two, the message does not say that the business is consigning anything. No consignment existed on 2008-08-14: the auction house made its offer the following day and the studio accepted a month after that. What the message states about the property is personal ownership and research. The business is the writer's declared identity in the exchange, not a stated party to a transaction that had not yet been proposed.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The estimate agrees with the published catalogue, and anyone can check it. In the offer of 2008-08-15 the cataloguer proposed a provisional estimate of $7,000 to $10,000. The public catalogue entry for lot 16 of sale N08533, published some seven months later, carries an estimate of $7,000 to $10,000. That is a figure quoted in private correspondence before the catalogue existed, matching the figure the auction house later printed. It is the second point at which this studio-held correspondence can be tested against the public record without access to the archive, the first being the agreement of the verso markings in the 2008 photographs with the catalogue's physical description. The catalogue also prints the negative number 1-SF-46 and the American Trust Company commission, both of which appear in the studio's documentation.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The outcome of the sale is not recorded anywhere in this collection, and should not be assumed. The public catalogue page for lot 16 shows that bidding is closed but places the result behind an account login, so whether the lot sold, at what price, or whether it was bought in or withdrawn, is not established by any source held or consulted here. Nothing in this collection asserts a result, and no reader should infer one. The studio has been advised to ask the auction house for written confirmation of the outcome as part of a records request; until that is answered, the sale result remains an open question of fact.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "An earlier letter of the same week has since been produced, and it displaces part of what this record says about firsts. On 2008-08-11, three days before the approach to Sotheby's and under an identical subject line, the studio wrote to the photography department of the San Francisco Museum of Modern Art, repeating the same opening paragraph almost word for word. The earliest dated use of the name Sun and Rain Works in this collection is therefore that letter, not this one, and the first documented outreach about the photograph was to a museum rather than to the trade. This record remains the first approach to the auction house.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-sfmoma-approach-2008",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: the approach to a museum photography department (11 August 2008)"
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The artist's account of the concealment, recorded as his account and given in 2026. Sun & Rain Works states that the work was conceived under the influence of the Merry Pranksters, and that disclosing a conceptual framing to the auction house would have destroyed the form: the counterparty's unawareness is, on this account, part of the work rather than a gap in it. The proposition is coherent and it is locally grounded, since Ken Kesey farmed at Pleasant Hill, some fifteen miles from the Eugene market where the studio was trading in the same years. It also disposes of an argument that appeared in earlier versions of these records: the absence of any art framing in eight messages of trade correspondence carries little weight, because that correspondence is with a cataloguer and an administrator about estimates, deadlines and signatures, and is not where such a framing would be put in any case. Two limits are recorded alongside it. The account is testimony given seventeen years after the events and is not contemporaneous evidence of what was intended in 2008 or 2009. And the model it invokes cuts both ways: the Pranksters concealed the prank from its subject while documenting it obsessively for themselves, so an appeal to that lineage explains the silence toward Sotheby's without explaining the silence in the studio's own contemporaneous papers, where the WTFIA folder of ninety-seven files, worked on until the week before the sale, never mentions the consignment. That internal absence remains the open question, and no account of the external one reaches it.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Two further messages extend the thread through the autumn of 2008. On 2008-09-17, on a raw header reading 'Wed, 17 Sep 2008 09:45:03 -0400', the cataloguer writes that there is no rush, that the deadline is January 2009, that cataloguing for the April sale begins in November, and that she will put the consignor in touch with the department's administrator, whom she names, because a code is required for the item to be admitted to the building and unsolicited packages are refused. She adds a personal line about having holidayed in the islands when her family lived in California. On 2008-11-20 the consignor replies, opening 'Aloha Lauren', about the shipment of the photograph from San Francisco to New York for the spring sale, weighing whether to send it in its existing frame with the glass in place or to have a professional framer remove the glass to reduce the risk of damage in transit. He gives a post-office box on Maui as his mailing address. The header's weekday and its offset of four hours behind UTC, which is Eastern Daylight Time in September, are both correct.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Two identifications the thread now settles. The administrator whose first name appears in the offer letter of 2008-08-15, and who chases the signed agreement in March 2009, is named in full by the cataloguer on 2008-09-17, so the same member of staff runs through the correspondence from the first offer to the executed contract. And the Maui post-office box given on 2008-11-20 is the Hawai'i mailing address that the auction-engagement record describes as linking the consignor to the studio's domain and hosting receipts. That link had rested on the studio's own account of its papers; it is now visible in a message to the auction house. The box number itself is withheld here, as personal address data, and retained in the studio's private copy.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The register of the correspondence, weighed as a whole. The claim that this thread is purely commercial cannot be sustained in its strongest form. Across the eleven messages now known, and to three different recipients, the consignor's own language is persistently art-inflected: the museum letter of 2008-08-11 offers 'this happening' as something that might interest the institution; the approach to the auction house closes 'For the Love of Art'; the acceptance of 2008-09-16 capitalises 'the Art'; the message of 2008-11-20 speaks of 'the upcoming spring Art auction' and of 'this art in progress'; the covering note returning the signed agreement in March 2009 allows an exception to saving paper 'for the purposes of Art' and signs off 'Yours in Art'. That is six instances over seven months, in a consistent voice, and it is not the voice of a person disposing of an asset. To them should be added an act rather than a phrase: the signed consignment agreement was returned in a file named for the consignor with the word Art standing where his middle name belongs, which the consignment agreement record treats separately. What it is not, equally, is a designation. Every one of these is a turn of phrase inside a message about appraisal, shipping, glass removal or file formats, and 'art in progress' is at least as readable as the ordinary sense of an art matter currently underway as it is in the sense of a work being made. The honest position is that the correspondence carries a sustained artistic self-presentation and no statement that the auction is a work. Both halves of that should be reported by anyone citing this record.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The Warhol frame, and a loop that closes inside the studio's own contemporaneous papers. The volume composed with the print in DSCF0020, and transmitted with the other ten frames to a museum on 2008-08-11 and to the auction house on 2008-08-14, is 'The Philosophy of Andy Warhol (From A to B and Back Again)'. That book is the source of the best-known statement of art as commerce: its Business Art section runs 'I wanted to be an art business man or a business artist. Being good in business is the most fascinating kind of art', and continues 'making money is art and working is art and good business is the best art'. Two things follow that are matters of record rather than interpretation. First, the letters carrying those photographs introduce their writer, in their second sentence, as the sole proprietor of an art business - the position Warhol's passage names. Second, five months later the studio compiled into 'IsItArt.doc' a press article quoting that same dictum in full. So the book was owned and deliberately staged in August 2008, the self-description in the covering letters matches its central idea, and the idea reappears in the studio's own research file in January 2009. The engagement with that specific thesis is documented across the period rather than asserted about it.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What the Warhol frame is, and what it still is not. The studio's account is that the book was placed as an obvious self-reference. The objective features support a deliberate gesture rather than incidental clutter: the volume is propped upright and square to the camera on the same ground as the print, in one frame of eleven, and the set was sent onward to two art institutions. Read against the transaction it accompanies, pairing the object being consigned to an auction house with the canonical text on art as business is precise rather than decorative, and the record of this collection identified that frame as the earliest dated trace of the thinking behind The Auction as Artwork before the studio said anything about it. Against that: the gesture was unremarked in every message, so nobody at either institution was invited to read it, and a cataloguer receiving eleven photographs of a print would reasonably see a book. Whether an unremarked gesture is a communication or a private signature is exactly the question the studio's account of concealment raises, and this record does not settle it. What it can say is that the gesture is deliberate, dated, transmitted, and thematically exact.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-sothebys-approach-2008#visual-item",
+      "type": "VisualItem",
+      "_label": "The Ansel Adams print composed with The Philosophy of Andy Warhol",
+      "digitally_shown_by": [
+        {
+          "id": "https://www.metaconceptualart.com/images/adams-warhol-2008.jpg",
+          "type": "DigitalObject",
+          "_label": "DSCF0020, exposed 2008-08-08, transmitted to Sotheby's on 2008-08-14",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://www.metaconceptualart.com/images/adams-warhol-2008.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Compilation of the 2008 approach record",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/evidence-sothebys-approach-2008"
+    },
+    "curies": [
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
+    ],
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
+  }
+}
