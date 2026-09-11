@@ -99,6 +99,70 @@
         "type": "Set"
       },
       "endTime": "2026-09-11T15:29:22-07:00"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-hosting-receipts-2009",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-11T16:03:18-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
+        "type": "HumanMadeObject"
+      },
+      "endTime": "2026-09-11T16:03:18-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+        "type": "Set"
+      },
+      "endTime": "2026-09-11T16:03:18-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-archived-websites-2013-2016",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-11T16:03:18-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-11T16:03:18-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams",
+        "type": "HumanMadeObject"
+      },
+      "endTime": "2026-09-11T16:03:18-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart",
+        "type": "DigitalObject"
+      },
+      "endTime": "2026-09-11T16:03:18-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart-reconstruction",
+        "type": "DigitalObject"
+      },
+      "endTime": "2026-09-11T16:03:18-07:00"
     }
   ]
 }
