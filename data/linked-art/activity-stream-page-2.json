@@ -35,6 +35,22 @@
         "type": "Set"
       },
       "endTime": "2026-09-11T13:06:29-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-sothebys-approach-2008",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-11T13:16:52-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-staged-photographs-2008",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-11T13:16:52-07:00"
     }
   ]
 }
