@@ -1,0 +1,175 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/evidence-hosting-receipts-2009",
+  "type": "LinguisticObject",
+  "_label": "Evidence archive: the registrar's receipts for www.wtfisart.com (2009)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Evidence archive: the registrar's receipts for www.wtfisart.com (2009)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "record:evidence-hosting-receipts-2009",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026906",
+      "type": "Type",
+      "_label": "documents"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300055863",
+      "type": "Type",
+      "_label": "provenance"
+    }
+  ],
+  "content": "A domain registrar's billing record for the studio's account, held as the registrar's own comma-separated export together with fourteen PDF invoices, covering 2009-01-04 to 2010-01-05. It shows that on 2009-03-16 at 00:45:06 UTC the account registered the domain WTFISART.COM, on receipt 158832568, for $1.99 plus a $0.20 ICANN fee; that at 01:07:15 UTC the same night it bought 'Economy Classic Hosting Linux' for wtfisart.com at $4.99, on receipt 158833357; and that the hosting was then paid for monthly, at $4.99 with a zero-rated bandwidth line, on 2009-04-15, 2009-05-15, 2009-06-15, 2009-07-25, 2009-08-15, 2009-09-15, 2009-10-15, 2009-11-15 and 2009-12-15. In the same transaction as the domain registration the account also bought an 'Economy Quick Blogcast' for $9.98, which was refunded at 01:20:25 UTC that night on receipt 158832568R, thirty-five minutes after purchase. Separately the account registered GROWINGALOHA.COM on 2009-01-04 and renewed it on 2010-01-05. This is a third party's business record of the studio's account, and it dates the domain and its hosting from fourteen days before the Sotheby's sale of 30 March 2009.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Evidence status: a third party's business record, and the firmest dating evidence in this collection for the website. The registrar generated these receipts, numbered them in its own sequence, and timestamped them in UTC; the studio could not set those dates, and the record can in principle be confirmed by the registrar from its own systems. It is held as the registrar's export, 4,931 bytes, SHA-256 0b4c8f9c660734765666279ff2c5a3f5a3f72219e3e9ff872d6e1e49ba8a1399, and as the matching PDF invoices, of which the three for 2009-03-16 are: the registration and blogcast purchase, 137,163 bytes, SHA-256 0bcec2aef8bd16e3ce2a60d02ab407d1ed76a7a15b86ca0270a1fd0ae6550cb0; its refund, 114,428 bytes, SHA-256 b963cd88dad2d6e5d90db67c55699ebb854e1180eb5d688c4840b9d4aa695d89; and the hosting purchase, 113,079 bytes, SHA-256 7cae6887d52c650ff7ac4998a67cc3b5bb51fcaf9e9266a5a6a97926c3bc772d. The documents themselves are not published: they carry the account holder's postal address, telephone number and mailbox, and the last four digits of a payment card. Checksums are published instead, as with the consignment agreement, so that the held files can later be shown unaltered without being disclosed.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What this establishes, and it is narrow. The domain wtfisart.com was registered, and hosting for it was bought, on 2009-03-16, fourteen days before the auction of 30 March 2009 at which the studio consigned lot 16; and hosting on that account went on being paid for every month until at least 2009-12-15. Until now the date on which the studio first took the domain was undetermined from any public source, and the collection said so. It is now fixed by a document the studio did not write. Two qualifications belong with it. Only the first hosting purchase names wtfisart.com; the nine renewals name the product alone, so that they are renewals of that same account is an inference from the record's shape, reasonable but not stated in it. And one payment falls out of the monthly pattern, on 2009-07-25 rather than the fifteenth.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What it does not establish. It says nothing whatever about what was served at the domain. A registration is a name; hosting is rented space; neither is a published page, and no capture of the domain exists from that period. The WTFIA folder of source documents, worked on until the week before the sale, is what the studio assembled for the site, and the reconstruction record sets out that no HTML from the 2009 site survives anywhere. So the position is now: the domain and the hosting are documented from 2009-03-16, and what if anything stood at that address in 2009 remains unevidenced. This record also says nothing about the auction designation, and nothing about the 2007 origin asserted elsewhere in this collection.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The lapse, and what the parked page of 2011 is worth. No renewal of WTFISART.COM appears anywhere in this record, which runs to 2010-01-05 and does contain a renewal of the other domain. A registration taken on 2009-03-16 for one year would fall due on 2010-03-16. The Internet Archive's earliest capture of the domain, on 2011-02-10, shows a parked advertising page carrying no studio content, which is what a registrar commonly serves at an address whose registration has lapsed. That capture is therefore evidence about February 2011 and not about 2009, and the records of this collection which read it as positive evidence that the site was not live in 2009 have been narrowed to say what it can carry.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The blogcast, bought and refunded in thirty-five minutes. In the same transaction as the domain registration, at 00:45:06 UTC on 2009-03-16, the account bought a registrar-hosted blogging product, 'Economy Quick Blogcast', for $9.98, and at 01:20:25 UTC it was refunded in full. The studio recalled an early blog of about this period which it has been unable to find. This purchase accounts for the recollection and, equally, explains why nothing has been found: the product was returned the same night, and nothing in this collection evidences a blog published at that time. The studio's only blog located on any platform is one opened in November 2014, whose owning profile records its own creation in that month.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The other domain, and a correction. The same account registered GROWINGALOHA.COM on 2009-01-04, on receipt 146295715, and renewed it on 2010-01-05, on receipt 213590943. That is the sibling site whose Dreamweaver template and stylesheet the reconstruction copies, and its dates are now fixed by the same third party. A correction also follows from these documents: this collection has described the studio's domain and hosting receipts as naming Sun and Rain Works. They do not. The billing name on every line is the studio principal's own, and the business is named nowhere in them, which is consistent with a sole proprietorship contracting in its proprietor's name but should not be reported as more than it is.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: the WTFIA source folder for www.wtfisart.com (2008-2009)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-archived-websites-2013-2016",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: the studio's websites as captured by the Internet Archive (2013-2016)"
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Compilation of the registrar's receipts record",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/evidence-hosting-receipts-2009"
+    },
+    "curies": [
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
+    ],
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
+  }
+}

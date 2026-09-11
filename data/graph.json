@@ -51,6 +51,7 @@
     { "id": "evidence-sothebys-approach-2008", "type": "LinguisticObject", "label": "Evidence archive: the Sotheby's consignment correspondence (2008-2009)" },
     { "id": "evidence-staged-photographs-2008", "type": "LinguisticObject", "label": "Evidence archive: the staged photographs of the print (autumn 2008)" },
     { "id": "evidence-archived-websites-2013-2016", "type": "LinguisticObject", "label": "Evidence archive: the studio's websites as captured by the Internet Archive (2013-2016)" },
+    { "id": "evidence-hosting-receipts-2009", "type": "LinguisticObject", "label": "Evidence archive: the registrar's receipts for www.wtfisart.com (2009)" },
     { "id": "evidence-consignment-photographs-2008", "type": "LinguisticObject", "label": "Evidence archive: documentation photographs of the Ansel Adams print (August 2008)" },
     { "id": "evidence-museum-correspondence-2013", "type": "LinguisticObject", "label": "Evidence archive: correspondence declaring Metaconceptual Art to a university art museum (2013)" },
     { "id": "evidence-pastebin-2011-2012", "type": "LinguisticObject", "label": "Evidence archive: public postings of Metaconceptual Art (2011-2012)" },
@@ -238,6 +239,14 @@
       "description": "Third-party captures of two domains the studio ran. wtfisart.com on 2013-07-20 shows only 'Under Construction'; on 2014-12-18 and 2016-01-11 it shows a Drupal install whose menu reads 'Art Market Reform is a happening' and whose text carries the line handwritten on the Art Notes board, while stating 'No front page content has been created yet'. sunandrainworks.com on 2016-01-26 and 2016-03-27 carries the eight defining characteristics in full, in the same wording as the 2012 posting. The capture dates are the Archive's and are the evidence; the pages' own CMS stamps are not. No capture mentions the 2009 auction, and the domain passed to another owner from 2016. The record also covers the studio's Flickr account, where the Art Notes board is public and dated 2013-06-02, and the profile biography that states the lot 16 designation but carries no date.",
       "wikidata": null,
       "linkedArt": "data/linked-art/evidence-archived-websites-2013-2016"
+    },
+    {
+      "id": "record:hosting-receipts-2009",
+      "type": "Provenance",
+      "label": "The registrar's receipts for www.wtfisart.com (2009)",
+      "description": "A domain registrar's billing record for the studio's account, held as the registrar's export and fourteen PDF invoices and published here as checksums only. It registers WTFISART.COM on 2009-03-16 at 00:45:06 UTC, buys hosting for it at 01:07:15 the same night, and pays that hosting monthly to 2009-12-15 - fourteen days before the Sotheby's sale of 30 March 2009 and the nine months after it. A blogging product bought in the same transaction was refunded thirty-five minutes later, which accounts for the studio's memory of an early blog. GROWINGALOHA.COM was registered 2009-01-04 and renewed 2010-01-05. The record says nothing about what was served at the domain, and its billing name is the studio principal's, not the business's.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/evidence-hosting-receipts-2009"
     },
     {
       "id": "record:consignment-photographs-2008",
@@ -494,6 +503,9 @@
     { "from": "record:archived-websites-2013-2016", "relation": "documents", "to": "work:art-notes" },
     { "from": "record:archived-websites-2013-2016", "relation": "cites", "to": "record:pastebin-2011-2012" },
     { "from": "record:archived-websites-2013-2016", "relation": "cites", "to": "record:wtfia-evidence" },
+    { "from": "system:provenance-layer", "relation": "produces", "to": "record:hosting-receipts-2009" },
+    { "from": "record:hosting-receipts-2009", "relation": "documents", "to": "work:wtfisart" },
+    { "from": "record:hosting-receipts-2009", "relation": "cites", "to": "record:wtfia-evidence" },
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:consignment-photographs-2008" },
     { "from": "record:consignment-photographs-2008", "relation": "documents", "to": "work:wtf-is-ansel-adams" },
     { "from": "record:consignment-photographs-2008", "relation": "documents", "to": "work:auction-as-artwork" },

@@ -180,6 +180,11 @@
       "_label": "Evidence archive: the studio's websites as captured by the Internet Archive (2013-2016)"
     },
     {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-hosting-receipts-2009",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: the registrar's receipts for www.wtfisart.com (2009)"
+    },
+    {
       "id": "https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008",
       "type": "LinguisticObject",
       "_label": "Evidence archive: documentation photographs of the Ansel Adams print (August 2008)"
