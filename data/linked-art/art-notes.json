@@ -84,6 +84,17 @@
     },
     {
       "type": "LinguisticObject",
+      "content": "Publicly attested from 2013-06-02. The same photograph is public on the studio's Flickr account, under the display name Joe Chirum and the user name LivingArt8, titled 'Art Notes' and marked 'Uploaded on June 2, 2013'. The file there is pixel-identical to the studio's held original. So the board, and the line 'WTF is Art ?!' on it, were in public view on a third party's platform three months before the museum letter of 2013-09-12, on a date the studio did not set. Flickr's 'Taken on June 1, 2013' on that page is not a capture date: it is the value Flickr supplies when an uploaded file carries no Exif, and the copy uploaded had been stripped of it. The dating of the photograph itself is unchanged and is set out elsewhere in this record. The archived-websites record describes that account and the rest of the platform evidence.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
       "content": "Dating, and what carries it. The board is evidenced by a single photograph held by the studio. That file's Exif, written by the camera, gives DateTimeOriginal, DateTimeDigitized and DateTime all as 2012:11:30 13:25:01, with no time zone recorded, and identifies the camera as a Canon PowerShot ELPH 100 HS, firmware 1.01, at f/2.8, 1/20s, ISO 250, 5.0mm, flash fired. The Canon MakerNote block survives intact at 3,640 bytes and its ImageType string reads 'IMG:PowerShot ELPH 100 HS JPEG'. The file carries no editing-software provenance: its only XMP is a single Windows-written xmp:Rating of 0, and there is no CreatorTool or ModifyDate. Two independent floors bracket the date from below and do not depend on the camera clock, which a user can set at will. First, the content of the board: the Paris museum theft the pinned New York Times report describes took place on the night of 19-20 May 2010, so the board as photographed cannot have been assembled before 20 May 2010, and the Christie's sale the other cutting reports took place on 4 May 2010. Second, the camera: the PowerShot ELPH 100 HS was announced on 7 February 2011 and shipped that March, so no file could have been made with it before 2011. The camera-written date of 30 November 2012 is consistent with both floors and is contradicted by nothing in the file. It remains a self-reported date on a studio-held file, of the same evidential kind as the rest of the private archive and weaker than the platform-assigned dates of the 2011-2012 postings; it is not independently notarized.",
       "classified_as": [
         {

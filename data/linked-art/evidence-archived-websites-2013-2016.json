@@ -1,0 +1,198 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/evidence-archived-websites-2013-2016",
+  "type": "LinguisticObject",
+  "_label": "Evidence archive: the studio's websites as captured by the Internet Archive (2013-2016)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Evidence archive: the studio's websites as captured by the Internet Archive (2013-2016)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "record:evidence-archived-websites-2013-2016",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026906",
+      "type": "Type",
+      "_label": "documents"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300055863",
+      "type": "Type",
+      "_label": "provenance"
+    }
+  ],
+  "content": "The Internet Archive holds dated captures of two domains the studio ran, and those captures are public and checkable by anyone. On www.wtfisart.com: a capture of 2013-07-20 showing only 'Under Construction:Check back soon !', and captures of 2014-12-18 and 2016-01-11 showing a site whose menu reads 'Artists', 'Art Market Reform is a happening' and 'Got Provenance ?', and whose text reads 'For the Love of God, We are the Art. Long Live the Art Spirit !', alongside the phrases 'Art is Capital invest with confidence' and 'What Hedge Funds ?! invest in Art'. On www.sunandrainworks.com: captures of 2016-01-26 and 2016-03-27 carrying the eight defining characteristics of Metaconceptual Art in full, in the same wording as the 2012 posting recorded elsewhere in this collection. What these captures establish is that the concept, its eight characteristics, and the studio's art-market vocabulary were published on the studio's own domains and preserved by a third party on dates no one in the studio controls. What they do not establish is anything about the auction of 2009: no capture mentions it, or lot 16, or Ansel Adams, or Sotheby's.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Evidence status: third-party captures, publicly checkable, and the strongest kind of source in this collection short of an institution's own file. The captures are held by the Internet Archive at https://web.archive.org/web/20141218140553/http://wtfisart.com/ , https://web.archive.org/web/20160111165857/http://wtfisart.com/ , https://web.archive.org/web/20160126080729/http://www.sunandrainworks.com/ and https://web.archive.org/web/20160327052433/http://sunandrainworks.com/content/beginnings-art-odyssey . The capture timestamps are the Archive's own and are not the studio's to set; that is what makes them evidence. Two things inside the pages are not: the content management system's 'Submitted by' stamps, which a site owner can set or change, and the page text itself, which is the studio's writing. So the dates to cite are the capture dates, and the stamps are reported as what the site said of itself.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What the wtfisart.com captures show, and how little it is. The earliest capture of the domain, 2011-02-10, is a parked advertising page with no studio content, and the reconstruction record treats it as positive evidence that the 2009 site was not live then. On 2013-07-20 the domain carries one line: 'Under Construction:Check back soon !'. By 2014-12-18, and still on 2016-01-11, it carries a Drupal installation whose main menu reads 'Artists', 'Art Market Reform is a happening' and 'Got Provenance ?'. The body text is the same paragraph repeated in three panels, ending 'For the Love of God, We are the Art. Long Live the Art Spirit !', and the page states 'Welcome to wtfisart.com. No front page content has been created yet.' That last sentence should be quoted by anyone citing this record. What was captured is a demonstration installation carrying the studio's slogans in its menu, not a working publication. Its value is narrow and real: on a date fixed by a third party, the studio was publicly calling a work of its own a happening, and was publishing the line that is handwritten on the Art Notes board.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What the sunandrainworks.com captures show. The root capture of 2013-05-22 is a bare Drupal installation with no content. By 2016-01-26 the front page carries two posts, and the page 'Beginnings of an Art Odyssey', captured separately on 2016-03-27, sets out all eight defining characteristics of Metaconceptual Art in full: the returning of the formless to form; the commodification of art and its relation to the global economic crisis; the power structures of the art world and its institutions; an archaeology of the art world and art history; the interplay of time and space; transcendence of medium to arrive within the collective consciousness; the annihilating of the boundaries between art-world insiders and outsiders; and the annihilating of the boundaries between art and life. This is the same set, in the same order and substantially the same words, as the posting of 2012 recorded in the postings evidence record, which is itself independently preserved. The site's own stamps give 'Submitted by Rainbow on Sun, 10/04/2015' for that page and 'Fri, 11/14/2014' for its sibling; those are the site's account of itself, and the capture dates are the part no one in the studio controls.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The Flickr account, and the photograph of the notice board. The studio's public Flickr account, under the display name Joe Chirum and the user name LivingArt8, was joined in March 2008 and holds some seven hundred photographs, most of them the studio's tie-dye and batik work and its paintings. It is a working photostream rather than a record of this project, and nothing in it should be read as evidence about the auction. One photograph in it does bear on this collection: the notice board published here as Art Notes, titled 'Art Notes' and marked 'Uploaded on June 2, 2013'. The image is pixel-identical to the studio's held original. So the board, with the line 'WTF is Art ?!' on it, was in public view on a third party's platform three months before the museum letter of 2013-09-12. Flickr's 'Taken on June 1, 2013' on that photograph is not a capture date: it is the value Flickr supplies when an uploaded file carries no Exif, and the copy uploaded had been stripped. The studio's own original gives 2012-11-30, and the Art Notes record sets out how that date is bounded.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The Flickr biography, and why it carries no date. The same account's profile biography states that in May 2009 the artist auctioned an artwork at a Sotheby's New York photograph auction, lot 16, 'as a performance act of metaconceptual Art', titled 'WTF is Ansel Adams ?!'. That is the designation this collection records, in the artist's own words, on a public page. It cannot be dated. A profile biography can be rewritten at any time and keeps no visible history, and the Internet Archive holds no capture of this profile at all, which was checked on 2026-09-11. It is therefore a public assertion of unknown date, and it repeats the same error as the 2013 letter in giving the sale as May 2009 when the catalogue gives 30 March 2009. Both are left as they stand, for the reason the museum correspondence record sets out.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What is not the studio's, and must not be cited as if it were. The domain wtfisart.com passed out of the studio's hands. A capture of 2016-07-11 shows a hosting suspension page, and from 2020 the domain carries an unrelated publication of art, film and book reviews written under several bylines, which is captured many hundreds of times between 2020 and 2025. The registry record was checked in 2026 and shows a fresh registration of 2024-08-29, so the domain lapsed and was taken up again by someone else. Nothing captured from 2016-07 onward is the studio's work, and the later site's contents say nothing about this collection. A separate incarnation captured on 2016-11-02, a wiki-style 'encyclopedic directory of Art' listing artists, is recorded here only so that a reader who finds it is not misled: it names no work of the studio's and makes no claim this collection relies on.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What this record does not show. None of these captures mentions the auction of 30 March 2009, lot 16, Ansel Adams, Sotheby's, or any performance act; the only public statement of that designation on these platforms is the undated Flickr biography. Nothing here bears on the 2007 origin asserted elsewhere in this collection. And the 2014 menu item 'Art Market Reform is a happening' is evidence that the studio used the word publicly of a work of its own on a date a third party fixed; it is not evidence of what the studio meant by the word in 2008, which the museum-approach record weighs separately.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-pastebin-2011-2012",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: the 2011-2012 postings"
+    }
+  ],
+  "about": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art",
+      "type": "Type",
+      "_label": "Metaconceptual Art"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/art-notes",
+      "type": "HumanMadeObject",
+      "_label": "Art Notes"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart-reconstruction",
+      "type": "DigitalObject",
+      "_label": "www.wtfisart.com — Reconstruction"
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Compilation of the archived-websites record",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/evidence-archived-websites-2013-2016"
+    },
+    "curies": [
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
+    ],
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
+  }
+}
