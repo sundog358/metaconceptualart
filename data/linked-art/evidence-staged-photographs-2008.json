@@ -1,0 +1,209 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/evidence-staged-photographs-2008",
+  "type": "LinguisticObject",
+  "_label": "Evidence archive: the staged photographs of the print (autumn 2008)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Evidence archive: the staged photographs of the print (autumn 2008)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "record:evidence-staged-photographs-2008",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026906",
+      "type": "Type",
+      "_label": "documents"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300215302",
+      "type": "Type",
+      "_label": "digital images"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300055863",
+      "type": "Type",
+      "_label": "provenance"
+    }
+  ],
+  "content": "Seventeen digital photographs, held by the studio, that follow the framed Ansel Adams print 'San Francisco from Twin Peaks' through a sequence: a person posing at a door with a ring of keys; the same person inside a caged storage unit, lifting the print; the print presented to the camera in storage corridors and propped against the railing of a warehouse mezzanine; two frames of the stamped and annotated verso; an older man at a framing workbench taking the print out of its frame and examining it; and three exteriors of a shed and carport. The camera recorded no capture date. The files were rewritten by QuickTime 7.5.5 under Mac OS X 10.5.5 at 2008-11-25 18:56 by that computer's clock, a processing that cannot be earlier than 2008-09-15, when Mac OS X 10.5.5 was released, and they were copied into the studio's working folder on 2009-01-20 by the file system's record. They are therefore a product of the autumn of 2008, or of January 2009 at the latest: before the consignment agreement was executed and before the sale of 30 March 2009. Sun & Rain Works states that they were made by its art assistants as documentation of WTF is Ansel Adams. They were not among the photographs sent to the museum or to the auction house, and the images themselves are not published.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Evidence status: held by the studio; reported, with one clock-independent bound. The seventeen files are held in the studio's photography folder, which sits beside the WTFIA folder on the same medium. That folder also holds the eleven frames of 2008-08-08 described in the photographs record, and one downloaded photograph by another photographer, which is not part of this series and not a studio original. The files' metadata is their own account and is not notarized, with one exception described below: a software version, which dates the files' processing without relying on anyone's clock. The images are not published. They show the face of a person who is not the studio principal and has not consented to publication, the face of a second, unidentified person, a readable vehicle registration plate and the exterior of a private residence. The SHA-256 checksum of every file is published below, so that the held files can later be shown to be unaltered without being disclosed.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What the frames show, in the camera's frame order. P1010001: a person poses at a white door, holding a ring of keys up to the camera. P1010002: the same person, inside a storage unit walled with wire mesh and crowded with boxes and a bicycle, holds up a pale cloth. P1010003: taken from behind, the person stands in the unit's doorway, a padlock hanging on the frame, and lifts the framed print. P1010004 and P1010005: the print's image, and the framed print propped upright, both lit by an on-camera flash. P1010006 and P1010007: the framed print leaning against a railing on the plank floor of a warehouse mezzanine. P1010008 and P1010009: the person, in the same space, holds the print squarely to the camera. P1010010 and P1010012: the verso, carrying the 'Photograph by Ansel Adams for The American Trust Company' stamp, the ink annotation 'Wells Fargo Bank', 'Negative No. 1-SF-46' and the title 'San Francisco from Twin Peaks', the same verso recorded in the photographs of 2008-08-08. P1010011: the person, in a corridor lined with chain-link storage cages, holds the print and looks into the camera. P1010013 and P1010014: in a framing workshop, an older man takes the print out of its frame at a workbench and then examines it on its mount. P1010015 to P1010017: a shed and carport in a garden, with fallen leaves on the grass.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "How the series is dated, and how firmly. The camera, an Olympus C-3020Z, wrote no capture time: every DateTimeOriginal and DateTimeDigitized field reads 0000:00:00 00:00:00, which is what such a camera writes when its clock has never been set. The file names agree: this camera builds each name from the month and day, and 'P101' corresponds to 1 January, the date an unset clock reports. Every file was then rewritten by software, which left three fields: Software 'QuickTime 7.5.5', HostComputer 'Mac OS X 10.5.5', and a modification time running from 2008-11-25 18:56:10 to 18:56:17 in frame order, by that computer's clock, which records no timezone. Three bounds follow, of different strength. The floor is independent of any clock: QuickTime 7.5.5 was released on 2008-09-09 and Mac OS X 10.5.5 on 2008-09-15, so the files cannot have been processed by that pairing before 15 September 2008. The Mac's own date, 25 November 2008, falls within the months when 10.5.5 was the current release, before 10.5.6 arrived on 15 December 2008, and is consistent with it; it remains a clock reading, not a verified date. The ceiling is the file system's record of the copy into the studio's working folder, 2009-01-20 between 13:45 and 13:48, which is self-reported, and which falls two days before the WTFIA documents were begun by their own metadata. Two details in the frames agree with the autumn: fallen leaves lie on the grass in the exterior frames, and the workshop frames show a step the studio was planning in writing on 2008-11-20, as described below. None of this dates the capture itself, which could in principle precede the processing; it dates the files as they are held.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The workshop frames, and a message five days earlier by the Mac's clock. On 2008-11-20 the studio wrote to the auction house's cataloguer about shipping the print to New York for the spring sale, weighing whether to send it in its frame with the glass in place or to have a professional framer remove the glass to reduce the risk of damage in transit, as the Sotheby's correspondence record describes. Frames P1010013 and P1010014 show the print being taken out of its frame at a framer's workbench and examined on its mount. The same message gave a mailing address on Maui, and the studio identifies the person in the storage frames as its art assistant rather than its principal, so in these frames the print is being handled by others on the studio's behalf. The message and the files are both held by the studio, so neither is independent of the other's source. They are, however, two different kinds of record, one a message describing a plan and the other photographs of that plan being carried out, and they agree.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Who is pictured, and who held the camera. The person in the storage frames is identified by the studio as one of its art assistants; that name is withheld here pending their consent and is retained in the studio's private copy. The older man at the workbench is not identified in this record. The photographer is not pictured and is not named by the files, whose metadata carries no artist field. One frame, P1010003, is taken from behind the person pictured as they step into the storage unit, so at least that frame was made by someone other than its subject. Sun & Rain Works states that the series was photographed by its art assistants.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What the staging can and cannot carry. The studio's account is that these are theatrical photographs, made by its art assistants as documentation of WTF is Ansel Adams. The frames support more of that account than any earlier document in this collection. The storage frames are directed rather than incidental: a pose at a door with the keys held up to the lens, the print lifted in the doorway and then presented squarely to the camera, the same subject arranged in several settings. They stage a finding, and the subject line under which the studio had approached a museum and an auction house three months earlier was 'Ansel Adams Finds Art in SanFrancisco'. Five days before the Mac's date on these files, the studio described the matter to the auction house as 'this art in progress'. The ordinary reading is also available and should be stated with equal force. A person who has written that he owns a previously unknown piece, and who is preparing to consign it, has every reason to photograph where it was kept, its condition, its verso, and its removal from the frame for shipment; the verso frames and the workshop frames are documentation of exactly that kind, and the exterior frames record a place. On that reading the posed frames are a record of the retrieval, however it was staged. This record does not choose between the readings. It records that the series is staged, that it was made before the sale, and that it was kept inside the studio.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What this record does not show. None of these frames was among the photographs sent to the museum on 2008-08-11 or to the auction house on 2008-08-14, which were the eleven frames of 2008-08-08, and nothing in this collection shows that anyone outside the studio saw them in 2008 or 2009. They are not evidence of a public act, or of the auction house's knowledge of any artistic framing. They carry no statement, caption or title that designates the retrieval or the sale as a work. They say nothing about the 2007 origin asserted elsewhere in this collection. And their dates bound the files' processing, not their capture.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Checksums of the files as held, SHA-256, in frame order, with sizes in bytes. P1010001.jpg, 74069, 6f6f8a275f3abeefb6367c8957113da5f56af2f56b72a74ed43ef426f3a0d07f. P1010002.jpg, 175808, bc0230d510b6215f213948126387604e06145fd3bff711387d6b406e6c67efd5. P1010003.jpg, 94724, 6576acb01fbd1b50373ce81a45492dd9c65a4c98e8ee75c3e04c1e6d9bec29bb. P1010004.jpg, 206201, fcac5f5fdc1190c21023ddd665ca91ff1fcad81157669e66179bdc3ab3f7b5f8. P1010005.jpg, 149612, 7d4ea9963f16bdecb741f5d3ad75af31ec641811a3dc34577638198ab168bbec. P1010006.jpg, 184480, edf9c5866cebb0dd7284a70fe01f218d940ab769075f71cd257d07d3a72197ac. P1010007.jpg, 163712, be80e16ba65497bf40cce29e3e15c5593fe069cdd289c5d441aeec07f04294b9. P1010008.jpg, 61155, cd7ea0235ca6253063bd2d28c7bf7dec62bdc52c91ae50873406c175d0b86951. P1010009.jpg, 79555, f98de276c083b48584e5a8f13a9482196fe545cdf2436fed95155bc86a5c3eea. P1010010.jpg, 81912, d24b75acb9d06910c7f49aacba9982e815b37afdbbc3589f5d9627fc6d695831. P1010011.jpg, 188033, 125fd7e651fe82f00b6f01957de009cd85d3ea33594e31b98064004f6b9df128. P1010012.jpg, 77987, 208eb6aed3e93a6c4965ecfca1193e263c4a7934d7fcea1a5dcf53deefe5ba62. P1010013.jpg, 168902, 9c6f78a4f3a5cd167f11995796b8cf5ff02ee5cc7dbeecb7ebf7e57195a38247. P1010014.jpg, 122861, fb453d0731f0c5553520742ecadcabec54a9a8d54393ae86dfc4098397def78f. P1010015.jpg, 156075, ff0c4d2cbaaaa24576d24c775e0e3294628bdc9af19eeca92560fbbc8e8cfde7. P1010016.jpg, 180671, 3eb318a632d6d5901f368dfceb11015367d2c6c3df3911a273fcd7caa0e55883. P1010017.jpg, 300811, 25b1917d2b95fd8ad7fb1eb895be58e623dbc1455aab7e89740020d4e90fda3d.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: documentation photographs of the Ansel Adams print (August 2008)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-sothebys-approach-2008",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: the Sotheby's consignment correspondence (2008-2009)"
+    }
+  ],
+  "about": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams",
+      "type": "HumanMadeObject",
+      "_label": "WTF is Ansel Adams"
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Compilation of the staged photographs record",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/evidence-staged-photographs-2008"
+    },
+    "curies": [
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
+    ],
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
+  }
+}

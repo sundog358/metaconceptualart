@@ -49,6 +49,7 @@
     { "id": "evidence-consignment-agreement-2009", "type": "LinguisticObject", "label": "Evidence archive: the executed Sotheby's consignment agreement (March 2009)" },
     { "id": "evidence-sfmoma-approach-2008", "type": "LinguisticObject", "label": "Evidence archive: the approach to a museum photography department (11 August 2008)" },
     { "id": "evidence-sothebys-approach-2008", "type": "LinguisticObject", "label": "Evidence archive: the Sotheby's consignment correspondence (2008-2009)" },
+    { "id": "evidence-staged-photographs-2008", "type": "LinguisticObject", "label": "Evidence archive: the staged photographs of the print (autumn 2008)" },
     { "id": "evidence-consignment-photographs-2008", "type": "LinguisticObject", "label": "Evidence archive: documentation photographs of the Ansel Adams print (August 2008)" },
     { "id": "evidence-museum-correspondence-2013", "type": "LinguisticObject", "label": "Evidence archive: correspondence declaring Metaconceptual Art to a university art museum (2013)" },
     { "id": "evidence-pastebin-2011-2012", "type": "LinguisticObject", "label": "Evidence archive: public postings of Metaconceptual Art (2011-2012)" },
@@ -220,6 +221,14 @@
       "description": "An outbound email of 2008-08-14 to a specialist in Sotheby's Photographs department, with a 3 MB zip of the eleven documentation frames of 2008-08-08. Names Sun and Rain Works as an art business and its principal as an artist in Eugene, Oregon - the earliest dated use of the studio name in this collection - and describes the print as owned and being researched. Two further messages of March 2009 carry the consignment agreement: the department writes about 'your photograph' and chases the signed agreement posted in February, and the studio replies that it holds the sheet and will fax it back. The attachment is held and is byte-identical to the studio's copies; the messages are held as screenshots and are reported, not verified. The frame composing the print with Warhol's philosophy was among those transmitted.",
       "wikidata": null,
       "linkedArt": "data/linked-art/evidence-sothebys-approach-2008"
+    },
+    {
+      "id": "record:staged-photographs-2008",
+      "type": "Provenance",
+      "label": "The staged photographs of the print (autumn 2008)",
+      "description": "Seventeen studio-held photographs that stage the retrieval of the Adams print from a storage unit, present it to the camera, record its verso, and show it taken out of its frame at a framer's workshop. The camera wrote no date; the files were processed on a Mac on 2008-11-25 by its clock, and no earlier than 2008-09-15 by the software versions they record, which dates them before the sale. Sun and Rain Works states they were made by its art assistants as documentation of WTF is Ansel Adams. They were not sent to the museum or the auction house, the images are not published, and checksums only are given.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/evidence-staged-photographs-2008"
     },
     {
       "id": "record:consignment-photographs-2008",
@@ -467,6 +476,10 @@
     { "from": "record:sothebys-approach-2008", "relation": "documents", "to": "source:sothebys-photographs-2009" },
     { "from": "record:sothebys-approach-2008", "relation": "documents", "to": "work:wtf-is-ansel-adams" },
     { "from": "record:sothebys-approach-2008", "relation": "cites", "to": "record:consignment-photographs-2008" },
+    { "from": "system:provenance-layer", "relation": "produces", "to": "record:staged-photographs-2008" },
+    { "from": "record:staged-photographs-2008", "relation": "documents", "to": "work:wtf-is-ansel-adams" },
+    { "from": "record:staged-photographs-2008", "relation": "cites", "to": "record:consignment-photographs-2008" },
+    { "from": "record:staged-photographs-2008", "relation": "cites", "to": "record:sothebys-approach-2008" },
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:consignment-photographs-2008" },
     { "from": "record:consignment-photographs-2008", "relation": "documents", "to": "work:wtf-is-ansel-adams" },
     { "from": "record:consignment-photographs-2008", "relation": "documents", "to": "work:auction-as-artwork" },
