@@ -99,6 +99,17 @@
     },
     {
       "type": "LinguisticObject",
+      "content": "The approach to the framer, and what it has produced so far. On 2024-09-05 the studio wrote to the proprietor of the framing business to ask whether he was the same person, and he replied the following day that he is. On 2024-09-06 the studio wrote again: it described the 2008 job, linked the auction house's public catalogue entry for lot 16, attached the workbench frame from this series, and asked whether the original receipt for the work survives. No reply to that second message has been received at the date of this record. What the exchange establishes is therefore his identity and nothing more. It does not confirm the job, its date, or its purpose, and no record from the business has been produced. He has not been asked whether he wishes to be named, and is not named here. A surviving work order, or a few sentences of recollection in writing, would be the first account of any part of this series from outside the studio; until there is one, the series is dated by the studio's own files alone.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
       "content": "Who is pictured, and who held the camera. The person in the storage frames is identified by the studio as one of its art assistants; that name is withheld here pending their consent and is retained in the studio's private copy. The older man at the workbench is not identified in this record. The photographer is not pictured and is not named by the files, whose metadata carries no artist field. One frame, P1010003, is taken from behind the person pictured as they step into the storage unit, so at least that frame was made by someone other than its subject. Sun & Rain Works states that the series was photographed by its art assistants.",
       "classified_as": [
         {
