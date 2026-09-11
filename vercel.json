@@ -91,6 +91,10 @@
     {
       "source": "/data/linked-art/:slug",
       "destination": "/data/linked-art/:slug.json"
+    },
+    {
+      "source": "/wtfisart-2009/:page(.*)\\.html",
+      "destination": "/wtfisart-2009/:page"
     }
   ],
   "headers": [
