@@ -125,6 +125,16 @@
       "_label": "The Auction as Artwork"
     },
     {
+      "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart-reconstruction",
+      "type": "DigitalObject",
+      "_label": "www.wtfisart.com — Reconstruction"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/art-notes",
+      "type": "HumanMadeObject",
+      "_label": "Art Notes"
+    },
+    {
       "id": "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams",
       "type": "HumanMadeObject",
       "_label": "WTF is Ansel Adams"

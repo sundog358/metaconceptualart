@@ -1,0 +1,187 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart-reconstruction",
+  "type": "DigitalObject",
+  "_label": "www.wtfisart.com — Reconstruction",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "www.wtfisart.com — Reconstruction",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "work:wtfisart-reconstruction",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300264827",
+      "type": "Type",
+      "_label": "conceptual art",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q203209",
+          "type": "Type",
+          "_label": "conceptual art"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300265232",
+      "type": "Type",
+      "_label": "reconstructions"
+    }
+  ],
+  "format": "text/html",
+  "access_point": [
+    {
+      "id": "https://www.metaconceptualart.com/wtfisart-2009/index.html",
+      "type": "DigitalObject"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "A nine-page website built in 2026 that reconstructs www.wtfisart.com, the site Sun & Rain Works says it made in 2009, from the only two things that survive of it: the WTFIA folder of source documents assembled for it, and Growing Aloha, an unrelated website built by the same hands in the same months whose HTML, stylesheet and Dreamweaver template are intact. The content is WTFIA's; the form is Growing Aloha's. It is published as a work in its own right and is labelled as a reconstruction on every page.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What is transcribed, and what is inferred. Transcribed from the 2009 documents, unchanged: twenty-four dated press reports on the art market spanning 2000 to 2009, twenty-two of them carrying the source link the compiler recorded, with their headlines, bylines and excerpts; sixty-four Old Master dealers and galleries, each with the web address recorded for it in 2009; eighty-one modern and contemporary galleries grouped by state and country, for which the source document holds no web addresses; and a one-page note on the photographer Lee Balterman. Inferred, and belonging to the reconstruction rather than to 2009: the division into pages, the page titles, the order of the navigation column, the wording of the front page, the colour palette, and the existence of a page about the Ansel Adams consignment. Nothing in the surviving material records how the 2009 pages were arranged or what they said.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "How the form was derived. Growing Aloha, held on the same medium as the WTFIA folder and dated 2009-01-16 to 2009-01-20, is a Dreamweaver site built on the 'three column liquid, header and footer' starter layout: XHTML 1.0 Transitional, a .dwt template with named editable and repeating regions, the layout stylesheet inline in a style element wrapped in HTML comments, an Internet Explorer conditional comment supplying the hasLayout zoom fix, an external stylesheet of content-named classes, and a left column of block-display anchor links. Every one of those traits is reproduced here, and the reconstruction's stylesheet is modelled directly on Aloha.css, class for class. The reconstruction's own pages are valid XHTML 1.0 Transitional and carry Dreamweaver template-instance markers naming a template, Templates/WTFIA.dwt, which is published alongside them.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What was deliberately omitted. The 2009 sibling carried a Google Custom Search box and three AdSense units, and the surviving code contains the studio's own publisher and partner identifiers; the live third-party script and those identifiers are not reproduced, and the slots are marked where they sat. The art-historical plates and art-market press pictures in the WTFIA folder are third-party material held back pending rights review and are not shown. The 2009 photographs documenting the Ansel Adams print in the storage unit show an identifiable person and are withheld pending consent; the single photograph reproduced, the print's verso, is the studio's own and was already published. Growing Aloha's tiled background photograph belongs to an unrelated project and is not carried over. The press excerpts that are shown are short passages reproduced for commentary, each attributed to its author and publication and linked to its source.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Scope. This is a reconstruction and is evidence of nothing about the 2009 website beyond what the source documents already evidence. It is not a recovered copy: no HTML from www.wtfisart.com survives in the studio's archive or is known to exist elsewhere, and the WTFIA evidence record states that the folder holds what was made for the site rather than what the site published. It does not show that the site went live in 2009; the earliest Internet Archive capture of the domain, from February 2011, is a parked advertising page, which is positive evidence that it was not then serving content. The studio's account that this site and the Sotheby's consignment were companion works is recorded as the artist's account: the dates are consistent with it, the latest material in the folder having been last saved a week before the sale, but no document in the folder mentions the consignment, and consistency is not intent. No precedence over any other artist, work, or event is claimed.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: the WTFIA source folder for www.wtfisart.com (2008-2009)"
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Creation of the www.wtfisart.com reconstruction",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ],
+    "used_specific_object": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009",
+        "type": "LinguisticObject",
+        "_label": "The WTFIA source documents, January and March 2009"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "_label": "Artwork page",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "Metaconceptual Art — www.wtfisart.com Reconstruction",
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://www.metaconceptualart.com/artworks/wtfisart-reconstruction",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/wtfisart-reconstruction" },
+    "curies": [
+      { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
+    ],
+    "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
+    "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" },
+    "alternate": [
+      { "href": "https://www.metaconceptualart.com/artworks/wtfisart-reconstruction", "type": "text/html" }
+    ],
+    "collection": { "href": "https://www.metaconceptualart.com/data/linked-art/collection" }
+  }
+}

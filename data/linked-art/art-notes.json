@@ -1,0 +1,213 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/art-notes",
+  "type": "HumanMadeObject",
+  "_label": "Art Notes",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Art Notes",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "work:art-notes",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300264827",
+      "type": "Type",
+      "_label": "conceptual art",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q203209",
+          "type": "Type",
+          "_label": "conceptual art"
+        }
+      ]
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "A framed studio notice board, half dry-erase panel and half cork, carrying handwritten notes in blue, black, red and green alongside pinned press cuttings and images. The written panel is headed 'Notes' over a drawn musical staff, and its first line reads 'WTF is Art ?!'. The same panel names 'Sun and Rain Works'. The board is the working surface on which the studio's questions were kept in view, and it is published here as a work in its own right: a note board about art that asks what art is, kept in the room where the work was made.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Transcription of the handwritten panel, line by line as laid out: 'Notes' (heading, over a drawn treble staff, with three drawn notes); '\"WTF is Art ?!\"'; '\"There's a time and a place for now\"'; '\"We have Art today!\"'; '\"For the love of God, We are th[...]!\"'; '\"There is this little thing called the Universe, Art is a part of it\"'; '\"Sun and Rain Works\"'; '\"Alien Highways\"'; '\"Time is space, Space is Time, Love is Eternal\"'. A drawn heart sits at the lower left. One line is partly effaced by camera flare in the only photograph held, and its final two words cannot be read with confidence; the ellipsis marks that gap rather than an omission in the original. Every line is given in the quotation marks the writer used.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Pinned to the cork half, as far as the photograph shows: a wire-service cutting headed 'Picasso fetches record price', reporting the sale of the 1932 painting 'Nude, Green Leaves and Bust' for $106.5 million at Christie's, annotated in ink in the margin with a date in the form '5-10'; a New York Times report by Doreen Carvajal headed 'Picasso, Matisse nabbed in theft at Paris museum', on the theft of five paintings from the Paris Museum of Modern Art, valued in the report at $114 million to $127 million; a cut-out reading 'Full Circle' beside a fragment reading 'PRINT THIS'; an illustrated street map of Lower Manhattan hand-lettered 'LOWER HEDGISTAN' with Broadway and Wall Street named, credited in the caption to Leif Parsons; a photograph of the Earth from space; a bald eagle's eye; a satellite image of cloud and coastline; and a detail of a hundred-dollar bill overlaid with two photographic portraits. The two press cuttings are third-party copyright material, incidental to the work and reproduced here only at a size at which their body text is not legible.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Dating, and what carries it. The board is evidenced by a single photograph held by the studio. That file's Exif, written by the camera, gives DateTimeOriginal, DateTimeDigitized and DateTime all as 2012:11:30 13:25:01, with no time zone recorded, and identifies the camera as a Canon PowerShot ELPH 100 HS, firmware 1.01, at f/2.8, 1/20s, ISO 250, 5.0mm, flash fired. The Canon MakerNote block survives intact at 3,640 bytes and its ImageType string reads 'IMG:PowerShot ELPH 100 HS JPEG'. The file carries no editing-software provenance: its only XMP is a single Windows-written xmp:Rating of 0, and there is no CreatorTool or ModifyDate. Two independent floors bracket the date from below and do not depend on the camera clock, which a user can set at will. First, the content of the board: the Paris museum theft the pinned New York Times report describes took place on the night of 19-20 May 2010, so the board as photographed cannot have been assembled before 20 May 2010, and the Christie's sale the other cutting reports took place on 4 May 2010. Second, the camera: the PowerShot ELPH 100 HS was announced on 7 February 2011 and shipped that March, so no file could have been made with it before 2011. The camera-written date of 30 November 2012 is consistent with both floors and is contradicted by nothing in the file. It remains a self-reported date on a studio-held file, of the same evidential kind as the rest of the private archive and weaker than the platform-assigned dates of the 2011-2012 postings; it is not independently notarized.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Custody and publication. The photograph came to light in the studio's private source archive, on the same medium as the WTFIA folder described in the 2008-2009 evidence record; it is not one of the ninety-seven files that record enumerates, and it is later in date than all of them. The original as held is 4,000 x 3,000 pixels, 1,056,962 bytes, SHA-256 29c40767175e790b7ae443d3e020d27c13f645909811c59c95640721dd165081. What is published here is a display derivative, resampled to 1,600 x 1,200, 345,612 bytes, SHA-256 220b145dfa5464293edb91d0bbd5d2a1d9edc9bd99ab58f0768b66d0194bd320, carrying the camera's Exif block forward unaltered, including the MakerNote. The reduction is deliberate and is a rights measure, not a conservation one: at full resolution the body text of the two pinned press cuttings is readable, and at this size it is not, while the handwritten panel that is the work remains fully legible. The checksum of the original is published so the held file can later be shown to be the one described here without the full-resolution image being released.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Scope. This record establishes that a board bearing the line 'WTF is Art ?!' and the name 'Sun and Rain Works' stood in the studio and was photographed on a date the file gives as 30 November 2012, no earlier than 20 May 2010 by its own content and no earlier than 2011 by its camera. It does not evidence the asserted 2007 origin of Metaconceptual Art, and it is not the earliest evidence in this collection: the 2008-2009 WTFIA folder is earlier in date, and the 2011-2012 postings remain the earliest evidence whose dates are assigned by a party other than the studio. The board's relation to the website www.wtfisart.com is one of shared wording, not of documented production: nothing here shows the board was made for the site or at the same time as it. No precedence over any other artist, work, or event is claimed from this record.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: the WTFIA source folder for www.wtfisart.com (2008-2009)"
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/art-notes#visual-item",
+      "type": "VisualItem",
+      "_label": "The Art Notes board: handwritten panel and pinned matter",
+      "digitally_shown_by": [
+        {
+          "id": "https://www.metaconceptualart.com/images/art-notes-2012.jpg",
+          "type": "DigitalObject",
+          "_label": "Studio photograph of the Art Notes board, 2012-11-30",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://www.metaconceptualart.com/images/art-notes-2012.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "type": "Production",
+    "_label": "Making of the Art Notes board",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "between 20 May 2010 and 30 November 2012",
+      "begin_of_the_begin": "2010-05-20T00:00:00Z",
+      "end_of_the_end": "2012-11-30T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ],
+    "referred_to_by": [
+      {
+        "type": "LinguisticObject",
+        "content": "The board accreted rather than being made at one sitting, so the span is a bracket, not a date of completion. Its lower bound is the latest datable thing pinned to it, the Paris museum theft of 20 May 2010; its upper bound is the moment the only photograph of it was taken. Where within that span any given line was written is not recorded.",
+        "classified_as": [
+          {
+            "id": "http://vocab.getty.edu/aat/300435416",
+            "type": "Type",
+            "_label": "description"
+          }
+        ]
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "_label": "Artwork page",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "Metaconceptual Art — Art Notes",
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://www.metaconceptualart.com/artworks/art-notes",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/art-notes" },
+    "curies": [
+      { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
+    ],
+    "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
+    "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" },
+    "alternate": [
+      { "href": "https://www.metaconceptualart.com/artworks/art-notes", "type": "text/html" }
+    ],
+    "collection": { "href": "https://www.metaconceptualart.com/data/linked-art/collection" }
+  }
+}

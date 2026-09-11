@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<style type="text/css">
+<!--
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #666666;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	background-color: #663333;
+}
+.thrColLiqHdr #container {
+	width: 80%;  /* this will create a container 80% of the browser width */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+.thrColLiqHdr #header {
+	background: #DDDDDD;
+	padding: 0 10px;
+}
+.thrColLiqHdr #header h1 {
+	margin: 0;
+	padding: 10px 0;
+}
+.thrColLiqHdr #sidebar1 {
+	float: left; /* this element must precede in the source order any element you would like it be positioned next to */
+	width: 22%; /* since this element is floated, a width must be given */
+	background: #EBEBEB;
+	padding: 15px 0;
+}
+.thrColLiqHdr #sidebar2 {
+	float: right;
+	width: 23%;
+	background: #EBEBEB;
+	padding: 15px 0;
+}
+.thrColLiqHdr #sidebar1 p, .thrColLiqHdr #sidebar1 h3, .thrColLiqHdr #sidebar2 p, .thrColLiqHdr #sidebar2 h3 {
+	margin-left: 10px; /* the left and right margin should be given to every element that will be placed in the side columns */
+	margin-right: 10px;
+}
+.thrColLiqHdr #mainContent {
+	margin: 0 24% 0 23.5%; /* the right and left margins on this div element creates the two outer columns on the sides of the page */
+}
+.thrColLiqHdr #footer {
+	padding: 0 10px;
+	background:#DDDDDD;
+}
+.thrColLiqHdr #footer p {
+	margin: 0;
+	padding: 10px 0;
+}
+/* Miscellaneous classes for reuse */
+.fltrt { /* this class can be used to float an element right in your page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain its child floats */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+-->
+</style><!--[if IE]>
+<style type="text/css">
+/* place css fixes for all versions of IE in this conditional comment */
+.thrColLiqHdr #sidebar2, .thrColLiqHdr #sidebar1 { padding-top: 30px; }
+.thrColLiqHdr #mainContent { zoom: 1; padding-top: 15px; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]-->
+<link href="../WTFIA.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="thrColLiqHdr">
+
+<div id="reconstruction"><strong>RECONSTRUCTION</strong> &#8212; built in 2026 from the studio's 2009 source documents.
+  This is not a recovered copy of www.wtfisart.com; no HTML from that site survives.
+  <a href="../about-this-reconstruction.html">What this is, and what it is not &#8594;</a></div>
+
+<div id="container"><!-- TemplateBeginRepeat name="banner" --><!-- TemplateBeginRepeatEntry -->
+<p class="bannerbar"><span class="WTF">WTF</span> <span class="is">is</span> <span class="Art">Art</span><span class="WTF">?!</span></p>
+<!-- The 2009 original carried a Google Custom Search box and three AdSense
+     units (468x15 header, 120x600 right rail, 728x90 footer), as its sibling
+     site Growing Aloha still does. They are left out here: the publisher and
+     partner identifiers in the surviving source are the studio's own, and the
+     scripts were live third-party code. Their positions are marked. -->
+<p class="adslot">[ search box and 468x15 banner unit sat here ]</p>
+<!-- TemplateEndRepeatEntry --><!-- TemplateEndRepeat -->
+  <p>
+    <!-- end #header -->
+  </p>
+
+  <div id="sidebar1">
+      <p><a href="../index.html" class="navigation">Home</a></p>
+      <p><a href="../IsItArt/IsItArt.html" class="navigation">Is It Art?</a></p>
+      <p><a href="../Galleries/OldMasters/OldMasters.html" class="navigation">Old Masters</a></p>
+      <p><a href="../Galleries/Modern/Modern.html" class="navigation">Modern</a></p>
+      <p><a href="../Photographers/Photographers.html" class="navigation">Photographers</a></p>
+      <p><a href="../WTFisAnselAdams/WTFisAnselAdams.html" class="navigation">WTF is Ansel Adams</a></p>
+      <p><a href="../Biblio/biblio.html" class="navigation">Sources</a></p>
+  <!-- end #sidebar1 --></div>
+  <div id="sidebar2">
+    <h3><!-- TemplateBeginRepeat name="RightSide" --><!-- TemplateBeginRepeatEntry --><br />
+      <br />
+      <span class="adslot">[ 120x600 unit sat here ]</span>
+      <br />
+      <br />
+    <!-- TemplateEndRepeatEntry --><!-- TemplateEndRepeat --></h3>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  <!-- end #sidebar2 --></div>
+  <!-- TemplateBeginEditable name="MainContent" -->
+  <div id="mainContent">
+    <!-- TemplateBeginEditable name="MainContent" -->
+    <p>&nbsp;</p>
+    <!-- TemplateEndEditable -->
+    <!-- end #mainContent -->
+  </div>
+  <!-- TemplateEndEditable -->
+  <!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats --><br class="clearfloat" />
+  <div id="footer">
+  <span style="text-align: center; display: block;">Sun &amp; Rain Works<br />
+  <span class="adslot">[ hit counter and 728x90 unit sat here ]</span></span>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
+</body>
+</html>

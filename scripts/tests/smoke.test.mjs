@@ -29,6 +29,8 @@ const ROUTES = [
   ["artworks/art-market-reform.html", "Art Market Reform"],
   ["artworks/eightfold-sprocket.html", "Eightfold Sprocket"],
   ["artworks/movement-graph.html", "Movement Graph"],
+  ["artworks/art-notes.html", "Art Notes"],
+  ["artworks/wtfisart-reconstruction.html", "Reconstruction"],
 ];
 
 const ASSETS = [
@@ -40,6 +42,8 @@ const ASSETS = [
   "data/linked-art/art-market-reform.json",
   "data/linked-art/eightfold-sprocket.json",
   "data/linked-art/movement-graph.json",
+  "data/linked-art/art-notes.json",
+  "data/linked-art/wtfisart-reconstruction.json",
   "data/profile/metaconceptual-art-profile.jsonld",
   "data/profile/1.0/context.jsonld",
   "data/profile/1.0/profile.jsonld",
@@ -62,6 +66,8 @@ const ASSETS = [
   "data/graph.json",
   ".well-known/void",
   "images/artmarketreform.jpg",
+  "images/art-notes-2012.jpg",
+  "wtfisart-2009/index.html",
   "llms.txt",
   "sitemap.xml",
   "robots.txt",

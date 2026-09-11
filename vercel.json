@@ -27,6 +27,30 @@
       "statusCode": 303
     },
     {
+      "source": "/data/linked-art/wtfisart-reconstruction",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept",
+          "value": ".*text/html.*"
+        }
+      ],
+      "destination": "/artworks/wtfisart-reconstruction",
+      "statusCode": 303
+    },
+    {
+      "source": "/data/linked-art/art-notes",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept",
+          "value": ".*text/html.*"
+        }
+      ],
+      "destination": "/artworks/art-notes",
+      "statusCode": 303
+    },
+    {
       "source": "/data/linked-art/art-market-reform",
       "has": [{ "type": "header", "key": "accept", "value": ".*text/html.*" }],
       "destination": "/artworks/art-market-reform",

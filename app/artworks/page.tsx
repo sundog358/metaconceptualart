@@ -37,12 +37,13 @@ export default function ArtworksPage() {
         >
           <div className="section-heading">
             <p className="section-kicker">Initial register</p>
-            <h2 id="collection-title">Six Works</h2>
+            <h2 id="collection-title">Eight Works</h2>
             <p className="section-intro">
               A compact public register: the canonical sentence sequence, a
-              2009 born-digital conceptual work, image studies, an emblem, and the
-              graph as a site-native work, each with its own page, metadata,
-              and conceptual relations. Each work also publishes a{" "}
+              2009 born-digital conceptual work and its 2026 reconstruction, a
+              studio notice board, image studies, an emblem, and the graph as a
+              site-native work, each with its own page, metadata, and
+              conceptual relations. Each work also publishes a{" "}
               <a
                 className="inline-link"
                 href="/data/linked-art/collection.json"

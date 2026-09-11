@@ -82,6 +82,58 @@ export const WORKS: Work[] = [
     webUrl: { href: "https://www.wtfisart.com/", label: "Open www.wtfisart.com" },
   },
   {
+    slug: "wtfisart-reconstruction",
+    title: "www.wtfisart.com — Reconstruction",
+    year: "2026",
+    kind: "reconstruction",
+    idLine: "work:wtfisart-reconstruction / 2026 / reconstruction",
+    summary:
+      "The 2009 site rebuilt from the only two things that survive of it: the documents written for it, and a sibling site built by the same hands in the same months.",
+    body: [
+      "Nothing of www.wtfisart.com's HTML survives. What survives is the WTFIA folder — the art-market press compilation, the photographer note, and the two dealer directories written as the site's link content — and, on the same medium, Growing Aloha: an unrelated website about renewable energy, built by the same hands in the same weeks of January 2009, which survives whole. Its pages, its stylesheet and its Dreamweaver template are all still there.",
+      "So the form could be recovered even though the site could not. Growing Aloha is a Dreamweaver “three column liquid, header and footer” build: XHTML 1.0 Transitional, the layout stylesheet inline and wrapped in HTML comments, an Internet Explorer conditional comment carrying the hasLayout fix, a left column of block-display links, and a stylesheet whose class names are taken from the site's own words. Every one of those is reproduced here, class for class, and the reconstruction carries its own template at Templates/WTFIA.dwt.",
+      "The text is 2009's: twenty-four dated press reports on the art market running back to 2000, twenty-two still carrying the link the compiler saved; sixty-four Old Master dealers with the web addresses recorded for them then; eighty-one modern and contemporary galleries; and the note on Lee Balterman. The shape around that text is not. How the 2009 pages were divided, what they were titled, what the front page said — none of that is recorded anywhere, so the page structure, the navigation order, the palette and the front-page wording are this reconstruction's inventions, and it says so on every page.",
+      "It is not a recovered copy, and it is not evidence that the site was ever live: the earliest capture of the domain, February 2011, is a parked advertising page. What it is instead is the project's own method turned on itself — provenance, archive, and the gap between them treated as the material. The reconstruction is honest about being one, and that honesty is the work.",
+    ],
+    textMedia: "www",
+    metadata: [
+      { label: "Source", value: "WTFIA documents (2009); Growing Aloha template (2009)" },
+      { label: "Transcribed", value: "24 press reports, 145 galleries, 1 photographer note" },
+      { label: "Inferred", value: "Page structure, titles, navigation, palette, front page" },
+    ],
+    linkedArt: "/data/linked-art/wtfisart-reconstruction",
+    exploreNode: "work:wtfisart-reconstruction",
+    webUrl: { href: "/wtfisart-2009/index.html", label: "Open the reconstruction" },
+  },
+  {
+    slug: "art-notes",
+    title: "Art Notes",
+    year: "2010–2012",
+    kind: "studio notice board",
+    idLine: "work:art-notes / 2010–2012 / studio notice board",
+    summary:
+      "A framed studio notice board whose first handwritten line reads “WTF is Art ?!”, kept beside pinned art-market press cuttings and signed with the studio's name.",
+    body: [
+      "Art Notes is the working surface on which the studio kept its questions in view. Half dry-erase panel, half cork: on the written half, under a heading of “Notes” drawn over a musical staff, the first line is “WTF is Art ?!”, and further down the panel names “Sun and Rain Works”. On the cork half are pinned the things the question was being asked about — a cutting on a Picasso setting a $106.5 million auction record, a New York Times report on the theft of five paintings from the Paris Museum of Modern Art, and an illustrated street map of Lower Manhattan hand-lettered “LOWER HEDGISTAN”.",
+      "The board belongs to this collection because it is the domestic form of the project's central move: art, its market, and its institutions treated as the material of the work, on a surface that is itself part of making the work. It is a note board about art that asks what art is, and it keeps the question and the evidence pinned to the same frame.",
+      "It is evidenced by a single photograph the studio holds. The camera wrote 2012-11-30 into that file, and two things bound the date from below without relying on the camera's clock: the Paris theft the pinned report describes happened on 20 May 2010, so the board cannot predate it, and the camera model itself was not announced until February 2011. Both are consistent with the recorded date and neither depends on the studio's word. The date is nonetheless self-reported on a studio-held file. This is not the earliest evidence in the collection, and it is not evidence of the asserted 2007 origin; the 2011–2012 postings remain the earliest material dated by anyone other than the studio.",
+      "The image published here is reduced from the original. At full resolution the body text of the two pinned press cuttings is readable, and reducing it keeps the handwritten panel that is the work fully legible while the third-party newsprint is not. The Linked Art record carries the camera metadata in full, the checksum of the published image, and the checksum of the unpublished original.",
+    ],
+    image: {
+      src: "/images/art-notes-2012.jpg",
+      alt: "A framed notice board: a white panel of handwritten notes headed “Notes”, beginning “WTF is Art ?!” and including “Sun and Rain Works”, beside a cork panel pinned with newspaper cuttings about art sales and an art theft, an illustrated street map, an eagle's eye, and a detail of a hundred-dollar bill.",
+      width: 1600,
+      height: 1200,
+    },
+    metadata: [
+      { label: "Concept", value: "Art, market, and institution as material" },
+      { label: "Dating", value: "Camera Exif 2012-11-30; content floor 2010-05-20; camera floor 2011" },
+      { label: "Evidence", value: "Studio-held photograph; self-reported date, not notarized" },
+    ],
+    linkedArt: "/data/linked-art/art-notes",
+    exploreNode: "work:art-notes",
+  },
+  {
     slug: "construction-museum",
     title: "Construction of the Museum as Concept",
     year: "2026",

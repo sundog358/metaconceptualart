@@ -66,7 +66,7 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "Embedded document metadata, as recorded by the files themselves: 'IsItArt.doc' gives author Joseph M. Chirum, created 2009-01-22T03:03, last saved 2009-01-28T21:23, revision 21, total editing time 09:46, 14 pages, 4,049 words, 23,082 characters; its Title field carries the string 'August 13, 2007', which is a metadata field value and not, by itself, evidence of a 2007 document. 'Photographers.doc' gives author Joseph M. Chirum, created 2009-01-22T04:19, last saved 2009-01-26T04:15, revision 4, 1 page, 69 words. 'OldMasters.doc' gives created 2009-01-23T18:22, last saved 2009-01-26T20:50, revision 19, 8 pages, 1,263 words. 'Modern.doc' gives created 2009-01-27T13:15, last saved 2009-01-28T03:49, revision 10, and was produced with a different word processor from the other three. A second contributor is recorded in the metadata of all four documents: as the named author of both dealer-network directories, 'OldMasters.doc' and 'Modern.doc', and as the last editor of all four files. That person's name is withheld from this public record pending their consent, and is retained in the studio's private copy; the attribution of the two directories is theirs, not the studio principal's.",
+      "content": "Embedded document metadata, as recorded by the files themselves: 'IsItArt.doc' gives author Joseph M. Chirum, created 2009-01-22T03:03, last saved 2009-01-28T21:23, revision 21, total editing time 09:46, 14 pages, 4,049 words, 23,082 characters; its Title field carries the string 'August 13, 2007', which is a metadata field value and not, by itself, evidence of a 2007 document. That string is now accounted for: 'August 13, 2007' is the date of one of the twenty-four press reports compiled inside the document itself, a New York Sun piece by Kate Taylor headed 'Seeking A Hedge For Art'. The Title field took the value of a heading in the body, as Word does, and carries no authorship date of its own. 'Photographers.doc' gives author Joseph M. Chirum, created 2009-01-22T04:19, last saved 2009-01-26T04:15, revision 4, 1 page, 69 words. 'OldMasters.doc' gives created 2009-01-23T18:22, last saved 2009-01-26T20:50, revision 19, 8 pages, 1,263 words. 'Modern.doc' gives created 2009-01-27T13:15, last saved 2009-01-28T03:49, revision 10, and was produced with a different word processor from the other three. A second contributor is recorded in the metadata of all four documents: as the named author of both dealer-network directories, 'OldMasters.doc' and 'Modern.doc', and as the last editor of all four files. That person's name is withheld from this public record pending their consent, and is retained in the studio's private copy; the attribution of the two directories is theirs, not the studio principal's.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -78,6 +78,33 @@
     {
       "type": "LinguisticObject",
       "content": "The folder is named for the 'WTF is Art' concept and holds the material Sun & Rain Works assembled for www.wtfisart.com: the art-market press compilation, the photographer note, and the two dealer-network directories of galleries and their web addresses that were built as the site's link content. Its art-market compilation is the documented source context for the image study Art Market Reform, and the dealer directories are a documented instance of the project's stated interest in an archaeology of the art world. The folder holds no HTML: the built pages of www.wtfisart.com are not among these files, so the folder evidences what was made for the site, not what the site published or when it went live. The folder also contains an Ansel Adams reference image dated 2009-01-21 and a photographer reference note dated 2009-01-25; these show that Ansel Adams and photographic authorship were present in the same 2009 working set, and nothing further. The 2009 Sotheby's consignment is evidenced separately, in the auction-engagement evidence record. One temporal alignment is worth recording: the latest-dated material in the folder - the modern-gallery directory, last saved 2009-03-23, and the seventeen art-market images, all dated 2009-03-23 - falls one week before the Sotheby's Photographs sale of 30 March 2009 at which lot 16 was offered. The folder was therefore in active use in the week before that sale. This places the work and the sale in the same period; it does not show that the material was made for the sale, and no such intent is claimed from the dates alone. Each item here is scoped to what it shows.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Contents of the documents, as counted in 2026 when they were transcribed in full: 'IsItArt.doc' holds twenty-four dated press reports running from 13 May 2000 to 29 January 2009, twenty-two of them carrying the source link the compiler recorded and two carrying none; 'OldMasters.doc' holds sixty-four dealers and galleries, every one with a web address, grouped under seventeen regional headings; 'Modern.doc' holds eighty-one galleries under twenty-nine regional headings with no web addresses at all, its first group of five carrying no heading; 'Photographers.doc' holds the single note on Lee Balterman. These counts describe the documents as held and are independent of any claim about the website.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart-reconstruction",
+      "type": "DigitalObject",
+      "_label": "www.wtfisart.com — Reconstruction"
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "An exhaustive negative search, run 2026-09-01 and recorded so that it need not be repeated. All ninety-eight files on the studio's source medium, totalling 20,271,324 bytes, were searched for any trace of the 2009 auction engagement. The method was not a reading of the readable files but an extraction of every ASCII and every UTF-16 string from every byte of every file, so that text embedded in the Word documents' internal streams, in Photoshop layers, in the thumbnail caches and in the images' own metadata segments would be caught. The following terms return no hit anywhere in the folder: consign, consignment, N08533, lot 16, Twin Peaks, appraisal, hammer, estimate, and the surname of either member of Sotheby's staff. So do the terms metaconceptual, meta conceptual, wtfisart, WTF is Art, and Sun and Rain, none of which appears in the folder at all, including in the folder named for the first of them. The word Sotheby appears only inside the press compilation, in the headline and body of art-market reports about the auction houses, and the word auction likewise, together with one gallery whose trading name contains it. The words Ansel and Adams appear only in the filename of a reference plate and in a shortcut created in 2026. The conclusion is the one this record already stated and can now state as tested rather than assumed: the working material assembled for www.wtfisart.com, worked on until the week before the sale of 30 March 2009, contains no mention of the consignment, of the sale, or of the concept later called Metaconceptual Art.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -144,12 +171,26 @@
     }
   ],
   "_links": {
-    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009" },
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009"
+    },
     "curies": [
-      { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
     ],
-    "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
-    "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" },
-    "collection": { "href": "https://www.metaconceptualart.com/data/linked-art/collection" }
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
   }
 }

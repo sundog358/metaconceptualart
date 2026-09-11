@@ -282,12 +282,12 @@ export default function HomePage() {
         >
           <div className="section-heading">
             <p className="section-kicker">Public corpus</p>
-            <h2 id="constellation-title">Six Works On View</h2>
+            <h2 id="constellation-title">Eight Works On View</h2>
             <p className="section-intro">
               The project now reads less like a single statement and more like a
-              small museum system: a born-digital conceptual work, image studies,
-              propositions, emblems, and a graph-work, each with a citable
-              record.
+              small museum system: a born-digital conceptual work and its
+              reconstruction, a studio notice board, image studies, propositions,
+              emblems, and a graph-work, each with a citable record.
             </p>
           </div>
           <div className="constellation-grid">

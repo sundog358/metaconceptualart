@@ -43,6 +43,8 @@
     { "id": "evidence-live-auction-2009", "type": "LinguisticObject", "label": "Evidence archive: Sun & Rain Works auction engagement (2009)" },
     { "id": "priority-live-auction-2009", "type": "LinguisticObject", "label": "Sun & Rain Works' conceptual claim to art at auction (2009)" },
     { "id": "evidence-wtfia-2009", "type": "LinguisticObject", "label": "Evidence archive: the WTFIA source folder for www.wtfisart.com (2008-2009)" },
+    { "id": "wtfisart-reconstruction", "type": "DigitalObject", "label": "www.wtfisart.com — Reconstruction" },
+    { "id": "art-notes", "type": "HumanMadeObject", "label": "Art Notes" },
     { "id": "evidence-saturday-market-membership", "type": "LinguisticObject", "label": "Evidence archive: Sun and Rain Works in a market's membership records (2005, 2006, 2008)" },
     { "id": "evidence-consignment-agreement-2009", "type": "LinguisticObject", "label": "Evidence archive: the executed Sotheby's consignment agreement (March 2009)" },
     { "id": "evidence-sfmoma-approach-2008", "type": "LinguisticObject", "label": "Evidence archive: the approach to a museum photography department (11 August 2008)" },
@@ -146,6 +148,22 @@
       "description": "A Metaconceptual Art work Sun & Rain Works designates around its consignment of the Ansel Adams photograph (lot 16) to Sotheby's Photographs, 2009 — a conceptual designation asserted by the artist, not a witnessed performance. Companion to www.wtfisart.com.",
       "wikidata": null,
       "linkedArt": "data/linked-art/wtf-is-ansel-adams"
+    },
+    {
+      "id": "work:wtfisart-reconstruction",
+      "type": "Artwork",
+      "label": "www.wtfisart.com — Reconstruction",
+      "description": "A nine-page website built in 2026 that reconstructs the 2009 site www.wtfisart.com from the WTFIA source documents and from the surviving HTML, stylesheet and Dreamweaver template of Growing Aloha, an unrelated 2009 site by the same hands. The text is transcribed from the 2009 documents; the page structure, titles and front-page wording are the reconstruction's own. No HTML from the original site survives, and this is not evidence that the site was ever live.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/wtfisart-reconstruction"
+    },
+    {
+      "id": "work:art-notes",
+      "type": "Artwork",
+      "label": "Art Notes",
+      "description": "A framed studio notice board carrying handwritten notes, the first of which reads 'WTF is Art ?!', alongside the name 'Sun and Rain Works' and pinned art-market press cuttings. Evidenced by one studio-held photograph whose camera-written Exif gives 2012-11-30; its content places it no earlier than 20 May 2010 and its camera model no earlier than 2011. A self-reported date on a studio file, not independently notarized, and no evidence of the asserted 2007 origin.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/art-notes"
     },
     {
       "id": "record:live-auction-evidence",
@@ -453,6 +471,12 @@
     { "from": "record:consignment-photographs-2008", "relation": "documents", "to": "work:wtf-is-ansel-adams" },
     { "from": "record:consignment-photographs-2008", "relation": "documents", "to": "work:auction-as-artwork" },
     { "from": "record:consignment-photographs-2008", "relation": "documents", "to": "source:sothebys-photographs-2009" },
+    { "from": "work:wtfisart-reconstruction", "relation": "derives_from", "to": "record:wtfia-evidence" },
+    { "from": "work:wtfisart-reconstruction", "relation": "documents", "to": "work:wtfisart" },
+    { "from": "work:wtfisart-reconstruction", "relation": "expresses", "to": "concept:provenance" },
+    { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:art-notes" },
+    { "from": "work:art-notes", "relation": "expresses", "to": "concept:metaconceptual-art" },
+    { "from": "work:art-notes", "relation": "tracks", "to": "concept:provenance" },
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:museum-correspondence-2013" },
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:pastebin-2011-2012" },
     { "from": "record:pastebin-2011-2012", "relation": "documents", "to": "concept:metaconceptual-art" },
