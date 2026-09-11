@@ -7,6 +7,10 @@
     "id": "https://www.metaconceptualart.com/data/linked-art/activity-stream",
     "type": "OrderedCollection"
   },
+  "next": {
+    "id": "https://www.metaconceptualart.com/data/linked-art/activity-stream-page-2",
+    "type": "OrderedCollectionPage"
+  },
   "orderedItems": [
     {
       "type": "Create",
@@ -783,6 +787,30 @@
         "type": "LinguisticObject"
       },
       "endTime": "2026-09-10T18:10:12-07:00"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/art-notes",
+        "type": "HumanMadeObject"
+      },
+      "endTime": "2026-09-11T12:33:05-07:00"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart-reconstruction",
+        "type": "DigitalObject"
+      },
+      "endTime": "2026-09-11T12:33:05-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+        "type": "Set"
+      },
+      "endTime": "2026-09-11T12:33:05-07:00"
     }
   ]
 }

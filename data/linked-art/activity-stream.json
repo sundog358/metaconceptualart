@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/discovery/1/context.json",
   "id": "https://www.metaconceptualart.com/data/linked-art/activity-stream",
   "type": "OrderedCollection",
-  "totalItems": 97,
+  "totalItems": 101,
   "rights": "https://creativecommons.org/licenses/by/4.0/",
   "seeAlso": [
     {
@@ -16,7 +16,7 @@
     "type": "OrderedCollectionPage"
   },
   "last": {
-    "id": "https://www.metaconceptualart.com/data/linked-art/activity-stream-page-1",
+    "id": "https://www.metaconceptualart.com/data/linked-art/activity-stream-page-2",
     "type": "OrderedCollectionPage"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "@context": "http://iiif.io/api/discovery/1/context.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/activity-stream-page-2",
+  "type": "OrderedCollectionPage",
+  "startIndex": 100,
+  "partOf": {
+    "id": "https://www.metaconceptualart.com/data/linked-art/activity-stream",
+    "type": "OrderedCollection"
+  },
+  "prev": {
+    "id": "https://www.metaconceptualart.com/data/linked-art/activity-stream-page-1",
+    "type": "OrderedCollectionPage"
+  },
+  "orderedItems": [
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-11T12:33:05-07:00"
+    }
+  ]
+}
