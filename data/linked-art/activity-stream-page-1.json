@@ -759,6 +759,14 @@
         "type": "Set"
       },
       "endTime": "2026-09-10T17:43:56-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-consignment-agreement-2009",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-10T17:54:57-07:00"
     }
   ]
 }
