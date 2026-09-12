@@ -1,0 +1,219 @@
+{
+  "about": "Checksum manifest for the domain registrar invoices described in record:evidence-hosting-receipts-2009.",
+  "withheld": "The invoices themselves are not published and are excluded from this repository by rule. Each carries the account holder postal address, a telephone number, a mailbox, and the last four digits of a payment card. These checksums are published so the held files can later be shown unaltered without being disclosed, following the convention used for the 2013 museum correspondence.",
+  "count": 42,
+  "span": "2009-01-04 to 2016-01-05",
+  "algorithm": "SHA-256",
+  "receipts": [
+    {
+      "receipt": "209689929",
+      "bytes": 140909,
+      "sha256": "08860f547ec0a18b58ee55f10578971739b4005662e2d4262a8f8ee16aa54ef2"
+    },
+    {
+      "receipt": "506232419",
+      "bytes": 175427,
+      "sha256": "50c75a0e09c603993f7617699db4b20c7688c14f4318b897c972b8b42c01ca35"
+    },
+    {
+      "receipt": "146295715",
+      "bytes": 134528,
+      "sha256": "4b02445734c7c4d08ee07ca339da3515cf8d24aabc05c2f6f925924f3730e1da"
+    },
+    {
+      "receipt": "158832568",
+      "bytes": 136993,
+      "sha256": "724006be49bad10eba8891d3b964bc27b6ba2d3ec87e9ff15cd4b11414b9dc35"
+    },
+    {
+      "receipt": "158832568R",
+      "bytes": 114258,
+      "sha256": "bd9f771b4b9300b98d13b18cda27d85f1d1eabaa8f19f5811fad836bc0c027e7"
+    },
+    {
+      "receipt": "158833357",
+      "bytes": 112909,
+      "sha256": "6ec448e1f29a395794a2b36927658f38a70417a969c4f883731a13f414c1dc7b"
+    },
+    {
+      "receipt": "164168471",
+      "bytes": 133341,
+      "sha256": "3dbf237b64fc06e7b8100e882f0414566cc78ae3d0db45004c19edd2aa2966d7"
+    },
+    {
+      "receipt": "169524504",
+      "bytes": 134361,
+      "sha256": "ac43184043925ff4474d7d1748dd87bcecb185de1b9d5139f1d4d1bb65211ca0"
+    },
+    {
+      "receipt": "174952886",
+      "bytes": 134420,
+      "sha256": "29425b7eb68f0f98ec726e3465508062b1605e4e16cc7b4f4080906511fc95d2"
+    },
+    {
+      "receipt": "182421481",
+      "bytes": 132486,
+      "sha256": "3c09a974a106e1398e7c386c02dfba995c371f0b012cf937edbaca1b0c87b5d4"
+    },
+    {
+      "receipt": "186315228",
+      "bytes": 133700,
+      "sha256": "c40d3ad9c833cc2b407d6f1d1aa6be29fc60f464e6879cf8460cae2d0479fd8d"
+    },
+    {
+      "receipt": "192066840",
+      "bytes": 404470,
+      "sha256": "1f1af2d2595dc656081b9a4ea6e07691594885433bcd4df121697480cc95aca4"
+    },
+    {
+      "receipt": "197902638",
+      "bytes": 134821,
+      "sha256": "70a485f1f5aa7afef564ed9cd85434bd65e06701beb32ec22d6a412c824a606f"
+    },
+    {
+      "receipt": "203845451",
+      "bytes": 133066,
+      "sha256": "a98ce6273bfdcb81504c0c08caceb2894caeb0cc8b3982c8068122abbf304d6f"
+    },
+    {
+      "receipt": "213590943",
+      "bytes": 149778,
+      "sha256": "d0188e83ea5fd4e1e6219e1e6847fb362da7a71e8a51453e56d836a816684b0e"
+    },
+    {
+      "receipt": "367713033",
+      "bytes": 174128,
+      "sha256": "003c4cec9aa33e4c6a352d1c111f82d1fe291e8e9ae41764f475198f8c514225"
+    },
+    {
+      "receipt": "367713727",
+      "bytes": 146003,
+      "sha256": "31971b67ba40eafc42462b18ce874fcdafe7a36cb31cb8d93ac67f123c971b91"
+    },
+    {
+      "receipt": "367991293",
+      "bytes": 162337,
+      "sha256": "2d3de5d6e5a6d7b69a5076be5b32317f19250ab7e0302ff55a753c3ae3a2c709"
+    },
+    {
+      "receipt": "368276263",
+      "bytes": 172362,
+      "sha256": "3a75c72eed08abc6b4e39f68cfccd57e047f15e8c7fa6f8090ce84491ca12212"
+    },
+    {
+      "receipt": "382754490",
+      "bytes": 159585,
+      "sha256": "96f6e2579aac3f192aee33243d3f12994d0d80d5ce5b61f18151c16f255f9681"
+    },
+    {
+      "receipt": "385210374",
+      "bytes": 160610,
+      "sha256": "ecc39215d6465d693262ce71b867aa1706a36d170889ca1e23b8e73f42fd595c"
+    },
+    {
+      "receipt": "385213841",
+      "bytes": 168413,
+      "sha256": "17ba0c0e1ec120c0525c06c56e53c0df0cd1da27ac125429d3476ac71292de5d"
+    },
+    {
+      "receipt": "385213841R",
+      "bytes": 157168,
+      "sha256": "44c2a0bf2be24f0841e4f6848b88d0a9660c8eb4be5e4164497906205936ec63"
+    },
+    {
+      "receipt": "385638142",
+      "bytes": 222359,
+      "sha256": "3a85e40d722edfa3737d21ebab1367923d1865c7b9d6e04460ef75632859cfe8"
+    },
+    {
+      "receipt": "391407878",
+      "bytes": 165387,
+      "sha256": "a40044941a0b59c0200512a0a2ea4c246561e9d327885efed95afc8cdeec7169"
+    },
+    {
+      "receipt": "392779533",
+      "bytes": 164944,
+      "sha256": "4b6d70eaeb645a5f29022eed25bd545caf5d1e8ebea91a20788b433b8e9f8902"
+    },
+    {
+      "receipt": "472944018",
+      "bytes": 193007,
+      "sha256": "b2a305b535598e6b573035e92b2f55d6000a2f7aa2f9a614fa76de6663641aa3"
+    },
+    {
+      "receipt": "484082135",
+      "bytes": 158817,
+      "sha256": "6b7e3c6b926d54efa2c50afbc3a313a66d9e86c0e80a61a55770453756561532"
+    },
+    {
+      "receipt": "498524902",
+      "bytes": 203454,
+      "sha256": "dd0694fba6a31b63a976fc9c2eefd340a8d10af9c56d565e5e3cf5b1276b8a1b"
+    },
+    {
+      "receipt": "502357752",
+      "bytes": 163610,
+      "sha256": "81fc7e675a984bf6ee8a6b0718c579a86f99b14ce159ec7168659a70c67acc3c"
+    },
+    {
+      "receipt": "551376256",
+      "bytes": 175611,
+      "sha256": "7c118b80d6db122312703e2e28f0ed9533e42c2a11f8be4b361fd6a84b676a6a"
+    },
+    {
+      "receipt": "634164015",
+      "bytes": 206141,
+      "sha256": "8a1d56e2571002e34950f4dffcbc4a962ca0176a4acca96499ec374dcd05d019"
+    },
+    {
+      "receipt": "759071403",
+      "bytes": 159503,
+      "sha256": "c590b0baedbc5ee6a845b22371c1562cd6cfdf434ae46f0541c38bcdb8ffe463"
+    },
+    {
+      "receipt": "761734836",
+      "bytes": 155052,
+      "sha256": "63742f6d127ad904c99b6968a61d5ae500249fb3049a376bf2433b78ca2d16a2"
+    },
+    {
+      "receipt": "772816863",
+      "bytes": 161211,
+      "sha256": "59165da7506ff15cb8c3f8fa9e387ce411f82abf9b44cff176a75356f8154d72"
+    },
+    {
+      "receipt": "777067944",
+      "bytes": 159218,
+      "sha256": "8321f16d9dd6e948f5bc3e5b36723bbe32eee1b63037b5649f7954c9a962e7e4"
+    },
+    {
+      "receipt": "777450370",
+      "bytes": 152854,
+      "sha256": "e6acea89792e6ade879277e618988808c561b82a281dd7415f4084e07eb8f3c3"
+    },
+    {
+      "receipt": "888193854",
+      "bytes": 160181,
+      "sha256": "b5bf4536257568f038120ff5b21756625ad48f7b7a218eb695a2f5cf62912725"
+    },
+    {
+      "receipt": "904396449",
+      "bytes": 160500,
+      "sha256": "f081906cfdd69d22e9bfae792fc8c7b7f91cd885dc353e71b8e64b0d4cd3b107"
+    },
+    {
+      "receipt": "917523165",
+      "bytes": 162231,
+      "sha256": "e20deacfab0247f34546448feabc164cc7de5a981e12ac2bf255d37c2543c1c8"
+    },
+    {
+      "receipt": "920312604",
+      "bytes": 160157,
+      "sha256": "f3bc7f98d719e1210e579705fedc83800ae8ee77823996ce680a09b3d9bf3777"
+    },
+    {
+      "receipt": "920534320",
+      "bytes": 153298,
+      "sha256": "d0b0872db5c269cd63ecfe635482b3853c5b4969439095c612ca97bc89b3a73a"
+    }
+  ]
+}
