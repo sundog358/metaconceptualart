@@ -51,7 +51,7 @@
     { "id": "evidence-sothebys-approach-2008", "type": "LinguisticObject", "label": "Evidence archive: the Sotheby's consignment correspondence (2008-2009)" },
     { "id": "evidence-staged-photographs-2008", "type": "LinguisticObject", "label": "Evidence archive: the staged photographs of the print (autumn 2008)" },
     { "id": "evidence-archived-websites-2013-2016", "type": "LinguisticObject", "label": "Evidence archive: the studio's websites as captured by the Internet Archive (2013-2016)" },
-    { "id": "evidence-hosting-receipts-2009", "type": "LinguisticObject", "label": "Evidence archive: the registrar's receipts for www.wtfisart.com (2009)" },
+    { "id": "evidence-hosting-receipts-2009", "type": "LinguisticObject", "label": "Evidence archive: the registrar's receipts for the studio's domains (2009-2016)" },
     { "id": "evidence-consignment-photographs-2008", "type": "LinguisticObject", "label": "Evidence archive: documentation photographs of the Ansel Adams print (August 2008)" },
     { "id": "evidence-museum-correspondence-2013", "type": "LinguisticObject", "label": "Evidence archive: correspondence declaring Metaconceptual Art to a university art museum (2013)" },
     { "id": "evidence-pastebin-2011-2012", "type": "LinguisticObject", "label": "Evidence archive: public postings of Metaconceptual Art (2011-2012)" },
@@ -243,7 +243,7 @@
     {
       "id": "record:hosting-receipts-2009",
       "type": "Provenance",
-      "label": "The registrar's receipts for www.wtfisart.com (2009)",
+      "label": "The registrar's receipts for the studio's domains (2009-2016)",
       "description": "A domain registrar's billing record for the studio's account, held as the registrar's export and forty-two PDF invoices and published here as checksums only. It registers WTFISART.COM on 2009-03-16 at 00:45:06 UTC, buys hosting for it at 01:07:15 the same night, and pays that hosting monthly to 2009-12-15 - fourteen days before the Sotheby's sale of 30 March 2009 and the nine months after it. A blogging product bought in the same transaction was refunded thirty-five minutes later, which accounts for the studio's memory of an early blog. GROWINGALOHA.COM was registered 2009-01-04 and renewed 2010-01-05. The invoices run on to 2016-01-05: WTFISART.COM was re-registered 2011-10-16, in the same bulk order as METACONCEPTUALART.COM, and renewed through to 2016. The record says nothing about what was served at the domain. Every invoice names Sun and Rain Works in its Bill To block; an earlier version of this summary said the opposite, and that statement is withdrawn.",
       "wikidata": null,
       "linkedArt": "data/linked-art/evidence-hosting-receipts-2009"

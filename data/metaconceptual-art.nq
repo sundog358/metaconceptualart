@@ -320,7 +320,7 @@
 <https://www.metaconceptualart.com/data/linked-art/evidence-hosting-receipts-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r11b8 .
 <https://www.metaconceptualart.com/data/linked-art/evidence-hosting-receipts-2009> <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by> _:r11b9 .
 <https://www.metaconceptualart.com/data/linked-art/evidence-hosting-receipts-2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-<https://www.metaconceptualart.com/data/linked-art/evidence-hosting-receipts-2009> <http://www.w3.org/2000/01/rdf-schema#label> "Evidence archive: the registrar's receipts for www.wtfisart.com (2009)" .
+<https://www.metaconceptualart.com/data/linked-art/evidence-hosting-receipts-2009> <http://www.w3.org/2000/01/rdf-schema#label> "Evidence archive: the registrar's receipts for the studio's domains (2009-2016)" .
 <https://www.metaconceptualart.com/data/linked-art/evidence-hosting-receipts-2009> <https://linked.art/ns/terms/member_of> <https://www.metaconceptualart.com/data/linked-art/collection> .
 <https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P104_is_subject_to> _:r12b0 .
 <https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P129_is_about> <https://www.metaconceptualart.com/data/linked-art/auction-as-artwork> .
@@ -718,7 +718,7 @@ _:r10b8 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2026-01-01
 _:r10b8 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 _:r10b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
 _:r10b8 <http://www.w3.org/2000/01/rdf-schema#label> "2026" .
-_:r11b0 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Evidence archive: the registrar's receipts for www.wtfisart.com (2009)" .
+_:r11b0 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Evidence archive: the registrar's receipts for the studio's domains (2009-2016)" .
 _:r11b0 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
 _:r11b0 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
 _:r11b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .

@@ -234,7 +234,7 @@ mca:evidence-hosting-receipts-2009 crm:P190_has_symbolic_content "A domain regis
     crm:P67i_is_referred_to_by mca:evidence-archived-websites-2013-2016, mca:evidence-wtfia-2009, _:b0_r11b2, _:b0_r11b3, _:b0_r11b4, _:b0_r11b5, _:b0_r11b6, _:b0_r11b7, _:b0_r11b8;
     crm:P94i_was_created_by _:b0_r11b9;
     a crm:E33_Linguistic_Object;
-    rdfs:label "Evidence archive: the registrar's receipts for www.wtfisart.com (2009)";
+    rdfs:label "Evidence archive: the registrar's receipts for the studio's domains (2009-2016)";
     la:member_of mca:collection.
 mca:evidence-live-auction-2009 crm:P104_is_subject_to _:b0_r12b0;
     crm:P129_is_about mca:auction-as-artwork, mca:production-live-auction-2009, mca:sothebys-photographs-auction-2009, mca:wtf-is-ansel-adams, mca:wtfisart;
@@ -496,7 +496,7 @@ _:b0_r10b8 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.or
     crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     a crm:E52_Time-Span;
     rdfs:label "2026".
-_:b0_r11b0 crm:P190_has_symbolic_content "Evidence archive: the registrar's receipts for www.wtfisart.com (2009)";
+_:b0_r11b0 crm:P190_has_symbolic_content "Evidence archive: the registrar's receipts for the studio's domains (2009-2016)";
     crm:P2_has_type aat:300404670;
     crm:P72_has_language aat:300388277;
     a crm:E33_E41_Linguistic_Appellation.

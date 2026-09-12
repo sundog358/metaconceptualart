@@ -2,11 +2,11 @@
   "@context": "https://linked.art/ns/v1/linked-art.json",
   "id": "https://www.metaconceptualart.com/data/linked-art/evidence-hosting-receipts-2009",
   "type": "LinguisticObject",
-  "_label": "Evidence archive: the registrar's receipts for www.wtfisart.com (2009)",
+  "_label": "Evidence archive: the registrar's receipts for the studio's domains (2009-2016)",
   "identified_by": [
     {
       "type": "Name",
-      "content": "Evidence archive: the registrar's receipts for www.wtfisart.com (2009)",
+      "content": "Evidence archive: the registrar's receipts for the studio's domains (2009-2016)",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300404670",
