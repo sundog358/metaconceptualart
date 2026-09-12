@@ -49,7 +49,28 @@ tsconfig.tsbuildinfo
 # by the studio pending redaction and rights review. Individual items are
 # published one at a time, after review — see images/adams-verso-2008.jpg.
 /reference-folders/
+/Kingston/
+
+# Raw correspondence dropped at the repo root for review. The redacted copy and
+# the checksum of the original are published under data/evidence/; the original
+# itself carries a third party's name and mailbox and is never committed.
+/*.eml
+/*.zip
+/*.pdf
 
 # Local denylist of third-party names withheld from the public records.
 # Never commit this: a denylist in a public repo publishes what it protects.
 .pii-denylist
+
+# Registrar receipts: originals carry a postal address, telephone number,
+# mailbox and payment-card digits. Never commit them; the records publish
+# checksums instead.
+/receipts/
+**/ArtReceipts/
+
+# Occupy Wall Street IRC logs, 2011. These are other people's words: nearly every
+# line carries a third party's handle, and none of it was written for
+# publication. The evidence records may describe the logs and quote the studio's
+# own lines; the transcripts themselves are never committed.
+/occupychats/
+**/*.rtf
