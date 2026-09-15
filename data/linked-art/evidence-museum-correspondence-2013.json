@@ -55,7 +55,7 @@
   "referred_to_by": [
     {
       "type": "LinguisticObject",
-      "content": "Evidence status: studio-held, published in redacted form, with machine-generated headers that corroborate the date internally. The message carries five timestamps written by two unrelated mail systems, in monotonic order. Four are Yahoo message identifiers whose leading integers are server-written Unix timestamps: 1379027969, 1379028560, 1379028776 and 1379028931, decoding to 2013-09-12 at 23:19:29, 23:29:20, 23:32:56 and 23:35:31 UTC - 16:19 to 16:35 Pacific, the studio's local time, spanning sixteen minutes of one outbound thread. The fifth is the recipient Exchange server's own stamp on the reply, 'Thu, 12 Sep 2013 23:38:09 +0000', two and a half minutes after the last of them; the quoted 'Sent' line reads 4:36 PM, agreeing to within a minute. Yahoo generated those identifiers and the University of Oregon's server copied them verbatim into its References and In-Reply-To headers, so each system corroborates the other. The dating therefore does not rest on the studio's account: it would require consistent, ordered forgery across two independent providers.",
+      "content": "Evidence status: retained by the receiving institution and produced by it on request, published here in redacted form, with machine-generated headers that corroborate the date internally. The message carries five timestamps written by two unrelated mail systems, in monotonic order. Four are Yahoo message identifiers whose leading integers are server-written Unix timestamps: 1379027969, 1379028560, 1379028776 and 1379028931, decoding to 2013-09-12 at 23:19:29, 23:29:20, 23:32:56 and 23:35:31 UTC - 16:19 to 16:35 Pacific, the studio's local time, spanning sixteen minutes of one outbound thread. The fifth is the recipient Exchange server's own stamp on the reply, 'Thu, 12 Sep 2013 23:38:09 +0000', two and a half minutes after the last of them; the quoted 'Sent' line reads 4:36 PM, agreeing to within a minute. Yahoo generated those identifiers and the University of Oregon's server copied them verbatim into its References and In-Reply-To headers, so each system corroborates the other. The dating therefore does not rest on the studio's account: it would require consistent, ordered forgery across two independent providers.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -66,7 +66,7 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "Publication and custody. This was private correspondence, not something its author published, so the message is not reproduced here in full. A redacted copy is published at data/evidence/museum-correspondence-2013/, withholding the replying staff member's name and both mailbox addresses while retaining the email domains, every header bearing on the date, the full text of the studio principal's declaration, and the substance of the museum's reply. The unredacted original is held by the studio on separate media, and its SHA-256 is published in that manifest so the held file can be shown to be unaltered without being disclosed; it can be released, in whole or in part, if the third party consents. The mailbox the thread was sent from has since been closed, so the studio's saved file is the only copy known to exist - which is why it is now backed up rather than left in place.",
+      "content": "Publication and custody. This was private correspondence, not something its author published, so the message is not reproduced here in full. A redacted copy is published at data/evidence/museum-correspondence-2013/, withholding the replying staff member's name and both mailbox addresses while retaining the email domains, every header bearing on the date, the full text of the studio principal's declaration, and the substance of the museum's reply. The unredacted original is held by the studio on separate media, and its SHA-256 is published in that manifest so the held file can be shown to be unaltered without being disclosed; it can be released, in whole or in part, if the third party consents. Custody, corrected. An earlier version of this record stated that the sending mailbox had been closed and that the studio's saved file was therefore the only copy known to exist. That was wrong, and wrong in this project's favour. The file described in the manifest as the unredacted original is not a copy saved from the sending mailbox in 2013: it is the copy the receiving museum retrieved from its own archive and supplied in July 2026, and the two are the same file. Its headers settle the provenance. It carries no Received headers and none of the sending provider's X-headers, which a mailbox-saved copy would have; it carries four X-MS-Exchange-Organization headers, including the originating client and server addresses, which exist only inside the university's own mail organisation, and the originating client address falls inside UONET, 128.223.0.0/16, the University of Oregon's allocation in the ARIN registry. The message is therefore not studio-held evidence. The institution named in it retained it for close to thirteen years and produced it on request, and because the museum's reply quotes the studio principal's letter in full, the university's own archive carries the text of the declaration.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -77,7 +77,7 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "What the correspondence does and does not establish. It establishes that the declaration existed in writing on 2013-09-12 and was delivered to a named art institution, which is the earliest such delivery the studio has produced. It does not establish that the movement originated in 2007, and it is not itself evidence of anything before its own date; the 2007 origin remains asserted by the studio. The 'May 2009' dating of the auction in this letter is incorrect. Sotheby's own record gives sale N08533, Photographs, as 30 March 2009 in New York, 169 lots. The letter's month is therefore the artist's misrecollection, written four years after the event and before the catalogue record had been consulted. The error is confined to the month: the sale number, the lot number, the photographer, and the title given in the letter all match the catalogue entry. The same month appears in the artist's public Flickr profile, written in the same state of knowledge. Sun & Rain Works has elected to leave that profile unaltered, as an artifact of what was believed at the time rather than a statement to be brought into line with the record; the two texts are consequently left disagreeing with the catalogue and agreeing with each other. Neither is corrected here. An uncorrected error carried across two independent self-descriptions is itself evidence of the kind of account it is - remembered rather than constructed - and revising it after the fact would remove that. His statement that eight defining characteristics were already publicly findable in September 2013 is likewise his own, and the material he referred to has not been located.",
+      "content": "What the correspondence does and does not establish. It establishes that the declaration existed in writing on 2013-09-12 and was delivered to a named art institution, which is the earliest such delivery the studio has produced. It does not establish that the movement originated in 2007, and it is not itself evidence of anything before its own date; the 2007 origin remains asserted by the studio. The 'May 2009' dating of the auction in this letter is incorrect. Sotheby's own record gives sale N08533, Photographs, as 30 March 2009 in New York, 169 lots. The letter's month is therefore the artist's misrecollection, written four years after the event and before the catalogue record had been consulted. The 2008 consignment correspondence supplies part of the explanation: throughout that thread Sotheby's described the sale as its April 2009 sale, and the consignment was arranged against an April date. The sale actually took place on 30 March. A recollection of late spring rather than March is what an artist working from the plan of record would be left with, which makes the error the ordinary kind rather than a careless one. It remains an error; the letter says May, and no document says May. The error is confined to the month: the sale number, the lot number, the photographer, and the title given in the letter all match the catalogue entry. The same month appears in the artist's public Flickr profile, written in the same state of knowledge. Sun & Rain Works has elected to leave that profile unaltered, as an artifact of what was believed at the time rather than a statement to be brought into line with the record; the two texts are consequently left disagreeing with the catalogue and agreeing with each other. Neither is corrected here. An uncorrected error carried across two independent self-descriptions is itself evidence of the kind of account it is - remembered rather than constructed - and revising it after the fact would remove that. His statement that eight defining characteristics were already publicly findable in September 2013 is likewise his own, and the material he referred to has not been located.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -88,7 +88,18 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "The museum's role is receipt, and nothing more. The reply acknowledged the message and said it would be forwarded to staff. It records no exhibition, acquisition, review, endorsement, or acceptance of the work or of the term, and none should be inferred from this record: the Jordan Schnitzer Museum of Art is named here because the identity of the receiving institution is what gives the delivery its evidential weight, not because it participated in the work. Following this corpus's convention, the individual member of staff who replied is identified by role only; her name and the correspondents' email addresses are withheld from this public record and retained in the studio's private copy. The saved thread preserves the text parts only: the letter refers to attached images, which are not present in the file held.",
+      "content": "The museum's role is receipt, and nothing more. The reply acknowledged the message and said it would be forwarded to staff. It records no exhibition, acquisition, review, endorsement, or acceptance of the work or of the term, and none should be inferred from this record: the Jordan Schnitzer Museum of Art is named here because the identity of the receiving institution is what gives the delivery its evidential weight, not because it participated in the work. Following this corpus's convention, the individual member of staff who replied is identified by role only; their name and the correspondents' email addresses are withheld from this public record and retained in the studio's private copy. The saved thread preserves the text parts only: the letter refers to attached images, which are not present in the file held.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "A negative finding, recorded because it bears on a claim this collection makes elsewhere. On 2026-07-11 the studio asked the museum whether its email archive reached back to March 2009, saying that Sun & Rain Works had sent it a press release around the Sotheby's Photographs sale of 30 March 2009. On 2026-07-15 the museum's communications manager replied that the museum holds no email from the studio's then-current address dated 2009, and attached the 2013 thread instead. No institutional corroboration for a 2009 approach to this museum therefore exists. The finding should be read for exactly what it is: a search that returned nothing, not a demonstration that nothing was sent. A 2009 message could have been addressed to staff whose mail was not searched, or have fallen outside a retention window, or have predated the present holder's tenure. What can be said is that the museum's holdings do reach 2013, that they were searched on request, and that nothing from 2009 came back. The studio's account of a 2009 press release to this institution remains unsupported by the recipient's own records.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -165,12 +176,26 @@
     }
   ],
   "_links": {
-    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/evidence-museum-correspondence-2013" },
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/evidence-museum-correspondence-2013"
+    },
     "curies": [
-      { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
     ],
-    "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
-    "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" },
-    "collection": { "href": "https://www.metaconceptualart.com/data/linked-art/collection" }
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
   }
 }

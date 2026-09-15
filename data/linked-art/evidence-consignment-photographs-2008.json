@@ -88,7 +88,7 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "Limits of the correspondence. Ansel Adams produced multiple prints from the 1952 negative, so agreement on the verso markings identifies a print of the same issue and annotation state rather than establishing a unique object beyond question; the strength of the match rests on the combination of particulars, not on any one of them. The photographs show that the print was in the room in which they were taken; the attribution of that room and camera to Sun & Rain Works rests on the studio's custody of the storage medium. The Sotheby's catalogue names no consignor, as is standard auction practice, so the identity of the consignor of record is not established here and is addressed separately in the auction-engagement evidence record.",
+      "content": "Limits of the correspondence. Ansel Adams produced multiple prints from the 1952 negative, so agreement on the verso markings identifies a print of the same issue and annotation state rather than establishing a unique object beyond question; the strength of the match rests on the combination of particulars, not on any one of them. The photographs show that the print was in the room in which they were taken; the attribution of that room and camera to Sun & Rain Works rests on the studio's custody of the storage medium. The Sotheby's catalogue names no consignor, as is standard auction practice, so the identity of the consignor of record is not established by these photographs. It is evidenced separately: the consignment correspondence record carries two messages of March 2009 in which the auction house's own Photographs department writes to the studio principal about 'your photograph' and chases the signed consignment agreement it had posted in February.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -96,6 +96,22 @@
           "_label": "description"
         }
       ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Corroborated from outside the files. The eleven frames described here were transmitted as a zip attachment to Sotheby's on 2008-08-14, six days after exposure, and that attachment is held: its twelve entries are byte-for-byte identical to the studio's loose copies, and its Info-ZIP UNIX extra fields carry Unix-epoch modification times of 2008-08-08 07:05:36Z to 07:10:24Z. The covering message describes the photographs as made with a 1.3 megapixel FujiFilm camera, which agrees with the FinePix1300 named in the Exif and with the 1280 by 960 frame size. The caveat recorded above, that Exif fields can in principle be altered, should now be read against that agreement. One frame in the set, DSCF0020, is the frame composing the print with Warhol's philosophy; it was among those sent. See the 2008 approach record.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-sothebys-approach-2008",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: the studio's first approach to Sotheby's (August 2008)"
     }
   ],
   "representation": [
@@ -186,17 +202,31 @@
     }
   ],
   "_links": {
-    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008" },
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008"
+    },
     "curies": [
-      { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
     ],
-    "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
-    "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" },
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
     "iiif:manifest": {
       "href": "https://www.metaconceptualart.com/data/iiif/adams-verso-2008/manifest.json",
       "type": "application/ld+json",
       "profile": "http://iiif.io/api/presentation/3/context.json"
     },
-    "collection": { "href": "https://www.metaconceptualart.com/data/linked-art/collection" }
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
   }
 }

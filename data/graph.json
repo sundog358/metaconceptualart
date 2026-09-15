@@ -252,7 +252,7 @@
       "id": "record:consignment-photographs-2008",
       "type": "Provenance",
       "label": "Documentation photographs of the Ansel Adams print (August 2008)",
-      "description": "Eleven photographs exposed in one session on 2008-08-08, carrying camera-written Exif, documenting a matted Ansel Adams print in the studio's possession - recto, mount, verso, and a close-up of the verso credit block. The verso markings agree in four particulars with the public Sotheby's catalogue entry for sale N08533, lot 16: the American Trust Company credit stamp, the 1-SF- negative-number series, the inked 'Wells Fargo Bank' annotation over the struck-through article, and the handwritten title. One frame composes the print with a volume of Warhol's philosophy. Independently checkable against the public catalogue; it does not establish the consignor of record.",
+      "description": "Eleven photographs exposed in one session on 2008-08-08, carrying camera-written Exif, documenting a matted Ansel Adams print in the studio's possession - recto, mount, verso, and a close-up of the verso credit block. The verso markings agree in four particulars with the public Sotheby's catalogue entry for sale N08533, lot 16: the American Trust Company credit stamp, the 1-SF- negative-number series, the inked 'Wells Fargo Bank' annotation over the struck-through article, and the handwritten title. One frame composes the print with a volume of Warhol's philosophy. Independently checkable against the public catalogue; the consignor of record is evidenced separately, by the 2009 consignment correspondence.",
       "wikidata": null,
       "linkedArt": "data/linked-art/evidence-consignment-photographs-2008"
     },
@@ -260,7 +260,7 @@
       "id": "record:museum-correspondence-2013",
       "type": "Provenance",
       "label": "Correspondence declaring Metaconceptual Art to a museum (2013)",
-      "description": "An email thread of 2013-09-12 in which the studio principal set out Metaconceptual Art in writing to the Jordan Schnitzer Museum of Art: the field, its eight defining characteristics, 'Art Market Reform' and 'Art Tax' as works, Sun & Rain Works as the business, and the May 2009 Sotheby's lot 16 consignment as a performance act. The museum acknowledged receipt. Four independent header timestamps, two written by Yahoo's servers and copied into the university's Exchange headers, corroborate the date. The earliest written declaration of the field the studio has produced - a declaration, not an independent finding, and no evidence of the asserted 2007 origin.",
+      "description": "An email thread of 2013-09-12 in which the studio principal set out Metaconceptual Art in writing to the Jordan Schnitzer Museum of Art: the field, its eight defining characteristics, 'Art Market Reform' and 'Art Tax' as works, Sun & Rain Works as the business, and the May 2009 Sotheby's lot 16 consignment as a performance act. The museum acknowledged receipt. Four independent header timestamps, two written by Yahoo's servers and copied into the university's Exchange headers, corroborate the date, and in July 2026 the museum retrieved the message from its own archive and supplied it on request, so the record is institutionally retained rather than studio-held. Asked at the same time, the museum found no email from the studio dated 2009. The earliest written declaration of the field the studio has produced - a declaration, not an independent finding, and no evidence of the asserted 2007 origin.",
       "wikidata": null,
       "linkedArt": "data/linked-art/evidence-museum-correspondence-2013"
     },
@@ -392,7 +392,7 @@
       "id": "source:sothebys-photographs-2009",
       "type": "Event",
       "label": "Sotheby's Photographs auction (sale N08533, 2009)",
-      "description": "The public auction (sale N08533), carried out by Sotheby's, at which Sun & Rain Works consigned an Ansel Adams photograph (lot 16) and which it designates as the material of the conceptual work The Auction as Artwork; www.wtfisart.com and WTF is Ansel Adams are associated works.",
+      "description": "The public auction (sale N08533), carried out by Sotheby's, at which Sun & Rain Works consigned an Ansel Adams photograph (lot 16) and which it designates as the material of the conceptual work The Auction as Artwork; www.wtfisart.com and WTF is Ansel Adams are associated works. The outcome of lot 16 is not established: the public catalogue places the result behind an account login, and no source held here records whether it sold, was bought in, or was withdrawn.",
       "wikidata": null
     },
     {

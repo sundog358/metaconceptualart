@@ -138,6 +138,17 @@
     },
     {
       "type": "LinguisticObject",
+      "content": "The closing 'For the Love of Art'. The studio's account, given in 2026, is that the sign-off was a deliberate adaptation of the title of Damien Hirst's For the Love of God (2007), with 'Art' in place of 'God', and not a chance valediction. This letter does not name Hirst, and 'for the love of' is an ordinary idiom, so the letter alone cannot confirm the reference; the studio did, however, use the unaltered title in its own later material, the notes panel and the wtfisart.com captures of 2014 and 2016. The evidence for and against the account is weighed in the record of the approach to Sotheby's, which closes with the same words three days later. The account of intent is reported as the studio's, not as a fact this letter establishes.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
       "content": "Two errors in the letter, recorded because they are evidence of the kind of document it is. The writer dates the photograph to 'what appears to be 1946'. The Sotheby's catalogue published seven months later gives 1952, printed probably in the 1950s. An earlier version of this record cited a shortcut file in the studio's archive, whose name carries the year 1946, as contemporaneous corroboration of that belief. That was wrong and is withdrawn: the shortcut was created on 2026-08-20 and points to a file on the present machine, so it records a recent naming choice and evidences nothing about 2008. The 1946 belief is attested by this letter alone, which is sufficient for the purpose - the letter is contemporaneous and states the belief in the writer's own words - and was later corrected by the auction house's cataloguing. Second, the letter reports contact with a named person at 'the Ansel Adams Musem in SanFrancisco'. No institution of that name was operating in San Francisco in 2008: the Ansel Adams Center for Photography, run by the Friends of Photography, closed permanently in 2001 and the organisation dissolved. The writer may have meant a differently named body, or a person formerly associated with that one. Neither error is material to anything this collection claims, and both are the ordinary imprecision of a person writing in real time rather than the tidiness of a document assembled afterwards.",
       "classified_as": [
         {

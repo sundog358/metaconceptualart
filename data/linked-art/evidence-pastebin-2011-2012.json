@@ -96,6 +96,39 @@
           "_label": "description"
         }
       ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Context for November 2011, independently dated. The studio states that in the autumn of 2011 it set up and ran two wiki sites for the Occupy movement, at wikioccupy.org and wikioccupy.com. Part of that is verifiable without reference to the studio: the Internet Archive holds a capture of wikioccupy.org made on 2011-12-03 at 04:10:07 UTC returning a status of 200, which is to say the site was live and serving content at that date. It is the earliest capture the Archive holds for the domain. No capture of wikioccupy.com exists, and both domains have since lapsed and are now unregistered. The contents of the archived page have not yet been read; the Archive was rate-limiting the machine used for this check.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What that context does and does not do. It does not evidence Metaconceptual Art. Running a wiki for a protest movement is not making art, and nothing on the archived site has been shown to concern the studio's work. Its relevance is to reading, not to dating: the posting of 'The Art World is Flat' on 2011-11-28 was made in the same weeks that its author was, on independent evidence, operating web infrastructure for a movement whose subject was finance and inequality. A poem about the flatness of the art world, published in honour of Cyber Monday by someone then running an Occupy wiki, is more legible for knowing that. Two smaller points also follow. The studio's account of the wiki is a claim it did not control the checking of, and it checks out, which is a modest reason to take its other accounts of that period seriously. And a person who registered and ran domains for projects in 2011 is the kind of person who might have done so for www.wtfisart.com in 2009, which makes that claim more plausible in kind without dating it by a single day.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "An outstanding lead, recorded so it is not lost. The studio holds three chat logs downloaded from meetings of that period, sent to a correspondent on 2012-11-12 as attachments named for their dates: two of 2011-11-10 and 2011-11-19, and a third of 2011-11-19. Those dates fall eighteen and nine days before the posting of 2011-11-28, which is presently the earliest located use of the term this collection records. The logs have not been examined. If the term, the eight characteristics, or the concept in recognisable form appears in them, the earliest evidence in this collection moves earlier, and it moves into a different and better kind of source: conversation with other people, rather than the studio's own solo posting. If it does not appear, that is a negative worth recording with the same care.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
     }
   ],
   "about": [
@@ -155,12 +188,26 @@
     }
   ],
   "_links": {
-    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/evidence-pastebin-2011-2012" },
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/evidence-pastebin-2011-2012"
+    },
     "curies": [
-      { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
     ],
-    "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
-    "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" },
-    "collection": { "href": "https://www.metaconceptualart.com/data/linked-art/collection" }
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
   }
 }
