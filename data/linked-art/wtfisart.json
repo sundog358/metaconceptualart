@@ -146,6 +146,22 @@
           "_label": "description"
         }
       ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The name reads two ways. Written without spaces or punctuation, wtfisart is both a question, 'WTF is art?', and a statement, 'WTF is art'. The studio holds, in its account given in 2026, that the double reading was deliberate and that registering the name declared the work art. The registrar's receipt of 2009-03-16, billed to Sun and Rain Works, independently dates the name; the intent is the studio's statement, and the hosting-receipts record sets out the distinction.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-hosting-receipts-2009",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: the registrar's receipts for the studio's domains (2009-2016)"
     }
   ],
   "created_by": {
