@@ -299,6 +299,38 @@
         "type": "LinguisticObject"
       },
       "endTime": "2026-09-15T12:38:25-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
+        "type": "HumanMadeObject"
+      },
+      "endTime": "2026-09-15T13:10:32-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-hosting-receipts-2009",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-15T13:10:32-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams",
+        "type": "HumanMadeObject"
+      },
+      "endTime": "2026-09-15T13:10:32-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart",
+        "type": "DigitalObject"
+      },
+      "endTime": "2026-09-15T13:10:32-07:00"
     }
   ]
 }
