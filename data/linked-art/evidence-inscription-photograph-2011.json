@@ -1,0 +1,270 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/evidence-inscription-photograph-2011",
+  "type": "LinguisticObject",
+  "_label": "Evidence archive: a photograph of two studio works inscribed 'W.T.F. is Art ?' (8 November 2011)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Evidence archive: a photograph of two studio works inscribed 'W.T.F. is Art ?' (8 November 2011)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "record:evidence-inscription-photograph-2011",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026906",
+      "type": "Type",
+      "_label": "documents"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300215302",
+      "type": "Type",
+      "_label": "digital images"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300055863",
+      "type": "Type",
+      "_label": "provenance"
+    }
+  ],
+  "content": "One digital photograph, held by the studio, taken with a camera phone and recording its capture as 2011-11-08 12:18:15. It shows two works laid one on the other. On top is a narrow board inscribed by hand in purple marker: '\"Helping the Art Historians of the future to keep their Employment\" (Here and Now. ~)'. Beneath it is a large sheet covered in small handwritten notes running at many angles, with a coloured spiral and strokes of coloured pencil; along its right-hand edge, written in quotation marks, it reads '\"W.T.F. is Art ?\"'. The studio identifies the board as the work 'Helping the Art Historians of the future' and the sheet as 'Dancing with Mummies', a title it gives as a reference to Thomas Hoving, the former director of the Metropolitan Museum of Art, and to what it calls its archaeology of the art world. Neither physical work survives, by the studio's account, and this photograph is the only known record of the sheet. The board was the foundation of a digital work, ArtHistoriansOTheFuture, which the studio posted publicly to Flickr on 2013-06-02. The photograph dates the phrase W.T.F. is Art, written on a physical work, to November 2011 at the latest, and the board's phrase to nineteen months before that posting and twenty-two months before the studio used the same words in its letter of 2013-09-12 to a university art museum.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Evidence status: held by the studio; the file's own account, unusually complete. The file is the camera's original: a JPEG of 2,048 by 1,536 pixels with its Exif block intact, including the camera's 400 by 300 embedded thumbnail, which shows the same scene. It is held as 1108111218.JPEG, 487,576 bytes, SHA-256 469087b91ba1d18fb7beaa8f2d3bbec61959ea1ad57e9b1e2d3f645b29d73a00, and is published here at /images/wtf-is-art-sheet-2011.jpg as a byte-identical copy of that file, renamed for the web and not otherwise altered, so the checksum describes the published image as well. No person, face, vehicle plate or address is visible in it.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "How the photograph is dated, and how firmly. The Exif block names the camera as an LG Electronics LG-VX8575, a camera phone sold on the Verizon Wireless network, with firmware VX857V06, and gives DateTimeOriginal and DateTimeDigitized both as 2011:11:08 12:18:15. The field records no timezone and no location; the file carries no GPS data. The file name, 1108111218, is the phone's own naming, built from the month, day, two-digit year, hour and minute of capture, and it gives the same minute independently of the Exif field. The Software field names only the phone's firmware, and no editing application has written to the file. Two cautions go with this. Exif fields and file names can be rewritten, so the date remains the file's own account and is not notarized. And a phone of this kind ordinarily takes its clock from the carrier network rather than from its owner, which makes an accidental misdating less likely than with a camera whose clock is set by hand; it does not rule out a deliberate one. The file-system dates of the copy now held are of 2026 and say nothing about 2011.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The inscription, read closely. The words on the sheet run up its right-hand edge, rotated a quarter turn, in small dark capitals and lower case: an opening quotation mark, 'W.T.F.' with a full stop after each letter, 'is Art', a space, a question mark, and a closing quotation mark. They are legible when that part of the image is enlarged and turned upright; most of the surrounding notes on the sheet are not legible at this resolution and are not transcribed here. The inscription is punctuated as a question. That bears on the reading of the domain name set out in the hosting-receipts record, where the studio holds that wtfisart was chosen to read both as a question and as a statement. This photograph shows the studio writing the phrase as a question, in 2011; it is evidence that the question reading was the studio's own, and it is not evidence for the statement reading.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The board's phrase in the studio's letter of 2013. On 2013-09-12 the studio wrote to a university art museum, in the message the museum-correspondence record describes, that 'together we are helping the Art Historians of the future to keep their employment, here and now'. The board in this photograph carries the same words and the same closing 'here and now', and by the photograph's date it existed twenty-two months before that letter was sent. The letter is retained in the museum's own archive; the photograph is held by the studio. The agreement between them shows the phrase was the studio's own and in use before 2013. It does not date the board's making, which could be earlier than November 2011 but is not shown to be.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Where the photograph falls among the domain's dates. The registrar's receipts give WTFISART.COM as first registered on 2009-03-16, lapsed by 2011-02-10, when the Internet Archive recorded a parked page, and registered again on 2011-10-16. This photograph was taken twenty-three days after that re-registration. It shows the studio working with the phrase in its physical work at the time it took the name back. It is not evidence of anything in 2009, and it does not show the phrase in any public place in 2011.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The digital work made from the board, posted 2013-06-02. The studio's Flickr account, at flickr.com/photos/24377024@N07/8920785186/, carries a public photograph titled 'ArtHistoriansOTheFuture' with the description 'MetaConceptual Art'. Flickr records it as posted at 2013-06-02 05:55:56 UTC, which is the evening of 1 June 2013 on the American west coast. It is the board's inscription, cropped to the lettering and recoloured over a saturated rainbow ground: the same words, line breaks and letterforms as the board in the photograph of 2011, down to the tilde and closing parenthesis of '(Here and Now. ~)'. The studio states that the physical board was the foundation of this digital work. The studio's held copy, 8920785186_4cfd9c6af9_b.jpg, 1,022 by 285 pixels and 89,727 bytes, SHA-256 2e185a7bfa5e200aee5377ec2c7c523548e0de63d01aa27ac059463b7b82104f, was compared on 2026-09-15 with the file Flickr serves at that size and is byte-identical to it; Flickr also serves the image at up to 1,600 by 446 pixels. That held copy is published here at /images/art-historians-of-the-future-2013.jpg, renamed and otherwise unaltered, so the checksum describes the published image, the studio's held copy and the file Flickr serves alike. The file carries no Exif, and Flickr's 'taken' time of 2013-06-01 22:55:47, nine seconds before the posting, is the value it supplies for a file without one, as the archived-websites record sets out for the Art Notes photograph posted the same day. The posting date is assigned by the platform and is the evidence; the page recorded eleven views when checked. This places the board's words in public, on a third party's platform, three months before the museum letter. It does not date the digital work's making beyond that, and it does not carry the phrase W.T.F. is Art, which is on the sheet and not on the board.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Two works carry the line, a year apart. The sheet photographed here is the second work in this collection inscribed with the phrase. The first is the notice board published as Art Notes, which carries 'WTF is Art ?!' beside the name 'Sun and Rain Works', and which is photographed in a file dated 30 November 2012 and posted publicly to the studio's Flickr account on 2013-06-02, the same day as the digital work described above. This photograph is dated 2011-11-08, nearly a year earlier than the Art Notes file, and the two inscriptions are not the same object: they are written in different hands of the same writer, on different supports, and punctuated differently, 'W.T.F. is Art ?' here and 'WTF is Art ?!' there. The phrase therefore recurs across separate works of the studio rather than appearing once. What that carries is modest but real: the words were in continuous use in the studio's own work between the domain's first registration in 2009 and its public postings of 2013, and neither occurrence depends on the other for its date. Neither is a dated public act in itself; the Art Notes board reached a public platform in 2013, and this sheet is not shown to have reached one at all.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The titles, and the survival of the works, are the studio's account. Neither title, 'Helping the Art Historians of the future' or 'Dancing with Mummies', is written on either work in any part visible in the photograph; the board carries its phrase in quotation marks but not as a labelled title. The identification of the sheet's title, and its reference to Thomas Hoving, whose memoir of his directorship of the Metropolitan Museum of Art is titled Making the Mummies Dance, are given by the studio in 2026. The studio states that neither physical work survives. The sheet is therefore known only from this photograph, and the board from this photograph and the digital work made from it. When each physical work was made is not established by this record.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What this record does not show. It shows that the two works, and the inscription 'W.T.F. is Art ?', existed on or before 2011-11-08, by the file's own account. It does not date either work's making. It does not show that anyone outside the studio saw either physical work, or this photograph, at any date; the board's words reached a public platform in 2013 through the digital work, and the sheet's inscription is not shown to have reached one at all. It says nothing about what was served at wtfisart.com at any date, nothing about the 2009 auction designation, and nothing about the 2007 origin asserted elsewhere in this collection. It carries no statement that the phrase declares a work of art.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-hosting-receipts-2009",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: the registrar's receipts for the studio's domains (2009-2016)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-museum-correspondence-2013",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: correspondence declaring Metaconceptual Art to a university art museum (2013)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-archived-websites-2013-2016",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: the studio's websites as captured by the Internet Archive (2013-2016)"
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-inscription-photograph-2011#visual-item",
+      "type": "VisualItem",
+      "_label": "Two studio works photographed together, the upper board inscribed about the art historians of the future and the sheet beneath it inscribed 'W.T.F. is Art ?'",
+      "digitally_shown_by": [
+        {
+          "id": "https://www.metaconceptualart.com/images/wtf-is-art-sheet-2011.jpg",
+          "type": "DigitalObject",
+          "_label": "Studio photograph of the two works, 2011-11-08",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://www.metaconceptualart.com/images/wtf-is-art-sheet-2011.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-inscription-photograph-2011#visual-item-digital-work",
+      "type": "VisualItem",
+      "_label": "ArtHistoriansOTheFuture: the board's inscription as a digital work",
+      "digitally_shown_by": [
+        {
+          "id": "https://www.metaconceptualart.com/images/art-historians-of-the-future-2013.jpg",
+          "type": "DigitalObject",
+          "_label": "The digital work made from the board, as posted publicly on 2013-06-02",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://www.metaconceptualart.com/images/art-historians-of-the-future-2013.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "about": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart",
+      "type": "DigitalObject",
+      "_label": "www.wtfisart.com"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/art-notes",
+      "type": "HumanMadeObject",
+      "_label": "Art Notes"
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Compilation of the inscription photograph record",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/evidence-inscription-photograph-2011"
+    },
+    "curies": [
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
+    ],
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
+  }
+}

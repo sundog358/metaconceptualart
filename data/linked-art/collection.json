@@ -198,6 +198,21 @@
       "id": "https://www.metaconceptualart.com/data/linked-art/evidence-pastebin-2011-2012",
       "type": "LinguisticObject",
       "_label": "Evidence archive: public postings of Metaconceptual Art (2011-2012)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-inscription-photograph-2011",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: a photograph of two studio works inscribed 'W.T.F. is Art ?' (8 November 2011)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-postcard-work-2008",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: a painted postcard inscribed 'For the Love of Art' and signed 2008 (photographed 2011)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-meta-sign-2012",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: a photograph of a shop sign reading META, Italy (27 February 2012)"
     }
   ],
   "_links": {

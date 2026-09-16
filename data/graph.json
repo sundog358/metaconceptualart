@@ -55,6 +55,9 @@
     { "id": "evidence-consignment-photographs-2008", "type": "LinguisticObject", "label": "Evidence archive: documentation photographs of the Ansel Adams print (August 2008)" },
     { "id": "evidence-museum-correspondence-2013", "type": "LinguisticObject", "label": "Evidence archive: correspondence declaring Metaconceptual Art to a university art museum (2013)" },
     { "id": "evidence-pastebin-2011-2012", "type": "LinguisticObject", "label": "Evidence archive: public postings of Metaconceptual Art (2011-2012)" },
+    { "id": "evidence-inscription-photograph-2011", "type": "LinguisticObject", "label": "Evidence archive: a photograph of two studio works inscribed 'W.T.F. is Art ?' (8 November 2011)" },
+    { "id": "evidence-postcard-work-2008", "type": "LinguisticObject", "label": "Evidence archive: a painted postcard inscribed 'For the Love of Art' and signed 2008 (photographed 2011)" },
+    { "id": "evidence-meta-sign-2012", "type": "LinguisticObject", "label": "Evidence archive: a photograph of a shop sign reading META, Italy (27 February 2012)" },
     { "id": "sothebys", "type": "Group", "label": "Sotheby's" },
     { "id": "collection", "type": "Set", "label": "Metaconceptual Art — Collection" },
     { "id": "sun-and-rain-works", "type": "Group", "label": "Sun & Rain Works" },
@@ -236,7 +239,7 @@
       "id": "record:archived-websites-2013-2016",
       "type": "Provenance",
       "label": "The studio's websites as captured by the Internet Archive (2013-2016)",
-      "description": "Third-party captures of two domains the studio ran. wtfisart.com on 2013-07-20 shows only 'Under Construction'; on 2014-12-18 and 2016-01-11 it shows a Drupal install whose menu reads 'Art Market Reform is a happening' and whose text carries the line handwritten on the Art Notes board, while stating 'No front page content has been created yet'. sunandrainworks.com on 2016-01-26 and 2016-03-27 carries the eight defining characteristics in full, in the same wording as the 2012 posting. The capture dates are the Archive's and are the evidence; the pages' own CMS stamps are not. No capture mentions the 2009 auction, and the domain passed to another owner from 2016. The record also covers the studio's Flickr account, where eight photographs bear on this collection: the Art Notes board and a painting titled What Hedge Funds, both publicly posted 2013-06-02, three months before the museum letter; and six works posted 2014-05-18, among them the Art Market Reform and Art Tax paintings the letter names, three of which carry the public tag 'Metaconceptual'. The 2014 group postdates the letter and is consistent with it rather than evidence for it. None of the files carries Exif, so the upload stamp is the only date each has. The profile biography states the lot 16 designation but carries no date.",
+      "description": "Third-party captures of two domains the studio ran. wtfisart.com on 2013-07-20 shows only 'Under Construction'; on 2014-12-18 and 2016-01-11 it shows a Drupal install whose menu reads 'Art Market Reform is a happening' and whose text carries the line handwritten on the Art Notes board, while stating 'No front page content has been created yet'. sunandrainworks.com on 2016-01-26 and 2016-03-27 carries the eight defining characteristics in full, in the same wording as the 2012 posting. The capture dates are the Archive's and are the evidence; the pages' own CMS stamps are not. No capture mentions the 2009 auction, and the domain passed to another owner from 2016. The record also covers the studio's Flickr account, where nine photographs bear on this collection: the Art Notes board and a painting titled What Hedge Funds, both publicly posted 2013-06-02, three months before the museum letter; and six works posted 2014-05-18, among them the Art Market Reform and Art Tax paintings the letter names, three of which carry the public tag 'Metaconceptual'. The 2014 group postdates the letter and is consistent with it rather than evidence for it. None of the files carries Exif, so the upload stamp is the only date each has. The profile biography states the lot 16 designation but carries no date.",
       "wikidata": null,
       "linkedArt": "data/linked-art/evidence-archived-websites-2013-2016"
     },
@@ -271,6 +274,30 @@
       "description": "Two public postings under the account LIVINGART8, still readable and set never to expire. 'The Art World is Flat', 2011-11-28, introduces its poem as a metaconceptual Art poem, treating the term as already settled. 'MetaConceptual Art', 2012-11-22, sets out the eight defining characteristics, which agree word for word with the Eight Sentences published here fourteen years later. Dates are assigned by the platform and the paste bodies are fixed once posted, so this is the earliest evidence in the collection that needs no access to the private archive. Both link to a Sun & Rain Works page on Facebook.",
       "wikidata": null,
       "linkedArt": "data/linked-art/evidence-pastebin-2011-2012"
+    },
+    {
+      "id": "record:inscription-photograph-2011",
+      "type": "Provenance",
+      "label": "A photograph of two studio works inscribed 'W.T.F. is Art ?' (8 November 2011)",
+      "description": "A camera-phone original, Exif intact, recording its capture as 2011-11-08 12:18:15, with the phone's own file name giving the same minute. It shows a board inscribed 'Helping the Art Historians of the future to keep their Employment (Here and Now)' lying on a large handwritten sheet whose right-hand edge reads 'W.T.F. is Art ?', punctuated as a question. Neither physical work survives, by the studio's account. The board was the foundation of the digital work ArtHistoriansOTheFuture, posted publicly to the studio's Flickr account on 2013-06-02 and byte-identical to the studio's held copy; its words recur in the studio's letter of 2013-09-12 to a university art museum, and the photograph falls twenty-three days after WTFISART.COM was re-registered. The titles, Helping the Art Historians of the future and Dancing with Mummies, and the latter's reference to Thomas Hoving, are the studio's account. The date is the file's own and not notarized; the record does not date either work's making, shows nothing public, and says nothing about 2009. The image is held and published as a checksum only.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/evidence-inscription-photograph-2011"
+    },
+    {
+      "id": "record:postcard-work-2008",
+      "type": "Provenance",
+      "label": "A painted postcard inscribed 'For the Love of Art' and signed 2008 (photographed 2011)",
+      "description": "A small work made on a museum postcard: the picture side painted over in acrylic and ink and signed 'Joe Chirum 08', the address side inscribed 'For the Love of Art, these tulips are beautiful! Almost as good as in real life', with 'J.M.C. 08' and the postscript 'Double the Fun'. It is known from one photograph, taken on 2011-11-16 by the same camera phone as the 'W.T.F. is Art ?' photograph of eight days earlier. That file is a cropped and renamed derivative rather than the camera's original, so its date is the file's account at one remove; the 2008 date is written on the work by its maker. The record fixes only that the work existed, framed, by November 2011.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/evidence-postcard-work-2008"
+    },
+    {
+      "id": "record:meta-sign-2012",
+      "type": "Provenance",
+      "label": "A photograph of a shop sign reading META, Italy (27 February 2012)",
+      "description": "A camera original with Exif intact, a night photograph of an illuminated Italian shop sign reading META SUPERNEGOZI, captured 2012-02-27 21:41:53 with no GPS; the held file's name says March 2012, which is when it was filed rather than taken. The sign is an Italian retail chain's, meta with a grave accent being Italian for half, and the record asserts no connection between that business and the studio, nor any relation to any later corporation of the name. The studio states it photographed the sign because the word answered to Metaconceptual Art; that is its account, given in 2026, and the photograph does not evidence the asserted 2007 naming.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/evidence-meta-sign-2012"
     },
     {
       "id": "concept:metaconceptual-art",
@@ -523,6 +550,16 @@
     { "from": "record:museum-correspondence-2013", "relation": "documents", "to": "concept:metaconceptual-art" },
     { "from": "record:museum-correspondence-2013", "relation": "documents", "to": "work:art-market-reform" },
     { "from": "record:museum-correspondence-2013", "relation": "documents", "to": "work:auction-as-artwork" },
+    { "from": "system:provenance-layer", "relation": "produces", "to": "record:inscription-photograph-2011" },
+    { "from": "record:inscription-photograph-2011", "relation": "documents", "to": "work:wtfisart" },
+    { "from": "record:inscription-photograph-2011", "relation": "cites", "to": "record:hosting-receipts-2009" },
+    { "from": "record:inscription-photograph-2011", "relation": "cites", "to": "record:museum-correspondence-2013" },
+    { "from": "record:inscription-photograph-2011", "relation": "cites", "to": "record:archived-websites-2013-2016" },
+    { "from": "record:inscription-photograph-2011", "relation": "cites", "to": "work:art-notes" },
+    { "from": "system:provenance-layer", "relation": "produces", "to": "record:postcard-work-2008" },
+    { "from": "record:postcard-work-2008", "relation": "cites", "to": "record:inscription-photograph-2011" },
+    { "from": "system:provenance-layer", "relation": "produces", "to": "record:meta-sign-2012" },
+    { "from": "record:meta-sign-2012", "relation": "documents", "to": "concept:metaconceptual-art" },
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:live-auction-priority" },
     { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:auction-as-artwork" },
     { "from": "work:auction-as-artwork", "relation": "designates", "to": "source:sothebys-photographs-2009" },

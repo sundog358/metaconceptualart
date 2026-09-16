@@ -1,0 +1,192 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/evidence-postcard-work-2008",
+  "type": "LinguisticObject",
+  "_label": "Evidence archive: a painted postcard inscribed 'For the Love of Art' and signed 2008 (photographed 2011)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Evidence archive: a painted postcard inscribed 'For the Love of Art' and signed 2008 (photographed 2011)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "record:evidence-postcard-work-2008",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026906",
+      "type": "Type",
+      "_label": "documents"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300215302",
+      "type": "Type",
+      "_label": "digital images"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300055863",
+      "type": "Type",
+      "_label": "provenance"
+    }
+  ],
+  "content": "One digital photograph, held by the studio, of a small work made on a commercial museum postcard and shown framed under glass. The picture side has been painted over in acrylic and ink with a single large flower in yellow and orange over a purple ground, with green leaves below, and is signed in ink 'Joe Chirum' and dated '08'. The address side carries a handwritten inscription in ink: '\"For the Love of Art, these tulips are beautiful! Almost as good as in real life\"', followed by the initials 'J.M.C.' and '08', and a postscript, 'P.S. \"Double the Fun\"'. The printed matter of the postcard remains visible beneath the writing and identifies it as one of a series of Impressionist painting postcards published by an art museum in Chicago, reproducing a painting of tulips by Cezanne. The photograph was taken on 2011-11-16 by the same camera phone that took the photograph of the sheet inscribed 'W.T.F. is Art ?' eight days earlier. The studio dates the work itself to 2008, which is the date written on it; the photograph shows only that the work existed by November 2011.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Evidence status: held by the studio; a derived copy, not the camera's original file. The file is held as ArtFlowers(AcrylicandInkonPostcard).JPEG, 338,239 bytes, SHA-256 e58a9d0872a28f05b3758bede1302af64051f8facb4bb772a57c95347296a7ac. Its Exif names the camera as an LG Electronics LG-VX8575 with firmware VX857V06, the same phone and firmware as the photograph of 2011-11-08 described in the inscription-photograph record, and gives DateTimeOriginal and DateTimeDigitized as 2011:11:16 07:29:20. Three things show that the held file is not what the camera wrote. Its dimensions are 1,600 by 1,217 pixels, where that phone writes 2,048 by 1,536, and the proportions are not the camera's, so the image has been cropped; the Exif dimension fields were rewritten to match, which the cropping software did; and the camera's embedded thumbnail is gone. The file name is descriptive rather than the phone's own date-built name, so it was also renamed. The capture fields survived that processing, but nothing in the file corroborates them, as the photograph of 2011-11-08 is corroborated by its own file name and thumbnail. The date is therefore the file's account, at one remove. The photograph is published here at /images/for-the-love-of-art-postcard-2008.jpg, a byte-identical copy of the held file, renamed for the web and not otherwise altered, so the checksum describes the published image as well. No person, face, address or third party's private matter is visible in it.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What is written on the work, and what is printed under it. The handwritten text is legible in full: 'For the Love of Art, these tulips are beautiful! Almost as good as in real life', in quotation marks, then 'J.M.C.' and '08' at the right, then 'P.S. \"Double the Fun\"'. The signature on the painted side reads 'Joe Chirum' above '08'. The postcard's own printed caption is only partly legible at this resolution: the artist's name Cezanne with dates, a title naming tulips, a canvas measurement, a named memorial collection, and a copyright line for an art museum in Chicago; a printed line along the inner edge reads 'Great Impressionist Painting Postcards' with that museum's copyright. The postcard series' year of publication is not legible, and no attempt is made here to supply the missing words from a catalogue. The reproduction is a third party's published postcard, and the museum's copyright line appears on it. The painting reproduced is by an artist who died in 1906 and is itself long out of copyright; the postcard appears in this photograph as the support of the studio's own work, which is painted and written over it. The museum's notice is recorded here rather than dismissed, and the photograph is published on that footing.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The date of the work is the work's own statement. '08' is written twice on the object, once beside the initials on the inscription and once under the signature. That is the artist's own dating, made on the work, and it is not independent of the artist. No document in this collection dates the postcard's making, and the photograph that records it was taken three years later. So the position is: the work says 2008, and the earliest date any record here can fix for it is 2011-11-16. If the postcard series can be identified and its publication year read, that would give a floor below which the work cannot have been made, and that is worth doing.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What the inscription does and does not join. 'For the Love of Art' is a phrase about art written on a work, as 'W.T.F. is Art ?' is on the sheet photographed eight days earlier and 'WTF is Art ?!' is on the Art Notes board. The three are not the same phrase and this record does not treat them as one: what they share is the practice of writing a line about art onto the work itself, which is visible across the studio's objects from at least 2011 by the files' own dates. The postcard adds one thing the others do not. It is made on a museum's reproduction of a famous painting, painted over and then addressed back to art, which is the same gesture the collection describes elsewhere as working on the institution's own material. Whether the studio intended that reading in 2008 is the studio's account and is not recorded in any document of the time.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What this record does not show. It does not date the making of the work; it fixes only that the work existed, framed, by 2011-11-16, on the file's own account. It does not show that anyone outside the studio ever saw the work, and no public posting of it has been found at the date of this record. It says nothing about the domain wtfisart.com, nothing about the 2009 auction designation, and nothing about the asserted 2007 origin of Metaconceptual Art. Whether the physical work survives is not established here.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-inscription-photograph-2011",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: a photograph of two studio works inscribed 'W.T.F. is Art ?' (8 November 2011)"
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-postcard-work-2008#visual-item",
+      "type": "VisualItem",
+      "_label": "A museum postcard painted over and inscribed 'For the Love of Art', framed under glass",
+      "digitally_shown_by": [
+        {
+          "id": "https://www.metaconceptualart.com/images/for-the-love-of-art-postcard-2008.jpg",
+          "type": "DigitalObject",
+          "_label": "Studio photograph of the painted postcard, 2011-11-16",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://www.metaconceptualart.com/images/for-the-love-of-art-postcard-2008.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "about": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+      "type": "Group",
+      "_label": "Sun & Rain Works"
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Compilation of the painted postcard record",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/evidence-postcard-work-2008"
+    },
+    "curies": [
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
+    ],
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
+  }
+}

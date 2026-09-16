@@ -1,0 +1,197 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/evidence-meta-sign-2012",
+  "type": "LinguisticObject",
+  "_label": "Evidence archive: a photograph of a shop sign reading META, Italy (27 February 2012)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Evidence archive: a photograph of a shop sign reading META, Italy (27 February 2012)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "record:evidence-meta-sign-2012",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026906",
+      "type": "Type",
+      "_label": "documents"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300215302",
+      "type": "Type",
+      "_label": "digital images"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300055863",
+      "type": "Type",
+      "_label": "provenance"
+    }
+  ],
+  "content": "One digital photograph, held by the studio, of an illuminated shop sign photographed at night. The sign carries a red oval with the word META in white capitals, with a grave accent on the final letter, and beneath it the word SUPERNEGOZI; to its right, cropped by the frame, stand the large illuminated letters S, U, P. The wording is Italian: supernegozi means superstores, and meta with that accent is the Italian word for half. The camera's Exif records the capture as 2012-02-27 21:41:53, with no location data. The studio states that the photograph was taken in Italy and that it photographed the sign because the word answered to Metaconceptual Art, the movement concept it had named; that reading is the studio's account, given in 2026, and the photograph records a sign belonging to a business unconnected with the studio.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Evidence status: held by the studio; the camera's original file, with its Exif intact. The file is held as 'March2012 382.JPEG', 1,542,919 bytes, SHA-256 7cbd3cab10fed318ab248b0c897dfbc8b3bb2c010c5925444e5a94c1b675277a. It is 4,000 by 3,000 pixels, the full frame size of the camera it names, a Canon PowerShot ELPH 100 HS, and the Exif dimension fields agree with the image. The camera's own thumbnail is embedded and shows the same frame. The exposure fields are those of a hand-held night photograph: 1/50 second at f/5.9, ISO 800, flash not fired, focal length 20mm. No editing application has written to the file, and no software field beyond the camera's own is present. The file carries no GPS data. The image shows no person and no private premises; the sign is a business's own public frontage. It is published here at /images/meta-sign-2012.jpg, a byte-identical copy of the held file, renamed for the web and not otherwise altered, so the checksum describes the published image as well.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The file name says March and the camera says February. The held file is named 'March2012 382.JPEG', while all three date fields in the Exif read 2012-02-27. A name of that form is what an import folder gives a batch of photographs, so the likeliest reading is that the file was copied off the camera in March 2012 and took the name of that batch, some days after the frame was taken. The discrepancy is stated here rather than resolved: on the file's own account the capture was 27 February 2012, and the name is evidence of when it was filed, not of when it was made. As with every camera file in this collection, the Exif date is the file's own account and is not notarized.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What the photograph shows, and what it does not say about the word. The sign is a retail trade name. META with a grave accent, written without the accent in this record's title for technical reasons, is the name of a chain of Italian stores, and the word in Italian means half; the English prefix meta, from the Greek, is a different word that the Italian trade name does not carry. Nothing in the photograph connects the business to the studio, and no claim of any connection is made: the business is not a party to this collection, its sign is recorded here because the studio photographed it, and the record asserts nothing about the company. Nor does the photograph have anything to do with any later corporation that has taken the name Meta. What the image itself shows about the photographer is only this: the frame is filled by the sign at night, deliberately composed and tightly cropped, so the sign was the subject rather than an incidental part of a street view.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The studio's account of why it was taken. The studio states that the photograph was not incidental: that it saw the word meta on a shop front in Italy, five years after it had named Metaconceptual Art, and photographed it for that reason, as an instance of its own term standing in the ordinary commercial world. That is an account of intent, given in 2026, and no document of 2012 records it. The photograph's evidential value is narrow and should be stated plainly: it dates a frame to 2012-02-27 by the file's account, and it shows what was framed.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What this record does not show. It does not establish where the photograph was taken: the file carries no GPS, the Italian wording on the sign is consistent with Italy but is not proof of it, and the location is the studio's account. It records no work of art made by the studio, no public act, and no statement by the studio at the time. It does not evidence the 2007 naming of Metaconceptual Art, which is asserted elsewhere in this collection and remains unevidenced by any document of that year. It says nothing about the domain wtfisart.com, the 2009 auction designation, or the museum letter of 2013, and it establishes no priority of any kind over any other use of the word.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-museum-correspondence-2013",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: correspondence declaring Metaconceptual Art to a university art museum (2013)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-archived-websites-2013-2016",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: the studio's websites as captured by the Internet Archive (2013-2016)"
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-meta-sign-2012#visual-item",
+      "type": "VisualItem",
+      "_label": "An illuminated Italian shop sign reading META SUPERNEGOZI at night",
+      "digitally_shown_by": [
+        {
+          "id": "https://www.metaconceptualart.com/images/meta-sign-2012.jpg",
+          "type": "DigitalObject",
+          "_label": "Photograph of the sign, 2012-02-27",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://www.metaconceptualart.com/images/meta-sign-2012.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "about": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art",
+      "type": "Type",
+      "_label": "Metaconceptual Art (concept)"
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Compilation of the META sign photograph record",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/evidence-meta-sign-2012"
+    },
+    "curies": [
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
+    ],
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
+  }
+}
