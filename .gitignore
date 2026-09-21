@@ -51,10 +51,12 @@ tsconfig.tsbuildinfo
 /reference-folders/
 /Kingston/
 
-# Raw correspondence dropped at the repo root for review. The redacted copy and
-# the checksum of the original are published under data/evidence/; the original
-# itself carries a third party's name and mailbox and is never committed.
+# Raw correspondence dropped at the repo root, or under emails/, for review. The
+# redacted copy and the checksum of the original are published under
+# data/evidence/; the original itself carries a third party's name and mailbox
+# and is never committed.
 /*.eml
+/emails/
 /*.zip
 /*.pdf
 

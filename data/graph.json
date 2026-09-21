@@ -48,6 +48,7 @@
     { "id": "evidence-saturday-market-membership", "type": "LinguisticObject", "label": "Evidence archive: Sun and Rain Works in a market's membership records (2005, 2006, 2008)" },
     { "id": "evidence-consignment-agreement-2009", "type": "LinguisticObject", "label": "Evidence archive: the executed Sotheby's consignment agreement (March 2009)" },
     { "id": "evidence-sfmoma-approach-2008", "type": "LinguisticObject", "label": "Evidence archive: the approach to a museum photography department (11 August 2008)" },
+    { "id": "evidence-adams-gallery-2008", "type": "LinguisticObject", "label": "Evidence archive: the approach to the Ansel Adams organisation (9 August 2008)" },
     { "id": "evidence-sothebys-approach-2008", "type": "LinguisticObject", "label": "Evidence archive: the Sotheby's consignment correspondence (2008-2009)" },
     { "id": "evidence-staged-photographs-2008", "type": "LinguisticObject", "label": "Evidence archive: the staged photographs of the print (autumn 2008)" },
     { "id": "evidence-archived-websites-2013-2016", "type": "LinguisticObject", "label": "Evidence archive: the studio's websites as captured by the Internet Archive (2013-2016)" },
@@ -212,10 +213,18 @@
       "linkedArt": "data/linked-art/evidence-consignment-agreement-2009"
     },
     {
+      "id": "record:adams-gallery-2008",
+      "type": "Provenance",
+      "label": "Approach to the Ansel Adams organisation (9 August 2008)",
+      "description": "An email of 2008-08-09 to a named representative at the Ansel Adams organisation, two days before the approach to a museum and five before the approach to Sotheby's, carrying eight of the eleven documentation frames made the previous night. A follow-up to an earlier telephone contact, not a first approach: it gives a number 'again' and offers the photographs as assistance. The earliest document held in this collection, and the body it identifies is the one the museum letter miscalls the Ansel Adams Museum in San Francisco. Signed For the Love of Art, two days earlier than any previously documented use. Held as a mailbox export whose headers were written by a present-day platform, so the date is corroborated by the attachments' EXIF and by byte-identity with the held archive, not by transit records. Names neither Sun and Rain Works nor Metaconceptual Art.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/evidence-adams-gallery-2008"
+    },
+    {
       "id": "record:sfmoma-approach-2008",
       "type": "Provenance",
       "label": "Approach to a museum photography department (11 August 2008)",
-      "description": "An email of 2008-08-11 to the photography department of the San Francisco Museum of Modern Art, three days before the approach to Sotheby's and under the same subject line. Introduces the writer as an artist and sole proprietor of Sun and Rain Works, describes a previously unknown Ansel Adams photograph then believed to date from 1946, and says he thought this happening might be of some interest to the museum. The earliest dated document in this collection and the earliest dated use of the studio name. No reply is held and no museum response is evidenced. The word happening carries a conceptual reading and an ordinary one, and this collection chooses neither.",
+      "description": "An email of 2008-08-11 to the photography department of the San Francisco Museum of Modern Art, three days before the approach to Sotheby's and under the same subject line. Introduces the writer as an artist and sole proprietor of Sun and Rain Works, describes a previously unknown Ansel Adams photograph then believed to date from 1946, and says he thought this happening might be of some interest to the museum. No longer the earliest dated document in this collection - a message of 2008-08-09 to the Ansel Adams organisation precedes it by two days - but still the earliest dated use of the studio name, which that earlier message does not carry. It reports contact with a named person at what it calls the Ansel Adams Museum in San Francisco, an institution that did not exist; the earlier message identifies the body actually approached. No reply is held and no museum response is evidenced. The word happening carries a conceptual reading and an ordinary one, and this collection chooses neither.",
       "wikidata": null,
       "linkedArt": "data/linked-art/evidence-sfmoma-approach-2008"
     },
@@ -223,7 +232,7 @@
       "id": "record:sothebys-approach-2008",
       "type": "Provenance",
       "label": "The Sotheby's consignment correspondence (2008-2009)",
-      "description": "An outbound email of 2008-08-14 to a specialist in Sotheby's Photographs department, with a 3 MB zip of the eleven documentation frames of 2008-08-08. Names Sun and Rain Works as an art business and its principal as an artist in Eugene, Oregon - the earliest dated use of the studio name in this collection - and describes the print as owned and being researched. Two further messages of March 2009 carry the consignment agreement: the department writes about 'your photograph' and chases the signed agreement posted in February, and the studio replies that it holds the sheet and will fax it back. The attachment is held and is byte-identical to the studio's copies; the messages are held as screenshots and are reported, not verified. The frame composing the print with Warhol's philosophy was among those transmitted.",
+      "description": "An outbound email of 2008-08-14 to a specialist in Sotheby's Photographs department, with a 3 MB zip of the eleven documentation frames of 2008-08-08. Names Sun and Rain Works as an art business and its principal as an artist in Eugene, Oregon, and describes the print as owned and being researched. An earlier version of this entry called this the earliest dated use of the studio name in this collection; that was wrong on its own terms, since the museum letter of 2008-08-11 carries the same name three days sooner. Two further messages of March 2009 carry the consignment agreement: the department writes about 'your photograph' and chases the signed agreement posted in February, and the studio replies that it holds the sheet and will fax it back. The attachment is held and is byte-identical to the studio's copies; the messages are held as screenshots and are reported, not verified. The frame composing the print with Warhol's philosophy was among those transmitted.",
       "wikidata": null,
       "linkedArt": "data/linked-art/evidence-sothebys-approach-2008"
     },
@@ -514,6 +523,10 @@
     { "from": "record:consignment-agreement-2009", "relation": "documents", "to": "source:sothebys-photographs-2009" },
     { "from": "record:consignment-agreement-2009", "relation": "documents", "to": "work:wtf-is-ansel-adams" },
     { "from": "record:consignment-agreement-2009", "relation": "cites", "to": "record:sothebys-approach-2008" },
+    { "from": "system:provenance-layer", "relation": "produces", "to": "record:adams-gallery-2008" },
+    { "from": "record:adams-gallery-2008", "relation": "documents", "to": "work:wtf-is-ansel-adams" },
+    { "from": "record:adams-gallery-2008", "relation": "cites", "to": "record:consignment-photographs-2008" },
+    { "from": "record:sfmoma-approach-2008", "relation": "cites", "to": "record:adams-gallery-2008" },
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:sfmoma-approach-2008" },
     { "from": "record:sfmoma-approach-2008", "relation": "documents", "to": "work:wtf-is-ansel-adams" },
     { "from": "record:sfmoma-approach-2008", "relation": "cites", "to": "record:consignment-photographs-2008" },

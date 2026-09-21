@@ -40,7 +40,7 @@ report() {
 #     evidence in the correspondence record and must survive redaction
 #   - this site's own domain, git forge noreply addresses, doc placeholders
 #   - the redaction marker itself, "[address withheld]@domain"
-allow='users\.noreply\.github\.com|noreply@anthropic\.com|@metaconceptualart\.com|YahooMailNeo@|@ad-cc-mbx01|@web[0-9]+\.mail\.|example\.(com|org)|@sentry\.io|withheld\]@'
+allow='users\.noreply\.github\.com|noreply@anthropic\.com|@metaconceptualart\.com|YahooMailNeo@|@ad-cc-mbx01|@web[0-9]+\.mail\.|@[A-Za-z0-9]+\.namprd[0-9]+\.prod\.outlook\.com|example\.(com|org)|@sentry\.io|withheld\]@'
 
 for f in $files; do
   [ -f "$f" ] || continue

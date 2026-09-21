@@ -1,0 +1,68 @@
+{
+  "label": "Preservation capture: the approach to the Ansel Adams organisation (9 August 2008)",
+  "describedBy": "https://www.metaconceptualart.com/data/linked-art/evidence-adams-gallery-2008",
+  "capturedOn": "2026-09-20",
+  "capturedBy": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "note": "A single outbound message of 2008-08-09, from the studio principal's then-current hotmail.com mailbox to a named representative at anseladams.com, carrying eight photographs of the Ansel Adams print as attachments. It is the earliest document in this collection and it precedes the museum approach of 2008-08-11 by two days. The copy held is an export from the sending mailbox as that mailbox exists today, not a message captured in transit in 2008; see headerProvenance below, which states plainly what that does and does not establish. This was private correspondence rather than something its author published, so the original is not published here. What is published is a redacted copy with the attachment payloads removed, and the SHA-256 of the unredacted original, so that original can later be shown to be unaltered without disclosing its contents.",
+  "redaction": {
+    "policy": "Third-party identity withheld pending consent, following the convention used throughout this collection. The given name of the recipient and both correspondents' mailbox addresses are replaced. The email domains are deliberately retained: anseladams.com carries the fact that the approach was made to the Adams organisation, which is the point of the record. The studio principal's own telephone number is withheld as personal data; the fact that the message gives a number, and that it gives it 'again', is preserved because it evidences prior contact.",
+    "preserved": "Every header bearing on date, threading and provenance is untouched, including the Date header, the Message-ID and its Exchange Online host, the Thread-Index, and the X-MS-Exchange-Organization headers on which the headerProvenance assessment below rests. The body is otherwise complete and unaltered, including the sign-off and the period Windows Live Hotmail promotional footer.",
+    "replacements": [
+      "the recipient's given name -> [name withheld]",
+      "the recipient's anseladams.com mailbox -> [address withheld]@anseladams.com",
+      "the studio principal's then-current hotmail.com mailbox -> [address withheld]@hotmail.com",
+      "the studio principal's telephone number -> [telephone withheld]",
+      "the eight JPEG attachment payloads -> removed, with filename, media type, byte count and SHA-256 retained for each"
+    ]
+  },
+  "items": [
+    {
+      "role": "published redacted copy",
+      "path": "2008-08-09-adams-gallery-approach.redacted.eml.txt",
+      "bytes": 2660,
+      "sha256": "a038911d8db3230d1096b5c612b0f5e466aab67638dae4eb4187a66d9dd30c82",
+      "note": "Headers as exported, the full text/plain body with the replacements above, and an inventory of the eight attachments in place of their payloads. Stored with a .txt suffix so it is served as text rather than parsed."
+    },
+    {
+      "role": "unredacted original as exported from the sending mailbox, NOT published",
+      "path": null,
+      "bytes": 3551600,
+      "sha256": "ea06e93694dc489744ba15374e59e1cf82123fbe355d3d9b8a20ff90d39f62ea",
+      "note": "Held by the studio on separate media. Carries the eight JPEG payloads in full, which is almost the whole of its size. This checksum is published so the held file can be shown to match what was described here, without the file itself being disclosed. It can be released, in whole or in part, if the third party consents.",
+      "provenance": "Exported by the studio from its own mailbox, 2026-09-20. No Received headers; Message-ID and organisation headers written by Exchange Online. See headerProvenance."
+    }
+  ],
+  "headerProvenance": {
+    "assessment": "The headers do not independently authenticate the 2008 date, and this record does not claim that they do.",
+    "messageId": "<BY2PR11MB0536356E940B166AEB16A35ACF7C0@BY2PR11MB0536.namprd11.prod.outlook.com>",
+    "reasoning": [
+      "The Message-ID host is Exchange Online infrastructure. Office 365 was not launched until 2011, and host naming of this form is later again, so this identifier was written by a present-day mailbox and not in 2008.",
+      "Thread-Index, X-MS-TNEF-Correlator and the X-MS-Exchange-Organization headers are artefacts of the same modern platform.",
+      "There is no Received chain. On its own this is unremarkable, because a message taken from a Sent Items folder never accumulates Received headers, but together with the above it shows the file to be an export of the message as it now exists in a mailbox migrated from Hotmail.",
+      "The Date header is therefore metadata carried along by the mailbox, resting on the same trust as the screenshots held elsewhere in this collection, and not on transit records written by an unrelated mail system."
+    ],
+    "corroboration": [
+      "All eight attachments are byte-identical to members of the same name in San Francisco.zip, an archive already held and already checksummed in evidence-sothebys-approach-2008.",
+      "Their EXIF DateTimeOriginal values run 2008-08-08 00:05:33 to 00:10:22, a single session of about five minutes on the day before the message's stated date.",
+      "The EXIF camera model is FUJIFILM FinePix1300, which agrees with the body's description of a camera 'weighing in at a stellar 1.3 megapixels'.",
+      "The body carries a Windows Live Hotmail promotional footer of the period, with an atdmt.com tracking link."
+    ],
+    "whatWouldSettleIt": "A copy retained by the receiving organisation, or any record of the telephone contact the message refers to, would move the date from studio-held to independently attested. Neither has been sought yet."
+  },
+  "attachments": {
+    "sentHere": 8,
+    "heldInArchive": 11,
+    "notSent": [
+      "DSCF0014.JPG",
+      "DSCF0015.JPG",
+      "DSCF0023.JPG"
+    ],
+    "note": "The archive holds eleven frames and a Thumbs.db; eight were attached to this message. The selection is recorded as a fact and is not interpreted. DSCF0020, the frame showing the Warhol volume, is among those sent."
+  },
+  "negativeFinding": {
+    "asked": null,
+    "answered": null,
+    "scope": "The receiving organisation has not been approached about this message, and no reply to it is held. The absence of a reply in the studio's mailbox is not evidence that none was sent: the mailbox has been migrated at least once, and only this single message from the exchange is held."
+  }
+}
