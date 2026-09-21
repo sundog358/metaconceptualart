@@ -1,0 +1,93 @@
+{
+  "capturedOn": "2026-09-20",
+  "capturedBy": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "redaction": {
+    "policy": "Third-party identity withheld pending consent, following the convention used throughout this collection. Correspondents at the institutions are identified by role only; their given names, surnames and mailboxes are replaced. Institutional email domains are deliberately retained - anseladams.com, sfmoma.org and sothebys.com carry the fact of who was approached, which is the point of these records - while the domain of a small private photographic-services business is withheld with its proprietor's name. The studio principal's telephone numbers and postal addresses are withheld; that post was being received by general delivery in Eugene in March 2009 is preserved, because it bears on the record, while the postcode is not. The final octet of each X-Originating-IP value is withheld.",
+    "preserved": "Every header bearing on date, provenance and threading is otherwise untouched: the Date headers with their original local offsets, the presence or absence of Message-ID and of Exchange organisation headers, the MIME boundary forms, the X-Originating-IP header itself and its first three octets, and in particular the In-Reply-To and References chains, whose identifiers were written by the receiving institution's own mail server and are the strongest corroboration in this collection. Message bodies are complete and unaltered apart from the replacements listed, including the sign-offs and the period Windows Live Hotmail footers.",
+    "replacements": [
+      "each correspondent's given name and surname -> [name withheld]",
+      "each mailbox local part -> [address withheld], institutional domains retained",
+      "a private business's domain -> [domain withheld]",
+      "telephone numbers -> [telephone withheld]",
+      "postal addresses -> [postal address withheld]; the Eugene postcode -> [postcode withheld]",
+      "final octet of each X-Originating-IP -> [final octet withheld]",
+      "a third party's personal aside inside a quoted reply -> [personal aside withheld]",
+      "attachment payloads -> removed, with filename, media type, byte count and SHA-256 retained"
+    ]
+  },
+  "label": "Preservation capture: the museum approach and its sibling message (August 2008)",
+  "describedBy": "https://www.metaconceptualart.com/data/linked-art/evidence-sfmoma-approach-2008",
+  "note": "The message of 2008-08-11 to the photography department of the San Francisco Museum of Modern Art, and a second message of 2008-08-14 carrying the same subject line and the same archive to a private photographic-services address, which quotes the museum message beneath it. Until these files were produced the museum letter was held only as a screenshot of a mail client, and this record said that obtaining it as a message file was the thing that would verify it directly. That has now happened.",
+  "items": [
+    {
+      "role": "published redacted copy",
+      "path": "2008-08-11-sfmoma-approach.redacted.eml.txt",
+      "date": "Mon, 11 Aug 2008 16:01:02 -0700",
+      "to": "photography@sfmoma.org",
+      "subject": "Ansel Adams Finds Art in SanFrancisco",
+      "bytes": 1890,
+      "sha256": "848591ee890cd5aa49d1b4b2ddfd653e5b76a09034e59adc8e39dedfbf1fcce2",
+      "note": "The museum approach. Opens 'Dear Sir or Madame', names the studio and its principal, and contains the sentence about a happening on which part of this collection turns.",
+      "headerProfile": {
+        "xOriginatingIp": "[140.211.82.[final octet withheld]]",
+        "messageIdPresent": false,
+        "messageId": null
+      },
+      "original": {
+        "published": false,
+        "bytes": 4866633,
+        "sha256": "ca6939e6299cd6c012b650ad7acc1c42c78130cfbcb08fb8c3c43c98d0854d6a",
+        "note": "Held by the studio on separate media; exported from its own mailbox 2026-09-20. The checksum is published so the held file can be shown to be unaltered without its contents being disclosed. It can be released, in whole or in part, if the third party consents or on request from the institution addressed."
+      },
+      "attachments": [
+        {
+          "name": "San Francisco.zip",
+          "bytes": 3553357,
+          "sha256": "227328da2ffe06ef140d79515499ddf1451a5669abaf20c9f9e70d384ed36c43"
+        }
+      ]
+    },
+    {
+      "role": "published redacted copy",
+      "path": "2008-08-14-photographic-services.redacted.eml.txt",
+      "date": "Thu, 14 Aug 2008 13:27:10 -0700",
+      "to": "[address withheld]@[domain withheld]",
+      "subject": "Ansel Adams Finds Art in SanFrancisco",
+      "bytes": 1400,
+      "sha256": "682588c812877d2588364333341ab7f7f918e51b6812aa76b0f5b130f502f0ba",
+      "note": "The sibling message. Opens with a named individual's first name, carries the same subject and the same archive, and quotes the museum message with its header line showing the 2008-08-11 send time from a second source.",
+      "headerProfile": {
+        "xOriginatingIp": "[140.211.82.[final octet withheld]]",
+        "messageIdPresent": false,
+        "messageId": null
+      },
+      "original": {
+        "published": false,
+        "bytes": 4865895,
+        "sha256": "d9d31b6562e6b336481b394c711c4429a2897a5528b94d9bb4f9861c34a87ed4",
+        "note": "Held by the studio on separate media; exported from its own mailbox 2026-09-20. The checksum is published so the held file can be shown to be unaltered without its contents being disclosed. It can be released, in whole or in part, if the third party consents or on request from the institution addressed."
+      },
+      "attachments": [
+        {
+          "name": "San Francisco.zip",
+          "bytes": 3553357,
+          "sha256": "227328da2ffe06ef140d79515499ddf1451a5669abaf20c9f9e70d384ed36c43"
+        }
+      ]
+    }
+  ],
+  "headerProvenance": {
+    "assessment": "Both retain original Hotmail headers: a provider-stamped X-Originating-IP, a Date with a real local offset, and no Message-ID or Exchange organisation headers. Neither has passed through a later platform.",
+    "corroboration": [
+      "Both carry San Francisco.zip, byte-identical to the archive held by the studio and sent to three other recipients that week.",
+      "The 2008-08-14 message quotes the 2008-08-11 message's From, Subject and Date lines, so the museum message's send time is attested inside a second file.",
+      "Both were sent from the same originating address block as the message to the auction house three days later."
+    ]
+  },
+  "negativeFinding": {
+    "asked": "2026-09-01 - a records request was sent to the museum",
+    "answered": null,
+    "scope": "No reply had been received when this capture was made. No museum response to the 2008 message is held, and none is evidenced."
+  }
+}

@@ -94,7 +94,7 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "That message is not the museum letter, and the difference should not be glossed. The museum letter opens 'Dear Sir or Madame'; this one opens with the first name of a named individual, and its body is shorter, omitting the paragraphs about ownership, research, the Portland appraisal contacts and the Adams institution. So the studio was sending the same subject line and the same attachment to more than one party within the same minute or two of the same afternoon, varying the salutation and the length. The header therefore corroborates the date, the hour and the timezone of the museum letter without being that letter's own header. Obtaining the museum letter as a message file remains the thing that would verify it directly.",
+      "content": "That message is not the museum letter, and the difference should not be glossed. The museum letter opens 'Dear Sir or Madame'; this one opens with the first name of a named individual, and its body is shorter, omitting the paragraphs about ownership, research, the Portland appraisal contacts and the Adams institution. So the studio was sending the same subject line and the same attachment to more than one party within the same minute or two of the same afternoon, varying the salutation and the length. The header therefore corroborates the date, the hour and the timezone of the museum letter without being that letter's own header. Obtaining the museum letter as a message file was, when this passage was written, the thing that would verify it directly. That has since happened: the letter is now held as an exported message with its original Hotmail headers, and so is the sibling message, which quotes the letter's From, Subject and Date lines beneath its own and therefore attests the send time from a second file.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -211,6 +211,17 @@
       "id": "https://www.metaconceptualart.com/data/linked-art/evidence-adams-gallery-2008",
       "type": "LinguisticObject",
       "_label": "Evidence archive: the approach to the Ansel Adams organisation (8-9 August 2008)"
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Evidence status, restated after the messages were produced as files. This letter and its sibling of 2008-08-14 are now held as message files exported from the studio's own mailbox, where previously both were held only as screenshots. Both retain original Hotmail headers: a provider-stamped X-Originating-IP, a Date carrying a real local offset of minus seven hours, and no Message-ID or Exchange organisation headers, so neither has passed through a later platform. Every phrase this record quotes has been checked against them and agrees word for word, including the description of the writer as an artist and as the sole proprietor of a fledgeling Art business, and the sentence about a happening. The letter also names, in full, the person at the Adams organisation whom this record previously described only as a named individual; that name is withheld here under this collection's convention, and the messages sent to them two days earlier are the subject of a separate record. Two limits stand: neither file carries a Received chain, which is ordinary for Sent Items copies, and no reply from the museum is held or evidenced.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
     }
   ],
   "created_by": {

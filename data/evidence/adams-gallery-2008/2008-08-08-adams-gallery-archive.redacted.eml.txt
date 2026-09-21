@@ -6,7 +6,7 @@ Subject: Ansel Adams Visits SanFrancisco
 Date: Fri, 08 Aug 2008 18:06:46 -0700
 MIME-Version: 1.0
 
---- text/plain body, as sent (charset iso-8859-1) ----------------------
+--- text/plain body, as sent (charset iso-8859-1) ---
 
 Hello [name withheld],
 
@@ -26,9 +26,5 @@ _________________________________________________________________
 Got Game? Win Prizes in the Windows Live Hotmail Mobile Summer Games Trivia Contest
 http://www.gowindowslive.com/summergames?ocid=TXT_TAGHM
 
---- attachment: payload removed, identity preserved --------------------
-# The archive is not reproduced here. It is byte-identical to the copy of
-# San Francisco.zip held by the studio, whose SHA-256 is already published
-# in evidence-sothebys-approach-2008 as the attachment later sent to the
-# auction house on 2008-08-14.
+--- attachments: payloads removed, identity preserved ---
 San Francisco.zip  application/zip  3553357 bytes  sha256=227328da2ffe06ef140d79515499ddf1451a5669abaf20c9f9e70d384ed36c43

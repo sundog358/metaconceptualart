@@ -14,7 +14,7 @@ X-MS-Exchange-Organization-RecordReviewCfmType: 0
 Content-Type: multipart/mixed; boundary="_011_BY2PR11MB0536356E940B166AEB16A35ACF7C0BY2PR11MB0536namp_"
 MIME-Version: 1.0
 
---- text/plain body, as sent (charset iso-8859-1) ----------------------
+--- text/plain body, as sent (charset iso-8859-1) ---
 Hello [name withheld],
 
 My digital camera is a whopping heavyweight, weighing in at a stellar 1.3 megapixels.  In other words, these are the best quality of photos I was able to create with my humble resources.
@@ -35,10 +35,7 @@ Joe Chirum
 ________________________________
 Your PC, mobile phone, and online services work together like never before. See how Windows® fits your life<http://clk.atdmt.com/MRT/go/108587394/direct/01/>
 
---- attachments: payloads removed, identity preserved ------------------
-# The eight JPEG payloads are not reproduced here. Each is byte-identical
-# to the member of the same name in the held archive San Francisco.zip,
-# whose SHA-256 is published in evidence-sothebys-approach-2008.
+--- attachments: payloads removed, identity preserved ---
 DSCF0012.JPG  image/pjpeg  322088 bytes  sha256=5eb1132130615d311fbf154ccab41eb626765fe6f472acc5d374eded1b1a0c4a
 DSCF0013.JPG  image/pjpeg  330380 bytes  sha256=8798628693cbcd54ecc1a186ec8e792f4446b364bdd98aec63fe38bbbe220e00
 DSCF0024.JPG  image/pjpeg  328173 bytes  sha256=916df61374d5050a6e50019d3b19f92731b35c5bcf88d62d547635d1ed4e3d7d

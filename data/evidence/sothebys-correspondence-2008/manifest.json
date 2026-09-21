@@ -1,0 +1,163 @@
+{
+  "capturedOn": "2026-09-20",
+  "capturedBy": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "redaction": {
+    "policy": "Third-party identity withheld pending consent, following the convention used throughout this collection. Correspondents at the institutions are identified by role only; their given names, surnames and mailboxes are replaced. Institutional email domains are deliberately retained - anseladams.com, sfmoma.org and sothebys.com carry the fact of who was approached, which is the point of these records - while the domain of a small private photographic-services business is withheld with its proprietor's name. The studio principal's telephone numbers and postal addresses are withheld; that post was being received by general delivery in Eugene in March 2009 is preserved, because it bears on the record, while the postcode is not. The final octet of each X-Originating-IP value is withheld.",
+    "preserved": "Every header bearing on date, provenance and threading is otherwise untouched: the Date headers with their original local offsets, the presence or absence of Message-ID and of Exchange organisation headers, the MIME boundary forms, the X-Originating-IP header itself and its first three octets, and in particular the In-Reply-To and References chains, whose identifiers were written by the receiving institution's own mail server and are the strongest corroboration in this collection. Message bodies are complete and unaltered apart from the replacements listed, including the sign-offs and the period Windows Live Hotmail footers.",
+    "replacements": [
+      "each correspondent's given name and surname -> [name withheld]",
+      "each mailbox local part -> [address withheld], institutional domains retained",
+      "a private business's domain -> [domain withheld]",
+      "telephone numbers -> [telephone withheld]",
+      "postal addresses -> [postal address withheld]; the Eugene postcode -> [postcode withheld]",
+      "final octet of each X-Originating-IP -> [final octet withheld]",
+      "a third party's personal aside inside a quoted reply -> [personal aside withheld]",
+      "attachment payloads -> removed, with filename, media type, byte count and SHA-256 retained"
+    ]
+  },
+  "label": "Preservation capture: the Sotheby's consignment correspondence (2008-2009)",
+  "describedBy": "https://www.metaconceptualart.com/data/linked-art/evidence-sothebys-approach-2008",
+  "note": "Five outbound messages from the studio to the Photographs department, running from the approach of 2008-08-14 to the return of the executed consignment agreement on 2009-03-19, four of them quoting the department's replies beneath them. Until these files were produced the thread was held only as screenshots and this collection reported it rather than verifying it. The messages are the studio's own outbound copies; the department's replies appear as quoted text within them, not as separately held files.",
+  "items": [
+    {
+      "role": "published redacted copy",
+      "path": "2008-08-14-sothebys-approach.redacted.eml.txt",
+      "date": "Thu, 14 Aug 2008 14:34:41 -0700",
+      "to": "[address withheld]@sothebys.com",
+      "subject": "Ansel Adams Finds Art in SanFrancisco",
+      "bytes": 1755,
+      "sha256": "ec71b942d55d7a71c4f1940bc225fd4201dbccd7d4c11081ede4acda9bd30523",
+      "note": "The approach. Carries San Francisco.zip and the subject under which the whole thread ran.",
+      "headerProfile": {
+        "xOriginatingIp": "[140.211.82.[final octet withheld]]",
+        "messageIdPresent": false,
+        "messageId": null
+      },
+      "original": {
+        "published": false,
+        "bytes": 4866688,
+        "sha256": "1ed6d2caa11c276462556acd23485c6bc2190e64caedd22868750dc63eeaef92",
+        "note": "Held by the studio on separate media; exported from its own mailbox 2026-09-20. The checksum is published so the held file can be shown to be unaltered without its contents being disclosed. It can be released, in whole or in part, if the third party consents or on request from the institution addressed."
+      },
+      "attachments": [
+        {
+          "name": "San Francisco.zip",
+          "bytes": 3553357,
+          "sha256": "227328da2ffe06ef140d79515499ddf1451a5669abaf20c9f9e70d384ed36c43"
+        }
+      ]
+    },
+    {
+      "role": "published redacted copy",
+      "path": "2008-09-16-sothebys-acceptance.redacted.eml.txt",
+      "date": "Tue, 16 Sep 2008 14:55:45 -0700",
+      "to": "\"[name withheld]\" <[address withheld]@sothebys.com>",
+      "subject": "RE: Ansel Adams Finds Art in SanFrancisco",
+      "bytes": 4931,
+      "sha256": "4c7d0a1f2a6b5d4b9c1211e020bd54b44e91a16b4298e0c01602a7ba5a2f0a70",
+      "note": "The acceptance: 'I am interested in consigning the Art in the April 2009 auction', with an undertaking to 'arrange for the shipment of the art myself'.",
+      "headerProfile": {
+        "xOriginatingIp": "[132.160.66.[final octet withheld]]",
+        "messageIdPresent": false,
+        "messageId": null
+      },
+      "original": {
+        "published": false,
+        "bytes": 22793,
+        "sha256": "a4bf3105f066195a9dc8178c579055e1e7792168ff6d30470273379d4c4e7847",
+        "note": "Held by the studio on separate media; exported from its own mailbox 2026-09-20. The checksum is published so the held file can be shown to be unaltered without its contents being disclosed. It can be released, in whole or in part, if the third party consents or on request from the institution addressed."
+      },
+      "attachments": []
+    },
+    {
+      "role": "published redacted copy",
+      "path": "2008-11-20-sothebys-art-in-progress.redacted.eml.txt",
+      "date": "Thu, 20 Nov 2008 16:49:45 -0800",
+      "to": "[name withheld] <[address withheld]@sothebys.com>",
+      "subject": "RE: Ansel Adams Finds Art in SanFrancisco",
+      "bytes": 7227,
+      "sha256": "3966c2cb89b3c6555d03fc590a3bd8a532dc2d93d32c9e0d8c86733df49b2976",
+      "note": "The message containing 'this art in progress', which the auction-house record treats as the load-bearing phrase of the thread. Its References chain carries five identifiers, three of them written by the department's own mail server.",
+      "headerProfile": {
+        "xOriginatingIp": "[132.160.66.[final octet withheld]]",
+        "messageIdPresent": false,
+        "messageId": null
+      },
+      "original": {
+        "published": false,
+        "bytes": 38917,
+        "sha256": "e2a47091931385e738902dc0d3773a608e2587801b6c1d4f842c8fdcebd25a1c",
+        "note": "Held by the studio on separate media; exported from its own mailbox 2026-09-20. The checksum is published so the held file can be shown to be unaltered without its contents being disclosed. It can be released, in whole or in part, if the third party consents or on request from the institution addressed."
+      },
+      "attachments": []
+    },
+    {
+      "role": "published redacted copy",
+      "path": "2009-03-12-consignment-sheet-received.redacted.eml.txt",
+      "date": "Thu, 12 Mar 2009 19:36:05 -0700",
+      "to": "[address withheld]@sothebys.com",
+      "subject": "RE: in regards to consignment agreement for SOTHEBY'S",
+      "bytes": 2695,
+      "sha256": "38615f3d68fd0b3da258290f83dae8619e2f0174e947d6ea3663dbf89f86a0d2",
+      "note": "Reports that the consignment sheet was received and will be faxed back, and gives a general-delivery address in Eugene.",
+      "headerProfile": {
+        "xOriginatingIp": "[24.20.244.[final octet withheld]]",
+        "messageIdPresent": false,
+        "messageId": null
+      },
+      "original": {
+        "published": false,
+        "bytes": 9557,
+        "sha256": "1d259c509ca5d92098daaeca459edcbda2cfbbe24b4a7c69014c048f48949586",
+        "note": "Held by the studio on separate media; exported from its own mailbox 2026-09-20. The checksum is published so the held file can be shown to be unaltered without its contents being disclosed. It can be released, in whole or in part, if the third party consents or on request from the institution addressed."
+      },
+      "attachments": []
+    },
+    {
+      "role": "published redacted copy",
+      "path": "2009-03-19-executed-agreement-returned.redacted.eml.txt",
+      "date": "Thu, 19 Mar 2009 13:16:32 -0700",
+      "to": "[address withheld]@sothebys.com",
+      "subject": "RE: SOTHEBY'S CONSIGNMENT AGREEMENT",
+      "bytes": 2704,
+      "sha256": "76aed2ec8794c1ff7d3564279e3a7fe2f58ba2ec373383575f9c38146e807902",
+      "note": "Returns the executed consignment agreement as JoeArtChirum.pdf, names that file in the body, allows an exception to saving paper 'for the purposes of Art', and signs off 'Yours in Art'.",
+      "headerProfile": {
+        "xOriginatingIp": "[128.223.148.[final octet withheld]]",
+        "messageIdPresent": false,
+        "messageId": null
+      },
+      "original": {
+        "published": false,
+        "bytes": 771331,
+        "sha256": "7eee1fa6c3124083d4723eded99fa4d593ed6a4d85af6ce81a043dda2583f207",
+        "note": "Held by the studio on separate media; exported from its own mailbox 2026-09-20. The checksum is published so the held file can be shown to be unaltered without its contents being disclosed. It can be released, in whole or in part, if the third party consents or on request from the institution addressed."
+      },
+      "attachments": [
+        {
+          "name": "JoeArtChirum.pdf",
+          "bytes": 555754,
+          "sha256": "970c8e85bf0931ac8bfed1ab742d7f67247cdb2003c4db4aea99b9b29138eabe"
+        }
+      ]
+    }
+  ],
+  "headerProvenance": {
+    "assessment": "All five retain original Hotmail headers, with provider-stamped X-Originating-IP values, Dates carrying real local offsets, and no Message-ID or Exchange organisation headers of their own.",
+    "crossSystemCorroboration": {
+      "finding": "The In-Reply-To and References headers carry eleven message identifiers generated by NYCEXC01.ads.sothebys.com, the auction house's own Exchange server, together with identifiers generated by the sending provider at phx.gbl.",
+      "why": "Those identifiers were written by the receiving institution, not by the studio, and were copied verbatim into the studio's outbound headers by ordinary mail threading. Two unrelated systems therefore corroborate each other, in the same way the 2013 museum correspondence is corroborated by Yahoo identifiers appearing in a university server's headers. This is the strongest corroboration in the collection.",
+      "checkable": "The identifiers can be checked against the auction house's own archive by anyone with access to it."
+    },
+    "corroboration": [
+      "The 2008-08-14 attachment is byte-identical to San Francisco.zip as held and as sent to three other recipients that week.",
+      "The 2009-03-19 attachment is byte-identical to the held JoeArtChirum.pdf, SHA-256 970c8e85bf0931ac8bfed1ab742d7f67247cdb2003c4db4aea99b9b29138eabe, which this collection already published."
+    ]
+  },
+  "negativeFinding": {
+    "asked": null,
+    "answered": null,
+    "scope": "The auction house has not been asked to confirm any of this. The department's replies are held only as text quoted inside the studio's own messages; no separately held copy of any reply exists in this collection. Nothing here is a statement by the auction house about this project, and no endorsement by it is implied or should be inferred."
+  }
+}

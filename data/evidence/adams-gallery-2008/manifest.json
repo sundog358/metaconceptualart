@@ -1,117 +1,136 @@
 {
-  "label": "Preservation capture: the approach to the Ansel Adams organisation (8-9 August 2008)",
-  "describedBy": "https://www.metaconceptualart.com/data/linked-art/evidence-adams-gallery-2008",
   "capturedOn": "2026-09-20",
   "capturedBy": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "note": "Two outbound messages of 2008-08-08 Pacific time, about twenty minutes apart, from the studio principal's then-current hotmail.com mailbox to a named representative at anseladams.com. One carries eight loose JPEG photographs of the Ansel Adams print; the other carries San Francisco.zip, byte-identical to the archive later sent to the auction house. These are the earliest documents held in this collection. They were private correspondence rather than anything their author published, so the originals are not published here. What is published is a redacted copy of each with the attachment payloads removed, and the SHA-256 of each unredacted original, so those originals can later be shown to be unaltered without disclosing their contents.",
   "redaction": {
-    "policy": "Third-party identity withheld pending consent, following the convention used throughout this collection. The given name of the recipient and both correspondents' mailbox addresses are replaced. The email domains are deliberately retained: anseladams.com carries the fact that the approach was made to the Adams organisation, which is the point of the record. The studio principal's telephone numbers are withheld as personal data; the facts that two numbers are given, that they differ in a single digit, and that one is given 'again', are preserved because they bear on the order of the two messages. The final octet of the X-Originating-IP value is withheld.",
-    "preserved": "Every header bearing on date, provenance and threading is otherwise untouched, including both Date headers with their original offsets, the presence or absence of Message-ID, Thread-Index and X-MS-Exchange-Organization headers, the MIME boundary forms, and the X-Originating-IP header itself. These are what distinguish the two files' provenance and are load-bearing. Both bodies are otherwise complete and unaltered, including the sign-offs and the period Windows Live Hotmail footers.",
+    "policy": "Third-party identity withheld pending consent, following the convention used throughout this collection. Correspondents at the institutions are identified by role only; their given names, surnames and mailboxes are replaced. Institutional email domains are deliberately retained - anseladams.com, sfmoma.org and sothebys.com carry the fact of who was approached, which is the point of these records - while the domain of a small private photographic-services business is withheld with its proprietor's name. The studio principal's telephone numbers and postal addresses are withheld; that post was being received by general delivery in Eugene in March 2009 is preserved, because it bears on the record, while the postcode is not. The final octet of each X-Originating-IP value is withheld.",
+    "preserved": "Every header bearing on date, provenance and threading is otherwise untouched: the Date headers with their original local offsets, the presence or absence of Message-ID and of Exchange organisation headers, the MIME boundary forms, the X-Originating-IP header itself and its first three octets, and in particular the In-Reply-To and References chains, whose identifiers were written by the receiving institution's own mail server and are the strongest corroboration in this collection. Message bodies are complete and unaltered apart from the replacements listed, including the sign-offs and the period Windows Live Hotmail footers.",
     "replacements": [
-      "the recipient's given name -> [name withheld]",
-      "the recipient's anseladams.com mailbox -> [address withheld]@anseladams.com",
-      "the studio principal's then-current hotmail.com mailbox -> [address withheld]@hotmail.com",
-      "each telephone number -> [telephone withheld]",
-      "final octet of X-Originating-IP -> [final octet withheld]",
+      "each correspondent's given name and surname -> [name withheld]",
+      "each mailbox local part -> [address withheld], institutional domains retained",
+      "a private business's domain -> [domain withheld]",
+      "telephone numbers -> [telephone withheld]",
+      "postal addresses -> [postal address withheld]; the Eugene postcode -> [postcode withheld]",
+      "final octet of each X-Originating-IP -> [final octet withheld]",
+      "a third party's personal aside inside a quoted reply -> [personal aside withheld]",
       "attachment payloads -> removed, with filename, media type, byte count and SHA-256 retained"
     ]
   },
+  "label": "Preservation capture: the approach to the Ansel Adams organisation (8-9 August 2008)",
+  "describedBy": "https://www.metaconceptualart.com/data/linked-art/evidence-adams-gallery-2008",
+  "note": "Two outbound messages of 2008-08-08 Pacific time, about twenty minutes apart, to a named representative at anseladams.com. One carries San Francisco.zip; the other carries eight of its eleven frames loose. These are the earliest documents held in this collection. The two differ in provenance and should not be treated alike: see headerProvenance.",
   "items": [
     {
-      "role": "published redacted copy - the message carrying the archive",
+      "role": "published redacted copy",
       "path": "2008-08-08-adams-gallery-archive.redacted.eml.txt",
-      "bytes": 1462,
-      "sha256": "fa5b5bafc114dc99ae63de605765c2c4b7546a3dbc406fb5629b18c54b92a906",
-      "note": "Subject 'Ansel Adams Visits SanFrancisco', Date Fri, 08 Aug 2008 18:06:46 -0700. The better-evidenced of the two: original Hotmail headers, no Message-ID, no Exchange organisation headers, a real local UTC offset, and an X-Originating-IP stamped by the sending provider."
+      "date": "Fri, 08 Aug 2008 18:06:46 -0700",
+      "to": "[address withheld]@anseladams.com",
+      "subject": "Ansel Adams Visits SanFrancisco",
+      "bytes": 1175,
+      "sha256": "71343652e29c6b0824967452bf39dcb5f175e173901480515dab08e3094965b5",
+      "note": "The archive message. Retains original Hotmail headers and is the better-evidenced of the two.",
+      "headerProfile": {
+        "xOriginatingIp": "[38.103.161.[final octet withheld]]",
+        "messageIdPresent": false,
+        "messageId": null
+      },
+      "original": {
+        "published": false,
+        "bytes": 4863751,
+        "sha256": "49ebe829afa33125788ea996126cc3d9f0f8f06767885ff1b3f9cb8186ca8546",
+        "note": "Held by the studio on separate media; exported from its own mailbox 2026-09-20. The checksum is published so the held file can be shown to be unaltered without its contents being disclosed. It can be released, in whole or in part, if the third party consents or on request from the institution addressed."
+      },
+      "attachments": [
+        {
+          "name": "San Francisco.zip",
+          "bytes": 3553357,
+          "sha256": "227328da2ffe06ef140d79515499ddf1451a5669abaf20c9f9e70d384ed36c43"
+        }
+      ]
     },
     {
-      "role": "published redacted copy - the message carrying the loose photographs",
-      "path": "2008-08-09-adams-gallery-approach.redacted.eml.txt",
-      "bytes": 2660,
-      "sha256": "a038911d8db3230d1096b5c612b0f5e466aab67638dae4eb4187a66d9dd30c82",
-      "note": "Subject 'Ansel Adams San Francisco', Date Sat, 09 Aug 2008 00:46:03 +0000. Headers rewritten by Exchange Online, a platform that did not exist in 2008; see headerProvenance."
-    },
-    {
-      "role": "unredacted original of the archive message, NOT published",
-      "path": null,
-      "bytes": 4863751,
-      "sha256": "49ebe829afa33125788ea996126cc3d9f0f8f06767885ff1b3f9cb8186ca8546",
-      "note": "Held by the studio on separate media. Almost all of its size is the attached archive. Exported by the studio from its own mailbox, 2026-09-20.",
-      "provenance": "No Received headers, consistent with a Sent Items copy. X-Originating-IP present. No Message-ID, Thread-Index, Content-Language or X-MS-Exchange-Organization headers. MIME boundary is a bare GUID form."
-    },
-    {
-      "role": "unredacted original of the photographs message, NOT published",
-      "path": null,
-      "bytes": 3551600,
-      "sha256": "ea06e93694dc489744ba15374e59e1cf82123fbe355d3d9b8a20ff90d39f62ea",
-      "note": "Held by the studio on separate media. Carries the eight JPEG payloads in full. Exported by the studio from its own mailbox, 2026-09-20.",
-      "provenance": "No Received headers. Message-ID host, Thread-Index and X-MS-Exchange-Organization headers written by Exchange Online."
+      "role": "published redacted copy",
+      "path": "2008-08-09-adams-gallery-photographs.redacted.eml.txt",
+      "date": "Sat, 09 Aug 2008 00:46:03 +0000",
+      "to": "\"[address withheld]@anseladams.com\" <[address withheld]@anseladams.com>",
+      "subject": "Ansel Adams San Francisco",
+      "bytes": 2415,
+      "sha256": "0a26701f00bd60b5049347792ff6c11e982e1ade6c0afecf775bcd04fc63b27b",
+      "note": "The loose-photographs message. Its headers were rewritten by Exchange Online, a platform that did not exist in 2008, so its Date does not independently authenticate itself.",
+      "headerProfile": {
+        "xOriginatingIp": null,
+        "messageIdPresent": true,
+        "messageId": "\t<BY2PR11MB0536356E940B166AEB16A35ACF7C0@BY2PR11MB0536.namprd11.prod.outlook.com>"
+      },
+      "original": {
+        "published": false,
+        "bytes": 3551600,
+        "sha256": "ea06e93694dc489744ba15374e59e1cf82123fbe355d3d9b8a20ff90d39f62ea",
+        "note": "Held by the studio on separate media; exported from its own mailbox 2026-09-20. The checksum is published so the held file can be shown to be unaltered without its contents being disclosed. It can be released, in whole or in part, if the third party consents or on request from the institution addressed."
+      },
+      "attachments": [
+        {
+          "name": "DSCF0012.JPG",
+          "bytes": 322088,
+          "sha256": "5eb1132130615d311fbf154ccab41eb626765fe6f472acc5d374eded1b1a0c4a"
+        },
+        {
+          "name": "DSCF0013.JPG",
+          "bytes": 330380,
+          "sha256": "8798628693cbcd54ecc1a186ec8e792f4446b364bdd98aec63fe38bbbe220e00"
+        },
+        {
+          "name": "DSCF0024.JPG",
+          "bytes": 328173,
+          "sha256": "916df61374d5050a6e50019d3b19f92731b35c5bcf88d62d547635d1ed4e3d7d"
+        },
+        {
+          "name": "DSCF0020.JPG",
+          "bytes": 319545,
+          "sha256": "17e3c4a38cb56f9eed6e2c2b79c734749496d69c9060527b54d74aafff36c5a8"
+        },
+        {
+          "name": "DSCF0016.JPG",
+          "bytes": 320908,
+          "sha256": "9423a589ad08093152c49647a659c0146f22d1e9da940afdb6250db2a89c4855"
+        },
+        {
+          "name": "DSCF0022.JPG",
+          "bytes": 322207,
+          "sha256": "c3853984d453763f2e2143e8400e3047e095bfd9e4d36e9307cc48aece53ac91"
+        },
+        {
+          "name": "DSCF0021.JPG",
+          "bytes": 324770,
+          "sha256": "a29f1f0a98912b70f6c3cfdc3dabcbc637c1c2a01b1b2858614261617ab672ca"
+        },
+        {
+          "name": "DSCF0017.JPG",
+          "bytes": 322587,
+          "sha256": "09e6582f098be78ba2ca9caca5e154f6cb6b77ae7c71ce889b87e6ddba1a1ddf"
+        }
+      ]
     }
   ],
   "headerProvenance": {
-    "assessment": "The two files differ in provenance and should not be treated alike. The archive message is, on its headers, a 2008 artefact. The photographs message is a 2008 message as preserved by a present-day mailbox, and its Date does not independently authenticate itself.",
-    "archiveMessage": {
-      "date": "Fri, 08 Aug 2008 18:06:46 -0700",
-      "retains": [
-        "X-Originating-IP stamped by the sending provider",
-        "Date with a real local offset of -0700",
-        "GUID-form MIME boundary characteristic of Windows Live Hotmail",
-        "Windows Live Hotmail Summer Games promotional footer, consistent with August 2008"
-      ],
-      "absent": [
-        "Message-ID",
-        "Thread-Index",
-        "Content-Language",
-        "X-MS-Exchange-Organization headers"
-      ]
-    },
-    "photographsMessage": {
-      "date": "Sat, 09 Aug 2008 00:46:03 +0000",
-      "messageId": "<BY2PR11MB0536356E940B166AEB16A35ACF7C0@BY2PR11MB0536.namprd11.prod.outlook.com>",
-      "reasoning": [
-        "The Message-ID host is Exchange Online infrastructure. Office 365 was not launched until 2011 and host naming of this form is later again, so this identifier was written by a present-day mailbox and not in 2008.",
-        "Thread-Index, X-MS-TNEF-Correlator and the X-MS-Exchange-Organization headers are artefacts of the same modern platform.",
-        "The Date is normalised to UTC rather than carrying a local offset.",
-        "Its Date is therefore metadata carried along by the mailbox, not a transit record."
-      ]
-    },
+    "assessment": "One of these two files passed through a later platform that rewrote its headers; the other did not. Of the nine messages captured across this collection, this is the only one affected.",
     "corroboration": [
-      "The archive attached to the 2008-08-08 message is byte-identical to San Francisco.zip, whose SHA-256 is already published in evidence-sothebys-approach-2008 as the attachment sent to the auction house on 2008-08-14.",
+      "The attached archive is byte-identical to San Francisco.zip, whose SHA-256 is published in evidence-sothebys-approach-2008 as the attachment sent to the auction house on 2008-08-14.",
       "The eight loose photographs are byte-identical to eight members of that same archive.",
-      "EXIF DateTimeOriginal across the archive runs 2008-08-08 00:05:33 to 00:10:22, one session of about five minutes.",
+      "EXIF DateTimeOriginal across the archive runs 2008-08-08 00:05:33 to 00:10:22.",
       "EXIF camera model is FUJIFILM FinePix1300, agreeing with both messages' description of a 1.3 megapixel camera.",
-      "The museum letter of 2008-08-11, held independently as a screenshot, reports contact with a named person at an Adams institution; these messages are that contact."
-    ],
-    "whatWouldSettleIt": "A copy retained by the receiving organisation, or any record of the telephone contact both messages presuppose, would move the dates from studio-held to independently attested. Neither has been sought."
+      "The museum letter of 2008-08-11 names the recipient of these two messages as a contact at an Adams institution, so an independently held document attests this approach."
+    ]
   },
   "ordering": {
-    "byHeaders": "The photographs message is stamped about twenty minutes before the archive message.",
-    "byText": "The archive message reads as a first delivery and the photographs message as a second attempt: it gives the telephone number 'again' and sends eight of the eleven frames loose rather than archived.",
-    "complication": "The two messages give telephone numbers differing in a single digit, so one contains a typing error and neither can be used to order them.",
-    "conclusion": "Not established, and nothing in this collection depends on it. The timestamp of the photographs message has been rewritten by a later system, so the header ordering is the weaker of the two indications."
-  },
-  "attachments": {
-    "archiveMessage": {
-      "name": "San Francisco.zip",
-      "bytes": 3553357,
-      "sha256": "227328da2ffe06ef140d79515499ddf1451a5669abaf20c9f9e70d384ed36c43",
-      "frames": 11
-    },
-    "photographsMessage": {
-      "count": 8,
-      "loose": true,
-      "notSent": [
-        "DSCF0014.JPG",
-        "DSCF0015.JPG",
-        "DSCF0023.JPG"
-      ]
-    },
-    "note": "DSCF0020, the frame composing the print with Warhol's philosophy, was sent both ways. The selection of eight from eleven is recorded as a fact and is not interpreted."
+    "byHeaders": "The photographs message is stamped about twenty minutes before the archive one.",
+    "byText": "The archive message reads as a first delivery; the photographs message gives a telephone number 'again' and sends frames loose rather than archived.",
+    "complication": "The two give telephone numbers differing in a single digit, so one contains a typing error and neither orders them.",
+    "conclusion": "Not established. Nothing in this collection depends on it."
   },
   "negativeFinding": {
     "asked": null,
     "answered": null,
-    "scope": "The receiving organisation has not been approached about either message, and no reply to either is held. The absence of a reply in the studio's mailbox is not evidence that none was sent: the mailbox has been migrated at least once, and only these two messages from the exchange are held."
+    "scope": "The receiving organisation has not been approached about either message and no reply to either is held. Absence of a reply in the studio's mailbox is not evidence that none was sent."
   }
 }
