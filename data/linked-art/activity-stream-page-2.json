@@ -427,6 +427,94 @@
         "type": "LinguisticObject"
       },
       "endTime": "2026-09-20T18:48:38-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+        "type": "Set"
+      },
+      "endTime": "2026-09-20T18:56:49-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-adams-gallery-2008",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-20T18:56:49-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-sfmoma-approach-2008",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-20T18:56:49-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-sothebys-approach-2008",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-20T18:56:49-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-adams-gallery-2008",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-20T19:14:52-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-sfmoma-approach-2008",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-20T19:14:52-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-sothebys-approach-2008",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-20T19:14:52-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-20T19:25:24-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-sfmoma-approach-2008",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-20T19:25:24-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-20T19:30:34-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-20T19:34:46-07:00"
     }
   ]
 }
