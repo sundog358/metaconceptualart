@@ -1,0 +1,38 @@
+{
+  "label": "Preservation capture: the framer's reply on 2008 paperwork (18 September 2026)",
+  "describedBy": "https://www.metaconceptualart.com/data/linked-art/evidence-staged-photographs-2008",
+  "capturedOn": "2026-09-20",
+  "capturedBy": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "note": "The reply of 2026-09-18 from the proprietor of Raven Frame Works, Eugene, Oregon, to an enquiry about whether receipts or records of work done in 2008 survive. It quotes beneath it the studio's enquiry of the same day and the 2024 exchange in which he confirmed his identity. The answer is negative and narrow: he holds no paperwork from 2008. The original is not published; its checksum is.",
+  "redaction": {
+    "policy": "The proprietor is identified by role and by the business name, which this collection already publishes; his personal name and both correspondents' mailbox local parts are withheld. He has not been asked whether he wishes to be named.",
+    "preserved": "The full Received chain and the provider's authentication headers are kept intact, including the DKIM, SPF and ARC results, because they are what make this message verifiable."
+  },
+  "items": [
+    {
+      "role": "published redacted copy",
+      "path": "2026-09-18-framer-reply.redacted.eml.txt",
+      "bytes": 7459,
+      "sha256": "d28782f45023e45ce11c30fa083d502b39e33e1a80401660c37f969f74c6a13e"
+    },
+    {
+      "role": "unredacted original as received, NOT published",
+      "path": null,
+      "bytes": 11126,
+      "sha256": "671de6cb993ba584b18ced4b582460722b0a45ff8406e62ac701840168642b2b",
+      "note": "Exported by the studio from its own mailbox, 2026-09-20."
+    }
+  ],
+  "headerProvenance": {
+    "inbound": true,
+    "receivedChain": 2,
+    "authentication": "dkim=pass, spf=pass, arc=pass, as recorded by the receiving provider",
+    "why": "Unlike every message in the 2008-2009 correspondence, which are Sent Items copies without Received chains or signatures, this message is held as received and is cryptographically authenticated. It is the best-evidenced message in this collection. What that authenticates is the sender, the text and the date of this reply, and nothing about 2008."
+  },
+  "finding": {
+    "asked": "2026-09-18 - whether original receipts or any record of 2008 work survive",
+    "answered": "2026-09-18 - no Raven Frame Works paperwork from 2008 is held",
+    "scope": "A search of his own records that returned nothing. Not a statement that no work was done, that the print did not come to his bench, or that he has no recollection. He was asked about documents and answered about documents."
+  }
+}

@@ -1,0 +1,70 @@
+Delivered-To: [address withheld]@gmail.com
+Received: by 2002:a05:6214:6201:b0:912:1d91:74ab with SMTP id e1csp4402244qva; Fri, 18 Sep 2026 16:57:40 -0700 (PDT)
+X-Received: by 2002:a05:6122:2805:b0:5c9:a6e6:f6de with SMTP id 71dfb90a1353d-5c9b58d79dbmr2563011e0c.7.1789775860681; Fri, 18 Sep 2026 16:57:40 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1789775860; cv=pass; d=google.com; s=arc-20260327; b=jh12JCSXviBFw31BEev2+L9rCRRCNnQRDjKeimQCEastc3FaZUyuvKtlD+17+xrLb4 kbzhoGFWZGpzktK0rOkwN0gdHcsEkIWLHcmShxa2PyBTZAGPPm9CHMYyGy79Y60VF+wS 81ICuv8RrtsP0qbBkfY/3A2voy3ws63HDGnNw49x/W7wdGuyaQkerZxbZBoIfb+/usYf NFD2uEz50tm4ubmbAtLosVu4YjiqmQM2JVeV4mhJadxdFRlru0RgvcIfTO3l9K7Dk2mj /YvzRJaikXGe2xVyT6+jjD9Og+9Vwa63EcYCP/nZY9znIkHKNzlpRXzWxDhlrhQ7Za8p AizA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327; h=to:subject:message-id:date:from:in-reply-to:references:mime-version :dkim-signature; bh=0qiGqWyScYLBX6mw22lsgrtjYG8jDprZQqd8jcX88wc=; fh=Fkpn+0a4Q/mQelo0WRZfRCtOCdAnRiZaOdwZ9SXspjg=; b=qRel9e/FUvTeQ0F9QcQY/2PgVSPe90rnMWrXSUn54+BqKChFmmrrqkj91yu8kgoqw2 ZsyFHXn2KGhpmVjEtGePrqcwZJr6ASayl2IUVL6PTv5PKgF3i+wPhXxzEAhCP1Z6jS8s yROVfkapAs9rFQY2Fi08QIQ7rdrlxZ8B4tC7XgWsgcb+QvMYsjNYKdKYaRaWd63+UnHO AapORldxnMgP99dwdDu/wt4LJKImw6dLNwqpFmwuT1R5VzarebC0oLniHTvydJuz8Xn8 rdwealy5nmWRMa5qT1L5Dphwanhoxo3vOqTNZPUon+BPPyujRN471E79bSbX/IykIKq/ Wd8Q==; dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com; dkim=pass header.i=@gmail.com header.s=20251104 header.b=cKANN0JR; arc=pass (i=1); spf=pass (google.com: domain of [address withheld]@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=[address withheld]@gmail.com; dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com; dara=pass header.i=@gmail.com
+Return-Path: <[address withheld]@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41]) by mx.google.com with SMTPS id 71dfb90a1353d-5c9c17c0912sor594457e0c.1.2026.09.18.16.57.40 for <[address withheld]@gmail.com> (Google Transport Security); Fri, 18 Sep 2026 16:57:40 -0700 (PDT)
+Received-SPF: pass (google.com: domain of [address withheld]@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com; dkim=pass header.i=@gmail.com header.s=20251104 header.b=cKANN0JR; arc=pass (i=1); spf=pass (google.com: domain of [address withheld]@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=[address withheld]@gmail.com; dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com; dara=pass header.i=@gmail.com
+ARC-Seal: i=1; a=rsa-sha256; t=1789775860; cv=none; d=google.com; s=arc-20260327; b=KcyfktzJhsIiSyFbJ21Y+tnuuQh2izSKaBfiA4fXNvdtyjan9AK8gyB1fQtfmEmr4x oOeCXWglzoGjj0Xq0Z1WdIvO+/ugD2sRZ5iZz/2bLgcUiRLfLWdQtIeijDn8C56QDSTC mzn9437fFMmNm0CBeKnkKK3xSjzxUaEbscoDibj8hRNCHK/NuTVXd6128poTEQD4KzWX RuZEty++CIlmYNU+ne4i6Kak7ChPsHTefyt692EWnStNolIf0J4N8PZiyOlGOwfVyJF3 iPxrq3gK1wGzyMX3VwnMMVYKRX/r3wvIYhpkfcZ30xgHC+Z/v9AOl4EDIh3XJRqFVqeU XvlQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327; h=to:subject:message-id:date:from:in-reply-to:references:mime-version :dkim-signature; bh=0qiGqWyScYLBX6mw22lsgrtjYG8jDprZQqd8jcX88wc=; fh=Fkpn+0a4Q/mQelo0WRZfRCtOCdAnRiZaOdwZ9SXspjg=; b=I7tSNZDhDBB/Ch76dtZtkNQq7z3JBUneXqDTUyjIV6YkCZQjVXzMhzADyddqlfYhUP dXJ0meYggsnaoP04T6UfyyQ3lSQydvuLMjcuSfx2THxrnB9R/983gOu81STyVTs1CwV+ LyMNN0ZlXg6eJWPXzqG/7SGKNHmNSEd9uPTrNi5s/T0RBxaxMo3UHjEH001+xggKfozA xjqDHxlk3tXaR/6hq2nCM7x0icc0ccDia4miz0W7fyqb0y3qcvHsflGzg0aaS3AW6kxp F5oO3R6mFDUpyH4QRTPv9JLBgBKcvu3E1K6dS0tuULpKp/nnxFmZH6ot9SanOrSa8ahb HJEw==; dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20251104; t=1789775860; x=1790380660; dara=google.com; h=content-type:to:subject:message-id:date:from:in-reply-to:references :mime-version:from:to:cc:subject:date:message-id:reply-to :content-type; bh=0qiGqWyScYLBX6mw22lsgrtjYG8jDprZQqd8jcX88wc=; b=cKANN0JRq6UB9yDPTvDVBeDI2WasDvsTM8MXjuMUPLty7sZQd+K5hA5/7BMZeweDnc bei+de7InbFrVLINFOhQosg4HOOIAu3S7Gr56Jb94RI4ivj5mze/PjlqhfIjCK9ApFwD krPEXAo5QTD8eFrOCYgc2Ke5H6PL4kbYcLGvCL2D0V3ImQADsQJy0tX9K4Zr5w6/e/gF TY5x02W9ROllkZdFHAqcMjeHBWarzTkX2CJs3F9WnP9HAo4HwTtO0cn1Ju4aL29tTG6Q GfBHFrHPKVyNofP8mHEQP7WIYbADibGFPm5m5lGQtEQS55YmWzd9lqXdP/ddBmiFJo0U esmQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20260707; t=1789775860; x=1790380660; h=content-type:to:subject:message-id:date:from:in-reply-to:references :mime-version:x-gm-gg:x-gm-message-state:from:to:cc:subject:date :message-id:reply-to:content-type; bh=0qiGqWyScYLBX6mw22lsgrtjYG8jDprZQqd8jcX88wc=; b=KqJqmd/5tMgypjejzngLbizP7VJmH/2Dux9U22/FvpdIN8ATI/M9v85f45SccDc5PY fJRBWZpV8RRoVNxbxtWcaCyG0PoytW93XSiCGWCOuiVIj+dkxDoJfYEcD7havKG9NHJL EMXhMsT660oWnuO9c9oFaSjZLLL2dyzHSrxcfJ4aOpqNw5+SRU0CWHygMHVBgWOCoIGc 1vbLi+acUwKI0Xiu4waWxgZDuCCVEll30DhQqvRnX4/CcZfL77NXbg6fHVd/dm6WdrHd vWVE+B0HQZ5fhGGn7m8iynzTsfgcdrtIh3Va7I911rfLyApOGHwIZ/kld5sU+FOH8Zzh K+7A==
+X-Gm-Message-State: AFuF++n62qqrKAlBcpZW7K67Q6aethNFwYlEuixuF4MIFJzkKRMjXDx/ wkY/Dxry6P+269nSHUzayi4yXt0EWKhYDP0yuvTjyZocEjh/fz6RU24x66Jaq1vHuIq1/EXQ0fN +3O5mbqkAFKWr7SVKLrz9oX66N41mhLA+xg==
+X-Gm-Gg: AYBFou090Cu6CIBoHHLxQFefZKVSMbl4rUa4uYoYqf3/Dq8KNQS3gXC9K4xuonAXJ5A UnIfoeoru2eZ1D255cDMY1DMP+gZ8smp16/DRDq3iGo4Nu+/HSpDKXEZM9X0eK6+mhXB3fc/rfy Lo2+tFvkebzPN+GpAps5O4IYQsZxlDaDNRvJDetmTHz4dKi/3gPtlo0Bj1fZ9X98qxWYhzx1qWp lZEE1cH/uHiHA/v8bRUvqpoyAjHxURhnl1wXaAUejqHPlRvWS2GDEaHp1GYwjSp8XmqPrfKgipF YX3lGg7CtDVC0O7pOyp8tH5P9yfqKcvUnJ8VM9BaTWzZia1CVUAaC7Rg01NW4NOPZnAdywd90G5 w9RIZV2UtGzmtMw==
+X-Received: by 2002:a05:6102:b02:b0:7a1:f7e2:aae2 with SMTP id ada2fe7eead31-7a55c888c63mr2386704137.20.1789775860205; Fri, 18 Sep 2026 16:57:40 -0700 (PDT)
+MIME-Version: 1.0
+References: <CALJvqP-Ujg7O5UC6sTV_dm_9DjaLbiKidcGaDtz8rGmz8ZhWww@mail.gmail.com> <CADZ_fH5BMfjLhbHHV_POa0A5085=B9fwEofWMma4NfsyFpqkvw@mail.gmail.com> <CALJvqP8A20C5QM15wbJZcmM4rR8Ge=-sXg92Rem5=tNdQU16cw@mail.gmail.com>
+In-Reply-To: <CALJvqP8A20C5QM15wbJZcmM4rR8Ge=-sXg92Rem5=tNdQU16cw@mail.gmail.com>
+From: [name withheld] <[address withheld]@gmail.com>
+Date: Fri, 18 Sep 2026 16:57:30 -0700
+X-Gm-Features: AcwNN1Wu13MarrHy8tQ3dUFE8calW6v21hce7yRTgTJ67rC-EEBKkgAAvkuwgNE
+Message-ID: <CADZ_fH4e6xhjzJOFFDHJ9SqLU2SqKgSVzy=ZMH1srD8rTXeb+Q@mail.gmail.com>
+Subject: Re: Sun and Rain Works Art
+To: Joe <[address withheld]@gmail.com>
+Content-Type: multipart/alternative; boundary="000000000000600c8a065bcaaa81"
+
+--- text/plain body, as received ---
+Hi Joe,
+I do not have any Raven Frame Works paperwork from 2008.
+
+[name withheld]
+
+
+
+On Fri, Sep 18, 2026 at 12:23 PM Joe <[address withheld]@gmail.com> wrote:
+
+> Hi [name withheld],
+>
+> I was writing to see if you have any availability of the original receipts
+> or work done in 2008 from Raven Frame Works.  Any help would be greatly
+> appreciated.
+>
+> Thank you,
+>
+> Joe
+>
+> On Fri, Sep 6, 2024 at 5:18 PM [name withheld] <[address withheld]@gmail.com> wrote:
+>
+>> Hi Joe,
+>> I am the "Raven Frame Works" guy.
+>> [name withheld]
+>>
+>>
+>> On Thu, Sep 5, 2024 at 10:35 AM Joe <[address withheld]@gmail.com> wrote:
+>>
+>>> [name withheld],
+>>>
+>>> Hi. Is this by chance the same [name withheld] from Raven Frame Works in Eugene
+>>> Oregon ?
+>>>
+>>> Thank you,
+>>>
+>>> Joe Chirum
+>>>
+>>> Sun and Rain Works
+>>>
+>>

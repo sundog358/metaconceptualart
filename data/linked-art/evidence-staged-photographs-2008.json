@@ -99,7 +99,29 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "The approach to the framer, and what it has produced so far. On 2024-09-05 the studio wrote to the proprietor of the framing business to ask whether he was the same person, and he replied the following day that he is. On 2024-09-06 the studio wrote again: it described the 2008 job, linked the auction house's public catalogue entry for lot 16, attached the workbench frame from this series, and asked whether the original receipt for the work survives. No reply to that second message has been received at the date of this record. What the exchange establishes is therefore his identity and nothing more. It does not confirm the job, its date, or its purpose, and no record from the business has been produced. He has not been asked whether he wishes to be named, and is not named here. A surviving work order, or a few sentences of recollection in writing, would be the first account of any part of this series from outside the studio; until there is one, the series is dated by the studio's own files alone.",
+      "content": "The approach to the framer, and what it has produced so far. On 2024-09-05 the studio wrote to the proprietor of the framing business to ask whether he was the same person, and he replied the following day that he is. On 2024-09-06 the studio wrote again: it described the 2008 job, linked the auction house's public catalogue entry for lot 16, attached the workbench frame from this series, and asked whether the original receipt for the work survives. That second message was not answered. The studio wrote again on 2026-09-18, asking only whether the original receipts or any record of work done in 2008 survived, and was answered the same afternoon: 'I do not have any Raven Frame Works paperwork from 2008.' What the exchange establishes is therefore his identity, and a search of his own records that found nothing. It does not confirm the job, its date, or its purpose, and no record from the business has been produced. He has not been asked whether he wishes to be named, and is not named here. A surviving work order, or a few sentences of recollection in writing, would be the first account of any part of this series from outside the studio; until there is one, the series is dated by the studio's own files alone.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The framer's answer, and exactly how far it reaches. The reply of 2026-09-18 is a negative finding and must be read as one. He says he holds no Raven Frame Works paperwork from 2008. He does not say that no work was done, that the print never came to his bench, or that he has no memory of it; he was asked about documents and he answered about documents. A small business not holding paperwork from eighteen years earlier is unremarkable and evidences nothing either way about the job. So the position after this exchange is the position before it, with one thing removed: the possibility that a surviving work order would settle the series' date from outside the studio. That possibility is now closed, and the series continues to rest on the studio's own files and on the clock-independent floor described above. What the exchange adds is small but real. He confirmed in 2024, in his own words, that he is the Raven Frame Works proprietor, and he has now answered a second time, so the business and the person the studio names are not a supposition. A few sentences of recollection in writing would still be the first account of any part of this series from outside the studio. He has not been asked for one, he has not been asked whether he wishes to be named, and he is not named here.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "A note on the evidential quality of that reply, because it is unlike everything else here. The message is held as an inbound file as the studio's mail provider received it, not as a copy from a sender's outbox. It therefore carries a full Received chain and, unusually for this collection, cryptographic authentication: the provider's own headers record dkim=pass against the sending domain's published key, spf=pass for the sending host, and arc=pass. A DKIM signature covers the message body and principal headers, so a passing result means the message was not altered between the sender's provider and the recipient's. Every message in the 2008 and 2009 correspondence is a Sent Items copy with no Received chain and no signature, and is trusted on the strength of circumstantial agreement. This one is verifiable in a way none of those are. The point is worth stating plainly and also worth bounding: what the signature authenticates is that this person sent this text on this date. It authenticates nothing about 2008.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",

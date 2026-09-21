@@ -126,7 +126,7 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "A second photograph of the verso, from a different camera, showing the whole inscription. The close-up published with this record as images/adams-verso-2008.jpg is a frame from the session of 2008-08-08, and it is cropped: it carries the credit block and the inked 'Wells Fargo Bank' annotation, but its right edge cuts off the negative number after '1-SF-' and cuts the handwritten title off after 'San Francisco fr'. The studio also holds a photograph of the same verso made with a different camera, an Olympus C3100Z, in which the whole inscription is within the frame and legible: the printed block 'PHOTOGRAPH BY ANSEL ADAMS FOR THE AMERICAN TRUST COMPANY' with 'THE' struck through and 'Wells Fargo Bank' written in by hand, an empty 'NO.' line, 'NEGATIVE No. 1-SF-46', and beneath it, in the same hand, 'San Francisco from Twin Peaks'. It is published here as images/adams-verso-full.jpg. Every element it shows is already independently attested by the public auction catalogue entry for lot 16 of sale N08533, which records the stamp, the number 1-SF-46, the title and the Wells Fargo annotation; the photograph adds legibility, not a new fact.",
+      "content": "A second photograph of the verso, from a different camera, showing the whole inscription. The close-up published with this record as images/adams-verso-2008.jpg is a frame from the session of 2008-08-08, and it is cropped: it carries the credit block and the inked 'Wells Fargo Bank' annotation, but its right edge cuts off the negative number after '1-SF-' and cuts the handwritten title off after 'San Francisco fr'. The studio also holds a photograph of the same verso made with a different camera, an Olympus C3100Z, in which the whole inscription is within the frame and legible: the printed block 'PHOTOGRAPH BY ANSEL ADAMS FOR THE AMERICAN TRUST COMPANY' with 'THE' struck through and 'Wells Fargo Bank' written in by hand, an empty 'NO.' line, 'NEGATIVE No. 1-SF-46', and beneath it, in the same hand, 'San Francisco from Twin Peaks'. It is published here as images/adams-verso-full-2008.jpg. Every element it shows is already independently attested by the public auction catalogue entry for lot 16 of sale N08533, which records the stamp, the number 1-SF-46, the title and the Wells Fargo annotation; the photograph adds legibility, not a new fact. That frame is not a stray file. It is one of a series of seventeen already recorded in this collection as the staged photographs of the print, where all seventeen are enumerated and the two verso frames are noted; what is new here is that one of them is published, so the whole inscription can be read rather than described.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -137,7 +137,7 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "The second verso photograph carries no reliable date, and its filename says so. It belongs to a run of seventeen frames from the same Olympus camera which also record the print being unwrapped, the print itself, the framed print indoors and out, and a third party examining the frame at a workbench. The camera's clock was never set: every frame in the run carries an EXIF DateTimeOriginal of all zeroes. The files were subsequently re-saved by QuickTime, which is recorded in their Software tag, so they are not as they left the camera. What remains is a filesystem timestamp of 2009-01-20, and a filesystem timestamp alone is weak: it survives some copies and not others, and nothing here corroborates it. The frames are therefore published and cited without a year in the filename, unlike every other image in this collection, and no date is asserted for them. If the 2009 timestamp is right, the run falls between the message of 2008-11-20 about having a framer remove the glass and the sale of 2009-03-30, and would show that question being acted on; that reading is available and is not claimed. The third party who appears in two frames is not published and is not named, pending consent.",
+      "content": "A correction to this record, about the date of that frame. An earlier version of this passage said the frame carried no reliable date, that a filesystem timestamp of 2009-01-20 was all that remained, and that no date was asserted for the series. That was wrong on every count, and it was written without consulting the record that already covers these files. The staged-photographs record dates the series to autumn 2008 by a three-part analysis which is stronger than anything offered here. Its floor is independent of any clock: the files were rewritten by QuickTime 7.5.5 running on Mac OS X 10.5.5, released on 2008-09-09 and 2008-09-15, so they cannot have been processed by that pairing before the middle of September 2008. Its middle term is the processing time those rewrites left, 2008-11-25 between 18:56:10 and 18:56:17 in frame order. And the 2009-01-20 timestamp cited in the earlier version of this passage is in that record too, correctly, as the ceiling rather than the date: it is the file system's record of the copy into the studio's working folder, not of the capture or the processing. That record also explains the file names, which this one did not: an Olympus that has never had its clock set reports 1 January, and builds 'P101' out of it. The date of capture itself remains unestablished, as it says. Nothing in that analysis is displaced by the copies from which the published frame was taken, whose own timestamps are a property of the copying and carry no weight.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -166,13 +166,13 @@
           ]
         },
         {
-          "id": "https://www.metaconceptualart.com/images/adams-verso-full.jpg",
+          "id": "https://www.metaconceptualart.com/images/adams-verso-full-2008.jpg",
           "type": "DigitalObject",
           "_label": "Second photograph of the print verso, whole inscription, camera and date as described",
           "format": "image/jpeg",
           "access_point": [
             {
-              "id": "https://www.metaconceptualart.com/images/adams-verso-full.jpg",
+              "id": "https://www.metaconceptualart.com/images/adams-verso-full-2008.jpg",
               "type": "DigitalObject"
             }
           ]
