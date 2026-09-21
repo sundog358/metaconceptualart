@@ -12,7 +12,12 @@
     "bytes": 42070,
     "sha256": "3e59a171ee3f2526a8c77fc263e6d3a87cc9d3cc2cbb4f019bfb635837c7bc50",
     "published": false,
-    "publishedReason": "Third-party commercial content. The checksum fixes what was fetched without republishing it. The particulars transcribed below are short statements of fact about a physical object, quoted for verification."
+    "publishedReason": "Third-party commercial content. The checksum fixes what was fetched without republishing it. The particulars transcribed below are short statements of fact about a physical object, quoted for verification.",
+    "urlVariants": {
+      "bare": "https://www.sothebys.com/en/auctions/ecatalogue/2009/photographs-n08533/lot.16.html",
+      "localeQualified": "https://www.sothebys.com/en/auctions/ecatalogue/2009/photographs-n08533/lot.16.html?locale=en",
+      "note": "Both were fetched on the capture date and served byte-identical content: the same 42,070 bytes and the same SHA-256. The checksum recorded here therefore covers either form, and a citation may use either."
+    }
   },
   "transcribedParticulars": {
     "lot": "Lot 16",
@@ -41,6 +46,26 @@
     "saveFailure": "Save Page Now was requested on this date and refused: the endpoint returned HTTP 401 with the message 'You need to be logged in to use Save Page Now.' Anonymous archiving, which this collection used successfully for other sources, is no longer available.",
     "notBlockedByPublisher": "The obstacle is the archive's access policy, not the publisher's. sothebys.com/robots.txt was fetched on the same date and disallows only /*/auctions/ecatalogue/lot.pdf. It carries no ia_archiver directive and does not disallow the lot.html page.",
     "consequence": "Until a snapshot exists, thirteen records depend on a commercial auction house keeping a 2009 e-catalogue page online, with no third-party copy anywhere. This capture reduces but does not remove that exposure: it fixes what the page said on the date above and lets a later reader detect a change, but it is held by the studio and is not independent.",
-    "remedy": "A logged-in archive.org account can save the page in one step, at https://web.archive.org/save/ . When that is done, the snapshot URL and its timestamp should be added to this manifest and the archivalStatus updated."
+    "remedy": "A logged-in archive.org account can save the page in one step, at https://web.archive.org/save/ . When that is done, the snapshot URL and its timestamp should be added to this manifest and the archivalStatus updated.",
+    "finding": "Lot 16 has never been captured, while the catalogue around it has been crawled for nine years. This is a gap in otherwise working coverage, not an unarchived site.",
+    "lot16Captures": 0,
+    "lot16CheckMethod": "A CDX prefix query for the lot.16.html path, which matches any query string, returned an empty set. The availability API and a direct /web/2/ request also returned nothing and HTTP 404 respectively.",
+    "siblingCoverage": {
+      "crawlYears": "2016 to 2025",
+      "distinctLotsWithAnyCapture": 10,
+      "distinctLotsWithA200Capture": 7,
+      "lotsWith200Captures": [
+        27,
+        44,
+        61,
+        73,
+        78,
+        162,
+        163
+      ],
+      "totalCaptureRows": 19,
+      "localeFormIsCrawled": "lot.27.html?locale=en was captured on 2022-08-11 and again on 2024-12-26, so the crawler handles the locale-qualified form of these URLs as well as the bare one.",
+      "why": "The Internet Archive reaches this catalogue and has done repeatedly. Lot 16 is missing from an otherwise covered neighbourhood, which makes its absence a specific gap rather than a general limitation, and makes filling it a single action rather than a campaign."
+    }
   }
 }
