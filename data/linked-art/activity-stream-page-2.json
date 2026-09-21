@@ -515,6 +515,22 @@
         "type": "LinguisticObject"
       },
       "endTime": "2026-09-20T19:34:46-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-20T19:40:44-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-staged-photographs-2008",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-20T19:40:44-07:00"
     }
   ]
 }
