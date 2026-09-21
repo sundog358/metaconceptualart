@@ -387,6 +387,14 @@
         "type": "LinguisticObject"
       },
       "endTime": "2026-09-20T17:02:29-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-sothebys-approach-2008",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-20T18:32:50-07:00"
     }
   ]
 }
