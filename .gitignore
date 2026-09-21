@@ -50,6 +50,7 @@ tsconfig.tsbuildinfo
 # published one at a time, after review — see images/adams-verso-2008.jpg.
 /reference-folders/
 /Kingston/
+/WTFisArt/
 
 # Raw correspondence dropped at the repo root, or under emails/, for review. The
 # redacted copy and the checksum of the original are published under

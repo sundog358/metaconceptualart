@@ -112,6 +112,39 @@
       "id": "https://www.metaconceptualart.com/data/linked-art/evidence-sothebys-approach-2008",
       "type": "LinguisticObject",
       "_label": "Evidence archive: the studio's first approach to Sotheby's (August 2008)"
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The eleven frames are also held as loose files, and their two clocks agree. Besides the archive San Francisco.zip, the studio holds the eleven photographs as individual files carrying filesystem timestamps. Those timestamps run from 23:05:36 to 23:10:24 on 2008-08-07, while the EXIF DateTimeOriginal values of the same files run from 00:05:33 to 00:10:22 on 2008-08-08. The difference is constant, between fifty-nine minutes fifty-seven seconds and fifty-nine minutes fifty-eight seconds across the set, and the intervals between successive frames are the same in both series. This does not re-date the session, and an earlier reading of it that did has been discarded. Every filesystem timestamp falls on an even second, which is the two-second granularity of the FAT file system used by camera cards, and FAT stores local time with no timezone, so the same stored value is read an hour out when the reading system applies different daylight-saving rules. A one-hour offset between a FAT timestamp and an EXIF value is therefore the expected artefact of reading the card later and elsewhere, not evidence that either clock was wrong. What the agreement does establish is worth having on its own. The two series track each other frame for frame, so the session was a single unbroken run of about five minutes rather than an assembly from several occasions; and the files carry card timestamps at all, which means they were preserved from the camera card rather than re-saved by later software. The session date this collection uses remains the EXIF date, 2008-08-08, which is the camera's own record of its own exposure.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "A second photograph of the verso, from a different camera, showing the whole inscription. The close-up published with this record as images/adams-verso-2008.jpg is a frame from the session of 2008-08-08, and it is cropped: it carries the credit block and the inked 'Wells Fargo Bank' annotation, but its right edge cuts off the negative number after '1-SF-' and cuts the handwritten title off after 'San Francisco fr'. The studio also holds a photograph of the same verso made with a different camera, an Olympus C3100Z, in which the whole inscription is within the frame and legible: the printed block 'PHOTOGRAPH BY ANSEL ADAMS FOR THE AMERICAN TRUST COMPANY' with 'THE' struck through and 'Wells Fargo Bank' written in by hand, an empty 'NO.' line, 'NEGATIVE No. 1-SF-46', and beneath it, in the same hand, 'San Francisco from Twin Peaks'. It is published here as images/adams-verso-full.jpg. Every element it shows is already independently attested by the public auction catalogue entry for lot 16 of sale N08533, which records the stamp, the number 1-SF-46, the title and the Wells Fargo annotation; the photograph adds legibility, not a new fact.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The second verso photograph carries no reliable date, and its filename says so. It belongs to a run of seventeen frames from the same Olympus camera which also record the print being unwrapped, the print itself, the framed print indoors and out, and a third party examining the frame at a workbench. The camera's clock was never set: every frame in the run carries an EXIF DateTimeOriginal of all zeroes. The files were subsequently re-saved by QuickTime, which is recorded in their Software tag, so they are not as they left the camera. What remains is a filesystem timestamp of 2009-01-20, and a filesystem timestamp alone is weak: it survives some copies and not others, and nothing here corroborates it. The frames are therefore published and cited without a year in the filename, unlike every other image in this collection, and no date is asserted for them. If the 2009 timestamp is right, the run falls between the message of 2008-11-20 about having a framer remove the glass and the sale of 2009-03-30, and would show that question being acted on; that reading is available and is not claimed. The third party who appears in two frames is not published and is not named, pending consent.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
     }
   ],
   "representation": [
@@ -128,6 +161,18 @@
           "access_point": [
             {
               "id": "https://www.metaconceptualart.com/images/adams-verso-2008.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        },
+        {
+          "id": "https://www.metaconceptualart.com/images/adams-verso-full.jpg",
+          "type": "DigitalObject",
+          "_label": "Second photograph of the print verso, whole inscription, camera and date as described",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://www.metaconceptualart.com/images/adams-verso-full.jpg",
               "type": "DigitalObject"
             }
           ]
