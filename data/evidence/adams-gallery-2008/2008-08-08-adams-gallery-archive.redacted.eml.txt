@@ -1,0 +1,34 @@
+Content-Type: multipart/mixed; boundary="_92d86f4f-32d6-4eca-8c78-f9cb7c85e378_"
+X-Originating-IP: [38.103.161.[final octet withheld]]
+From: Joseph Chirum <[address withheld]@hotmail.com>
+To: [address withheld]@anseladams.com
+Subject: Ansel Adams Visits SanFrancisco
+Date: Fri, 08 Aug 2008 18:06:46 -0700
+MIME-Version: 1.0
+
+--- text/plain body, as sent (charset iso-8859-1) ----------------------
+
+Hello [name withheld],
+
+How are you doing. These photos are the best that I could come up with, using my humble 1.3 megapixel fuji film digital camera.
+
+Please feel free to call me if you have any questions.  Tele is often quicker response time on my part, however, feel free to email me as well.
+
+My phone number is [telephone withheld]
+
+Best regards,
+
+Joe Chirum
+
+" For the Love of Art "
+
+_________________________________________________________________
+Got Game? Win Prizes in the Windows Live Hotmail Mobile Summer Games Trivia Contest
+http://www.gowindowslive.com/summergames?ocid=TXT_TAGHM
+
+--- attachment: payload removed, identity preserved --------------------
+# The archive is not reproduced here. It is byte-identical to the copy of
+# San Francisco.zip held by the studio, whose SHA-256 is already published
+# in evidence-sothebys-approach-2008 as the attachment later sent to the
+# auction house on 2008-08-14.
+San Francisco.zip  application/zip  3553357 bytes  sha256=227328da2ffe06ef140d79515499ddf1451a5669abaf20c9f9e70d384ed36c43

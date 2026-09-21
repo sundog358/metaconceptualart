@@ -241,7 +241,7 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "An earlier letter of the same week has since been produced, and it displaces part of what this record says about firsts. On 2008-08-11, three days before the approach to Sotheby's and under an identical subject line, the studio wrote to the photography department of the San Francisco Museum of Modern Art, repeating the same opening paragraph almost word for word. The earliest dated use of the name Sun and Rain Works in this collection is therefore that letter, not this one. The further claim once made here, that the first documented outreach about the photograph was to a museum rather than to the trade, is withdrawn: a message of 2008-08-09 to the Ansel Adams organisation precedes the museum letter by two days, so the first documented outreach was to the organisation bearing the photographer's name, and the museum was second and this letter third. This record remains the first approach to the auction house.",
+      "content": "An earlier letter of the same week has since been produced, and it displaces part of what this record says about firsts. On 2008-08-11, three days before the approach to Sotheby's and under an identical subject line, the studio wrote to the photography department of the San Francisco Museum of Modern Art, repeating the same opening paragraph almost word for word. The earliest dated use of the name Sun and Rain Works in this collection is therefore that letter, not this one. The further claim once made here, that the first documented outreach about the photograph was to a museum rather than to the trade, is withdrawn: two messages of 2008-08-08 to the Ansel Adams organisation precede the museum letter by two days, so the first documented outreach was to the organisation bearing the photographer's name, and the museum was second and this letter third. This record remains the first approach to the auction house.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -335,7 +335,18 @@
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/evidence-adams-gallery-2008",
       "type": "LinguisticObject",
-      "_label": "Evidence archive: the approach to the Ansel Adams organisation (9 August 2008)"
+      "_label": "Evidence archive: the approach to the Ansel Adams organisation (8-9 August 2008)"
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The archive was not first sent here. San Francisco.zip, whose SHA-256 is published above as the 3 MB attachment to the message of 2008-08-14, is byte-identical to the attachment of a message sent to the Ansel Adams organisation on the evening of 2008-08-08. The same archive therefore went to the organisation bearing the photographer's name six days before it went to the trade, and existed in its final form within a day of the photographs being made. Nothing about the auction engagement turns on this, but any account of the archive that began with this message would be starting in the middle.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
     }
   ],
   "representation": [
