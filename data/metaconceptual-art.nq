@@ -407,7 +407,8 @@
 <https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r14b3 .
 <https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r14b4 .
 <https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r14b5 .
-<https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by> _:r14b6 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r14b6 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by> _:r14b7 .
 <https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
 <https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <http://www.w3.org/2000/01/rdf-schema#label> "Evidence archive: Sun & Rain Works auction engagement (2009)" .
 <https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009> <https://linked.art/ns/terms/member_of> <https://www.metaconceptualart.com/data/linked-art/collection> .
@@ -1031,14 +1032,17 @@ _:r14b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.
 _:r14b5 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Part of the documentation described here has since been dated and published as a record in its own right. The art-referential documentation photographs — including the frame composing the print with a volume of Warhol's philosophy — carry camera-written Exif placing them on 2008-08-08, and their close-up of the print's verso agrees in four particulars with the public Sotheby's catalogue entry for lot 16. That material is no longer only studio-reported: see the documentation-photograph evidence record." .
 _:r14b5 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
 _:r14b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r14b6 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
-_:r14b6 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r14b7 .
-_:r14b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
-_:r14b6 <http://www.w3.org/2000/01/rdf-schema#label> "Compilation of the auction-engagement evidence record" .
-_:r14b7 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r14b7 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r14b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-_:r14b7 <http://www.w3.org/2000/01/rdf-schema#label> "2026" .
+_:r14b6 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The catalogue entry, captured and checked, and a gap that remains open. This collection calls the public catalogue entry for lot 16 its independently verifiable anchor, and thirteen records rely on it - for the sale date, the lot and title, the 1952 dating, the verso particulars against which the documentation photographs are tested, the estimate, and five times over for what it does not say, which is that it does not name Sun and Rain Works. Until now it was held as a live URL and nothing else. It has been fetched, and what it said on the date of fetching is now fixed: the page, its byte count and its SHA-256 are recorded in a manifest under data/evidence/, together with a transcription of the particulars the records depend on. The page itself is third-party commercial content and is not republished. Three things were confirmed at capture. The verso description matches the studio's photographs, including the frame in which the whole inscription is legible. The estimate of 7,000 to 10,000 US dollars matches the figure the auction house gave in its message of 2008-08-15, so that figure now has two independent sources. And the entry names no consignor, so the negative statement this collection repeats is true of the page as fetched. One detail is new: the catalogue attributes the 'Wells Fargo Bank' annotation to Adams himself. The gap that remains is this. The Internet Archive holds no capture of the page, which was checked on the same date by two methods. An attempt to create one was refused: Save Page Now returned a 401 and the message that a login is required, anonymous archiving having been withdrawn. The publisher is not the obstacle - the site's robots.txt disallows only the lot PDF and carries no archiver exclusion. So the anchor still rests on a commercial page staying online, and the capture made here is the studio's own and is not independent. A logged-in archive.org account would close this in one step, and the manifest records what to add when it is done." .
+_:r14b6 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r14b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r14b7 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
+_:r14b7 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r14b8 .
+_:r14b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
+_:r14b7 <http://www.w3.org/2000/01/rdf-schema#label> "Compilation of the auction-engagement evidence record" .
+_:r14b8 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r14b8 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r14b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+_:r14b8 <http://www.w3.org/2000/01/rdf-schema#label> "2026" .
 _:r15b0 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Evidence archive: a photograph of a shop sign reading META, Italy (27 February 2012)" .
 _:r15b0 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
 _:r15b0 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .

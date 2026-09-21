@@ -85,6 +85,17 @@
       "id": "https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008",
       "type": "LinguisticObject",
       "_label": "Evidence archive: documentation photographs of the Ansel Adams print (August 2008)"
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The catalogue entry, captured and checked, and a gap that remains open. This collection calls the public catalogue entry for lot 16 its independently verifiable anchor, and thirteen records rely on it - for the sale date, the lot and title, the 1952 dating, the verso particulars against which the documentation photographs are tested, the estimate, and five times over for what it does not say, which is that it does not name Sun and Rain Works. Until now it was held as a live URL and nothing else. It has been fetched, and what it said on the date of fetching is now fixed: the page, its byte count and its SHA-256 are recorded in a manifest under data/evidence/, together with a transcription of the particulars the records depend on. The page itself is third-party commercial content and is not republished. Three things were confirmed at capture. The verso description matches the studio's photographs, including the frame in which the whole inscription is legible. The estimate of 7,000 to 10,000 US dollars matches the figure the auction house gave in its message of 2008-08-15, so that figure now has two independent sources. And the entry names no consignor, so the negative statement this collection repeats is true of the page as fetched. One detail is new: the catalogue attributes the 'Wells Fargo Bank' annotation to Adams himself. The gap that remains is this. The Internet Archive holds no capture of the page, which was checked on the same date by two methods. An attempt to create one was refused: Save Page Now returned a 401 and the message that a login is required, anonymous archiving having been withdrawn. The publisher is not the obstacle - the site's robots.txt disallows only the lot PDF and carries no archiver exclusion. So the anchor still rests on a commercial page staying online, and the capture made here is the studio's own and is not independent. A logged-in archive.org account would close this in one step, and the manifest records what to add when it is done.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
     }
   ],
   "about": [
@@ -159,12 +170,26 @@
     }
   ],
   "_links": {
-    "self": { "href": "https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009" },
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009"
+    },
     "curies": [
-      { "name": "la", "href": "https://linked.art/api/rels/1/{rel}", "templated": true }
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
     ],
-    "la:modelVersion": { "href": "https://linked.art/model/1.0/", "name": "v1.0" },
-    "la:apiVersion": { "href": "https://linked.art/api/1.0/", "name": "v1.0" },
-    "collection": { "href": "https://www.metaconceptualart.com/data/linked-art/collection" }
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
   }
 }

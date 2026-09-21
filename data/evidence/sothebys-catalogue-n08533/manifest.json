@@ -1,0 +1,46 @@
+{
+  "label": "Preservation capture: the public auction catalogue entry for lot 16, sale N08533",
+  "describedBy": "https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009",
+  "capturedOn": "2026-09-20",
+  "capturedBy": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "note": "The public catalogue entry for lot 16 of Sotheby's Photographs sale N08533 is the single most load-bearing externally verifiable source in this collection. Thirteen Linked Art records cite it, for the sale date, the lot number and title, the 1952 dating of the print, the verso particulars against which the studio's documentation photographs are checked, the estimate, and - five times over - for what it does not say, namely that it does not name Sun and Rain Works. Until this capture it was held as a live URL and nothing else. The page is third-party commercial content and is not republished here. What is published is the checksum of the fetched page, the date of the fetch, and a transcription of the particulars the records rely on, so that a later reader can tell whether the page they find says what this collection says it said.",
+  "source": {
+    "url": "https://www.sothebys.com/en/auctions/ecatalogue/2009/photographs-n08533/lot.16.html",
+    "fetchedAt": "2026-09-20T19:30:18-07:00",
+    "httpStatus": 200,
+    "bytes": 42070,
+    "sha256": "3e59a171ee3f2526a8c77fc263e6d3a87cc9d3cc2cbb4f019bfb635837c7bc50",
+    "published": false,
+    "publishedReason": "Third-party commercial content. The checksum fixes what was fetched without republishing it. The particulars transcribed below are short statements of fact about a physical object, quoted for verification."
+  },
+  "transcribedParticulars": {
+    "lot": "Lot 16",
+    "artist": "Ansel Adams",
+    "estimate": "7,000 - 10,000 USD",
+    "description": "Ansel Adams 'SAN FRANCISCO FROM TWIN PEAKS' mounted, signed on the mount, the 'Photograph by Ansel Adams for The American Trust Company' stamp, titled, numbered '1-SF-46,' and annotated 'Wells Fargo Bank' by Adams on the reverse, 1952, probably printed in the 1950s Literature Ansel Adams California",
+    "literature": "Ansel Adams California, p. 19; The Pageant of History in Northern California, pl. 41",
+    "result": "Not public. The page shows 'bidding is closed' and 'Log in to view results', so the hammer price is not disclosed to an anonymous reader. This agrees with the existing record that the outcome of the sale is not evidenced anywhere in this collection and must not be assumed."
+  },
+  "agreementsVerifiedAtCapture": [
+    "The verso particulars in the description - the 'Photograph by Ansel Adams for The American Trust Company' stamp, the number 1-SF-46, the title, and the 'Wells Fargo Bank' annotation - match the studio's documentation photographs, including images/adams-verso-full.jpg in which the whole inscription is legible.",
+    "The estimate of 7,000 to 10,000 USD matches the figure the auction house gave in its message of 2008-08-15, which is held as quoted text in the studio's correspondence. Two independent sources for one figure.",
+    "The catalogue attributes the 'Wells Fargo Bank' annotation to Adams himself, which the studio's records had not previously stated.",
+    "The dating, 1952 and probably printed in the 1950s, is the correction to the 'what appears to be 1946' of the letter of 2008-08-11."
+  ],
+  "negativeFindings": {
+    "saleNumberNotOnPage": "The string N08533 does not appear in the page's served HTML. It is carried in the URL path, as photographs-n08533, and in the auction's own identifiers. Records citing the sale number should cite the URL, not the page text.",
+    "consignorNotNamed": "The entry names no consignor. The repeated statement in this collection that the catalogue does not name Sun and Rain Works was checked against the fetched page at the date above and holds."
+  },
+  "archivalStatus": {
+    "waybackSnapshots": 0,
+    "checked": "2026-09-20",
+    "method": "https://archive.org/wayback/available returned an empty archived_snapshots object, and https://web.archive.org/web/2/<url> returned HTTP 404.",
+    "saveAttempted": true,
+    "saveSucceeded": false,
+    "saveFailure": "Save Page Now was requested on this date and refused: the endpoint returned HTTP 401 with the message 'You need to be logged in to use Save Page Now.' Anonymous archiving, which this collection used successfully for other sources, is no longer available.",
+    "notBlockedByPublisher": "The obstacle is the archive's access policy, not the publisher's. sothebys.com/robots.txt was fetched on the same date and disallows only /*/auctions/ecatalogue/lot.pdf. It carries no ia_archiver directive and does not disallow the lot.html page.",
+    "consequence": "Until a snapshot exists, thirteen records depend on a commercial auction house keeping a 2009 e-catalogue page online, with no third-party copy anywhere. This capture reduces but does not remove that exposure: it fixes what the page said on the date above and lets a later reader detect a change, but it is held by the studio and is not independent.",
+    "remedy": "A logged-in archive.org account can save the page in one step, at https://web.archive.org/save/ . When that is done, the snapshot URL and its timestamp should be added to this manifest and the archivalStatus updated."
+  }
+}
