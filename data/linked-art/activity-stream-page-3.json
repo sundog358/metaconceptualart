@@ -35,6 +35,14 @@
         "type": "LinguisticObject"
       },
       "endTime": "2026-09-22T13:00:17-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-22T14:03:02-07:00"
     }
   ]
 }
