@@ -10,7 +10,7 @@
     "prebuild": "node scripts/build-rdf.mjs && node scripts/prepublic.mjs",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
     "test": "node --test \"scripts/tests/*.test.mjs\"",
     "validate:claim": "node scripts/validate-claim.mjs"
   },

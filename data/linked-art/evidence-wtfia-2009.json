@@ -98,11 +98,6 @@
       ]
     },
     {
-      "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart-reconstruction",
-      "type": "DigitalObject",
-      "_label": "www.wtfisart.com — Reconstruction"
-    },
-    {
       "type": "LinguisticObject",
       "content": "An exhaustive negative search, run 2026-09-01 and recorded so that it need not be repeated. All ninety-eight files on the studio's source medium, totalling 20,271,324 bytes, were searched for any trace of the 2009 auction engagement. The method was not a reading of the readable files but an extraction of every ASCII and every UTF-16 string from every byte of every file, so that text embedded in the Word documents' internal streams, in Photoshop layers, in the thumbnail caches and in the images' own metadata segments would be caught. The following terms return no hit anywhere in the folder: consign, consignment, N08533, lot 16, Twin Peaks, appraisal, hammer, estimate, and the surname of either member of Sotheby's staff. So do the terms metaconceptual, meta conceptual, wtfisart, WTF is Art, and Sun and Rain, none of which appears in the folder at all, including in the folder named for the first of them. The word Sotheby appears only inside the press compilation, in the headline and body of art-market reports about the auction houses, and the word auction likewise, together with one gallery whose trading name contains it. The words Ansel and Adams appear only in the filename of a reference plate and in a shortcut created in 2026. The conclusion is the one this record already stated and can now state as tested rather than assumed: the working material assembled for www.wtfisart.com, worked on until the week before the sale of 30 March 2009, contains no mention of the consignment, of the sale, or of the concept later called Metaconceptual Art.",
       "classified_as": [
@@ -124,6 +119,11 @@
       "id": "https://www.metaconceptualart.com/data/linked-art/art-market-reform",
       "type": "DigitalObject",
       "_label": "Art Market Reform"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart-reconstruction",
+      "type": "DigitalObject",
+      "_label": "www.wtfisart.com — Reconstruction"
     }
   ],
   "subject_to": [
