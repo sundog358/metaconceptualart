@@ -100,7 +100,7 @@
   "referred_to_by": [
     {
       "type": "LinguisticObject",
-      "content": "A born-digital Metaconceptual Art work: a website built and owned by Sun & Rain Works around 2009, in connection with its Sotheby's Photographs auction engagement (sale N08533). Sun & Rain Works designates it as an associated part of the conceptual work The Auction as Artwork.",
+      "content": "A born-digital Metaconceptual Art work: a website built and owned by Sun & Rain Works around 2009, in connection with its Sotheby's Photographs auction engagement (sale N08533). Sun & Rain Works designates it as a work realising the concept of the auction as artwork.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -111,7 +111,7 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "www.wtfisart.com is associated by Sun & Rain Works with the conceptual work The Auction as Artwork, in which Sun & Rain Works designates its 2009 Sotheby's Photographs auction engagement as art. The designation is an assertion by the artist.",
+      "content": "www.wtfisart.com is associated by Sun & Rain Works with the concept of the auction as artwork, in which Sun & Rain Works designates its 2009 Sotheby's Photographs auction engagement as art. The designation is an assertion by the artist.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -162,6 +162,28 @@
       "id": "https://www.metaconceptualart.com/data/linked-art/evidence-hosting-receipts-2009",
       "type": "LinguisticObject",
       "_label": "Evidence archive: the registrar's receipts for the studio's domains (2009-2016)"
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What the W stands for, in the artist's account. The studio states, in 2026, that the W of this work's name stands for 'What', so that it reads 'What the F is Art', while the W of the companion work WTF is Ansel Adams stands for 'Who'. No document from 2008 or 2009 spells out the expansion, and the reading is recorded as the artist's. It is consistent with the double reading recorded above: 'What' is the idiom's ordinary word, and the name is both the question what art is and the statement that it is that.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The work of the 2009 origin claim. This collection's origin claim for the 2009 engagement previously named a titled work, 'The Auction as Artwork', of which this website was modelled as an associated part. There was no such titled work, and the correction is set out in the record for the concept. The claim now names www.wtfisart.com, as the better dated of the studio's two works around the engagement: the registrar's receipt of 2009-03-16, billed to Sun and Rain Works, fixes the name fourteen days before the sale, on a document the studio did not write. WTF is Ansel Adams is recorded as the related work.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
     }
   ],
   "created_by": {
@@ -198,6 +220,13 @@
             "_label": "description"
           }
         ]
+      }
+    ],
+    "influenced_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
+        "type": "PropositionalObject",
+        "_label": "The auction as artwork (concept)"
       }
     ]
   },

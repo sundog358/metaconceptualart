@@ -121,8 +121,8 @@
     },
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
-      "type": "HumanMadeObject",
-      "_label": "The Auction as Artwork"
+      "type": "PropositionalObject",
+      "_label": "The auction as artwork (concept)"
     },
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart-reconstruction",

@@ -27,28 +27,33 @@
     },
     {
       "id": "https://www.metaconceptualart.com/origin#auction-as-artwork-2009-03",
-      "type": "ArtworkEvidence",
-      "label": "The Auction as Artwork",
+      "type": "ConceptEvidence",
+      "label": "The auction as artwork (concept)",
       "date": "2009",
       "agent": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
-      "work": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
-      "appropriatedEvent": "https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009",
-      "event": "https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009",
       "evidenceStatus": "asserted-by-studio",
       "publicEvidenceStatus": "public-catalog-record",
-      "description": "In 2009, in connection with the Sotheby's Photographs auction (sale N08533, New York), Sun & Rain Works consigned an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), and designates its engagement with that auction as a Metaconceptual Art work, after the logic of the readymade. The auction was carried out by Sotheby's; the artistic act is Sun & Rain Works' designation, asserted by the artist and made explicit over time. This is not a publicly witnessed live-creation event and carries no adjudicated priority claim; the catalogue does not name Sun & Rain Works. Two associated works accompany the gesture: www.wtfisart.com and WTF is Ansel Adams. Supporting records (2008 Sotheby's correspondence, the public lot, receipts, photographs) are held by the studio; selected evidence can be promoted to public as redaction and rights review are completed."
+      "description": "Not a work but the concept the studio's two works around the 2009 engagement share: that its consignment of an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), to the Sotheby's Photographs sale N08533 can be treated, after the logic of the readymade, as the material of art. Earlier versions of this profile recorded 'The Auction as Artwork' as a titled work; the phrase was introduced by this collection's data model on 2026-07-10 and no dated document uses it. The concept is asserted by the studio, its earliest dated statement is 2013, it is not a publicly witnessed live-creation event, and the catalogue does not name Sun & Rain Works.",
+      "concept": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
+      "realisedIn": [
+        "https://www.metaconceptualart.com/data/linked-art/wtfisart",
+        "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams"
+      ]
     },
     {
       "id": "https://www.metaconceptualart.com/origin#wtfisart-2009-03",
       "type": "ArtworkEvidence",
-      "label": "www.wtfisart.com (website)",
+      "label": "www.wtfisart.com (website) — the work of the 2009 origin claim",
       "date": "2009",
       "agent": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
       "work": "https://www.metaconceptualart.com/data/linked-art/wtfisart",
-      "partOf": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
       "evidenceStatus": "asserted-by-studio",
       "publicEvidenceStatus": "metadata-only",
-      "description": "A website built and owned by Sun & Rain Works around 2009, associated by the studio with the conceptual work The Auction as Artwork. Reported documentation includes domain-registration and hosting receipts and site metadata evidencing the website's existence and date; the archive is held by the studio. It is not recorded as having been authored live in the auction room."
+      "description": "The work this profile's 2009 origin claim names: a website built and owned by Sun & Rain Works in connection with its consignment of lot 16 to Sotheby's Photographs sale N08533, realising the studio's concept of the auction as artwork. The registrar's receipt of 2009-03-16, billed to Sun and Rain Works, dates the name fourteen days before the sale. The studio states that the W of the name stands for 'What'. WTF is Ansel Adams is the related work. It is not recorded as having been authored live in the auction room.",
+      "concept": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
+      "relatedWork": "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams",
+      "appropriatedEvent": "https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009",
+      "event": "https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009"
     },
     {
       "id": "https://www.metaconceptualart.com/origin#wtf-is-ansel-adams-2009-03",
@@ -57,11 +62,12 @@
       "date": "2009",
       "agent": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
       "work": "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams",
-      "partOf": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
       "event": "https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009",
       "evidenceStatus": "asserted-by-studio",
       "publicEvidenceStatus": "metadata-only",
-      "description": "A conceptual work that Sun & Rain Works designates around its consignment of the Ansel Adams photograph (lot 16) to Sotheby's Photographs, 2009. It is an assertion by the artist, made explicit over time, and is not recorded as a publicly witnessed performance. Supporting records are held by the studio."
+      "description": "A conceptual work that Sun & Rain Works designates around its consignment of the Ansel Adams photograph (lot 16) to Sotheby's Photographs, 2009, related to www.wtfisart.com and realising the same concept. The studio states that the W of the title stands for 'Who'. The title is not independently dated. It is an assertion by the artist, made explicit over time, and is not recorded as a publicly witnessed performance.",
+      "concept": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
+      "relatedWork": "https://www.metaconceptualart.com/data/linked-art/wtfisart"
     },
     {
       "id": "https://www.metaconceptualart.com/origin#linked-data-publication-2026",

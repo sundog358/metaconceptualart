@@ -77,7 +77,7 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "Contemporaneous conceptual intent. One frame in the sequence, exposed at 2008-08-08 00:08:46, shows the print photographed together with a copy of 'The Philosophy of Andy Warhol (From A to B and Back Again)', stood upright and facing the camera on the same ground. Sun & Rain Works reads this juxtaposition as a deliberate art-referential gesture made at the time of documentation, and as the earliest dated trace of the thinking that became The Auction as Artwork. The scope of that reading should be stated plainly: the photograph evidences that the two objects were deliberately composed in one frame in August 2008. It is not a written designation, it does not by itself establish that the auction engagement was framed as art in 2008 or 2009, and the conceptual designation remains an assertion by the artist made explicit over time.",
+      "content": "Contemporaneous conceptual intent. One frame in the sequence, exposed at 2008-08-08 00:08:46, shows the print photographed together with a copy of 'The Philosophy of Andy Warhol (From A to B and Back Again)', stood upright and facing the camera on the same ground. Sun & Rain Works reads this juxtaposition as a deliberate art-referential gesture made at the time of documentation, and as the earliest dated trace of the thinking behind the concept of the auction as artwork. The scope of that reading should be stated plainly: the photograph evidences that the two objects were deliberately composed in one frame in August 2008. It is not a written designation, it does not by itself establish that the auction engagement was framed as art in 2008 or 2009, and the conceptual designation remains an assertion by the artist made explicit over time.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -188,8 +188,8 @@
     },
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
-      "type": "HumanMadeObject",
-      "_label": "The Auction as Artwork"
+      "type": "PropositionalObject",
+      "_label": "The auction as artwork (concept)"
     },
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009",

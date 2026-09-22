@@ -46,7 +46,7 @@
       "_label": "documents"
     }
   ],
-  "content": "Sun & Rain Works holds a private archive relating to its 2009 engagement with Sotheby's Photographs (sale N08533) and the associated conceptual works (The Auction as Artwork, WTF is Ansel Adams, and www.wtfisart.com). The archive is reported to contain 2008 correspondence with Sotheby's (outbound and inbound), records of the consignment of an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), domain-registration and hosting receipts for www.wtfisart.com, art-referential documentation photographs, and file metadata. Those receipts are now held and examined, and the hosting-receipts record sets them out: they are the registrar's own business records, they date the domain and its hosting to 2009-03-16, and their 'Bill To' block names Sun and Rain Works on every invoice in the run. An earlier version of this record stated the opposite, on a misreading of the registrar's comma-separated export; that statement is withdrawn. These materials evidence the artist identity, the 2008-2009 engagement with Sotheby's, the consignment, contemporaneous conceptual intent, and the public continuity of the 'WTF is Art' concept. They do not, by themselves, record a publicly witnessed live-creation event, and they establish no precedence over any later event. The fuller archive remains held by the studio pending redaction and rights review; no checksums, file hashes, or custody identifiers are published at this time.",
+  "content": "Sun & Rain Works holds a private archive relating to its 2009 engagement with Sotheby's Photographs (sale N08533) and the conceptual works www.wtfisart.com and WTF is Ansel Adams, together with the concept of the auction as artwork that they realise. The archive is reported to contain 2008 correspondence with Sotheby's (outbound and inbound), records of the consignment of an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), domain-registration and hosting receipts for www.wtfisart.com, art-referential documentation photographs, and file metadata. Those receipts are now held and examined, and the hosting-receipts record sets them out: they are the registrar's own business records, they date the domain and its hosting to 2009-03-16, and their 'Bill To' block names Sun and Rain Works on every invoice in the run. An earlier version of this record stated the opposite, on a misreading of the registrar's comma-separated export; that statement is withdrawn. These materials evidence the artist identity, the 2008-2009 engagement with Sotheby's, the consignment, contemporaneous conceptual intent, and the public continuity of the 'WTF is Art' concept. They do not, by themselves, record a publicly witnessed live-creation event, and they establish no precedence over any later event. The fuller archive remains held by the studio pending redaction and rights review; no checksums, file hashes, or custody identifiers are published at this time.",
   "referred_to_by": [
     {
       "type": "LinguisticObject",
@@ -101,8 +101,8 @@
   "about": [
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
-      "type": "HumanMadeObject",
-      "_label": "The Auction as Artwork"
+      "type": "PropositionalObject",
+      "_label": "The auction as artwork (concept)"
     },
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009",

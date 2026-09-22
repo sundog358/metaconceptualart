@@ -46,12 +46,12 @@
       "_label": "statements"
     }
   ],
-  "content": "Sun & Rain Works asserts a conceptual claim: that in 2009, in connection with the Sotheby's Photographs auction (sale N08533, New York), it designated its auction engagement — the consignment of an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), together with the associated website www.wtfisart.com — as Metaconceptual Art, framed as the work The Auction as Artwork. This is the artist's own designation, made explicit over time. It is not a publicly witnessed live-creation event and has not been adjudicated as a historical fact; the Sotheby's catalogue lists the lot as an Ansel Adams photograph and does not name Sun & Rain Works. This statement makes no claim of being 'first', and does not name, compare against, or dispute any later artist or event; any such comparison would require independent recognition and separately published evidence.",
+  "content": "Sun & Rain Works asserts a conceptual claim: that in 2009, in connection with the Sotheby's Photographs auction (sale N08533, New York), it designated its auction engagement — the consignment of an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), together with the associated website www.wtfisart.com — as Metaconceptual Art, under the concept of the auction as artwork, which is realised in two works, www.wtfisart.com and WTF is Ansel Adams; the concept is not itself a titled work. This is the artist's own designation, made explicit over time. It is not a publicly witnessed live-creation event and has not been adjudicated as a historical fact; the Sotheby's catalogue lists the lot as an Ansel Adams photograph and does not name Sun & Rain Works. This statement makes no claim of being 'first', and does not name, compare against, or dispute any later artist or event; any such comparison would require independent recognition and separately published evidence.",
   "about": [
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
-      "type": "HumanMadeObject",
-      "_label": "The Auction as Artwork"
+      "type": "PropositionalObject",
+      "_label": "The auction as artwork (concept)"
     },
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/production-live-auction-2009",

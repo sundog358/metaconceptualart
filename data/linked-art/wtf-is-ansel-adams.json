@@ -87,6 +87,28 @@
       "id": "https://www.metaconceptualart.com/data/linked-art/evidence-consignment-photographs-2008",
       "type": "LinguisticObject",
       "_label": "Evidence archive: documentation photographs of the Ansel Adams print (August 2008)"
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What the W stands for, in the artist's account. The studio states, in 2026, that the W of this title stands for 'Who', so that it reads 'Who the F is Ansel Adams', while the W of the companion work www.wtfisart.com stands for 'What'. No document from 2008 or 2009 spells out either expansion; this collection searched the correspondence of those years and the studio's working files and found none. The reading is the artist's and is recorded as that. What the choice does can be stated without adding to it: 'What' is the ordinary word of the idiom, so the companion work asks what art is, and 'Who' bends the idiom, so this work asks instead about a person - who the photographer is, and so what his name, stamp and signature do to a print whose identity rests on them. That gloss is this collection's and not the artist's.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "A work in its own right. Earlier versions of this record modelled WTF is Ansel Adams as a part of a titled work, 'The Auction as Artwork'. There was no such titled work; that phrase names the concept the studio's two works around the 2009 engagement share, and the correction is set out in the record for that concept. This work is recorded as a work, related to www.wtfisart.com, and its making is recorded as influenced by the concept rather than as a part of it. The origin claim for 2009 names www.wtfisart.com as its work and this one as the related work, because the website's name is independently dated and this work's title is not: the only public use of the title held here is an undated profile biography.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
     }
   ],
   "produced_by": {
@@ -124,15 +146,15 @@
           }
         ]
       }
+    ],
+    "influenced_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
+        "type": "PropositionalObject",
+        "_label": "The auction as artwork (concept)"
+      }
     ]
   },
-  "part_of": [
-    {
-      "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
-      "type": "HumanMadeObject",
-      "_label": "The Auction as Artwork"
-    }
-  ],
   "member_of": [
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/collection",

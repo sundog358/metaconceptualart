@@ -1,12 +1,12 @@
 {
   "@context": "https://linked.art/ns/v1/linked-art.json",
   "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
-  "type": "HumanMadeObject",
-  "_label": "The Auction as Artwork",
+  "type": "PropositionalObject",
+  "_label": "The auction as artwork (concept)",
   "identified_by": [
     {
       "type": "Name",
-      "content": "The Auction as Artwork",
+      "content": "The auction as artwork (concept)",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300404670",
@@ -36,18 +36,6 @@
   ],
   "classified_as": [
     {
-      "id": "http://vocab.getty.edu/aat/300047210",
-      "type": "Type",
-      "_label": "found objects (readymades)",
-      "equivalent": [
-        {
-          "id": "http://www.wikidata.org/entity/Q572916",
-          "type": "Type",
-          "_label": "found object / readymade"
-        }
-      ]
-    },
-    {
       "id": "http://vocab.getty.edu/aat/300264827",
       "type": "Type",
       "_label": "conceptual art",
@@ -61,6 +49,17 @@
     }
   ],
   "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "A correction to what this record is. Until 2026-09-22 this collection recorded 'The Auction as Artwork' as a titled work, and modelled the two works around the 2009 engagement as its parts. The studio has stated that there was never a work of that title: the works are WTF is Ansel Adams and www.wtfisart.com, and the auction as artwork is the concept they share. The records agree with the studio. The phrase first appears in this collection on 2026-07-10, in the commit that first modelled the engagement, and no dated document uses it - not the 2008 and 2009 correspondence, not the postings of 2011 and 2012, not the studio's archived websites, and not the 2013 letter to a university museum, which calls the sale 'a performance act of Metaconceptual Art' and gives it no title at all. The title was therefore this collection's, introduced by its data model, and not the artist's. The record keeps its identifier, because that identifier has been published, cited and archived, and is retyped from a made object to a concept. Two consequences follow. The origin claim for 2009 now names www.wtfisart.com as its work, the better dated of the two, whose name the registrar dates to 2009-03-16, fourteen days before the sale; WTF is Ansel Adams is recorded as the related work. And nothing about what is evidenced changes: the concept remains the studio's assertion, and its earliest dated statement remains 2013.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
     {
       "type": "LinguisticObject",
       "content": "A Metaconceptual Art work that Sun & Rain Works designates in connection with the Sotheby's Photographs auction of 2009 (sale N08533, New York), at which Sun & Rain Works consigned an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16). Following the logic of the readymade, Sun & Rain Works frames its engagement with that public institutional event — its mechanism of value, authority, and sale — as the material of a conceptual work. This is a designation asserted by the artist and made explicit over time; it is not a publicly witnessed live-creation event, and the Sotheby's catalogue does not name Sun & Rain Works. Two associated works accompany the gesture: the website www.wtfisart.com and WTF is Ansel Adams.",
@@ -94,43 +93,6 @@
       "_label": "Evidence archive: correspondence declaring Metaconceptual Art to a university art museum (2013)"
     }
   ],
-  "produced_by": {
-    "type": "Production",
-    "_label": "Designation of the auction engagement as artwork",
-    "timespan": {
-      "type": "TimeSpan",
-      "_label": "2009",
-      "begin_of_the_begin": "2009-01-01T00:00:00Z",
-      "end_of_the_end": "2009-12-31T23:59:59Z"
-    },
-    "carried_out_by": [
-      {
-        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
-        "type": "Group",
-        "_label": "Sun & Rain Works"
-      }
-    ],
-    "influenced_by": [
-      {
-        "id": "https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009",
-        "type": "Activity",
-        "_label": "Sotheby's Photographs auction (sale N08533, 2009)"
-      }
-    ],
-    "referred_to_by": [
-      {
-        "type": "LinguisticObject",
-        "content": "The artistic act is the designation, by Sun & Rain Works, of its auction engagement as a work — not the auction's ordinary business, which was carried out by Sotheby's. The designation is an assertion by the artist.",
-        "classified_as": [
-          {
-            "id": "http://vocab.getty.edu/aat/300435416",
-            "type": "Type",
-            "_label": "description"
-          }
-        ]
-      }
-    ]
-  },
   "member_of": [
     {
       "id": "https://www.metaconceptualart.com/data/linked-art/collection",
@@ -145,7 +107,7 @@
       "digitally_carried_by": [
         {
           "type": "DigitalObject",
-          "_label": "Metaconceptual Art — The Auction as Artwork",
+          "_label": "Metaconceptual Art — The auction as artwork (concept)",
           "format": "text/html",
           "access_point": [
             {

@@ -33,7 +33,7 @@ SELECT ?item ?label WHERE {
 } ORDER BY ?label`,
   },
   {
-    label: "The Auction as Artwork — all statements",
+    label: "The auction as artwork (concept) — all statements",
     query: `${PREFIXES}
 
 SELECT ?predicate ?object WHERE {
