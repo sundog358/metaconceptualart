@@ -682,7 +682,8 @@
 <https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300026087> .
 <https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435443> .
 <https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r27b5 .
-<https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by> _:r27b6 .
+<https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r27b6 .
+<https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by> _:r27b7 .
 <https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
 <https://www.metaconceptualart.com/data/linked-art/movement-record> <http://www.w3.org/2000/01/rdf-schema#label> "Proof of Movement: Metaconceptual Art" .
 <https://www.metaconceptualart.com/data/linked-art/movement-record> <https://linked.art/ns/terms/member_of> <https://www.metaconceptualart.com/data/linked-art/collection> .
@@ -1671,16 +1672,19 @@ _:r27b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.
 _:r27b5 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The Movement Record turns the claim for Metaconceptual Art into a citable textual work and a machine-readable evidence surface. It distinguishes local validity from external canonization while pointing to Linked Art, Wikidata, Getty vocabularies, IIIF, schema.org, and the git-derived Activity Stream." .
 _:r27b5 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
 _:r27b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r27b6 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
-_:r27b6 <http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by> <http://www.wikidata.org/entity/Q18692990> .
-_:r27b6 <http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by> <https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art> .
-_:r27b6 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r27b7 .
-_:r27b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
-_:r27b6 <http://www.w3.org/2000/01/rdf-schema#label> "Writing of the Movement Record" .
-_:r27b7 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r27b7 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r27b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-_:r27b7 <http://www.w3.org/2000/01/rdf-schema#label> "2026" .
+_:r27b6 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The revision history this collection reasons from is archived outside it. The Activity Stream published here is not written by hand: every activity in it is derived from a commit in this project's git history, and a checker refuses the stream if any activity fails to map to a real commit that touched the record it names. That argument is only as good as the history, and until now the history existed in two places that are not independent of each other, a laptop and a hosting account. It is now also held by Software Heritage, the archive run under UNESCO auspices for the long-term preservation of source code. The snapshot is swh:1:snp:93a00a523674d0320f05b783c35a22c43c6328a0, resolvable at https://archive.softwareheritage.org/swh:1:snp:93a00a523674d0320f05b783c35a22c43c6328a0. Its identifier is content-derived rather than issued, so it cannot be reassigned to different content, and it can be dereferenced by anyone without this studio's cooperation or the hosting provider's. The snapshot was taken on 2026-09-22 and its refs/heads/main resolves to the commit this publication was built from, which was checked rather than assumed. Two limits belong with it. A snapshot fixes the history as it stood when the snapshot was taken and says nothing about commits made afterwards, so it has to be re-taken after later work; earlier snapshots of 2026-09-12 and 2026-09-16 remain valid for the history as of those dates. And what the archive preserves is the history of this publication, which begins in 2026. It is evidence that the records have not been quietly rewritten since; it is not evidence about 2008, 2009, or any other year the records describe." .
+_:r27b6 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r27b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r27b7 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
+_:r27b7 <http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by> <http://www.wikidata.org/entity/Q18692990> .
+_:r27b7 <http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by> <https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art> .
+_:r27b7 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r27b8 .
+_:r27b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
+_:r27b7 <http://www.w3.org/2000/01/rdf-schema#label> "Writing of the Movement Record" .
+_:r27b8 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r27b8 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r27b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+_:r27b8 <http://www.w3.org/2000/01/rdf-schema#label> "2026" .
 _:r28b0 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <https://creativecommons.org/licenses/by/4.0/> .
 _:r28b0 <http://www.cidoc-crm.org/cidoc-crm/P75i_is_possessed_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
 _:r28b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E30_Right> .

@@ -385,8 +385,8 @@ mca:movement-record crm:P104_is_subject_to _:b0_r27b0;
     crm:P190_has_symbolic_content "A linked-open-data record arguing that Metaconceptual Art is a natural, credible, and valid movement through genealogy, defined principles, works on view, machine-readable standards, external alignment, and provenance over time.";
     crm:P1_is_identified_by _:b0_r27b3, _:b0_r27b4;
     crm:P2_has_type aat:300026087, aat:300435443;
-    crm:P67i_is_referred_to_by _:b0_r27b5;
-    crm:P94i_was_created_by _:b0_r27b6;
+    crm:P67i_is_referred_to_by _:b0_r27b5, _:b0_r27b6;
+    crm:P94i_was_created_by _:b0_r27b7;
     a crm:E33_Linguistic_Object;
     rdfs:label "Proof of Movement: Metaconceptual Art";
     la:member_of mca:collection.
@@ -1330,12 +1330,15 @@ _:b0_r27b4 crm:P190_has_symbolic_content "work:movement-record";
 _:b0_r27b5 crm:P190_has_symbolic_content "The Movement Record turns the claim for Metaconceptual Art into a citable textual work and a machine-readable evidence surface. It distinguishes local validity from external canonization while pointing to Linked Art, Wikidata, Getty vocabularies, IIIF, schema.org, and the git-derived Activity Stream.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r27b6 crm:P14_carried_out_by mca:sun-and-rain-works;
+_:b0_r27b6 crm:P190_has_symbolic_content "The revision history this collection reasons from is archived outside it. The Activity Stream published here is not written by hand: every activity in it is derived from a commit in this project's git history, and a checker refuses the stream if any activity fails to map to a real commit that touched the record it names. That argument is only as good as the history, and until now the history existed in two places that are not independent of each other, a laptop and a hosting account. It is now also held by Software Heritage, the archive run under UNESCO auspices for the long-term preservation of source code. The snapshot is swh:1:snp:93a00a523674d0320f05b783c35a22c43c6328a0, resolvable at https://archive.softwareheritage.org/swh:1:snp:93a00a523674d0320f05b783c35a22c43c6328a0. Its identifier is content-derived rather than issued, so it cannot be reassigned to different content, and it can be dereferenced by anyone without this studio's cooperation or the hosting provider's. The snapshot was taken on 2026-09-22 and its refs/heads/main resolves to the commit this publication was built from, which was checked rather than assumed. Two limits belong with it. A snapshot fixes the history as it stood when the snapshot was taken and says nothing about commits made afterwards, so it has to be re-taken after later work; earlier snapshots of 2026-09-12 and 2026-09-16 remain valid for the history as of those dates. And what the archive preserves is the history of this publication, which begins in 2026. It is evidence that the records have not been quietly rewritten since; it is not evidence about 2008, 2009, or any other year the records describe.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r27b7 crm:P14_carried_out_by mca:sun-and-rain-works;
     crm:P15_was_influenced_by wd:Q18692990, mca:concept-metaconceptual-art;
-    crm:P4_has_time-span _:b0_r27b7;
+    crm:P4_has_time-span _:b0_r27b8;
     a crm:E65_Creation;
     rdfs:label "Writing of the Movement Record".
-_:b0_r27b7 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+_:b0_r27b8 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     a crm:E52_Time-Span;
     rdfs:label "2026".

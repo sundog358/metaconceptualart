@@ -77,7 +77,14 @@
       "agent": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
       "evidenceStatus": "public",
       "publicEvidenceStatus": "public",
-      "description": "The 2026 web publication makes the movement, profile, selected works, and records machine-readable as Linked Art, IIIF, JSON-LD, SHACL, VoID, and DCAT."
+      "description": "The 2026 web publication makes the movement, profile, selected works, and records machine-readable as Linked Art, IIIF, JSON-LD, SHACL, VoID, and DCAT. Its revision history is archived by Software Heritage under the snapshot cited in archivedBy.",
+      "archivedBy": {
+        "authority": "Software Heritage",
+        "swhid": "swh:1:snp:93a00a523674d0320f05b783c35a22c43c6328a0",
+        "url": "https://archive.softwareheritage.org/swh:1:snp:93a00a523674d0320f05b783c35a22c43c6328a0",
+        "snapshotDate": "2026-09-22",
+        "note": "The git history from which the Activity Stream is derived is preserved by a third-party archive. The identifier is content-derived and cannot be reassigned. A snapshot fixes the history at its own date and must be re-taken after later commits; it preserves the 2026 publication history and evidences nothing about the years the records describe."
+      }
     }
   ],
   "comparisonPolicy": {

@@ -163,6 +163,12 @@
       "url": "https://www.metaconceptualart.com/data/linked-art/provenance-publication",
       "authority": "Linked Art",
       "role": "publication activity"
+    },
+    {
+      "label": "Software Heritage archive of the revision history",
+      "url": "https://archive.softwareheritage.org/swh:1:snp:93a00a523674d0320f05b783c35a22c43c6328a0",
+      "authority": "Software Heritage",
+      "role": "independent preservation of the git history the Activity Stream is derived from; snapshot of 2026-09-22, content-derived identifier swh:1:snp:93a00a523674d0320f05b783c35a22c43c6328a0"
     }
   ],
   "limitations": "This claim demonstrates internal coherence, standards-based legibility, external alignment, and a studio-origin chronology. It does not claim that Wikidata, Getty, museums, scholars, or other third-party authorities have already canonized Metaconceptual Art as an established historical movement. Earlier studio evidence may support priority for a related metaconceptual structure without proving direct influence on later artists or events unless separate evidence of access, contact, or derivation is published."
