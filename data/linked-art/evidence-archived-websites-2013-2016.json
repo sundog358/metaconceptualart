@@ -206,16 +206,6 @@
       "id": "https://www.metaconceptualart.com/data/linked-art/evidence-pastebin-2011-2012",
       "type": "LinguisticObject",
       "_label": "Evidence archive: the 2011-2012 postings"
-    },
-    {
-      "id": "https://www.metaconceptualart.com/data/linked-art/art-is-capital",
-      "type": "HumanMadeObject",
-      "_label": "Art is Capital"
-    },
-    {
-      "id": "https://www.metaconceptualart.com/data/linked-art/what-hedge-funds",
-      "type": "HumanMadeObject",
-      "_label": "What Hedge Funds ?!"
     }
   ],
   "about": [
@@ -233,6 +223,16 @@
       "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart-reconstruction",
       "type": "DigitalObject",
       "_label": "www.wtfisart.com — Reconstruction"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/art-is-capital",
+      "type": "HumanMadeObject",
+      "_label": "Art is Capital"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/what-hedge-funds",
+      "type": "HumanMadeObject",
+      "_label": "What Hedge Funds ?!"
     }
   ],
   "created_by": {

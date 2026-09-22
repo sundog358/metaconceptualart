@@ -118,11 +118,6 @@
           "_label": "description"
         }
       ]
-    },
-    {
-      "id": "https://www.metaconceptualart.com/data/linked-art/art-tax",
-      "type": "PropositionalObject",
-      "_label": "Art Tax"
     }
   ],
   "about": [
@@ -145,6 +140,11 @@
       "id": "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams",
       "type": "HumanMadeObject",
       "_label": "WTF is Ansel Adams"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/art-tax",
+      "type": "PropositionalObject",
+      "_label": "Art Tax"
     }
   ],
   "subject_to": [
