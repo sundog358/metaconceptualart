@@ -62,22 +62,34 @@ def record_files(la_dir: Path) -> list[Path]:
 
 
 def commit_dates(root: Path, rel: str) -> list[str]:
-    """Author dates (oldest first) of commits that added/modified `rel`."""
-    raw = git(
-        root, "log", "--follow", "--diff-filter=AMR", "--reverse",
-        "--format=%aI", "--", rel,
-    )
-    dates = [line.strip() for line in raw.splitlines() if line.strip()]
-    if dates:
-        return dates
-    # `git log --follow --diff-filter=...` can miss a brand-new file in the
-    # current HEAD on some Git/Windows combinations. Fall back to the same query
-    # without --follow so new records still receive their Create activity.
-    raw = git(
-        root, "log", "--diff-filter=AMR", "--reverse", "--format=%aI",
-        "--", rel,
-    )
-    return [line.strip() for line in raw.splitlines() if line.strip()]
+    """Author dates (oldest first) of commits that added/modified `rel`.
+
+    `git log --follow` is the only way to pick up history from before a rename,
+    but it is unreliable: it is documented as working on a single path, and in
+    combination with --diff-filter it can silently drop real commits. Combined
+    with --reverse it can collapse an entire history to one unrelated commit,
+    which is how a record with twelve commits was once written into the stream
+    as a single Create dated the day the stream was rebuilt.
+
+    So the plain query is the ground truth for the current path, and --follow is
+    accepted only when it is a strict superset of it, which is what a correct
+    --follow result looks like: everything the plain query found, plus whatever
+    preceded a rename. Anything else means --follow malfunctioned and is
+    discarded. Neither query uses --reverse; ordering is done here.
+    """
+    def dates_for(*extra: str) -> set[str]:
+        raw = git(root, "log", *extra, "--diff-filter=AMR", "--format=%aI", "--", rel)
+        return {line.strip() for line in raw.splitlines() if line.strip()}
+
+    plain = dates_for()
+    followed = dates_for("--follow")
+    if plain and plain <= followed:
+        return sorted(followed)
+    if followed and not plain:
+        # A brand-new file that the plain query missed on some Git/Windows
+        # combinations; --follow is all there is.
+        return sorted(followed)
+    return sorted(plain)
 
 
 def base_uri(la_dir: Path) -> str:

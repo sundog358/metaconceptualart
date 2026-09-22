@@ -39,6 +39,14 @@
     {
       "type": "Create",
       "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/movement-record",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-06-19T10:42:56-07:00"
+    },
+    {
+      "type": "Create",
+      "object": {
         "id": "https://www.metaconceptualart.com/data/linked-art/site-as-artwork",
         "type": "DigitalObject"
       },
@@ -95,6 +103,14 @@
     {
       "type": "Update",
       "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/movement-record",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-06-19T14:57:38-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
         "id": "https://www.metaconceptualart.com/data/linked-art/site-as-artwork",
         "type": "DigitalObject"
       },
@@ -135,6 +151,14 @@
     {
       "type": "Update",
       "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/movement-record",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-06-23T09:47:16-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
         "id": "https://www.metaconceptualart.com/data/linked-art/provenance-publication",
         "type": "Activity"
       },
@@ -175,6 +199,14 @@
     {
       "type": "Update",
       "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/movement-record",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-06-23T11:13:35-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
         "id": "https://www.metaconceptualart.com/data/linked-art/collection",
         "type": "Set"
       },
@@ -229,14 +261,6 @@
       "endTime": "2026-06-29T21:56:52-07:00"
     },
     {
-      "type": "Create",
-      "object": {
-        "id": "https://www.metaconceptualart.com/data/linked-art/movement-record",
-        "type": "LinguisticObject"
-      },
-      "endTime": "2026-06-30T12:18:34-07:00"
-    },
-    {
       "type": "Update",
       "object": {
         "id": "https://www.metaconceptualart.com/data/linked-art/collection",
@@ -264,6 +288,14 @@
       "type": "Update",
       "object": {
         "id": "https://www.metaconceptualart.com/data/linked-art/eight-sentences",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-06-30T12:18:34-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/movement-record",
         "type": "LinguisticObject"
       },
       "endTime": "2026-06-30T12:18:34-07:00"
@@ -335,6 +367,14 @@
     {
       "type": "Create",
       "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
+        "type": "PropositionalObject"
+      },
+      "endTime": "2026-07-10T23:23:10-07:00"
+    },
+    {
+      "type": "Create",
+      "object": {
         "id": "https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009",
         "type": "LinguisticObject"
       },
@@ -369,6 +409,14 @@
       "object": {
         "id": "https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009",
         "type": "Activity"
+      },
+      "endTime": "2026-07-10T23:23:10-07:00"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams",
+        "type": "HumanMadeObject"
       },
       "endTime": "2026-07-10T23:23:10-07:00"
     },
@@ -397,18 +445,10 @@
       "endTime": "2026-07-10T23:52:00-07:00"
     },
     {
-      "type": "Create",
+      "type": "Update",
       "object": {
         "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
         "type": "PropositionalObject"
-      },
-      "endTime": "2026-07-11T12:15:22-07:00"
-    },
-    {
-      "type": "Create",
-      "object": {
-        "id": "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams",
-        "type": "HumanMadeObject"
       },
       "endTime": "2026-07-11T12:15:22-07:00"
     },
@@ -457,6 +497,14 @@
       "object": {
         "id": "https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009",
         "type": "Activity"
+      },
+      "endTime": "2026-07-11T12:15:22-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams",
+        "type": "HumanMadeObject"
       },
       "endTime": "2026-07-11T12:15:22-07:00"
     },
@@ -617,6 +665,14 @@
       "object": {
         "id": "https://www.metaconceptualart.com/data/linked-art/art-market-reform",
         "type": "DigitalObject"
+      },
+      "endTime": "2026-08-26T09:28:43-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
+        "type": "PropositionalObject"
       },
       "endTime": "2026-08-26T09:28:43-07:00"
     },
@@ -755,62 +811,6 @@
         "type": "LinguisticObject"
       },
       "endTime": "2026-09-10T17:43:56-07:00"
-    },
-    {
-      "type": "Update",
-      "object": {
-        "id": "https://www.metaconceptualart.com/data/linked-art/collection",
-        "type": "Set"
-      },
-      "endTime": "2026-09-10T17:43:56-07:00"
-    },
-    {
-      "type": "Update",
-      "object": {
-        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-consignment-agreement-2009",
-        "type": "LinguisticObject"
-      },
-      "endTime": "2026-09-10T17:54:57-07:00"
-    },
-    {
-      "type": "Update",
-      "object": {
-        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009",
-        "type": "LinguisticObject"
-      },
-      "endTime": "2026-09-10T18:04:53-07:00"
-    },
-    {
-      "type": "Update",
-      "object": {
-        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009",
-        "type": "LinguisticObject"
-      },
-      "endTime": "2026-09-10T18:10:12-07:00"
-    },
-    {
-      "type": "Create",
-      "object": {
-        "id": "https://www.metaconceptualart.com/data/linked-art/art-notes",
-        "type": "HumanMadeObject"
-      },
-      "endTime": "2026-09-11T12:33:05-07:00"
-    },
-    {
-      "type": "Create",
-      "object": {
-        "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart-reconstruction",
-        "type": "DigitalObject"
-      },
-      "endTime": "2026-09-11T12:33:05-07:00"
-    },
-    {
-      "type": "Update",
-      "object": {
-        "id": "https://www.metaconceptualart.com/data/linked-art/collection",
-        "type": "Set"
-      },
-      "endTime": "2026-09-11T12:33:05-07:00"
     }
   ]
 }
