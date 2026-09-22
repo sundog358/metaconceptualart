@@ -48,8 +48,18 @@
       ]
     }
   ],
-  "content": "A work of Metaconceptual Art titled by Sun & Rain Works and named, with Art Market Reform, in the studio's letter of 2013-09-12 to the Jordan Schnitzer Museum of Art: a proposal that art sales be taxed, advanced on the local, state, national and international levels, to press for accountability, transparency and regulation in the art market. The letter is the only source for it held in this collection. No image, text, or other material of the work is held here.",
   "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "A work of Metaconceptual Art titled by Sun & Rain Works and named, with Art Market Reform, in the studio's letter of 2013-09-12 to the Jordan Schnitzer Museum of Art: a proposal that art sales be taxed, advanced on the local, state, national and international levels, to press for accountability, transparency and regulation in the art market. The letter is the only source for it held in this collection. No image, text, or other material of the work is held here.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
     {
       "type": "LinguisticObject",
       "content": "Why this record exists, and how thin it is. This work was absent from the collection until 2026-09-22, although the studio had named it to an institution in 2013 in the same sentence as Art Market Reform, which has had a record throughout. The omission was this collection's. The record is created so that the work the letter names is addressable, and it is deliberately thin: a title, a one-sentence account of the proposal taken from the letter's own words, and the letter as its only source.",
