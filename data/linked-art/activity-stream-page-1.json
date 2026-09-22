@@ -400,7 +400,7 @@
       "type": "Create",
       "object": {
         "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
-        "type": "HumanMadeObject"
+        "type": "PropositionalObject"
       },
       "endTime": "2026-07-11T12:15:22-07:00"
     },
@@ -472,7 +472,7 @@
       "type": "Update",
       "object": {
         "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
-        "type": "HumanMadeObject"
+        "type": "PropositionalObject"
       },
       "endTime": "2026-07-11T16:33:19-07:00"
     },
@@ -568,7 +568,7 @@
       "type": "Update",
       "object": {
         "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
-        "type": "HumanMadeObject"
+        "type": "PropositionalObject"
       },
       "endTime": "2026-08-25T20:28:52-07:00"
     },
