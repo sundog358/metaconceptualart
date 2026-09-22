@@ -699,6 +699,54 @@
         "type": "LinguisticObject"
       },
       "endTime": "2026-09-22T12:32:23-07:00"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/art-is-capital",
+        "type": "HumanMadeObject"
+      },
+      "endTime": "2026-09-22T12:47:06-07:00"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/what-hedge-funds",
+        "type": "HumanMadeObject"
+      },
+      "endTime": "2026-09-22T12:47:06-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/art-market-reform",
+        "type": "DigitalObject"
+      },
+      "endTime": "2026-09-22T12:47:06-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/art-notes",
+        "type": "HumanMadeObject"
+      },
+      "endTime": "2026-09-22T12:47:06-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+        "type": "Set"
+      },
+      "endTime": "2026-09-22T12:47:06-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-archived-websites-2013-2016",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-22T12:47:06-07:00"
     }
   ]
 }
