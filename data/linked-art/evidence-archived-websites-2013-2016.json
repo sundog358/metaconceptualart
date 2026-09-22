@@ -61,7 +61,29 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "What the wtfisart.com captures show, and how little it is. The earliest capture of the domain, 2011-02-10, is a parked advertising page with no studio content. It says nothing about 2009: the registrar's receipts record shows the domain was registered for one year on 2009-03-16 and not renewed in the year that followed, so by that capture it had lapsed, and registrars commonly park a lapsed address. The studio registered the name again on 2011-10-16, eight months after this capture, which is why the captures below resume. On 2013-07-20 the domain carries one line: 'Under Construction:Check back soon !'. By 2014-12-18, and still on 2016-01-11, it carries a Drupal installation whose main menu reads 'Artists', 'Art Market Reform is a happening' and 'Got Provenance ?'. The body text is the same paragraph repeated in three panels, ending 'For the Love of God, We are the Art. Long Live the Art Spirit !', and the page states 'Welcome to wtfisart.com. No front page content has been created yet.' That last sentence should be quoted by anyone citing this record. What was captured is a demonstration installation carrying the studio's slogans in its menu, not a working publication. Its value is narrow and real: on a date fixed by a third party, the studio was publicly calling a work of its own a happening, and was publishing the line that is handwritten on the Art Notes board.",
+      "content": "What the wtfisart.com captures show, and how little it is. The earliest capture of the domain, 2011-02-10, is a parked advertising page with no studio content. It says nothing about 2009: the registrar's receipts record shows the domain was registered for one year on 2009-03-16 and not renewed in the year that followed, so by that capture it had lapsed, and registrars commonly park a lapsed address. The studio registered the name again on 2011-10-16, eight months after this capture, which is why the captures below resume. On 2013-07-20 the domain carries one line, 'Under Construction:Check back soon !', on a page the studio wrote itself; the passage below sets out how that is told apart from the parked captures around it. By 2014-12-18, and still on 2016-01-11, it carries a Drupal installation whose main menu reads 'Artists', 'Art Market Reform is a happening' and 'Got Provenance ?'. The body text is the same paragraph repeated in three panels, ending 'For the Love of God, We are the Art. Long Live the Art Spirit !', and the page states 'Welcome to wtfisart.com. No front page content has been created yet.' That last sentence should be quoted by anyone citing this record. What was captured is a demonstration installation carrying the studio's slogans in its menu, not a working publication. Its value is narrow and real: on a date fixed by a third party, the studio was publicly calling a work of its own a happening, and was publishing the line that is handwritten on the Art Notes board.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The capture of 2013-07-20 is not a parked page, and the captures on either side of it are. This matters more than the one line of text it carries, so the three are set out together as the archive serves them. On 2011-02-10 the address answers with a frameset pointing at sedoparking.com, a domain-parking service. On 2014-01-05 it answers with a single full-page iframe pointing at a GoDaddy parking path. Between them, on 2013-07-20, it answers with eleven lines of hand-written HTML: a doctype, a title reading 'Under Construction:Check back soon !', a background colour set inline to #00ccff, and one image tag for underconstruction.png at 842 by 443 pixels. There is no advertising frame, no registrar iframe and no third-party script, and the image is requested by a relative path, so it was being served from the domain itself rather than from a parking provider. Whoever held the address in July 2013 had put their own page on it. That is a stronger statement than the earlier reading of this capture, which took it for a bare holding page and did not distinguish it from the parked ones.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What that capture still does not establish, which is most of what one would want. The page carries no name, no studio, no mention of art and no link: nothing in it identifies its author. The inference that it is the studio's rests on the registration rather than on the page, because the receipts record has the studio registering wtfisart.com again on 2011-10-16, and the address is serving hand-made content within that later registration rather than within the lapse that preceded it. The studio's own account, given in 2026, is that the page was its own and in its own style of the time. That account is recorded as the studio's; the page cannot confirm it. The image the page displayed was never captured: a query for underconstruction.png returns no result at any timestamp, so the only picture on the page is the one thing about it that cannot be examined. And the parked capture of 2014-01-05 shows that whatever was being built in July 2013 was not being served six months later, which is worth keeping in view beside the Drupal site that appears at the end of that year.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
