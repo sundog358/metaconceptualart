@@ -38,16 +38,14 @@
     "consignorNotNamed": "The entry names no consignor. The repeated statement in this collection that the catalogue does not name Sun and Rain Works was checked against the fetched page at the date above and holds."
   },
   "archivalStatus": {
-    "waybackSnapshots": 0,
-    "checked": "2026-09-20",
+    "waybackSnapshots": 3,
+    "checked": "2026-09-22",
     "method": "https://archive.org/wayback/available returned an empty archived_snapshots object, and https://web.archive.org/web/2/<url> returned HTTP 404.",
     "saveAttempted": true,
-    "saveSucceeded": false,
-    "saveFailure": "Save Page Now was requested on this date and refused: the endpoint returned HTTP 401 with the message 'You need to be logged in to use Save Page Now.' Anonymous archiving, which this collection used successfully for other sources, is no longer available.",
+    "saveSucceeded": true,
     "notBlockedByPublisher": "The obstacle is the archive's access policy, not the publisher's. sothebys.com/robots.txt was fetched on the same date and disallows only /*/auctions/ecatalogue/lot.pdf. It carries no ia_archiver directive and does not disallow the lot.html page.",
-    "consequence": "Until a snapshot exists, thirteen records depend on a commercial auction house keeping a 2009 e-catalogue page online, with no third-party copy anywhere. This capture reduces but does not remove that exposure: it fixes what the page said on the date above and lets a later reader detect a change, but it is held by the studio and is not independent.",
-    "remedy": "A logged-in archive.org account can save the page in one step, at https://web.archive.org/save/ . When that is done, the snapshot URL and its timestamp should be added to this manifest and the archivalStatus updated.",
-    "finding": "Lot 16 has never been captured, while the catalogue around it has been crawled for nine years. This is a gap in otherwise working coverage, not an unarchived site.",
+    "consequence": "The anchor no longer rests on a commercial auction house keeping a 2009 e-catalogue page online. A third-party copy exists, held by an archive with no stake in this collection, and it can be cited alongside the live URL. The studio's own fetch, recorded above under source, remains useful for a different purpose: it fixes what the page said on 2026-09-20, a day before the archive's copy, so the two can be compared.",
+    "finding": "Archived. Lot 16 was captured by the Internet Archive on 2026-09-21, closing the gap this manifest recorded the day before.",
     "lot16Captures": 0,
     "lot16CheckMethod": "A CDX prefix query for the lot.16.html path, which matches any query string, returned an empty set. The availability API and a direct /web/2/ request also returned nothing and HTTP 404 respectively.",
     "siblingCoverage": {
@@ -65,7 +63,32 @@
       ],
       "totalCaptureRows": 19,
       "localeFormIsCrawled": "lot.27.html?locale=en was captured on 2022-08-11 and again on 2024-12-26, so the crawler handles the locale-qualified form of these URLs as well as the bare one.",
-      "why": "The Internet Archive reaches this catalogue and has done repeatedly. Lot 16 is missing from an otherwise covered neighbourhood, which makes its absence a specific gap rather than a general limitation, and makes filling it a single action rather than a campaign."
-    }
+      "why": "The Internet Archive reaches this catalogue and has done repeatedly. Lot 16 is missing from an otherwise covered neighbourhood, which makes its absence a specific gap rather than a general limitation, and makes filling it a single action rather than a campaign.",
+      "note": "Recorded when lot 16 had no capture of its own: the archive reached this catalogue for nine years and had taken seven of its other lots. Lot 16 joined them on 2026-09-21."
+    },
+    "snapshot": {
+      "url": "https://web.archive.org/web/20260921022820/https://www.sothebys.com/en/auctions/ecatalogue/2009/photographs-n08533/lot.16.html",
+      "timestamp": "20260921022820",
+      "capturedAt": "2026-09-21T02:28:20Z",
+      "httpStatus": 200,
+      "bytes": 14944,
+      "waybackDigest": "S25RQU3VI635ZLZR37NYYFQGWZGBTBJM",
+      "alsoCaptured": [
+        {
+          "timestamp": "20260921023107",
+          "url": "lot.16.html?locale=zh-Hans",
+          "httpStatus": 200,
+          "note": "A locale-qualified form, captured the same minute. It carries the same content digest as the bare URL, which independently confirms this manifest's earlier finding that the URL variants serve identical content."
+        },
+        {
+          "timestamp": "20260921023113",
+          "mimetype": "warc/revisit",
+          "note": "A deduplication record against the same digest, not a separate capture of content."
+        }
+      ],
+      "verifiedAt": "2026-09-22",
+      "verification": "The snapshot was fetched and read. It carries the lot number, the title 'SAN FRANCISCO FROM TWIN PEAKS', the 'Photograph by Ansel Adams for The American Trust Company' stamp, the number 1-SF-46, the 'Wells Fargo Bank' annotation, the 1952 dating and the 7,000 to 10,000 USD estimate - every particular the records depend on."
+    },
+    "howItWasSaved": "Anonymous Save Page Now was requested on 2026-09-20 and refused with HTTP 401, 'You need to be logged in to use Save Page Now'. The capture of 2026-09-21 was made from a logged-in archive.org account by the studio. The refusal is recorded because it explains why no snapshot existed for the seventeen years the page was public, and because anonymous archiving, which this collection relied on for other sources, is no longer available."
   }
 }
