@@ -34,6 +34,8 @@
     { "id": "construction-museum", "type": "DigitalObject", "label": "Construction of the Museum as Concept" },
     { "id": "art-market-reform", "type": "DigitalObject", "label": "Art Market Reform" },
     { "id": "art-tax", "type": "PropositionalObject", "label": "Art Tax" },
+    { "id": "art-is-capital", "type": "HumanMadeObject", "label": "Art is Capital" },
+    { "id": "what-hedge-funds", "type": "HumanMadeObject", "label": "What Hedge Funds ?!" },
     { "id": "eightfold-sprocket", "type": "DigitalObject", "label": "Eightfold Sprocket" },
     { "id": "movement-graph", "type": "DigitalObject", "label": "Movement Graph" },
     { "id": "movement-record", "type": "LinguisticObject", "label": "Proof of Movement: Metaconceptual Art" },
@@ -124,6 +126,22 @@
       "description": "A titled work naming a proposal that art sales be taxed, to press for accountability, transparency and regulation in the art market. Named with Art Market Reform in the studio's 2013 letter to a university museum, which is the only source for it held here; no image or text of the work is held.",
       "wikidata": null,
       "linkedArt": "data/linked-art/art-tax"
+    },
+    {
+      "id": "work:art-is-capital",
+      "type": "Artwork",
+      "label": "Art is Capital",
+      "description": "A painting lettered 'Art is Capital', known from one photograph the studio published on its own website, captured by the Internet Archive on 2014-12-18 and again on 2016-01-11. No image is published here and no medium, measurement or date of making is recorded.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/art-is-capital"
+    },
+    {
+      "id": "work:what-hedge-funds",
+      "type": "Artwork",
+      "label": "What Hedge Funds ?!",
+      "description": "A painting lettered 'what hedge funds ?', known from one photograph on the studio's own website, captured by the Internet Archive on 2014-12-18 and again on 2016-01-11. The capture dates the photograph, not the making.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/what-hedge-funds"
     },
     {
       "id": "work:eightfold-sprocket",
@@ -572,6 +590,8 @@
     { "from": "record:museum-correspondence-2013", "relation": "documents", "to": "concept:metaconceptual-art" },
     { "from": "record:museum-correspondence-2013", "relation": "documents", "to": "work:art-market-reform" },
     { "from": "record:museum-correspondence-2013", "relation": "documents", "to": "work:art-tax" },
+    { "from": "record:archived-websites-2013-2016", "relation": "documents", "to": "work:art-is-capital" },
+    { "from": "record:archived-websites-2013-2016", "relation": "documents", "to": "work:what-hedge-funds" },
     { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:art-tax" },
     { "from": "record:museum-correspondence-2013", "relation": "documents", "to": "concept:auction-as-artwork" },
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:inscription-photograph-2011" },

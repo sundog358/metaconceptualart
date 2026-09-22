@@ -146,6 +146,22 @@
       "id": "https://www.metaconceptualart.com/data/linked-art/evidence-inscription-photograph-2011",
       "type": "LinguisticObject",
       "_label": "Evidence archive: a photograph of two studio works inscribed 'W.T.F. is Art ?' (8 November 2011)"
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The panel's line about being the Art, and where the studio places it. The transcription above records the line '\"For the love of God, We are th[...]!\"', broken where the photograph stops being legible. The studio states, in 2026, that the full line ends 'We are the Art', and that it belongs to one deliberate chain with the sign-off 'For the Love of Art' used in its correspondence with the auction house in 2008 and 2009, and with the sentence 'For the Love of God, We are the Art. Long Live the Art Spirit !' that the Internet Archive captured on the studio's own website in 2014 and 2016. What the documents show is that all three exist and are dated in that order; that they were one design is the studio's account of its own intention and is recorded as that. The illegible tail of this line is not supplied by the studio's statement: the photograph still stops where it stops, and nothing here reads it.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-archived-websites-2013-2016",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: the studio's websites as captured by the Internet Archive (2013-2016)"
     }
   ],
   "representation": [
@@ -205,7 +221,6 @@
       "type": "Set",
       "_label": "Metaconceptual Art — Collection"
     }
-
   ],
   "subject_of": [
     {

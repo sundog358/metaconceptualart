@@ -1,0 +1,131 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/art-is-capital",
+  "type": "HumanMadeObject",
+  "_label": "Art is Capital",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Art is Capital",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "work:art-is-capital",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300264827",
+      "type": "Type",
+      "_label": "conceptual art",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q203209",
+          "type": "Type",
+          "_label": "conceptual art"
+        }
+      ]
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "A painting by Sun & Rain Works carrying the words 'Art is Capital' in painted letters. It is known to this collection from one photograph, which the studio published on its own website and which the Internet Archive captured on 2014-12-18 and again on 2016-01-11. No image of the painting is published with this record, and no medium, support, measurement or date of making is recorded, because none has been supplied.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "How it is dated, and how far that reaches. The photograph sits on the studio's site at sites/all/themes/corporateclean/mockup/slide-1.jpg and is held by the Internet Archive at https://web.archive.org/web/20141218140553id_/http://wtfisart.com/sites/all/themes/corporateclean/mockup/slide-1.jpg, 81,058 bytes, 500 by 250 pixels. Above it the site's slider reads 'Art is Capital invest with confidence'. What that establishes is that the painting existed and had been photographed by 2014-12-18, on the evidence of a third party with no stake in this collection, and that it was still on the site on 2016-01-11. What it does not establish is when the painting was made, which the capture cannot reach, or anything about the object itself beyond what a banner-shaped crop shows.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What is not held. This collection holds no photograph of the painting other than the archived crop, which is 500 by 250 pixels and therefore a detail rather than documentation of the whole work. It holds no measurement, no statement of medium, no record of where the painting is, and nothing dated before 2014 that carries the title. The studio has stated, in 2026, that its works exist and are held in its own collection; that statement covers this one no more and no less than the others, and nobody outside the studio has examined it. If the painting is photographed and measured, this record should be replaced by a fuller one.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-archived-websites-2013-2016",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: the studio's websites as captured by the Internet Archive (2013-2016)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/what-hedge-funds",
+      "type": "HumanMadeObject",
+      "_label": "What Hedge Funds ?!"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/art-market-reform",
+      "type": "DigitalObject",
+      "_label": "Art Market Reform"
+    }
+  ],
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/art-is-capital"
+    },
+    "curies": [
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
+    ],
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
+  }
+}

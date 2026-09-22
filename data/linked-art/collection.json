@@ -110,6 +110,16 @@
       "_label": "Art Tax"
     },
     {
+      "id": "https://www.metaconceptualart.com/data/linked-art/art-is-capital",
+      "type": "HumanMadeObject",
+      "_label": "Art is Capital"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/what-hedge-funds",
+      "type": "HumanMadeObject",
+      "_label": "What Hedge Funds ?!"
+    },
+    {
       "id": "https://www.metaconceptualart.com/data/linked-art/eightfold-sprocket",
       "type": "DigitalObject",
       "_label": "Eightfold Sprocket"

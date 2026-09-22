@@ -72,6 +72,50 @@
     },
     {
       "type": "LinguisticObject",
+      "content": "The slider on the 2014 site carries three of the studio's paintings. The site of 2014-12-18, and unchanged on 2016-01-11, runs Drupal under a theme called CorporateClean, and its three slider images are requested from sites/all/themes/corporateclean/mockup/, which is where that theme ships its own sample pictures. The files served from those paths are not the theme's samples. They are photographs of paintings: slide-1 carries the words 'Art is Capital', slide-2 'ART MARKET REFORM', and slide-3 'what hedge funds ?', each in painted letters across a worked ground. All three are archived and can be fetched: 81,058, 93,694 and 86,711 bytes, each 500 by 250 pixels. Above them the slider headings read 'Art Market Reform is a happening', 'Art is Capital invest with confidence' and 'What Hedge Funds ?! invest in Art'. So three paintings are dated to the studio's own site by a third party, twice, thirteen months apart.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The Art Market Reform on the site is not the one published here. The painting in slide-2 is lettered across a blue ground worked with white, and the painting published with this collection's Art Market Reform record is a different object: the words set over a dense multicoloured ground, with 'Art' in block letters and 'Market Reform' in script. They are two paintings sharing a title, not two photographs of one painting. The studio has said its works exist and are held in its collection; this capture shows that at least one title names more than one object, which any fuller record of these works will have to describe as a set.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What the slider does not establish, stated so the capture is not asked to carry more than it can. The three images are 500 by 250 pixels, a banner shape, so each is a crop and none documents a whole painting. The capture dates the photographs' presence on the site and nothing about when the paintings were made. The same page carries Drupal's untouched message that no front page content has been created yet, so the installation was only partly configured, and the slider headings sit above the theme's own placeholder paragraph repeated three times. By the capture of 2016-10-09 the site had been rebuilt on Open Atrium and the slider was gone.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The phrase that runs through the site, and the studio's account of it. The body text of the 2014 and 2016 captures ends 'For the Love of God, We are the Art. Long Live the Art Spirit !'. The studio states, in 2026, that this was by design: that the sign-off 'For the Love of Art', which closes its approaches of August 2008 and its note returning the signed consignment agreement in March 2009, and the line 'For the love of God, We are th[...]!' on the Art Notes panel, and this sentence on the website, are one chain rather than three separate flourishes. The objective record is consistent with that and does not establish it: the sign-off is documented in the correspondence of 2008 and 2009, the panel line is photographed in a file dated 2012, and this is the phrase's earliest appearance in a third-party capture. Which came first in intention is the studio's statement, not the documents'. The studio further states that 'Long Live the Art Spirit' comes from Robert Henri's The Art Spirit, the collection of his teaching published in 1923, which it says it read around 2006. Nothing here dates that reading, and the phrase's earliest dated appearance in this collection is this capture of 2014-12-18.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
       "content": "The capture of 2013-07-20 is not a parked page, and the captures on either side of it are. This matters more than the one line of text it carries, so the three are set out together as the archive serves them. On 2011-02-10 the address answers with a frameset pointing at sedoparking.com, a domain-parking service. On 2014-01-05 it answers with a single full-page iframe pointing at a GoDaddy parking path. Between them, on 2013-07-20, it answers with eleven lines of hand-written HTML: a doctype, a title reading 'Under Construction:Check back soon !', a background colour set inline to #00ccff, and one image tag for underconstruction.png at 842 by 443 pixels. There is no advertising frame, no registrar iframe and no third-party script, and the image is requested by a relative path, so it was being served from the domain itself rather than from a parking provider. Whoever held the address in July 2013 had put their own page on it. That is a stronger statement than the earlier reading of this capture, which took it for a bare holding page and did not distinguish it from the parked ones.",
       "classified_as": [
         {
@@ -162,6 +206,16 @@
       "id": "https://www.metaconceptualart.com/data/linked-art/evidence-pastebin-2011-2012",
       "type": "LinguisticObject",
       "_label": "Evidence archive: the 2011-2012 postings"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/art-is-capital",
+      "type": "HumanMadeObject",
+      "_label": "Art is Capital"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/what-hedge-funds",
+      "type": "HumanMadeObject",
+      "_label": "What Hedge Funds ?!"
     }
   ],
   "about": [
