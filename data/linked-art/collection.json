@@ -105,6 +105,11 @@
       "_label": "Art Market Reform"
     },
     {
+      "id": "https://www.metaconceptualart.com/data/linked-art/art-tax",
+      "type": "PropositionalObject",
+      "_label": "Art Tax"
+    },
+    {
       "id": "https://www.metaconceptualart.com/data/linked-art/eightfold-sprocket",
       "type": "DigitalObject",
       "_label": "Eightfold Sprocket"

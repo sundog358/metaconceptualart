@@ -33,6 +33,7 @@
     { "id": "wtfisart", "type": "DigitalObject", "label": "www.wtfisart.com" },
     { "id": "construction-museum", "type": "DigitalObject", "label": "Construction of the Museum as Concept" },
     { "id": "art-market-reform", "type": "DigitalObject", "label": "Art Market Reform" },
+    { "id": "art-tax", "type": "PropositionalObject", "label": "Art Tax" },
     { "id": "eightfold-sprocket", "type": "DigitalObject", "label": "Eightfold Sprocket" },
     { "id": "movement-graph", "type": "DigitalObject", "label": "Movement Graph" },
     { "id": "movement-record", "type": "LinguisticObject", "label": "Proof of Movement: Metaconceptual Art" },
@@ -115,6 +116,14 @@
       "description": "An image study that treats art, price, reform, and institutional display as one unstable field.",
       "wikidata": null,
       "linkedArt": "data/linked-art/art-market-reform"
+    },
+    {
+      "id": "work:art-tax",
+      "type": "Artwork",
+      "label": "Art Tax",
+      "description": "A titled work naming a proposal that art sales be taxed, to press for accountability, transparency and regulation in the art market. Named with Art Market Reform in the studio's 2013 letter to a university museum, which is the only source for it held here; no image or text of the work is held.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/art-tax"
     },
     {
       "id": "work:eightfold-sprocket",
@@ -562,6 +571,8 @@
     { "from": "record:pastebin-2011-2012", "relation": "documents", "to": "work:eight-sentences" },
     { "from": "record:museum-correspondence-2013", "relation": "documents", "to": "concept:metaconceptual-art" },
     { "from": "record:museum-correspondence-2013", "relation": "documents", "to": "work:art-market-reform" },
+    { "from": "record:museum-correspondence-2013", "relation": "documents", "to": "work:art-tax" },
+    { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:art-tax" },
     { "from": "record:museum-correspondence-2013", "relation": "documents", "to": "concept:auction-as-artwork" },
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:inscription-photograph-2011" },
     { "from": "record:inscription-photograph-2011", "relation": "documents", "to": "work:wtfisart" },

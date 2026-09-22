@@ -87,6 +87,17 @@
       ]
     },
     {
+      "type": "LinguisticObject",
+      "content": "Named, and called a title, in a letter to a museum on 2013-09-12. The studio's letter to the Jordan Schnitzer Museum of Art introduces two works by name: 'Two popular examples of Metaconceptual Art, which are ongoing through time and space as well, are titled \"Art Market Reform\" , and \"Art Tax\"'. It then glosses this one: 'Promoting Art Tax on the local, state, national, and international levels to encourage and promote accountability, transparency, and regulation in the Art Market and Art World.' That is the earliest dated naming of this work held in this collection, it is in the artist's own words, and it was delivered to a named institution which produced its own copy from its archive in 2026, so the date does not rest on the studio's mailbox alone. Three limits go with it. The letter attests that the title was in use on that date; it does not date the making of the image published with this record, and its own phrase, that the works are 'ongoing through time and space', describes them as continuing rather than finished. The letter attaches images but names none of them, so nothing in it identifies the file published here as the thing it names. And a title used in 2013 says nothing about 2009 or before.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
       "id": "https://www.metaconceptualart.com/data/linked-art/evidence-wtfia-2009",
       "type": "LinguisticObject",
       "_label": "Evidence archive: the WTFIA source folder for www.wtfisart.com (2008-2009)"

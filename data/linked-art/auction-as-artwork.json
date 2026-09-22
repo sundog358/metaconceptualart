@@ -62,6 +62,17 @@
     },
     {
       "type": "LinguisticObject",
+      "content": "The letter that gives the auction no title gives two other works one. The correction above rests in part on the 2013 letter to a university museum, which describes the sale as 'a performance act of Metaconceptual Art' and gives it no title. That is worth more than an absence, because the same letter titles other work in the same breath: 'Two popular examples of Metaconceptual Art, which are ongoing through time and space as well, are titled \"Art Market Reform\" , and \"Art Tax\"'. So the writer was naming works when he had names for them, in his own words, four years after the sale, and did not name this one. The argument for this record is therefore not only that no document uses the phrase 'The Auction as Artwork'; it is that the one document in which the studio lists its titled works, and mentions the auction, titles the works and not the auction.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
       "content": "A Metaconceptual Art work that Sun & Rain Works designates in connection with the Sotheby's Photographs auction of 2009 (sale N08533, New York), at which Sun & Rain Works consigned an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16). Following the logic of the readymade, Sun & Rain Works frames its engagement with that public institutional event — its mechanism of value, authority, and sale — as the material of a conceptual work. This is a designation asserted by the artist and made explicit over time; it is not a publicly witnessed live-creation event, and the Sotheby's catalogue does not name Sun & Rain Works. Two associated works accompany the gesture: the website www.wtfisart.com and WTF is Ansel Adams.",
       "classified_as": [
         {

@@ -1,0 +1,127 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/art-tax",
+  "type": "PropositionalObject",
+  "_label": "Art Tax",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Art Tax",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "work:art-tax",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300264827",
+      "type": "Type",
+      "_label": "conceptual art",
+      "equivalent": [
+        {
+          "id": "http://www.wikidata.org/entity/Q203209",
+          "type": "Type",
+          "_label": "conceptual art"
+        }
+      ]
+    }
+  ],
+  "content": "A work of Metaconceptual Art titled by Sun & Rain Works and named, with Art Market Reform, in the studio's letter of 2013-09-12 to the Jordan Schnitzer Museum of Art: a proposal that art sales be taxed, advanced on the local, state, national and international levels, to press for accountability, transparency and regulation in the art market. The letter is the only source for it held in this collection. No image, text, or other material of the work is held here.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Why this record exists, and how thin it is. This work was absent from the collection until 2026-09-22, although the studio had named it to an institution in 2013 in the same sentence as Art Market Reform, which has had a record throughout. The omission was this collection's. The record is created so that the work the letter names is addressable, and it is deliberately thin: a title, a one-sentence account of the proposal taken from the letter's own words, and the letter as its only source.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What the letter says, in its own words. It introduces the pair: 'Two popular examples of Metaconceptual Art, which are ongoing through time and space as well, are titled \"Art Market Reform\" , and \"Art Tax\"'. Under the first of the two it sets out what both are for: 'Promoting Art Tax on the local, state, national, and international levels to encourage and promote accountability, transparency, and regulation in the Art Market and Art World.' It states that the goal is 'to begin, encourage, and promote an open discussion' about them, and that a proposal for both had been submitted to the White House two days earlier. The last of these is the studio's report of its own act; no acknowledgement, reply or filing has been produced, and this collection does not assert that the proposal was received or read.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What is not held, stated so that nobody infers more than there is. This collection holds no image of the work, no text of the proposal, no correspondence about it other than the 2013 letter, and nothing from any year before 2013 that carries the title. The work's dating is therefore an attestation and not a creation date: the title was in use on 2013-09-12, and the letter's own phrase, that the works are 'ongoing through time and space', describes something continuing rather than finished. No creation event is recorded here for that reason. Whether material of the work exists in the studio is a question for the studio; if it is produced, it can be added and this record replaced by a fuller one.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-museum-correspondence-2013",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: correspondence declaring Metaconceptual Art to a university art museum (2013)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/art-market-reform",
+      "type": "DigitalObject",
+      "_label": "Art Market Reform"
+    }
+  ],
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/art-tax"
+    },
+    "curies": [
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
+    ],
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
+  }
+}
