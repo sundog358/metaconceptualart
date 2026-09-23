@@ -233,6 +233,16 @@
       "id": "https://www.metaconceptualart.com/data/linked-art/evidence-meta-sign-2012",
       "type": "LinguisticObject",
       "_label": "Evidence archive: a photograph of a shop sign reading META, Italy (27 February 2012)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-outreach-screenshots-2013",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: screenshots of the studio's outreach, 12-13 September 2013"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-hawaii-notebook-2008-2009",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: notebook pages and photographs from Hawai'i (2008-2009)"
     }
   ],
   "_links": {

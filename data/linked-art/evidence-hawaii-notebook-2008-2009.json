@@ -1,0 +1,318 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/evidence-hawaii-notebook-2008-2009",
+  "type": "LinguisticObject",
+  "_label": "Evidence archive: notebook pages and photographs from Hawai'i (2008-2009)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Evidence archive: notebook pages and photographs from Hawai'i (2008-2009)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "record:evidence-hawaii-notebook-2008-2009",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026906",
+      "type": "Type",
+      "_label": "documents"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300215302",
+      "type": "Type",
+      "_label": "digital images"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300055863",
+      "type": "Type",
+      "_label": "provenance"
+    }
+  ],
+  "content": "Six photographs, held by the studio only as copies downloaded from Facebook: two of pages in a handwritten notebook, and four landscapes. The first notebook photograph shows a two-page spread of drafts of a poem. The left page carries two versions, the second headed 'The Art World' and signed J.M.C.; the right page carries dated entries of 10/21/09, 10/22/09 and 10/24/2009, the last placed at Moloa'a on Kaua'i and a fair copy headed 'The Art World is Flat', followed by further, heavily revised drafts. The second shows a single page inscribed '\"The more you want, the less you have\" Joe M. Chirum 11/10/2008, Kipahulu, Maui', and beneath it a second line, in the same ink, signed 'JDawg'. The four landscapes show a rainbow over red cliffs, a rainbow over the open sea seen from a hillside, sea cliffs above a beach, and swimmers in a lava-rock tide pool. The studio states that they were taken in Hawai'i and belong to the material of WTF is Ansel Adams. The notebook's last draft of 'The Art World is Flat' is, line for line, the poem the studio posted publicly on 28 November 2011 as 'a metaconceptual Art poem i wrote a few years ago'. The pages therefore show that poem being worked out, under a date the writer gave it himself.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Evidence status: all six files are platform copies, and none is a camera original. The two notebook photographs, 2,048 by 1,284 and 1,536 by 2,048 pixels, carry the tag Facebook writes into its uploads and an sRGB profile, and nothing from the camera. Three landscapes are 604 by 453 pixel files in Facebook's older format, with no metadata segment of any kind. The fourth landscape is a file of the same size re-saved on an Apple device, whose Exif block holds only generic fields: no camera make or model, no date, no location. The held files are: notebook-art-world-is-flat-2009.jpg, 263,108 bytes, SHA-256 6fbee297c556777157af6ec78355870e74b40f677b5d0c041ea3cd24de9eabc0; notebook-kipahulu-2008.jpg, 119,182 bytes, SHA-256 8888e0c8d4c7e89b8421c58846e30b2efe6e91d6e93da0f7500855cdd638b352; hawaii-rainbow-cliffs.jpg, 41,499 bytes, SHA-256 c533dbb62f5c30e4d85ad3a4247daf08e8347dd6040aa60998e089ddf546ad9e; hawaii-rainbow-ocean.jpg, 40,729 bytes, SHA-256 03cf7dac310f9ef8807235ebaa520327f250e6c2239958f96e2f0ddcf8aad331; hawaii-coast-cliffs.jpg, 42,462 bytes, SHA-256 398cbb9bd3a3d2051dd419e939ca437bf71eeb4b9348410c6c826dfbab745ade; and hawaii-tide-pool.jpg, 90,969 bytes, SHA-256 17e76759073c6739bb843a6c6bc5b5683cb06cff50c5016796d00540c07403bc. Each is published here under that name at /images/, byte-identical to the held file and renamed for the web from the names Facebook gave it. The studio held the rainbow-over-cliffs file twice under two names; the two copies are byte-identical. None of the files carries a capture date, so no date in this record comes from a file.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The dates are the writer's own. Every date in this record is written by hand on the page it dates, and is the writer's account of when he wrote, not a measurement. The photographs of the pages were taken and uploaded to Facebook at some later time that the files do not record. What can be said is that the dated entries run in order across the spread, 21, 22 and 24 October 2009, and that the drafts show the working of a text rather than a copy of a finished one: words struck through and replaced, variant lines written above one another, and a heavily revised version beneath the fair copy. That is what a working notebook looks like; it is not proof of when the work was done.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The poem, then and in 2011. The drafts move by visible revision towards the text posted on Pastebin on 28 November 2011. In the lower version on the left page the second line reads 'Bankers delight is the poor man's strife' and the third ends 'until water runs dry'; in the 24 October fair copy the word before 'strife' is written over and hard to read; and in the last, revised draft 'The banker childs delight is poor woman's strife', 'Art dealers feed until ocean runs dry' and 'perpetuate shadow play in our cave like tomb' reach the wording of the 2011 posting. The 2011 posting describes the poem as written 'a few years ago', and the notebook's own date of October 2009 agrees with that. The notebook does not use the word metaconceptual; that description of the poem is first attested in the 2011 posting. The right page also carries a note of 22 October 2009 on hearing Bob Weir sing Bob Dylan's 'When I Paint My Masterpiece', signed J.M.C.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The Maui page. The inscription of 11/10/2008 places its writer, by his own hand, at Kipahulu on Maui on 10 November 2008. It agrees with the Sotheby's correspondence, in which the studio writes from Hawai'i in September 2008 and, on 20 November 2008, says it is 'still on the islands, on Maui' and gives a mailing address there. That agreement is between two of the studio's own accounts, one of them contemporaneous correspondence with a third party; the page adds a place and a date in the writer's hand, not an independent confirmation. The line signed 'JDawg' is recorded as written; this record does not identify its author.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The landscapes. The studio states, in 2026, that the four landscapes were taken in Hawai'i and belong to the material of WTF is Ansel Adams, the work whose Hawai'i period is described in the staged-photographs and Sotheby's records. That is the studio's account. Nothing in the files dates them, locates them, or connects them to that work, and this record makes no identification of the places shown. The swimmers in the tide-pool photograph are too distant to be identified, and no person is named.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What this record does not show. It does not date any photograph, since none carries a capture date. It does not show the notebook itself, which has not been examined for this record; the physical pages, if they survive, would be better evidence than these copies. It says nothing about Sotheby's, the Adams print, or the 2009 sale, none of which is mentioned on the pages photographed. It does not show Metaconceptual Art named in 2008 or 2009. The dates Facebook holds for the uploads, available to the account holder through the platform's data export, would give a third-party ceiling for each file and have not been obtained.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-hawaii-notebook-2008-2009#visual-item-notebook-2009",
+      "type": "VisualItem",
+      "_label": "Notebook spread: drafts of 'The Art World is Flat', with entries dated 21-24 October 2009",
+      "digitally_shown_by": [
+        {
+          "id": "https://www.metaconceptualart.com/images/notebook-art-world-is-flat-2009.jpg",
+          "type": "DigitalObject",
+          "_label": "Photograph of the notebook spread, Facebook copy",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://www.metaconceptualart.com/images/notebook-art-world-is-flat-2009.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-hawaii-notebook-2008-2009#visual-item-notebook-2008",
+      "type": "VisualItem",
+      "_label": "Notebook page inscribed and dated 11/10/2008, Kipahulu, Maui",
+      "digitally_shown_by": [
+        {
+          "id": "https://www.metaconceptualart.com/images/notebook-kipahulu-2008.jpg",
+          "type": "DigitalObject",
+          "_label": "Photograph of the notebook page, Facebook copy",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://www.metaconceptualart.com/images/notebook-kipahulu-2008.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-hawaii-notebook-2008-2009#visual-item-rainbow-cliffs",
+      "type": "VisualItem",
+      "_label": "A rainbow over red cliffs",
+      "digitally_shown_by": [
+        {
+          "id": "https://www.metaconceptualart.com/images/hawaii-rainbow-cliffs.jpg",
+          "type": "DigitalObject",
+          "_label": "Landscape photograph, Facebook copy, undated",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://www.metaconceptualart.com/images/hawaii-rainbow-cliffs.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-hawaii-notebook-2008-2009#visual-item-rainbow-ocean",
+      "type": "VisualItem",
+      "_label": "A rainbow over the open sea, seen from a hillside",
+      "digitally_shown_by": [
+        {
+          "id": "https://www.metaconceptualart.com/images/hawaii-rainbow-ocean.jpg",
+          "type": "DigitalObject",
+          "_label": "Landscape photograph, Facebook copy, undated",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://www.metaconceptualart.com/images/hawaii-rainbow-ocean.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-hawaii-notebook-2008-2009#visual-item-coast-cliffs",
+      "type": "VisualItem",
+      "_label": "Sea cliffs above a beach",
+      "digitally_shown_by": [
+        {
+          "id": "https://www.metaconceptualart.com/images/hawaii-coast-cliffs.jpg",
+          "type": "DigitalObject",
+          "_label": "Landscape photograph, Facebook copy, undated",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://www.metaconceptualart.com/images/hawaii-coast-cliffs.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-hawaii-notebook-2008-2009#visual-item-tide-pool",
+      "type": "VisualItem",
+      "_label": "Swimmers in a lava-rock tide pool",
+      "digitally_shown_by": [
+        {
+          "id": "https://www.metaconceptualart.com/images/hawaii-tide-pool.jpg",
+          "type": "DigitalObject",
+          "_label": "Landscape photograph, re-saved Facebook copy, undated",
+          "format": "image/jpeg",
+          "access_point": [
+            {
+              "id": "https://www.metaconceptualart.com/images/hawaii-tide-pool.jpg",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "about": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams",
+      "type": "HumanMadeObject",
+      "_label": "WTF is Ansel Adams"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art",
+      "type": "Type",
+      "_label": "Metaconceptual Art (concept)"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "CC BY 4.0",
+      "classified_as": [
+        {
+          "id": "https://creativecommons.org/licenses/by/4.0/",
+          "type": "Type",
+          "_label": "Attribution 4.0 International (CC BY 4.0)"
+        }
+      ],
+      "possessed_by": [
+        {
+          "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+          "type": "Group",
+          "_label": "Sun & Rain Works"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Compilation of the Hawai'i notebook evidence record",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/evidence-hawaii-notebook-2008-2009"
+    },
+    "curies": [
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
+    ],
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
+  }
+}

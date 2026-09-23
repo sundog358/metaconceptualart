@@ -62,6 +62,8 @@
     { "id": "evidence-inscription-photograph-2011", "type": "LinguisticObject", "label": "Evidence archive: a photograph of two studio works inscribed 'W.T.F. is Art ?' (8 November 2011)" },
     { "id": "evidence-postcard-work-2008", "type": "LinguisticObject", "label": "Evidence archive: a painted postcard inscribed 'For the Love of Art' and signed 2008 (photographed 2011)" },
     { "id": "evidence-meta-sign-2012", "type": "LinguisticObject", "label": "Evidence archive: a photograph of a shop sign reading META, Italy (27 February 2012)" },
+    { "id": "evidence-outreach-screenshots-2013", "type": "LinguisticObject", "label": "Evidence archive: screenshots of the studio's outreach, 12-13 September 2013" },
+    { "id": "evidence-hawaii-notebook-2008-2009", "type": "LinguisticObject", "label": "Evidence archive: notebook pages and photographs from Hawai'i (2008-2009)" },
     { "id": "sothebys", "type": "Group", "label": "Sotheby's" },
     { "id": "collection", "type": "Set", "label": "Metaconceptual Art — Collection" },
     { "id": "sun-and-rain-works", "type": "Group", "label": "Sun & Rain Works" },
@@ -336,6 +338,22 @@
       "linkedArt": "data/linked-art/evidence-meta-sign-2012"
     },
     {
+      "id": "record:outreach-screenshots-2013",
+      "type": "Provenance",
+      "label": "Screenshots of the studio's outreach, 12-13 September 2013",
+      "description": "Three screenshots from the studio principal's Mac, published redacted: a LinkedIn group discussion titled 'Art Market Reform', one minute after posting on 12 September 2013; the Sotheby's locations page; and a reply of 13 September 2013 from the Oregon Arts Commission's Assistant Director referring the studio to the Commission's grants and wishing it well with its proposal to the White House. The files carry no metadata; the dates are read from the mail header and the Mac's menu-bar clock, the Thursday by inference. The post repeats the museum letter's declaration of the same day, including its wrong May dating of the 2009 sale; the reply is a courtesy referral and endorses nothing.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/evidence-outreach-screenshots-2013"
+    },
+    {
+      "id": "record:hawaii-notebook-2008-2009",
+      "type": "Provenance",
+      "label": "Notebook pages and photographs from Hawai'i (2008-2009)",
+      "description": "Two photographed notebook pages and four landscapes, all held only as Facebook copies with no capture dates. The pages carry the writer's own dates: 10 November 2008 at Kipahulu, Maui, and 21-24 October 2009 on Kaua'i, the latter with working drafts of 'The Art World is Flat' that reach, by visible revision, the text posted publicly in November 2011 as 'a metaconceptual Art poem i wrote a few years ago'. The studio states the landscapes belong to the material of WTF is Ansel Adams; nothing in the files dates or connects them. The handwritten dates are self-reported.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/evidence-hawaii-notebook-2008-2009"
+    },
+    {
       "id": "concept:metaconceptual-art",
       "type": "Concept",
       "label": "Metaconceptual Art",
@@ -604,6 +622,14 @@
     { "from": "record:postcard-work-2008", "relation": "cites", "to": "record:inscription-photograph-2011" },
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:meta-sign-2012" },
     { "from": "record:meta-sign-2012", "relation": "documents", "to": "concept:metaconceptual-art" },
+    { "from": "system:provenance-layer", "relation": "produces", "to": "record:outreach-screenshots-2013" },
+    { "from": "record:outreach-screenshots-2013", "relation": "documents", "to": "work:art-market-reform" },
+    { "from": "record:outreach-screenshots-2013", "relation": "documents", "to": "work:art-tax" },
+    { "from": "record:outreach-screenshots-2013", "relation": "cites", "to": "record:museum-correspondence-2013" },
+    { "from": "system:provenance-layer", "relation": "produces", "to": "record:hawaii-notebook-2008-2009" },
+    { "from": "record:hawaii-notebook-2008-2009", "relation": "documents", "to": "work:wtf-is-ansel-adams" },
+    { "from": "record:hawaii-notebook-2008-2009", "relation": "cites", "to": "record:pastebin-2011-2012" },
+    { "from": "record:hawaii-notebook-2008-2009", "relation": "cites", "to": "record:sothebys-approach-2008" },
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:live-auction-priority" },
     { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:wtfisart" },
     { "from": "concept:auction-as-artwork", "relation": "designates", "to": "source:sothebys-photographs-2009" },
