@@ -371,6 +371,22 @@
         "type": "HumanMadeObject"
       },
       "endTime": "2026-09-24T07:33:36-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2009",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-24T07:56:13-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group"
+      },
+      "endTime": "2026-09-24T07:56:13-07:00"
     }
   ]
 }
