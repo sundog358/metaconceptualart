@@ -182,6 +182,17 @@
     },
     {
       "type": "LinguisticObject",
+      "content": "The Saatchi Art listing of 2014-05-22. One page of the studio's listings on Saatchi Art, the online gallery of the Saatchi Gallery, was captured by the Internet Archive: the listing of the painting Art is Capital under artist account 578159, at 2014-05-22 07:18:32 UTC, titled 'Saatchi Art Artist: Joseph Chirum; Acrylic 2014 Painting \"Art is Capital\"' and described 'Metaconceptual Art Acrylic on Canvas'. It is set out in the record of that work. It carries the term Metaconceptual Art on a third party's site, under a third party's date, seven months before the captures of the studio's own website described above; the listings of the nine other works it links, and the artist's page, were not captured.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
       "content": "What is not the studio's, and must not be cited as if it were. The domain wtfisart.com passed out of the studio's hands. A capture of 2016-07-11 shows a hosting suspension page, and from 2020 the domain carries an unrelated publication of art, film and book reviews written under several bylines, which is captured many hundreds of times between 2020 and 2025. The registry record was checked in 2026 and shows a fresh registration of 2024-08-29, so the domain lapsed and was taken up again by someone else. Nothing captured from 2016-07 onward is the studio's work, and the later site's contents say nothing about this collection. A separate incarnation captured on 2016-11-02, a wiki-style 'encyclopedic directory of Art' listing artists, is recorded here only so that a reader who finds it is not misled: it names no work of the studio's and makes no claim this collection relies on.",
       "classified_as": [
         {

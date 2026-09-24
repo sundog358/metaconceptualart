@@ -51,7 +51,7 @@
   "referred_to_by": [
     {
       "type": "LinguisticObject",
-      "content": "A painting by Sun & Rain Works carrying the words 'Art is Capital' in painted letters. It is known to this collection from one photograph, which the studio published on its own website and which the Internet Archive captured on 2014-12-18 and again on 2016-01-11. No image of the painting is published with this record, and no medium, support, measurement or date of making is recorded, because none has been supplied.",
+      "content": "A painting by Sun & Rain Works carrying the words 'Art is Capital' in painted letters. It is known to this collection from a photograph the studio published on its own website, which the Internet Archive captured on 2014-12-18 and again on 2016-01-11, and from the studio's listing of it on the Saatchi Art site, which the Internet Archive captured on 2014-05-22. No image of the painting is published with this record. The listing gives it as an acrylic painting on canvas of 2014, 12 by 9 by 0.5 inches; those are the studio's own entries on a third party's site, not a measurement taken for this record.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -73,7 +73,18 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "What is not held. This collection holds no photograph of the painting other than the archived crop, which is 500 by 250 pixels and therefore a detail rather than documentation of the whole work. It holds no measurement, no statement of medium, no record of where the painting is, and nothing dated before 2014 that carries the title. The studio has stated, in 2026, that its works exist and are held in its own collection; that statement covers this one no more and no less than the others, and nobody outside the studio has examined it. If the painting is photographed and measured, this record should be replaced by a fuller one.",
+      "content": "The Saatchi Art listing, captured 2014-05-22. The studio listed the painting for sale on Saatchi Art, the online gallery of the Saatchi Gallery, under its artist account 578159, and the Internet Archive captured the listing at 2014-05-22 07:18:32 UTC, at https://web.archive.org/web/20140522071832/http://www.saatchiart.com:80/art/Painting-Art-is-Capital/578159/2025103/view. The page is titled 'Saatchi Art Artist: Joseph Chirum; Acrylic 2014 Painting \"Art is Capital\"'; its description reads 'Metaconceptual Art Acrylic on Canvas', its tags include 'Metaconceptual Art' and 'Metaconceptual', and it gives the work as 12 by 9 by 0.5 inches on canvas, the original offered at $1,000 and prints from $180. The capture as retrieved on 2026-09-24, 79,508 bytes, has SHA-256 c41ba52d59869fe90c5c77458809a320901bc484ca3620a72251a400d26a5efc. What it adds is a date assigned by parties other than the studio: the painting existed, under this title and described as Metaconceptual Art, by 22 May 2014, seven months before the website capture that had been the only source for it. It agrees with the studio's Flickr account, which carries a photograph titled 'ArtisCapital9x12Acrylic' uploaded on 2014-05-18. What it does not add: the medium, size and the year '2014' are the studio's own entries on the listing, not an examination of the work, and the year is the year the studio gave the painting, not a date of making that anyone else fixed. The listing records an offer for sale, not a sale. The same page links nine more of the account's works - Art Market Reform in acrylic and in watercolor, Art Tax in paint and in charcoal, What Hedge Funds ?! twice, Allegory of the Cave Art, Flesh and Bones and Mon Incline - but none of those pages, and not the artist's own page, was captured, so they are known only as titles in this one page's links.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What is not held. This collection holds no photograph of the painting other than the archived crop, which is 500 by 250 pixels and therefore a detail rather than documentation of the whole work. It holds no measurement or statement of medium other than the studio's own entries on the Saatchi Art listing, no record of where the painting is, and nothing dated before 2014 that carries the title. The studio has stated, in 2026, that its works exist and are held in its own collection; that statement covers this one no more and no less than the others, and nobody outside the studio has examined it. If the painting is photographed and measured, this record should be replaced by a fuller one.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
