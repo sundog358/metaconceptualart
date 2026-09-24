@@ -263,6 +263,11 @@
       "id": "https://www.metaconceptualart.com/data/linked-art/evidence-press-release-2014",
       "type": "LinguisticObject",
       "_label": "Evidence archive: the press release 'Metaconceptual Art creates Hedge Fund Art and paints Art Market Reform' (May 2014)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2018",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: the title 'WTF is Ansel Adams ?!' in public comments of 11 October 2018"
     }
   ],
   "_links": {

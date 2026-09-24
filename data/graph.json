@@ -68,6 +68,7 @@
     { "id": "evidence-facebook-2009", "type": "LinguisticObject", "label": "Evidence archive: 'a meta-conceptual artist', and captions of 2009, on Facebook (December 2009)" },
     { "id": "evidence-facebook-2012-2013", "type": "LinguisticObject", "label": "Evidence archive: Art Market Reform, 'WTF is Art' and Metaconceptual Art on Facebook and USA Projects (2012-2013)" },
     { "id": "evidence-press-release-2014", "type": "LinguisticObject", "label": "Evidence archive: the press release 'Metaconceptual Art creates Hedge Fund Art and paints Art Market Reform' (May 2014)" },
+    { "id": "evidence-facebook-2018", "type": "LinguisticObject", "label": "Evidence archive: the title 'WTF is Ansel Adams ?!' in public comments of 11 October 2018" },
     { "id": "sothebys", "type": "Group", "label": "Sotheby's" },
     { "id": "collection", "type": "Set", "label": "Metaconceptual Art — Collection" },
     { "id": "sun-and-rain-works", "type": "Group", "label": "Sun & Rain Works" },
@@ -390,6 +391,14 @@
       "linkedArt": "data/linked-art/evidence-press-release-2014"
     },
     {
+      "id": "record:facebook-2018",
+      "type": "Provenance",
+      "label": "The title 'WTF is Ansel Adams ?!' in public comments of 11 October 2018",
+      "description": "Three public Facebook comments of 2018-10-11, made on the day of the 'Love is in the Bin' news, in which the studio principal gives the title 'WTF is Ansel Adams ?!' with the year 2009 - its earliest dated use, which dates the title to 2018, not 2009 - and says he created Metaconceptual Art 'around 2008', against the asserted 2007. His words are quoted; their 'live performance' and Banksy framing is not adopted.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/evidence-facebook-2018"
+    },
+    {
       "id": "concept:metaconceptual-art",
       "type": "Concept",
       "label": "Metaconceptual Art",
@@ -688,6 +697,11 @@
     { "from": "record:press-release-2014", "relation": "documents", "to": "work:what-hedge-funds" },
     { "from": "record:press-release-2014", "relation": "documents", "to": "work:art-is-capital" },
     { "from": "record:press-release-2014", "relation": "cites", "to": "record:pastebin-2011-2012" },
+    { "from": "system:provenance-layer", "relation": "produces", "to": "record:facebook-2018" },
+    { "from": "record:facebook-2018", "relation": "documents", "to": "work:wtf-is-ansel-adams" },
+    { "from": "record:facebook-2018", "relation": "documents", "to": "concept:auction-as-artwork" },
+    { "from": "record:facebook-2018", "relation": "documents", "to": "concept:metaconceptual-art" },
+    { "from": "record:facebook-2018", "relation": "cites", "to": "record:pastebin-2011-2012" },
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:live-auction-priority" },
     { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:wtfisart" },
     { "from": "concept:auction-as-artwork", "relation": "designates", "to": "source:sothebys-photographs-2009" },

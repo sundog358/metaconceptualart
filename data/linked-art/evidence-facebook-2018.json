@@ -1,0 +1,196 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2018",
+  "type": "LinguisticObject",
+  "_label": "Evidence archive: the title 'WTF is Ansel Adams ?!' in public comments of 11 October 2018",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Evidence archive: the title 'WTF is Ansel Adams ?!' in public comments of 11 October 2018",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "record:evidence-facebook-2018",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026087",
+      "type": "Type",
+      "_label": "texts"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300026906",
+      "type": "Type",
+      "_label": "documents"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300055863",
+      "type": "Type",
+      "_label": "provenance"
+    }
+  ],
+  "content": "Three public Facebook comments by the studio principal on 2018-10-11, at times Facebook assigns, on posts by the art publications ARTnews and Artsy. At 22:06:32 UTC, on the ARTnews post: 'I auctioned Lot 16 of Sotheby's May 2009 photography auction as a live performance Contemporary Metaconceptual Art piece, but that was ancient history. I'm in the catalog as the seller, listed as Anonymous, Ladies and Gentleman...' At 22:12:03 UTC, replying to that comment: 'My newly created work was titled \"WTF is Ansel Adams ?!\" 2009', with a link to the studio's public posting of 2012-11-22. At 22:24:38 UTC, on the Artsy post: 'I created Metaconceptual Art around 2008, and auctioned Lot 16 of Sotheby's May 2009 photography auction as a live Metaconceptual Performance piece. Sorry Banksy, set the stage for you 10 years ago.', with the same link. The second is the earliest dated use of the title 'WTF is Ansel Adams ?!' held in this collection.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "When, and in answer to what. The comments were written on the day Sotheby's announced that the Banksy painting shredded in its London saleroom on 2018-10-05 had been renamed 'Love is in the Bin', a story the art press carried widely that day. The export records only that the comments were made on posts by ARTnews and Artsy; it does not preserve the posts themselves. The comments are a response to that news, made nine and a half years after the sale they describe, and the third names Banksy directly. That is the context in which the title is first dated, and it is recorded here so that the date is not read as older than it is.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What the title's date is, and is not. Until this record, the only public use of the title held in this collection was an undated profile biography. The comment of 22:12 UTC gives it a date assigned by someone other than the studio, 2018-10-11, and attaches the year 2009 to it. The 2009 is the writer's statement of when the work was made; the date the comment establishes is 2018. Nothing in the correspondence of 2008 and 2009, the private message of 2010-04-12, or the museum letter of 2013-09-12 gives the auction a title, and this comment does not change that.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Two discrepancies, recorded rather than resolved. The third comment says the studio principal created Metaconceptual Art 'around 2008'; this collection records the studio's assertion that the movement dates from 2007, and the two are the studio's own accounts in different years. The first and third comments date the sale to May 2009, as the 2010 message and the 2013 letter do; Sotheby's sale N08533 took place on 30 March 2009. The first comment's remark that the catalogue lists the seller as anonymous agrees with this collection's finding that the catalogue names no consignor.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What this record does not adopt. The comments call the sale a 'live performance' and a 'live Metaconceptual Performance piece', and the third addresses Banksy. Those are the studio principal's words of 2018, quoted as written. This collection does not describe the 2009 sale as a work created live at auction or as a witnessed performance, and makes no claim of priority over Banksy or any other artist or event; nothing in these comments is evidence for either, and neither is asserted here.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Evidence status. The comments are in the comments file of the account data Facebook compiled and delivered on request on 2026-09-24, 874,950 bytes, SHA-256 6bccd7fe8c5e3057c9fccbdcffa62519501e3e8c3585eaccd09eb914ca5249d0, within the archive facebook-joechirum-2026-09-24-TZ87gGfq.zip, SHA-256 c978c3bd338a6a9a934d3aa05a81d2c298c49200bf7e4edc98b8329c02103097. Only the studio principal's words are quoted; the posts they answered are named by their publishers, which are organisations.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "about": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams",
+      "type": "HumanMadeObject",
+      "_label": "WTF is Ansel Adams"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
+      "type": "PropositionalObject",
+      "_label": "The auction as artwork (concept)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art",
+      "type": "Type",
+      "_label": "Metaconceptual Art (concept)"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "CC BY 4.0",
+      "classified_as": [
+        {
+          "id": "https://creativecommons.org/licenses/by/4.0/",
+          "type": "Type",
+          "_label": "Attribution 4.0 International (CC BY 4.0)"
+        }
+      ],
+      "possessed_by": [
+        {
+          "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+          "type": "Group",
+          "_label": "Sun & Rain Works"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Compilation of the 2018 comments evidence record",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2018"
+    },
+    "curies": [
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
+    ],
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
+  }
+}
