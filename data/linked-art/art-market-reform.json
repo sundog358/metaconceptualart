@@ -110,6 +110,17 @@
     },
     {
       "type": "LinguisticObject",
+      "content": "A website for the work, 2014. In public Facebook comments of 2014-02-05 and 2014-05-09, at times Facebook assigns, the studio linked artmarketreform.com as the work's site, the second reading '\"Art Market Reform\" is #Metaconceptual #Art and looks like this: http://artmarketreform.com/'. No capture of that site from 2014 exists, so what it showed is not known; the comments are set out in the archived-websites record.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
       "content": "Named, and called a title, in a letter to a museum on 2013-09-12. The studio's letter to the Jordan Schnitzer Museum of Art introduces two works by name: 'Two popular examples of Metaconceptual Art, which are ongoing through time and space as well, are titled \"Art Market Reform\" , and \"Art Tax\"'. It then glosses this one: 'Promoting Art Tax on the local, state, national, and international levels to encourage and promote accountability, transparency, and regulation in the Art Market and Art World.' That is the earliest naming of this work delivered to an institution, though not the earliest dated: a public Facebook comment of 2012-08-14 reads 'Coming Soon: Art Market Reform ! ! !', and a private message of 2013-05-29 calls it one of the writer's more recent works of Metaconceptual Art, both set out in the record of the 2012-2013 Facebook and USA Projects evidence; it is in the artist's own words, and it was delivered to a named institution which produced its own copy from its archive in 2026, so the date does not rest on the studio's mailbox alone. Three limits go with it. The letter attests that the title was in use on that date; it does not date the making of the image published with this record, and its own phrase, that the works are 'ongoing through time and space', describes them as continuing rather than finished. The letter attaches images but names none of them, so nothing in it identifies the file published here as the thing it names. And a title used in 2013 says nothing about 2009 or before.",
       "classified_as": [
         {

@@ -193,6 +193,17 @@
     },
     {
       "type": "LinguisticObject",
+      "content": "artmarketreform.com, attested from February 2014 by Facebook. The studio pointed to a website for the work at artmarketreform.com in two public Facebook comments whose times Facebook assigns. On 2014-02-05 at 07:24:31 UTC, on a photograph posted by the art fair Art Basel, it wrote 'Metaconceptual Art: \"Art Market Reform\" http://artmarketreform.com/'. On 2014-05-09 at 22:15:17 UTC, on a link posted by another page, it wrote 'Because the \"Art Market\" is an unregulated black market ? \"Art Market Reform\" is #Metaconceptual #Art and looks like this: http://artmarketreform.com/'. Both comments carry the address as a link. They show the address in use by the studio, publicly, from February 2014, and the work described there as Metaconceptual Art; they do not show what the site contained, and the Internet Archive holds no capture of artmarketreform.com before 2016. That domain is distinct from ARTMARKETREFORM.ORG, which the registrar's receipts show the studio registering on 2012-11-21. The captures of artmarketreform.com made in 2016 are not attributed to the studio by this record: some of their content is unlike the studio's, and whether the domain was then still the studio's is not established. The comments are in the comments file of the account data Facebook compiled on request on 2026-09-24, 874,950 bytes, SHA-256 6bccd7fe8c5e3057c9fccbdcffa62519501e3e8c3585eaccd09eb914ca5249d0, within the archive facebook-joechirum-2026-09-24-TZ87gGfq.zip, SHA-256 c978c3bd338a6a9a934d3aa05a81d2c298c49200bf7e4edc98b8329c02103097.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
       "content": "What is not the studio's, and must not be cited as if it were. The domain wtfisart.com passed out of the studio's hands. A capture of 2016-07-11 shows a hosting suspension page, and from 2020 the domain carries an unrelated publication of art, film and book reviews written under several bylines, which is captured many hundreds of times between 2020 and 2025. The registry record was checked in 2026 and shows a fresh registration of 2024-08-29, so the domain lapsed and was taken up again by someone else. Nothing captured from 2016-07 onward is the studio's work, and the later site's contents say nothing about this collection. A separate incarnation captured on 2016-11-02, a wiki-style 'encyclopedic directory of Art' listing artists, is recorded here only so that a reader who finds it is not misled: it names no work of the studio's and makes no claim this collection relies on.",
       "classified_as": [
         {
