@@ -291,6 +291,22 @@
         "type": "LinguisticObject"
       },
       "endTime": "2026-09-24T06:15:53-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/art-market-reform",
+        "type": "DigitalObject"
+      },
+      "endTime": "2026-09-24T06:22:09-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-archived-websites-2013-2016",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-24T06:22:09-07:00"
     }
   ]
 }
