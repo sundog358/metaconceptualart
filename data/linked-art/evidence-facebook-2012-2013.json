@@ -66,6 +66,17 @@
     },
     {
       "type": "LinguisticObject",
+      "content": "A message of 30 October 2012, before the definition was published. On 2012-10-30 at 15:18:13 UTC, by Facebook's clock, the studio principal wrote privately to an artist in New York whom he did not know; there was no reply: 'I had a profound to the core earth shattering \"Art Vision\" 4+ years ago, which illuminated to me the multidimensional nature of art. This was the birth of metaconceptual Art. Metaconceptual art has 8 defining characteristics, blah blah blah, its interconnected with the fabric of the Universe and it involves an interdisciplinary collaborative unification of our synergistic efforts to create the organic machinery of Living Art for the benefit of body mind and spirit of all human kind. For The Love of God, We Are the Art.' Three things in it are earlier than this collection had held. It refers to the eight defining characteristics twenty-three days before the public posting of 2012-11-22 that sets them out, though it does not list them. It is the earliest dated appearance of the line 'For the Love of God, We Are the Art', which the collection had otherwise first in a message of 2013-07-23 and in the website capture of 2014-12-18. And it places the 'Art Vision' that was 'the birth of metaconceptual Art' about four years before October 2012, that is in about 2008, where the studio's undated profile biography gives 2007. The recipient is not named. The thread's file in the account data, 2,333 bytes, has SHA-256 4f5d17de6efc3bf220792cf962eabfe7db80a70f941d6e427bd71abb05602f12, within the archive facebook-joechirum-2026-09-24-TZ87gGfq.zip, SHA-256 c978c3bd338a6a9a934d3aa05a81d2c298c49200bf7e4edc98b8329c02103097.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
       "content": "Evidence status. The Facebook items are dated by Facebook, from the account data it compiled and delivered on request on 2026-09-24, held by the studio as facebook-joechirum-2026-09-24-TZ87gGfq.zip, SHA-256 c978c3bd338a6a9a934d3aa05a81d2c298c49200bf7e4edc98b8329c02103097. The four comments are in the export's comments file, 874,950 bytes, SHA-256 6bccd7fe8c5e3057c9fccbdcffa62519501e3e8c3585eaccd09eb914ca5249d0. The messages are in three archived threads, of 88,494, 1,200 and 4,062 bytes, with SHA-256 1d3b2a20d85b4ac622e22750db44b1e758e777a65fe505577f9f5b95a0695993, 279fa2963258dd639e10907d1f4a0918ede159891b1bd2e227ab0a425aee980e and 3c39b34bdd158d8171c26ff9eef29eff1dc19f3122023bed5fd807b588f22def. The USA Projects page is dated by the Internet Archive, which captured it at 2013-08-12 08:16:17 UTC and again on 2013-08-14, with its supporting pages on 2013-09-17, at https://web.archive.org/web/20130812081617/http://www.usaprojects.org:80/project/pittsburgh_city_of_bridges_city_of_god. The capture as retrieved on 2026-09-24, 36,818 bytes, has SHA-256 a956b435d0b40f5522bdb73a20919ba2028f14e458e02c014ffbac741f723372. USA Projects was the fundraising programme of the non-profit United States Artists; the page shows a goal of $2,500, $50 raised, and a closing date of 21 August.",
       "classified_as": [
         {
