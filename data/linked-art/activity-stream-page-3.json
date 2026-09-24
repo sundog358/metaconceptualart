@@ -211,6 +211,70 @@
         "type": "LinguisticObject"
       },
       "endTime": "2026-09-24T05:32:57-07:00"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2012-2013",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-24T05:41:31-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/art-market-reform",
+        "type": "DigitalObject"
+      },
+      "endTime": "2026-09-24T05:41:31-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+        "type": "Set"
+      },
+      "endTime": "2026-09-24T05:41:31-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-archived-websites-2013-2016",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-24T05:41:31-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2009",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-24T05:41:31-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-inscription-photograph-2011",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-24T05:41:31-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-live-auction-2009",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-24T05:41:31-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-museum-correspondence-2013",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-24T05:41:31-07:00"
     }
   ]
 }
