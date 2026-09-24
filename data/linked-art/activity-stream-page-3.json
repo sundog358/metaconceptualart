@@ -115,6 +115,54 @@
         "type": "LinguisticObject"
       },
       "endTime": "2026-09-24T04:42:58-07:00"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-message-2010",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-24T05:21:42-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
+        "type": "PropositionalObject"
+      },
+      "endTime": "2026-09-24T05:21:42-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+        "type": "Set"
+      },
+      "endTime": "2026-09-24T05:21:42-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-hawaii-notebook-2008-2009",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-24T05:21:42-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-sothebys-approach-2008",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-24T05:21:42-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/priority-live-auction-2009",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-24T05:21:42-07:00"
     }
   ]
 }
