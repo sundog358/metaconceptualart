@@ -339,6 +339,38 @@
         "type": "LinguisticObject"
       },
       "endTime": "2026-09-24T06:33:48-07:00"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2018",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-24T07:33:36-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+        "type": "Set"
+      },
+      "endTime": "2026-09-24T07:33:36-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art",
+        "type": "Type"
+      },
+      "endTime": "2026-09-24T07:33:36-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/wtf-is-ansel-adams",
+        "type": "HumanMadeObject"
+      },
+      "endTime": "2026-09-24T07:33:36-07:00"
     }
   ]
 }
