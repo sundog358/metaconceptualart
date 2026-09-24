@@ -77,6 +77,17 @@
     },
     {
       "type": "LinguisticObject",
+      "content": "The spelling 'furthur'. The message's 'doing my part to help furthur Art History' is not a slip. The studio states, in 2026, that it is a reference to Furthur, the bus of Ken Kesey's Merry Pranksters, whose spelling it borrows. That is the studio's account; what the record shows is that the same spelling recurs in the studio principal's Facebook writing from 2010 to 2013 ('Furthurmore' in 2010, 'Furthur . . .' in 2012, 'furthur !' in 2013), at dates Facebook assigns, so it was a usage he kept and not an accident of one message.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
       "content": "The captions. Both photographs are of shop fronts, taken by the studio and captioned by it. 'Artists who know, paint with only the finest' plays on a paint retailer's name and slogan, and 'What art ?' sets a question about art against a plain storefront. The studio states, in 2026, that the wordplay was deliberate, part of the same questioning of what counts as art that runs through its later work under the phrase 'WTF is Art'. That is the studio's account. The captions are evidence that the wordplay existed, under Facebook's dates, in December 2009; whether it was intended as art is not something a caption can show, and this record does not treat it as a work.",
       "classified_as": [
         {

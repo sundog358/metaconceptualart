@@ -253,6 +253,11 @@
       "id": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2009",
       "type": "LinguisticObject",
       "_label": "Evidence archive: 'a meta-conceptual artist', and captions of 2009, on Facebook (December 2009)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2012-2013",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: Art Market Reform, 'WTF is Art' and Metaconceptual Art on Facebook and USA Projects (2012-2013)"
     }
   ],
   "_links": {

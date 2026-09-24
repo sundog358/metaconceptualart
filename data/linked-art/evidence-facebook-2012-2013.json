@@ -1,0 +1,180 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2012-2013",
+  "type": "LinguisticObject",
+  "_label": "Evidence archive: Art Market Reform, 'WTF is Art' and Metaconceptual Art on Facebook and USA Projects (2012-2013)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Evidence archive: Art Market Reform, 'WTF is Art' and Metaconceptual Art on Facebook and USA Projects (2012-2013)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "record:evidence-facebook-2012-2013",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026087",
+      "type": "Type",
+      "_label": "texts"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300026906",
+      "type": "Type",
+      "_label": "documents"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300055863",
+      "type": "Type",
+      "_label": "provenance"
+    }
+  ],
+  "content": "Dated statements by the studio principal on Facebook in 2012 and 2013, with the times Facebook assigned them, and a public fundraising page he placed on the USA Projects site in 2013, captured by the Internet Archive. In public comments on posts by a New York art critic he wrote 'Coming Soon: Art Market Reform ! ! !' on 2012-08-14 at 05:20:21 UTC; 'Only thing better than that, would be open source, free, participatory, interactive, multi-media 21st century MetaConceptual Art, which wouldn't cost a dime, and could be open and available for the planet Earth 24/7/365, just like McDonalds' on 2012-11-16 at 07:25:18 UTC; '\" Art Market Reform \" sounds like profanity to many here among us' on 2012-11-21 at 12:50:29 UTC; and '#WTF is #Art ?! give thanks !' on 2012-11-21 at 14:34:42 UTC. In private messages he wrote on 2012-11-25 that he had started a Facebook page one or two days earlier, and that 'Art Historians from the Future is a simple example' of starting with analog art and changing it digitally; on 2013-05-29 that 'One of my more recent works of Metaconceptual Art is titled \"Art Market Reform\"'; and on 2013-07-23 that 'I am the creator of Metaconceptual Art and this is a Meta Art Work', of a work called 'The Art Market Bubble', closing with 'For the Love of God ... We are the Art.' The USA Projects page, 'Pittsburgh: City of Bridges, City of God', credited to Sun and Rain Works and captured on 2013-08-12, asks for support 'in the tradition of Metaconceptual Art' and gives its author's biography as 'I am a contemporary American metaconceptual Artist.' Together they carry several of the collection's titles and phrases earlier than any date this collection had held for them.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "What is earlier than before, and by how much. The public comment of 2012-08-14 is the earliest dated use of the title 'Art Market Reform' held here, thirteen months before the museum letter of 2013-09-12 that had been the earliest; the private message of 2013-05-29 is the earliest calling it a work of Metaconceptual Art. The comment of 2012-11-21 is the earliest dated appearance of the phrase 'WTF is Art' with a third party's date, nine months before the X post of 2013-08-29, and one day before the public posting of 2012-11-22 headed '#WTF is MetaConceptual Art ?!'. It was written on the day the registrar's receipts show ARTMARKETREFORM.ORG being registered, and a few hours after the comment that calls Art Market Reform profanity. The message of 2012-11-25 is the earliest dated naming of 'Art Historians from the Future', six months before the Flickr posting of the digital work on 2013-06-02. The USA Projects page is the earliest Internet Archive capture held here of a page carrying the term Metaconceptual Art of the studio's own work, on a site the studio did not run; it precedes the museum letter by a month. The public use of the term itself is older, in the posting of 2011-11-28.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Evidence status. The Facebook items are dated by Facebook, from the account data it compiled and delivered on request on 2026-09-24, held by the studio as facebook-joechirum-2026-09-24-TZ87gGfq.zip, SHA-256 c978c3bd338a6a9a934d3aa05a81d2c298c49200bf7e4edc98b8329c02103097. The four comments are in the export's comments file, 874,950 bytes, SHA-256 6bccd7fe8c5e3057c9fccbdcffa62519501e3e8c3585eaccd09eb914ca5249d0. The messages are in three archived threads, of 88,494, 1,200 and 4,062 bytes, with SHA-256 1d3b2a20d85b4ac622e22750db44b1e758e777a65fe505577f9f5b95a0695993, 279fa2963258dd639e10907d1f4a0918ede159891b1bd2e227ab0a425aee980e and 3c39b34bdd158d8171c26ff9eef29eff1dc19f3122023bed5fd807b588f22def. The USA Projects page is dated by the Internet Archive, which captured it at 2013-08-12 08:16:17 UTC and again on 2013-08-14, with its supporting pages on 2013-09-17, at https://web.archive.org/web/20130812081617/http://www.usaprojects.org:80/project/pittsburgh_city_of_bridges_city_of_god. The capture as retrieved on 2026-09-24, 36,818 bytes, has SHA-256 a956b435d0b40f5522bdb73a20919ba2028f14e458e02c014ffbac741f723372. USA Projects was the fundraising programme of the non-profit United States Artists; the page shows a goal of $2,500, $50 raised, and a closing date of 21 August.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What these do and do not show. Every item is the studio principal's own writing; the Facebook dates and the archive's capture fix when he wrote or published it, not whether what he wrote is true. None of them concerns the 2009 sale, and none evidences the 2007 origin asserted elsewhere. The comments were made on a public figure's posts, where they could be read by others; the messages were private, and the page was public. That a phrase or title was in use by a date is all they establish, and each is recorded here for that.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Privacy. The art critic whose posts carried the comments is identified by role only, and the private correspondents are not named; nothing any of them wrote is reproduced. Only the studio principal's words are quoted. The Facebook page named in the message of 2013-05-29, facebook.com/ArtMarketReform, and the page the message of 2012-11-25 describes as newly started are not held, and the Internet Archive holds no capture of either from those years.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "about": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art",
+      "type": "Type",
+      "_label": "Metaconceptual Art (concept)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/art-market-reform",
+      "type": "DigitalObject",
+      "_label": "Art Market Reform"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "CC BY 4.0",
+      "classified_as": [
+        {
+          "id": "https://creativecommons.org/licenses/by/4.0/",
+          "type": "Type",
+          "_label": "Attribution 4.0 International (CC BY 4.0)"
+        }
+      ],
+      "possessed_by": [
+        {
+          "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+          "type": "Group",
+          "_label": "Sun & Rain Works"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Compilation of the 2012-2013 Facebook and USA Projects evidence record",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2012-2013"
+    },
+    "curies": [
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
+    ],
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
+  }
+}
