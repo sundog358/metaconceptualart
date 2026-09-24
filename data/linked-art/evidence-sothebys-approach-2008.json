@@ -182,6 +182,17 @@
     },
     {
       "type": "LinguisticObject",
+      "content": "The catalogue photograph, held by the studio. Among the files recovered in 2026 from a USB flash drive the studio used with its Macs is 'san francisco.jpg', 1,430 by 1,198 pixels, 200,688 bytes, SHA-256 ac6d1aac01ed51467b575ed11a850bd8b9ef85586bf6ea2756eca411612190ea. It is a copy-stand photograph of the matted print, taken square-on beside a grey-scale colour strip of the kind used in catalogue photography, and the drive's directory entry gives it the date 2009-04-01 07:11:04, two days after the sale. That date is carried by the file from the studio's own machine, so it is the studio's account, not the auction house's. The photograph was compared on 2026-09-24 with the image Sotheby's publishes today for this lot, catalogue sale N08533, lot 16, the source file 'n08533-16-lr-1.jpg', 2,000 by 2,000 pixels, SHA-256 a6830325b73a8450a9425e7b0e81678c15256da3833db9d956129713e67d8207. Aligned by 2,094 matched image features, the two are related by a pure enlargement of 1.933 and a shift, with no rotation, no perspective difference, and a median error of 0.16 of a pixel. Two separate photographs of the same print do not align that exactly, so the two files are one photograph. Neither was made from the other. Sotheby's file is a tighter crop of the print alone and carries markedly more fine detail than the studio's, while the studio's shows more of the frame, the whole mat and the colour strip, than Sotheby's does. Both therefore descend from a larger, uncropped original, which, since the auction house publishes it as its catalogue image of the lot, is taken here to be Sotheby's own photograph. The studio states, in 2026, that Sotheby's sent it the image. No message carrying it is among those held: the image is not attached to any of the thread's messages that the studio has produced as files, so the sending itself is the studio's account. What the comparison adds is independent of that account: the studio's file is the auction house's catalogue photograph, in a fuller frame than the one it publishes, and not a photograph the studio took, which is consistent with the studio's account of how it was obtained. The photograph is not reproduced here, because the rights in it are the auction house's; its checksum is published so that the held file can be matched. It says nothing about the sale as an artwork: it is the auction house's record of the object it sold.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
       "content": "Redaction and scope. Following this collection's convention, the Sotheby's specialist addressed in the message is identified by department and role only; their name and mailbox are withheld pending consent, as are the studio principal's then-current personal mailbox and telephone number, all of which are retained in the studio's private copy. The sothebys.com domain is deliberately retained, because the fact of an approach to that institution is the point of the record. The recipient institution may hold its own copy of this message; no copy has yet been obtained from it. What this record establishes is an approach, an identity, and a set of photographs. It establishes no acceptance, valuation, or endorsement by Sotheby's, no consignor of record, and nothing about the 2007 origin asserted elsewhere in this collection.",
       "classified_as": [
         {
