@@ -307,6 +307,22 @@
         "type": "LinguisticObject"
       },
       "endTime": "2026-09-24T06:22:09-07:00"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-press-release-2014",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-24T06:28:10-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+        "type": "Set"
+      },
+      "endTime": "2026-09-24T06:28:10-07:00"
     }
   ]
 }
