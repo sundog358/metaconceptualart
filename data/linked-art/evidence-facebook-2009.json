@@ -99,6 +99,17 @@
     },
     {
       "type": "LinguisticObject",
+      "content": "The name's sense, 16 October 2009. A private Facebook message sent from this account on 2009-10-16 at 03:30:38 UTC, by Facebook's clock, and written on Kaua'i, closes with the line '\" It takes Sun and Rain to make a Rainbow \"' and is signed 'Aloha Jdawg'. It is the earliest dated statement of the image carried by the name Sun and Rain Works, and the studio principal repeats the line in a message of 2012-09-30. The recipient is a private correspondent and is not named, and nothing he wrote is reproduced. The thread's file in the account data, 6,294 bytes, has SHA-256 07b3e776bb246b3874e88445e4f813e6dc99e24d87e1c753bfe56a6541b9f051, within the archive facebook-joechirum-2026-09-24-TZ87gGfq.zip, SHA-256 c978c3bd338a6a9a934d3aa05a81d2c298c49200bf7e4edc98b8329c02103097.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
       "content": "Privacy and scope. The recipient of the message is a private correspondent and is not named, and nothing he wrote is reproduced; only the studio principal's sentence is quoted. The photographs are not reproduced here. This record makes no claim of priority over any other use of the word metaconceptual by anyone else, which this collection does not assert.",
       "classified_as": [
         {

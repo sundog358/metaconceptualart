@@ -59,6 +59,28 @@
           "_label": "description"
         }
       ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The name. The studio principal's own gloss on the name, 'It takes Sun and Rain to make a Rainbow', is first dated in a private Facebook message of 2009-10-16 and recurs in 2012; it is set out in the record of the 2009 Facebook evidence.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The studio's own accounts of when the business began, and of a break in it. The business's earliest attestation in this collection is a third party's: the Eugene Saturday Market's records of its membership in 2005, 2006 and 2008, on which the formation date given here rests. The studio principal's own statements place the start differently. In a private Facebook message of 2012-11-25 at 14:16 UTC, by Facebook's clock, written a day or two after he set up the business's Facebook page, he wrote 'S & R W started 4+ years ago, although the fb page is only 24-48 hours old', which on its own terms points to about 2008; in the same exchange he wrote that 'Much of the Art S & R W makes is VERY Traditional. i.e. drawing, painting, sculpture, collage, etc.' In another private message, of 2014-10-23, he wrote that he was 'trying to find balance and restart my art business \"Sun and Rain Works\"', which implies that the business had lapsed for a time before late 2014. Neither statement contradicts the market's record, which is the firmer source because it is a third party's; they are recorded because they are the studio's own words at the time, and they describe the business as starting later than, and as interrupted after, the formation date given here. The correspondents are not named, and only the studio principal's words are quoted. The two threads' files in the account data have SHA-256 1d3b2a20d85b4ac622e22750db44b1e758e777a65fe505577f9f5b95a0695993 and 0f76ab2dcdfc826815eeef44336033e109065d4ebc6e420ed5a752ff51ac3a7c, within the archive facebook-joechirum-2026-09-24-TZ87gGfq.zip, SHA-256 c978c3bd338a6a9a934d3aa05a81d2c298c49200bf7e4edc98b8329c02103097.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
     }
   ],
   "formed_by": {

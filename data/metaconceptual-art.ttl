@@ -247,8 +247,8 @@ mca:evidence-facebook-2009 crm:P104_is_subject_to _:b0_r14b0;
     crm:P190_has_symbolic_content "On 2009-12-19 at 16:13:43 UTC, by Facebook's clock, the studio principal wrote in a private Facebook message, replying to a musician who had asked whether they knew each other: 'I live between Eugene, and Kaua'i, and am a meta-conceptual artist, and musician, doing my part to help furthur Art History.' It is the earliest dated use of any form of the term Metaconceptual Art in this collection: nine months after the Sotheby's sale, and one year and eleven months before the public posting of 2011-11-28 that had been the earliest located use. In the same month the studio captioned two of its own photographs, uploaded to its Facebook albums, with wordplay on art: a Kaua'i paint shop trading under a 'Pittsburgh Paints' sign, uploaded on 2009-12-01 at 04:38:28 UTC as 'Artists who know, paint with only the finest... Kaua'i meets Pittsburgh !!!', and a Kilauea paint shop and shave-ice stand, uploaded on 2009-12-30 at 03:32:17 UTC as 'What art ?'. The studio states that the wordplay was by design.";
     crm:P1_is_identified_by _:b0_r14b1, _:b0_r14b2;
     crm:P2_has_type aat:300026087, aat:300026906, aat:300055863;
-    crm:P67i_is_referred_to_by _:b0_r14b3, _:b0_r14b4, _:b0_r14b5, _:b0_r14b6, _:b0_r14b7;
-    crm:P94i_was_created_by _:b0_r14b8;
+    crm:P67i_is_referred_to_by _:b0_r14b3, _:b0_r14b4, _:b0_r14b5, _:b0_r14b6, _:b0_r14b7, _:b0_r14b8;
+    crm:P94i_was_created_by _:b0_r14b9;
     a crm:E33_Linguistic_Object;
     rdfs:label "Evidence archive: 'a meta-conceptual artist', and captions of 2009, on Facebook (December 2009)";
     la:member_of mca:collection.
@@ -543,8 +543,8 @@ mca:sothebys crm:P1_is_identified_by _:b0_r40b0, _:b0_r40b1, _:b0_r40b2;
     la:equivalent ulan:500304344, wd:Q654762.
 mca:sun-and-rain-works crm:P1_is_identified_by _:b0_r41b0, _:b0_r41b1;
     crm:P2_has_type aat:300025948;
-    crm:P67i_is_referred_to_by _:b0_r41b2;
-    crm:P95i_was_formed_by _:b0_r41b3;
+    crm:P67i_is_referred_to_by _:b0_r41b2, _:b0_r41b3, _:b0_r41b4;
+    crm:P95i_was_formed_by _:b0_r41b5;
     a crm:E74_Group;
     rdfs:label "Sun & Rain Works".
 mca:what-hedge-funds crm:P1_is_identified_by _:b0_r42b0, _:b0_r42b1;
@@ -889,6 +889,10 @@ _:b0_r14b1 crm:P190_has_symbolic_content "Evidence archive: 'a meta-conceptual a
     crm:P2_has_type aat:300404670;
     crm:P72_has_language aat:300388277;
     a crm:E33_E41_Linguistic_Appellation.
+_:b0_r14b10 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    a crm:E52_Time-Span;
+    rdfs:label "2026".
 _:b0_r14b2 crm:P190_has_symbolic_content "record:evidence-facebook-2009";
     crm:P2_has_type aat:300312355;
     a crm:E42_Identifier.
@@ -904,17 +908,16 @@ _:b0_r14b5 crm:P190_has_symbolic_content "The spelling 'furthur'. The message's 
 _:b0_r14b6 crm:P190_has_symbolic_content "The captions. Both photographs are of shop fronts, taken by the studio and captioned by it. 'Artists who know, paint with only the finest' plays on a paint retailer's name and slogan, and 'What art ?' sets a question about art against a plain storefront. The studio states, in 2026, that the wordplay was deliberate, part of the same questioning of what counts as art that runs through its later work under the phrase 'WTF is Art'. That is the studio's account. The captions are evidence that the wordplay existed, under Facebook's dates, in December 2009; whether it was intended as art is not something a caption can show, and this record does not treat it as a work.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r14b7 crm:P190_has_symbolic_content "Privacy and scope. The recipient of the message is a private correspondent and is not named, and nothing he wrote is reproduced; only the studio principal's sentence is quoted. The photographs are not reproduced here. This record makes no claim of priority over any other use of the word metaconceptual by anyone else, which this collection does not assert.";
+_:b0_r14b7 crm:P190_has_symbolic_content "The name's sense, 16 October 2009. A private Facebook message sent from this account on 2009-10-16 at 03:30:38 UTC, by Facebook's clock, and written on Kaua'i, closes with the line '\" It takes Sun and Rain to make a Rainbow \"' and is signed 'Aloha Jdawg'. It is the earliest dated statement of the image carried by the name Sun and Rain Works, and the studio principal repeats the line in a message of 2012-09-30. The recipient is a private correspondent and is not named, and nothing he wrote is reproduced. The thread's file in the account data, 6,294 bytes, has SHA-256 07b3e776bb246b3874e88445e4f813e6dc99e24d87e1c753bfe56a6541b9f051, within the archive facebook-joechirum-2026-09-24-TZ87gGfq.zip, SHA-256 c978c3bd338a6a9a934d3aa05a81d2c298c49200bf7e4edc98b8329c02103097.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r14b8 crm:P14_carried_out_by mca:sun-and-rain-works;
-    crm:P4_has_time-span _:b0_r14b9;
+_:b0_r14b8 crm:P190_has_symbolic_content "Privacy and scope. The recipient of the message is a private correspondent and is not named, and nothing he wrote is reproduced; only the studio principal's sentence is quoted. The photographs are not reproduced here. This record makes no claim of priority over any other use of the word metaconceptual by anyone else, which this collection does not assert.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r14b9 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P4_has_time-span _:b0_r14b10;
     a crm:E65_Creation;
     rdfs:label "Compilation of the 2009 Facebook evidence record".
-_:b0_r14b9 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-    crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-    a crm:E52_Time-Span;
-    rdfs:label "2026".
 _:b0_r15b0 crm:P2_has_type <https://creativecommons.org/licenses/by/4.0/>;
     crm:P75i_is_possessed_by mca:sun-and-rain-works;
     a crm:E30_Right;
@@ -1938,10 +1941,16 @@ _:b0_r41b1 crm:P190_has_symbolic_content "agent:sun-and-rain-works";
 _:b0_r41b2 crm:P190_has_symbolic_content "The art business and studio established in 2005 that authors Metaconceptual Art and holds its copyright.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r41b3 crm:P4_has_time-span _:b0_r41b4;
+_:b0_r41b3 crm:P190_has_symbolic_content "The name. The studio principal's own gloss on the name, 'It takes Sun and Rain to make a Rainbow', is first dated in a private Facebook message of 2009-10-16 and recurs in 2012; it is set out in the record of the 2009 Facebook evidence.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r41b4 crm:P190_has_symbolic_content "The studio's own accounts of when the business began, and of a break in it. The business's earliest attestation in this collection is a third party's: the Eugene Saturday Market's records of its membership in 2005, 2006 and 2008, on which the formation date given here rests. The studio principal's own statements place the start differently. In a private Facebook message of 2012-11-25 at 14:16 UTC, by Facebook's clock, written a day or two after he set up the business's Facebook page, he wrote 'S & R W started 4+ years ago, although the fb page is only 24-48 hours old', which on its own terms points to about 2008; in the same exchange he wrote that 'Much of the Art S & R W makes is VERY Traditional. i.e. drawing, painting, sculpture, collage, etc.' In another private message, of 2014-10-23, he wrote that he was 'trying to find balance and restart my art business \"Sun and Rain Works\"', which implies that the business had lapsed for a time before late 2014. Neither statement contradicts the market's record, which is the firmer source because it is a third party's; they are recorded because they are the studio's own words at the time, and they describe the business as starting later than, and as interrupted after, the formation date given here. The correspondents are not named, and only the studio principal's words are quoted. The two threads' files in the account data have SHA-256 1d3b2a20d85b4ac622e22750db44b1e758e777a65fe505577f9f5b95a0695993 and 0f76ab2dcdfc826815eeef44336033e109065d4ebc6e420ed5a752ff51ac3a7c, within the archive facebook-joechirum-2026-09-24-TZ87gGfq.zip, SHA-256 c978c3bd338a6a9a934d3aa05a81d2c298c49200bf7e4edc98b8329c02103097.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r41b5 crm:P4_has_time-span _:b0_r41b6;
     a crm:E66_Formation;
     rdfs:label "Formation of Sun & Rain Works".
-_:b0_r41b4 crm:P82a_begin_of_the_begin "2005-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+_:b0_r41b6 crm:P82a_begin_of_the_begin "2005-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     crm:P82b_end_of_the_end "2005-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     a crm:E52_Time-Span;
     rdfs:label "2005".

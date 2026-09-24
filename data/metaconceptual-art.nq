@@ -396,7 +396,8 @@
 <https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r14b5 .
 <https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r14b6 .
 <https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r14b7 .
-<https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2009> <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by> _:r14b8 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2009> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r14b8 .
+<https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2009> <http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by> _:r14b9 .
 <https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
 <https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2009> <http://www.w3.org/2000/01/rdf-schema#label> "Evidence archive: 'a meta-conceptual artist', and captions of 2009, on Facebook (December 2009)" .
 <https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2009> <https://linked.art/ns/terms/member_of> <https://www.metaconceptualart.com/data/linked-art/collection> .
@@ -943,7 +944,9 @@
 <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r41b1 .
 <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300025948> .
 <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r41b2 .
-<https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> <http://www.cidoc-crm.org/cidoc-crm/P95i_was_formed_by> _:r41b3 .
+<https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r41b3 .
+<https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> <http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by> _:r41b4 .
+<https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> <http://www.cidoc-crm.org/cidoc-crm/P95i_was_formed_by> _:r41b5 .
 <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E74_Group> .
 <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> <http://www.w3.org/2000/01/rdf-schema#label> "Sun & Rain Works" .
 <https://www.metaconceptualart.com/data/linked-art/what-hedge-funds> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:r42b0 .
@@ -1317,6 +1320,10 @@ _:r14b1 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Evidence
 _:r14b1 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
 _:r14b1 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
 _:r14b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_E41_Linguistic_Appellation> .
+_:r14b10 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r14b10 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r14b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+_:r14b10 <http://www.w3.org/2000/01/rdf-schema#label> "2026" .
 _:r14b2 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "record:evidence-facebook-2009" .
 _:r14b2 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300312355> .
 _:r14b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
@@ -1332,17 +1339,16 @@ _:r14b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.
 _:r14b6 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The captions. Both photographs are of shop fronts, taken by the studio and captioned by it. 'Artists who know, paint with only the finest' plays on a paint retailer's name and slogan, and 'What art ?' sets a question about art against a plain storefront. The studio states, in 2026, that the wordplay was deliberate, part of the same questioning of what counts as art that runs through its later work under the phrase 'WTF is Art'. That is the studio's account. The captions are evidence that the wordplay existed, under Facebook's dates, in December 2009; whether it was intended as art is not something a caption can show, and this record does not treat it as a work." .
 _:r14b6 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
 _:r14b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r14b7 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Privacy and scope. The recipient of the message is a private correspondent and is not named, and nothing he wrote is reproduced; only the studio principal's sentence is quoted. The photographs are not reproduced here. This record makes no claim of priority over any other use of the word metaconceptual by anyone else, which this collection does not assert." .
+_:r14b7 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The name's sense, 16 October 2009. A private Facebook message sent from this account on 2009-10-16 at 03:30:38 UTC, by Facebook's clock, and written on Kaua'i, closes with the line '\" It takes Sun and Rain to make a Rainbow \"' and is signed 'Aloha Jdawg'. It is the earliest dated statement of the image carried by the name Sun and Rain Works, and the studio principal repeats the line in a message of 2012-09-30. The recipient is a private correspondent and is not named, and nothing he wrote is reproduced. The thread's file in the account data, 6,294 bytes, has SHA-256 07b3e776bb246b3874e88445e4f813e6dc99e24d87e1c753bfe56a6541b9f051, within the archive facebook-joechirum-2026-09-24-TZ87gGfq.zip, SHA-256 c978c3bd338a6a9a934d3aa05a81d2c298c49200bf7e4edc98b8329c02103097." .
 _:r14b7 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
 _:r14b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r14b8 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
-_:r14b8 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r14b9 .
-_:r14b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
-_:r14b8 <http://www.w3.org/2000/01/rdf-schema#label> "Compilation of the 2009 Facebook evidence record" .
-_:r14b9 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r14b9 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r14b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-_:r14b9 <http://www.w3.org/2000/01/rdf-schema#label> "2026" .
+_:r14b8 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "Privacy and scope. The recipient of the message is a private correspondent and is not named, and nothing he wrote is reproduced; only the studio principal's sentence is quoted. The photographs are not reproduced here. This record makes no claim of priority over any other use of the word metaconceptual by anyone else, which this collection does not assert." .
+_:r14b8 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r14b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r14b9 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
+_:r14b9 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r14b10 .
+_:r14b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
+_:r14b9 <http://www.w3.org/2000/01/rdf-schema#label> "Compilation of the 2009 Facebook evidence record" .
 _:r15b0 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <https://creativecommons.org/licenses/by/4.0/> .
 _:r15b0 <http://www.cidoc-crm.org/cidoc-crm/P75i_is_possessed_by> <https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works> .
 _:r15b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E30_Right> .
@@ -2373,13 +2379,19 @@ _:r41b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.
 _:r41b2 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The art business and studio established in 2005 that authors Metaconceptual Art and holds its copyright." .
 _:r41b2 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
 _:r41b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
-_:r41b3 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r41b4 .
-_:r41b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E66_Formation> .
-_:r41b3 <http://www.w3.org/2000/01/rdf-schema#label> "Formation of Sun & Rain Works" .
-_:r41b4 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2005-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r41b4 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2005-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-_:r41b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-_:r41b4 <http://www.w3.org/2000/01/rdf-schema#label> "2005" .
+_:r41b3 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The name. The studio principal's own gloss on the name, 'It takes Sun and Rain to make a Rainbow', is first dated in a private Facebook message of 2009-10-16 and recurs in 2012; it is set out in the record of the 2009 Facebook evidence." .
+_:r41b3 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r41b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r41b4 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "The studio's own accounts of when the business began, and of a break in it. The business's earliest attestation in this collection is a third party's: the Eugene Saturday Market's records of its membership in 2005, 2006 and 2008, on which the formation date given here rests. The studio principal's own statements place the start differently. In a private Facebook message of 2012-11-25 at 14:16 UTC, by Facebook's clock, written a day or two after he set up the business's Facebook page, he wrote 'S & R W started 4+ years ago, although the fb page is only 24-48 hours old', which on its own terms points to about 2008; in the same exchange he wrote that 'Much of the Art S & R W makes is VERY Traditional. i.e. drawing, painting, sculpture, collage, etc.' In another private message, of 2014-10-23, he wrote that he was 'trying to find balance and restart my art business \"Sun and Rain Works\"', which implies that the business had lapsed for a time before late 2014. Neither statement contradicts the market's record, which is the firmer source because it is a third party's; they are recorded because they are the studio's own words at the time, and they describe the business as starting later than, and as interrupted after, the formation date given here. The correspondents are not named, and only the studio principal's words are quoted. The two threads' files in the account data have SHA-256 1d3b2a20d85b4ac622e22750db44b1e758e777a65fe505577f9f5b95a0695993 and 0f76ab2dcdfc826815eeef44336033e109065d4ebc6e420ed5a752ff51ac3a7c, within the archive facebook-joechirum-2026-09-24-TZ87gGfq.zip, SHA-256 c978c3bd338a6a9a934d3aa05a81d2c298c49200bf7e4edc98b8329c02103097." .
+_:r41b4 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300435416> .
+_:r41b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object> .
+_:r41b5 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> _:r41b6 .
+_:r41b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E66_Formation> .
+_:r41b5 <http://www.w3.org/2000/01/rdf-schema#label> "Formation of Sun & Rain Works" .
+_:r41b6 <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2005-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r41b6 <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2005-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:r41b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+_:r41b6 <http://www.w3.org/2000/01/rdf-schema#label> "2005" .
 _:r42b0 <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content> "What Hedge Funds ?!" .
 _:r42b0 <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://vocab.getty.edu/aat/300404670> .
 _:r42b0 <http://www.cidoc-crm.org/cidoc-crm/P72_has_language> <http://vocab.getty.edu/aat/300388277> .
