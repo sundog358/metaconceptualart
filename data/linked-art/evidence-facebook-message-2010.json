@@ -1,0 +1,180 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-message-2010",
+  "type": "LinguisticObject",
+  "_label": "Evidence archive: a private message describing the 2009 sale as conceptual art (12 April 2010)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Evidence archive: a private message describing the 2009 sale as conceptual art (12 April 2010)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "record:evidence-facebook-message-2010",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026087",
+      "type": "Type",
+      "_label": "texts"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300026906",
+      "type": "Type",
+      "_label": "documents"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300055863",
+      "type": "Type",
+      "_label": "provenance"
+    }
+  ],
+  "content": "A private Facebook message, sent by the studio principal on 2010-04-12 at 10:02:24 UTC to an old friend, in reply to the friend's question about what kind of art he was making. The part of it that bears on this collection reads, in his words: 'One of the highlights of my art career so far has been, tapping into the NY Art scene, when i auctioned off an o.g. Ansel Adams photograph of SanFrancisco from 1946 ? At Sotheby's spring photograph sale in May of 2009. I executed this art, as an act of contemporary conceptual art. It brought in a tidy sum.' The same message says he had spent the last two winters in Hawai'i, on Maui and Kaua'i, and was living in Eugene, Oregon. It is the earliest dated statement in this collection that the 2009 sale was itself a work of art: thirteen months after the sale, and three years and five months before the letter of 2013-09-12 to a university art museum, which had until now been the earliest.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Evidence status: dated by Facebook, not by the studio. The message is held in the account data that Facebook compiled and delivered on request on 2026-09-24, in its machine-readable form, as an entry in an archived message thread. Its time is the thread's timestamp_ms field, 1271066544000, written by Facebook's messaging system when the message was sent, and read here as 2010-04-12 10:02:24 UTC; it is not a date the studio's own machines supplied or could set. The export is held by the studio as two archives, facebook-joechirum-2026-09-24-TZ87gGfq.zip, SHA-256 c978c3bd338a6a9a934d3aa05a81d2c298c49200bf7e4edc98b8329c02103097, which carries the message, and facebook-joechirum-2026-09-24-sk0WanLy.zip, SHA-256 c277a3c4cef2fd1a014d67230fd84fcaeadbbd01adeef66e365a8330ece08072; the thread's own file within the first, 2,198 bytes, has SHA-256 d3259bacf2ca499647aeb4c7d6b8c1d5d511ed91a67e46e551fb56d5fe642621. The thread holds three messages: the studio principal's greeting of 2010-02-07, the friend's reply of 2010-02-26 asking what kind of art he was doing, and this answer. Publishing the checksums lets the held files be shown unaltered without being disclosed. The export itself is a copy made in 2026 by the platform from its own records; what it evidences is Facebook's record of the message, not an independent copy of the kind a recipient's mailbox would be.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What the message says and does not say. It calls the sale 'an act of contemporary conceptual art', says the writer 'executed this art', and places it on the New York art scene. It does not use the term Metaconceptual Art, which in this collection is first found in a public posting of 2011-11-28; it gives the work no title, as the 2013 letter gives it none; and it does not describe the sale as created live or as a performance, which the 2013 letter does. It is a statement made thirteen months after the sale, so it is evidence of how the studio principal described the sale in April 2010, not of what he intended while it was under way; the correspondence of 2008 and 2009 with the auction house remains the record of that. It is his own account, in a private message, and no reply to it is in the thread.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The same errors, already in 2010. The message dates the photograph to 1946 and the sale to May 2009. The catalogue gives the print as 1952 and the sale took place on 30 March 2009. The May dating appears again in the museum letter of 2013 and in the Flickr profile; the 1946 dating is the one the studio gave the print in its approaches of 2008. Their presence here, four years earlier and in a message to a friend rather than an institution, shows they were part of the account from the start rather than introduced later; the auction house's own references to its 'April 2009 sale' and the phrase 'spring photograph sale' used here are consistent with the reading given in the museum record, that the month is a recollection of the plan of record.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Privacy and scope. The recipient is a private individual and is not named; the friend's own message is described, not quoted. Only the studio principal's words are reproduced, and only the part of his message that bears on this collection. The message evidences a characterisation of the sale, in writing, on 2010-04-12. It is not a third party's acknowledgement of the work, it does not evidence the 2007 origin asserted elsewhere, and it makes no claim of priority over any other artist or event.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "about": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/auction-as-artwork",
+      "type": "PropositionalObject",
+      "_label": "The auction as artwork (concept)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/sothebys-photographs-auction-2009",
+      "type": "Activity",
+      "_label": "Sotheby's Photographs auction (sale N08533, 2009)"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "CC BY 4.0",
+      "classified_as": [
+        {
+          "id": "https://creativecommons.org/licenses/by/4.0/",
+          "type": "Type",
+          "_label": "Attribution 4.0 International (CC BY 4.0)"
+        }
+      ],
+      "possessed_by": [
+        {
+          "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+          "type": "Group",
+          "_label": "Sun & Rain Works"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Compilation of the 2010 Facebook-message evidence record",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-message-2010"
+    },
+    "curies": [
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
+    ],
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
+  }
+}

@@ -64,6 +64,7 @@
     { "id": "evidence-meta-sign-2012", "type": "LinguisticObject", "label": "Evidence archive: a photograph of a shop sign reading META, Italy (27 February 2012)" },
     { "id": "evidence-outreach-screenshots-2013", "type": "LinguisticObject", "label": "Evidence archive: screenshots of the studio's outreach, 12-13 September 2013" },
     { "id": "evidence-hawaii-notebook-2008-2009", "type": "LinguisticObject", "label": "Evidence archive: notebook pages and photographs from Hawai'i (2008-2009)" },
+    { "id": "evidence-facebook-message-2010", "type": "LinguisticObject", "label": "Evidence archive: a private message describing the 2009 sale as conceptual art (12 April 2010)" },
     { "id": "sothebys", "type": "Group", "label": "Sotheby's" },
     { "id": "collection", "type": "Set", "label": "Metaconceptual Art — Collection" },
     { "id": "sun-and-rain-works", "type": "Group", "label": "Sun & Rain Works" },
@@ -349,9 +350,17 @@
       "id": "record:hawaii-notebook-2008-2009",
       "type": "Provenance",
       "label": "Notebook pages and photographs from Hawai'i (2008-2009)",
-      "description": "Two photographed notebook pages and four landscapes, all held only as Facebook copies with no capture dates. The pages carry the writer's own dates: 10 November 2008 at Kipahulu, Maui, and 21-24 October 2009 on Kaua'i, the latter with working drafts of 'The Art World is Flat' that reach, by visible revision, the text posted publicly in November 2011 as 'a metaconceptual Art poem i wrote a few years ago'. The studio states the landscapes belong to the material of WTF is Ansel Adams; nothing in the files dates or connects them. The handwritten dates are self-reported.",
+      "description": "Two photographed notebook pages and four landscapes, all held only as Facebook copies with no capture dates. The pages carry the writer's own dates: 10 November 2008 at Kipahulu, Maui, and 21-24 October 2009 on Kaua'i, the latter with working drafts of 'The Art World is Flat' that reach, by visible revision, the text posted publicly in November 2011 as 'a metaconceptual Art poem i wrote a few years ago'. The studio states the landscapes belong to the material of WTF is Ansel Adams; nothing in the files connects them to it. Facebook's upload records date three of them: two on 2009-08-31 and one on 2009-10-11, in an album titled 'Kaua'i'. The handwritten dates are self-reported.",
       "wikidata": null,
       "linkedArt": "data/linked-art/evidence-hawaii-notebook-2008-2009"
+    },
+    {
+      "id": "record:facebook-message-2010",
+      "type": "Provenance",
+      "label": "A private message describing the 2009 sale as conceptual art (12 April 2010)",
+      "description": "A Facebook message of 2010-04-12 10:02:24 UTC, timestamped by Facebook and held in the account export it delivered in 2026, in which the studio principal tells an old friend he 'auctioned off an o.g. Ansel Adams photograph' at Sotheby's and 'executed this art, as an act of contemporary conceptual art'. The earliest dated statement that the sale was itself a work, thirteen months after it and three and a half years before the 2013 museum letter; the artist's own words, in private, without the term Metaconceptual and without a title, repeating the 1946 and May 2009 errors.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/evidence-facebook-message-2010"
     },
     {
       "id": "concept:metaconceptual-art",
@@ -630,6 +639,11 @@
     { "from": "record:hawaii-notebook-2008-2009", "relation": "documents", "to": "work:wtf-is-ansel-adams" },
     { "from": "record:hawaii-notebook-2008-2009", "relation": "cites", "to": "record:pastebin-2011-2012" },
     { "from": "record:hawaii-notebook-2008-2009", "relation": "cites", "to": "record:sothebys-approach-2008" },
+    { "from": "system:provenance-layer", "relation": "produces", "to": "record:facebook-message-2010" },
+    { "from": "record:facebook-message-2010", "relation": "documents", "to": "concept:auction-as-artwork" },
+    { "from": "record:facebook-message-2010", "relation": "documents", "to": "source:sothebys-photographs-2009" },
+    { "from": "record:facebook-message-2010", "relation": "cites", "to": "record:museum-correspondence-2013" },
+    { "from": "record:live-auction-priority", "relation": "cites", "to": "record:facebook-message-2010" },
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:live-auction-priority" },
     { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:wtfisart" },
     { "from": "concept:auction-as-artwork", "relation": "designates", "to": "source:sothebys-photographs-2009" },

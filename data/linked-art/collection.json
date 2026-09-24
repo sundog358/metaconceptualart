@@ -243,6 +243,11 @@
       "id": "https://www.metaconceptualart.com/data/linked-art/evidence-hawaii-notebook-2008-2009",
       "type": "LinguisticObject",
       "_label": "Evidence archive: notebook pages and photographs from Hawai'i (2008-2009)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-message-2010",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: a private message describing the 2009 sale as conceptual art (12 April 2010)"
     }
   ],
   "_links": {
