@@ -163,6 +163,54 @@
         "type": "LinguisticObject"
       },
       "endTime": "2026-09-24T05:21:42-07:00"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2009",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-24T05:32:57-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+        "type": "Set"
+      },
+      "endTime": "2026-09-24T05:32:57-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art",
+        "type": "Type"
+      },
+      "endTime": "2026-09-24T05:32:57-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-message-2010",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-24T05:32:57-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-hawaii-notebook-2008-2009",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-24T05:32:57-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-pastebin-2011-2012",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-24T05:32:57-07:00"
     }
   ]
 }
