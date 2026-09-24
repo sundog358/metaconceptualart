@@ -1,0 +1,175 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2009",
+  "type": "LinguisticObject",
+  "_label": "Evidence archive: 'a meta-conceptual artist', and captions of 2009, on Facebook (December 2009)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Evidence archive: 'a meta-conceptual artist', and captions of 2009, on Facebook (December 2009)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "record:evidence-facebook-2009",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026087",
+      "type": "Type",
+      "_label": "texts"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300026906",
+      "type": "Type",
+      "_label": "documents"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300055863",
+      "type": "Type",
+      "_label": "provenance"
+    }
+  ],
+  "content": "On 2009-12-19 at 16:13:43 UTC, by Facebook's clock, the studio principal wrote in a private Facebook message, replying to a musician who had asked whether they knew each other: 'I live between Eugene, and Kaua'i, and am a meta-conceptual artist, and musician, doing my part to help furthur Art History.' It is the earliest dated use of any form of the term Metaconceptual Art in this collection: nine months after the Sotheby's sale, and one year and eleven months before the public posting of 2011-11-28 that had been the earliest located use. In the same month the studio captioned two of its own photographs, uploaded to its Facebook albums, with wordplay on art: a Kaua'i paint shop trading under a 'Pittsburgh Paints' sign, uploaded on 2009-12-01 at 04:38:28 UTC as 'Artists who know, paint with only the finest... Kaua'i meets Pittsburgh !!!', and a Kilauea paint shop and shave-ice stand, uploaded on 2009-12-30 at 03:32:17 UTC as 'What art ?'. The studio states that the wordplay was by design.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Evidence status: dated by Facebook, not by the studio. All three items come from the account data Facebook compiled and delivered on request on 2026-09-24, in its machine-readable form, held by the studio as facebook-joechirum-2026-09-24-TZ87gGfq.zip, SHA-256 c978c3bd338a6a9a934d3aa05a81d2c298c49200bf7e4edc98b8329c02103097. The message is the second in an archived thread whose file, 1,535 bytes, has SHA-256 eed1bba7d006e65724d7b2c9997d259df47f741a3910bc451ef0c8810b27cfd5; its time is the thread's timestamp_ms field, written by Facebook's messaging system when the message was sent. The captions and their upload times are in the file for the album 'Paradise waits', 2,162 bytes, SHA-256 03dfb25dfdcd8328ac32147840374a8c78c4a4dca2265400fc0b8f86bd1732c1, and in the file for the album 'Kaua'i', 2,283 bytes, SHA-256 be39ce170c0fe83b78ba6983061c385b167c7702dfc4340993db97ecf7cd95f5. The same data gives the account's own creation as 2009-08-09 18:39:13 UTC, so nothing earlier than August 2009 can come from this source.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What the message says and does not say. It is a self-description, written in passing, in a private note to someone the writer did not know. It uses the term hyphenated, 'meta-conceptual', and does not define it, name any work, or mention the Sotheby's sale. It shows that by December 2009 the studio principal was calling himself a meta-conceptual artist; it does not show what he meant by it then, and it does not evidence the 2007 origin asserted elsewhere. The earliest public use of the term remains the posting of 2011-11-28, and the earliest statement that the sale was a work remains the private message of 2010-04-12, which says 'conceptual art' rather than meta-conceptual.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The captions. Both photographs are of shop fronts, taken by the studio and captioned by it. 'Artists who know, paint with only the finest' plays on a paint retailer's name and slogan, and 'What art ?' sets a question about art against a plain storefront. The studio states, in 2026, that the wordplay was deliberate, part of the same questioning of what counts as art that runs through its later work under the phrase 'WTF is Art'. That is the studio's account. The captions are evidence that the wordplay existed, under Facebook's dates, in December 2009; whether it was intended as art is not something a caption can show, and this record does not treat it as a work.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Privacy and scope. The recipient of the message is a private correspondent and is not named, and nothing he wrote is reproduced; only the studio principal's sentence is quoted. The photographs are not reproduced here. This record makes no claim of priority over any other use of the word metaconceptual by anyone else, which this collection does not assert.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "about": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art",
+      "type": "Type",
+      "_label": "Metaconceptual Art (concept)"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "CC BY 4.0",
+      "classified_as": [
+        {
+          "id": "https://creativecommons.org/licenses/by/4.0/",
+          "type": "Type",
+          "_label": "Attribution 4.0 International (CC BY 4.0)"
+        }
+      ],
+      "possessed_by": [
+        {
+          "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+          "type": "Group",
+          "_label": "Sun & Rain Works"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Compilation of the 2009 Facebook evidence record",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2009"
+    },
+    "curies": [
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
+    ],
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
+  }
+}

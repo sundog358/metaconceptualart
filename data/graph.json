@@ -65,6 +65,7 @@
     { "id": "evidence-outreach-screenshots-2013", "type": "LinguisticObject", "label": "Evidence archive: screenshots of the studio's outreach, 12-13 September 2013" },
     { "id": "evidence-hawaii-notebook-2008-2009", "type": "LinguisticObject", "label": "Evidence archive: notebook pages and photographs from Hawai'i (2008-2009)" },
     { "id": "evidence-facebook-message-2010", "type": "LinguisticObject", "label": "Evidence archive: a private message describing the 2009 sale as conceptual art (12 April 2010)" },
+    { "id": "evidence-facebook-2009", "type": "LinguisticObject", "label": "Evidence archive: 'a meta-conceptual artist', and captions of 2009, on Facebook (December 2009)" },
     { "id": "sothebys", "type": "Group", "label": "Sotheby's" },
     { "id": "collection", "type": "Set", "label": "Metaconceptual Art — Collection" },
     { "id": "sun-and-rain-works", "type": "Group", "label": "Sun & Rain Works" },
@@ -363,6 +364,14 @@
       "linkedArt": "data/linked-art/evidence-facebook-message-2010"
     },
     {
+      "id": "record:facebook-2009",
+      "type": "Provenance",
+      "label": "'A meta-conceptual artist', and captions of 2009, on Facebook (December 2009)",
+      "description": "A private Facebook message of 2009-12-19 16:13:43 UTC, timestamped by Facebook, in which the studio principal calls himself 'a meta-conceptual artist': the earliest dated use of any form of the term, nine months after the Sotheby's sale and nearly two years before the first public use in November 2011. Hyphenated, undefined, and not connected to the sale. With it, two photographs captioned in December 2009 with wordplay on art, 'What art ?' and 'Artists who know, paint with only the finest...', which the studio states was by design.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/evidence-facebook-2009"
+    },
+    {
       "id": "concept:metaconceptual-art",
       "type": "Concept",
       "label": "Metaconceptual Art",
@@ -644,6 +653,10 @@
     { "from": "record:facebook-message-2010", "relation": "documents", "to": "source:sothebys-photographs-2009" },
     { "from": "record:facebook-message-2010", "relation": "cites", "to": "record:museum-correspondence-2013" },
     { "from": "record:live-auction-priority", "relation": "cites", "to": "record:facebook-message-2010" },
+    { "from": "system:provenance-layer", "relation": "produces", "to": "record:facebook-2009" },
+    { "from": "record:facebook-2009", "relation": "documents", "to": "concept:metaconceptual-art" },
+    { "from": "record:facebook-2009", "relation": "cites", "to": "record:pastebin-2011-2012" },
+    { "from": "record:facebook-2009", "relation": "cites", "to": "record:facebook-message-2010" },
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:live-auction-priority" },
     { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:wtfisart" },
     { "from": "concept:auction-as-artwork", "relation": "designates", "to": "source:sothebys-photographs-2009" },

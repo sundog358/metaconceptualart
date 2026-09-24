@@ -77,6 +77,17 @@
     },
     {
       "type": "LinguisticObject",
+      "content": "A second, independent timestamp for the 2011 posting. The studio's Facebook account data, compiled by Facebook on request on 2026-09-24, records that at 2011-11-28 15:44:21 UTC the account 'liked' a link titled 'The Art World is Flat - Pastebin.com', pointing to http://pastebin.com/18ndp2CF, the posting described above. That is within three hours of the posting time Pastebin displays, 07:51:51 AM on the same day. The like is Facebook's record, made on its own servers, so the posting's date no longer rests on Pastebin's alone, and it shows the posting being marked from the studio's own account on the day it was made. The entry is in the export's reactions file, 4,891,632 bytes, SHA-256 b4199322474511c9db9892c812ff17ec641702b8aee7826e6944bdbf15c57924, within the archive facebook-joechirum-2026-09-24-TZ87gGfq.zip, SHA-256 c978c3bd338a6a9a934d3aa05a81d2c298c49200bf7e4edc98b8329c02103097.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
       "content": "Limits. Both postings are the artist's own; the platform dates when he said something publicly, not whether what he said was true. They therefore evidence the public existence of the term and its definition at those dates, and nothing about the 2009 auction, which neither posting mentions. The 2011 posting describes its poem as written 'a few years ago', which would place composition somewhere in the late 2000s; that is the artist's own statement, made in 2011 rather than in retrospect from the present, and it narrows but does not close the gap to the asserted 2007 origin. The origin date itself remains unevidenced. Both postings link to a Sun & Rain Works page on Facebook. That page has since been deleted by the studio, and the Internet Archive holds no capture of it, so it cannot be examined and any earlier material it carried is lost. Its former existence is not in doubt: the 2012 posting cites its address and presents the eight characteristics as the page's content, which places the definition on that page on or before 2012-11-22. The postings recorded here are consequently the surviving witness to a source that no longer exists, and they are load-bearing for that reason.",
       "classified_as": [
         {
@@ -121,7 +132,7 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "An outstanding lead, recorded so it is not lost. The studio holds three chat logs downloaded from meetings of that period, sent to a correspondent on 2012-11-12 as attachments named for their dates: two of 2011-11-10 and 2011-11-19, and a third of 2011-11-19. Those dates fall eighteen and nine days before the posting of 2011-11-28, which is presently the earliest located use of the term this collection records. The logs have not been examined. If the term, the eight characteristics, or the concept in recognisable form appears in them, the earliest evidence in this collection moves earlier, and it moves into a different and better kind of source: conversation with other people, rather than the studio's own solo posting. If it does not appear, that is a negative worth recording with the same care.",
+      "content": "An outstanding lead, recorded so it is not lost. The studio holds three chat logs downloaded from meetings of that period, sent to a correspondent on 2012-11-12 as attachments named for their dates: two of 2011-11-10 and 2011-11-19, and a third of 2011-11-19. Those dates fall eighteen and nine days before the posting of 2011-11-28, which is the earliest located public use of the term; an earlier, private use, of 2009-12-19, is set out in the record of the 2009 Facebook evidence. The logs have not been examined. If the term, the eight characteristics, or the concept in recognisable form appears in them, the earliest evidence in this collection moves earlier, and it moves into a different and better kind of source: conversation with other people, rather than the studio's own solo posting. If it does not appear, that is a negative worth recording with the same care.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",

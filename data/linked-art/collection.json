@@ -248,6 +248,11 @@
       "id": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-message-2010",
       "type": "LinguisticObject",
       "_label": "Evidence archive: a private message describing the 2009 sale as conceptual art (12 April 2010)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2009",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: 'a meta-conceptual artist', and captions of 2009, on Facebook (December 2009)"
     }
   ],
   "_links": {
