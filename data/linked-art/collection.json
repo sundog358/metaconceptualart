@@ -258,6 +258,11 @@
       "id": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2012-2013",
       "type": "LinguisticObject",
       "_label": "Evidence archive: Art Market Reform, 'WTF is Art' and Metaconceptual Art on Facebook and USA Projects (2012-2013)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-press-release-2014",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: the press release 'Metaconceptual Art creates Hedge Fund Art and paints Art Market Reform' (May 2014)"
     }
   ],
   "_links": {

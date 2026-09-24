@@ -67,6 +67,7 @@
     { "id": "evidence-facebook-message-2010", "type": "LinguisticObject", "label": "Evidence archive: a private message describing the 2009 sale as conceptual art (12 April 2010)" },
     { "id": "evidence-facebook-2009", "type": "LinguisticObject", "label": "Evidence archive: 'a meta-conceptual artist', and captions of 2009, on Facebook (December 2009)" },
     { "id": "evidence-facebook-2012-2013", "type": "LinguisticObject", "label": "Evidence archive: Art Market Reform, 'WTF is Art' and Metaconceptual Art on Facebook and USA Projects (2012-2013)" },
+    { "id": "evidence-press-release-2014", "type": "LinguisticObject", "label": "Evidence archive: the press release 'Metaconceptual Art creates Hedge Fund Art and paints Art Market Reform' (May 2014)" },
     { "id": "sothebys", "type": "Group", "label": "Sotheby's" },
     { "id": "collection", "type": "Set", "label": "Metaconceptual Art — Collection" },
     { "id": "sun-and-rain-works", "type": "Group", "label": "Sun & Rain Works" },
@@ -381,6 +382,14 @@
       "linkedArt": "data/linked-art/evidence-facebook-2012-2013"
     },
     {
+      "id": "record:press-release-2014",
+      "type": "Provenance",
+      "label": "The press release 'Metaconceptual Art creates Hedge Fund Art and paints Art Market Reform' (May 2014)",
+      "description": "A press release sent by Facebook message to two New York writers on 2014-05-18 (Facebook's times; no replies), also held as a Word file dated 20 May 2014. It announces Metaconceptual Art as a movement and 'the Art historical paradigm, which comes after Conceptual Art', gives the eight characteristics - with 'blurring' where the 2012 posting and the published text say 'annihilating' in the seventh and eighth - and links the studio's Saatchi Art works. The studio's own statement; nothing about 2009.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/evidence-press-release-2014"
+    },
+    {
       "id": "concept:metaconceptual-art",
       "type": "Concept",
       "label": "Metaconceptual Art",
@@ -672,6 +681,13 @@
     { "from": "record:facebook-2012-2013", "relation": "cites", "to": "record:museum-correspondence-2013" },
     { "from": "record:facebook-2012-2013", "relation": "cites", "to": "record:hosting-receipts-2009" },
     { "from": "record:facebook-2012-2013", "relation": "cites", "to": "record:pastebin-2011-2012" },
+    { "from": "system:provenance-layer", "relation": "produces", "to": "record:press-release-2014" },
+    { "from": "record:press-release-2014", "relation": "documents", "to": "concept:metaconceptual-art" },
+    { "from": "record:press-release-2014", "relation": "documents", "to": "work:eight-sentences" },
+    { "from": "record:press-release-2014", "relation": "documents", "to": "work:art-market-reform" },
+    { "from": "record:press-release-2014", "relation": "documents", "to": "work:what-hedge-funds" },
+    { "from": "record:press-release-2014", "relation": "documents", "to": "work:art-is-capital" },
+    { "from": "record:press-release-2014", "relation": "cites", "to": "record:pastebin-2011-2012" },
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:live-auction-priority" },
     { "from": "concept:metaconceptual-art", "relation": "evidenced_by", "to": "work:wtfisart" },
     { "from": "concept:auction-as-artwork", "relation": "designates", "to": "source:sothebys-photographs-2009" },

@@ -1,0 +1,206 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/evidence-press-release-2014",
+  "type": "LinguisticObject",
+  "_label": "Evidence archive: the press release 'Metaconceptual Art creates Hedge Fund Art and paints Art Market Reform' (May 2014)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Evidence archive: the press release 'Metaconceptual Art creates Hedge Fund Art and paints Art Market Reform' (May 2014)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "record:evidence-press-release-2014",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026087",
+      "type": "Type",
+      "_label": "texts"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300026906",
+      "type": "Type",
+      "_label": "documents"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300055863",
+      "type": "Type",
+      "_label": "provenance"
+    }
+  ],
+  "content": "A press release written by the studio principal in May 2014, headed 'Metaconceptual Art creates Hedge Fund Art and paints Art Market Reform.' It announces that he 'is creating an entire Art movement in Eugene, Oregon, coined \"Metaconceptual Art\"', names Sun and Rain Works as his art business, and quotes him: 'First I was an Artist, then I was a business Artist, now I am a Metaconceptual Artist.' It states the goal of Metaconceptual Art as 'to examine the interdisciplinary intersections of Art, Art History, Philosophy, Economics, and Art's relationship to the cultural historical narrative of civilization, in our contemporary situation', declares that 'Metaconceptual Art is the Art historical paradigm, which comes after Conceptual Art', sets out its eight defining characteristics, and links the studio's Saatchi Art account for the works Art Market Reform, What Hedge Funds ?! and Art is Capital. On 2014-05-18 the studio sent it by Facebook message to two New York writers, at 13:27:18 UTC and 22:42:00 UTC by Facebook's clock. Neither replied. The studio also holds the release as a Word file dated in its text 20 May 2014.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "Evidence status: the sending dated by Facebook, the document held by the studio. The two messages are in the account data Facebook compiled and delivered on request on 2026-09-24, held by the studio as facebook-joechirum-2026-09-24-TZ87gGfq.zip, SHA-256 c978c3bd338a6a9a934d3aa05a81d2c298c49200bf7e4edc98b8329c02103097; each is the only message in its thread, and the thread files, of 2,205 and 3,091 bytes, have SHA-256 0661610d6bfd07db3c600ce8c1633cef5c0fd8ed29d23419f8446d71889315ae and 6048ca3620a329097828fdb86cc4b7f789f9aa7747c050cc88f423af3d847605. The Word file, ArtPressRelease.docx, 108,973 bytes, SHA-256 71f6be05fa04f9f5e31f798df2ca459fdb4f3f8ed51dfd8ce0c0f3fcfb01784c, was recovered from the studio's USB flash drive, byte-identical, by two separate recovery tools. Its internal properties give Microsoft Word for Mac 14 as the application, the Mac account 'Meta Art' as author and last editor, creation at 2014-05-18T20:16:00Z and last save at 2014-05-20T13:01:00Z. Those two times are the Mac's clock and are the file's own account, not a third party's; the creation time falls between the two messages, which is consistent with them.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Three versions, in order. The first message, at 13:27 UTC, is a personal note to its recipient carrying the release's body: the goal, the paradigm sentence, the eight characteristics and the Saatchi link. The second, at 22:42 UTC, is the release as a formatted document headed 'For Immediate Press Release', dated 5-18-2014, with the headline and the quotation. The Word file, dated 20 May 2014 in its text, adds a second heading, 'For: International Interdisciplinary Collaborative Research', and closes with 'For the Love of God, We are the Art…' and a link to a video. The first message spells the sixth characteristic 'Transcendance', as the public posting of 2012-11-22 does; the second message and the Word file spell it 'Transcendence', as the text published here does, so the correction can be placed on 18 May 2014.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "A variant in the eight characteristics. In all three versions of 2014 the seventh and eighth characteristics read 'The blurring of the boundaries between Art World insiders and Outsiders' and 'The blurring of the boundaries between Art and Life'. The public posting of 2012-11-22 and the Eight Sentences published here read 'The annihilating of the boundaries' in both. The 2014 release therefore circulated a softer wording of those two characteristics than the text posted in 2012 and published now. The difference is recorded as found; this record does not say which wording the studio regards as authoritative.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What the release does and does not show. It shows the studio presenting Metaconceptual Art to people in the art world as a movement, with a definition and named works, on 2014-05-18, in the same week it uploaded photographs of the works to Flickr and listed them on Saatchi Art. It is the studio's own statement throughout: the claims that it is 'an entire Art movement' and 'the Art historical paradigm, which comes after Conceptual Art' are its claims, and no outlet is known to have published the release or to have answered it. It says nothing about the 2009 sale and does not evidence the 2007 origin asserted elsewhere.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Privacy. The two recipients are not named, and the note to the first recipient is described rather than quoted. The telephone number the release gives as its contact is withheld. Only the release's own wording is reproduced.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "about": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art",
+      "type": "Type",
+      "_label": "Metaconceptual Art (concept)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/eight-sentences",
+      "type": "LinguisticObject",
+      "_label": "Eight Sentences On Metaconceptual Art"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/art-market-reform",
+      "type": "DigitalObject",
+      "_label": "Art Market Reform"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/what-hedge-funds",
+      "type": "HumanMadeObject",
+      "_label": "What Hedge Funds ?!"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/art-is-capital",
+      "type": "HumanMadeObject",
+      "_label": "Art is Capital"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "CC BY 4.0",
+      "classified_as": [
+        {
+          "id": "https://creativecommons.org/licenses/by/4.0/",
+          "type": "Type",
+          "_label": "Attribution 4.0 International (CC BY 4.0)"
+        }
+      ],
+      "possessed_by": [
+        {
+          "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+          "type": "Group",
+          "_label": "Sun & Rain Works"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Compilation of the 2014 press-release evidence record",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/evidence-press-release-2014"
+    },
+    "curies": [
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
+    ],
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
+  }
+}
