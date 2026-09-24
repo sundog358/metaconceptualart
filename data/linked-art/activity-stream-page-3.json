@@ -67,6 +67,14 @@
         "type": "Set"
       },
       "endTime": "2026-09-23T12:01:23-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-outreach-screenshots-2013",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-24T01:32:45-07:00"
     }
   ]
 }
