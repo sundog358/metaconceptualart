@@ -499,6 +499,22 @@
         "type": "LinguisticObject"
       },
       "endTime": "2026-09-25T12:16:23-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-hosting-receipts-2009",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-25T14:05:41-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/wtfisart",
+        "type": "DigitalObject"
+      },
+      "endTime": "2026-09-25T14:05:41-07:00"
     }
   ]
 }
