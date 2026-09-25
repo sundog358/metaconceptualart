@@ -531,6 +531,30 @@
         "type": "LinguisticObject"
       },
       "endTime": "2026-09-25T15:32:45-07:00"
+    },
+    {
+      "type": "Create",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-wikioccupy-2011",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-25T15:47:17-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+        "type": "Set"
+      },
+      "endTime": "2026-09-25T15:47:17-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-pastebin-2011-2012",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-25T15:47:17-07:00"
     }
   ]
 }
