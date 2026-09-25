@@ -515,6 +515,22 @@
         "type": "DigitalObject"
       },
       "endTime": "2026-09-25T14:05:41-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-saturday-market-membership",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-25T15:32:45-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-sothebys-approach-2008",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-25T15:32:45-07:00"
     }
   ]
 }
