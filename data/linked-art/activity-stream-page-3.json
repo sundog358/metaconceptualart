@@ -563,6 +563,14 @@
         "type": "LinguisticObject"
       },
       "endTime": "2026-09-25T15:53:29-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-wikioccupy-2011",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-25T16:01:57-07:00"
     }
   ]
 }
