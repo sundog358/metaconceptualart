@@ -491,6 +491,14 @@
         "type": "LinguisticObject"
       },
       "endTime": "2026-09-25T11:15:35-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2018",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-25T12:16:23-07:00"
     }
   ]
 }
