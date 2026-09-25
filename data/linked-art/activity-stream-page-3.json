@@ -475,6 +475,22 @@
         "type": "LinguisticObject"
       },
       "endTime": "2026-09-25T10:57:10-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2012-2013",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-25T11:15:35-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2018",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-25T11:15:35-07:00"
     }
   ]
 }
