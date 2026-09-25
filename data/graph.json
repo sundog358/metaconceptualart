@@ -331,7 +331,7 @@
       "id": "record:wikioccupy-2011",
       "type": "Provenance",
       "label": "www.wikioccupy.org, the studio's Occupy wiki, in its chat logs and a painting (November 2011)",
-      "description": "Three chat logs of an Occupy Wall Street wiki project, November 2011, in which the studio principal, under the name 'Art', describes his holding of the wikioccupy domains 'as an act of Art', calls the project one 'Art project' among others, and says the domain is registered through Sun and Rain Works, 'an Art based entity'; the logs are dated by a message of 2012-11-12 that carries them as attachments. With them, a camera-phone original of 2011-11-16 showing a painting of the address www.wikioccupy.org. The archived site presents itself as a wiki for the Occupy movement, not as art; the art framing is in the chat. Nothing here concerns www.wtfisart.com, Sotheby's or 2009; it is a parallel from 2011. The logs are held as checksums; the photograph is published.",
+      "description": "Three chat logs of an Occupy Wall Street wiki project, November 2011, in which the studio principal, under the pseudonym 'Art', describes his holding of the wikioccupy domains 'as an act of Art', calls the project one 'Art project' among others, says the domain is registered through Sun and Rain Works, 'an Art based entity', and returns to art in some forty-five of his lines; the logs are dated by a message of 2012-11-12 that carries them as attachments. With them, a camera-phone original of 2011-11-16 showing a painting of the address www.wikioccupy.org. The studio states that the site, a MediaWiki installation, was made as a work of Metaconceptual Art and as its part in Occupy Wall Street, and that the idea of a website as art came from www.wtfisart.com; the logs name neither, so those connections are the studio's account. The archived site presents itself as a wiki for the Occupy movement. The logs are held as checksums; the photograph is published.",
       "wikidata": null,
       "linkedArt": "data/linked-art/evidence-wikioccupy-2011"
     },
@@ -677,6 +677,9 @@
     { "from": "record:wikioccupy-2011", "relation": "cites", "to": "record:inscription-photograph-2011" },
     { "from": "record:wikioccupy-2011", "relation": "cites", "to": "record:postcard-work-2008" },
     { "from": "record:wikioccupy-2011", "relation": "cites", "to": "record:archived-websites-2013-2016" },
+    { "from": "record:wikioccupy-2011", "relation": "documents", "to": "concept:metaconceptual-art" },
+    { "from": "record:wikioccupy-2011", "relation": "cites", "to": "work:wtfisart" },
+    { "from": "record:wikioccupy-2011", "relation": "cites", "to": "record:hosting-receipts-2009" },
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:postcard-work-2008" },
     { "from": "record:postcard-work-2008", "relation": "cites", "to": "record:inscription-photograph-2011" },
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:meta-sign-2012" },
