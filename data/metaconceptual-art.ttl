@@ -160,7 +160,7 @@ mca:collection crm:P1_is_identified_by _:b0_r5b0, _:b0_r5b1;
     crm:P94i_was_created_by _:b0_r5b3;
     a la:Set;
     rdfs:label "Metaconceptual Art - Collection", "Metaconceptual Art — Collection";
-    la:members_exemplified_by mca:art-is-capital, mca:art-market-reform, mca:art-notes, mca:art-tax, mca:auction-as-artwork, mca:construction-museum, mca:eight-sentences, mca:eightfold-sprocket, mca:evidence-adams-gallery-2008, mca:evidence-archived-websites-2013-2016, mca:evidence-consignment-agreement-2009, mca:evidence-consignment-photographs-2008, mca:evidence-facebook-2009, mca:evidence-facebook-2012-2013, mca:evidence-facebook-2018, mca:evidence-facebook-message-2010, mca:evidence-hawaii-notebook-2008-2009, mca:evidence-hosting-receipts-2009, mca:evidence-inscription-photograph-2011, mca:evidence-live-auction-2009, mca:evidence-meta-sign-2012, mca:evidence-museum-correspondence-2013, mca:evidence-outreach-screenshots-2013, mca:evidence-pastebin-2011-2012, mca:evidence-postcard-work-2008, mca:evidence-press-release-2014, mca:evidence-saturday-market-membership, mca:evidence-sfmoma-approach-2008, mca:evidence-sothebys-approach-2008, mca:evidence-staged-photographs-2008, mca:evidence-wtfia-2009, mca:movement-graph, mca:movement-record, mca:site-as-artwork, mca:what-hedge-funds, mca:wtf-is-ansel-adams, mca:wtfisart-reconstruction, mca:wtfisart.
+    la:members_exemplified_by mca:art-is-capital, mca:art-market-reform, mca:art-notes, mca:art-tax, mca:auction-as-artwork, mca:construction-museum, mca:eight-sentences, mca:eightfold-sprocket, mca:evidence-adams-gallery-2008, mca:evidence-archived-websites-2013-2016, mca:evidence-consignment-agreement-2009, mca:evidence-consignment-photographs-2008, mca:evidence-facebook-2009, mca:evidence-facebook-2012-2013, mca:evidence-facebook-2018, mca:evidence-facebook-message-2010, mca:evidence-hawaii-notebook-2008-2009, mca:evidence-hosting-receipts-2009, mca:evidence-inscription-photograph-2011, mca:evidence-live-auction-2009, mca:evidence-meta-sign-2012, mca:evidence-museum-correspondence-2013, mca:evidence-outreach-screenshots-2013, mca:evidence-pastebin-2011-2012, mca:evidence-postcard-work-2008, mca:evidence-press-release-2014, mca:evidence-saturday-market-membership, mca:evidence-sfmoma-approach-2008, mca:evidence-sothebys-approach-2008, mca:evidence-staged-photographs-2008, mca:evidence-wikioccupy-2011, mca:evidence-wtfia-2009, mca:movement-graph, mca:movement-record, mca:site-as-artwork, mca:what-hedge-funds, mca:wtf-is-ansel-adams, mca:wtfisart-reconstruction, mca:wtfisart.
 mca:concept-metaconceptual-art crm:P1_is_identified_by _:b0_r6b0, _:b0_r6b1;
     crm:P67i_is_referred_to_by mca:evidence-museum-correspondence-2013, mca:evidence-pastebin-2011-2012, _:b0_r6b2, _:b0_r6b3;
     crm:P94i_was_created_by _:b0_r6b4;
@@ -461,123 +461,135 @@ mca:evidence-staged-photographs-2008 crm:P129_is_about mca:wtf-is-ansel-adams;
     a crm:E33_Linguistic_Object;
     rdfs:label "Evidence archive: the staged photographs of the print (autumn 2008)";
     la:member_of mca:collection.
-mca:evidence-wtfia-2009 crm:P104_is_subject_to _:b0_r32b0;
+<https://www.metaconceptualart.com/data/linked-art/evidence-wikioccupy-2011#visual-item> a crm:E36_Visual_Item;
+    rdfs:label "A painting of the address www.wikioccupy.org, photographed on 2011-11-16";
+    la:digitally_shown_by <https://www.metaconceptualart.com/images/wikioccupy-painting-2011.jpg>.
+mca:evidence-wikioccupy-2011 crm:P138i_has_representation <https://www.metaconceptualart.com/data/linked-art/evidence-wikioccupy-2011#visual-item>;
+    crm:P190_has_symbolic_content "Three chat logs and a photograph, all of November 2011, that record the studio principal describing his work on a website for the Occupy movement, www.wikioccupy.org, in the language of art. The logs are of an Internet Relay Chat channel of an Occupy Wall Street wiki project, #owswikifarm, in which the studio principal took part under the name 'Art'. In the log of the meeting held there on 2011-11-19 he wrote, in this order: 'i own www.wikioccupy.org www.wikioccupywallst.org www.wikioccupywallstreet.org www.wikioccupy.com and www.wikioccupywallstreet.com'; 'as you can see i was/am very enthusiastic about the wiki occupy idea'; and 'as an act of Art'. Later in the same meeting he wrote of the project, 'i mean, its not like thats the only Art project in my life'. He described the site as 'happening right now, and is continuing to happen', described Sun and Rain Works as 'an Art based entity' and 'my legal entity which is my \" Art business \"', and wrote that 'the domain is currently registered through : Sun and Rain Works'. In the log of 2011-11-10 he wrote that he had 'other Art that i make also' and called himself 'simply an American Contemporary Artist, with \" Art Assistants \"'. The photograph, taken with the studio's camera phone at 07:42:37 on 2011-11-16, shows a painting on paper whose subject is the site's address: 'www.' lettered in blue across the top and 'WiKioccupy.org' lettered in black beneath it. The studio states, in 2026, that it operated www.wikioccupy.org as a work of art. What the logs and the photograph show is narrower and is set out below: that in November 2011 the studio principal described his holding of the site's domains, and the project, as art, and that he had made a painting of its address.";
+    crm:P1_is_identified_by _:b0_r32b0, _:b0_r32b1;
+    crm:P2_has_type aat:300026906, aat:300055863, aat:300215302;
+    crm:P67i_is_referred_to_by _:b0_r32b2, _:b0_r32b3, _:b0_r32b4, _:b0_r32b5, _:b0_r32b6;
+    crm:P94i_was_created_by _:b0_r32b7;
+    a crm:E33_Linguistic_Object;
+    rdfs:label "Evidence archive: www.wikioccupy.org, the studio's Occupy wiki, in its chat logs and a painting (November 2011)";
+    la:member_of mca:collection.
+mca:evidence-wtfia-2009 crm:P104_is_subject_to _:b0_r33b0;
     crm:P129_is_about mca:art-market-reform, mca:wtfisart-reconstruction, mca:wtfisart;
     crm:P190_has_symbolic_content "Sun & Rain Works holds the WTFIA folder: the working source material it assembled for its website www.wtfisart.com, comprising digital files dated 2008 to 2009. As held, the folder contains four Microsoft Word documents together with associated sets of reference images. The documents are: 'IsItArt.doc', a fourteen-page compilation of roughly four thousand words of excerpts and source links drawn from art-market press published between 2007 and 2009, covering museum deaccessioning, the contraction of the auction market, art-focused hedge funds, and art treated as an asset class, with material attributed to The New York Times, The Daily Telegraph, the Financial Times, The Nation, The Guardian, Deutsche Welle, CathNews, Livemint, The New York Sun, Portfolio.com, and the Los Angeles Times; 'Photographers.doc', a one-page biographical note on the photographer Lee Balterman; and two dealer-network directories built as the site's link content, 'OldMasters.doc', an eight-page directory of Old Master dealers and galleries with their web addresses, and 'Modern.doc', a directory of modern and contemporary galleries in New York, Florida, and California. The accompanying images comprise seventeen art-market and art-trade pictures dated 2009-03-23, showing auction houses, collectors, art fairs, and finance motifs; sixteen art-historical reference plates dated between 2009-01-21 and 2009-01-26; two paintings of the cleansing of the temple dated 2009-01-22; and thirty photographic files dated between 2008-08-07 and 2009-01-21. Together these evidence the material Sun & Rain Works assembled for www.wtfisart.com, and a dated 2008-2009 compilation activity concerned with the art market, the dealer network, and art history. The folder holds no HTML, so it does not by itself record what the website published or when it went live, and it establishes no precedence over any later artist, work, or event.";
-    crm:P1_is_identified_by _:b0_r32b1, _:b0_r32b2;
+    crm:P1_is_identified_by _:b0_r33b1, _:b0_r33b2;
     crm:P2_has_type aat:300026087, aat:300026906, aat:300055863;
-    crm:P67i_is_referred_to_by _:b0_r32b3, _:b0_r32b4, _:b0_r32b5, _:b0_r32b6, _:b0_r32b7;
-    crm:P94i_was_created_by _:b0_r32b8;
+    crm:P67i_is_referred_to_by _:b0_r33b3, _:b0_r33b4, _:b0_r33b5, _:b0_r33b6, _:b0_r33b7;
+    crm:P94i_was_created_by _:b0_r33b8;
     a crm:E33_Linguistic_Object;
     rdfs:label "Evidence archive: the WTFIA source folder for www.wtfisart.com (2008-2009)", "The WTFIA source documents, January and March 2009";
     la:member_of mca:collection.
 mca:movement-graph <http://purl.org/dc/elements/1.1/format> "text/html";
-    crm:P129i_is_subject_of _:b0_r33b0;
-    crm:P1_is_identified_by _:b0_r33b2, _:b0_r33b3;
+    crm:P129i_is_subject_of _:b0_r34b0;
+    crm:P1_is_identified_by _:b0_r34b2, _:b0_r34b3;
     crm:P2_has_type aat:300391330, aat:300419940;
-    crm:P67i_is_referred_to_by _:b0_r33b4;
-    crm:P94i_was_created_by _:b0_r33b5;
+    crm:P67i_is_referred_to_by _:b0_r34b4;
+    crm:P94i_was_created_by _:b0_r34b5;
     a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
     rdfs:label "Movement Graph";
     la:access_point <https://www.metaconceptualart.com/explore>;
     la:member_of mca:collection.
-mca:movement-record crm:P104_is_subject_to _:b0_r34b0;
+mca:movement-record crm:P104_is_subject_to _:b0_r35b0;
     crm:P129_is_about mca:concept-metaconceptual-art;
-    crm:P129i_is_subject_of _:b0_r34b1;
+    crm:P129i_is_subject_of _:b0_r35b1;
     crm:P190_has_symbolic_content "A linked-open-data record arguing that Metaconceptual Art is a natural, credible, and valid movement through genealogy, defined principles, works on view, machine-readable standards, external alignment, and provenance over time.";
-    crm:P1_is_identified_by _:b0_r34b3, _:b0_r34b4;
+    crm:P1_is_identified_by _:b0_r35b3, _:b0_r35b4;
     crm:P2_has_type aat:300026087, aat:300435443;
-    crm:P67i_is_referred_to_by _:b0_r34b5, _:b0_r34b6;
-    crm:P94i_was_created_by _:b0_r34b7;
+    crm:P67i_is_referred_to_by _:b0_r35b5, _:b0_r35b6;
+    crm:P94i_was_created_by _:b0_r35b7;
     a crm:E33_Linguistic_Object;
     rdfs:label "Proof of Movement: Metaconceptual Art";
     la:member_of mca:collection.
-mca:priority-live-auction-2009 crm:P104_is_subject_to _:b0_r35b0;
+mca:priority-live-auction-2009 crm:P104_is_subject_to _:b0_r36b0;
     crm:P129_is_about mca:auction-as-artwork, mca:production-live-auction-2009, mca:wtf-is-ansel-adams, mca:wtfisart;
     crm:P190_has_symbolic_content "Sun & Rain Works asserts a conceptual claim: that in 2009, in connection with the Sotheby's Photographs auction (sale N08533, New York), it designated its auction engagement — the consignment of an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), together with the associated website www.wtfisart.com — as Metaconceptual Art, under the concept of the auction as artwork, which is realised in two works, www.wtfisart.com and WTF is Ansel Adams; the concept is not itself a titled work. This is the artist's own designation, made explicit over time. It is not a publicly witnessed live-creation event and has not been adjudicated as a historical fact; the Sotheby's catalogue lists the lot as an Ansel Adams photograph and does not name Sun & Rain Works. This statement makes no claim of being 'first', and does not name, compare against, or dispute any later artist or event; any such comparison would require independent recognition and separately published evidence.";
-    crm:P1_is_identified_by _:b0_r35b1, _:b0_r35b2;
+    crm:P1_is_identified_by _:b0_r36b1, _:b0_r36b2;
     crm:P2_has_type aat:300026087, aat:300435443;
-    crm:P67i_is_referred_to_by mca:evidence-museum-correspondence-2013, _:b0_r35b3, _:b0_r35b4;
-    crm:P94i_was_created_by _:b0_r35b5;
+    crm:P67i_is_referred_to_by mca:evidence-museum-correspondence-2013, _:b0_r36b3, _:b0_r36b4;
+    crm:P94i_was_created_by _:b0_r36b5;
     a crm:E33_Linguistic_Object;
     rdfs:label "Sun & Rain Works' conceptual claim to art at auction (2009)".
 mca:production-live-auction-2009 crm:P14_carried_out_by mca:sun-and-rain-works;
     crm:P16_used_specific_object mca:wtf-is-ansel-adams, mca:wtfisart;
-    crm:P1_is_identified_by _:b0_r36b0, _:b0_r36b1;
+    crm:P1_is_identified_by _:b0_r37b0, _:b0_r37b1;
     crm:P2_has_type aat:300264827;
-    crm:P4_has_time-span _:b0_r36b2;
-    crm:P67i_is_referred_to_by _:b0_r36b3;
+    crm:P4_has_time-span _:b0_r37b2;
+    crm:P67i_is_referred_to_by _:b0_r37b3;
     crm:P9i_forms_part_of mca:sothebys-photographs-auction-2009;
     a crm:E7_Activity;
     rdfs:label "Sun & Rain Works' auction engagement (Sotheby's Photographs, 2009)".
 mca:provenance-publication crm:P14_carried_out_by mca:sun-and-rain-works;
     crm:P2_has_type aat:300055863;
-    crm:P4_has_time-span _:b0_r37b0;
-    crm:P67i_is_referred_to_by _:b0_r37b1;
-    crm:P9_consists_of _:b0_r37b2;
+    crm:P4_has_time-span _:b0_r38b0;
+    crm:P67i_is_referred_to_by _:b0_r38b1;
+    crm:P9_consists_of _:b0_r38b2;
     a crm:E7_Activity;
     rdfs:label "Publication of Metaconceptual Art (2026)".
 mca:site-as-artwork <http://purl.org/dc/elements/1.1/format> "text/html";
     dcterms:conformsTo <https://www.w3.org/TR/html/>;
-    crm:P1_is_identified_by _:b0_r38b0, _:b0_r38b1;
+    crm:P1_is_identified_by _:b0_r39b0, _:b0_r39b1;
     crm:P2_has_type aat:300265431, aat:300419940;
-    crm:P67i_is_referred_to_by _:b0_r38b2;
-    crm:P94i_was_created_by _:b0_r38b3;
+    crm:P67i_is_referred_to_by _:b0_r39b2;
+    crm:P94i_was_created_by _:b0_r39b3;
     a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
     rdfs:label "The Website Itself";
     la:access_point <https://www.metaconceptualart.com/>;
     la:member_of mca:collection.
 mca:sothebys-photographs-auction-2009 crm:P14_carried_out_by mca:sothebys;
-    crm:P1_is_identified_by _:b0_r39b0, _:b0_r39b1;
+    crm:P1_is_identified_by _:b0_r40b0, _:b0_r40b1;
     crm:P2_has_type aat:300054751;
-    crm:P4_has_time-span _:b0_r39b2;
-    crm:P67i_is_referred_to_by _:b0_r39b3;
-    crm:P7_took_place_at _:b0_r39b4;
+    crm:P4_has_time-span _:b0_r40b2;
+    crm:P67i_is_referred_to_by _:b0_r40b3;
+    crm:P7_took_place_at _:b0_r40b4;
     a crm:E7_Activity;
     rdfs:label "Sotheby's Photographs auction (sale N08533, 2009)".
-mca:sothebys crm:P1_is_identified_by _:b0_r40b0, _:b0_r40b1, _:b0_r40b2;
+mca:sothebys crm:P1_is_identified_by _:b0_r41b0, _:b0_r41b1, _:b0_r41b2;
     crm:P2_has_type aat:300025948;
-    crm:P67i_is_referred_to_by _:b0_r40b3;
+    crm:P67i_is_referred_to_by _:b0_r41b3;
     a crm:E74_Group;
     rdfs:label "Sotheby's";
     la:equivalent ulan:500304344, wd:Q654762.
-mca:sun-and-rain-works crm:P1_is_identified_by _:b0_r41b0, _:b0_r41b1;
+mca:sun-and-rain-works crm:P1_is_identified_by _:b0_r42b0, _:b0_r42b1;
     crm:P2_has_type aat:300025948;
-    crm:P67i_is_referred_to_by _:b0_r41b2, _:b0_r41b3, _:b0_r41b4;
-    crm:P95i_was_formed_by _:b0_r41b5;
+    crm:P67i_is_referred_to_by _:b0_r42b2, _:b0_r42b3, _:b0_r42b4;
+    crm:P95i_was_formed_by _:b0_r42b5;
     a crm:E74_Group;
     rdfs:label "Sun & Rain Works".
-mca:what-hedge-funds crm:P1_is_identified_by _:b0_r42b0, _:b0_r42b1;
+mca:what-hedge-funds crm:P1_is_identified_by _:b0_r43b0, _:b0_r43b1;
     crm:P2_has_type aat:300264827;
-    crm:P67i_is_referred_to_by mca:evidence-archived-websites-2013-2016, _:b0_r42b2, _:b0_r42b3, _:b0_r42b4;
+    crm:P67i_is_referred_to_by mca:evidence-archived-websites-2013-2016, _:b0_r43b2, _:b0_r43b3, _:b0_r43b4;
     a crm:E22_Human-Made_Object;
     rdfs:label "What Hedge Funds ?!";
     la:member_of mca:collection.
-mca:wtf-is-ansel-adams crm:P108i_was_produced_by _:b0_r43b0;
-    crm:P129i_is_subject_of _:b0_r43b3;
-    crm:P1_is_identified_by _:b0_r43b5, _:b0_r43b6;
+mca:wtf-is-ansel-adams crm:P108i_was_produced_by _:b0_r44b0;
+    crm:P129i_is_subject_of _:b0_r44b3;
+    crm:P1_is_identified_by _:b0_r44b5, _:b0_r44b6;
     crm:P2_has_type aat:300121445, aat:300264827;
-    crm:P67i_is_referred_to_by mca:evidence-consignment-photographs-2008, _:b0_r43b10, _:b0_r43b7, _:b0_r43b8, _:b0_r43b9;
+    crm:P67i_is_referred_to_by mca:evidence-consignment-photographs-2008, _:b0_r44b10, _:b0_r44b7, _:b0_r44b8, _:b0_r44b9;
     a crm:E22_Human-Made_Object;
     rdfs:label "WTF is Ansel Adams";
     la:member_of mca:collection.
 mca:wtfisart-reconstruction <http://purl.org/dc/elements/1.1/format> "text/html";
-    crm:P129i_is_subject_of _:b0_r44b0;
-    crm:P1_is_identified_by _:b0_r44b2, _:b0_r44b3;
+    crm:P129i_is_subject_of _:b0_r45b0;
+    crm:P1_is_identified_by _:b0_r45b2, _:b0_r45b3;
     crm:P2_has_type aat:300264827, aat:300265232;
-    crm:P67i_is_referred_to_by mca:evidence-wtfia-2009, _:b0_r44b4, _:b0_r44b5, _:b0_r44b6, _:b0_r44b7, _:b0_r44b8;
-    crm:P94i_was_created_by _:b0_r44b9;
+    crm:P67i_is_referred_to_by mca:evidence-wtfia-2009, _:b0_r45b4, _:b0_r45b5, _:b0_r45b6, _:b0_r45b7, _:b0_r45b8;
+    crm:P94i_was_created_by _:b0_r45b9;
     a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
     rdfs:label "www.wtfisart.com — Reconstruction";
     la:access_point <https://www.metaconceptualart.com/wtfisart-2009/index.html>;
     la:member_of mca:collection.
 mca:wtfisart <http://purl.org/dc/elements/1.1/format> "text/html";
     dcterms:conformsTo <https://www.w3.org/TR/html/>;
-    crm:P129i_is_subject_of _:b0_r45b0;
-    crm:P1_is_identified_by _:b0_r45b2, _:b0_r45b3, _:b0_r45b4;
+    crm:P129i_is_subject_of _:b0_r46b0;
+    crm:P1_is_identified_by _:b0_r46b2, _:b0_r46b3, _:b0_r46b4;
     crm:P2_has_type aat:300264827, aat:300265431, aat:300419940;
-    crm:P67i_is_referred_to_by mca:evidence-hosting-receipts-2009, mca:evidence-wtfia-2009, _:b0_r45b10, _:b0_r45b11, _:b0_r45b5, _:b0_r45b6, _:b0_r45b7, _:b0_r45b8, _:b0_r45b9;
-    crm:P94i_was_created_by _:b0_r45b12;
+    crm:P67i_is_referred_to_by mca:evidence-hosting-receipts-2009, mca:evidence-wtfia-2009, _:b0_r46b10, _:b0_r46b11, _:b0_r46b5, _:b0_r46b6, _:b0_r46b7, _:b0_r46b8, _:b0_r46b9;
+    crm:P94i_was_created_by _:b0_r46b12;
     a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
     rdfs:label "www.wtfisart.com";
     la:access_point <https://www.wtfisart.com/>;
@@ -654,6 +666,10 @@ mca:wtfisart <http://purl.org/dc/elements/1.1/format> "text/html";
     a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
     rdfs:label "Screenshot, redacted";
     la:access_point <https://www.metaconceptualart.com/images/sothebys-locations-2013.png>.
+<https://www.metaconceptualart.com/images/wikioccupy-painting-2011.jpg> <http://purl.org/dc/elements/1.1/format> "image/jpeg";
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
+    rdfs:label "Studio photograph of the painting, 2011-11-16";
+    la:access_point <https://www.metaconceptualart.com/images/wikioccupy-painting-2011.jpg>.
 <https://www.metaconceptualart.com/images/wtf-is-art-sheet-2011.jpg> <http://purl.org/dc/elements/1.1/format> "image/jpeg";
     a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
     rdfs:label "Studio photograph of the two works, 2011-11-08";
@@ -1362,7 +1378,7 @@ _:b0_r25b6 crm:P190_has_symbolic_content "Limits. Both postings are the artist's
 _:b0_r25b7 crm:P190_has_symbolic_content "Preservation note. Of the sources that once carried this material, several no longer exist: the Facebook page has been deleted, the YouTube videos cited in the 2013 correspondence are gone, and the mailbox from which that correspondence was sent has been closed. What survives does so on a third-party platform the studio does not control, in two postings set never to expire. Their continued availability is not guaranteed by anyone. The studio has therefore taken a local copy of both postings - the paste bodies and the rendered pages, the latter retained because they carry the platform's own timestamp string that the raw endpoint omits - published alongside this record with checksums at data/evidence/pastebin-2011-2012/. Those files are a preservation copy and not the dated source: a local file proves what was retrieved and when it was retrieved, and nothing more. The dating rests on Pastebin's records, which assign a posting timestamp the poster cannot alter, and should be verified against the live URLs for as long as they resolve.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r25b8 crm:P190_has_symbolic_content "Context for November 2011, independently dated. The studio states that in the autumn of 2011 it set up and ran two wiki sites for the Occupy movement, at wikioccupy.org and wikioccupy.com. Part of that is verifiable without reference to the studio: the Internet Archive holds a capture of wikioccupy.org made on 2011-12-03 at 04:10:07 UTC returning a status of 200, which is to say the site was live and serving content at that date. It is the earliest capture the Archive holds for the domain. No capture of wikioccupy.com exists, and both domains have since lapsed and are now unregistered. The contents of the archived page have not yet been read; the Archive was rate-limiting the machine used for this check.";
+_:b0_r25b8 crm:P190_has_symbolic_content "Context for November 2011, independently dated. The studio states that in the autumn of 2011 it set up and ran two wiki sites for the Occupy movement, at wikioccupy.org and wikioccupy.com. Part of that is verifiable without reference to the studio: the Internet Archive first reached wikioccupy.org on 2011-10-24, captured pages of the running wiki on 2011-10-25, and captured its main page, 'Wiki Occupy Home', on 2011-10-31, which gives as its contact an address at the site's own domain under the name 'Art'. No capture of wikioccupy.com exists, and both domains have since lapsed and are now unregistered. An earlier version of this record gave a capture of 2011-12-03 as the earliest and read it as the live site; that capture returns only the hosting provider's default page, and the earlier captures were found when every address under the domain was searched. The site and the chat logs of November 2011 in which the studio principal described it as art are set out in the record of www.wikioccupy.org.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
 _:b0_r25b9 crm:P190_has_symbolic_content "What that context does and does not do. It does not evidence Metaconceptual Art. Running a wiki for a protest movement is not making art, and nothing on the archived site has been shown to concern the studio's work. Its relevance is to reading, not to dating: the posting of 'The Art World is Flat' on 2011-11-28 was made in the same weeks that its author was, on independent evidence, operating web infrastructure for a movement whose subject was finance and inequality. A poem about the flatness of the art world, published in honour of Cyber Monday by someone then running an Occupy wiki, is more legible for knowing that. Two smaller points also follow. The studio's account of the wiki is a claim it did not control the checking of, and it checks out, which is a modest reason to take its other accounts of that period seriously. And a person who registered and ran domains for projects in 2011 is the kind of person who might have done so for www.wtfisart.com in 2009, which makes that claim more plausible in kind without dating it by a single day.";
@@ -1719,95 +1735,92 @@ _:b0_r31b8 crm:P190_has_symbolic_content "A note on the evidential quality of th
 _:b0_r31b9 crm:P190_has_symbolic_content "Who is pictured, and who held the camera. The person in the storage frames is identified by the studio as one of its art assistants; that name is withheld here pending their consent and is retained in the studio's private copy. The older man at the workbench is not identified in this record. The photographer is not pictured and is not named by the files, whose metadata carries no artist field. One frame, P1010003, is taken from behind the person pictured as they step into the storage unit, so at least that frame was made by someone other than its subject. Sun & Rain Works states that the series was photographed by its art assistants.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r32b0 crm:P2_has_type <https://creativecommons.org/licenses/by/4.0/>;
-    crm:P75i_is_possessed_by mca:sun-and-rain-works;
-    a crm:E30_Right;
-    rdfs:label "CC BY 4.0".
-_:b0_r32b1 crm:P190_has_symbolic_content "Evidence archive: the WTFIA source folder for www.wtfisart.com (2008-2009)";
+_:b0_r32b0 crm:P190_has_symbolic_content "Evidence archive: www.wikioccupy.org, the studio's Occupy wiki, in its chat logs and a painting (November 2011)";
     crm:P2_has_type aat:300404670;
     crm:P72_has_language aat:300388277;
     a crm:E33_E41_Linguistic_Appellation.
-_:b0_r32b2 crm:P190_has_symbolic_content "record:evidence-wtfia-2009";
+_:b0_r32b1 crm:P190_has_symbolic_content "record:evidence-wikioccupy-2011";
     crm:P2_has_type aat:300312355;
     a crm:E42_Identifier.
-_:b0_r32b3 crm:P190_has_symbolic_content "Evidence status: studio-held, with self-describing file metadata. The dates given here are drawn from filesystem modification times and from the OLE document-summary metadata embedded in the Word files. They are internally consistent across the ninety-seven files in the folder, but they are reported by the files themselves and are not independently notarized; they should be read as the archive's own account of its dates. The press sources excerpted in 'IsItArt.doc' are independently verifiable at their published URLs. No checksums, file hashes, or custody identifiers are published at this time. The same storage medium also holds an unrelated 2009 website project on renewable energy, 'Growing Aloha'; it is outside the boundary of this evidence archive.";
+_:b0_r32b2 crm:P190_has_symbolic_content "Evidence status. The logs are held as three rich-text files, 11-10-11WikiChat.rtf, 32,280 bytes, SHA-256 ca1f7fcceb4c1be172ed5d2d5fecf26d523785912e9e1193f45e2e8d0154b157; 11-19-11GlobalWikiChat.rtf, 70,274 bytes, SHA-256 ab3e8f66cf3b3a39d29e819efee06b26892906ce93e528a076fc9902ce02a30b; and AeonJaggoffChatwiki11-19-11.rtf, 3,793 bytes, SHA-256 79056e5c83f20a7216c362803534ea2869525d74f451ed2e538f93a787e7b79f. They are the studio's own saved copies of a conversation with other people, and their lines carry times but no dates; the dates are given by the file names. They are dated more firmly by a message the studio principal sent from his mailbox on 2012-11-12 at 19:43:53 Pacific time, under the subject 'Art Historical Archives', to a private correspondent, which carries the three files as attachments, byte-identical to the copies now held, and which bears a message identifier of the form the Windows Live Hotmail service issued at that time. The logs therefore existed, in their present form, by 2012-11-13 at 03:43 UTC. One further check is internal: the channel topic recorded at the head of the 19 November log announces a meeting on 'Wednesday Nov. 16', and 2011-11-16 was a Wednesday. The logs are not published, because nearly all of their text is other people's; their checksums are, so that the held files can later be shown to be unaltered. The photograph is the camera's original, a JPEG of 2,048 by 1,536 pixels with its Exif block intact, held as 1116110742.JPEG, 471,800 bytes, SHA-256 ca9930c7d37af9bb1e86299d5b1165f2f1523cf83af9c76f1e8e1a224fa39d7d, and is published here at /images/wikioccupy-painting-2011.jpg as a byte-identical copy, renamed for the web and not otherwise altered.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r32b4 crm:P190_has_symbolic_content "Embedded document metadata, as recorded by the files themselves: 'IsItArt.doc' gives author Joseph M. Chirum, created 2009-01-22T03:03, last saved 2009-01-28T21:23, revision 21, total editing time 09:46, 14 pages, 4,049 words, 23,082 characters; its Title field carries the string 'August 13, 2007', which is a metadata field value and not, by itself, evidence of a 2007 document. That string is now accounted for: 'August 13, 2007' is the date of one of the twenty-four press reports compiled inside the document itself, a New York Sun piece by Kate Taylor headed 'Seeking A Hedge For Art'. The Title field took the value of a heading in the body, as Word does, and carries no authorship date of its own. 'Photographers.doc' gives author Joseph M. Chirum, created 2009-01-22T04:19, last saved 2009-01-26T04:15, revision 4, 1 page, 69 words. 'OldMasters.doc' gives created 2009-01-23T18:22, last saved 2009-01-26T20:50, revision 19, 8 pages, 1,263 words. 'Modern.doc' gives created 2009-01-27T13:15, last saved 2009-01-28T03:49, revision 10, and was produced with a different word processor from the other three. A second contributor is recorded in the metadata of all four documents: as the named author of both dealer-network directories, 'OldMasters.doc' and 'Modern.doc', and as the last editor of all four files. That person's name is withheld from this public record pending their consent, and is retained in the studio's private copy; the attribution of the two directories is theirs, not the studio principal's.";
+_:b0_r32b3 crm:P190_has_symbolic_content "How the photograph is dated. The Exif block names the camera as an LG Electronics LG-VX8575 with firmware VX857V06, the camera phone that made the photograph of 2011-11-08 set out in the inscription photograph record, and gives DateTimeOriginal as 2011:11:16 07:42:37. The file name, 1116110742, is the phone's own naming from month, day, two-digit year, hour and minute, and gives the same minute. The file carries no GPS data. The same phone photographed other studio works in the same half-hour that morning, among them the painted postcard of 07:29 set out in the postcard record. The date is the file's own account and is not notarized, and it dates the photograph, not the painting's making; the painting existed by that morning. No title for the painting is recorded here, and whether it survives is not stated.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r32b5 crm:P190_has_symbolic_content "The folder is named for the 'WTF is Art' concept and holds the material Sun & Rain Works assembled for www.wtfisart.com: the art-market press compilation, the photographer note, and the two dealer-network directories of galleries and their web addresses that were built as the site's link content. Its art-market compilation is the documented source context for the image study Art Market Reform, and the dealer directories are a documented instance of the project's stated interest in an archaeology of the art world. The folder holds no HTML: the built pages of www.wtfisart.com are not among these files, so the folder evidences what was made for the site, not what the site published or when it went live. The folder also contains an Ansel Adams reference image dated 2009-01-21 and a photographer reference note dated 2009-01-25; these show that Ansel Adams and photographic authorship were present in the same 2009 working set, and nothing further. The 2009 Sotheby's consignment is evidenced separately, in the auction-engagement evidence record. One temporal alignment is worth recording: the latest-dated material in the folder - the modern-gallery directory, last saved 2009-03-23, and the seventeen art-market images, all dated 2009-03-23 - falls one week before the Sotheby's Photographs sale of 30 March 2009 at which lot 16 was offered. The folder was therefore in active use in the week before that sale. This places the work and the sale in the same period; it does not show that the material was made for the sale, and no such intent is claimed from the dates alone. Each item here is scoped to what it shows.";
+_:b0_r32b4 crm:P190_has_symbolic_content "The site itself, as archived. The Internet Archive first reached www.wikioccupy.org on 2011-10-24, when the address redirected into the wiki; pages of the running wiki were captured on 2011-10-25, and its main page on 2011-10-31 at 01:35:40 UTC, at https://web.archive.org/web/20111031013540/http://www.wikioccupy.org/index.php?title=Main_Page . That page, last modified on 30 October 2011, is titled 'Wiki Occupy Home', describes the site as 'an unofficial collective wiki for all of the occupy groups meeting up across the United States', and gives as its contact an address at the site's own domain under the name 'Art', the name the studio principal used in the chat. On 2011-12-03 the address returned only the hosting provider's default page. As captured, the site presents itself as a wiki for the Occupy movement and does not describe itself as a work of art; the art framing is in the studio principal's words in the chat, not on the site.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r32b6 crm:P190_has_symbolic_content "Contents of the documents, as counted in 2026 when they were transcribed in full: 'IsItArt.doc' holds twenty-four dated press reports running from 13 May 2000 to 29 January 2009, twenty-two of them carrying the source link the compiler recorded and two carrying none; 'OldMasters.doc' holds sixty-four dealers and galleries, every one with a web address, grouped under seventeen regional headings; 'Modern.doc' holds eighty-one galleries under twenty-nine regional headings with no web addresses at all, its first group of five carrying no heading; 'Photographers.doc' holds the single note on Lee Balterman. These counts describe the documents as held and are independent of any claim about the website.";
+_:b0_r32b5 crm:P190_has_symbolic_content "What these establish, and what they do not. They establish that in November 2011, in a conversation with other people and at a date fixed by a message of 2012, the studio principal described his holding of the wikioccupy domains 'as an act of Art' and the project as one Art project among others in his life, that he placed the domain under his art business, and that by 2011-11-16 he had made a painting whose subject is the site's address. Three limits go with that. The name he used in the channel was 'Art', so some of his phrases can be read either way: 'Art's project' may mean the project of the person called Art, and 'happening' may be meant in the ordinary sense of taking place, although the studio used the word of its own work elsewhere, as the archived-websites record sets out for 'Art Market Reform is a happening'. The line 'as an act of Art' follows 'i was/am very enthusiastic about the wiki occupy idea' and is quoted in sequence so that the reader can judge what it refers to. And nothing here names Metaconceptual Art, mentions www.wtfisart.com, Sotheby's or the sale of 2009, or bears on any date before 2011. The record is included because it shows the studio treating a website and its address as material for art two years after it registered www.wtfisart.com; it is a parallel, not evidence about that site.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r32b7 crm:P190_has_symbolic_content "An exhaustive negative search, run 2026-09-01 and recorded so that it need not be repeated. All ninety-eight files on the studio's source medium, totalling 20,271,324 bytes, were searched for any trace of the 2009 auction engagement. The method was not a reading of the readable files but an extraction of every ASCII and every UTF-16 string from every byte of every file, so that text embedded in the Word documents' internal streams, in Photoshop layers, in the thumbnail caches and in the images' own metadata segments would be caught. The following terms return no hit anywhere in the folder: consign, consignment, N08533, lot 16, Twin Peaks, appraisal, hammer, estimate, and the surname of either member of Sotheby's staff. So do the terms metaconceptual, meta conceptual, wtfisart, WTF is Art, and Sun and Rain, none of which appears in the folder at all, including in the folder named for the first of them. The word Sotheby appears only inside the press compilation, in the headline and body of art-market reports about the auction houses, and the word auction likewise, together with one gallery whose trading name contains it. The words Ansel and Adams appear only in the filename of a reference plate and in a shortcut created in 2026. The conclusion is the one this record already stated and can now state as tested rather than assumed: the working material assembled for www.wtfisart.com, worked on until the week before the sale of 30 March 2009, contains no mention of the consignment, of the sale, or of the concept later called Metaconceptual Art.";
+_:b0_r32b6 crm:P190_has_symbolic_content "Redaction and scope. Only the studio principal's own words are quoted. The other participants in the channel, the network addresses the logs record, and the correspondent to whom the logs were sent in 2012 are not named, and nothing any of them wrote is reproduced. No endorsement of this collection, of Metaconceptual Art or of any claim here by any person in the channel, or by the Occupy movement, is implied. The domain names are given because they are the subject of the record; both principal domains have since lapsed.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r32b8 crm:P14_carried_out_by mca:sun-and-rain-works;
-    crm:P4_has_time-span _:b0_r32b9;
+_:b0_r32b7 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P4_has_time-span _:b0_r32b8;
     a crm:E65_Creation;
-    rdfs:label "Compilation of the WTFIA working-folder evidence record".
-_:b0_r32b9 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    rdfs:label "Compilation of the wikioccupy.org record".
+_:b0_r32b8 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     a crm:E52_Time-Span;
     rdfs:label "2026".
-_:b0_r33b0 a crm:E33_Linguistic_Object;
+_:b0_r33b0 crm:P2_has_type <https://creativecommons.org/licenses/by/4.0/>;
+    crm:P75i_is_possessed_by mca:sun-and-rain-works;
+    a crm:E30_Right;
+    rdfs:label "CC BY 4.0".
+_:b0_r33b1 crm:P190_has_symbolic_content "Evidence archive: the WTFIA source folder for www.wtfisart.com (2008-2009)";
+    crm:P2_has_type aat:300404670;
+    crm:P72_has_language aat:300388277;
+    a crm:E33_E41_Linguistic_Appellation.
+_:b0_r33b2 crm:P190_has_symbolic_content "record:evidence-wtfia-2009";
+    crm:P2_has_type aat:300312355;
+    a crm:E42_Identifier.
+_:b0_r33b3 crm:P190_has_symbolic_content "Evidence status: studio-held, with self-describing file metadata. The dates given here are drawn from filesystem modification times and from the OLE document-summary metadata embedded in the Word files. They are internally consistent across the ninety-seven files in the folder, but they are reported by the files themselves and are not independently notarized; they should be read as the archive's own account of its dates. The press sources excerpted in 'IsItArt.doc' are independently verifiable at their published URLs. No checksums, file hashes, or custody identifiers are published at this time. The same storage medium also holds an unrelated 2009 website project on renewable energy, 'Growing Aloha'; it is outside the boundary of this evidence archive.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r33b4 crm:P190_has_symbolic_content "Embedded document metadata, as recorded by the files themselves: 'IsItArt.doc' gives author Joseph M. Chirum, created 2009-01-22T03:03, last saved 2009-01-28T21:23, revision 21, total editing time 09:46, 14 pages, 4,049 words, 23,082 characters; its Title field carries the string 'August 13, 2007', which is a metadata field value and not, by itself, evidence of a 2007 document. That string is now accounted for: 'August 13, 2007' is the date of one of the twenty-four press reports compiled inside the document itself, a New York Sun piece by Kate Taylor headed 'Seeking A Hedge For Art'. The Title field took the value of a heading in the body, as Word does, and carries no authorship date of its own. 'Photographers.doc' gives author Joseph M. Chirum, created 2009-01-22T04:19, last saved 2009-01-26T04:15, revision 4, 1 page, 69 words. 'OldMasters.doc' gives created 2009-01-23T18:22, last saved 2009-01-26T20:50, revision 19, 8 pages, 1,263 words. 'Modern.doc' gives created 2009-01-27T13:15, last saved 2009-01-28T03:49, revision 10, and was produced with a different word processor from the other three. A second contributor is recorded in the metadata of all four documents: as the named author of both dealer-network directories, 'OldMasters.doc' and 'Modern.doc', and as the last editor of all four files. That person's name is withheld from this public record pending their consent, and is retained in the studio's private copy; the attribution of the two directories is theirs, not the studio principal's.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r33b5 crm:P190_has_symbolic_content "The folder is named for the 'WTF is Art' concept and holds the material Sun & Rain Works assembled for www.wtfisart.com: the art-market press compilation, the photographer note, and the two dealer-network directories of galleries and their web addresses that were built as the site's link content. Its art-market compilation is the documented source context for the image study Art Market Reform, and the dealer directories are a documented instance of the project's stated interest in an archaeology of the art world. The folder holds no HTML: the built pages of www.wtfisart.com are not among these files, so the folder evidences what was made for the site, not what the site published or when it went live. The folder also contains an Ansel Adams reference image dated 2009-01-21 and a photographer reference note dated 2009-01-25; these show that Ansel Adams and photographic authorship were present in the same 2009 working set, and nothing further. The 2009 Sotheby's consignment is evidenced separately, in the auction-engagement evidence record. One temporal alignment is worth recording: the latest-dated material in the folder - the modern-gallery directory, last saved 2009-03-23, and the seventeen art-market images, all dated 2009-03-23 - falls one week before the Sotheby's Photographs sale of 30 March 2009 at which lot 16 was offered. The folder was therefore in active use in the week before that sale. This places the work and the sale in the same period; it does not show that the material was made for the sale, and no such intent is claimed from the dates alone. Each item here is scoped to what it shows.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r33b6 crm:P190_has_symbolic_content "Contents of the documents, as counted in 2026 when they were transcribed in full: 'IsItArt.doc' holds twenty-four dated press reports running from 13 May 2000 to 29 January 2009, twenty-two of them carrying the source link the compiler recorded and two carrying none; 'OldMasters.doc' holds sixty-four dealers and galleries, every one with a web address, grouped under seventeen regional headings; 'Modern.doc' holds eighty-one galleries under twenty-nine regional headings with no web addresses at all, its first group of five carrying no heading; 'Photographers.doc' holds the single note on Lee Balterman. These counts describe the documents as held and are independent of any claim about the website.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r33b7 crm:P190_has_symbolic_content "An exhaustive negative search, run 2026-09-01 and recorded so that it need not be repeated. All ninety-eight files on the studio's source medium, totalling 20,271,324 bytes, were searched for any trace of the 2009 auction engagement. The method was not a reading of the readable files but an extraction of every ASCII and every UTF-16 string from every byte of every file, so that text embedded in the Word documents' internal streams, in Photoshop layers, in the thumbnail caches and in the images' own metadata segments would be caught. The following terms return no hit anywhere in the folder: consign, consignment, N08533, lot 16, Twin Peaks, appraisal, hammer, estimate, and the surname of either member of Sotheby's staff. So do the terms metaconceptual, meta conceptual, wtfisart, WTF is Art, and Sun and Rain, none of which appears in the folder at all, including in the folder named for the first of them. The word Sotheby appears only inside the press compilation, in the headline and body of art-market reports about the auction houses, and the word auction likewise, together with one gallery whose trading name contains it. The words Ansel and Adams appear only in the filename of a reference plate and in a shortcut created in 2026. The conclusion is the one this record already stated and can now state as tested rather than assumed: the working material assembled for www.wtfisart.com, worked on until the week before the sale of 30 March 2009, contains no mention of the consignment, of the sale, or of the concept later called Metaconceptual Art.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r33b8 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P4_has_time-span _:b0_r33b9;
+    a crm:E65_Creation;
+    rdfs:label "Compilation of the WTFIA working-folder evidence record".
+_:b0_r33b9 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    a crm:E52_Time-Span;
+    rdfs:label "2026".
+_:b0_r34b0 a crm:E33_Linguistic_Object;
     rdfs:label "Artwork page";
-    la:digitally_carried_by _:b0_r33b1.
-_:b0_r33b1 <http://purl.org/dc/elements/1.1/format> "text/html";
+    la:digitally_carried_by _:b0_r34b1.
+_:b0_r34b1 <http://purl.org/dc/elements/1.1/format> "text/html";
     a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
     rdfs:label "Metaconceptual Art — Movement Graph";
     la:access_point <https://www.metaconceptualart.com/artworks/movement-graph>.
-_:b0_r33b2 crm:P190_has_symbolic_content "Movement Graph";
+_:b0_r34b2 crm:P190_has_symbolic_content "Movement Graph";
     crm:P2_has_type aat:300404670;
     crm:P72_has_language aat:300388277;
     a crm:E33_E41_Linguistic_Appellation.
-_:b0_r33b3 crm:P190_has_symbolic_content "work:movement-graph";
+_:b0_r34b3 crm:P190_has_symbolic_content "work:movement-graph";
     crm:P2_has_type aat:300312355;
     a crm:E42_Identifier.
-_:b0_r33b4 crm:P190_has_symbolic_content "The knowledge graph treated as an artwork: relations, authorities, claims, and viewers arranged as a walkable system.";
+_:b0_r34b4 crm:P190_has_symbolic_content "The knowledge graph treated as an artwork: relations, authorities, claims, and viewers arranged as a walkable system.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r33b5 crm:P14_carried_out_by mca:sun-and-rain-works;
-    crm:P4_has_time-span _:b0_r33b6;
+_:b0_r34b5 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P4_has_time-span _:b0_r34b6;
     a crm:E65_Creation;
     rdfs:label "Creation of Movement Graph".
-_:b0_r33b6 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-    crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-    a crm:E52_Time-Span;
-    rdfs:label "2026".
-_:b0_r34b0 crm:P2_has_type <https://creativecommons.org/licenses/by/4.0/>;
-    crm:P75i_is_possessed_by mca:sun-and-rain-works;
-    a crm:E30_Right;
-    rdfs:label "CC BY 4.0".
-_:b0_r34b1 a crm:E33_Linguistic_Object;
-    rdfs:label "Movement Record page";
-    la:digitally_carried_by _:b0_r34b2.
-_:b0_r34b2 <http://purl.org/dc/elements/1.1/format> "text/html";
-    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
-    rdfs:label "Metaconceptual Art — Movement Record";
-    la:access_point <https://www.metaconceptualart.com/movement>.
-_:b0_r34b3 crm:P190_has_symbolic_content "Proof of Movement: Metaconceptual Art";
-    crm:P2_has_type aat:300404670;
-    crm:P72_has_language aat:300388277;
-    a crm:E33_E41_Linguistic_Appellation.
-_:b0_r34b4 crm:P190_has_symbolic_content "work:movement-record";
-    crm:P2_has_type aat:300312355;
-    a crm:E42_Identifier.
-_:b0_r34b5 crm:P190_has_symbolic_content "The Movement Record turns the claim for Metaconceptual Art into a citable textual work and a machine-readable evidence surface. It distinguishes local validity from external canonization while pointing to Linked Art, Wikidata, Getty vocabularies, IIIF, schema.org, and the git-derived Activity Stream.";
-    crm:P2_has_type aat:300435416;
-    a crm:E33_Linguistic_Object.
-_:b0_r34b6 crm:P190_has_symbolic_content "The revision history this collection reasons from is archived outside it. The Activity Stream published here is not written by hand: every activity in it is derived from a commit in this project's git history, and a checker refuses the stream if any activity fails to map to a real commit that touched the record it names. That argument is only as good as the history, and until now the history existed in two places that are not independent of each other, a laptop and a hosting account. It is now also held by Software Heritage, the archive run under UNESCO auspices for the long-term preservation of source code. The snapshot is swh:1:snp:93a00a523674d0320f05b783c35a22c43c6328a0, resolvable at https://archive.softwareheritage.org/swh:1:snp:93a00a523674d0320f05b783c35a22c43c6328a0. Its identifier is content-derived rather than issued, so it cannot be reassigned to different content, and it can be dereferenced by anyone without this studio's cooperation or the hosting provider's. The snapshot was taken on 2026-09-22 and its refs/heads/main resolves to the commit this publication was built from, which was checked rather than assumed. Two limits belong with it. A snapshot fixes the history as it stood when the snapshot was taken and says nothing about commits made afterwards, so it has to be re-taken after later work; earlier snapshots of 2026-09-12 and 2026-09-16 remain valid for the history as of those dates. And what the archive preserves is the history of this publication, which begins in 2026. It is evidence that the records have not been quietly rewritten since; it is not evidence about 2008, 2009, or any other year the records describe.";
-    crm:P2_has_type aat:300435416;
-    a crm:E33_Linguistic_Object.
-_:b0_r34b7 crm:P14_carried_out_by mca:sun-and-rain-works;
-    crm:P15_was_influenced_by wd:Q18692990, mca:concept-metaconceptual-art;
-    crm:P4_has_time-span _:b0_r34b8;
-    a crm:E65_Creation;
-    rdfs:label "Writing of the Movement Record".
-_:b0_r34b8 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+_:b0_r34b6 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     a crm:E52_Time-Span;
     rdfs:label "2026".
@@ -1815,93 +1828,110 @@ _:b0_r35b0 crm:P2_has_type <https://creativecommons.org/licenses/by/4.0/>;
     crm:P75i_is_possessed_by mca:sun-and-rain-works;
     a crm:E30_Right;
     rdfs:label "CC BY 4.0".
-_:b0_r35b1 crm:P190_has_symbolic_content "Sun & Rain Works' conceptual claim to art at auction (2009)";
+_:b0_r35b1 a crm:E33_Linguistic_Object;
+    rdfs:label "Movement Record page";
+    la:digitally_carried_by _:b0_r35b2.
+_:b0_r35b2 <http://purl.org/dc/elements/1.1/format> "text/html";
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
+    rdfs:label "Metaconceptual Art — Movement Record";
+    la:access_point <https://www.metaconceptualart.com/movement>.
+_:b0_r35b3 crm:P190_has_symbolic_content "Proof of Movement: Metaconceptual Art";
     crm:P2_has_type aat:300404670;
     crm:P72_has_language aat:300388277;
     a crm:E33_E41_Linguistic_Appellation.
-_:b0_r35b2 crm:P190_has_symbolic_content "record:priority-live-auction-2009";
+_:b0_r35b4 crm:P190_has_symbolic_content "work:movement-record";
     crm:P2_has_type aat:300312355;
     a crm:E42_Identifier.
-_:b0_r35b3 crm:P190_has_symbolic_content "Supporting documentation is described at evidence-live-auction-2009 and includes 2008 Sotheby's correspondence and the public catalogue lot. Recommended framing: the artist's asserted conceptual designation of an auction engagement. Avoided claims: 'first in history', publicly witnessed live creation, or precedence over any later artist or event, absent independent recognition and separately published evidence.";
+_:b0_r35b5 crm:P190_has_symbolic_content "The Movement Record turns the claim for Metaconceptual Art into a citable textual work and a machine-readable evidence surface. It distinguishes local validity from external canonization while pointing to Linked Art, Wikidata, Getty vocabularies, IIIF, schema.org, and the git-derived Activity Stream.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r35b4 crm:P190_has_symbolic_content "The phrase 'made explicit over time' can now be given its earliest located date. On 2013-09-12 the studio principal set the designation down in writing to a university art museum, naming the Sotheby's lot and calling the consignment a performance act of Metaconceptual Art. That letter is the earliest articulation of this claim delivered to an institution, and the earliest to call the sale Metaconceptual Art; it is the artist's own declaration, and it postdates the 2009 engagement by four years. An earlier statement that the sale was a work survives in a private message of 2010-04-12, dated by Facebook's servers, in which the studio principal calls the sale 'an act of contemporary conceptual art', thirteen months after the sale. It too is the artist's own statement, and it does not use the word Metaconceptual.";
+_:b0_r35b6 crm:P190_has_symbolic_content "The revision history this collection reasons from is archived outside it. The Activity Stream published here is not written by hand: every activity in it is derived from a commit in this project's git history, and a checker refuses the stream if any activity fails to map to a real commit that touched the record it names. That argument is only as good as the history, and until now the history existed in two places that are not independent of each other, a laptop and a hosting account. It is now also held by Software Heritage, the archive run under UNESCO auspices for the long-term preservation of source code. The snapshot is swh:1:snp:93a00a523674d0320f05b783c35a22c43c6328a0, resolvable at https://archive.softwareheritage.org/swh:1:snp:93a00a523674d0320f05b783c35a22c43c6328a0. Its identifier is content-derived rather than issued, so it cannot be reassigned to different content, and it can be dereferenced by anyone without this studio's cooperation or the hosting provider's. The snapshot was taken on 2026-09-22 and its refs/heads/main resolves to the commit this publication was built from, which was checked rather than assumed. Two limits belong with it. A snapshot fixes the history as it stood when the snapshot was taken and says nothing about commits made afterwards, so it has to be re-taken after later work; earlier snapshots of 2026-09-12 and 2026-09-16 remain valid for the history as of those dates. And what the archive preserves is the history of this publication, which begins in 2026. It is evidence that the records have not been quietly rewritten since; it is not evidence about 2008, 2009, or any other year the records describe.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r35b5 crm:P14_carried_out_by mca:sun-and-rain-works;
-    crm:P4_has_time-span _:b0_r35b6;
+_:b0_r35b7 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P15_was_influenced_by wd:Q18692990, mca:concept-metaconceptual-art;
+    crm:P4_has_time-span _:b0_r35b8;
     a crm:E65_Creation;
-    rdfs:label "Writing of the conceptual-claim statement".
-_:b0_r35b6 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    rdfs:label "Writing of the Movement Record".
+_:b0_r35b8 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     a crm:E52_Time-Span;
     rdfs:label "2026".
-_:b0_r36b0 crm:P190_has_symbolic_content "Sun & Rain Works' auction engagement (Sotheby's Photographs, 2009)";
+_:b0_r36b0 crm:P2_has_type <https://creativecommons.org/licenses/by/4.0/>;
+    crm:P75i_is_possessed_by mca:sun-and-rain-works;
+    a crm:E30_Right;
+    rdfs:label "CC BY 4.0".
+_:b0_r36b1 crm:P190_has_symbolic_content "Sun & Rain Works' conceptual claim to art at auction (2009)";
     crm:P2_has_type aat:300404670;
     crm:P72_has_language aat:300388277;
     a crm:E33_E41_Linguistic_Appellation.
-_:b0_r36b1 crm:P190_has_symbolic_content "activity:production-live-auction-2009";
+_:b0_r36b2 crm:P190_has_symbolic_content "record:priority-live-auction-2009";
     crm:P2_has_type aat:300312355;
     a crm:E42_Identifier.
-_:b0_r36b2 crm:P82a_begin_of_the_begin "2009-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+_:b0_r36b3 crm:P190_has_symbolic_content "Supporting documentation is described at evidence-live-auction-2009 and includes 2008 Sotheby's correspondence and the public catalogue lot. Recommended framing: the artist's asserted conceptual designation of an auction engagement. Avoided claims: 'first in history', publicly witnessed live creation, or precedence over any later artist or event, absent independent recognition and separately published evidence.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r36b4 crm:P190_has_symbolic_content "The phrase 'made explicit over time' can now be given its earliest located date. On 2013-09-12 the studio principal set the designation down in writing to a university art museum, naming the Sotheby's lot and calling the consignment a performance act of Metaconceptual Art. That letter is the earliest articulation of this claim delivered to an institution, and the earliest to call the sale Metaconceptual Art; it is the artist's own declaration, and it postdates the 2009 engagement by four years. An earlier statement that the sale was a work survives in a private message of 2010-04-12, dated by Facebook's servers, in which the studio principal calls the sale 'an act of contemporary conceptual art', thirteen months after the sale. It too is the artist's own statement, and it does not use the word Metaconceptual.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r36b5 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P4_has_time-span _:b0_r36b6;
+    a crm:E65_Creation;
+    rdfs:label "Writing of the conceptual-claim statement".
+_:b0_r36b6 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    a crm:E52_Time-Span;
+    rdfs:label "2026".
+_:b0_r37b0 crm:P190_has_symbolic_content "Sun & Rain Works' auction engagement (Sotheby's Photographs, 2009)";
+    crm:P2_has_type aat:300404670;
+    crm:P72_has_language aat:300388277;
+    a crm:E33_E41_Linguistic_Appellation.
+_:b0_r37b1 crm:P190_has_symbolic_content "activity:production-live-auction-2009";
+    crm:P2_has_type aat:300312355;
+    a crm:E42_Identifier.
+_:b0_r37b2 crm:P82a_begin_of_the_begin "2009-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     crm:P82b_end_of_the_end "2009-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     a crm:E52_Time-Span;
     rdfs:label "2009".
-_:b0_r36b3 crm:P190_has_symbolic_content "Sun & Rain Works' engagement with Sotheby's Photographs, 2009 (sale N08533): the consignment of an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), and the artist's designation of that engagement — together with the associated website www.wtfisart.com — as conceptual works. Sun & Rain Works names two works, www.wtfisart.com and WTF is Ansel Adams. The auction as artwork is the concept both works realise; it is not itself a titled work, and an earlier version of this record, which called it the primary work, was wrong. These designations are assertions by the artist, made explicit over time; they are not publicly witnessed live-creation events, and the Sotheby's catalogue does not name Sun & Rain Works.";
+_:b0_r37b3 crm:P190_has_symbolic_content "Sun & Rain Works' engagement with Sotheby's Photographs, 2009 (sale N08533): the consignment of an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16), and the artist's designation of that engagement — together with the associated website www.wtfisart.com — as conceptual works. Sun & Rain Works names two works, www.wtfisart.com and WTF is Ansel Adams. The auction as artwork is the concept both works realise; it is not itself a titled work, and an earlier version of this record, which called it the primary work, was wrong. These designations are assertions by the artist, made explicit over time; they are not publicly witnessed live-creation events, and the Sotheby's catalogue does not name Sun & Rain Works.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r37b0 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+_:b0_r38b0 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     a crm:E52_Time-Span;
     rdfs:label "2026".
-_:b0_r37b1 crm:P190_has_symbolic_content "Public linked-data publication of selected Metaconceptual Art records in 2026. This publication makes the movement and selected works machine-readable on the open web; it is not the creation date of Sun & Rain Works, the movement, or all portfolio works.";
+_:b0_r38b1 crm:P190_has_symbolic_content "Public linked-data publication of selected Metaconceptual Art records in 2026. This publication makes the movement and selected works machine-readable on the open web; it is not the creation date of Sun & Rain Works, the movement, or all portfolio works.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r37b2 a la:RightAcquisition;
+_:b0_r38b2 a la:RightAcquisition;
     rdfs:label "Publication under CC BY 4.0, granting the public reuse rights";
-    la:establishes _:b0_r37b3.
-_:b0_r37b3 crm:P104i_applies_to mca:art-market-reform, mca:construction-museum, mca:eight-sentences, mca:eightfold-sprocket, mca:movement-graph, mca:site-as-artwork, mca:wtfisart;
-    crm:P1_is_identified_by _:b0_r37b4;
+    la:establishes _:b0_r38b3.
+_:b0_r38b3 crm:P104i_applies_to mca:art-market-reform, mca:construction-museum, mca:eight-sentences, mca:eightfold-sprocket, mca:movement-graph, mca:site-as-artwork, mca:wtfisart;
+    crm:P1_is_identified_by _:b0_r38b4;
     crm:P2_has_type <https://creativecommons.org/licenses/by/4.0/>;
     crm:P75i_is_possessed_by mca:sun-and-rain-works;
     a crm:E30_Right;
     rdfs:label "CC BY 4.0".
-_:b0_r37b4 crm:P190_has_symbolic_content "Creative Commons Attribution 4.0 International";
+_:b0_r38b4 crm:P190_has_symbolic_content "Creative Commons Attribution 4.0 International";
     a crm:E33_E41_Linguistic_Appellation.
-_:b0_r38b0 crm:P190_has_symbolic_content "The Website Itself";
+_:b0_r39b0 crm:P190_has_symbolic_content "The Website Itself";
     crm:P2_has_type aat:300404670;
     crm:P72_has_language aat:300388277;
     a crm:E33_E41_Linguistic_Appellation.
-_:b0_r38b1 crm:P190_has_symbolic_content "work:site-as-artwork";
+_:b0_r39b1 crm:P190_has_symbolic_content "work:site-as-artwork";
     crm:P2_has_type aat:300312355;
     a crm:E42_Identifier.
-_:b0_r38b2 crm:P190_has_symbolic_content "The public page treated as the artwork: a surface where language, navigation, metadata, revision, and viewing conditions become material. The website is one of the work's forms, not a container for it.";
+_:b0_r39b2 crm:P190_has_symbolic_content "The public page treated as the artwork: a surface where language, navigation, metadata, revision, and viewing conditions become material. The website is one of the work's forms, not a container for it.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r38b3 crm:P14_carried_out_by mca:sun-and-rain-works;
-    crm:P4_has_time-span _:b0_r38b4;
+_:b0_r39b3 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P4_has_time-span _:b0_r39b4;
     a crm:E65_Creation;
     rdfs:label "Creation of The Website Itself".
-_:b0_r38b4 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+_:b0_r39b4 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     a crm:E52_Time-Span;
     rdfs:label "2026".
-_:b0_r39b0 crm:P190_has_symbolic_content "Sotheby's Photographs auction (sale N08533, 2009)";
-    crm:P2_has_type aat:300404670;
-    crm:P72_has_language aat:300388277;
-    a crm:E33_E41_Linguistic_Appellation.
-_:b0_r39b1 crm:P190_has_symbolic_content "activity:sothebys-photographs-auction-2009";
-    crm:P2_has_type aat:300312355;
-    a crm:E42_Identifier.
-_:b0_r39b2 crm:P82a_begin_of_the_begin "2009-03-30T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-    crm:P82b_end_of_the_end "2009-03-30T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-    a crm:E52_Time-Span;
-    rdfs:label "30 March 2009".
-_:b0_r39b3 crm:P190_has_symbolic_content "The public Sotheby's Photographs auction (sale N08533), New York, 2009, carried out by Sotheby's, at which Sun & Rain Works consigned an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16). Sun & Rain Works designates its engagement with this auction as the material of the concept of the auction as artwork, realised in the works www.wtfisart.com and WTF is Ansel Adams. This record names the real-world event and cites the public catalogue; it does not assert that Sotheby's authored, endorsed, or participated in the artwork, and the catalogue does not name Sun & Rain Works.";
-    crm:P2_has_type aat:300435416;
-    a crm:E33_Linguistic_Object.
-_:b0_r39b4 a crm:E53_Place;
-    rdfs:label "Sotheby's, New York".
 _:b0_r3b0 crm:P190_has_symbolic_content "Art Tax";
     crm:P2_has_type aat:300404670;
     crm:P72_has_language aat:300388277;
@@ -1921,186 +1951,202 @@ _:b0_r3b4 crm:P190_has_symbolic_content "What the letter says, in its own words.
 _:b0_r3b5 crm:P190_has_symbolic_content "What is not held, stated so that nobody infers more than there is. This collection holds no image of the work, no text of the proposal, no correspondence about it other than the 2013 letter, and nothing from any year before 2013 that carries the title. The work's dating is therefore an attestation and not a creation date: the title was in use on 2013-09-12, and the letter's own phrase, that the works are 'ongoing through time and space', describes something continuing rather than finished. No creation event is recorded here for that reason. That question is no longer open in one direction. The studio states, on 2026-09-22, that the work exists and is held in its collection, so the thinness of this record is a fact about what has been published here and not about what exists. The statement is the studio's, about its own holdings, and nobody outside the studio has examined the work; no medium, support, measurement or date of making has been supplied, and none is recorded. When the object's particulars and a photograph of it are to hand, this record should describe the object and be replaced by a fuller one.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r40b0 crm:P190_has_symbolic_content "Sotheby's";
+_:b0_r40b0 crm:P190_has_symbolic_content "Sotheby's Photographs auction (sale N08533, 2009)";
     crm:P2_has_type aat:300404670;
     crm:P72_has_language aat:300388277;
     a crm:E33_E41_Linguistic_Appellation.
-_:b0_r40b1 crm:P190_has_symbolic_content "agent:sothebys";
+_:b0_r40b1 crm:P190_has_symbolic_content "activity:sothebys-photographs-auction-2009";
     crm:P2_has_type aat:300312355;
     a crm:E42_Identifier.
-_:b0_r40b2 crm:P190_has_symbolic_content "https://www.sothebys.com/";
+_:b0_r40b2 crm:P82a_begin_of_the_begin "2009-03-30T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2009-03-30T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    a crm:E52_Time-Span;
+    rdfs:label "30 March 2009".
+_:b0_r40b3 crm:P190_has_symbolic_content "The public Sotheby's Photographs auction (sale N08533), New York, 2009, carried out by Sotheby's, at which Sun & Rain Works consigned an Ansel Adams photograph, 'San Francisco from Twin Peaks' (lot 16). Sun & Rain Works designates its engagement with this auction as the material of the concept of the auction as artwork, realised in the works www.wtfisart.com and WTF is Ansel Adams. This record names the real-world event and cites the public catalogue; it does not assert that Sotheby's authored, endorsed, or participated in the artwork, and the catalogue does not name Sun & Rain Works.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r40b4 a crm:E53_Place;
+    rdfs:label "Sotheby's, New York".
+_:b0_r41b0 crm:P190_has_symbolic_content "Sotheby's";
+    crm:P2_has_type aat:300404670;
+    crm:P72_has_language aat:300388277;
+    a crm:E33_E41_Linguistic_Appellation.
+_:b0_r41b1 crm:P190_has_symbolic_content "agent:sothebys";
+    crm:P2_has_type aat:300312355;
+    a crm:E42_Identifier.
+_:b0_r41b2 crm:P190_has_symbolic_content "https://www.sothebys.com/";
     crm:P2_has_type aat:300404626;
     a crm:E42_Identifier.
-_:b0_r40b3 crm:P190_has_symbolic_content "International auction house founded in 1744. Named here only as the institution that carried out the Sotheby's Photographs auction (sale N08533), New York, 2009 — the public event that Sun & Rain Works designates as the material of the concept of the auction as artwork, realised in the works www.wtfisart.com and WTF is Ansel Adams. Recording Sotheby's as the auction's host asserts no partnership, endorsement, or claim against Sotheby's.";
+_:b0_r41b3 crm:P190_has_symbolic_content "International auction house founded in 1744. Named here only as the institution that carried out the Sotheby's Photographs auction (sale N08533), New York, 2009 — the public event that Sun & Rain Works designates as the material of the concept of the auction as artwork, realised in the works www.wtfisart.com and WTF is Ansel Adams. Recording Sotheby's as the auction's host asserts no partnership, endorsement, or claim against Sotheby's.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r41b0 crm:P190_has_symbolic_content "Sun & Rain Works";
+_:b0_r42b0 crm:P190_has_symbolic_content "Sun & Rain Works";
     crm:P2_has_type aat:300404670;
     crm:P72_has_language aat:300388277;
     a crm:E33_E41_Linguistic_Appellation.
-_:b0_r41b1 crm:P190_has_symbolic_content "agent:sun-and-rain-works";
+_:b0_r42b1 crm:P190_has_symbolic_content "agent:sun-and-rain-works";
     crm:P2_has_type aat:300312355;
     a crm:E42_Identifier.
-_:b0_r41b2 crm:P190_has_symbolic_content "The art business and studio established in 2005 that authors Metaconceptual Art and holds its copyright.";
+_:b0_r42b2 crm:P190_has_symbolic_content "The art business and studio established in 2005 that authors Metaconceptual Art and holds its copyright.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r41b3 crm:P190_has_symbolic_content "The name. The studio principal's own gloss on the name, 'It takes Sun and Rain to make a Rainbow', is first dated in a private Facebook message of 2009-10-16 and recurs in 2012; it is set out in the record of the 2009 Facebook evidence.";
+_:b0_r42b3 crm:P190_has_symbolic_content "The name. The studio principal's own gloss on the name, 'It takes Sun and Rain to make a Rainbow', is first dated in a private Facebook message of 2009-10-16 and recurs in 2012; it is set out in the record of the 2009 Facebook evidence.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r41b4 crm:P190_has_symbolic_content "The studio's own accounts of when the business began, and of a break in it. The business's earliest attestation in this collection is a third party's: the Eugene Saturday Market's records of its membership in 2005, 2006 and 2008, on which the formation date given here rests. The studio principal's own statements place the start differently. In a private Facebook message of 2012-11-25 at 14:16 UTC, by Facebook's clock, written a day or two after he set up the business's Facebook page, he wrote 'S & R W started 4+ years ago, although the fb page is only 24-48 hours old', which on its own terms points to about 2008; in the same exchange he wrote that 'Much of the Art S & R W makes is VERY Traditional. i.e. drawing, painting, sculpture, collage, etc.' In another private message, of 2014-10-23, he wrote that he was 'trying to find balance and restart my art business \"Sun and Rain Works\"', which implies that the business had lapsed for a time before late 2014. Neither statement contradicts the market's record, which is the firmer source because it is a third party's; they are recorded because they are the studio's own words at the time, and they describe the business as starting later than, and as interrupted after, the formation date given here. The correspondents are not named, and only the studio principal's words are quoted. The two threads' files in the account data have SHA-256 1d3b2a20d85b4ac622e22750db44b1e758e777a65fe505577f9f5b95a0695993 and 0f76ab2dcdfc826815eeef44336033e109065d4ebc6e420ed5a752ff51ac3a7c, within the archive facebook-joechirum-2026-09-24-TZ87gGfq.zip, SHA-256 c978c3bd338a6a9a934d3aa05a81d2c298c49200bf7e4edc98b8329c02103097.";
+_:b0_r42b4 crm:P190_has_symbolic_content "The studio's own accounts of when the business began, and of a break in it. The business's earliest attestation in this collection is a third party's: the Eugene Saturday Market's records of its membership in 2005, 2006 and 2008, on which the formation date given here rests. The studio principal's own statements place the start differently. In a private Facebook message of 2012-11-25 at 14:16 UTC, by Facebook's clock, written a day or two after he set up the business's Facebook page, he wrote 'S & R W started 4+ years ago, although the fb page is only 24-48 hours old', which on its own terms points to about 2008; in the same exchange he wrote that 'Much of the Art S & R W makes is VERY Traditional. i.e. drawing, painting, sculpture, collage, etc.' In another private message, of 2014-10-23, he wrote that he was 'trying to find balance and restart my art business \"Sun and Rain Works\"', which implies that the business had lapsed for a time before late 2014. Neither statement contradicts the market's record, which is the firmer source because it is a third party's; they are recorded because they are the studio's own words at the time, and they describe the business as starting later than, and as interrupted after, the formation date given here. The correspondents are not named, and only the studio principal's words are quoted. The two threads' files in the account data have SHA-256 1d3b2a20d85b4ac622e22750db44b1e758e777a65fe505577f9f5b95a0695993 and 0f76ab2dcdfc826815eeef44336033e109065d4ebc6e420ed5a752ff51ac3a7c, within the archive facebook-joechirum-2026-09-24-TZ87gGfq.zip, SHA-256 c978c3bd338a6a9a934d3aa05a81d2c298c49200bf7e4edc98b8329c02103097.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r41b5 crm:P4_has_time-span _:b0_r41b6;
+_:b0_r42b5 crm:P4_has_time-span _:b0_r42b6;
     a crm:E66_Formation;
     rdfs:label "Formation of Sun & Rain Works".
-_:b0_r41b6 crm:P82a_begin_of_the_begin "2005-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+_:b0_r42b6 crm:P82a_begin_of_the_begin "2005-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     crm:P82b_end_of_the_end "2005-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     a crm:E52_Time-Span;
     rdfs:label "2005".
-_:b0_r42b0 crm:P190_has_symbolic_content "What Hedge Funds ?!";
+_:b0_r43b0 crm:P190_has_symbolic_content "What Hedge Funds ?!";
     crm:P2_has_type aat:300404670;
     crm:P72_has_language aat:300388277;
     a crm:E33_E41_Linguistic_Appellation.
-_:b0_r42b1 crm:P190_has_symbolic_content "work:what-hedge-funds";
+_:b0_r43b1 crm:P190_has_symbolic_content "work:what-hedge-funds";
     crm:P2_has_type aat:300312355;
     a crm:E42_Identifier.
-_:b0_r42b2 crm:P190_has_symbolic_content "A painting by Sun & Rain Works carrying the words 'what hedge funds ?' in painted letters. It is known to this collection from one photograph, which the studio published on its own website and which the Internet Archive captured on 2014-12-18 and again on 2016-01-11. No image of the painting is published with this record, and no medium, support, measurement or date of making is recorded, because none has been supplied.";
+_:b0_r43b2 crm:P190_has_symbolic_content "A painting by Sun & Rain Works carrying the words 'what hedge funds ?' in painted letters. It is known to this collection from one photograph, which the studio published on its own website and which the Internet Archive captured on 2014-12-18 and again on 2016-01-11. No image of the painting is published with this record, and no medium, support, measurement or date of making is recorded, because none has been supplied.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r42b3 crm:P190_has_symbolic_content "How it is dated, and how far that reaches. The photograph sits on the studio's site at sites/all/themes/corporateclean/mockup/slide-3.jpg and is held by the Internet Archive at https://web.archive.org/web/20141218140553id_/http://wtfisart.com/sites/all/themes/corporateclean/mockup/slide-3.jpg, 86,711 bytes, 500 by 250 pixels. Above it the site's slider reads 'What Hedge Funds ?! invest in Art'. What that establishes is that the painting existed and had been photographed by 2014-12-18, on the evidence of a third party with no stake in this collection, and that it was still on the site on 2016-01-11. What it does not establish is when the painting was made, which the capture cannot reach, or anything about the object itself beyond what a banner-shaped crop shows.";
+_:b0_r43b3 crm:P190_has_symbolic_content "How it is dated, and how far that reaches. The photograph sits on the studio's site at sites/all/themes/corporateclean/mockup/slide-3.jpg and is held by the Internet Archive at https://web.archive.org/web/20141218140553id_/http://wtfisart.com/sites/all/themes/corporateclean/mockup/slide-3.jpg, 86,711 bytes, 500 by 250 pixels. Above it the site's slider reads 'What Hedge Funds ?! invest in Art'. What that establishes is that the painting existed and had been photographed by 2014-12-18, on the evidence of a third party with no stake in this collection, and that it was still on the site on 2016-01-11. What it does not establish is when the painting was made, which the capture cannot reach, or anything about the object itself beyond what a banner-shaped crop shows.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r42b4 crm:P190_has_symbolic_content "What is not held. This collection holds no photograph of the painting other than the archived crop, which is 500 by 250 pixels and therefore a detail rather than documentation of the whole work. It holds no measurement, no statement of medium, no record of where the painting is, and nothing dated before 2014 that carries the title. The studio has stated, in 2026, that its works exist and are held in its own collection; that statement covers this one no more and no less than the others, and nobody outside the studio has examined it. If the painting is photographed and measured, this record should be replaced by a fuller one.";
+_:b0_r43b4 crm:P190_has_symbolic_content "What is not held. This collection holds no photograph of the painting other than the archived crop, which is 500 by 250 pixels and therefore a detail rather than documentation of the whole work. It holds no measurement, no statement of medium, no record of where the painting is, and nothing dated before 2014 that carries the title. The studio has stated, in 2026, that its works exist and are held in its own collection; that statement covers this one no more and no less than the others, and nobody outside the studio has examined it. If the painting is photographed and measured, this record should be replaced by a fuller one.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r43b0 crm:P14_carried_out_by mca:sun-and-rain-works;
+_:b0_r44b0 crm:P14_carried_out_by mca:sun-and-rain-works;
     crm:P15_was_influenced_by mca:auction-as-artwork;
-    crm:P4_has_time-span _:b0_r43b1;
-    crm:P67i_is_referred_to_by _:b0_r43b2;
+    crm:P4_has_time-span _:b0_r44b1;
+    crm:P67i_is_referred_to_by _:b0_r44b2;
     crm:P9i_forms_part_of mca:production-live-auction-2009;
     a crm:E12_Production;
     rdfs:label "Designation of WTF is Ansel Adams".
-_:b0_r43b1 crm:P82a_begin_of_the_begin "2009-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+_:b0_r44b1 crm:P82a_begin_of_the_begin "2009-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     crm:P82b_end_of_the_end "2009-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     a crm:E52_Time-Span;
     rdfs:label "2009".
-_:b0_r43b10 crm:P190_has_symbolic_content "A work in its own right. Earlier versions of this record modelled WTF is Ansel Adams as a part of a titled work, 'The Auction as Artwork'. There was no such titled work; that phrase names the concept the studio's two works around the 2009 engagement share, and the correction is set out in the record for that concept. This work is recorded as a work, related to www.wtfisart.com, and its making is recorded as influenced by the concept rather than as a part of it. The origin claim for 2009 names www.wtfisart.com as its work and this one as the related work, because the website's name is independently dated and this work's title is not: the public uses of the title held here are an undated profile biography and a public Facebook comment of 2018-10-11, nine and a half years after the sale and made in answer to that day's news of Banksy's 'Love is in the Bin', which gives the title with the year 2009; the comment dates the title to 2018, not to 2009, and is set out in the record of the 2018 comments.";
+_:b0_r44b10 crm:P190_has_symbolic_content "A work in its own right. Earlier versions of this record modelled WTF is Ansel Adams as a part of a titled work, 'The Auction as Artwork'. There was no such titled work; that phrase names the concept the studio's two works around the 2009 engagement share, and the correction is set out in the record for that concept. This work is recorded as a work, related to www.wtfisart.com, and its making is recorded as influenced by the concept rather than as a part of it. The origin claim for 2009 names www.wtfisart.com as its work and this one as the related work, because the website's name is independently dated and this work's title is not: the public uses of the title held here are an undated profile biography and a public Facebook comment of 2018-10-11, nine and a half years after the sale and made in answer to that day's news of Banksy's 'Love is in the Bin', which gives the title with the year 2009; the comment dates the title to 2018, not to 2009, and is set out in the record of the 2018 comments.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r43b2 crm:P190_has_symbolic_content "The work is Sun & Rain Works' conceptual designation connected to the consignment of lot 16 at Sotheby's Photographs, 2009; it is an assertion by the artist and is not recorded as a publicly witnessed performance.";
+_:b0_r44b2 crm:P190_has_symbolic_content "The work is Sun & Rain Works' conceptual designation connected to the consignment of lot 16 at Sotheby's Photographs, 2009; it is an assertion by the artist and is not recorded as a publicly witnessed performance.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r43b3 a crm:E33_Linguistic_Object;
+_:b0_r44b3 a crm:E33_Linguistic_Object;
     rdfs:label "Artwork page";
-    la:digitally_carried_by _:b0_r43b4.
-_:b0_r43b4 <http://purl.org/dc/elements/1.1/format> "text/html";
+    la:digitally_carried_by _:b0_r44b4.
+_:b0_r44b4 <http://purl.org/dc/elements/1.1/format> "text/html";
     a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
     rdfs:label "Metaconceptual Art — WTF is Ansel Adams";
     la:access_point <https://www.metaconceptualart.com/artworks#work-wtf-is-ansel-adams>.
-_:b0_r43b5 crm:P190_has_symbolic_content "WTF is Ansel Adams";
+_:b0_r44b5 crm:P190_has_symbolic_content "WTF is Ansel Adams";
     crm:P2_has_type aat:300404670;
     crm:P72_has_language aat:300388277;
     a crm:E33_E41_Linguistic_Appellation.
-_:b0_r43b6 crm:P190_has_symbolic_content "work:wtf-is-ansel-adams";
+_:b0_r44b6 crm:P190_has_symbolic_content "work:wtf-is-ansel-adams";
     crm:P2_has_type aat:300312355;
     a crm:E42_Identifier.
-_:b0_r43b7 crm:P190_has_symbolic_content "A Metaconceptual Art work that Sun & Rain Works designates around its consignment of the Ansel Adams photograph 'San Francisco from Twin Peaks' (lot 16) to Sotheby's Photographs, 2009 (sale N08533, New York). Titled as a play on the auction and the canonical name of Ansel Adams, it treats the act of bringing the photograph to auction — its lot, its authority, its attribution — as the material of a conceptual work, alongside the born-digital work www.wtfisart.com. The work is a designation asserted by the artist and made explicit over time; it is not recorded as a publicly witnessed performance, and the Sotheby's catalogue lists the lot as an Ansel Adams photograph without naming Sun & Rain Works.";
+_:b0_r44b7 crm:P190_has_symbolic_content "A Metaconceptual Art work that Sun & Rain Works designates around its consignment of the Ansel Adams photograph 'San Francisco from Twin Peaks' (lot 16) to Sotheby's Photographs, 2009 (sale N08533, New York). Titled as a play on the auction and the canonical name of Ansel Adams, it treats the act of bringing the photograph to auction — its lot, its authority, its attribution — as the material of a conceptual work, alongside the born-digital work www.wtfisart.com. The work is a designation asserted by the artist and made explicit over time; it is not recorded as a publicly witnessed performance, and the Sotheby's catalogue lists the lot as an Ansel Adams photograph without naming Sun & Rain Works.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r43b8 crm:P190_has_symbolic_content "Documentation reported by Sun & Rain Works includes 2008 correspondence with Sotheby's Photographs, the public catalogue lot, photographs, and related records; these evidence the artist identity and the consignment. The fuller archive remains held by the studio pending redaction and rights review. This record asserts no historical-priority or precedence claim absent separately published evidence.";
+_:b0_r44b8 crm:P190_has_symbolic_content "Documentation reported by Sun & Rain Works includes 2008 correspondence with Sotheby's Photographs, the public catalogue lot, photographs, and related records; these evidence the artist identity and the consignment. The fuller archive remains held by the studio pending redaction and rights review. This record asserts no historical-priority or precedence claim absent separately published evidence.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r43b9 crm:P190_has_symbolic_content "What the W stands for, in the artist's account. The studio states, in 2026, that the W of this title stands for 'Who', so that it reads 'Who the F is Ansel Adams', while the W of the companion work www.wtfisart.com stands for 'What'. No document from 2008 or 2009 spells out either expansion; this collection searched the correspondence of those years and the studio's working files and found none. The reading is the artist's and is recorded as that. What the choice does can be stated without adding to it: 'What' is the ordinary word of the idiom, so the companion work asks what art is, and 'Who' bends the idiom, so this work asks instead about a person - who the photographer is, and so what his name, stamp and signature do to a print whose identity rests on them. That gloss is this collection's and not the artist's.";
+_:b0_r44b9 crm:P190_has_symbolic_content "What the W stands for, in the artist's account. The studio states, in 2026, that the W of this title stands for 'Who', so that it reads 'Who the F is Ansel Adams', while the W of the companion work www.wtfisart.com stands for 'What'. No document from 2008 or 2009 spells out either expansion; this collection searched the correspondence of those years and the studio's working files and found none. The reading is the artist's and is recorded as that. What the choice does can be stated without adding to it: 'What' is the ordinary word of the idiom, so the companion work asks what art is, and 'Who' bends the idiom, so this work asks instead about a person - who the photographer is, and so what his name, stamp and signature do to a print whose identity rests on them. That gloss is this collection's and not the artist's.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r44b0 a crm:E33_Linguistic_Object;
-    rdfs:label "Artwork page";
-    la:digitally_carried_by _:b0_r44b1.
-_:b0_r44b1 <http://purl.org/dc/elements/1.1/format> "text/html";
-    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
-    rdfs:label "Metaconceptual Art — www.wtfisart.com Reconstruction";
-    la:access_point <https://www.metaconceptualart.com/artworks/wtfisart-reconstruction>.
-_:b0_r44b10 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-    crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-    a crm:E52_Time-Span;
-    rdfs:label "2026".
-_:b0_r44b2 crm:P190_has_symbolic_content "www.wtfisart.com — Reconstruction";
-    crm:P2_has_type aat:300404670;
-    crm:P72_has_language aat:300388277;
-    a crm:E33_E41_Linguistic_Appellation.
-_:b0_r44b3 crm:P190_has_symbolic_content "work:wtfisart-reconstruction";
-    crm:P2_has_type aat:300312355;
-    a crm:E42_Identifier.
-_:b0_r44b4 crm:P190_has_symbolic_content "A nine-page website built in 2026 that reconstructs www.wtfisart.com, the site Sun & Rain Works says it made in 2009, from the only two things that survive of it: the WTFIA folder of source documents assembled for it, and Growing Aloha, an unrelated website built by the same hands in the same months whose HTML, stylesheet and Dreamweaver template are intact. The content is WTFIA's; the form is Growing Aloha's. It is published as a work in its own right and is labelled as a reconstruction on every page.";
-    crm:P2_has_type aat:300435416;
-    a crm:E33_Linguistic_Object.
-_:b0_r44b5 crm:P190_has_symbolic_content "What is transcribed, and what is inferred. Transcribed from the 2009 documents, unchanged: twenty-four dated press reports on the art market spanning 2000 to 2009, twenty-two of them carrying the source link the compiler recorded, with their headlines, bylines and excerpts; sixty-four Old Master dealers and galleries, each with the web address recorded for it in 2009; eighty-one modern and contemporary galleries grouped by state and country, for which the source document holds no web addresses; and a one-page note on the photographer Lee Balterman. Inferred, and belonging to the reconstruction rather than to 2009: the division into pages, the page titles, the order of the navigation column, the wording of the front page, the colour palette, and the existence of a page about the Ansel Adams consignment. Nothing in the surviving material records how the 2009 pages were arranged or what they said.";
-    crm:P2_has_type aat:300435416;
-    a crm:E33_Linguistic_Object.
-_:b0_r44b6 crm:P190_has_symbolic_content "How the form was derived. Growing Aloha, held on the same medium as the WTFIA folder and dated 2009-01-16 to 2009-01-20, is a Dreamweaver site built on the 'three column liquid, header and footer' starter layout: XHTML 1.0 Transitional, a .dwt template with named editable and repeating regions, the layout stylesheet inline in a style element wrapped in HTML comments, an Internet Explorer conditional comment supplying the hasLayout zoom fix, an external stylesheet of content-named classes, and a left column of block-display anchor links. Every one of those traits is reproduced here, and the reconstruction's stylesheet is modelled directly on Aloha.css, class for class. The reconstruction's own pages are valid XHTML 1.0 Transitional and carry Dreamweaver template-instance markers naming a template, Templates/WTFIA.dwt, which is published alongside them.";
-    crm:P2_has_type aat:300435416;
-    a crm:E33_Linguistic_Object.
-_:b0_r44b7 crm:P190_has_symbolic_content "What was deliberately omitted. The 2009 sibling carried a Google Custom Search box and three AdSense units, and the surviving code contains the studio's own publisher and partner identifiers; the live third-party script and those identifiers are not reproduced, and the slots are marked where they sat. The art-historical plates and art-market press pictures in the WTFIA folder are third-party material held back pending rights review and are not shown. The 2009 photographs documenting the Ansel Adams print in the storage unit show an identifiable person and are withheld pending consent; the single photograph reproduced, the print's verso, is the studio's own and was already published. Growing Aloha's tiled background photograph belongs to an unrelated project and is not carried over. The press excerpts that are shown are short passages reproduced for commentary, each attributed to its author and publication and linked to its source.";
-    crm:P2_has_type aat:300435416;
-    a crm:E33_Linguistic_Object.
-_:b0_r44b8 crm:P190_has_symbolic_content "Scope. This is a reconstruction and is evidence of nothing about the 2009 website beyond what the source documents already evidence. It is not a recovered copy: no HTML from www.wtfisart.com survives in the studio's archive or is known to exist elsewhere, and the WTFIA evidence record states that the folder holds what was made for the site rather than what the site published. It does not show that the site went live in 2009. The earliest Internet Archive capture of the domain, from February 2011, is a parked advertising page, which is evidence about February 2011 and not about 2009: the registrar's receipts show a one-year registration taken on 2009-03-16 and no renewal of it in the year that followed, so by February 2011 the domain had lapsed, and a parked page is what a registrar commonly serves at a lapsed address. The same receipts show the studio registering the name again on 2011-10-16, eight months after that capture, which bears on what became of the domain afterwards and not on what stood at it in 2009. What those receipts do establish is that the domain existed and was hosted from 2009-03-16; what stood at it in 2009, if anything, is evidenced by nothing. The studio's account that this site and the Sotheby's consignment were companion works is recorded as the artist's account: the dates are consistent with it, the latest material in the folder having been last saved a week before the sale, but no document in the folder mentions the consignment, and consistency is not intent. No precedence over any other artist, work, or event is claimed.";
-    crm:P2_has_type aat:300435416;
-    a crm:E33_Linguistic_Object.
-_:b0_r44b9 crm:P14_carried_out_by mca:sun-and-rain-works;
-    crm:P16_used_specific_object mca:evidence-wtfia-2009;
-    crm:P4_has_time-span _:b0_r44b10;
-    a crm:E65_Creation;
-    rdfs:label "Creation of the www.wtfisart.com reconstruction".
 _:b0_r45b0 a crm:E33_Linguistic_Object;
     rdfs:label "Artwork page";
     la:digitally_carried_by _:b0_r45b1.
 _:b0_r45b1 <http://purl.org/dc/elements/1.1/format> "text/html";
     a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
-    rdfs:label "Metaconceptual Art - www.wtfisart.com";
-    la:access_point <https://www.metaconceptualart.com/artworks/wtfisart>.
-_:b0_r45b10 crm:P190_has_symbolic_content "What the W stands for, in the artist's account. The studio states, in 2026, that the W of this work's name stands for 'What', so that it reads 'What the F is Art', while the W of the companion work WTF is Ansel Adams stands for 'Who'. No document from 2008 or 2009 spells out the expansion, and the reading is recorded as the artist's. It is consistent with the double reading recorded above: 'What' is the idiom's ordinary word, and the name is both the question what art is and the statement that it is that.";
-    crm:P2_has_type aat:300435416;
-    a crm:E33_Linguistic_Object.
-_:b0_r45b11 crm:P190_has_symbolic_content "The work of the 2009 origin claim. This collection's origin claim for the 2009 engagement previously named a titled work, 'The Auction as Artwork', of which this website was modelled as an associated part. There was no such titled work, and the correction is set out in the record for the concept. The claim now names www.wtfisart.com, as the better dated of the studio's two works around the engagement: the registrar's receipt of 2009-03-16, billed to Sun and Rain Works, fixes the name fourteen days before the sale, on a document the studio did not write. WTF is Ansel Adams is recorded as the related work.";
-    crm:P2_has_type aat:300435416;
-    a crm:E33_Linguistic_Object.
-_:b0_r45b12 crm:P14_carried_out_by mca:sun-and-rain-works;
-    crm:P15_was_influenced_by mca:auction-as-artwork;
-    crm:P4_has_time-span _:b0_r45b13;
-    crm:P67i_is_referred_to_by _:b0_r45b14;
-    crm:P9i_forms_part_of mca:production-live-auction-2009;
-    a crm:E65_Creation;
-    rdfs:label "Creation of www.wtfisart.com".
-_:b0_r45b13 crm:P82a_begin_of_the_begin "2009-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-    crm:P82b_end_of_the_end "2009-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    rdfs:label "Metaconceptual Art — www.wtfisart.com Reconstruction";
+    la:access_point <https://www.metaconceptualart.com/artworks/wtfisart-reconstruction>.
+_:b0_r45b10 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     a crm:E52_Time-Span;
-    rdfs:label "2009".
-_:b0_r45b14 crm:P190_has_symbolic_content "The website was built by Sun & Rain Works around 2009 in connection with its Sotheby's Photographs auction engagement; it is not recorded as having been authored live in the auction room.";
-    crm:P2_has_type aat:300435416;
-    a crm:E33_Linguistic_Object.
-_:b0_r45b2 crm:P190_has_symbolic_content "www.wtfisart.com";
+    rdfs:label "2026".
+_:b0_r45b2 crm:P190_has_symbolic_content "www.wtfisart.com — Reconstruction";
     crm:P2_has_type aat:300404670;
     crm:P72_has_language aat:300388277;
     a crm:E33_E41_Linguistic_Appellation.
-_:b0_r45b3 crm:P190_has_symbolic_content "work:wtfisart";
+_:b0_r45b3 crm:P190_has_symbolic_content "work:wtfisart-reconstruction";
     crm:P2_has_type aat:300312355;
     a crm:E42_Identifier.
-_:b0_r45b4 crm:P190_has_symbolic_content "https://www.wtfisart.com/";
+_:b0_r45b4 crm:P190_has_symbolic_content "A nine-page website built in 2026 that reconstructs www.wtfisart.com, the site Sun & Rain Works says it made in 2009, from the only two things that survive of it: the WTFIA folder of source documents assembled for it, and Growing Aloha, an unrelated website built by the same hands in the same months whose HTML, stylesheet and Dreamweaver template are intact. The content is WTFIA's; the form is Growing Aloha's. It is published as a work in its own right and is labelled as a reconstruction on every page.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r45b5 crm:P190_has_symbolic_content "What is transcribed, and what is inferred. Transcribed from the 2009 documents, unchanged: twenty-four dated press reports on the art market spanning 2000 to 2009, twenty-two of them carrying the source link the compiler recorded, with their headlines, bylines and excerpts; sixty-four Old Master dealers and galleries, each with the web address recorded for it in 2009; eighty-one modern and contemporary galleries grouped by state and country, for which the source document holds no web addresses; and a one-page note on the photographer Lee Balterman. Inferred, and belonging to the reconstruction rather than to 2009: the division into pages, the page titles, the order of the navigation column, the wording of the front page, the colour palette, and the existence of a page about the Ansel Adams consignment. Nothing in the surviving material records how the 2009 pages were arranged or what they said.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r45b6 crm:P190_has_symbolic_content "How the form was derived. Growing Aloha, held on the same medium as the WTFIA folder and dated 2009-01-16 to 2009-01-20, is a Dreamweaver site built on the 'three column liquid, header and footer' starter layout: XHTML 1.0 Transitional, a .dwt template with named editable and repeating regions, the layout stylesheet inline in a style element wrapped in HTML comments, an Internet Explorer conditional comment supplying the hasLayout zoom fix, an external stylesheet of content-named classes, and a left column of block-display anchor links. Every one of those traits is reproduced here, and the reconstruction's stylesheet is modelled directly on Aloha.css, class for class. The reconstruction's own pages are valid XHTML 1.0 Transitional and carry Dreamweaver template-instance markers naming a template, Templates/WTFIA.dwt, which is published alongside them.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r45b7 crm:P190_has_symbolic_content "What was deliberately omitted. The 2009 sibling carried a Google Custom Search box and three AdSense units, and the surviving code contains the studio's own publisher and partner identifiers; the live third-party script and those identifiers are not reproduced, and the slots are marked where they sat. The art-historical plates and art-market press pictures in the WTFIA folder are third-party material held back pending rights review and are not shown. The 2009 photographs documenting the Ansel Adams print in the storage unit show an identifiable person and are withheld pending consent; the single photograph reproduced, the print's verso, is the studio's own and was already published. Growing Aloha's tiled background photograph belongs to an unrelated project and is not carried over. The press excerpts that are shown are short passages reproduced for commentary, each attributed to its author and publication and linked to its source.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r45b8 crm:P190_has_symbolic_content "Scope. This is a reconstruction and is evidence of nothing about the 2009 website beyond what the source documents already evidence. It is not a recovered copy: no HTML from www.wtfisart.com survives in the studio's archive or is known to exist elsewhere, and the WTFIA evidence record states that the folder holds what was made for the site rather than what the site published. It does not show that the site went live in 2009. The earliest Internet Archive capture of the domain, from February 2011, is a parked advertising page, which is evidence about February 2011 and not about 2009: the registrar's receipts show a one-year registration taken on 2009-03-16 and no renewal of it in the year that followed, so by February 2011 the domain had lapsed, and a parked page is what a registrar commonly serves at a lapsed address. The same receipts show the studio registering the name again on 2011-10-16, eight months after that capture, which bears on what became of the domain afterwards and not on what stood at it in 2009. What those receipts do establish is that the domain existed and was hosted from 2009-03-16; what stood at it in 2009, if anything, is evidenced by nothing. The studio's account that this site and the Sotheby's consignment were companion works is recorded as the artist's account: the dates are consistent with it, the latest material in the folder having been last saved a week before the sale, but no document in the folder mentions the consignment, and consistency is not intent. No precedence over any other artist, work, or event is claimed.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r45b9 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P16_used_specific_object mca:evidence-wtfia-2009;
+    crm:P4_has_time-span _:b0_r45b10;
+    a crm:E65_Creation;
+    rdfs:label "Creation of the www.wtfisart.com reconstruction".
+_:b0_r46b0 a crm:E33_Linguistic_Object;
+    rdfs:label "Artwork page";
+    la:digitally_carried_by _:b0_r46b1.
+_:b0_r46b1 <http://purl.org/dc/elements/1.1/format> "text/html";
+    a <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object>;
+    rdfs:label "Metaconceptual Art - www.wtfisart.com";
+    la:access_point <https://www.metaconceptualart.com/artworks/wtfisart>.
+_:b0_r46b10 crm:P190_has_symbolic_content "What the W stands for, in the artist's account. The studio states, in 2026, that the W of this work's name stands for 'What', so that it reads 'What the F is Art', while the W of the companion work WTF is Ansel Adams stands for 'Who'. No document from 2008 or 2009 spells out the expansion, and the reading is recorded as the artist's. It is consistent with the double reading recorded above: 'What' is the idiom's ordinary word, and the name is both the question what art is and the statement that it is that.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r46b11 crm:P190_has_symbolic_content "The work of the 2009 origin claim. This collection's origin claim for the 2009 engagement previously named a titled work, 'The Auction as Artwork', of which this website was modelled as an associated part. There was no such titled work, and the correction is set out in the record for the concept. The claim now names www.wtfisart.com, as the better dated of the studio's two works around the engagement: the registrar's receipt of 2009-03-16, billed to Sun and Rain Works, fixes the name fourteen days before the sale, on a document the studio did not write. WTF is Ansel Adams is recorded as the related work.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r46b12 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P15_was_influenced_by mca:auction-as-artwork;
+    crm:P4_has_time-span _:b0_r46b13;
+    crm:P67i_is_referred_to_by _:b0_r46b14;
+    crm:P9i_forms_part_of mca:production-live-auction-2009;
+    a crm:E65_Creation;
+    rdfs:label "Creation of www.wtfisart.com".
+_:b0_r46b13 crm:P82a_begin_of_the_begin "2009-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    crm:P82b_end_of_the_end "2009-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+    a crm:E52_Time-Span;
+    rdfs:label "2009".
+_:b0_r46b14 crm:P190_has_symbolic_content "The website was built by Sun & Rain Works around 2009 in connection with its Sotheby's Photographs auction engagement; it is not recorded as having been authored live in the auction room.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
+_:b0_r46b2 crm:P190_has_symbolic_content "www.wtfisart.com";
+    crm:P2_has_type aat:300404670;
+    crm:P72_has_language aat:300388277;
+    a crm:E33_E41_Linguistic_Appellation.
+_:b0_r46b3 crm:P190_has_symbolic_content "work:wtfisart";
+    crm:P2_has_type aat:300312355;
+    a crm:E42_Identifier.
+_:b0_r46b4 crm:P190_has_symbolic_content "https://www.wtfisart.com/";
     crm:P2_has_type aat:300404626;
     a crm:E42_Identifier.
-_:b0_r45b5 crm:P190_has_symbolic_content "A born-digital Metaconceptual Art work: a website built and owned by Sun & Rain Works around 2009, in connection with its Sotheby's Photographs auction engagement (sale N08533). Sun & Rain Works designates it as a work realising the concept of the auction as artwork.";
+_:b0_r46b5 crm:P190_has_symbolic_content "A born-digital Metaconceptual Art work: a website built and owned by Sun & Rain Works around 2009, in connection with its Sotheby's Photographs auction engagement (sale N08533). Sun & Rain Works designates it as a work realising the concept of the auction as artwork.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r45b6 crm:P190_has_symbolic_content "www.wtfisart.com is associated by Sun & Rain Works with the concept of the auction as artwork, in which Sun & Rain Works designates its 2009 Sotheby's Photographs auction engagement as art. The designation is an assertion by the artist.";
+_:b0_r46b6 crm:P190_has_symbolic_content "www.wtfisart.com is associated by Sun & Rain Works with the concept of the auction as artwork, in which Sun & Rain Works designates its 2009 Sotheby's Photographs auction engagement as art. The designation is an assertion by the artist.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r45b7 crm:P190_has_symbolic_content "Sun & Rain Works reports domain-registration and hosting receipts, site metadata, and related records documenting the website's existence and date. The fuller archive remains held by the studio pending redaction and rights review.";
+_:b0_r46b7 crm:P190_has_symbolic_content "Sun & Rain Works reports domain-registration and hosting receipts, site metadata, and related records documenting the website's existence and date. The fuller archive remains held by the studio pending redaction and rights review.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r45b8 crm:P190_has_symbolic_content "What the public record of the domain shows, checked 2026-09-01. The Verisign registry gives wtfisart.com a registration event of 2024-08-29 under the handle 2912143398_DOMAIN_COM-VRSN, with nameservers at a shared hosting provider. A renewal does not reset a creation date, so a registration event of that date on a freshly issued handle means the domain lapsed at some earlier point and was registered again as a new object. The consequence is that the original creation date is no longer in the public registry and cannot be recovered from it. The Internet Archive's earliest capture of the domain is of 2010-01-25 16:15:12 UTC, and the address answered not with a page but with a redirect, sent by a web server that named itself as serving wtfisart.com, to a generic page on securepaynet.net, a domain of the registrar's hosting service. A hosting account for the domain therefore existed in January 2010, but it served no studio content, which agrees with the registrar's receipts, on which the monthly hosting payments for the site run to 2009-12-15. The next capture, of 2011-02-10 21:34:22 UTC, is a parked advertising page carrying no studio content, which is what a registrar commonly serves at an address whose registration has lapsed. Neither capture shows what the site carried in 2009. An earlier version of this record gave the 2011 capture as the earliest; that rested on a look-up of the home page's address alone, and a search of every address under the domain, made on 2026-09-24, found the redirect of 2010. The studio was not the first to register the name. The free view of a commercial DNS-history service, CompleteDNS, consulted on 2026-09-25, records wtfisart.com as created in the week of 2002-08-02 to 2002-08-08, with name servers at idirections.com, and as dropped between 2002-08-09 and 2003-01-02; a second service, DomainTools, reports historical WHOIS records for the name beginning 2001-04-30, whose content was not examined. Who held the name then is not shown and was not sought, nothing indicates that a website existed at the address, and no web archive holds a capture of it before 2010. The studio's registration of 2009-03-16 was an ordinary new registration of a name then available, not a purchase of an existing one. The remainder of both services' histories is behind a subscription and was not consulted. The date the studio first registered this domain is therefore not recoverable from the registry, but it is no longer undetermined: the registrar's own receipts, described in the hosting-receipts record, give a registration of WTFISART.COM on 2009-03-16 at 00:45:06 UTC and hosting bought for it the same night, with that hosting paid monthly to at least 2009-12-15. Those are a third party's business records rather than the studio's assertion. What stood at the address in 2009 remains unevidenced.";
+_:b0_r46b8 crm:P190_has_symbolic_content "What the public record of the domain shows, checked 2026-09-01. The Verisign registry gives wtfisart.com a registration event of 2024-08-29 under the handle 2912143398_DOMAIN_COM-VRSN, with nameservers at a shared hosting provider. A renewal does not reset a creation date, so a registration event of that date on a freshly issued handle means the domain lapsed at some earlier point and was registered again as a new object. The consequence is that the original creation date is no longer in the public registry and cannot be recovered from it. The Internet Archive's earliest capture of the domain is of 2010-01-25 16:15:12 UTC, and the address answered not with a page but with a redirect, sent by a web server that named itself as serving wtfisart.com, to a generic page on securepaynet.net, a domain of the registrar's hosting service. A hosting account for the domain therefore existed in January 2010, but it served no studio content, which agrees with the registrar's receipts, on which the monthly hosting payments for the site run to 2009-12-15. The next capture, of 2011-02-10 21:34:22 UTC, is a parked advertising page carrying no studio content, which is what a registrar commonly serves at an address whose registration has lapsed. Neither capture shows what the site carried in 2009. An earlier version of this record gave the 2011 capture as the earliest; that rested on a look-up of the home page's address alone, and a search of every address under the domain, made on 2026-09-24, found the redirect of 2010. The studio was not the first to register the name. The free view of a commercial DNS-history service, CompleteDNS, consulted on 2026-09-25, records wtfisart.com as created in the week of 2002-08-02 to 2002-08-08, with name servers at idirections.com, and as dropped between 2002-08-09 and 2003-01-02; a second service, DomainTools, reports historical WHOIS records for the name beginning 2001-04-30, whose content was not examined. Who held the name then is not shown and was not sought, nothing indicates that a website existed at the address, and no web archive holds a capture of it before 2010. The studio's registration of 2009-03-16 was an ordinary new registration of a name then available, not a purchase of an existing one. The remainder of both services' histories is behind a subscription and was not consulted. The date the studio first registered this domain is therefore not recoverable from the registry, but it is no longer undetermined: the registrar's own receipts, described in the hosting-receipts record, give a registration of WTFISART.COM on 2009-03-16 at 00:45:06 UTC and hosting bought for it the same night, with that hosting paid monthly to at least 2009-12-15. Those are a third party's business records rather than the studio's assertion. What stood at the address in 2009 remains unevidenced.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r45b9 crm:P190_has_symbolic_content "The name reads two ways. Written without spaces or punctuation, wtfisart is both a question, 'WTF is art?', and a statement, 'WTF is art'. The studio holds, in its account given in 2026, that the double reading was deliberate and that registering the name declared the work art. The registrar's receipt of 2009-03-16, billed to Sun and Rain Works, independently dates the name; the intent is the studio's statement, and the hosting-receipts record sets out the distinction.";
+_:b0_r46b9 crm:P190_has_symbolic_content "The name reads two ways. Written without spaces or punctuation, wtfisart is both a question, 'WTF is art?', and a statement, 'WTF is art'. The studio holds, in its account given in 2026, that the double reading was deliberate and that registering the name declared the work art. The registrar's receipt of 2009-03-16, billed to Sun and Rain Works, independently dates the name; the intent is the studio's statement, and the hosting-receipts record sets out the distinction.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
 _:b0_r4b0 a crm:E33_Linguistic_Object;

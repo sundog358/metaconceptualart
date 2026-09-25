@@ -60,6 +60,7 @@
     { "id": "evidence-museum-correspondence-2013", "type": "LinguisticObject", "label": "Evidence archive: correspondence declaring Metaconceptual Art to a university art museum (2013)" },
     { "id": "evidence-pastebin-2011-2012", "type": "LinguisticObject", "label": "Evidence archive: public postings of Metaconceptual Art (2011-2012)" },
     { "id": "evidence-inscription-photograph-2011", "type": "LinguisticObject", "label": "Evidence archive: a photograph of two studio works inscribed 'W.T.F. is Art ?' (8 November 2011)" },
+    { "id": "evidence-wikioccupy-2011", "type": "LinguisticObject", "label": "Evidence archive: www.wikioccupy.org, the studio's Occupy wiki, in its chat logs and a painting (November 2011)" },
     { "id": "evidence-postcard-work-2008", "type": "LinguisticObject", "label": "Evidence archive: a painted postcard inscribed 'For the Love of Art' and signed 2008 (photographed 2011)" },
     { "id": "evidence-meta-sign-2012", "type": "LinguisticObject", "label": "Evidence archive: a photograph of a shop sign reading META, Italy (27 February 2012)" },
     { "id": "evidence-outreach-screenshots-2013", "type": "LinguisticObject", "label": "Evidence archive: screenshots of the studio's outreach, 12-13 September 2013" },
@@ -325,6 +326,14 @@
       "description": "A camera-phone original, Exif intact, recording its capture as 2011-11-08 12:18:15, with the phone's own file name giving the same minute. It shows a board inscribed 'Helping the Art Historians of the future to keep their Employment (Here and Now)' lying on a large handwritten sheet whose right-hand edge reads 'W.T.F. is Art ?', punctuated as a question. Neither physical work survives, by the studio's account. The board was the foundation of the digital work ArtHistoriansOTheFuture, posted publicly to the studio's Flickr account on 2013-06-02 and byte-identical to the studio's held copy; its words recur in the studio's letter of 2013-09-12 to a university art museum, and the photograph falls twenty-three days after WTFISART.COM was re-registered. The titles, Helping the Art Historians of the future and Dancing with Mummies, and the latter's reference to Thomas Hoving, are the studio's account. The date is the file's own and not notarized; the record does not date either work's making, shows nothing public, and says nothing about 2009. The image is held and published as a checksum only.",
       "wikidata": null,
       "linkedArt": "data/linked-art/evidence-inscription-photograph-2011"
+    },
+    {
+      "id": "record:wikioccupy-2011",
+      "type": "Provenance",
+      "label": "www.wikioccupy.org, the studio's Occupy wiki, in its chat logs and a painting (November 2011)",
+      "description": "Three chat logs of an Occupy Wall Street wiki project, November 2011, in which the studio principal, under the name 'Art', describes his holding of the wikioccupy domains 'as an act of Art', calls the project one 'Art project' among others, and says the domain is registered through Sun and Rain Works, 'an Art based entity'; the logs are dated by a message of 2012-11-12 that carries them as attachments. With them, a camera-phone original of 2011-11-16 showing a painting of the address www.wikioccupy.org. The archived site presents itself as a wiki for the Occupy movement, not as art; the art framing is in the chat. Nothing here concerns www.wtfisart.com, Sotheby's or 2009; it is a parallel from 2011. The logs are held as checksums; the photograph is published.",
+      "wikidata": null,
+      "linkedArt": "data/linked-art/evidence-wikioccupy-2011"
     },
     {
       "id": "record:postcard-work-2008",
@@ -663,6 +672,11 @@
     { "from": "record:inscription-photograph-2011", "relation": "cites", "to": "record:museum-correspondence-2013" },
     { "from": "record:inscription-photograph-2011", "relation": "cites", "to": "record:archived-websites-2013-2016" },
     { "from": "record:inscription-photograph-2011", "relation": "cites", "to": "work:art-notes" },
+    { "from": "system:provenance-layer", "relation": "produces", "to": "record:wikioccupy-2011" },
+    { "from": "record:wikioccupy-2011", "relation": "cites", "to": "record:pastebin-2011-2012" },
+    { "from": "record:wikioccupy-2011", "relation": "cites", "to": "record:inscription-photograph-2011" },
+    { "from": "record:wikioccupy-2011", "relation": "cites", "to": "record:postcard-work-2008" },
+    { "from": "record:wikioccupy-2011", "relation": "cites", "to": "record:archived-websites-2013-2016" },
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:postcard-work-2008" },
     { "from": "record:postcard-work-2008", "relation": "cites", "to": "record:inscription-photograph-2011" },
     { "from": "system:provenance-layer", "relation": "produces", "to": "record:meta-sign-2012" },
