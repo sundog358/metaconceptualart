@@ -247,8 +247,8 @@ mca:evidence-facebook-2009 crm:P104_is_subject_to _:b0_r14b0;
     crm:P190_has_symbolic_content "On 2009-12-19 at 16:13:43 UTC, by Facebook's clock, the studio principal wrote in a private Facebook message, replying to a musician who had asked whether they knew each other: 'I live between Eugene, and Kaua'i, and am a meta-conceptual artist, and musician, doing my part to help furthur Art History.' It is the earliest dated use of any form of the term Metaconceptual Art in this collection: nine months after the Sotheby's sale, and one year and eleven months before the public posting of 2011-11-28 that had been the earliest located use. In the same month the studio captioned two of its own photographs, uploaded to its Facebook albums, with wordplay on art: a Kaua'i paint shop trading under a 'Pittsburgh Paints' sign, uploaded on 2009-12-01 at 04:38:28 UTC as 'Artists who know, paint with only the finest... Kaua'i meets Pittsburgh !!!', and a Kilauea paint shop and shave-ice stand, uploaded on 2009-12-30 at 03:32:17 UTC as 'What art ?'. The studio states that the wordplay was by design.";
     crm:P1_is_identified_by _:b0_r14b1, _:b0_r14b2;
     crm:P2_has_type aat:300026087, aat:300026906, aat:300055863;
-    crm:P67i_is_referred_to_by _:b0_r14b3, _:b0_r14b4, _:b0_r14b5, _:b0_r14b6, _:b0_r14b7, _:b0_r14b8;
-    crm:P94i_was_created_by _:b0_r14b9;
+    crm:P67i_is_referred_to_by _:b0_r14b3, _:b0_r14b4, _:b0_r14b5, _:b0_r14b6, _:b0_r14b7, _:b0_r14b8, _:b0_r14b9;
+    crm:P94i_was_created_by _:b0_r14b10;
     a crm:E33_Linguistic_Object;
     rdfs:label "Evidence archive: 'a meta-conceptual artist', and captions of 2009, on Facebook (December 2009)";
     la:member_of mca:collection.
@@ -906,7 +906,11 @@ _:b0_r14b1 crm:P190_has_symbolic_content "Evidence archive: 'a meta-conceptual a
     crm:P2_has_type aat:300404670;
     crm:P72_has_language aat:300388277;
     a crm:E33_E41_Linguistic_Appellation.
-_:b0_r14b10 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+_:b0_r14b10 crm:P14_carried_out_by mca:sun-and-rain-works;
+    crm:P4_has_time-span _:b0_r14b11;
+    a crm:E65_Creation;
+    rdfs:label "Compilation of the 2009 Facebook evidence record".
+_:b0_r14b11 crm:P82a_begin_of_the_begin "2026-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     crm:P82b_end_of_the_end "2026-12-31T23:59:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
     a crm:E52_Time-Span;
     rdfs:label "2026".
@@ -928,13 +932,12 @@ _:b0_r14b6 crm:P190_has_symbolic_content "The captions. Both photographs are of 
 _:b0_r14b7 crm:P190_has_symbolic_content "The name's sense, 16 October 2009. A private Facebook message sent from this account on 2009-10-16 at 03:30:38 UTC, by Facebook's clock, and written on Kaua'i, closes with the line '\" It takes Sun and Rain to make a Rainbow \"' and is signed 'Aloha Jdawg'. It is the earliest dated statement of the image carried by the name Sun and Rain Works, and the studio principal repeats the line in a message of 2012-09-30. The recipient is a private correspondent and is not named, and nothing he wrote is reproduced. The thread's file in the account data, 6,294 bytes, has SHA-256 07b3e776bb246b3874e88445e4f813e6dc99e24d87e1c753bfe56a6541b9f051, within the archive facebook-joechirum-2026-09-24-TZ87gGfq.zip, SHA-256 c978c3bd338a6a9a934d3aa05a81d2c298c49200bf7e4edc98b8329c02103097.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r14b8 crm:P190_has_symbolic_content "Privacy and scope. The recipient of the message is a private correspondent and is not named, and nothing he wrote is reproduced; only the studio principal's sentence is quoted. The photographs are not reproduced here. This record makes no claim of priority over any other use of the word metaconceptual by anyone else, which this collection does not assert.";
+_:b0_r14b8 crm:P190_has_symbolic_content "The account's profile. The profile as Facebook exported it in 2026 carries, in its About Me field, 'I am an artist and traveler of both time and space.', and in its Favorite Quotes field '\" What the fuck is Art ? \"', and it gives the account's registration time as 2009-08-09 at 18:39:13 UTC. The profile export records only the fields' present values, not when they were set; the account's profile-update history, a list of 191 dated entries, dates them as far as it can. It records the About Me field as edited on 2009-08-31 at 07:44:14 UTC, together with Interests and Activities, and as changed again on 2009-12-18 at 23:34:20 UTC, the day before the message quoted above and the last change to that field the history records; so, if the history is complete for that field, the present About Me line dates from then, though the history does not give the text of any change. It has no entry for the Favorite Quotes field in any year, so the quotation, which spells out in full, and as a question, the words the domain www.wtfisart.com abbreviates, is undated: it can be no earlier than the account's registration of 2009-08-09, and it was present when the data were exported in 2026. The history also records the profile's Website field as changed on 2009-10-21 at 04:08:06 UTC, while the studio was paying monthly for the hosting of www.wtfisart.com, and again on 2010-06-09. It does not say what the website was, the studio does not recall, and no capture of the profile from those years exists, so this record makes no assumption about it. The profile file is 1,347 bytes, SHA-256 3550848ed42dd4a5ab9f243d8d007b212f31effc7159f9b5c1578e8101a1f97b, and the update-history file 41,140 bytes, SHA-256 35f264a343a4964840bc41ee03a4fcd21f4b39f48fcc1e4e70c912bdf108a52e, both within the archive facebook-joechirum-2026-09-24-TZ87gGfq.zip.";
     crm:P2_has_type aat:300435416;
     a crm:E33_Linguistic_Object.
-_:b0_r14b9 crm:P14_carried_out_by mca:sun-and-rain-works;
-    crm:P4_has_time-span _:b0_r14b10;
-    a crm:E65_Creation;
-    rdfs:label "Compilation of the 2009 Facebook evidence record".
+_:b0_r14b9 crm:P190_has_symbolic_content "Privacy and scope. The recipient of the message is a private correspondent and is not named, and nothing he wrote is reproduced; only the studio principal's sentence is quoted. The photographs are not reproduced here. This record makes no claim of priority over any other use of the word metaconceptual by anyone else, which this collection does not assert.";
+    crm:P2_has_type aat:300435416;
+    a crm:E33_Linguistic_Object.
 _:b0_r15b0 crm:P2_has_type <https://creativecommons.org/licenses/by/4.0/>;
     crm:P75i_is_possessed_by mca:sun-and-rain-works;
     a crm:E30_Right;
