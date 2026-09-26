@@ -109,6 +109,17 @@
           "_label": "description"
         }
       ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The studio's argument. The studio's case that its consignment of lot 16 and the sale of 30 March 2009 were carried out as this work is set out premise by premise in the evidence record of the auction engagement, evidence-live-auction-2009. Its premises are documented; its conclusion is the studio's inference, and is recorded as that.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
     }
   ],
   "produced_by": {
