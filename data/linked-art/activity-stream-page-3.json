@@ -643,6 +643,14 @@
         "type": "LinguisticObject"
       },
       "endTime": "2026-09-25T17:05:34-07:00"
+    },
+    {
+      "type": "Update",
+      "object": {
+        "id": "https://www.metaconceptualart.com/data/linked-art/evidence-facebook-2009",
+        "type": "LinguisticObject"
+      },
+      "endTime": "2026-09-25T17:16:22-07:00"
     }
   ]
 }
