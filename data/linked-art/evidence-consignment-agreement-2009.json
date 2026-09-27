@@ -162,6 +162,17 @@
           "_label": "description"
         }
       ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "A further reading, offered by the studio in 2026, not made in 2009. The covering message that returned the signed agreement closes: 'If you have any questions further, please feel free to contact me.' The ordinary construction is 'any further questions'; this inverts it, placing the word after the noun it would ordinarily precede. The studio reads that placement as a reference to Furthur, the bus of Ken Kesey and the Merry Pranksters: its second incarnation carries 'Further' painted on the front and 'Furthur' on the back, so the plain spelling used in this message is itself one of the bus's own two names, not a departure from either. This connection is not invented for this record; the studio's own biographical statement, published on its Flickr and Tumblr profiles, already states that in 2004 the Artist moved to Eugene, Oregon, 'following in the footsteps of Art pioneers Ken Kesey and the Merry Pranksters'. Set against that is the ordinary explanation: 'further' is one of the commonest words in English, doing an ordinary adverb's work, and an unusual word order is not by itself evidence of a hidden reference. The reading also differs in kind from the filename substitution recorded above. That substitution is a contemporaneous act, a word placed in 2009 where it does not belong. This reading is retrospective: the sentence required no unusual handling to write in 2009, and the claim of a meaning behind it is made now, seventeen years later, not at the time. This record states the sentence, both readings, and the date of the claim, and chooses neither.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
     }
   ],
   "created_by": {
