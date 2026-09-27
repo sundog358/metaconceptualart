@@ -58,6 +58,28 @@
       ]
     },
     {
+      "type": "LinguisticObject",
+      "content": "The recurrence of 'Art', named as a pattern by the studio in 2026. Read across the collection as a whole, rather than as any single document, the word 'Art' or 'art' recurs across a documented span of nearly two decades and across contexts that share no audience and no common motive to perform: a routine 2008-09-16 email to Sotheby's that consigns 'the Art' in one clause and arranges 'shipment of the art' in the next; a 2008-11-20 email describing 'art in progress'; the covering note of 2009-03-19 that closes 'for the purposes of Art' and 'Yours in Art', returning a signed contract under the filename 'JoeArtChirum.pdf'; a hand-lettered notice board, photographed 2011-12-02, reading 'Eye and (Ewe) You R The Art'; painting titles of 2013-2014 sold through Saatchi Art and posted to Flickr and Tumblr the same day, among them 'Art Market Reform', 'Art Tax' and 'Art is Capital'; and profile biographies on Flickr, Tumblr and Twitter/X that describe their subject as a 'Contemporary American Metaconceptual Artist' and state 'we are the Art'. Each occurrence is described and dated in its own record; this passage states only that, taken together, they are not isolated. The studio's own account, given in 2026, is that Art is the pattern: that the word's recurrence, across correspondence with an auction house, a filename on a signed contract, a hand-lettered board, and a public biography, is constant rather than incidental.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What the pattern supports, and what it does not. A word used this persistently, in contexts as unglamorous as a shipping arrangement and as public as a social-media biography, over eighteen years, is not evidence manufactured for this record: it long predates the record's own compilation, and most of its occurrences carried no audience who would reward the performance. It is strong evidence of a sustained self-conception, that the studio principal thought of himself, continuously and across nearly every kind of document he produced, as making Art. This is the same distinction the consignment-agreement record draws for the filename 'JoeArtChirum' alone, generalised here to the whole body of correspondence: self-conception is not designation. Thinking of oneself as an artist while consigning a photograph does not by itself make the consignment a work. No document of 2008 or 2009 among these instances states that a specific act is a work; the profile biographies do state exactly that, describing the 2009 sale as 'a performance act of metaconceptual Art' titled 'WTF is Ansel Adams ?!', but their own wording is not evidenced earlier than the museum letter that already holds this collection's earliest written designation: the Flickr and Tumblr versions carry no date at all, and the Twitter/X version is confirmed present only from 2018-10-02, on an account independently dated to 2011-10-22 by the platform's own record, which dates the account and not the wording it later came to hold. The earliest point at which the studio designates a specific 2009 event as Metaconceptual Art in writing therefore remains 2013-09-12, to a university art museum; the earliest point at which the studio principal calls himself a 'meta-conceptual artist' in any words at all remains 2009-12-19, nine months after the Sotheby's sale. The pattern widens what is documented about who was doing the writing, and for how long. It does not move either date.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
       "id": "https://www.metaconceptualart.com/data/linked-art/evidence-museum-correspondence-2013",
       "type": "LinguisticObject",
       "_label": "Evidence archive: correspondence declaring Metaconceptual Art to a university art museum (2013)"
