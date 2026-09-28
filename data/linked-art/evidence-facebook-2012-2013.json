@@ -88,6 +88,50 @@
     },
     {
       "type": "LinguisticObject",
+      "content": "The studio principal's own profile page on the same site, not previously described here. The Internet Archive captured usaprojects.org/user/josephchirum on 2013-08-14 09:28:43 UTC and again on 2013-08-21 09:14:56 UTC; the captures as retrieved on 2026-09-28, 44,712 and 44,615 bytes, have SHA-256 d619f7b73d7cd7264a88156d2560e48878d6b2b6f961dd4515039bf838868a3f and b7e7cbc0074bcc685b8bab94d771eebd11291cd186863a80c51e20a35720e021. The page carries the same biography already held on the studio's Flickr, Tumblr and LinkedIn profiles, as far as it runs: Pittsburgh, the Philosophy and Religious Studies degrees, the move to Eugene, and the 2007 Art Vision, in the same words. It stops there. Neither capture continues to the sentence naming the 2009 Sotheby's sale that the fuller versions of this biography carry elsewhere; this page does not attach the term to that sale. The photograph on the page is credited 'self-portrait', copyright 2012. An 'External Links' section on the page points to 'The Art World is Flat' and '8 Sentences on Metaconceptual Art', both already held in this collection, showing this profile linked to them by August 2013.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Who the account followed, dated 2013-09-17. The profile's 'recent_connections' sub-page, captured 2013-09-17 00:12:08 UTC (retrieved 2026-09-28, 22,303 bytes, SHA-256 2905b3cd239d4cc815c10647d562a33abaf51a7b94ee774527101f6c583621c4), lists ten organisations and one individual the account followed on the platform, each with a count of other community members who had liked it: David Brin; Franklin Furnace Archive Inc. (27); the Ford Foundation (47); Creative Capital (63); CEC ArtsLink (24); the Alpert Award in the Arts (13); Artadia: The Fund for Art & Dialogue (26); Bloomberg Philanthropies (33); ArtSlant (15); and the Andy Warhol Foundation for the Visual Arts (65). The 'activity' sub-page, captured the same minute, gives the account's total as 19 organisations followed; only these ten are named on the pages held. All ten are real, named, public organisations or a public individual, and are recorded on that basis; none of this evidences any relationship between the studio and any of them beyond the act of following. The Warhol Foundation's presence on this list is noted without further weight; it joins, and does not by itself strengthen, the collection's separate account of the Business Art book photographed with the print in 2008.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The project's own updates page, carrying a fuller statement than the project page's tagline. Captured 2013-09-17 15:40:18 UTC (retrieved 2026-09-28, 16,986 bytes, SHA-256 cad339dffc7e70b3038c3cff7b395e5073482c84b3efd8d36b1d82c4fee7ae0d), the page carries a statement in the studio principal's own words, longer than the project page's own tagline already quoted in this record: that the project's goal is 'to bridge together The Art historical traditions of the past, with contemporary Art of the present, and the direction of Art into the Future, through the creation of Art'; that its aim is pencil, charcoal, oil pastel, acrylic and oil depictions of 'historical Pittsburgh landmarks, bridges, churches, sacred architecture, and every day scenes'; and that support is sought for art supplies, transport and studio rental, 'in the tradition of Metaconceptual Art', closing 'Thank You, Joseph M. Chirum'. It does not name the 2009 sale.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The project's one recorded backer. The project's 'supporters' sub-page, captured 2013-09-17 14:35:52 UTC (retrieved 2026-09-28, 12,748 bytes, SHA-256 2950bc7450c75d8bfb8b899826102b81f2dabe14e6207e158190d62896773dc6), names one backer, a community member of the platform based in Los Angeles, California, who pledged on 16 July 2013 and is shown as supporting 29 other projects there; the page states this is the only supporter, matching the '$50 of $2,500' shown on the project page itself. Following this collection's convention for private individuals, the backer is identified here by role and location only; their name, given on the page, is not published. This is the only third party found, in any of the pages checked, taking any action in relation to the project beyond a platform 'like'.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
       "content": "What these do and do not show. Every item is the studio principal's own writing; the Facebook dates and the archive's capture fix when he wrote or published it, not whether what he wrote is true. None of them concerns the 2009 sale, and none evidences the 2007 origin asserted elsewhere. The comments were made on a public figure's posts, where they could be read by others; the messages were private, and the page was public. That a phrase or title was in use by a date is all they establish, and each is recorded here for that. The later comments on the same critic's posts, 2013 to 2018. The four comments quoted above are not the whole series. The comments file holds twenty-three comments by the studio principal on the same New York art critic's public posts and photographs, from 2012-08-14 to 2018-12-02, at times Facebook assigns. Those of 2013 onward that concern the art market or the studio's titles are these: 'just as long as theres no difference between \"insider money\" and \"outsider money\" art=money #notrocketscience' (2013-02-10 16:26:00 UTC); 'must be time for #ArtMarketReform' (2013-05-25 04:25:01 UTC); 'time for \"Art Market Reform\"' (2014-02-06 18:11:12 UTC); 'Add some lovely anonymous buyers and sellers, a dash of insider trading, a teaspoon of market manipulation, a generous sprinkle of front running, money laundering to taste, and a generous helping of tax evasion. Another beautiful day in the Art World.' (2014-05-09 22:03:35 UTC); 'Art ... From the Top Down... Sounds like the end of civilization as we know it. Time for Art Market Reform. Multinational corporate money and sponsorship is not a requirement for great Art. What Hedge Funds ?!' (2015-07-30 01:10:38 UTC); 'Which candidate supports #ArtMarketReform ?!' (2016-06-22 22:06:32 UTC); 'Metaconceptual Art ?!' (2016-10-23 20:38:03 UTC); 'Spectacular theatrical market manipulation ! Bravo Ladies and Gentlemen' (2018-10-09 15:09:53 UTC); and 'Anyone in the Art world want to volunteer to start paying sales tax ?' (2018-10-18 22:36:06 UTC). The others are a question about an installation at the Hirshhorn Museum (2013-10-07), a sticker with no text (2015-07-30), and four remarks of 2018 on unrelated subjects or about the critic. None of these is earlier than an item already held for the same title or phrase. What they add is continuity: 'Art Market Reform' is in public use under the studio principal's name in every year from 2012 to 2016, and 'What Hedge Funds ?!' and 'Metaconceptual Art' recur alongside it. The comment of 2018-10-09 was written four days after the Banksy painting was shredded in Sotheby's London saleroom on 2018-10-05, and two days before the comments of 2018-10-11 set out in the record of the 2018 comments. The export does not preserve the photograph it answered, so what it refers to is not established, and this record does not say that it concerns that event. As with the comments above, only the studio principal's words are quoted, the critic is identified by role only, and the source is the same comments file, with the checksum given in the evidence-status note.",
       "classified_as": [
         {
