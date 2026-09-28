@@ -1,0 +1,208 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/evidence-linkedin-2011-2013",
+  "type": "LinguisticObject",
+  "_label": "Evidence archive: LinkedIn's own account record, and gallery outreach naming Metaconceptual Art (2011-2013)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Evidence archive: LinkedIn's own account record, and gallery outreach naming Metaconceptual Art (2011-2013)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "record:evidence-linkedin-2011-2013",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026906",
+      "type": "Type",
+      "_label": "documents"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300055863",
+      "type": "Type",
+      "_label": "provenance"
+    }
+  ],
+  "content": "LinkedIn's own Basic Data Export for the studio principal's account, requested and downloaded 2026-09-28. Three of its files bear on this collection. Registration.csv gives the platform's own record of when the account was created; Company Follows.csv gives the platform's own timestamps for a burst of museum-following two months before the 2013 museum letter; and messages.csv holds a run of outreach to commercial galleries, starting 2013-05-28, in which the studio principal calls himself the creator of Metaconceptual Art. None of it concerns the 2009 sale, which is not named in any message read for this record.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "The export and how it is held. The file is 'Basic_LinkedInDataExport_09-28-2026.zip.zip', held whole, SHA-256 8cd5f54e46f28ac310d703b5e101069ee2f8c6f4c6b620e21d3505c064a3fb41. It is LinkedIn's standard self-service export, twenty-one CSV files covering the account's registration, profile, positions, education, skills, projects, connections, messages, and other categories. This record describes only the categories that bear on the collection: Registration, Profile, Positions, Projects, Education, Company Follows, Rich Media, and Messages. Connections, PhoneNumbers, Email Addresses, Notes, Ad Targeting, Jobs and Job Applications, SavedJobAlerts, and the Learning and coaching-message files were not read for this record; they are personal account data with no bearing on the collection.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The account's own creation date. Registration.csv records 'Registered At: 11/14/11, 11:55 AM', that is 2026-09-28's export giving 2011-11-14 as the date LinkedIn's own systems created this account, alongside the registering IP address, which is withheld here as an identifier not needed by the record. This is a platform timestamp, not a studio file date, in the same evidential class as the Twitter/X account's own creation record of 2011-10-22 already set out in the concept record. The two dates, three weeks apart, sit either side of the Pastebin posting of 2011-11-28 that this collection already holds as the earliest public use of the term: an X account on 2011-10-22, a LinkedIn account on 2011-11-14, and the Pastebin posting on 2011-11-28, three independent platforms' own clocks within a five-week span in the autumn of 2011. None of the three shows what, if anything, the accounts said when created; LinkedIn keeps no history of a profile's past wording, and the position and project entries described below could have been written at registration or at any later date the account was open.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The self-reported start date, and why it is not new corroboration. Positions.csv lists 'Sun and Rain Works, Chief Executive Artist, I Create Art., Started On: Aug 2007', and Projects.csv lists the same project and start date, describing it as 'an Art based business' linked to facebook.com/SunAndRainWorks. LinkedIn's export carries no edit history for either field, so this record cannot say when 'Aug 2007' was entered, only that the account, created 2011-11-14, holds it now. This is the same asserted 2007 start already carried on the studio's Flickr and Tumblr profiles, on a fourth platform, and it is recorded in the concept record's list of the studio's own dated and undated accounts of its own origin alongside them; it is not treated here as an independent confirmation of 2007, for the same reason none of the others is. Education.csv separately lists Penn State University, 1999 to 2004, Bachelor of Arts, consistent with the account already given on the Flickr and Tumblr profiles; this too is self-reported and not independently verified by the platform.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "A burst of museum-following, two months before the letter. Company Follows.csv timestamps, by LinkedIn's own clock, five major art museums followed within three minutes of one another on 2013-07-13: the National Gallery of Art at 01:19:17 UTC, the Museum of Modern Art at 01:21:01, the Metropolitan Museum of Art at 01:21:44, the Victoria and Albert Museum at 01:22:31, and the British Museum at 01:22:55. No other institution in the file was followed on that date or in that cluster; the account's other follows run from 2016 to 2018 and concern unrelated organisations. The burst falls within the same window as the gallery outreach described below, and two months before the letter to a university art museum of 2013-09-12 that this collection already holds; it is recorded here as a precisely dated sign of concentrated attention to major art institutions in that period, not as evidence of any contact with them.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Gallery outreach naming Metaconceptual Art, from 2013-05-28. Messages.csv timestamps ninety-one messages by LinkedIn's own clock; forty-four are from the studio principal. Ten of them, sent between 2013-05-28 and 2013-09-18, name Metaconceptual Art to commercial galleries and art-world contacts outside the studio. On 2013-05-28 at 14:51:10 UTC, to L2Kontemporary Gallery: 'I am the creator of it', of Metaconceptual Art, offering to explain further. On 2013-07-16, within eighty minutes, five further messages to Glenda Guilmet, George Billis Gallery, L2Kontemporary Gallery again, Zach Feuer, and Corinne Lavoix-Dauphin announce a project, 'Pittsburgh: City of Bridges, City of God', as 'on the forefront of contemporary American Metaconceptual Art' and cite its eight defining characteristics. On 2013-08-23, to a contact found through a LinkedIn art group, the same claim is repeated. On 2013-09-18, to L2Kontemporary Gallery again, six days after the museum letter: 'Please feel free to display the Metaconceptual Art Work, \"Art Market Reform\" in your gallery if you would like to', with the URL artmarketreform.com. None of these ten messages names the 2009 Sotheby's sale, Ansel Adams, or wtfisart.com.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What is earlier than before, and what is not. The 2012-2013 Facebook and USA Projects evidence record already holds a private message of 2013-05-29 as the earliest calling a named work, 'Art Market Reform', a work of Metaconceptual Art, and a further private message of 2013-07-23 as the earliest in which the studio principal calls himself 'the creator of Metaconceptual Art'. The LinkedIn message of 2013-05-28, one day earlier than the first of those and just under two months earlier than the second, is not addressed to a private correspondent: it is addressed to a commercial gallery, an outside party with no prior relationship to the studio. It is accordingly the earliest delivery, to any outside institution or business held in this collection, of a claim to have created Metaconceptual Art, two and a half months before the museum letter of 2013-09-12 that this collection had held as the earliest such delivery. That letter remains the earliest document in this collection to attach the term, in writing, to the 2009 Sotheby's consignment specifically; nothing in the LinkedIn messages does that. 'Pittsburgh: City of Bridges, City of God' is not a new title: it is the same project the USA Projects evidence record already holds, captured by the Internet Archive on 2013-08-12; the LinkedIn messages of 2013-07-16 show outreach about it three and a half weeks earlier than that capture, which is consistent with, and does not by itself move, the existing record.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Redaction and consent. Of the recipients named above, L2Kontemporary Gallery and George Billis Gallery are businesses, not individuals, and are named on that basis; Zach Feuer is a professional art dealer contacted in that professional capacity and is named on the same basis as the collectors and dealers already named elsewhere in this collection. The remaining recipients are private individuals reached through personal LinkedIn connections rather than institutional roles, and are identified here by first name only where quoted; their profile URLs, given in the export, are withheld. The registering IP address in Registration.csv is withheld. The eighty-one other messages in the export, sent and received between 2011 and 2020, are personal correspondence unrelated to this collection and are not described here; one contains a personal phone number, which is withheld along with all other personal contact details in the file.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "about": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/concept-metaconceptual-art",
+      "type": "Type",
+      "_label": "Metaconceptual Art (concept)"
+    },
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/art-market-reform",
+      "type": "DigitalObject",
+      "_label": "Art Market Reform"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "CC BY 4.0",
+      "classified_as": [
+        {
+          "id": "https://creativecommons.org/licenses/by/4.0/",
+          "type": "Type",
+          "_label": "Attribution 4.0 International (CC BY 4.0)"
+        }
+      ],
+      "possessed_by": [
+        {
+          "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+          "type": "Group",
+          "_label": "Sun & Rain Works"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Compilation of the LinkedIn evidence record",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/evidence-linkedin-2011-2013"
+    },
+    "curies": [
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
+    ],
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
+  }
+}

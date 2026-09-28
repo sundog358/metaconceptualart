@@ -215,6 +215,11 @@
       "_label": "Evidence archive: correspondence declaring Metaconceptual Art to a university art museum (2013)"
     },
     {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-linkedin-2011-2013",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: LinkedIn's own account record, and gallery outreach naming Metaconceptual Art (2011-2013)"
+    },
+    {
       "id": "https://www.metaconceptualart.com/data/linked-art/evidence-pastebin-2011-2012",
       "type": "LinguisticObject",
       "_label": "Evidence archive: public postings of Metaconceptual Art (2011-2012)"
