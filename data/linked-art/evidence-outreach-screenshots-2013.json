@@ -110,7 +110,7 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "The Arts Commission reply. The reply is from the Oregon Arts Commission's Assistant Director, with one colleague copied, and answers a message from the studio headed 'Metaconceptual Art project discussion follow up'; a second tab in the same screenshot shows an automatic reply to a message whose subject also begins 'Met'. The studio's own message is not shown. What the reply establishes is narrow: that on 13 September 2013 a state arts agency received the studio's approach about the Metaconceptual Art project, that the studio had told it of a proposal to the White House, and that the agency answered with a referral to its grants programme. It records no endorsement, partnership, funding, or assessment of the work, and none should be inferred. The agency is named because the identity of the recipient is what gives the exchange its weight; the individuals are identified by role only, following this collection's convention.",
+      "content": "The Arts Commission reply. The reply is from the Oregon Arts Commission's Assistant Director, with one colleague copied, and answers a message from the studio headed 'Metaconceptual Art project discussion follow up'; a second tab in the same screenshot shows an automatic reply to a message whose subject also begins 'Met'. The studio's own message is not shown. What the reply establishes is narrow: that on 13 September 2013 a state arts agency received the studio's approach about the Metaconceptual Art project, that the studio had told it of a proposal to the White House, and that the agency answered with a referral to its grants programme. It records no endorsement, partnership, funding, or assessment of the work, and none should be inferred. The agency is named because the identity of the recipient is what gives the exchange its weight; the individuals are identified by role only, following this collection's convention. Unlike the other three, this image is not published: the studio has asked that it be held privately, since it is a screenshot of the studio's own personal email account open on its own laptop, and this record cites it by description and checksum only, following the convention used elsewhere in this collection for material withheld on that basis.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -132,7 +132,7 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "Publication and redaction. The four screenshots are published here as redacted copies: /images/linkedin-art-market-reform-2013.png, /images/artspace-page-2013.png, /images/sothebys-locations-2013.png and /images/arts-commission-reply-2013.png. The redactions cover the studio's own mailbox names and addresses in the browser's tab and title bars; in the LinkedIn screenshot, the names and photographs of other group members in the 'Top Influencers' and 'Latest Activity' panels; and in the reply, the staff member's name, both staff mailbox addresses, and the direct office telephone number. Nothing else was altered. The published files are re-encoded copies, so their checksums differ from those of the originals given above. The unredacted originals are held by the studio on separate media.",
+      "content": "Publication and redaction. Three of the four screenshots are published here as redacted copies: /images/linkedin-art-market-reform-2013.png, /images/artspace-page-2013.png, and /images/sothebys-locations-2013.png. The redactions cover the studio's own mailbox names and addresses in the browser's tab and title bars, and, in the LinkedIn screenshot, the names and photographs of other group members in the 'Top Influencers' and 'Latest Activity' panels. Nothing else was altered. The published files are re-encoded copies, so their checksums differ from those of the originals given above. The unredacted originals are held by the studio on separate media.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -216,25 +216,6 @@
           "access_point": [
             {
               "id": "https://www.metaconceptualart.com/images/sothebys-locations-2013.png",
-              "type": "DigitalObject"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-outreach-screenshots-2013#visual-item-arts-commission",
-      "type": "VisualItem",
-      "_label": "The Oregon Arts Commission's reply (13 September 2013)",
-      "digitally_shown_by": [
-        {
-          "id": "https://www.metaconceptualart.com/images/arts-commission-reply-2013.png",
-          "type": "DigitalObject",
-          "_label": "Screenshot, redacted",
-          "format": "image/png",
-          "access_point": [
-            {
-              "id": "https://www.metaconceptualart.com/images/arts-commission-reply-2013.png",
               "type": "DigitalObject"
             }
           ]
