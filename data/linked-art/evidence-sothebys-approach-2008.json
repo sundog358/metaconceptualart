@@ -72,6 +72,17 @@
     },
     {
       "type": "LinguisticObject",
+      "content": "How the print came to the studio, an account given in 2026. The studio states that it acquired the Ansel Adams print at a yard sale, some time it places around May to July 2008, without recalling the exact day. No receipt, witness, or other record of the purchase is held, and none is claimed; this is the studio's own account, undocumented, and it is not independently dated or verified. It falls within weeks of the first approach to an institution about the print, the SFMOMA letter of 2008-08-11, and precedes it. The studio itself has remarked on the distance between a yard-sale purchase and a Sotheby's photograph auction eleven months later, and this record notes that distance without resolving what, if anything, it shows about intent.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
       "content": "The thread, message by message. 2008-08-14, studio to Sotheby's: the approach described above, with the zip attached. 2008-08-15, Sotheby's to studio, opening 'As per our recent conversation': an offer to include the Adams 'San Francisco from Twin Peaks' in the April 2009 sale at a provisional estimate of $7,000 to $10,000, 'bearing in mind that it is in perfect condition'; a deadline of the end of January 2009; an instruction that the print be arranged through the department before sending, since unsolicited packages are turned away; the first name of the administrator who would supply the forms; and an attachment of consignment charges. The phrase 'as per our recent conversation' records a telephone call between the two messages of which nothing else survives. 2008-09-15, Sotheby's to studio, on a header timestamped 13:56:41 -0400 and under the subject 'RE: Ansel Adams Finds Art in SanFrancisco': a follow-up about 'your Ansel Adams photograph', asking whether the owner still wishes to consign it to the April 2009 auction. 2008-09-16, studio to Sotheby's, under the same subject: 'I am interested in consigning the Art in the April 2009 auction'; a request for the deadlines; a note that the writer is visiting Hawai'i at that time; an undertaking to 'arrange for the shipment of the art myself'; and thanks for the 'reminder of this project'. The client view of that reply shows it as sent Tue 9/16/2008 at 1:55 PM, records that it was forwarded on 2024-06-05, and quotes the 2008-09-15 message beneath it with its raw header lines.",
       "classified_as": [
         {
