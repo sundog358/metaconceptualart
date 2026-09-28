@@ -143,6 +143,17 @@
     },
     {
       "type": "LinguisticObject",
+      "content": "The menu bar, and the account it names. In all four screenshots, the Mac's menu bar shows the text 'art' in the position macOS uses, when fast user switching is enabled, to display the name of the account currently logged in. The studio has confirmed that 'art' was this Mac's own user account name, and that the choice was deliberate rather than a default or an accident. The same bar shows an active Time Machine icon in all four images, which is evidence that Time Machine backups were configured on this Mac in September 2013, and an active, synced Dropbox icon; no iCloud, MobileMe, or .Mac menu item appears in any of the four, consistent with an independent search of this drive's own data finding no trace of any such account. This is recorded as one further instance of the recurring use of 'Art' set out in the concept record, here at the level of the operating system's own account name rather than in written correspondence.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
       "content": "What these screenshots do not show. They are not the messages themselves: no message file with headers is held for the Arts Commission exchange, the sending mailbox is no longer available to the studio, and no copy has been requested from the Commission. They date nothing before September 2013 and are not evidence of the 2007 origin, of the 2009 sale as an artwork, or of any White House submission. The LinkedIn post and the message to the Commission are the artist's own declarations, of the same kind as the museum letter; the one outside voice in the set is a courteous reply that takes no position on the work.",
       "classified_as": [
         {
