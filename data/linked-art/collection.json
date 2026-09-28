@@ -225,6 +225,11 @@
       "_label": "Evidence archive: the Flickr account's own creation date (4 March 2008)"
     },
     {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-macbook-photographs-2013",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: photographs of the studio's white MacBook (October 2013)"
+    },
+    {
       "id": "https://www.metaconceptualart.com/data/linked-art/evidence-pastebin-2011-2012",
       "type": "LinguisticObject",
       "_label": "Evidence archive: public postings of Metaconceptual Art (2011-2012)"

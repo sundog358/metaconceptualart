@@ -1,0 +1,170 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://www.metaconceptualart.com/data/linked-art/evidence-macbook-photographs-2013",
+  "type": "LinguisticObject",
+  "_label": "Evidence archive: photographs of the studio's white MacBook (October 2013)",
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Evidence archive: photographs of the studio's white MacBook (October 2013)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "primary name"
+        }
+      ],
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    },
+    {
+      "type": "Identifier",
+      "content": "record:evidence-macbook-photographs-2013",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "accession number"
+        }
+      ]
+    }
+  ],
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300026906",
+      "type": "Type",
+      "_label": "documents"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300055863",
+      "type": "Type",
+      "_label": "provenance"
+    }
+  ],
+  "content": "Two photographs, taken two days apart in October 2013, showing the physical white MacBook whose keyboard style and whose Mac OS X 10.7.2 (Lion) system already appear in this collection's 2011 and 2013 material. The first is a close-up of its keyboard, posted to the studio's Tumblr blog on 2013-10-13; the studio confirms it as this machine's keyboard. The second, a private photograph on the studio's Flickr account, dated by the file's own Exif to 2013-10-15, shows the whole open laptop on the studio principal's lap in a home living room. Neither image is published here.",
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "content": "The keyboard photograph, 2013-10-13. Held as 'tumblr_mum7tg03pc1su17jmo1_640.jpg', 128,173 bytes, SHA-256 47507e904a3ebab8d1c84cce016aa4d15f9f976757eba0d59b2d9280df8cffce. This file is described more fully in the record of the 'Dancing with Mummies' photographs, where its date is fixed by a Tumblr post: 'Keys', post 63928787034, timestamped by the platform's own clock at 2013-10-13 16:15:15 GMT. The image shows a close-up of a white keyboard with a combined 'alt' and 'option' key label, consistent with a white MacBook of the 2006-2009 generation; the studio confirms it as the keyboard of the machine described in this record.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "The second photograph, 2013-10-15, from the studio's own Flickr export. Flickr photo 10304682813, on the studio's account 24377024@N07, in an album numbered 72157636549717875. The account's own data export marks it private: it was never posted publicly, and the only copy known to this collection is the original file inside that export, extracted from 'data-download-2.zip' as '10304682813_256512e933_o.jpg', 1,884,443 bytes. Its Exif block names the camera as an Apple iPhone 4, a Software tag of 'Flickr 2.30.1503' recording that the Flickr application itself processed the file at or before upload, and gives DateTimeOriginal and DateTimeDigitized both as 2013-10-15 22:17:13. The account's own export gives upload and 'taken' timestamps of 2013-10-15 22:17:35 and 22:17:13 for this photo, agreeing with the file's own Exif. The file also carries embedded GPS coordinates, which this record states only in general terms: they resolve to the Eugene, Oregon area. The image shows the same white MacBook, open, on the studio principal's lap, in a home living room, its screen showing a desktop with a small window open that is not legible at this resolution.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "What these two photographs do and do not show. Together they place a specific machine, of a make and generation already tied to this collection's other 2011-2013 material, in the studio's hands across at least 13-15 October 2013, in Eugene, Oregon. Neither photograph shows the machine's screen content clearly enough to read, and neither concerns the 2009 sale, wtfisart.com, or any designation of a work; they establish only that the machine existed and was in ordinary domestic use at this date. This is the same machine whose hard drive is, separately, the subject of the studio's forensic-imaging effort; that effort is not itself evidenced here.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    },
+    {
+      "type": "LinguisticObject",
+      "content": "Publication. Neither photograph is published in this record. The keyboard photograph is a close crop with no other content and is withheld only because the studio has asked that photographs of this machine not be published as images, following the same request made of the September 2013 screenshots. The second photograph shows the interior of the studio principal's home, including personal photographs on a refrigerator and other household detail, and is withheld on that basis independently; its precise GPS coordinates are withheld for the same reason. Both are cited here by description and checksum only. The unredacted originals are held by the studio.",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "description"
+        }
+      ]
+    }
+  ],
+  "about": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-inscription-photograph-2011",
+      "type": "LinguisticObject",
+      "_label": "Evidence archive: a photograph of two studio works inscribed 'W.T.F. is Art ?' (8 November 2011)"
+    }
+  ],
+  "subject_to": [
+    {
+      "type": "Right",
+      "_label": "CC BY 4.0",
+      "classified_as": [
+        {
+          "id": "https://creativecommons.org/licenses/by/4.0/",
+          "type": "Type",
+          "_label": "Attribution 4.0 International (CC BY 4.0)"
+        }
+      ],
+      "possessed_by": [
+        {
+          "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+          "type": "Group",
+          "_label": "Sun & Rain Works"
+        }
+      ]
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "_label": "Compilation of the MacBook photographs evidence record",
+    "timespan": {
+      "type": "TimeSpan",
+      "_label": "2026",
+      "begin_of_the_begin": "2026-01-01T00:00:00Z",
+      "end_of_the_end": "2026-12-31T23:59:59Z"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://www.metaconceptualart.com/data/linked-art/sun-and-rain-works",
+        "type": "Group",
+        "_label": "Sun & Rain Works"
+      }
+    ]
+  },
+  "member_of": [
+    {
+      "id": "https://www.metaconceptualart.com/data/linked-art/collection",
+      "type": "Set",
+      "_label": "Metaconceptual Art — Collection"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/evidence-macbook-photographs-2013"
+    },
+    "curies": [
+      {
+        "name": "la",
+        "href": "https://linked.art/api/rels/1/{rel}",
+        "templated": true
+      }
+    ],
+    "la:modelVersion": {
+      "href": "https://linked.art/model/1.0/",
+      "name": "v1.0"
+    },
+    "la:apiVersion": {
+      "href": "https://linked.art/api/1.0/",
+      "name": "v1.0"
+    },
+    "collection": {
+      "href": "https://www.metaconceptualart.com/data/linked-art/collection"
+    }
+  }
+}
