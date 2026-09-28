@@ -41,11 +41,6 @@
       "_label": "documents"
     },
     {
-      "id": "http://vocab.getty.edu/aat/300215302",
-      "type": "Type",
-      "_label": "digital images"
-    },
-    {
       "id": "http://vocab.getty.edu/aat/300055863",
       "type": "Type",
       "_label": "provenance"
@@ -132,7 +127,7 @@
     },
     {
       "type": "LinguisticObject",
-      "content": "Publication and redaction. Three of the four screenshots are published here as redacted copies: /images/linkedin-art-market-reform-2013.png, /images/artspace-page-2013.png, and /images/sothebys-locations-2013.png. The redactions cover the studio's own mailbox names and addresses in the browser's tab and title bars, and, in the LinkedIn screenshot, the names and photographs of other group members in the 'Top Influencers' and 'Latest Activity' panels. Nothing else was altered. The published files are re-encoded copies, so their checksums differ from those of the originals given above. The unredacted originals are held by the studio on separate media.",
+      "content": "Publication. None of the four screenshots is published here. All were images of the studio's own laptop screen, taken during its own browsing and email session, and the studio has asked that none be published, redacted or otherwise; each is cited in this record by description and checksum only, as the Arts Commission reply already was. The unredacted originals are held by the studio on separate media. An earlier version of this record published three of the four as redacted copies; those files have been withdrawn, and this record no longer holds a representation of any of them.",
       "classified_as": [
         {
           "id": "http://vocab.getty.edu/aat/300435416",
@@ -160,65 +155,6 @@
           "id": "http://vocab.getty.edu/aat/300435416",
           "type": "Type",
           "_label": "description"
-        }
-      ]
-    }
-  ],
-  "representation": [
-    {
-      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-outreach-screenshots-2013#visual-item-linkedin",
-      "type": "VisualItem",
-      "_label": "The LinkedIn group discussion 'Art Market Reform', one minute after posting (12 September 2013)",
-      "digitally_shown_by": [
-        {
-          "id": "https://www.metaconceptualart.com/images/linkedin-art-market-reform-2013.png",
-          "type": "DigitalObject",
-          "_label": "Screenshot, redacted",
-          "format": "image/png",
-          "access_point": [
-            {
-              "id": "https://www.metaconceptualart.com/images/linkedin-art-market-reform-2013.png",
-              "type": "DigitalObject"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-outreach-screenshots-2013#visual-item-artspace",
-      "type": "VisualItem",
-      "_label": "The Artspace gallery home page open in the same browser (13 September 2013)",
-      "digitally_shown_by": [
-        {
-          "id": "https://www.metaconceptualart.com/images/artspace-page-2013.png",
-          "type": "DigitalObject",
-          "_label": "Screenshot, redacted",
-          "format": "image/png",
-          "access_point": [
-            {
-              "id": "https://www.metaconceptualart.com/images/artspace-page-2013.png",
-              "type": "DigitalObject"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://www.metaconceptualart.com/data/linked-art/evidence-outreach-screenshots-2013#visual-item-sothebys",
-      "type": "VisualItem",
-      "_label": "The Sotheby's locations page open in the same browser (13 September 2013)",
-      "digitally_shown_by": [
-        {
-          "id": "https://www.metaconceptualart.com/images/sothebys-locations-2013.png",
-          "type": "DigitalObject",
-          "_label": "Screenshot, redacted",
-          "format": "image/png",
-          "access_point": [
-            {
-              "id": "https://www.metaconceptualart.com/images/sothebys-locations-2013.png",
-              "type": "DigitalObject"
-            }
-          ]
         }
       ]
     }
